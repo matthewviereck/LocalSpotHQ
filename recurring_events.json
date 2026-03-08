@@ -1,0 +1,1710 @@
+[
+  {
+    "id": "farmers_market_20260207",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Feb 07, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260214",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Feb 14, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260221",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Feb 21, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260228",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Feb 28, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260307",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Mar 07, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260314",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Mar 14, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260321",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Mar 21, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260328",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Mar 28, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260404",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Apr 04, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260411",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Apr 11, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260418",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Apr 18, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260425",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Apr 25, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260502",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "May 02, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260509",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "May 09, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260516",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "May 16, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260523",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "May 23, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260530",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "May 30, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260606",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jun 06, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260613",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jun 13, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260620",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jun 20, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260627",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jun 27, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260704",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 04, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260711",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 11, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260718",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 18, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260725",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 25, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260801",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Aug 01, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260808",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Aug 08, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260815",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Aug 15, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260822",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Aug 22, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260829",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Aug 29, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260905",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Sep 05, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260912",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260919",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20260926",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261003",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Oct 03, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261010",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261017",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261024",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261031",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Oct 31, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261107",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Nov 07, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261114",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Nov 14, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261121",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Nov 21, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261128",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Nov 28, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Main Season"
+      ],
+      "price": "Free Entry",
+      "time": "9am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261205",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Dec 05, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261212",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261219",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Dec 19, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "farmers_market_20261226",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "Under Gay Street Bridge",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Dec 26, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Local",
+        "Winter Hours"
+      ],
+      "price": "Free Entry",
+      "time": "10am-12pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org"
+  },
+  {
+    "id": "first_friday_20260207",
+    "type": "event",
+    "title": "First Friday - February",
+    "venue_info": {
+      "name": "Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Feb 07, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Live Music",
+        "Food & Drink",
+        "Street Festival"
+      ],
+      "price": "Free",
+      "time": "5:30pm-8:30pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "first_friday_20260306",
+    "type": "event",
+    "title": "First Friday - March",
+    "venue_info": {
+      "name": "Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Mar 06, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Live Music",
+        "Food & Drink",
+        "Street Festival"
+      ],
+      "price": "Free",
+      "time": "5:30pm-8:30pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "first_friday_20260403",
+    "type": "event",
+    "title": "First Friday - April",
+    "venue_info": {
+      "name": "Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Apr 03, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Live Music",
+        "Food & Drink",
+        "Street Festival"
+      ],
+      "price": "Free",
+      "time": "5:30pm-8:30pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "first_friday_20260501",
+    "type": "event",
+    "title": "First Friday - May",
+    "venue_info": {
+      "name": "Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "May 01, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Live Music",
+        "Food & Drink",
+        "Street Festival"
+      ],
+      "price": "Free",
+      "time": "5:30pm-8:30pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "first_friday_20260605",
+    "type": "event",
+    "title": "First Friday - June",
+    "venue_info": {
+      "name": "Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jun 05, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Live Music",
+        "Food & Drink",
+        "Street Festival"
+      ],
+      "price": "Free",
+      "time": "5:30pm-8:30pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "first_friday_20260703",
+    "type": "event",
+    "title": "First Friday - July",
+    "venue_info": {
+      "name": "Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 03, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Live Music",
+        "Food & Drink",
+        "Street Festival"
+      ],
+      "price": "Free",
+      "time": "5:30pm-8:30pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "first_friday_20260807",
+    "type": "event",
+    "title": "First Friday - August",
+    "venue_info": {
+      "name": "Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Aug 07, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Live Music",
+        "Food & Drink",
+        "Street Festival"
+      ],
+      "price": "Free",
+      "time": "5:30pm-8:30pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "first_friday_20260904",
+    "type": "event",
+    "title": "First Friday - September",
+    "venue_info": {
+      "name": "Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Sep 04, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Live Music",
+        "Food & Drink",
+        "Street Festival"
+      ],
+      "price": "Free",
+      "time": "5:30pm-8:30pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "first_friday_20261002",
+    "type": "event",
+    "title": "First Friday - October",
+    "venue_info": {
+      "name": "Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Oct 02, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Live Music",
+        "Food & Drink",
+        "Street Festival"
+      ],
+      "price": "Free",
+      "time": "5:30pm-8:30pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "first_friday_20261106",
+    "type": "event",
+    "title": "First Friday - November",
+    "venue_info": {
+      "name": "Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Nov 06, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Live Music",
+        "Food & Drink",
+        "Street Festival"
+      ],
+      "price": "Free",
+      "time": "5:30pm-8:30pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "first_friday_20261204",
+    "type": "event",
+    "title": "First Friday - December",
+    "venue_info": {
+      "name": "Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Dec 04, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Live Music",
+        "Food & Drink",
+        "Tree Lighting"
+      ],
+      "price": "Free",
+      "time": "5:30pm-8:30pm"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "blobfest_20260710",
+    "type": "event",
+    "title": "Blobfest - Opening Night",
+    "venue_info": {
+      "name": "The Colonial Theatre & Downtown",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 10, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Family Friendly",
+        "Cult Classic",
+        "Horror",
+        "Community"
+      ],
+      "price": "Varies",
+      "time": "Evening"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1574267432644-f610246f25be?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://thecolonialtheatre.com/blobfest/"
+  },
+  {
+    "id": "blobfest_20260711",
+    "type": "event",
+    "title": "Blobfest - Street Fair",
+    "venue_info": {
+      "name": "The Colonial Theatre & Downtown",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 11, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Family Friendly",
+        "Cult Classic",
+        "Horror",
+        "Community"
+      ],
+      "price": "Varies",
+      "time": "All Day"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1574267432644-f610246f25be?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://thecolonialtheatre.com/blobfest/"
+  },
+  {
+    "id": "blobfest_20260712",
+    "type": "event",
+    "title": "Blobfest - 5K/10K/Half Marathon",
+    "venue_info": {
+      "name": "The Colonial Theatre & Downtown",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 12, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Family Friendly",
+        "Cult Classic",
+        "Horror",
+        "Community"
+      ],
+      "price": "Varies",
+      "time": "7am Start"
+    },
+    "media": {
+      "image": "https://images.unsplash.com/photo-1574267432644-f610246f25be?auto=format&fit=crop&w=600&q=80"
+    },
+    "action_link": "https://thecolonialtheatre.com/blobfest/"
+  }
+]

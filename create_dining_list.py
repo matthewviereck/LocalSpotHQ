@@ -1,0 +1,277 @@
+import json
+
+def create_dining_list(output_file='dining_curated.json'):
+    """
+    Create a curated list of real Phoenixville-area restaurants
+    with accurate information based on research.
+    """
+    
+    print(">> Creating curated dining list...")
+    
+    dining_spots = [
+        # === PHOENIXVILLE ===
+        {
+            "title": "Black Lab Bistro",
+            "type": "American",
+            "cuisine": ["American", "Seasonal"],
+            "price": "$$$",
+            "loc": "Phoenixville",
+            "address": "Bridge Street",
+            "vibes": ["Date Night", "Upscale Casual", "Local Ingredients"],
+            "img": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80",
+            "link": "",
+            "tags": ["dinner", "wine"]
+        },
+        {
+            "title": "The Boardroom Restaurant & Bottle Shop",
+            "type": "New American",
+            "cuisine": ["New American", "Craft Cocktails"],
+            "price": "$$$",
+            "loc": "Phoenixville",
+            "address": "Bridge Street",
+            "vibes": ["Craft Spirits", "Upscale", "Local"],
+            "img": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80",
+            "link": "https://www.theboardroompxv.com",
+            "tags": ["dinner", "cocktails", "spirits"]
+        },
+        {
+            "title": "Bistro on Bridge",
+            "type": "American",
+            "cuisine": ["American", "Craft Beer"],
+            "price": "$$",
+            "loc": "Phoenixville",
+            "address": "Bridge Street",
+            "vibes": ["Arcade", "Beer Garden", "Rooftop"],
+            "img": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=600&q=80",
+            "link": "https://bistroonbridge.com",
+            "tags": ["lunch", "dinner", "brunch", "beer"]
+        },
+        {
+            "title": "Sedona Taphouse",
+            "type": "New American",
+            "cuisine": ["New American", "Craft Beer"],
+            "price": "$$",
+            "loc": "Phoenixville",
+            "address": "131 Bridge Street",
+            "vibes": ["Happy Hour", "Beer Selection", "Casual"],
+            "img": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80",
+            "link": "https://sedonataphouse.com/locations/phoenixville-pa/",
+            "tags": ["lunch", "dinner", "happy hour"]
+        },
+        {
+            "title": "Molly Maguire's Irish Pub",
+            "type": "Irish",
+            "cuisine": ["Irish", "Pub Food"],
+            "price": "$$",
+            "loc": "Phoenixville",
+            "address": "Corner of Bridge & Main",
+            "vibes": ["Live Music", "Irish", "Pub"],
+            "img": "https://images.unsplash.com/photo-1528823872057-9c018a7a7553?auto=format&fit=crop&w=600&q=80",
+            "link": "https://www.mollymaguiresphoenixville.com",
+            "tags": ["lunch", "dinner", "live music", "pub"]
+        },
+        {
+            "title": "Il Granaio",
+            "type": "Italian",
+            "cuisine": ["Italian", "Pasta"],
+            "price": "$$$",
+            "loc": "Phoenixville",
+            "address": "Bridge Street",
+            "vibes": ["BYOB", "Italian", "Homemade Pasta"],
+            "img": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80",
+            "link": "",
+            "tags": ["dinner", "italian", "byob"]
+        },
+        {
+            "title": "Bluebird Distilling",
+            "type": "Distillery",
+            "cuisine": ["Cocktails", "Small Plates"],
+            "price": "$$",
+            "loc": "Phoenixville",
+            "address": "Bridge Street",
+            "vibes": ["Craft Spirits", "Tasting Room", "Local"],
+            "img": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=600&q=80",
+            "link": "https://shopbluebirddistilling.com",
+            "tags": ["spirits", "cocktails", "local"]
+        },
+        {
+            "title": "Steel City Coffeehouse",
+            "type": "Cafe",
+            "cuisine": ["Coffee", "Breakfast"],
+            "price": "$",
+            "loc": "Phoenixville",
+            "address": "203 Bridge Street",
+            "vibes": ["Local Coffee", "Breakfast", "Casual"],
+            "img": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80",
+            "link": "",
+            "tags": ["breakfast", "coffee", "cafe"]
+        },
+        {
+            "title": "The Foodery",
+            "type": "Beer & Sandwiches",
+            "cuisine": ["Sandwiches", "Craft Beer"],
+            "price": "$$",
+            "loc": "Phoenixville",
+            "address": "Bridge Street",
+            "vibes": ["Beer Selection", "Deli", "Casual"],
+            "img": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80",
+            "link": "https://fooderyphoenixville.com",
+            "tags": ["lunch", "beer", "sandwiches"]
+        },
+        {
+            "title": "Stable 12 Brewing",
+            "type": "Brewery",
+            "cuisine": ["Pub Food", "Craft Beer"],
+            "price": "$$",
+            "loc": "Phoenixville",
+            "address": "Bridge Street",
+            "vibes": ["Dog Friendly", "Patio", "Brewery"],
+            "img": "https://images.unsplash.com/photo-1584225064785-c62a8b43d148?auto=format&fit=crop&w=600&q=80",
+            "link": "https://stable12.com",
+            "tags": ["lunch", "dinner", "beer", "dog friendly"]
+        },
+        {
+            "title": "Chikara Sushi & Asian Fusion",
+            "type": "Sushi",
+            "cuisine": ["Sushi", "Asian Fusion"],
+            "price": "$$",
+            "loc": "Phoenixville",
+            "address": "131 Bridge Street",
+            "vibes": ["Sushi", "Asian", "Casual"],
+            "img": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=600&q=80",
+            "link": "",
+            "tags": ["lunch", "dinner", "sushi"]
+        },
+        {
+            "title": "Brown's Cow Ice Cream",
+            "type": "Dessert",
+            "cuisine": ["Ice Cream", "Desserts"],
+            "price": "$",
+            "loc": "Phoenixville",
+            "address": "30 S. Main Street",
+            "vibes": ["Family Friendly", "Ice Cream", "Dessert"],
+            "img": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80",
+            "link": "",
+            "tags": ["dessert", "family"]
+        },
+        {
+            "title": "La Patrona Mexican Restaurant",
+            "type": "Mexican",
+            "cuisine": ["Mexican", "Tequila Bar"],
+            "price": "$$",
+            "loc": "Phoenixville",
+            "address": "Bridge Street",
+            "vibes": ["Authentic Mexican", "Tequila", "Lively"],
+            "img": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=600&q=80",
+            "link": "",
+            "tags": ["lunch", "dinner", "mexican", "margaritas"]
+        },
+        {
+            "title": "Rivertown Tap",
+            "type": "American",
+            "cuisine": ["American", "Waterfront"],
+            "price": "$$",
+            "loc": "Phoenixville",
+            "address": "Mont Clare",
+            "vibes": ["Waterfront", "Outdoor Seating", "Scenic"],
+            "img": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=600&q=80",
+            "link": "",
+            "tags": ["lunch", "dinner", "waterfront", "patio"]
+        },
+        
+        # === COLLEGEVILLE ===
+        {
+            "title": "Firebirds Wood Fired Grill",
+            "type": "Steakhouse",
+            "cuisine": ["Steakhouse", "Seafood"],
+            "price": "$$$",
+            "loc": "Collegeville",
+            "address": "Providence Town Center",
+            "vibes": ["Upscale", "Wood-Fired", "Happy Hour"],
+            "img": "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=600&q=80",
+            "link": "",
+            "tags": ["dinner", "steak", "seafood"]
+        },
+        {
+            "title": "Harvest Seasonal Grill",
+            "type": "Farm-to-Table",
+            "cuisine": ["American", "Seasonal"],
+            "price": "$$$",
+            "loc": "Collegeville",
+            "address": "Providence Town Center",
+            "vibes": ["Farm-to-Table", "Wine Bar", "Healthy"],
+            "img": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80",
+            "link": "https://harvestseasonal.com",
+            "tags": ["lunch", "dinner", "healthy", "wine"]
+        },
+        {
+            "title": "Troubles End Brewing",
+            "type": "Brewery",
+            "cuisine": ["Pub Food", "Craft Beer"],
+            "price": "$$",
+            "loc": "Collegeville",
+            "address": "Providence Town Center",
+            "vibes": ["Brewery", "Casual", "Local"],
+            "img": "https://images.unsplash.com/photo-1555658636-6e4a36218be7?auto=format&fit=crop&w=600&q=80",
+            "link": "",
+            "tags": ["lunch", "dinner", "beer", "brewery"]
+        },
+        
+        # === OAKS ===
+        {
+            "title": "Arnold's Family Fun Center",
+            "type": "Casual/Fun",
+            "cuisine": ["Pizza", "Arcade Food"],
+            "price": "$",
+            "loc": "Oaks",
+            "address": "Near Expo Center",
+            "vibes": ["Family Friendly", "Arcade", "Kids"],
+            "img": "https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&fit=crop&w=600&q=80",
+            "link": "https://arnoldsffc.com",
+            "tags": ["lunch", "pizza", "family", "arcade"]
+        },
+        {
+            "title": "Oaks Pizzeria",
+            "type": "Pizza",
+            "cuisine": ["Pizza", "Italian"],
+            "price": "$",
+            "loc": "Oaks",
+            "address": "Near Expo Center",
+            "vibes": ["Casual", "Pizza", "Quick"],
+            "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80",
+            "link": "https://oakspizza.com",
+            "tags": ["lunch", "dinner", "pizza"]
+        }
+    ]
+    
+    # Save to JSON
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(dining_spots, f, indent=2, ensure_ascii=False)
+    
+    print(f">> SUCCESS! Created {len(dining_spots)} curated dining entries")
+    print(f">> Saved to: {output_file}")
+    
+    # Summary by location
+    locations = {}
+    for spot in dining_spots:
+        loc = spot['loc']
+        locations[loc] = locations.get(loc, 0) + 1
+    
+    print(f"\n>> Summary by location:")
+    for loc, count in sorted(locations.items()):
+        print(f"   {loc}: {count} restaurants")
+    
+    # Summary by price
+    prices = {}
+    for spot in dining_spots:
+        price = spot['price']
+        prices[price] = prices.get(price, 0) + 1
+    
+    print(f"\n>> Summary by price:")
+    for price, count in sorted(prices.items()):
+        print(f"   {price}: {count} restaurants")
+    
+    return dining_spots
+
+if __name__ == "__main__":
+    create_dining_list()

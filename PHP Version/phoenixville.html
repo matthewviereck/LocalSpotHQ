@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>LocalSpot - Phoenixville & Oaks</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* CORE STYLES */
+        body { background-color: #f8fafc; font-family: -apple-system, sans-serif; -webkit-tap-highlight-color: transparent; }
+        
+        /* Utility Classes */
+        .hidden { display: none !important; }
+        .block { display: block !important; }
+        
+        /* Animations */
+        .fade-in { animation: fadeIn 0.4s ease-out forwards; }
+        .slide-up { animation: slideUp 0.4s ease-out forwards; }
+        
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(100%); } to { opacity: 1; transform: translateY(0); } }
+
+        /* Card Styling */
+        .card { 
+            background: white; border-radius: 16px; overflow: hidden; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04); border: 1px solid #e2e8f0; 
+            display: flex; height: 140px; cursor: pointer; transition: all 0.2s; 
+        }
+        .card:active { transform: scale(0.98); }
+        
+        /* Outing/Itinerary Card (Vertical) */
+        .plan-card {
+            background: white; border-radius: 20px; overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #e2e8f0;
+            margin-bottom: 24px; cursor: pointer; transition: transform 0.2s;
+            height: auto; display: block;
+        }
+        .plan-card:active { transform: scale(0.98); }
+
+        /* Top Tab Switcher Styling */
+        .tab-segment { 
+            display: flex; background: #f1f5f9; border-radius: 12px; padding: 4px; 
+            position: relative; margin-bottom: 12px;
+        }
+        .tab-btn { 
+            flex: 1; text-align: center; padding: 8px; font-size: 13px; font-weight: 700; 
+            border-radius: 10px; color: #64748b; transition: all 0.2s; z-index: 10;
+        }
+        .tab-active { 
+            background: white; color: #2563eb; box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+        }
+
+        /* Modal / Guide Styles */
+        .guide-modal {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: white; z-index: 200; overflow-y: auto;
+        }
+
+        /* Hide Scrollbar */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    
+        .plan-filter-btn {
+            padding: 8px 16px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 700;
+            background: white;
+            color: #64748b;
+            border: 2px solid #e2e8f0;
+            transition: all 0.2s;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        .plan-filter-btn.active {
+            background: #2563eb;
+            color: white;
+            border-color: #2563eb;
+        }
+        .plan-filter-btn:hover:not(.active) {
+            border-color: #cbd5e1;
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.2s ease-out;
+        }
+
+        /* Today Highlight Section */
+        .today-highlight {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        .today-highlight::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -30%;
+            width: 200px;
+            height: 200px;
+            background: rgba(255,255,255,0.08);
+            border-radius: 50%;
+        }
+        .today-highlight .today-card {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 14px;
+            padding: 14px;
+            margin-top: 10px;
+            border: 1px solid rgba(255,255,255,0.2);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .today-highlight .today-card:hover {
+            background: rgba(255,255,255,0.25);
+        }
+
+        /* Share & Calendar Action Buttons */
+        .action-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 10px;
+            border-radius: 8px;
+            font-size: 11px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.15s;
+            border: 1px solid #e2e8f0;
+            background: #f8fafc;
+            color: #64748b;
+        }
+        .action-btn:hover { background: #e2e8f0; color: #334155; }
+        .action-btn i { font-size: 10px; }
+
+        /* Toast Notification */
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: #1e293b;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            z-index: 9999;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .toast.show { transform: translateX(-50%) translateY(0); }
+
+        /* Email Signup */
+        .email-signup {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border: 2px solid #bae6fd;
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+        }
+        .email-signup input[type="email"] {
+            width: 100%;
+            max-width: 320px;
+            padding: 12px 16px;
+            border: 2px solid #cbd5e1;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .email-signup input[type="email"]:focus {
+            border-color: #2563eb;
+        }
+        .email-signup button {
+            padding: 12px 24px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .email-signup button:hover { background: #1d4ed8; }
+
+        </style>
+    <script>
+        // Define enterApp early so the button can call it
+        function enterApp() {
+            console.log('enterApp called from inline script');
+            // Wait for DOM to be ready, then hide landing page and show app
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', doEnterApp);
+            } else {
+                doEnterApp();
+            }
+        }
+        
+        function doEnterApp() {
+            const landing = document.getElementById('landing-page');
+            const app = document.getElementById('main-app');
+            
+            if (!landing || !app) {
+                console.error('Elements not found, retrying in 100ms...');
+                setTimeout(doEnterApp, 100);
+                return;
+            }
+            
+            console.log('Transitioning to app...');
+            landing.style.opacity = '0';
+            landing.style.transition = 'opacity 0.5s ease';
+            setTimeout(() => {
+                landing.classList.add('hidden');
+                app.classList.remove('hidden');
+                app.classList.add('fade-in');
+                // Call renderContent if it exists (it will be defined in the main script)
+                setTimeout(() => {
+                    if (typeof renderContent === 'function') {
+                        renderContent();
+                    }
+                }, 50);
+            }, 500);
+        }
+    </script>
+</head>
+<body>
+
+    <div id="landing-page" class="fixed inset-0 bg-white z-[100] flex flex-col items-center justify-center p-6 text-center">
+        <div class="max-w-lg w-full slide-up">
+            <div class="w-20 h-20 bg-blue-600 rounded-3xl flex items-center justify-center mx-auto mb-8 shadow-xl shadow-blue-200">
+                <i class="fa-solid fa-location-dot text-4xl text-white"></i>
+            </div>
+            <h1 class="text-5xl font-black text-slate-900 mb-3 tracking-tighter">Local<span class="text-blue-600">Spot</span></h1>
+            <div class="flex flex-wrap justify-center gap-2 mb-8 text-xs font-bold uppercase tracking-widest text-slate-400">
+                <span>Phoenixville</span> â€¢ <span>Oaks</span> â€¢ <span>Collegeville</span>
+            </div>
+            <h2 class="text-2xl font-bold text-slate-800 mb-4 leading-tight">Connect in real life.</h2>
+            <p class="text-slate-500 mb-10 leading-relaxed text-lg px-4">
+                Break free from the feed. Get back to humanity and experience real human connection in your local community.
+            </p>
+            <button onclick="enterApp()" class="w-full max-w-sm bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-2xl text-lg shadow-lg shadow-blue-200 transition-all transform hover:scale-105 active:scale-95">
+                Start Exploring
+            </button>
+            <div class="mt-10 email-signup max-w-sm mx-auto">
+                <p class="text-slate-700 font-bold text-sm mb-1"><i class="fa-solid fa-envelope mr-1"></i> Get the Weekly Roundup</p>
+                <p class="text-slate-500 text-xs mb-3">Every Friday — the best events, food & plans for your weekend.</p>
+                <form id="email-form" onsubmit="handleEmailSignup(event)" class="flex gap-2">
+                    <input type="email" id="email-input" placeholder="you@email.com" required class="flex-grow">
+                    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+                <p id="email-success" class="hidden text-green-600 font-bold text-sm mt-2"><i class="fa-solid fa-check-circle mr-1"></i> You're in! See you Friday.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="guide-modal" class="hidden guide-modal slide-up bg-slate-50">
+        
+        <div class="max-w-2xl mx-auto bg-white min-h-screen shadow-2xl relative">
+            
+            <button onclick="closeGuide()" class="absolute top-4 right-4 z-50 bg-white/80 backdrop-blur rounded-full w-10 h-10 flex items-center justify-center shadow-lg text-slate-800 hover:bg-white transition-all">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+
+            <div class="h-72 relative">
+                <img id="guide-img" src="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                <div class="absolute bottom-6 left-6 right-6 text-white">
+                    <h2 id="guide-title" class="text-3xl font-black leading-tight mb-2"></h2>
+                    <div id="guide-tags" class="flex gap-2 flex-wrap"></div>
+                </div>
+            </div>
+
+            <div class="p-8 pb-24">
+                <p id="guide-desc" class="text-lg text-slate-600 leading-relaxed mb-10 font-medium"></p>
+                
+                <h3 class="text-xs font-bold uppercase tracking-widest text-blue-600 mb-8 border-b border-slate-100 pb-2 flex items-center">
+                    <i class="fa-solid fa-list-ol mr-2"></i> The Itinerary
+                </h3>
+                
+                <div id="guide-steps" class="space-y-10 relative before:absolute before:left-[19px] before:top-2 before:bottom-2 before:w-0.5 before:bg-slate-200">
+                    </div>
+
+                <div class="mt-16 pt-8 border-t border-slate-100 text-center">
+                    <p class="text-sm text-slate-400 mb-4 font-medium italic">"Enjoy the moment, not just the photo."</p>
+                    <button onclick="closeGuide()" class="px-8 py-3 bg-slate-100 text-slate-600 font-bold rounded-xl hover:bg-slate-200 transition-colors">Close Guide</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-app" class="hidden min-h-screen flex flex-col">
+        
+        <div class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100 shadow-sm">
+            <div class="max-w-7xl mx-auto px-4 pt-4 pb-2">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center text-gray-900 cursor-pointer" onclick="window.location.reload()">
+                        <i class="fa-solid fa-location-dot text-blue-600 text-2xl mr-2"></i>
+                        <span class="font-black text-xl tracking-tight">Local<span class="text-blue-600">Spot</span></span>
+                    </div>
+                </div>
+                <div class="tab-segment">
+                    <button onclick="switchTab('events')" id="tab-events" class="tab-btn tab-active">Events</button>
+                    <button onclick="switchTab('dining')" id="tab-dining" class="tab-btn">Dining</button>
+                    <button onclick="switchTab('discover')" id="tab-discover" class="tab-btn"><i class="fa-solid fa-compass mr-1"></i> Discover</button>
+                </div>
+                <div id="search-panel" class="transition-all">
+                    <form onsubmit="event.preventDefault(); document.getElementById('searchInput').blur();">
+                        <div class="relative mb-3">
+                            <i class="fa-solid fa-magnifying-glass absolute left-4 top-3 text-gray-400 text-sm"></i>
+                            <input type="search" id="searchInput" placeholder="Search..." 
+                                class="w-full pl-10 pr-4 py-2.5 bg-slate-100 border-none rounded-xl text-sm font-bold text-gray-700 focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all outline-none appearance-none">
+                        </div>
+                    </form>
+                                        <div class="flex gap-2 overflow-x-auto pb-2 no-scrollbar" id="chip-container"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="today-highlight-container" class="max-w-7xl mx-auto px-4 pt-4 w-full"></div>
+        <div id="content-area" class="max-w-7xl mx-auto p-4 w-full flex-grow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"></div>
+
+    </div>
+
+    <script>
+        // --- 1. LANDING PAGE LOGIC ---
+        // enterApp is defined in the <head> so it's available when the button loads
+        
+        // --- 2. DATASETS ---
+        
+        // EVENTS
+        const eventsData = [
+            { "title": "Drew and Ellie Holcomb Tour", "date": "Feb 5, 2026", "loc": "Phoenixville Colonial Theatre", "type": "Live Music", "img": "https://thecolonialtheatre.com/wp-content/uploads/TIXR-Drew-Ellie-Holcomb-640x359-Mobile-Flyer-480x359.jpg", "link": "https://thecolonialtheatre.com" },
+            { "title": "Eagle Gun Shows", "date": "Feb 06 - 08 2026", "loc": "Oaks Expo Center", "type": "Expo", "img": "https://phillyexpocenter.com/wp-content/uploads/2022/04/ES-Logo-150x150.webp", "link": "https://phillyexpocenter.com" },
+            { "title": "JOHN WATERS â€“ Going to Extremes", "date": "Feb 7, 2026", "loc": "Phoenixville Colonial Theatre", "type": "Comedy", "img": "https://thecolonialtheatre.com/wp-content/uploads/John-Waters_1200x624-480x360.jpg", "link": "https://thecolonialtheatre.com" },
+            { "title": "Girls Only Galentineâ€™s Party", "date": "Feb 07 2026", "loc": "Oaks Expo Center", "type": "Party", "img": "https://phillyexpocenter.com/wp-content/uploads/2025/12/Screenshot-2025-12-08-at-10.12.03-AM-150x150.png", "link": "https://phillyexpocenter.com" },
+            { "title": "Eddie Bruceâ€™s Musical Valentine", "date": "Feb 14, 2026", "loc": "Phoenixville Colonial Theatre", "type": "Live Music", "img": "https://thecolonialtheatre.com/wp-content/uploads/Colonial-2_14_26_for-Colonial-1-480x360.jpg", "link": "https://thecolonialtheatre.com" },
+            { "title": "Patriotsâ€™ Cup Volleyball", "date": "Feb 14 - 15 2026", "loc": "Oaks Expo Center", "type": "Sports", "img": "https://phillyexpocenter.com/wp-content/uploads/2025/11/Patriots-Cup-1-150x150.webp", "link": "https://phillyexpocenter.com" },
+            { "title": "True Honey Tea Festival", "date": "Feb 14 - 15 2026", "loc": "Oaks Expo Center", "type": "Festival", "img": "https://phillyexpocenter.com/wp-content/uploads/2025/11/THT_Logo_Tea_Under-150x114.jpg", "link": "https://phillyexpocenter.com" },
+            { "title": "Improv Jam", "date": "Feb 19 2026", "loc": "Phoenixville Colonial Theatre", "type": "Comedy", "img": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-3-1-480x360.png", "link": "https://thecolonialtheatre.com" },
+            { "title": "Philly Home and Garden Show", "date": "Feb 20 - 22 2026", "loc": "Oaks Expo Center", "type": "Expo", "img": "https://phillyexpocenter.com/wp-content/uploads/2025/08/PHGS26_Social_1080x1350_A-150x150.jpg", "link": "https://phillyexpocenter.com" },
+            { "title": "Kashmir: Led Zeppelin Tribute", "date": "Feb 20, 2026", "loc": "Phoenixville Colonial Theatre", "type": "Live Music", "img": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-2-1-480x360.png", "link": "https://thecolonialtheatre.com" },
+            { "title": "MAD DOGS & ENGLISHMEN", "date": "Feb 21, 2026", "loc": "Phoenixville Colonial Theatre", "type": "Live Music", "img": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-480x360.png", "link": "https://thecolonialtheatre.com" },
+            { "title": "Est. 1902 (Theatre Tour)", "date": "Feb 22, 2026", "loc": "Phoenixville Colonial Theatre", "type": "Tours", "img": "https://thecolonialtheatre.com/wp-content/uploads/21-480x360.png", "link": "https://thecolonialtheatre.com" },
+            { "title": "Philadelphia RV Show", "date": "Feb 26 2026", "loc": "Oaks Expo Center", "type": "Expo", "img": "https://phillyexpocenter.com/wp-content/uploads/2025/11/png-150x150.png", "link": "https://phillyexpocenter.com" },
+            { "title": "Mavis Staples", "date": "Feb 26, 2026", "loc": "Phoenixville Colonial Theatre", "type": "Live Music", "img": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-5-480x360.png", "link": "https://thecolonialtheatre.com" },
+            { "title": "HUSH: Speakeasy Experience", "date": "Feb 27, 2026", "loc": "Phoenixville Colonial Theatre", "type": "Event", "img": "https://thecolonialtheatre.com/wp-content/uploads/Hush-4-480x360.png", "link": "https://thecolonialtheatre.com" }
+        ];
+
+        // DINING 
+        const diningData = [
+            { "title": "Iron Hill Brewery", "type": "Gastropub", "price": "$$", "loc": "Phoenixville", "img": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=600&q=80" },
+            { "title": "Bluebird Distilling", "type": "Cocktails", "price": "$$", "loc": "Phoenixville", "img": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=600&q=80" },
+            { "title": "Firebirds Wood Fired Grill", "type": "Steakhouse", "price": "$$$", "loc": "Collegeville", "img": "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=600&q=80" },
+            { "title": "Troubles End Brewing", "type": "Brewery", "price": "$$", "loc": "Collegeville", "img": "https://images.unsplash.com/photo-1555658636-6e4a36218be7?auto=format&fit=crop&w=600&q=80" }, 
+            { "title": "Il Granaio", "type": "Italian", "price": "$$$", "loc": "Phoenixville", "img": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80" },
+            { "title": "Arnold's Family Fun Center", "type": "Casual/Fun", "price": "$", "loc": "Oaks", "img": "https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&fit=crop&w=600&q=80" }, 
+            { "title": "The Foodery", "type": "Beer & Sandwiches", "price": "$$", "loc": "Phoenixville", "img": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80" },
+            { "title": "Black Lab Bistro", "type": "American", "price": "$$$", "loc": "Phoenixville", "img": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80" },
+            { "title": "Sedona Taphouse", "type": "Modern", "price": "$$", "loc": "Phoenixville", "img": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80" },
+            { "title": "Oaks Pizzeria", "type": "Pizza", "price": "$", "loc": "Oaks", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80" },
+            { "title": "Stable 12 Brewing", "type": "Brewery", "price": "$$", "loc": "Phoenixville", "img": "https://images.unsplash.com/photo-1584225064785-c62a8b43d148?auto=format&fit=crop&w=600&q=80" }
+        ];
+
+        // OUTINGS (With Detailed Steps)
+        const outingsData = [
+            { 
+                "title": "Paws & Pints", 
+                "desc": "A perfect sunny afternoon for you and your best friend. Mixes exercise, nature, and a reward at the end.", 
+                "img": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=600&q=80", 
+                "tags": ["Dog Friendly", "Phoenixville", "Active"],
+                "steps": [
+                    { "title": "Park at Cromby Trailhead", "desc": "Start your journey at the Cromby Trailhead. There is ample parking here and it connects directly to the Schuylkill River Trail.", "link": "https://goo.gl/maps/CrombyTrailhead" },
+                    { "title": "Walk the River Trail", "desc": "Head South towards Phoenixville. The path is paved, flat, and scenic. It's about a 2-mile walk to town, perfect for tiring out the pup.", "link": "" },
+                    { "title": "Water Break at the Foundry", "desc": "As you enter town near the Foundry, stop at the public water fountain (they usually have a dog bowl) and take a photo with the historic structures.", "link": "" },
+                    { "title": "Patio Time at Stable 12", "desc": "Finish your walk at Stable 12 Brewing on Bridge St. Their patio is famous for being dog-friendly, and they often have water bowls and treats ready.", "link": "https://stable12.com" }
+                ]
+            },
+            { 
+                "title": "The Bridge St. Walk", 
+                "desc": "Experience the best of downtown Phoenixville on foot. Coffee, vinyl, and a great sandwich.", 
+                "img": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=600&q=80", 
+                "tags": ["Relaxed", "Phoenixville"],
+                "steps": [
+                    { "title": "Start at Steel City", "desc": "Kick things off at Steel City Coffeehouse. Order a latte and maybe a breakfast sandwich. If you're lucky, there might be live music playing.", "link": "https://steelcitycoffeehouse.com" },
+                    { "title": "Browse Reads & Company", "desc": "Walk up Bridge Street to Reads & Company. It's a fantastic independent bookstore. Check out their staff picks shelf.", "link": "https://readsandcompany.com" },
+                    { "title": "Explore Forever Changes", "desc": "Right nearby is Forever Changesâ€”a pop-up style record store. Dig through the crates for some vinyl gems.", "link": "" },
+                    { "title": "Lunch at The Foodery", "desc": "End your walk at The Foodery. Grab a sandwich from the counter and browse their massive wall of craft beer fridges.", "link": "https://fooderyphoenixville.com" }
+                ]
+            },
+            { 
+                "title": "Oaks Adventure Day", 
+                "desc": "High energy fun for the whole family.", 
+                "img": "https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&fit=crop&w=600&q=80", 
+                "tags": ["Family", "Active", "Oaks"],
+                "steps": [
+                    { "title": "The Main Event", "desc": "Check out whatever is happening at the Greater Philadelphia Expo Center.", "link": "https://phillyexpocenter.com" },
+                    { "title": "Race Time", "desc": "Walk over to Arnold's Family Fun Center. Challenge the group to a race on the high-speed electric go-karts. Loser buys lunch.", "link": "https://arnoldsffc.com" },
+                    { "title": "Laser Tag & Arcade", "desc": "After racing, cool down in the massive arcade or team up for a round of laser tag.", "link": "" },
+                    { "title": "Refuel at Oaks Pizza", "desc": "You'll be starving. Oaks Pizzeria is right around the corner and serves up a solid, no-nonsense slice.", "link": "https://oakspizza.com" }
+                ]
+            }, 
+            { 
+                "title": "Collegeville Shopping", 
+                "desc": "A sophisticated day of retail therapy and fine dining in Providence Town Center.", 
+                "img": "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&w=600&q=80", 
+                "tags": ["Shopping", "Collegeville"],
+                "steps": [
+                    { "title": "Park & Walk", "desc": "Park centrally at Providence Town Center. The layout is great for walking.", "link": "https://providencetowncenter.com" },
+                    { "title": "Home & Style", "desc": "Hit up HomeGoods for finds, then browse the LOFT and DSW. There's plenty of variety here.", "link": "" },
+                    { "title": "Catch a Matinee", "desc": "If your feet need a break, catch an afternoon showing at the Movie Tavern. The reclining seats are top-tier.", "link": "https://movietavern.com" },
+                    { "title": "Dinner at Firebirds", "desc": "Finish the day with a wood-fired steak or seafood at Firebirds. The atmosphere is cozy and upscale.", "link": "https://firebirdsrestaurants.com" }
+                ]
+            },
+            { 
+                "title": "Dinner & A Show", 
+                "desc": "The classic Phoenixville date night.", 
+                "img": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=600&q=80", 
+                "tags": ["Night Out", "Phoenixville"],
+                "steps": [
+                    { "title": "Cocktails at Bluebird", "desc": "Start the night at Bluebird Distilling. Try the Phoenixville Old Fashionedâ€”it's made with their own spirits.", "link": "https://bluebirddistilling.com" },
+                    { "title": "Dinner at Il Granaio", "desc": "Walk to Il Granaio for authentic Italian cuisine. It's intimate, delicious, and right near the theatre.", "link": "https://ilgranaiopa.com" },
+                    { "title": "The Colonial Theatre", "desc": "The main event. Catch an indie film, a concert, or a classic movie screening at the historic Colonial.", "link": "https://thecolonialtheatre.com" },
+                    { "title": "Late Night Ice Cream?", "desc": "If you're still up, grab a scoop at Gemelli (if open) or a late night slice on the street.", "link": "" }
+                ]
+            },
+            { 
+                "title": "Brewery Tour", 
+                "desc": "Phoenixville is a craft beer destination. This walking tour hits the highlights safely.", 
+                "img": "https://images.unsplash.com/photo-1575037614876-c38a4d44f5b8?auto=format&fit=crop&w=600&q=80", 
+                "tags": ["Drinks", "Friends"],
+                "steps": [
+                    { "title": "Start: Root Down", "desc": "Begin at Root Down Brewing. The industrial vibe inside is awesome. Try a flight to sample their range.", "link": "https://rootdownbrewing.com" },
+                    { "title": "Walk the Bridge", "desc": "Walk down Bridge Street. It's a great way to clear your head between stops and see the town energy.", "link": "" },
+                    { "title": "Stop 2: Stable 12", "desc": "Head to Stable 12 on the other end of town. It feels more intimate and local. Great patio vibes.", "link": "https://stable12.com" },
+                    { "title": "Finale: Rec Room", "desc": "End at Conshohocken Brewing's Rec Room. Play some ping pong and order tater tots to soak up the suds.", "link": "https://conshohockenbrewing.com" }
+                ]
+            }
+        ];
+
+        const plansData = [];
+
+        // --- 3. APP LOGIC ---
+        let currentTab = 'events';
+        let currentFilter = 'All';
+
+        function switchTab(tabName) {
+            currentTab = tabName;
+            currentFilter = 'All'; // Reset filters
+            updateTabButtons();
+            renderContent();
+            renderChips();
+            // Show today highlight only on events tab
+            const todayContainer = document.getElementById('today-highlight-container');
+            if (todayContainer) {
+                todayContainer.style.display = tabName === 'events' ? 'block' : 'none';
+            }
+        }
+        function setCategory(cat) {
+            currentFilter = cat;
+            renderChips();
+            renderContent();
+        }
+        
+
+
+        function updateTabButtons() {
+            ['events', 'dining', 'discover'].forEach(t => {
+                const btn = document.getElementById(`tab-${t}`);
+                if (t === currentTab) {
+                    btn.classList.add('tab-active');
+                } else {
+                    btn.classList.remove('tab-active');
+                }
+            });
+        }
+
+        function getActiveData() {
+            if (currentTab === 'events') return eventsData;
+            if (currentTab === 'dining') return diningData;
+            if (currentTab === 'discover') return outingsData;
+            return [];
+        }
+
+                function filterData() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const data = getActiveData();
+            
+            return data.filter(item => {
+                const matchesText = 
+                    item.title.toLowerCase().includes(query) || 
+                    (item.loc && item.loc.toLowerCase().includes(query)) || 
+                    (item.type ? item.type.toLowerCase().includes(query) : false) ||
+                    (item.tags ? item.tags.join(' ').toLowerCase().includes(query) : false);
+                
+                let matchesCategory;
+                
+                // FOR EVENTS TAB: Filter by date_category field
+                if (currentTab === 'events' && currentFilter !== 'All') {
+                    // Map button labels to data field values
+                    const filterMap = {
+                        'Tomorrow': 'tomorrow',
+                        'This Week': 'this_week',
+                        'Next Week': 'next_week',
+                        'This Month': 'this_month',
+                        'Later': 'later'
+                    };
+                    matchesCategory = item.date_category === filterMap[currentFilter];
+                } else {
+                    // Original filtering for other tabs
+                    matchesCategory = currentFilter === 'All' || 
+                                            (item.type && item.type === currentFilter) || 
+                                            (item.tags && item.tags.includes(currentFilter));
+                }
+
+                return matchesText && matchesCategory;
+            });
+        }
+
+        function renderChips() {
+            const chipContainer = document.getElementById('chip-container');
+            
+            // Hide chips for Discover tab - it has its own filter buttons
+            if (currentTab === 'discover') {
+                chipContainer.innerHTML = '';
+                chipContainer.style.display = 'none';
+                return;
+            }
+            
+            chipContainer.style.display = 'flex';
+            const data = getActiveData();
+            
+            // FOR EVENTS TAB: Show date filters instead of type filters
+            if (currentTab === 'events') {
+                const dateFilters = ['All', 'Tomorrow', 'This Week', 'Next Week', 'This Month', 'Later'];
+                const html = dateFilters.map(filter => `
+                    <button onclick="setCategory('${filter}')" 
+                        class="px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap ${currentFilter === filter ? 'bg-blue-600 text-white border-blue-600 shadow-md transform scale-105' : 'bg-white text-slate-500 border-slate-200 hover:bg-slate-50'}">
+                        ${filter === 'All' ? 'All Dates' : filter}
+                    </button>
+                `).join('');
+                chipContainer.innerHTML = html;
+                return;
+            }
+            
+            // For other tabs: show type/tag filters (original behavior)
+            let categories = new Set();
+            data.forEach(item => {
+                if (item.type) categories.add(item.type);
+                if (item.tags) item.tags.forEach(t => categories.add(t));
+            });
+            const list = ['All', ...categories];
+            
+            const html = list.map(cat => `
+                <button onclick="setCategory('${cat}')" 
+                    class="px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap ${currentFilter === cat ? 'bg-blue-600 text-white border-blue-600 shadow-md transform scale-105' : 'bg-white text-slate-500 border-slate-200 hover:bg-slate-50'}">
+                    ${cat}
+                </button>
+            `).join('');
+            chipContainer.innerHTML = html;
+        }
+
+        function renderContent() {
+            console.log('renderContent called, currentTab:', currentTab);
+            const container = document.getElementById('content-area');
+            
+            if (!container) {
+                console.error('content-area element not found!');
+                return;
+            }
+            
+            // Special handling for Discover tab - use new renderDiscoverTab function
+            if (currentTab === 'discover') {
+                console.log('Calling renderDiscoverTab...');
+                renderDiscoverTab(container, outingsData);
+                return;
+            }
+            
+            // Reset container class for Events/Dining tabs (grid layout)
+            container.className = 'max-w-7xl mx-auto p-4 w-full flex-grow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4';
+            
+            const data = filterData();
+            console.log('Filtered data length:', data.length);
+
+            if (data.length === 0) {
+                container.innerHTML = `
+                    <div class="col-span-full flex flex-col items-center justify-center pt-20 text-gray-400">
+                        <i class="fa-solid fa-ghost text-5xl mb-4 text-gray-300"></i>
+                        <p class="font-bold">No results found.</p>
+                        <button onclick="setCategory('All'); document.getElementById('searchInput').value=''; renderContent()" class="mt-4 text-blue-600 font-bold text-sm">Clear Search</button>
+                    </div>`;
+                return;
+            }
+
+            // Normal rendering for Events and Dining tabs
+            console.log('Rendering', data.length, 'items for tab:', currentTab);
+            container.innerHTML = data.map(item => {
+                    let badgeColor = "bg-slate-50 text-slate-700";
+                    if(item.loc.includes("Phoenixville")) badgeColor = "bg-amber-50 text-amber-700 border-amber-100";
+                    if(item.loc.includes("Oaks")) badgeColor = "bg-indigo-50 text-indigo-700 border-indigo-100";
+                    if(item.loc.includes("Collegeville")) badgeColor = "bg-emerald-50 text-emerald-700 border-emerald-100";
+
+                    const meta = currentTab === 'events' 
+                        ? `<i class="fa-regular fa-calendar mr-1.5"></i> ${item.date}`
+                        : `<span class="text-green-600 font-bold">${item.price}</span> · ${item.type}`;
+
+                    // Build action buttons
+                    const itemJSON = JSON.stringify(item).replace(/"/g, '&quot;');
+                    const calendarBtn = currentTab === 'events' 
+                        ? `<button onclick="addToCalendar(${itemJSON}, event)" class="action-btn" title="Add to Calendar"><i class="fa-regular fa-calendar-plus"></i> Cal</button>`
+                        : '';
+                    const shareBtn = `<button onclick="shareItem(${itemJSON}, event)" class="action-btn" title="Share"><i class="fa-solid fa-share-nodes"></i></button>`;
+
+                    return `
+                    <div class="card fade-in group" onclick="if(this.dataset.link) window.open(this.dataset.link, '_blank')" data-link="${item.link || ''}">
+                        <div class="w-32 relative flex-shrink-0 bg-gray-100 overflow-hidden">
+                            <img src="${item.img}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/200x200?text=Img'">
+                        </div>
+                        <div class="p-4 flex-grow flex flex-col justify-center min-w-0 bg-white">
+                            <div class="flex justify-between items-start mb-2">
+                                <span class="text-[10px] font-bold px-2 py-0.5 rounded border uppercase tracking-wide ${badgeColor}">${item.loc.replace(' Colonial Theatre','').replace(' Expo Center','')}</span>
+                            </div>
+                            <h3 class="font-bold text-gray-900 text-sm leading-snug mb-1 font-semibold group-hover:text-blue-600 transition-colors">${item.title}</h3>
+                            <p class="text-xs text-slate-500 font-semibold mb-2 flex items-center">
+                                ${meta}
+                            </p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-[10px] bg-slate-50 text-slate-500 px-2 py-1 rounded border border-slate-200 font-bold">${item.type}</span>
+                                <div class="flex gap-1">${calendarBtn}${shareBtn}</div>
+                            </div>
+                        </div>
+                    </div>`;
+                }).join('');
+        }
+
+        // --- 4. GUIDE MODAL LOGIC ---
+        function openGuide(index) {
+            const data = outingsData[index];
+            if(!data) return;
+
+            document.getElementById('guide-title').innerText = data.title;
+            document.getElementById('guide-desc').innerText = data.desc;
+            document.getElementById('guide-img').src = data.img;
+            
+            // Render Tags
+            document.getElementById('guide-tags').innerHTML = data.tags.map(t => 
+                `<span class="bg-white/20 backdrop-blur text-xs font-bold px-2 py-1 rounded">${t}</span>`
+            ).join('');
+
+            // Render Steps
+            const stepsHtml = data.steps.map((step, i) => `
+                <div class="relative pl-10">
+                    <div class="absolute left-0 top-0 w-10 h-10 -ml-5 bg-white border-4 border-blue-50 text-blue-600 rounded-full flex items-center justify-center font-bold text-lg shadow-sm z-10 transition-transform hover:scale-110">
+                        ${i + 1}
+                    </div>
+                    <div class="bg-white p-5 rounded-xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                        <h4 class="font-bold text-slate-900 text-lg mb-1">${step.title}</h4>
+                        <p class="text-slate-600 text-sm mb-3 leading-relaxed">${step.desc}</p>
+                        ${step.link ? `<a href="${step.link}" target="_blank" class="inline-flex items-center text-blue-600 text-xs font-bold uppercase tracking-wider hover:text-blue-800 transition-colors"><i class="fa-solid fa-location-arrow mr-1.5"></i> Get Directions</a>` : ''}
+                    </div>
+                </div>
+            `).join('');
+            
+            document.getElementById('guide-steps').innerHTML = stepsHtml;
+
+            // Show Modal
+            const modal = document.getElementById('guide-modal');
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // Lock background scroll
+        }
+
+        function closeGuide() {
+            document.getElementById('guide-modal').classList.add('hidden');
+            document.body.style.overflow = ''; // Unlock background scroll
+        }
+
+        // --- UTILITY: Toast Notifications ---
+        function showToast(message) {
+            let toast = document.getElementById('toast-msg');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.id = 'toast-msg';
+                toast.className = 'toast';
+                document.body.appendChild(toast);
+            }
+            toast.textContent = message;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 2500);
+        }
+
+        // --- UTILITY: Email Signup ---
+        function handleEmailSignup(e) {
+            e.preventDefault();
+            const email = document.getElementById('email-input').value;
+            // Store locally (you can later hook this up to Mailchimp/ConvertKit/etc.)
+            const subscribers = JSON.parse(localStorage.getItem('ls_subscribers') || '[]');
+            if (!subscribers.includes(email)) {
+                subscribers.push(email);
+                localStorage.setItem('ls_subscribers', JSON.stringify(subscribers));
+            }
+            document.getElementById('email-form').classList.add('hidden');
+            document.getElementById('email-success').classList.remove('hidden');
+            showToast('Welcome to the LocalSpot weekly!');
+        }
+
+        // --- UTILITY: Add to Calendar (.ics export) ---
+        function addToCalendar(item, e) {
+            if (e) e.stopPropagation();
+            
+            // Parse date string into start/end dates
+            const dateStr = item.date || '';
+            const now = new Date();
+            let startDate = new Date(dateStr.split(' - ')[0] + ', ' + now.getFullYear());
+            if (isNaN(startDate)) startDate = new Date(dateStr);
+            if (isNaN(startDate)) startDate = now;
+            
+            let endDate = new Date(startDate);
+            if (dateStr.includes(' - ')) {
+                const endPart = dateStr.split(' - ')[1];
+                endDate = new Date(endPart);
+                if (isNaN(endDate)) endDate = new Date(startDate.getTime() + 3600000);
+            } else {
+                endDate = new Date(startDate.getTime() + 3600000 * 3); // 3 hours default
+            }
+
+            const formatDate = (d) => {
+                return d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+            };
+
+            const icsContent = [
+                'BEGIN:VCALENDAR',
+                'VERSION:2.0',
+                'PRODID:-//LocalSpot//Events//EN',
+                'BEGIN:VEVENT',
+                'DTSTART:' + formatDate(startDate),
+                'DTEND:' + formatDate(endDate),
+                'SUMMARY:' + (item.title || 'Event'),
+                'LOCATION:' + (item.loc || ''),
+                'DESCRIPTION:' + (item.link ? 'More info: ' + item.link : 'via LocalSpot'),
+                'URL:' + (item.link || 'https://localspothq.com'),
+                'END:VEVENT',
+                'END:VCALENDAR'
+            ].join('\r\n');
+
+            const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = (item.title || 'event').replace(/[^a-z0-9]/gi, '_') + '.ics';
+            a.click();
+            URL.revokeObjectURL(url);
+            showToast('📅 Added to calendar!');
+        }
+
+        // --- UTILITY: Share ---
+        function shareItem(item, e) {
+            if (e) e.stopPropagation();
+            
+            const text = item.date 
+                ? `${item.title} — ${item.date} at ${item.loc}`
+                : `${item.title} — ${item.loc}`;
+            const shareData = {
+                title: item.title,
+                text: text + '\n\nFound on LocalSpot',
+                url: item.link || 'https://localspothq.com'
+            };
+
+            if (navigator.share) {
+                navigator.share(shareData).catch(() => {});
+            } else {
+                // Fallback: copy to clipboard
+                navigator.clipboard.writeText(text + '\n' + (item.link || 'https://localspothq.com')).then(() => {
+                    showToast('📋 Copied to clipboard!');
+                }).catch(() => {
+                    showToast('Could not copy');
+                });
+            }
+        }
+
+        // --- UTILITY: Get Today's Events ---
+        function getTodayEvents() {
+            const today = new Date();
+            const todayStr = today.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+            const todayStr2 = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
+            const todayMonth = String(today.getMonth() + 1).padStart(2, '0');
+            const todayDay = String(today.getDate()).padStart(2, '0');
+            const todayISO = `${today.getFullYear()}-${todayMonth}-${todayDay}`;
+            
+            return eventsData.filter(item => {
+                if (!item.date) return false;
+                const d = item.date.toLowerCase();
+                // Check various date formats
+                if (d.includes(todayStr.toLowerCase())) return true;
+                if (d.includes(todayStr2.toLowerCase())) return true;
+                // Check "Feb 07" style
+                const shortMonth = today.toLocaleDateString('en-US', { month: 'short' });
+                if (d.includes(shortMonth.toLowerCase() + ' ' + todayDay)) return true;
+                if (d.includes(shortMonth.toLowerCase() + ' ' + String(today.getDate()))) return true;
+                // Check date ranges like "Feb 06 - 08 2026"
+                const match = d.match(/(\w+)\s+(\d+)\s*-\s*(\d+)/);
+                if (match) {
+                    const rangeMonth = new Date(match[1] + ' 1, 2026').getMonth();
+                    const start = parseInt(match[2]);
+                    const end = parseInt(match[3]);
+                    if (today.getMonth() === rangeMonth && today.getDate() >= start && today.getDate() <= end) return true;
+                }
+                // Also check date_category if available
+                if (item.date_category === 'today') return true;
+                return false;
+            });
+        }
+
+        // --- UTILITY: Render Today Highlight ---
+        function renderTodayHighlight() {
+            const todayEvents = getTodayEvents();
+            const container = document.getElementById('today-highlight-container');
+            if (!container) return;
+            
+            if (todayEvents.length === 0) {
+                container.innerHTML = '';
+                return;
+            }
+
+            const today = new Date();
+            const dayName = today.toLocaleDateString('en-US', { weekday: 'long' });
+            const dateStr = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
+
+            let html = `
+                <div class="today-highlight">
+                    <div class="flex items-center gap-2 mb-1">
+                        <i class="fa-solid fa-bolt text-yellow-300"></i>
+                        <span class="text-sm font-bold text-blue-100 uppercase tracking-wider">Happening Today</span>
+                    </div>
+                    <p class="text-white/70 text-xs mb-2">${dayName}, ${dateStr}</p>
+            `;
+
+            todayEvents.forEach(item => {
+                html += `
+                    <div class="today-card" onclick="if('${item.link}') window.open('${item.link}', '_blank')">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-xl overflow-hidden flex-shrink-0 bg-white/20">
+                                <img src="${item.img}" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/100x100?text=🎭'">
+                            </div>
+                            <div class="flex-grow min-w-0">
+                                <h4 class="font-bold text-white text-sm leading-tight truncate">${item.title}</h4>
+                                <p class="text-white/60 text-xs mt-0.5">${item.loc} · ${item.type}</p>
+                            </div>
+                            <div class="flex gap-1 flex-shrink-0">
+                                <button onclick="addToCalendar(${JSON.stringify(item).replace(/"/g, '&quot;')}, event)" class="w-8 h-8 rounded-lg bg-white/15 flex items-center justify-center hover:bg-white/25 transition-all" title="Add to Calendar">
+                                    <i class="fa-regular fa-calendar-plus text-white text-xs"></i>
+                                </button>
+                                <button onclick="shareItem(${JSON.stringify(item).replace(/"/g, '&quot;')}, event)" class="w-8 h-8 rounded-lg bg-white/15 flex items-center justify-center hover:bg-white/25 transition-all" title="Share">
+                                    <i class="fa-solid fa-share-nodes text-white text-xs"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += '</div>';
+            container.innerHTML = html;
+        }
+
+        // --- INIT ---
+        renderChips();
+        renderContent();
+        renderTodayHighlight();
+        
+        // Render Discover tab with Activities and Curated Plans sections
+        function renderDiscoverTab(container, activities) {
+            // Change container class to single column for Discover tab
+            container.className = 'max-w-7xl mx-auto p-4 w-full flex-grow';
+            
+            let html = '';
+            
+            // SECTION 2: CURATED PLANS
+            html += `
+                <div class="mt-16 pt-8 border-t-4 border-slate-200">
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <h2 class="text-2xl font-black text-slate-900">Curated Day Plans</h2>
+                            <p class="text-sm text-slate-600 mt-1">Complete experiences with itineraries & tips</p>
+                        </div>
+                        <span class="text-sm text-slate-500 font-bold">${plansData.length} plans</span>
+                    </div>
+            `;
+            
+            if (plansData.length > 0) {
+                // Category filter buttons
+                const categories = [...new Set(plansData.map(p => p.category))];
+                html += '<div class="flex gap-2 overflow-x-auto pb-4 mb-6 no-scrollbar">';
+                html += '<button onclick="filterDiscoverPlans(\'all\')" class="plan-filter-btn active" data-category="all">All Plans</button>';
+                categories.forEach(cat => {
+                    html += `<button onclick="filterDiscoverPlans('${cat}')" class="plan-filter-btn" data-category="${cat}">${cat}</button>`;
+                });
+                html += '</div>';
+                
+                html += '<div id="plans-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">';
+                
+                plansData.forEach((plan, planIndex) => {
+                    html += `
+                        <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-100 cursor-pointer plan-card" 
+                             data-category="${plan.category}"
+                             onclick="showPlanDetails(plansData[${planIndex}])">
+                            <div class="relative">
+                                <img src="${plan.img}" alt="${plan.title}" class="w-full h-48 object-cover" onerror="this.src='https://placehold.co/600x400?text=No+Image'">
+                                <span class="absolute top-3 right-3 bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold">${plan.category}</span>
+                            </div>
+                            <div class="p-5">
+                                <h3 class="font-black text-xl mb-2 text-slate-900">${plan.title}</h3>
+                                <p class="text-sm text-slate-600 mb-3">${plan.description}</p>
+                                <div class="flex items-center justify-between text-sm mb-3">
+                                    <span class="text-slate-500"><i class="fa-regular fa-clock mr-1"></i> ${plan.duration}</span>
+                                    <span class="font-bold text-blue-600">${plan.budget}</span>
+                                </div>
+                                <div class="flex flex-wrap gap-1.5 mb-3">
+                                    ${plan.best_for ? plan.best_for.slice(0, 3).map(tag => 
+                                        `<span class="bg-blue-50 text-blue-700 px-2 py-1 rounded text-xs font-bold">${tag}</span>`
+                                    ).join('') : ''}
+                                </div>
+                                <div class="text-blue-600 font-bold text-sm">
+                                    ${plan.itinerary ? plan.itinerary.length : 0} Stops <i class="fa-solid fa-arrow-right ml-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+                
+                html += '</div>';
+            } else {
+                html += '<div class="text-center py-12 text-slate-500">No curated plans available yet.</div>';
+            }
+            
+            html += '</div>';
+            
+            // SECTION 1: ACTIVITIES
+            html += `
+                <div class="mb-12">
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <h2 class="text-2xl font-black text-slate-900">Activities & Attractions</h2>
+                            <p class="text-sm text-slate-600 mt-1">Things to do around Phoenixville</p>
+                        </div>
+                        <span class="text-sm text-slate-500 font-bold">${activities.length} activities</span>
+                    </div>
+                    <div class="flex gap-2 overflow-x-auto pb-4 mb-4 no-scrollbar">
+                        <button onclick="filterActivities('all')" class="activity-filter-btn active px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap bg-blue-600 text-white border-blue-600" data-filter="all">All</button>
+                        <button onclick="filterActivities('kids')" class="activity-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap bg-white text-slate-500 border-slate-200" data-filter="kids">
+                            <i class="fa-solid fa-child mr-1"></i> Kids
+                        </button>
+                        <button onclick="filterActivities('outdoor')" class="activity-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap bg-white text-slate-500 border-slate-200" data-filter="outdoor">Outdoor</button>
+                        <button onclick="filterActivities('indoor')" class="activity-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap bg-white text-slate-500 border-slate-200" data-filter="indoor">Indoor</button>
+                        <button onclick="filterActivities('free')" class="activity-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap bg-white text-slate-500 border-slate-200" data-filter="free">Free</button>
+                        <button onclick="filterActivities('arts')" class="activity-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap bg-white text-slate-500 border-slate-200" data-filter="arts">Arts</button>
+                    </div>
+                    <div id="activities-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            `;
+            
+            activities.forEach(item => {
+                const tags = (item.tags || []).join(' ').toLowerCase();
+                html += `
+                    <div class="activity-card bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-slate-100" data-tags="${tags}">
+                        <img src="${item.img}" alt="${item.title}" class="w-full h-40 object-cover" onerror="this.src='https://placehold.co/600x400?text=No+Image'">
+                        <div class="p-4">
+                            <span class="text-xs font-bold px-2 py-1 rounded-full bg-slate-100 text-slate-700">${item.type || 'Activity'}</span>
+                            <h3 class="font-black text-lg mt-2 mb-1 text-slate-900">${item.title}</h3>
+                            ${item.desc ? `<p class="text-sm text-slate-600 mb-2">${item.desc}</p>` : ''}
+                            <div class="flex items-center justify-between text-sm mt-3">
+                                <span class="text-slate-500 text-xs">${item.loc}</span>
+                                <span class="font-bold text-blue-600">${item.price}</span>
+                            </div>
+                            ${item.link ? `
+                                <a href="${item.link}" target="_blank" rel="noopener" 
+                                   class="block mt-3 text-blue-600 hover:text-blue-700 font-medium text-sm">
+                                    Learn More <i class="fa-solid fa-arrow-right ml-1"></i>
+                                </a>
+                            ` : ''}
+                        </div>
+                    </div>
+                `;
+            });
+            
+            html += '</div></div>';
+            
+            container.innerHTML = html;
+        }
+        
+        // Filter curated plans by category
+        function filterDiscoverPlans(category) {
+            // Update button styles
+            document.querySelectorAll('.plan-filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.category === category) {
+                    btn.classList.add('active');
+                }
+            });
+            
+            // Show/hide plans
+            document.querySelectorAll('.plan-card').forEach(card => {
+                if (category === 'all' || card.dataset.category === category) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+        
+        // Filter activities by tag
+        function filterActivities(filter) {
+            document.querySelectorAll('.activity-filter-btn').forEach(btn => {
+                if (btn.dataset.filter === filter) {
+                    btn.className = 'activity-filter-btn active px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap bg-blue-600 text-white border-blue-600';
+                } else {
+                    btn.className = 'activity-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap bg-white text-slate-500 border-slate-200';
+                }
+            });
+            document.querySelectorAll('.activity-card').forEach(card => {
+                const tags = card.dataset.tags || '';
+                if (filter === 'all') {
+                    card.style.display = '';
+                } else if (filter === 'arts') {
+                    card.style.display = (tags.includes('art') || tags.includes('creative') || tags.includes('cultural')) ? '' : 'none';
+                } else {
+                    card.style.display = tags.includes(filter) ? '' : 'none';
+                }
+            });
+        }
+
+        // Show plan details in modal
+        function showPlanDetails(plan) {
+            const modal = document.createElement('div');
+            modal.className = 'fixed inset-0 bg-black/50 z-[200] flex items-center justify-center p-4 animate-fade-in';
+            modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+            
+            const itineraryHTML = plan.itinerary ? plan.itinerary.map(step => `
+                <div class="flex gap-4 mb-6">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                        ${step.step}
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="font-bold text-blue-600">${step.time}</span>
+                            <span class="text-slate-400">â€¢</span>
+                            <span class="text-slate-600 text-sm">${step.duration}</span>
+                            <span class="ml-auto font-bold text-green-600">${step.cost}</span>
+                        </div>
+                        <h4 class="font-bold text-slate-900 mb-1">${step.activity}</h4>
+                        <p class="text-sm text-slate-600 mb-2">${step.notes}</p>
+                        <span class="inline-block bg-slate-100 text-slate-700 px-2 py-1 rounded text-xs">${step.type}</span>
+                    </div>
+                </div>
+            `).join('') : '';
+            
+            modal.innerHTML = `
+                <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl" onclick="event.stopPropagation()">
+                    <div class="relative">
+                        <img src="${plan.img}" alt="${plan.title}" class="w-full h-56 object-cover" onerror="this.src='https://placehold.co/600x400?text=No+Image'">
+                        <button onclick="this.closest('.fixed').remove()" 
+                                class="absolute top-4 right-4 bg-white/90 backdrop-blur rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-white">
+                            <i class="fa-solid fa-xmark text-xl text-slate-800"></i>
+                        </button>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">${plan.category}</span>
+                            <span class="text-slate-500 text-sm">${plan.duration}</span>
+                        </div>
+                        <h2 class="text-3xl font-black text-slate-900 mb-3">${plan.title}</h2>
+                        <p class="text-slate-700 mb-4">${plan.description}</p>
+                        
+                        ${plan.best_for ? `
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                ${plan.best_for.map(tag => 
+                                    `<span class="bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full text-sm font-bold">${tag}</span>`
+                                ).join('')}
+                            </div>
+                        ` : ''}
+                        
+                        <div class="bg-green-50 border-2 border-green-200 rounded-xl p-4 mb-6">
+                            <div class="flex justify-between items-center">
+                                <span class="text-slate-700 font-bold">Total Budget</span>
+                                <span class="text-2xl font-black text-green-600">${plan.total_cost}</span>
+                            </div>
+                        </div>
+                        
+                        <h3 class="font-black text-2xl mb-6 text-slate-900">Itinerary</h3>
+                        ${itineraryHTML}
+                        
+                        ${plan.tips ? `
+                            <div class="mt-6 bg-amber-50 border-l-4 border-amber-500 rounded-r-xl p-5">
+                                <div class="flex gap-3">
+                                    <i class="fa-solid fa-lightbulb text-amber-600 text-xl mt-1"></i>
+                                    <div>
+                                        <h4 class="font-bold text-amber-900 mb-2">Pro Tips</h4>
+                                        <p class="text-amber-800 leading-relaxed">${plan.tips}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+            
+            document.body.appendChild(modal);
+        }
+
+
+
+        </script>
+</body>
+</html>

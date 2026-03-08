@@ -1,0 +1,709 @@
+[
+  {
+    "id": "date_night_romantic",
+    "title": "Romantic Date Night",
+    "category": "Date Night",
+    "duration": "4-5 hours",
+    "budget": "$$-$$$",
+    "best_for": [
+      "Couples",
+      "Date Night",
+      "Special Occasion"
+    ],
+    "description": "Classic romantic evening with fine dining and entertainment",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "7:00 PM",
+        "activity": "Dinner at Black Lab Bistro",
+        "type": "dining",
+        "duration": "90 minutes",
+        "cost": "$$$",
+        "notes": "Make reservations ahead"
+      },
+      {
+        "step": 2,
+        "time": "9:00 PM",
+        "activity": "Show at The Colonial Theatre",
+        "type": "event",
+        "duration": "2 hours",
+        "cost": "$$",
+        "notes": "Check showtimes at thecolonialtheatre.com"
+      },
+      {
+        "step": 3,
+        "time": "Optional (closes 7pm)",
+        "activity": "Treats at Bridge Street Chocolates",
+        "type": "outing",
+        "duration": "15 minutes",
+        "cost": "$",
+        "notes": "Artisan chocolates & candy shop, closes at 7pm"
+      }
+    ],
+    "total_cost": "$80-120 per couple",
+    "tips": "Book theatre tickets in advance. Bridge Street is walking distance from Colonial.",
+    "img": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "date",
+      "romantic",
+      "evening"
+    ]
+  },
+  {
+    "id": "date_night_casual",
+    "title": "Craft Beer & Games Date",
+    "category": "Date Night",
+    "duration": "3-4 hours",
+    "budget": "$$",
+    "best_for": [
+      "Couples",
+      "Casual Date",
+      "Fun"
+    ],
+    "description": "Relaxed evening with craft beer, food, and arcade games",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "6:00 PM",
+        "activity": "Dinner & Drinks at Bistro on Bridge",
+        "type": "dining",
+        "duration": "90 minutes",
+        "cost": "$$",
+        "notes": "Great beer selection and rooftop option"
+      },
+      {
+        "step": 2,
+        "time": "8:00 PM",
+        "activity": "Arcade Games at FUN Dungeon",
+        "type": "outing",
+        "duration": "90 minutes",
+        "cost": "$",
+        "notes": "Medieval-themed brewcade with 30+ games"
+      }
+    ],
+    "total_cost": "$50-80 per couple",
+    "tips": "Both locations on Bridge Street, easy walking. All-you-can-play arcade.",
+    "img": "https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "date",
+      "casual",
+      "games",
+      "beer"
+    ]
+  },
+  {
+    "id": "date_night_creative",
+    "title": "Wine & Paint Night",
+    "category": "Date Night",
+    "duration": "3-4 hours",
+    "budget": "$$",
+    "best_for": [
+      "Couples",
+      "Creative",
+      "Unique"
+    ],
+    "description": "Creative evening with painting and Italian BYOB dinner",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "6:00 PM",
+        "activity": "Paint & Sip at The Spirited Artist",
+        "type": "outing",
+        "duration": "2 hours",
+        "cost": "$$",
+        "notes": "Book class in advance, BYOB wine allowed"
+      },
+      {
+        "step": 2,
+        "time": "8:30 PM",
+        "activity": "Late Dinner at Il Granaio (BYOB)",
+        "type": "dining",
+        "duration": "90 minutes",
+        "cost": "$$$",
+        "notes": "Authentic Italian, bring your own wine"
+      }
+    ],
+    "total_cost": "$70-100 per couple",
+    "tips": "Buy wine beforehand. Both accept reservations.",
+    "img": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "date",
+      "creative",
+      "wine",
+      "art"
+    ]
+  },
+  {
+    "id": "family_fun_day",
+    "title": "Ultimate Kids Fun Day",
+    "category": "Family",
+    "duration": "5-6 hours",
+    "budget": "$$",
+    "best_for": [
+      "Families",
+      "Kids",
+      "Active"
+    ],
+    "description": "Action-packed day with mini golf, arcade, and ice cream",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "11:00 AM",
+        "activity": "Lunch at La Patrona Mexican",
+        "type": "dining",
+        "duration": "60 minutes",
+        "cost": "$$",
+        "notes": "Kid-friendly menu, great tacos"
+      },
+      {
+        "step": 2,
+        "time": "1:00 PM",
+        "activity": "Mini Golf at Markie's",
+        "type": "outing",
+        "duration": "90 minutes",
+        "cost": "$",
+        "notes": "All-you-can-play, 18 holes"
+      },
+      {
+        "step": 3,
+        "time": "3:00 PM",
+        "activity": "Go-Karts & Arcade at Arnold's Fun Center",
+        "type": "outing",
+        "duration": "2 hours",
+        "cost": "$$",
+        "notes": "15 minutes to Oaks, multiple activities"
+      },
+      {
+        "step": 4,
+        "time": "5:30 PM",
+        "activity": "Ice Cream at Brown's Cow",
+        "type": "outing",
+        "duration": "30 minutes",
+        "cost": "$",
+        "notes": "Perfect ending, back in Phoenixville"
+      }
+    ],
+    "total_cost": "$80-120 for family of 4",
+    "tips": "Wear comfortable shoes. Arnold's is 10 min drive to Oaks.",
+    "img": "https://images.unsplash.com/photo-1519340333755-56e9c1d37a76?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "family",
+      "kids",
+      "active",
+      "fun"
+    ]
+  },
+  {
+    "id": "family_nature_day",
+    "title": "Nature Adventure Day",
+    "category": "Family",
+    "duration": "4-5 hours",
+    "budget": "$-$$",
+    "best_for": [
+      "Families",
+      "Nature Lovers",
+      "Educational"
+    ],
+    "description": "Outdoor exploration with hiking and waterfront dining",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "10:00 AM",
+        "activity": "Hiking at French Creek State Park",
+        "type": "outing",
+        "duration": "2 hours",
+        "cost": "Free",
+        "notes": "Easy trails available, bring water"
+      },
+      {
+        "step": 2,
+        "time": "12:30 PM",
+        "activity": "Lunch at Rivertown Tap",
+        "type": "dining",
+        "duration": "90 minutes",
+        "cost": "$$",
+        "notes": "Waterfront seating, scenic views"
+      },
+      {
+        "step": 3,
+        "time": "2:30 PM",
+        "activity": "Visit Schuylkill River Greenways Center",
+        "type": "outing",
+        "duration": "60 minutes",
+        "cost": "Free",
+        "notes": "Educational exhibits about the area"
+      }
+    ],
+    "total_cost": "$40-60 for family of 4",
+    "tips": "Pack sunscreen and bug spray. Great for learning about local ecology.",
+    "img": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "family",
+      "nature",
+      "hiking",
+      "educational"
+    ]
+  },
+  {
+    "id": "family_history_day",
+    "title": "Revolutionary History Day",
+    "category": "Family",
+    "duration": "5-6 hours",
+    "budget": "$-$$",
+    "best_for": [
+      "Families",
+      "History Buffs",
+      "Educational"
+    ],
+    "description": "Educational day exploring Revolutionary War history",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "10:00 AM",
+        "activity": "Valley Forge National Historical Park",
+        "type": "outing",
+        "duration": "3 hours",
+        "cost": "Free",
+        "notes": "Visitor center, historic buildings, trails"
+      },
+      {
+        "step": 2,
+        "time": "1:00 PM",
+        "activity": "Lunch at Molly Maguire's Irish Pub",
+        "type": "dining",
+        "duration": "90 minutes",
+        "cost": "$$",
+        "notes": "Family-friendly pub, kid's menu"
+      },
+      {
+        "step": 3,
+        "time": "3:00 PM",
+        "activity": "Walk French Creek Heritage Trail",
+        "type": "outing",
+        "duration": "90 minutes",
+        "cost": "Free",
+        "notes": "Revolutionary War history placards"
+      }
+    ],
+    "total_cost": "$40-60 for family of 4",
+    "tips": "Great for school-age kids learning American history. Very walkable.",
+    "img": "https://images.unsplash.com/photo-1464207687429-7505649dae38?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "family",
+      "history",
+      "educational",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "weekend_first_friday",
+    "title": "First Friday Experience",
+    "category": "Weekend",
+    "duration": "3-4 hours",
+    "budget": "$$",
+    "best_for": [
+      "Couples",
+      "Friends",
+      "Locals"
+    ],
+    "description": "Monthly street festival with music, food, and drinks",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "5:30 PM",
+        "activity": "First Friday Street Festival",
+        "type": "event",
+        "duration": "90 minutes",
+        "cost": "Free",
+        "notes": "First Friday of each month, live music & vendors"
+      },
+      {
+        "step": 2,
+        "time": "7:00 PM",
+        "activity": "Dinner at The Boardroom",
+        "type": "dining",
+        "duration": "90 minutes",
+        "cost": "$$$",
+        "notes": "Craft cocktails & elevated food"
+      },
+      {
+        "step": 3,
+        "time": "9:00 PM",
+        "activity": "Drinks at Sedona Taphouse",
+        "type": "dining",
+        "duration": "60 minutes",
+        "cost": "$$",
+        "notes": "Huge craft beer selection"
+      }
+    ],
+    "total_cost": "$60-90 per couple",
+    "tips": "Arrive early for parking. Bridge Street closed to cars during event.",
+    "img": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "weekend",
+      "festival",
+      "music",
+      "food"
+    ]
+  },
+  {
+    "id": "weekend_active_saturday",
+    "title": "Active Saturday Adventure",
+    "category": "Weekend",
+    "duration": "5-6 hours",
+    "budget": "$-$$",
+    "best_for": [
+      "Active Adults",
+      "Friends",
+      "Couples"
+    ],
+    "description": "Outdoor adventure with biking, lunch, and brewery",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "9:00 AM",
+        "activity": "Free Bike Rental at Bike Schuylkill",
+        "type": "outing",
+        "duration": "2.5 hours",
+        "cost": "Free",
+        "notes": "Ride Schuylkill River Trail, return by noon"
+      },
+      {
+        "step": 2,
+        "time": "12:00 PM",
+        "activity": "Lunch at The Foodery",
+        "type": "dining",
+        "duration": "60 minutes",
+        "cost": "$$",
+        "notes": "Great sandwiches & craft beer"
+      },
+      {
+        "step": 3,
+        "time": "2:00 PM",
+        "activity": "Beer Tasting at Stable 12 Brewing",
+        "type": "dining",
+        "duration": "90 minutes",
+        "cost": "$$",
+        "notes": "Dog-friendly patio"
+      },
+      {
+        "step": 4,
+        "time": "Optional",
+        "activity": "Escape Room at SAGE!",
+        "type": "outing",
+        "duration": "60 minutes",
+        "cost": "$$",
+        "notes": "Book in advance"
+      }
+    ],
+    "total_cost": "$40-70 per person",
+    "tips": "Great for fit, active groups. Free bikes are first-come, first-served.",
+    "img": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "weekend",
+      "active",
+      "biking",
+      "beer"
+    ]
+  },
+  {
+    "id": "weekend_chill_sunday",
+    "title": "Relaxed Sunday Funday",
+    "category": "Weekend",
+    "duration": "4-5 hours",
+    "budget": "$-$$",
+    "best_for": [
+      "Couples",
+      "Friends",
+      "Relaxed"
+    ],
+    "description": "Chill morning at farmers market, brunch, and art galleries",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "9:00 AM",
+        "activity": "Phoenixville Farmers Market",
+        "type": "event",
+        "duration": "90 minutes",
+        "cost": "Free entry",
+        "notes": "Every Saturday, local produce & live music"
+      },
+      {
+        "step": 2,
+        "time": "11:00 AM",
+        "activity": "Brunch at Bistro on Bridge",
+        "type": "dining",
+        "duration": "90 minutes",
+        "cost": "$$",
+        "notes": "Sunday brunch special"
+      },
+      {
+        "step": 3,
+        "time": "1:00 PM",
+        "activity": "Gallery Walk - Diving Cat & Franklin Commons",
+        "type": "outing",
+        "duration": "90 minutes",
+        "cost": "Free",
+        "notes": "Both galleries walking distance"
+      },
+      {
+        "step": 4,
+        "time": "Optional",
+        "activity": "Coffee at Steel City Coffeehouse",
+        "type": "dining",
+        "duration": "30 minutes",
+        "cost": "$",
+        "notes": "Local coffee roaster"
+      }
+    ],
+    "total_cost": "$30-50 per person",
+    "tips": "Perfect lazy Sunday. All locations walkable from downtown.",
+    "img": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "weekend",
+      "relaxed",
+      "brunch",
+      "art"
+    ]
+  },
+  {
+    "id": "seasonal_summer_fun",
+    "title": "Summer Day on the Water",
+    "category": "Seasonal",
+    "duration": "5-6 hours",
+    "budget": "$$",
+    "best_for": [
+      "Summer",
+      "Active",
+      "Friends"
+    ],
+    "description": "Water sports, waterfront dining, and ice cream",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "10:00 AM",
+        "activity": "Paddleboarding at Phoenixville SUP",
+        "type": "outing",
+        "duration": "2 hours",
+        "cost": "$$",
+        "notes": "Kayak or SUP rentals available"
+      },
+      {
+        "step": 2,
+        "time": "12:30 PM",
+        "activity": "Waterfront Lunch at Rivertown Tap",
+        "type": "dining",
+        "duration": "90 minutes",
+        "cost": "$$",
+        "notes": "Outdoor seating by the canal"
+      },
+      {
+        "step": 3,
+        "time": "2:30 PM",
+        "activity": "Walk French Creek Trail",
+        "type": "outing",
+        "duration": "60 minutes",
+        "cost": "Free",
+        "notes": "Shaded trail along creek"
+      },
+      {
+        "step": 4,
+        "time": "4:00 PM",
+        "activity": "Ice Cream at Brown's Cow",
+        "type": "outing",
+        "duration": "30 minutes",
+        "cost": "$",
+        "notes": "Perfect summer treat"
+      }
+    ],
+    "total_cost": "$50-75 per person",
+    "tips": "Bring sunscreen and towels. Best on warm, sunny days.",
+    "img": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "summer",
+      "water",
+      "outdoor",
+      "active"
+    ]
+  },
+  {
+    "id": "seasonal_blobfest",
+    "title": "Blobfest Weekend Experience",
+    "category": "Seasonal",
+    "duration": "6-8 hours",
+    "budget": "$$-$$$",
+    "best_for": [
+      "Summer",
+      "Unique",
+      "Film Fans"
+    ],
+    "description": "Phoenixville's biggest festival celebrating The Blob movie",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "11:00 AM",
+        "activity": "Blobfest Street Fair",
+        "type": "event",
+        "duration": "2 hours",
+        "cost": "Free",
+        "notes": "Vendors, food trucks, costume contest"
+      },
+      {
+        "step": 2,
+        "time": "1:00 PM",
+        "activity": "Lunch at Chikara Sushi",
+        "type": "dining",
+        "duration": "60 minutes",
+        "cost": "$$",
+        "notes": "Quick sushi before afternoon events"
+      },
+      {
+        "step": 3,
+        "time": "3:00 PM",
+        "activity": "Blobfest Film Screening at Colonial",
+        "type": "event",
+        "duration": "2 hours",
+        "cost": "$$",
+        "notes": "Classic horror films, The Blob showing"
+      },
+      {
+        "step": 4,
+        "time": "7:00 PM",
+        "activity": "Dinner at Sedona Taphouse",
+        "type": "dining",
+        "duration": "90 minutes",
+        "cost": "$$",
+        "notes": "Recover before evening events"
+      },
+      {
+        "step": 5,
+        "time": "9:00 PM",
+        "activity": "Famous Blobfest Run-Out",
+        "type": "event",
+        "duration": "30 minutes",
+        "cost": "Free to watch",
+        "notes": "Iconic scene re-enactment, huge crowd"
+      }
+    ],
+    "total_cost": "$60-100 per person",
+    "tips": "Arrives early for parking. Weekend of July 10-12, 2026. Tickets sell fast!",
+    "img": "https://images.unsplash.com/photo-1574267432644-f610246f25be?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "summer",
+      "festival",
+      "unique",
+      "film"
+    ]
+  },
+  {
+    "id": "special_anniversary",
+    "title": "Special Anniversary Celebration",
+    "category": "Special Occasion",
+    "duration": "5-6 hours",
+    "budget": "$$$",
+    "best_for": [
+      "Anniversary",
+      "Celebration",
+      "Upscale"
+    ],
+    "description": "Elegant evening with fine dining, distillery tour, and dessert",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "5:00 PM",
+        "activity": "Cocktails & Tour at Bluebird Distilling",
+        "type": "outing",
+        "duration": "60 minutes",
+        "cost": "$$",
+        "notes": "Local craft spirits, tasting room"
+      },
+      {
+        "step": 2,
+        "time": "7:00 PM",
+        "activity": "Dinner at The Boardroom",
+        "type": "dining",
+        "duration": "2 hours",
+        "cost": "$$$",
+        "notes": "Upscale, make reservations"
+      },
+      {
+        "step": 3,
+        "time": "9:00 PM",
+        "activity": "Nightcap Drinks at Sedona Taphouse",
+        "type": "dining",
+        "duration": "45 minutes",
+        "cost": "$$",
+        "notes": "Craft beer & cocktails, great atmosphere"
+      },
+      {
+        "step": 4,
+        "time": "Optional",
+        "activity": "Evening Stroll on Bridge Street",
+        "type": "outing",
+        "duration": "30 minutes",
+        "cost": "Free",
+        "notes": "Romantic walk through downtown"
+      }
+    ],
+    "total_cost": "$120-180 per couple",
+    "tips": "Book restaurants in advance. All locations within walking distance.",
+    "img": "https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "special",
+      "anniversary",
+      "upscale",
+      "romantic"
+    ]
+  },
+  {
+    "id": "girls_day_out",
+    "title": "Girls Day Out",
+    "category": "Friends",
+    "duration": "4-5 hours",
+    "budget": "$$",
+    "best_for": [
+      "Friends",
+      "Girls Day",
+      "Shopping"
+    ],
+    "description": "Shopping, lunch, wine, and pampering",
+    "itinerary": [
+      {
+        "step": 1,
+        "time": "11:00 AM",
+        "activity": "Downtown Shopping - Bridge Street Boutiques",
+        "type": "outing",
+        "duration": "90 minutes",
+        "cost": "Varies",
+        "notes": "Local shops and galleries"
+      },
+      {
+        "step": 2,
+        "time": "1:00 PM",
+        "activity": "Lunch at Harvest Seasonal Grill (Collegeville)",
+        "type": "dining",
+        "duration": "90 minutes",
+        "cost": "$$$",
+        "notes": "Farm-to-table, wine bar, 15 min drive"
+      },
+      {
+        "step": 3,
+        "time": "3:00 PM",
+        "activity": "Paint & Sip at The Spirited Artist",
+        "type": "outing",
+        "duration": "2 hours",
+        "cost": "$$",
+        "notes": "BYOB, book class ahead"
+      }
+    ],
+    "total_cost": "$70-100 per person",
+    "tips": "Perfect for birthdays or just catching up. Bring wine to painting class.",
+    "img": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+    "tags": [
+      "friends",
+      "shopping",
+      "wine",
+      "creative"
+    ]
+  }
+]

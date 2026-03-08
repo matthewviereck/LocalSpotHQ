@@ -1,0 +1,770 @@
+[
+  {
+    "id": "col_6400641666018138181",
+    "type": "event",
+    "title": "Drew and Ellie Holcomb Never Gonna Let You Go Tour",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Feb 5, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/TIXR-Drew-Ellie-Holcomb-640x359-Mobile-Flyer-480x359.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/drew-and-ellie-holcomb-never-gonna-let-you-go-tour/"
+  },
+  {
+    "id": "col_1099855244016609895",
+    "type": "event",
+    "title": "JOHN WATERS – Going to Extremes",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Feb 7, 2026",
+    "attributes": {
+      "category": "Comedy at the Colonial",
+      "vibes": [
+        "Comedy at the Colonial",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/John-Waters_1200x624-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/comedy-at-the-colonial/john-waters-going-to-extremes/"
+  },
+  {
+    "id": "col_6132440224973925299",
+    "type": "event",
+    "title": "Presented by The Colonial and Sponsored by Twelve78 Brewing Eddie Bruce’s Musical Valentine: The Songs of Tony Bennett",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Feb 14, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Colonial-2_14_26_for-Colonial-1-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/eddie-bruces-musical-valentine-the-songs-of-tony-bennett/"
+  },
+  {
+    "id": "col_4613091452073399949",
+    "type": "event",
+    "title": "Improv Jam",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Feb 19 - Jun 18, 2026",
+    "attributes": {
+      "category": "Comedy at the Colonial",
+      "vibes": [
+        "Comedy at the Colonial",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-3-1-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/colonial-events/improv-jam/"
+  },
+  {
+    "id": "col_5423374682275777355",
+    "type": "event",
+    "title": "Kashmir: The Spirit of Led Zeppelin Live Presents  55/50 TOUR: A Half Century of Led Zeppelin IV Plus Presence",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Feb 20, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-2-1-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/kashmir-the-spirit-of-led-zeppelin-live-55-50-tour/"
+  },
+  {
+    "id": "col_3167692777054863362",
+    "type": "event",
+    "title": "MAD DOGS & ENGLISHMEN – a 20-Piece Band Celebration presented by Remember Jones",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Feb 21, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/23817/"
+  },
+  {
+    "id": "col_532512714254701304",
+    "type": "event",
+    "title": "Est. 1902",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Feb 22, 2026",
+    "attributes": {
+      "category": "Theatre Tours",
+      "vibes": [
+        "Theatre Tours",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/21-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/theatre-tours/est-1902/"
+  },
+  {
+    "id": "col_2304117363309312808",
+    "type": "event",
+    "title": "Mavis Staples",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Feb 26, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-5-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/mavis-staples/"
+  },
+  {
+    "id": "col_5468691233087064215",
+    "type": "event",
+    "title": "Presented by The Colonial & Sponsored by The Stove Shop Fireplace Experts HUSH: An Immersive Speakeasy Experience",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Feb 27, 2026",
+    "attributes": {
+      "category": "Colonial Events",
+      "vibes": [
+        "Colonial Events",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Hush-4-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/colonial-events/hush-an-immersive-speakeasy-experience-3/"
+  },
+  {
+    "id": "col_616878108837969128",
+    "type": "event",
+    "title": "ECHOES The American Pink Floyd",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Feb 28, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-1-1-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/echoes-the-american-pink-floyd/"
+  },
+  {
+    "id": "col_3455304175120685856",
+    "type": "event",
+    "title": "A Little PACS Magic",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Feb 28, 2026",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": [
+        "Guest Presentations",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/ALittle-PACS-Magic-DPCoverPhoto-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/a-little-pacs-magic/"
+  },
+  {
+    "id": "col_3267209366531891818",
+    "type": "event",
+    "title": "Presented by Reads & Company Catherine Cowles, Author of Across the Vanishing Sky: Live at The Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Mar 4, 2026",
+    "attributes": {
+      "category": "Spoken Word",
+      "vibes": [
+        "Spoken Word",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Reads-Catherine-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/spoken-word/catherine-cowles-author-of-across-the-vanishing-sky-live-at-the-colonial-theatre/"
+  },
+  {
+    "id": "col_2863882074411276161",
+    "type": "event",
+    "title": "TOSDV: Open Console",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Mar 7, 2026",
+    "attributes": {
+      "category": "Theatre Organ Performances",
+      "vibes": [
+        "Theatre Organ Performances",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Pipe-Organ-Console-Colonial-Theatre-credit-Michal-Kortsarts-1-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/theatre-organ-performances/tosdv-open-console/"
+  },
+  {
+    "id": "col_576804095464346730",
+    "type": "event",
+    "title": "SOLAS 30th Anniversary Tour",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Mar 8, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/ARCHIVE-Screen-Ads-624-525-2-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/solas-30th-anniversary-tour/"
+  },
+  {
+    "id": "col_2514027896385077693",
+    "type": "event",
+    "title": "BRE Presents Rick Wakeman & Son",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Mar 13, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-3-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/strictly-wakeman/"
+  },
+  {
+    "id": "col_1014489467903871399",
+    "type": "event",
+    "title": "Seven Wonders: A Tribute to Fleetwood Mac",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Mar 21, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/7W-Facebook-Event-Cover-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/seven-wonders-a-tribute-to-fleetwood-mac-2/"
+  },
+  {
+    "id": "col_5660900715028873841",
+    "type": "event",
+    "title": "James Garner’s Tribute to Johnny Cash",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Mar 24, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Stage-shot-with-logo-live-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/james-garners-tribute-to-johnny-cash/"
+  },
+  {
+    "id": "col_7696697352206554994",
+    "type": "event",
+    "title": "Sam Grisman Project",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Mar 26, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Sam-Grisman-Project_1200x624-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/sam-grisman-project/"
+  },
+  {
+    "id": "col_7814392559894578975",
+    "type": "event",
+    "title": "Brave Strangers – A Tribute to Bob Seger and the Silver Bullet Band",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Mar 28, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Brave-Strangers-Logo-Art-1-480x360.jpeg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/brave-strangers-a-tribute-to-bob-seger-and-the-silver-bullet-band/"
+  },
+  {
+    "id": "col_9220708281294366487",
+    "type": "event",
+    "title": "The Colonial Theatre Presents EUROPA – Tribute to Carlos Santana",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Apr 4, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Europe-Website-Image-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/europa-tribute-to-carlos-santana/"
+  },
+  {
+    "id": "col_8771603236602170859",
+    "type": "event",
+    "title": "The Parlour Reading Series: Shakespeare in Love",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Apr 9, 2026",
+    "attributes": {
+      "category": "Colonial Events",
+      "vibes": [
+        "Colonial Events",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-6-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/colonial-events/the-parlour-reading-series-shakespeare-in-love/"
+  },
+  {
+    "id": "col_7149554403365483399",
+    "type": "event",
+    "title": "Mike Doughty Solo Tour ’26",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Apr 10, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Mike-Doughty-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/mike-doughty-solo-tour-26/"
+  },
+  {
+    "id": "col_3513667541292717953",
+    "type": "event",
+    "title": "Broken Arrow- The Music of Neil Young",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Apr 11, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Broken-Arrow_1200x624-1-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/broken-arrow-neil-young-tribute/"
+  },
+  {
+    "id": "col_8215266152893253729",
+    "type": "event",
+    "title": "Poets of Phoenixville",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Apr 12, 2026",
+    "attributes": {
+      "category": "Spoken Word",
+      "vibes": [
+        "Spoken Word",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/NEW-Screen-Ads-624-525-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/spoken-word/poets-of-phoenixville-3/"
+  },
+  {
+    "id": "col_871738927946408007",
+    "type": "event",
+    "title": "Marty Stuart and His Fabulous Superlatives",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Apr 18, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-2-2-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/marty-stuart-and-his-fabulous-superlatives-3/"
+  },
+  {
+    "id": "col_7299840570399159260",
+    "type": "event",
+    "title": "The Launch – A Tribute to Boston, Styx, and Queen",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Apr 25, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Screenshot_20251120_114956_Gallery-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/the-launch-2/"
+  },
+  {
+    "id": "col_7614108183309756709",
+    "type": "event",
+    "title": "Van Halen Nation",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "May 2, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/IMG_5457-480x360.jpeg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/van-halen-nation-3/"
+  },
+  {
+    "id": "col_3290316151929967077",
+    "type": "event",
+    "title": "The Colonial Theatre Presents Dann Pell – Songs to Ground and Uplift",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "May 16, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Event_Dann_Pell_EventPhoto-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/dann-pell-songs-to-ground-and-uplift-2/"
+  },
+  {
+    "id": "col_535097494517210387",
+    "type": "event",
+    "title": "The Ledbetters & Superunknown – Tributes to Pearl Jam & Chris Cornell",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "May 16, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-4-1-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/the-ledbetters-superunknown-tributes-to-pearl-jam-chris-cornell-2/"
+  },
+  {
+    "id": "col_8971779817448237000",
+    "type": "event",
+    "title": "Are You Ready For It? A Taylor Experience",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "May 22, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Are-You-Ready-For-It_1200x624-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/are-you-ready-for-it-a-taylor-experience/"
+  },
+  {
+    "id": "col_2413744815742625696",
+    "type": "event",
+    "title": "Total Mass Retain YES Tribute Band",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "May 30, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/Website-Event-Posters-4-480x360.png"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/total-mass-retain-yes-tribute-band-4/"
+  },
+  {
+    "id": "col_6934875434763330977",
+    "type": "event",
+    "title": "WXPN Welcomes & The Church: THE SINGLES 1980 – 2025",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jun 27, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Historic Venue"
+      ]
+    },
+    "media": {
+      "image": "https://thecolonialtheatre.com/wp-content/uploads/The-Church_1200x624-1-480x360.jpg"
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/the-church-the-singles-1980-2025/"
+  }
+]

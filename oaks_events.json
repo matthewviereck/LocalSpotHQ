@@ -1,0 +1,314 @@
+[
+  {
+    "id": "oaks_6884266421690427761",
+    "type": "event",
+    "title": "Eagle Shows",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.123,
+        "lng": -75.45
+      }
+    },
+    "raw_date_string": "Feb 06 - 08 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Family Friendly",
+        "Large Crowd",
+        "HALLS A & B"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://phillyexpocenter.com/wp-content/uploads/2022/04/ES-Logo-150x150.webp"
+    },
+    "action_link": "https://phillyexpocenter.com/events/eagle-arms-show-130-520-414-835/"
+  },
+  {
+    "id": "oaks_7017385553066795669",
+    "type": "event",
+    "title": "Yukta Events Presents Girls Only Galentine’s Party",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.123,
+        "lng": -75.45
+      }
+    },
+    "raw_date_string": "Feb 07 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Family Friendly",
+        "Large Crowd",
+        "HALL E"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://phillyexpocenter.com/wp-content/uploads/2025/12/Screenshot-2025-12-08-at-10.12.03-AM-150x150.png"
+    },
+    "action_link": "https://phillyexpocenter.com/events/yukta-events-presents-girls-only-galentines-party/"
+  },
+  {
+    "id": "oaks_6740163946763023532",
+    "type": "event",
+    "title": "Patriots’ Cup Volleyball",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.123,
+        "lng": -75.45
+      }
+    },
+    "raw_date_string": "Feb 14 - 15 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Family Friendly",
+        "Large Crowd",
+        "HALLS B & C"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://phillyexpocenter.com/wp-content/uploads/2025/11/Patriots-Cup-1-150x150.webp"
+    },
+    "action_link": "https://phillyexpocenter.com/events/patriots-cup-volleyball/"
+  },
+  {
+    "id": "oaks_5684778581562732505",
+    "type": "event",
+    "title": "True Honey Tea Festival",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.123,
+        "lng": -75.45
+      }
+    },
+    "raw_date_string": "Feb 14 - 15 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Family Friendly",
+        "Large Crowd",
+        "HALLS D & E"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://phillyexpocenter.com/wp-content/uploads/2025/11/THT_Logo_Tea_Under-150x114.jpg"
+    },
+    "action_link": "https://phillyexpocenter.com/events/true-honey-tea-festival/"
+  },
+  {
+    "id": "oaks_5088378381145624201",
+    "type": "event",
+    "title": "Philly Home and Garden Show",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.123,
+        "lng": -75.45
+      }
+    },
+    "raw_date_string": "Feb 20 - 22 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Family Friendly",
+        "Large Crowd",
+        "HALLS A, B, C, D & E"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://phillyexpocenter.com/wp-content/uploads/2025/08/PHGS26_Social_1080x1350_A-150x150.jpg"
+    },
+    "action_link": "https://phillyexpocenter.com/events/philly-home-and-garden-show-2-456-327/"
+  },
+  {
+    "id": "oaks_7119878423561421241",
+    "type": "event",
+    "title": "Philadelphia RV Show",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.123,
+        "lng": -75.45
+      }
+    },
+    "raw_date_string": "Feb 26 2026- Mar 01 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Family Friendly",
+        "Large Crowd",
+        "HALLS A, B, C, D & E"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://phillyexpocenter.com/wp-content/uploads/2025/11/png-150x150.png"
+    },
+    "action_link": "https://phillyexpocenter.com/events/philadelphia-rv-show/"
+  },
+  {
+    "id": "oaks_3870984281542454984",
+    "type": "event",
+    "title": "Greater Philadelphia Pet Expo",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.123,
+        "lng": -75.45
+      }
+    },
+    "raw_date_string": "Mar 06 - 08 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Family Friendly",
+        "Large Crowd",
+        "HALL C"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://phillyexpocenter.com/wp-content/uploads/2023/07/PetExpoGraphic-150x150.png"
+    },
+    "action_link": "https://phillyexpocenter.com/events/greater-philadelphia-pet-expo-3-623/"
+  },
+  {
+    "id": "oaks_4216111772686175370",
+    "type": "event",
+    "title": "Gymnastics Invitational Spring Fest",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.123,
+        "lng": -75.45
+      }
+    },
+    "raw_date_string": "Mar 06 - 08 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Family Friendly",
+        "Large Crowd",
+        "HALL D"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://phillyexpocenter.com/wp-content/uploads/2024/10/Expo-Spring-Fest-Art-24--150x150.jpg"
+    },
+    "action_link": "https://phillyexpocenter.com/events/gymnastics-invitational-spring-fest-993/"
+  },
+  {
+    "id": "oaks_8209214712049031645",
+    "type": "event",
+    "title": "The Philly Show Sports Card and Memorabilia Show",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.123,
+        "lng": -75.45
+      }
+    },
+    "raw_date_string": "Mar 06 - 08 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Family Friendly",
+        "Large Crowd",
+        "Halls A,B,E"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://phillyexpocenter.com/wp-content/uploads/2023/08/ThePhillyShowGraphic-150x150.jpg"
+    },
+    "action_link": "https://phillyexpocenter.com/events/the-philly-show-sports-card-memorabilia-show-599-186-350-365-515/"
+  },
+  {
+    "id": "oaks_2178991451226074681",
+    "type": "event",
+    "title": "Just Between Friends",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.123,
+        "lng": -75.45
+      }
+    },
+    "raw_date_string": "Mar 12 - 15 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Family Friendly",
+        "Large Crowd",
+        "HALL A"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://phillyexpocenter.com/wp-content/uploads/2022/06/JBF-Logo_RGB_MED-150x150.png"
+    },
+    "action_link": "https://phillyexpocenter.com/events/just-between-friends-341-755-758/"
+  },
+  {
+    "id": "oaks_9049151758899328358",
+    "type": "event",
+    "title": "Antique and Collector Fair",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.123,
+        "lng": -75.45
+      }
+    },
+    "raw_date_string": "Mar 13 - 14 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Family Friendly",
+        "Large Crowd",
+        "HALLS D & E"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://phillyexpocenter.com/wp-content/uploads/2025/02/AntiqueCollectorsGraphic-150x150.jpg"
+    },
+    "action_link": "https://phillyexpocenter.com/events/antique-and-collector-fair-928/"
+  },
+  {
+    "id": "oaks_4684082178144474954",
+    "type": "event",
+    "title": "Philly Boat Show",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.123,
+        "lng": -75.45
+      }
+    },
+    "raw_date_string": "Mar 13 - 15 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Family Friendly",
+        "Large Crowd",
+        "HALLS B & C"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://phillyexpocenter.com/wp-content/uploads/2025/09/Boat2026-150x150.png"
+    },
+    "action_link": "https://phillyexpocenter.com/events/philly-boat-show/"
+  }
+]
