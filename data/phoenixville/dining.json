@@ -1,0 +1,673 @@
+[
+  {
+    "title": "Black Lab Bistro",
+    "type": "American",
+    "cuisine": [
+      "American",
+      "Seasonal"
+    ],
+    "price": "$$$",
+    "loc": "Phoenixville",
+    "address": "Bridge Street",
+    "vibes": [
+      "Date Night",
+      "Upscale Casual",
+      "Local Ingredients"
+    ],
+    "img": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "dinner",
+      "wine"
+    ]
+  },
+  {
+    "title": "The Boardroom Restaurant & Bottle Shop",
+    "type": "New American",
+    "cuisine": [
+      "New American",
+      "Craft Cocktails"
+    ],
+    "price": "$$$",
+    "loc": "Phoenixville",
+    "address": "Bridge Street",
+    "vibes": [
+      "Craft Spirits",
+      "Upscale",
+      "Local"
+    ],
+    "img": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.theboardroompxv.com",
+    "tags": [
+      "dinner",
+      "cocktails",
+      "spirits"
+    ]
+  },
+  {
+    "title": "Bistro on Bridge",
+    "type": "American",
+    "cuisine": [
+      "American",
+      "Craft Beer"
+    ],
+    "price": "$$",
+    "loc": "Phoenixville",
+    "address": "Bridge Street",
+    "vibes": [
+      "Arcade",
+      "Beer Garden",
+      "Rooftop"
+    ],
+    "img": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=600&q=80",
+    "link": "https://bistroonbridge.com",
+    "tags": [
+      "lunch",
+      "dinner",
+      "brunch",
+      "beer"
+    ]
+  },
+  {
+    "title": "Sedona Taphouse",
+    "type": "New American",
+    "cuisine": [
+      "New American",
+      "Craft Beer"
+    ],
+    "price": "$$",
+    "loc": "Phoenixville",
+    "address": "131 Bridge Street",
+    "vibes": [
+      "Happy Hour",
+      "Beer Selection",
+      "Casual"
+    ],
+    "img": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80",
+    "link": "https://sedonataphouse.com/locations/phoenixville-pa/",
+    "tags": [
+      "lunch",
+      "dinner",
+      "happy hour"
+    ]
+  },
+  {
+    "title": "Molly Maguire's Irish Pub",
+    "type": "Irish",
+    "cuisine": [
+      "Irish",
+      "Pub Food"
+    ],
+    "price": "$$",
+    "loc": "Phoenixville",
+    "address": "Corner of Bridge & Main",
+    "vibes": [
+      "Live Music",
+      "Irish",
+      "Pub"
+    ],
+    "img": "https://images.unsplash.com/photo-1528823872057-9c018a7a7553?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.mollymaguiresphoenixville.com",
+    "tags": [
+      "lunch",
+      "dinner",
+      "live music",
+      "pub"
+    ]
+  },
+  {
+    "title": "Il Granaio",
+    "type": "Italian",
+    "cuisine": [
+      "Italian",
+      "Pasta"
+    ],
+    "price": "$$$",
+    "loc": "Phoenixville",
+    "address": "Bridge Street",
+    "vibes": [
+      "BYOB",
+      "Italian",
+      "Homemade Pasta"
+    ],
+    "img": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "dinner",
+      "italian",
+      "byob"
+    ]
+  },
+  {
+    "title": "Bluebird Distilling",
+    "type": "Distillery",
+    "cuisine": [
+      "Cocktails",
+      "Small Plates"
+    ],
+    "price": "$$",
+    "loc": "Phoenixville",
+    "address": "Bridge Street",
+    "vibes": [
+      "Craft Spirits",
+      "Tasting Room",
+      "Local"
+    ],
+    "img": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=600&q=80",
+    "link": "https://shopbluebirddistilling.com",
+    "tags": [
+      "spirits",
+      "cocktails",
+      "local"
+    ]
+  },
+  {
+    "title": "Steel City Coffeehouse",
+    "type": "Cafe",
+    "cuisine": [
+      "Coffee",
+      "Breakfast"
+    ],
+    "price": "$",
+    "loc": "Phoenixville",
+    "address": "203 Bridge Street",
+    "vibes": [
+      "Local Coffee",
+      "Breakfast",
+      "Casual"
+    ],
+    "img": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "breakfast",
+      "coffee",
+      "cafe"
+    ]
+  },
+  {
+    "title": "The Foodery",
+    "type": "Beer & Sandwiches",
+    "cuisine": [
+      "Sandwiches",
+      "Craft Beer"
+    ],
+    "price": "$$",
+    "loc": "Phoenixville",
+    "address": "Bridge Street",
+    "vibes": [
+      "Beer Selection",
+      "Deli",
+      "Casual"
+    ],
+    "img": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80",
+    "link": "https://fooderyphoenixville.com",
+    "tags": [
+      "lunch",
+      "beer",
+      "sandwiches"
+    ]
+  },
+  {
+    "title": "Stable 12 Brewing",
+    "type": "Brewery",
+    "cuisine": [
+      "Pub Food",
+      "Craft Beer"
+    ],
+    "price": "$$",
+    "loc": "Phoenixville",
+    "address": "Bridge Street",
+    "vibes": [
+      "Dog Friendly",
+      "Patio",
+      "Brewery"
+    ],
+    "img": "https://images.unsplash.com/photo-1584225064785-c62a8b43d148?auto=format&fit=crop&w=600&q=80",
+    "link": "https://stable12.com",
+    "tags": [
+      "lunch",
+      "dinner",
+      "beer",
+      "dog friendly"
+    ]
+  },
+  {
+    "title": "Chikara Sushi & Asian Fusion",
+    "type": "Sushi",
+    "cuisine": [
+      "Sushi",
+      "Asian Fusion"
+    ],
+    "price": "$$",
+    "loc": "Phoenixville",
+    "address": "131 Bridge Street",
+    "vibes": [
+      "Sushi",
+      "Asian",
+      "Casual"
+    ],
+    "img": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "lunch",
+      "dinner",
+      "sushi"
+    ]
+  },
+  {
+    "title": "Brown's Cow Ice Cream",
+    "type": "Dessert",
+    "cuisine": [
+      "Ice Cream",
+      "Desserts"
+    ],
+    "price": "$",
+    "loc": "Phoenixville",
+    "address": "30 S. Main Street",
+    "vibes": [
+      "Family Friendly",
+      "Ice Cream",
+      "Dessert"
+    ],
+    "img": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "dessert",
+      "family"
+    ]
+  },
+  {
+    "title": "La Patrona Mexican Restaurant",
+    "type": "Mexican",
+    "cuisine": [
+      "Mexican",
+      "Tequila Bar"
+    ],
+    "price": "$$",
+    "loc": "Phoenixville",
+    "address": "Bridge Street",
+    "vibes": [
+      "Authentic Mexican",
+      "Tequila",
+      "Lively"
+    ],
+    "img": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "lunch",
+      "dinner",
+      "mexican",
+      "margaritas"
+    ]
+  },
+  {
+    "title": "Rivertown Tap",
+    "type": "American",
+    "cuisine": [
+      "American",
+      "Waterfront"
+    ],
+    "price": "$$",
+    "loc": "Phoenixville",
+    "address": "Mont Clare",
+    "vibes": [
+      "Waterfront",
+      "Outdoor Seating",
+      "Scenic"
+    ],
+    "img": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "lunch",
+      "dinner",
+      "waterfront",
+      "patio"
+    ]
+  },
+  {
+    "title": "Firebirds Wood Fired Grill",
+    "type": "Steakhouse",
+    "cuisine": [
+      "Steakhouse",
+      "Seafood"
+    ],
+    "price": "$$$",
+    "loc": "Collegeville",
+    "address": "Providence Town Center",
+    "vibes": [
+      "Upscale",
+      "Wood-Fired",
+      "Happy Hour"
+    ],
+    "img": "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "dinner",
+      "steak",
+      "seafood"
+    ]
+  },
+  {
+    "title": "Harvest Seasonal Grill",
+    "type": "Farm-to-Table",
+    "cuisine": [
+      "American",
+      "Seasonal"
+    ],
+    "price": "$$$",
+    "loc": "Collegeville",
+    "address": "Providence Town Center",
+    "vibes": [
+      "Farm-to-Table",
+      "Wine Bar",
+      "Healthy"
+    ],
+    "img": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80",
+    "link": "https://harvestseasonal.com",
+    "tags": [
+      "lunch",
+      "dinner",
+      "healthy",
+      "wine"
+    ]
+  },
+  {
+    "title": "Troubles End Brewing",
+    "type": "Brewery",
+    "cuisine": [
+      "Pub Food",
+      "Craft Beer"
+    ],
+    "price": "$$",
+    "loc": "Collegeville",
+    "address": "Providence Town Center",
+    "vibes": [
+      "Brewery",
+      "Casual",
+      "Local"
+    ],
+    "img": "https://images.unsplash.com/photo-1555658636-6e4a36218be7?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "lunch",
+      "dinner",
+      "beer",
+      "brewery"
+    ]
+  },
+  {
+    "title": "Arnold's Family Fun Center",
+    "type": "Casual/Fun",
+    "cuisine": [
+      "Pizza",
+      "Arcade Food"
+    ],
+    "price": "$",
+    "loc": "Oaks",
+    "address": "Near Expo Center",
+    "vibes": [
+      "Family Friendly",
+      "Arcade",
+      "Kids"
+    ],
+    "img": "https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&fit=crop&w=600&q=80",
+    "link": "https://arnoldsffc.com",
+    "tags": [
+      "lunch",
+      "pizza",
+      "family",
+      "arcade"
+    ]
+  },
+  {
+    "title": "Oaks Pizzeria",
+    "type": "Pizza",
+    "cuisine": [
+      "Pizza",
+      "Italian"
+    ],
+    "price": "$",
+    "loc": "Oaks",
+    "address": "Near Expo Center",
+    "vibes": [
+      "Casual",
+      "Pizza",
+      "Quick"
+    ],
+    "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80",
+    "link": "https://oakspizza.com",
+    "tags": [
+      "lunch",
+      "dinner",
+      "pizza"
+    ]
+  },
+  {
+    "title": "Avl\u00f3s Greek Cuisine",
+    "cuisine": "Greek",
+    "loc": "258 Bridge St, Phoenixville",
+    "desc": "Authentic Greek restaurant with fresh lamb, fish, and Mediterranean dishes. BYOB with sunny decor. One of the best new additions to Bridge Street.",
+    "vibes": [
+      "Romantic",
+      "BYOB",
+      "Mediterranean",
+      "Date Night"
+    ],
+    "price": "$$$",
+    "img": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "greek",
+      "byob",
+      "date night",
+      "bridge street"
+    ]
+  },
+  {
+    "title": "Sage Mediterranean",
+    "cuisine": "Mediterranean",
+    "loc": "158 Bridge St, Phoenixville",
+    "desc": "Mediterranean BYOB with fresh, flavorful dishes. Known for hummus, kebabs, and falafel. Cozy space perfect for a casual dinner.",
+    "vibes": [
+      "BYOB",
+      "Casual",
+      "Healthy",
+      "Mediterranean"
+    ],
+    "price": "$$",
+    "img": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=600&q=80",
+    "link": "https://sagephoenixville.com/",
+    "tags": [
+      "mediterranean",
+      "byob",
+      "healthy",
+      "bridge street"
+    ]
+  },
+  {
+    "title": "Great American Pub",
+    "cuisine": "American",
+    "loc": "148 Bridge St, Phoenixville",
+    "desc": "Classic American pub fare with a huge menu. Burgers, wings, and comfort food. Great happy hour and outdoor seating.",
+    "vibes": [
+      "Casual",
+      "Sports",
+      "Family Friendly",
+      "Happy Hour"
+    ],
+    "price": "$$",
+    "img": "https://images.unsplash.com/photo-1555992336-03a23c7b20ee?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.thegreatamericanpub.com/",
+    "tags": [
+      "american",
+      "pub",
+      "casual",
+      "family friendly",
+      "bridge street"
+    ]
+  },
+  {
+    "title": "Dim Sum Court",
+    "cuisine": "Chinese",
+    "loc": "Bridge St, Phoenixville",
+    "desc": "Authentic freshly-made dim sum and Chinese dishes right on Bridge Street. A local favorite for dumplings and noodles.",
+    "vibes": [
+      "Authentic",
+      "Casual",
+      "Quick Bite"
+    ],
+    "price": "$",
+    "img": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "chinese",
+      "dim sum",
+      "casual",
+      "bridge street"
+    ]
+  },
+  {
+    "title": "Tai Me Up",
+    "cuisine": "Thai",
+    "loc": "Bridge St, Phoenixville",
+    "desc": "Authentic Thai restaurant and bar with Pad Thai, curries, and craft cocktails. Both traditional and innovative dishes.",
+    "vibes": [
+      "Authentic",
+      "Date Night",
+      "Cocktails"
+    ],
+    "price": "$$",
+    "img": "https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "thai",
+      "asian",
+      "cocktails",
+      "bridge street"
+    ]
+  },
+  {
+    "title": "Fitzwater Station",
+    "cuisine": "BBQ",
+    "loc": "Phoenixville",
+    "desc": "A true hidden gem for BBQ lovers. Ribs, brisket, pulled pork, and all the fixings in a laid-back setting.",
+    "vibes": [
+      "BBQ",
+      "Casual",
+      "Family Friendly",
+      "Hidden Gem"
+    ],
+    "price": "$$",
+    "img": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "bbq",
+      "casual",
+      "family friendly"
+    ]
+  },
+  {
+    "title": "Root Down Brewing",
+    "cuisine": "Brewery",
+    "loc": "1 N Main St, Phoenixville",
+    "desc": "Local craft brewery with rotating taps and a chill vibe. Hosts the monthly Punk Rock Flea Market. Great outdoor space.",
+    "vibes": [
+      "Brewery",
+      "Chill",
+      "Local",
+      "Outdoor"
+    ],
+    "price": "$$",
+    "img": "https://images.unsplash.com/photo-1535958636474-b021ee887b13?auto=format&fit=crop&w=600&q=80",
+    "link": "https://rootdownbrewing.com/",
+    "tags": [
+      "brewery",
+      "craft beer",
+      "local",
+      "outdoor"
+    ]
+  },
+  {
+    "title": "Lock 29",
+    "cuisine": "American",
+    "loc": "Mont Clare (across the bridge)",
+    "desc": "Expansive outdoor decks on the banks of the Schuylkill River. Burgers, wings, sandwiches with unbeatable river views.",
+    "vibes": [
+      "Waterfront",
+      "Outdoor",
+      "Casual",
+      "Views"
+    ],
+    "price": "$$",
+    "img": "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "american",
+      "waterfront",
+      "outdoor",
+      "views"
+    ]
+  },
+  {
+    "title": "Paloma's",
+    "cuisine": "European",
+    "loc": "Bridge St, Phoenixville",
+    "desc": "Modern European restaurant and market in downtown Phoenixville. Locally sourced ingredients and seasonal menus.",
+    "vibes": [
+      "Upscale",
+      "Date Night",
+      "Farm to Table"
+    ],
+    "price": "$$$",
+    "img": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "european",
+      "upscale",
+      "date night",
+      "bridge street"
+    ]
+  },
+  {
+    "title": "PJ Ryan's",
+    "cuisine": "Irish Pub",
+    "loc": "Phoenixville",
+    "desc": "Welcoming Irish pub serving Phoenixville since 2008. Great pub food, drinks, and a warm neighborhood atmosphere.",
+    "vibes": [
+      "Pub",
+      "Casual",
+      "Neighborhood",
+      "Drinks"
+    ],
+    "price": "$$",
+    "img": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "irish",
+      "pub",
+      "casual",
+      "drinks"
+    ]
+  },
+  {
+    "title": "Soltane Cafe",
+    "cuisine": "Cafe",
+    "loc": "138 Bridge St, Phoenixville",
+    "desc": "Charming cafe with a social mission. Great coffee, pastries, and light bites. A feel-good stop on Bridge Street.",
+    "vibes": [
+      "Coffee",
+      "Casual",
+      "Community",
+      "Light Bites"
+    ],
+    "price": "$",
+    "img": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80",
+    "link": "",
+    "tags": [
+      "cafe",
+      "coffee",
+      "casual",
+      "bridge street"
+    ]
+  }
+]
