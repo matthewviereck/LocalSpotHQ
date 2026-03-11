@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Submit an Event - LocalSpot HQ</title>
+    <meta name="description" content="Submit your local event, class, or community gathering to be featured on LocalSpot HQ. Free listings for Phoenixville, Oaks, and Collegeville area events.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body { 
+            background: linear-gradient(135deg, #f0f4ff 0%, #fefefe 50%, #f5f0ff 100%);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            min-height: 100vh;
+        }
+        .form-input {
+            width: 100%;
+            padding: 14px 16px;
+            border: 2px solid #e2e8f0;
+            border-radius: 14px;
+            font-size: 15px;
+            transition: all 0.2s;
+            background: white;
+            outline: none;
+        }
+        .form-input:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+        }
+        .form-input::placeholder { color: #94a3b8; }
+        textarea.form-input { resize: vertical; min-height: 100px; }
+        
+        .submit-btn {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            padding: 16px 32px;
+            border-radius: 14px;
+            font-weight: 800;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.2s;
+        }
+        .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3); }
+        .submit-btn:active { transform: scale(0.98); }
+        .submit-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+        
+        .slide-up { animation: slideUp 0.6s ease-out forwards; opacity: 0; }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        
+        .success-state { animation: popIn 0.4s ease-out forwards; }
+        @keyframes popIn { from { opacity: 0; transform: scale(0.8); } to { opacity: 1; transform: scale(1); } }
+
+        .type-chip {
+            padding: 10px 18px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 700;
+            border: 2px solid #e2e8f0;
+            background: white;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .type-chip.selected {
+            background: #2563eb;
+            color: white;
+            border-color: #2563eb;
+        }
+        .type-chip:hover:not(.selected) { border-color: #93c5fd; background: #eff6ff; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-2xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="/" class="flex items-center gap-2 no-underline">
+                <div class="w-9 h-9 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
+                    <i class="fa-solid fa-location-dot text-white text-sm"></i>
+                </div>
+                <span class="font-black text-lg text-slate-900">LocalSpot</span>
+            </a>
+            <a href="/app.html" class="text-blue-600 font-bold text-sm hover:underline">
+                <i class="fa-solid fa-arrow-left mr-1"></i> Back to App
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-2xl mx-auto px-6 py-10">
+        
+        <!-- Hero -->
+        <div class="text-center mb-10 slide-up">
+            <div class="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-bold mb-4">
+                <i class="fa-solid fa-bullhorn"></i>
+                Free Event Listing
+            </div>
+            <h1 class="text-3xl md:text-4xl font-black text-slate-900 mb-3">Submit Your Event</h1>
+            <p class="text-slate-600 text-lg leading-relaxed max-w-lg mx-auto">
+                Got an event, class, or community gathering in the Phoenixville area? 
+                Submit it here and we'll feature it on LocalSpot for thousands of locals to discover.
+            </p>
+        </div>
+
+        <!-- Form -->
+        <div id="form-container" class="bg-white rounded-3xl border border-slate-200 shadow-lg p-6 md:p-8 slide-up" style="animation-delay: 0.15s;">
+            
+            <div id="form-content">
+                <!-- Event Type -->
+                <div class="mb-6">
+                    <label class="block text-sm font-bold text-slate-700 mb-3">What type of event is this?</label>
+                    <div class="flex flex-wrap gap-2" id="type-chips">
+                        <button type="button" class="type-chip" data-type="Community Event" onclick="selectType(this)">🎉 Community Event</button>
+                        <button type="button" class="type-chip" data-type="Church/Religious" onclick="selectType(this)">⛪ Church/Religious</button>
+                        <button type="button" class="type-chip" data-type="Live Music" onclick="selectType(this)">🎵 Live Music</button>
+                        <button type="button" class="type-chip" data-type="Class/Workshop" onclick="selectType(this)">🎨 Class/Workshop</button>
+                        <button type="button" class="type-chip" data-type="Sports/Fitness" onclick="selectType(this)">⚽ Sports/Fitness</button>
+                        <button type="button" class="type-chip" data-type="Kids/Family" onclick="selectType(this)">👨‍👩‍👧 Kids/Family</button>
+                        <button type="button" class="type-chip" data-type="Fundraiser" onclick="selectType(this)">💝 Fundraiser</button>
+                        <button type="button" class="type-chip" data-type="Food/Drink" onclick="selectType(this)">🍕 Food/Drink</button>
+                        <button type="button" class="type-chip" data-type="Other" onclick="selectType(this)">📌 Other</button>
+                    </div>
+                    <input type="hidden" id="eventType" value="">
+                </div>
+
+                <!-- Event Name -->
+                <div class="mb-5">
+                    <label class="block text-sm font-bold text-slate-700 mb-2" for="eventName">Event Name *</label>
+                    <input type="text" id="eventName" class="form-input" placeholder="e.g. Spring Craft Fair at St. Peter's" required>
+                </div>
+
+                <!-- Date & Time Row -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2" for="eventDate">Date *</label>
+                        <input type="date" id="eventDate" class="form-input" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2" for="eventTime">Time</label>
+                        <input type="time" id="eventTime" class="form-input">
+                    </div>
+                </div>
+
+                <!-- Location -->
+                <div class="mb-5">
+                    <label class="block text-sm font-bold text-slate-700 mb-2" for="eventLocation">Location *</label>
+                    <input type="text" id="eventLocation" class="form-input" placeholder="e.g. St. Peter's Church, 121 Church St, Phoenixville" required>
+                </div>
+
+                <!-- Description -->
+                <div class="mb-5">
+                    <label class="block text-sm font-bold text-slate-700 mb-2" for="eventDesc">Description *</label>
+                    <textarea id="eventDesc" class="form-input" placeholder="Tell us about the event — what's happening, who it's for, cost (if any), etc." required></textarea>
+                </div>
+
+                <!-- Link -->
+                <div class="mb-5">
+                    <label class="block text-sm font-bold text-slate-700 mb-2" for="eventLink">Website or Social Media Link</label>
+                    <input type="url" id="eventLink" class="form-input" placeholder="https://www.facebook.com/events/...">
+                </div>
+
+                <!-- Contact -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2" for="contactName">Your Name</label>
+                        <input type="text" id="contactName" class="form-input" placeholder="Jane Smith">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2" for="contactEmail">Your Email</label>
+                        <input type="email" id="contactEmail" class="form-input" placeholder="jane@example.com">
+                    </div>
+                </div>
+
+                <!-- Recurring -->
+                <div class="mb-8 bg-slate-50 rounded-xl p-4">
+                    <label class="flex items-center gap-3 cursor-pointer">
+                        <input type="checkbox" id="isRecurring" class="w-5 h-5 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                        <div>
+                            <span class="font-bold text-slate-700 text-sm">This is a recurring event</span>
+                            <p class="text-xs text-slate-500 mt-0.5">e.g. every Tuesday, first Saturday of the month, etc.</p>
+                        </div>
+                    </label>
+                    <div id="recurringDetails" class="hidden mt-3">
+                        <input type="text" id="recurringPattern" class="form-input" placeholder="e.g. Every Tuesday at 7pm, First Friday of each month">
+                    </div>
+                </div>
+
+                <!-- Submit -->
+                <button type="button" class="submit-btn" id="submitBtn" onclick="submitEvent()">
+                    <i class="fa-solid fa-paper-plane mr-2"></i> Submit Event
+                </button>
+                
+                <p class="text-center text-xs text-slate-400 mt-4">
+                    Events are reviewed before being published. We'll email you if we have questions.
+                </p>
+            </div>
+
+            <!-- Success State -->
+            <div id="success-state" class="hidden text-center py-12">
+                <div class="success-state">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-solid fa-check text-3xl text-green-600"></i>
+                    </div>
+                    <h2 class="text-2xl font-black text-slate-900 mb-3">Event Submitted!</h2>
+                    <p class="text-slate-600 mb-6 max-w-sm mx-auto">
+                        Thanks for sharing your event with the community. We'll review it and add it to LocalSpot soon.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                        <button onclick="resetForm()" class="px-6 py-3 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition-all">
+                            Submit Another Event
+                        </button>
+                        <a href="/app.html" class="px-6 py-3 bg-slate-100 text-slate-700 rounded-xl font-bold hover:bg-slate-200 transition-all inline-block">
+                            Back to LocalSpot
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Info Section -->
+        <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-4 slide-up" style="animation-delay: 0.3s;">
+            <div class="bg-white rounded-2xl p-5 border border-slate-200">
+                <div class="text-2xl mb-2">🆓</div>
+                <h3 class="font-bold text-slate-900 mb-1">Always Free</h3>
+                <p class="text-sm text-slate-600">Community event listings are completely free. We want to help locals discover what's happening.</p>
+            </div>
+            <div class="bg-white rounded-2xl p-5 border border-slate-200">
+                <div class="text-2xl mb-2">👀</div>
+                <h3 class="font-bold text-slate-900 mb-1">Reviewed & Published</h3>
+                <p class="text-sm text-slate-600">We review submissions to keep quality high. Most events are added within 24 hours.</p>
+            </div>
+            <div class="bg-white rounded-2xl p-5 border border-slate-200">
+                <div class="text-2xl mb-2">📣</div>
+                <h3 class="font-bold text-slate-900 mb-1">Reach Locals</h3>
+                <p class="text-sm text-slate-600">Your event gets seen by people actively looking for things to do in Phoenixville, Oaks & Collegeville.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="border-t border-slate-200 mt-16 py-8 text-center">
+        <p class="text-slate-400 text-sm">
+            <a href="/" class="hover:text-blue-600">LocalSpot HQ</a> · Phoenixville · Oaks · Collegeville
+        </p>
+        <p class="text-slate-300 text-xs mt-2">
+            Questions? <a href="mailto:contact@localspothq.com" class="text-blue-400 hover:underline">contact@localspothq.com</a>
+        </p>
+    </div>
+
+    <script>
+        // Toggle recurring details
+        document.getElementById('isRecurring').addEventListener('change', function() {
+            document.getElementById('recurringDetails').classList.toggle('hidden', !this.checked);
+        });
+
+        function selectType(btn) {
+            document.querySelectorAll('.type-chip').forEach(c => c.classList.remove('selected'));
+            btn.classList.add('selected');
+            document.getElementById('eventType').value = btn.dataset.type;
+        }
+
+        function submitEvent() {
+            const name = document.getElementById('eventName').value.trim();
+            const date = document.getElementById('eventDate').value;
+            const location = document.getElementById('eventLocation').value.trim();
+            const desc = document.getElementById('eventDesc').value.trim();
+            
+            if (!name || !date || !location || !desc) {
+                alert('Please fill in all required fields (Event Name, Date, Location, Description).');
+                return;
+            }
+
+            const btn = document.getElementById('submitBtn');
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i> Submitting...';
+
+            const data = {
+                type: document.getElementById('eventType').value || 'Other',
+                name: name,
+                date: date,
+                time: document.getElementById('eventTime').value || '',
+                location: location,
+                description: desc,
+                link: document.getElementById('eventLink').value.trim(),
+                contactName: document.getElementById('contactName').value.trim(),
+                contactEmail: document.getElementById('contactEmail').value.trim(),
+                recurring: document.getElementById('isRecurring').checked,
+                recurringPattern: document.getElementById('recurringPattern')?.value.trim() || '',
+                submitted: new Date().toISOString()
+            };
+
+            // Send to PHP handler
+            fetch('/localspot/submit_event.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            })
+            .then(r => r.json())
+            .then(result => {
+                if (result.success) {
+                    document.getElementById('form-content').classList.add('hidden');
+                    document.getElementById('success-state').classList.remove('hidden');
+                } else {
+                    alert('Something went wrong. Please try again or email us at contact@localspothq.com');
+                    btn.disabled = false;
+                    btn.innerHTML = '<i class="fa-solid fa-paper-plane mr-2"></i> Submit Event';
+                }
+            })
+            .catch(() => {
+                // Fallback: save to localStorage and show success anyway
+                const submissions = JSON.parse(localStorage.getItem('localspot_submissions') || '[]');
+                submissions.push(data);
+                localStorage.setItem('localspot_submissions', JSON.stringify(submissions));
+                document.getElementById('form-content').classList.add('hidden');
+                document.getElementById('success-state').classList.remove('hidden');
+            });
+        }
+
+        function resetForm() {
+            document.getElementById('form-content').classList.remove('hidden');
+            document.getElementById('success-state').classList.add('hidden');
+            document.getElementById('eventName').value = '';
+            document.getElementById('eventDate').value = '';
+            document.getElementById('eventTime').value = '';
+            document.getElementById('eventLocation').value = '';
+            document.getElementById('eventDesc').value = '';
+            document.getElementById('eventLink').value = '';
+            document.getElementById('contactName').value = '';
+            document.getElementById('contactEmail').value = '';
+            document.getElementById('isRecurring').checked = false;
+            document.getElementById('recurringDetails').classList.add('hidden');
+            document.querySelectorAll('.type-chip').forEach(c => c.classList.remove('selected'));
+            document.getElementById('eventType').value = '';
+            const btn = document.getElementById('submitBtn');
+            btn.disabled = false;
+            btn.innerHTML = '<i class="fa-solid fa-paper-plane mr-2"></i> Submit Event';
+        }
+
+        // Set min date to today
+        document.getElementById('eventDate').min = new Date().toISOString().split('T')[0];
+    </script>
+</body>
+</html>

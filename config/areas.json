@@ -1,0 +1,16 @@
+{
+  "areas": [
+    {
+      "id": "phoenixville",
+      "name": "Phoenixville",
+      "slug": "phoenixville",
+      "enabled": true
+    },
+    {
+      "id": "west_chester",
+      "name": "West Chester",
+      "slug": "west-chester",
+      "enabled": false
+    }
+  ]
+}

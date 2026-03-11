@@ -1,0 +1,42 @@
+{
+  "id": "phoenixville",
+  "name": "Phoenixville",
+  "slug": "phoenixville",
+  "tagline": "Phoenixville \u2022 Oaks \u2022 Collegeville",
+  "meta": {
+    "title": "LocalSpot - Phoenixville Events, Dining & Activities",
+    "description": "Your guide to events, restaurants, and things to do in Phoenixville, Oaks, and Collegeville PA.",
+    "keywords": "Phoenixville events, Phoenixville restaurants, things to do Phoenixville PA, Oaks events, Collegeville dining",
+    "og_image": "https://images.unsplash.com/photo-1572979929837-149ee617c06c?auto=format&fit=crop&w=1200&q=80",
+    "canonical_url": "https://www.localspothq.com/phoenixville/"
+  },
+  "scrapers": [
+    {
+      "module": "scrapers.colonial_theatre",
+      "function": "scrape_colonial",
+      "output_file": "scraped/colonial_events.json"
+    },
+    {
+      "module": "scrapers.philly_expo",
+      "function": "scrape_oaks",
+      "output_file": "scraped/oaks_events.json"
+    }
+  ],
+  "recurring_events": {
+    "config_file": "recurring_events_config.json",
+    "output_file": "recurring_events.json"
+  },
+  "static_data": {
+    "dining": "dining.json",
+    "outings": "outings.json",
+    "plans": "plans.json"
+  },
+  "merge_sources": [
+    "scraped/colonial_events.json",
+    "scraped/oaks_events.json",
+    "recurring_events.json"
+  ],
+  "deploy": {
+    "remote_path": "phoenixville/index.html"
+  }
+}

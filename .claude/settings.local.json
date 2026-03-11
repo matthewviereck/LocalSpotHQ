@@ -3,7 +3,9 @@
     "allow": [
       "Bash(git init)",
       "Bash(git add -A)",
-      "Bash(git commit -m \"Initial commit: current state before multi-area refactor\")"
+      "Bash(git commit -m \"Initial commit: current state before multi-area refactor\")",
+      "Bash(python pipeline/run.py --area phoenixville)",
+      "Bash(git add config/ pipeline/ scrapers/ data/phoenixville/dining.json data/phoenixville/outings.json data/phoenixville/plans.json data/phoenixville/recurring_events_config.json templates/ web/ deploy/ archive/ .gitignore)"
     ]
   }
 }
