@@ -20,6 +20,16 @@
       "module": "scrapers.philly_expo",
       "function": "scrape_oaks",
       "output_file": "scraped/oaks_events.json"
+    },
+    {
+      "module": "scrapers.steel_city",
+      "function": "scrape_steel_city",
+      "output_file": "scraped/steel_city_events.json"
+    },
+    {
+      "module": "scrapers.molly_maguires",
+      "function": "scrape_molly_maguires",
+      "output_file": "scraped/molly_maguires_events.json"
     }
   ],
   "recurring_events": {
@@ -34,6 +44,8 @@
   "merge_sources": [
     "scraped/colonial_events.json",
     "scraped/oaks_events.json",
+    "scraped/steel_city_events.json",
+    "scraped/molly_maguires_events.json",
     "recurring_events.json"
   ],
   "deploy": {
