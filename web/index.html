@@ -117,9 +117,18 @@
                     <!-- Phoenixville -->
                     <a href="/phoenixville/" class="area-card bg-white rounded-3xl border border-slate-200 shadow-lg block">
                         <div class="h-48 md:h-56 overflow-hidden rounded-t-3xl relative">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Colonial_Theatre_Phoenixville.jpg/1280px-Colonial_Theatre_Phoenixville.jpg"
-                                 alt="The Colonial Theatre on Bridge Street in downtown Phoenixville, PA"
-                                 class="area-img w-full h-full object-cover">
+                            <!-- Replace src with your own photo: images/phoenixville.jpg -->
+                            <img src="images/phoenixville.jpg"
+                                 alt="Downtown Phoenixville, PA - Bridge Street and the Colonial Theatre"
+                                 class="area-img w-full h-full object-cover"
+                                 onerror="this.style.display='none'">
+                            <!-- Fallback gradient shown when image is missing -->
+                            <div class="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center -z-10">
+                                <div class="text-center text-white/80">
+                                    <i class="fa-solid fa-film text-5xl mb-2"></i>
+                                    <p class="text-sm font-bold">Bridge Street &bull; Colonial Theatre</p>
+                                </div>
+                            </div>
                             <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                             <div class="absolute bottom-4 left-5">
                                 <span class="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">LIVE</span>
@@ -139,9 +148,18 @@
                     <!-- West Chester -->
                     <a href="/west-chester/" class="area-card bg-white rounded-3xl border border-slate-200 shadow-lg block">
                         <div class="h-48 md:h-56 overflow-hidden rounded-t-3xl relative">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/West_Chester_-_Gay_Street_1.jpg/1280px-West_Chester_-_Gay_Street_1.jpg"
-                                 alt="Gay Street in downtown West Chester, PA with historic buildings and shops"
-                                 class="area-img w-full h-full object-cover">
+                            <!-- Replace src with your own photo: images/west-chester.jpg -->
+                            <img src="images/west-chester.jpg"
+                                 alt="Downtown West Chester, PA - Gay Street historic district"
+                                 class="area-img w-full h-full object-cover"
+                                 onerror="this.style.display='none'">
+                            <!-- Fallback gradient shown when image is missing -->
+                            <div class="absolute inset-0 bg-gradient-to-br from-emerald-500 to-emerald-700 flex items-center justify-center -z-10">
+                                <div class="text-center text-white/80">
+                                    <i class="fa-solid fa-landmark text-5xl mb-2"></i>
+                                    <p class="text-sm font-bold">Gay Street &bull; Historic Courthouse</p>
+                                </div>
+                            </div>
                             <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                             <div class="absolute bottom-4 left-5">
                                 <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">NEW</span>
