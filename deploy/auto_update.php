@@ -512,22 +512,6 @@ function scrapeSteelCity() {
     ];
     $venueUrl = 'https://www.steelcityphx.com/concerts-and-events';
 
-    // Try Bandsintown API first (venue ID 10008291)
-    $events = scrapeBandsintownVenue('10008291', $venueInfo, $venueUrl, 'sc_', ['Live Music', 'Coffeehouse', 'Brewery']);
-    if ($events !== false && count($events) > 0) {
-        logMsg("  SUCCESS: Scraped " . count($events) . " Steel City events (via Bandsintown)");
-        return $events;
-    }
-
-    // Try Squarespace JSON API
-    $events = scrapeSquarespaceJson($venueUrl, $venueInfo, 'sc_', ['Live Music', 'Coffeehouse', 'Brewery']);
-    if ($events !== false && count($events) > 0) {
-        logMsg("  SUCCESS: Scraped " . count($events) . " Steel City events (via Squarespace JSON)");
-        return $events;
-    }
-
-    // Fallback: direct HTML scrape
-    $events = [];
     $context = stream_context_create([
         'http' => [
             'header' => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\nAccept: text/html,application/xhtml+xml\r\n",
@@ -536,65 +520,102 @@ function scrapeSteelCity() {
     ]);
 
     $html = @file_get_contents($venueUrl, false, $context);
-
     if ($html === false) {
         logMsg("  WARNING: Could not connect to Steel City website");
         return false;
     }
 
-    $doc = new DOMDocument();
-    @$doc->loadHTML($html);
-    $xpath = new DOMXPath($doc);
+    $events = [];
 
-    $eventCards = $xpath->query("//article[contains(@class, 'eventlist-event')]");
-    if ($eventCards->length === 0) {
-        $eventCards = $xpath->query("//div[contains(@class, 'summary-item')]");
-    }
-    if ($eventCards->length === 0) {
-        $eventCards = $xpath->query("//main//article");
-    }
-    logMsg("  Found {$eventCards->length} events (HTML fallback)");
+    // Steel City uses Square Online — event data is in __BOOTSTRAP_STATE__ JSON
+    if (preg_match('/window\.__BOOTSTRAP_STATE__\s*=\s*(\{.+?\});\s*<\/script>/s', $html, $matches)) {
+        $bootstrap = json_decode($matches[1], true);
+        if ($bootstrap) {
+            $cells = $bootstrap['page']['properties']['contentAreas']['userContent']['content']['cells'] ?? [];
+            logMsg("  Parsing Square Online bootstrap data (" . count($cells) . " content blocks)");
 
-    foreach ($eventCards as $card) {
-        try {
-            $titleNodes = $xpath->query(".//h1 | .//h2 | .//h3 | .//a[contains(@class, 'eventlist-title-link')]", $card);
-            $title = $titleNodes->length > 0 ? trim($titleNodes->item(0)->textContent) : null;
-            if (!$title) continue;
+            foreach ($cells as $cell) {
+                $repeatables = $cell['content']['properties']['repeatables'] ?? [];
+                $layout = $cell['content']['layout'] ?? '';
 
-            $linkNodes = $xpath->query(".//a[@href]", $card);
-            $link = $venueUrl;
-            if ($linkNodes->length > 0) {
-                $link = $linkNodes->item(0)->getAttribute('href');
-                if (strpos($link, '/') === 0) {
-                    $link = 'https://www.steelcityphx.com' . $link;
+                // Only process text-and-image blocks (event listings)
+                if (strpos($layout, 'text-and-image') === false) continue;
+
+                foreach ($repeatables as $rep) {
+                    // Extract title from quill ops
+                    $titleOps = $rep['title']['content']['quill']['ops'] ?? $rep['title']['title']['quill']['ops'] ?? [];
+                    $title = '';
+                    foreach ($titleOps as $op) {
+                        $insert = trim($op['insert'] ?? '');
+                        if ($insert && $insert !== "\n") {
+                            $title .= ($title ? ' ' : '') . $insert;
+                        }
+                    }
+                    $title = trim(preg_replace('/\s+/', ' ', $title));
+                    if (!$title) continue;
+
+                    // Extract date and price from text content
+                    $textOps = $rep['text']['content']['quill']['ops'] ?? [];
+                    $fullText = '';
+                    foreach ($textOps as $op) {
+                        $fullText .= $op['insert'] ?? '';
+                    }
+
+                    // Parse date
+                    $dateText = 'Check website';
+                    if (preg_match('/((?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)[,:\s]+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(?:st|nd|rd|th)?)/i', $fullText, $dm)) {
+                        $dateText = trim(preg_replace('/[,:\s]+/', ' ', $dm[1]));
+                    }
+
+                    // Parse time
+                    if (preg_match('/(\d{1,2}:\d{2}\s*(?:am|pm))/i', $fullText, $tm)) {
+                        $dateText .= ' ' . trim($tm[1]);
+                    }
+
+                    // Parse price
+                    $price = 'Check Link';
+                    if (preg_match('/\$(\d+)\s+(?:Advance|GA|General)/i', $fullText, $pm)) {
+                        $price = '$' . $pm[1];
+                    } elseif (preg_match('/\$(\d+)/i', $fullText, $pm)) {
+                        $price = '$' . $pm[1];
+                    }
+
+                    // Get image
+                    $imgSrc = '';
+                    if (!empty($rep['image']['figure']['source'])) {
+                        $src = $rep['image']['figure']['source'];
+                        if (strpos($src, 'http') !== 0) {
+                            $src = 'https://www.steelcityphx.com' . $src;
+                        }
+                        $imgSrc = $src;
+                    }
+
+                    // Check sold out
+                    $soldOut = (stripos($title, 'SOLD OUT') !== false);
+                    $cleanTitle = trim(preg_replace('/SOLD OUT!*\s*/i', '', $title));
+
+                    $events[] = [
+                        'id' => 'sc_' . abs(crc32($cleanTitle . $dateText)),
+                        'type' => 'event',
+                        'title' => $cleanTitle,
+                        'venue_info' => $venueInfo,
+                        'raw_date_string' => $dateText,
+                        'attributes' => [
+                            'category' => 'Live Music',
+                            'vibes' => ['Live Music', 'Coffeehouse', 'Brewery'],
+                            'price' => $soldOut ? 'Sold Out' : $price
+                        ],
+                        'media' => ['image' => $imgSrc],
+                        'action_link' => $venueUrl
+                    ];
+                    logMsg("  + " . $cleanTitle . " (" . $dateText . ")");
                 }
             }
-
-            $dateNodes = $xpath->query(".//time | .//span[contains(@class, 'date')]", $card);
-            $dateText = 'Check website';
-            if ($dateNodes->length > 0) {
-                $dateEl = $dateNodes->item(0);
-                $dateText = $dateEl->getAttribute('datetime') ?: trim($dateEl->textContent);
-            }
-
-            $events[] = [
-                'id' => 'sc_' . abs(crc32($title)),
-                'type' => 'event',
-                'title' => $title,
-                'venue_info' => $venueInfo,
-                'raw_date_string' => $dateText,
-                'attributes' => [
-                    'category' => 'Live Music',
-                    'vibes' => ['Live Music', 'Coffeehouse', 'Brewery'],
-                    'price' => 'Check Link'
-                ],
-                'media' => ['image' => ''],
-                'action_link' => $link
-            ];
-
-        } catch (Exception $e) {
-            logMsg("  WARNING: Error parsing Steel City event: " . $e->getMessage());
         }
+    }
+
+    if (empty($events)) {
+        logMsg("  WARNING: Could not parse Square Online data");
     }
 
     logMsg("  SUCCESS: Scraped " . count($events) . " Steel City events");
