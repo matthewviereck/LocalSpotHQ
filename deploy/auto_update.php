@@ -58,6 +58,123 @@ function logMsg($message) {
 }
 
 // ============================================================
+// SHARED HELPERS: BANDSINTOWN & SQUARESPACE APIS
+// ============================================================
+
+function scrapeBandsintownVenue($venueId, $venueInfo, $fallbackUrl, $idPrefix, $defaultVibes) {
+    $url = "https://rest.bandsintown.com/v4/venues/{$venueId}/events?app_id=LocalSpotHQ&date=upcoming";
+
+    $context = stream_context_create([
+        'http' => [
+            'header' => "User-Agent: LocalSpotHQ/1.0\r\nAccept: application/json\r\n",
+            'timeout' => 15
+        ]
+    ]);
+
+    $json = @file_get_contents($url, false, $context);
+    if ($json === false) {
+        logMsg("  Bandsintown API unavailable for venue {$venueId}");
+        return false;
+    }
+
+    $data = json_decode($json, true);
+    if (!is_array($data) || empty($data)) {
+        logMsg("  No events from Bandsintown for venue {$venueId}");
+        return [];
+    }
+
+    $events = [];
+    foreach ($data as $item) {
+        $artist = $item['lineup'][0] ?? ($item['artist']['name'] ?? '');
+        $title = $item['title'] ?? $artist;
+        if (!$title) continue;
+
+        $datetime = $item['datetime'] ?? '';
+        $dateText = $datetime ? date('F j, Y g:i A', strtotime($datetime)) : 'Check website';
+
+        $ticketUrl = $item['url'] ?? $item['ticket_url'] ?? $fallbackUrl;
+
+        $imgSrc = '';
+        if (!empty($item['artist']['thumb_url'])) {
+            $imgSrc = $item['artist']['thumb_url'];
+        } elseif (!empty($item['artist']['image_url'])) {
+            $imgSrc = $item['artist']['image_url'];
+        }
+
+        $events[] = [
+            'id' => $idPrefix . abs(crc32($title . $dateText)),
+            'type' => 'event',
+            'title' => $title,
+            'venue_info' => $venueInfo,
+            'raw_date_string' => $dateText,
+            'attributes' => [
+                'category' => 'Live Music',
+                'vibes' => $defaultVibes,
+                'price' => 'Check Link'
+            ],
+            'media' => ['image' => $imgSrc],
+            'action_link' => $ticketUrl
+        ];
+        logMsg("  + {$title} ({$dateText})");
+    }
+
+    return $events;
+}
+
+function scrapeSquarespaceJson($baseUrl, $venueInfo, $idPrefix, $defaultVibes) {
+    $jsonUrl = $baseUrl . '?format=json';
+
+    $context = stream_context_create([
+        'http' => [
+            'header' => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\r\nAccept: application/json\r\n",
+            'timeout' => 15
+        ]
+    ]);
+
+    $json = @file_get_contents($jsonUrl, false, $context);
+    if ($json === false) return false;
+
+    $data = json_decode($json, true);
+    if (!$data) return false;
+
+    $items = $data['items'] ?? $data['upcoming'] ?? [];
+    if (empty($items)) return false;
+
+    $events = [];
+    foreach ($items as $item) {
+        $title = trim($item['title'] ?? '');
+        if (!$title) continue;
+
+        $startDate = $item['startDate'] ?? $item['publishOn'] ?? '';
+        $dateText = $startDate ? date('F j, Y g:i A', strtotime($startDate / 1000)) : 'Check website';
+
+        $fullUrl = $item['fullUrl'] ?? $item['urlId'] ?? '';
+        if ($fullUrl && strpos($fullUrl, 'http') !== 0) {
+            $fullUrl = 'https://www.steelcityphx.com' . $fullUrl;
+        }
+
+        $imgSrc = $item['assetUrl'] ?? '';
+
+        $events[] = [
+            'id' => $idPrefix . abs(crc32($title)),
+            'type' => 'event',
+            'title' => $title,
+            'venue_info' => $venueInfo,
+            'raw_date_string' => $dateText,
+            'attributes' => [
+                'category' => 'Live Music',
+                'vibes' => $defaultVibes,
+                'price' => 'Check Link'
+            ],
+            'media' => ['image' => $imgSrc],
+            'action_link' => $fullUrl ?: $baseUrl
+        ];
+    }
+
+    return $events;
+}
+
+// ============================================================
 // STEP 0: GIT PULL LATEST CODE
 // ============================================================
 
@@ -389,17 +506,36 @@ function scrapeOaks() {
 function scrapeSteelCity() {
     logMsg("STEP 4: Scraping Steel City Coffeehouse...");
 
-    $url = 'https://www.steelcityphx.com/concerts-and-events';
-    $events = [];
+    $venueInfo = [
+        'name' => 'Steel City Coffeehouse & Brewery',
+        'location' => ['lat' => 40.1305, 'lng' => -75.5148]
+    ];
+    $venueUrl = 'https://www.steelcityphx.com/concerts-and-events';
 
+    // Try Bandsintown API first (venue ID 10008291)
+    $events = scrapeBandsintownVenue('10008291', $venueInfo, $venueUrl, 'sc_', ['Live Music', 'Coffeehouse', 'Brewery']);
+    if ($events !== false && count($events) > 0) {
+        logMsg("  SUCCESS: Scraped " . count($events) . " Steel City events (via Bandsintown)");
+        return $events;
+    }
+
+    // Try Squarespace JSON API
+    $events = scrapeSquarespaceJson($venueUrl, $venueInfo, 'sc_', ['Live Music', 'Coffeehouse', 'Brewery']);
+    if ($events !== false && count($events) > 0) {
+        logMsg("  SUCCESS: Scraped " . count($events) . " Steel City events (via Squarespace JSON)");
+        return $events;
+    }
+
+    // Fallback: direct HTML scrape
+    $events = [];
     $context = stream_context_create([
         'http' => [
-            'header' => "User-Agent: Mozilla/5.0\r\n",
+            'header' => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\nAccept: text/html,application/xhtml+xml\r\n",
             'timeout' => 30
         ]
     ]);
 
-    $html = @file_get_contents($url, false, $context);
+    $html = @file_get_contents($venueUrl, false, $context);
 
     if ($html === false) {
         logMsg("  WARNING: Could not connect to Steel City website");
@@ -410,28 +546,23 @@ function scrapeSteelCity() {
     @$doc->loadHTML($html);
     $xpath = new DOMXPath($doc);
 
-    // Squarespace eventlist format
     $eventCards = $xpath->query("//article[contains(@class, 'eventlist-event')]");
     if ($eventCards->length === 0) {
-        // Fallback: summary block format
         $eventCards = $xpath->query("//div[contains(@class, 'summary-item')]");
     }
     if ($eventCards->length === 0) {
-        // Fallback: any article in main
         $eventCards = $xpath->query("//main//article");
     }
-    logMsg("  Found {$eventCards->length} events");
+    logMsg("  Found {$eventCards->length} events (HTML fallback)");
 
     foreach ($eventCards as $card) {
         try {
-            // Title
-            $titleNodes = $xpath->query(".//h1[contains(@class, 'eventlist-title')] | .//h2[contains(@class, 'eventlist-title')] | .//a[contains(@class, 'eventlist-title-link')] | .//h1 | .//h2 | .//h3", $card);
+            $titleNodes = $xpath->query(".//h1 | .//h2 | .//h3 | .//a[contains(@class, 'eventlist-title-link')]", $card);
             $title = $titleNodes->length > 0 ? trim($titleNodes->item(0)->textContent) : null;
             if (!$title) continue;
 
-            // Link
-            $linkNodes = $xpath->query(".//a[contains(@class, 'eventlist-title-link')] | .//a[contains(@class, 'eventlist-button')] | .//a[@href]", $card);
-            $link = '#';
+            $linkNodes = $xpath->query(".//a[@href]", $card);
+            $link = $venueUrl;
             if ($linkNodes->length > 0) {
                 $link = $linkNodes->item(0)->getAttribute('href');
                 if (strpos($link, '/') === 0) {
@@ -439,37 +570,25 @@ function scrapeSteelCity() {
                 }
             }
 
-            // Date
-            $dateNodes = $xpath->query(".//time[contains(@class, 'event-date')] | .//time | .//span[contains(@class, 'eventlist-datetag-startdate')] | .//li[contains(@class, 'eventlist-meta-date')]", $card);
+            $dateNodes = $xpath->query(".//time | .//span[contains(@class, 'date')]", $card);
             $dateText = 'Check website';
             if ($dateNodes->length > 0) {
                 $dateEl = $dateNodes->item(0);
                 $dateText = $dateEl->getAttribute('datetime') ?: trim($dateEl->textContent);
             }
 
-            // Image
-            $imgNodes = $xpath->query(".//img", $card);
-            $imgSrc = '';
-            if ($imgNodes->length > 0) {
-                $img = $imgNodes->item(0);
-                $imgSrc = $img->getAttribute('data-src') ?: $img->getAttribute('src');
-            }
-
             $events[] = [
                 'id' => 'sc_' . abs(crc32($title)),
                 'type' => 'event',
                 'title' => $title,
-                'venue_info' => [
-                    'name' => 'Steel City Coffeehouse & Brewery',
-                    'location' => ['lat' => 40.1305, 'lng' => -75.5148]
-                ],
+                'venue_info' => $venueInfo,
                 'raw_date_string' => $dateText,
                 'attributes' => [
                     'category' => 'Live Music',
                     'vibes' => ['Live Music', 'Coffeehouse', 'Brewery'],
                     'price' => 'Check Link'
                 ],
-                'media' => ['image' => $imgSrc],
+                'media' => ['image' => ''],
                 'action_link' => $link
             ];
 
@@ -489,17 +608,44 @@ function scrapeSteelCity() {
 function scrapeMollyMaguires() {
     logMsg("STEP 5: Scraping Molly Maguire's...");
 
-    $url = 'https://www.mollymaguiresphoenixville.com/events/';
-    $events = [];
+    $venueInfo = [
+        'name' => "Molly Maguire's Irish Pub",
+        'location' => ['lat' => 40.1317, 'lng' => -75.5149]
+    ];
+    $venueUrl = 'https://www.mollymaguiresphoenixville.com/events/';
 
+    // Try Bandsintown API first (venue ID 10131755)
+    $events = scrapeBandsintownVenue('10131755', $venueInfo, $venueUrl, 'mm_', ['Live Music', 'Irish Pub']);
+    if ($events !== false && count($events) > 0) {
+        // Categorize Molly's events by title keywords
+        foreach ($events as &$event) {
+            $titleLower = strtolower($event['title']);
+            if (preg_match('/karaoke|dj|dance/', $titleLower)) {
+                $event['attributes']['category'] = 'Nightlife';
+                $event['attributes']['vibes'] = ['Nightlife', 'Irish Pub'];
+            } elseif (preg_match('/trivia|quiz/', $titleLower)) {
+                $event['attributes']['category'] = 'Trivia';
+                $event['attributes']['vibes'] = ['Trivia', 'Irish Pub'];
+            } elseif (preg_match('/irish session|trad/', $titleLower)) {
+                $event['attributes']['category'] = 'Irish Music';
+                $event['attributes']['vibes'] = ['Irish Music', 'Traditional', 'Irish Pub'];
+            }
+        }
+        unset($event);
+        logMsg("  SUCCESS: Scraped " . count($events) . " Molly Maguire's events (via Bandsintown)");
+        return $events;
+    }
+
+    // Fallback: direct HTML scrape
+    $events = [];
     $context = stream_context_create([
         'http' => [
-            'header' => "User-Agent: Mozilla/5.0\r\n",
+            'header' => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\nAccept: text/html,application/xhtml+xml\r\n",
             'timeout' => 30
         ]
     ]);
 
-    $html = @file_get_contents($url, false, $context);
+    $html = @file_get_contents($venueUrl, false, $context);
 
     if ($html === false) {
         logMsg("  WARNING: Could not connect to Molly Maguire's website");
@@ -510,15 +656,13 @@ function scrapeMollyMaguires() {
     @$doc->loadHTML($html);
     $xpath = new DOMXPath($doc);
 
-    // Try multiple selectors for event containers
     $selectors = [
         "//div[contains(@class, 'event-item')]",
         "//div[contains(@class, 'event-card')]",
         "//article[contains(@class, 'event')]",
-        "//div[contains(@class, 'tribe-events-calendar-list__event')]",
-        "//article[contains(@class, 'tribe_events')]",
-        "//div[contains(@class, 'event')]",
+        "//div[contains(@class, 'tribe-events')]",
         "//div[contains(@class, 'summary-item')]",
+        "//main//article",
     ];
 
     $eventCards = null;
@@ -530,25 +674,18 @@ function scrapeMollyMaguires() {
         }
     }
 
-    if (!$eventCards || $eventCards->length === 0) {
-        // Last resort: articles in main
-        $eventCards = $xpath->query("//main//article");
-    }
-
     $cardCount = $eventCards ? $eventCards->length : 0;
-    logMsg("  Found {$cardCount} events");
+    logMsg("  Found {$cardCount} events (HTML fallback)");
 
     if ($eventCards) {
         foreach ($eventCards as $card) {
             try {
-                // Title
                 $titleNodes = $xpath->query(".//h2 | .//h3 | .//h1", $card);
                 $title = $titleNodes->length > 0 ? trim($titleNodes->item(0)->textContent) : null;
                 if (!$title) continue;
 
-                // Link
                 $linkNodes = $xpath->query(".//a[@href]", $card);
-                $link = $url;
+                $link = $venueUrl;
                 if ($linkNodes->length > 0) {
                     $link = $linkNodes->item(0)->getAttribute('href');
                     if (strpos($link, '/') === 0) {
@@ -556,23 +693,13 @@ function scrapeMollyMaguires() {
                     }
                 }
 
-                // Date
-                $dateNodes = $xpath->query(".//time | .//span[contains(@class, 'date')] | .//div[contains(@class, 'date')]", $card);
+                $dateNodes = $xpath->query(".//time | .//span[contains(@class, 'date')]", $card);
                 $dateText = 'Check website';
                 if ($dateNodes->length > 0) {
                     $dateEl = $dateNodes->item(0);
                     $dateText = $dateEl->getAttribute('datetime') ?: trim($dateEl->textContent);
                 }
 
-                // Image
-                $imgNodes = $xpath->query(".//img", $card);
-                $imgSrc = '';
-                if ($imgNodes->length > 0) {
-                    $img = $imgNodes->item(0);
-                    $imgSrc = $img->getAttribute('data-src') ?: $img->getAttribute('src');
-                }
-
-                // Categorize by title keywords
                 $titleLower = strtolower($title);
                 if (preg_match('/karaoke|dj|dance/', $titleLower)) {
                     $category = 'Nightlife';
@@ -592,17 +719,14 @@ function scrapeMollyMaguires() {
                     'id' => 'mm_' . abs(crc32($title . $dateText)),
                     'type' => 'event',
                     'title' => $title,
-                    'venue_info' => [
-                        'name' => "Molly Maguire's Irish Pub",
-                        'location' => ['lat' => 40.1317, 'lng' => -75.5149]
-                    ],
+                    'venue_info' => $venueInfo,
                     'raw_date_string' => $dateText,
                     'attributes' => [
                         'category' => $category,
                         'vibes' => $vibes,
                         'price' => 'Check Link'
                     ],
-                    'media' => ['image' => $imgSrc],
+                    'media' => ['image' => ''],
                     'action_link' => $link
                 ];
 
