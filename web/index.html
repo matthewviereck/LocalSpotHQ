@@ -3,68 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>LocalSpot HQ - Discover Phoenixville Events, Dining & Activities</title>
-    <meta name="description" content="Your guide to events, dining, and experiences in Phoenixville, Oaks, and Collegeville. Find curated day plans and local favorites. 100+ events, 19 restaurants, 27 activities, 16 curated plans.">
-    <meta name="keywords" content="Phoenixville events, Phoenixville restaurants, things to do Phoenixville, Oaks PA, Collegeville PA, local events, date night ideas, family activities, Chester County">
+    <title>LocalSpot HQ - Discover Local Events, Dining & Activities</title>
+    <meta name="description" content="Your guide to events, dining, and experiences in Phoenixville, West Chester, and Chester County PA. 170+ events, 61 restaurants, 45 activities, 26 curated plans.">
+    <meta name="keywords" content="Phoenixville events, West Chester events, Chester County restaurants, things to do Phoenixville, things to do West Chester, local events PA">
     <meta name="author" content="LocalSpot HQ">
-    
+    <meta name="robots" content="index, follow">
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.localspothq.com/">
-    <meta property="og:title" content="LocalSpot HQ - Discover Phoenixville & Beyond">
-    <meta property="og:description" content="Your guide to events, dining, and experiences in Phoenixville, Oaks, and Collegeville. Find curated day plans and local favorites.">
+    <meta property="og:title" content="LocalSpot HQ - Discover Local Events, Dining & Activities">
+    <meta property="og:description" content="Your guide to events, dining, and experiences in Phoenixville, West Chester, and Chester County PA.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1572979929837-149ee617c06c?auto=format&fit=crop&w=1200&q=80">
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://www.localspothq.com/">
-    <meta name="twitter:title" content="LocalSpot HQ - Discover Phoenixville & Beyond">
-    <meta name="twitter:description" content="Your guide to events, dining, and experiences in Phoenixville, Oaks, and Collegeville.">
+    <meta name="twitter:title" content="LocalSpot HQ - Discover Local Events, Dining & Activities">
+    <meta name="twitter:description" content="Your guide to events, dining, and experiences in Phoenixville, West Chester, and Chester County PA.">
     <meta name="twitter:image" content="https://images.unsplash.com/photo-1572979929837-149ee617c06c?auto=format&fit=crop&w=1200&q=80">
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.localspothq.com/">
-    
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "LocalSpot HQ",
+        "url": "https://www.localspothq.com/",
+        "description": "Your guide to events, dining, and experiences in Chester County PA.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.localspothq.com/phoenixville/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <style>
-        body { 
+        body {
             background: linear-gradient(to bottom, #f8fafc 0%, #ffffff 100%);
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }
         .slide-up { animation: slideUp 0.8s ease-out forwards; }
         @keyframes slideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-        
+
         .fade-in { animation: fadeIn 0.6s ease-out forwards; }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-        
+
+        .area-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow: hidden;
+        }
+        .area-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        .area-card:hover .area-img {
+            transform: scale(1.05);
+        }
+        .area-img {
+            transition: transform 0.5s ease;
+        }
+
         .feature-card {
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
         .feature-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 20px 40px -12px rgba(37, 99, 235, 0.25);
-        }
-        
-        .cta-button {
-            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
-            transition: all 0.3s ease;
-        }
-        .cta-button:hover {
-            transform: scale(1.05);
-            box-shadow: 0 20px 40px -12px rgba(37, 99, 235, 0.5);
-        }
-        .cta-button:active {
-            transform: scale(0.98);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px -12px rgba(37, 99, 235, 0.15);
         }
     </style>
 </head>
 <body>
 
-    <!-- Hero Section -->
     <div class="min-h-screen flex flex-col">
-        
+
         <!-- Navigation -->
         <nav class="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50 fade-in">
             <div class="max-w-7xl mx-auto px-6 py-4">
@@ -80,35 +98,71 @@
         </nav>
 
         <!-- Hero Content -->
-        <div class="flex-grow flex items-center justify-center px-6 py-20">
-            <div class="max-w-6xl w-full">
-                
+        <div class="flex-grow px-6 py-16 md:py-24">
+            <div class="max-w-6xl w-full mx-auto">
+
                 <div class="text-center mb-16 slide-up">
                     <h1 class="text-5xl md:text-7xl font-black text-slate-900 mb-6 leading-tight tracking-tight">
                         Connect in<br><span class="text-blue-600">Real Life.</span>
                     </h1>
-                    <p class="text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
-                        Your ultimate guide to events, dining, and experiences in <span class="font-bold text-slate-800">Phoenixville</span>, <span class="font-bold text-slate-800">Oaks</span>, and <span class="font-bold text-slate-800">Collegeville</span>.
+                    <p class="text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-4">
+                        Your guide to events, dining, and experiences in <span class="font-bold text-slate-800">Chester County, PA</span>.
                     </p>
-                    
-                    <!-- CTA Button -->
-                    <a href="app.html">
-                        <button class="cta-button text-white font-bold text-lg px-12 py-5 rounded-2xl shadow-2xl inline-flex items-center gap-3">
-                            Start Exploring
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
+                    <p class="text-slate-400 text-base">Choose your area to start exploring</p>
+                </div>
+
+                <!-- Area Selection Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-20 slide-up" style="animation-delay: 0.2s;">
+
+                    <!-- Phoenixville -->
+                    <a href="/phoenixville/" class="area-card bg-white rounded-3xl border border-slate-200 shadow-lg block">
+                        <div class="h-48 md:h-56 overflow-hidden rounded-t-3xl relative">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Colonial_Theatre_Phoenixville.jpg/1280px-Colonial_Theatre_Phoenixville.jpg"
+                                 alt="The Colonial Theatre on Bridge Street in downtown Phoenixville, PA"
+                                 class="area-img w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                            <div class="absolute bottom-4 left-5">
+                                <span class="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">LIVE</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h2 class="font-black text-2xl text-slate-900 mb-2">Phoenixville</h2>
+                            <p class="text-slate-500 text-sm mb-4">Phoenixville &bull; Oaks &bull; Collegeville</p>
+                            <div class="flex flex-wrap gap-3 text-xs font-bold">
+                                <span class="bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full">95+ Events</span>
+                                <span class="bg-amber-50 text-amber-700 px-3 py-1.5 rounded-full">30 Restaurants</span>
+                                <span class="bg-purple-50 text-purple-700 px-3 py-1.5 rounded-full">27 Activities</span>
+                            </div>
+                        </div>
                     </a>
-                    
-                    <p class="text-slate-400 text-sm mt-6">
-                        <i class="fa-solid fa-check-circle text-green-500 mr-2"></i>
-                        100+ local events · 19 restaurants · 27 activities · 16 curated plans
-                    </p>
+
+                    <!-- West Chester -->
+                    <a href="/west-chester/" class="area-card bg-white rounded-3xl border border-slate-200 shadow-lg block">
+                        <div class="h-48 md:h-56 overflow-hidden rounded-t-3xl relative">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/West_Chester_-_Gay_Street_1.jpg/1280px-West_Chester_-_Gay_Street_1.jpg"
+                                 alt="Gay Street in downtown West Chester, PA with historic buildings and shops"
+                                 class="area-img w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                            <div class="absolute bottom-4 left-5">
+                                <span class="bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">NEW</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h2 class="font-black text-2xl text-slate-900 mb-2">West Chester</h2>
+                            <p class="text-slate-500 text-sm mb-4">West Chester &bull; Downtown &bull; Brandywine Valley</p>
+                            <div class="flex flex-wrap gap-3 text-xs font-bold">
+                                <span class="bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full">78+ Events</span>
+                                <span class="bg-amber-50 text-amber-700 px-3 py-1.5 rounded-full">31 Restaurants</span>
+                                <span class="bg-purple-50 text-purple-700 px-3 py-1.5 rounded-full">18 Activities</span>
+                            </div>
+                        </div>
+                    </a>
+
                 </div>
 
                 <!-- Feature Cards -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto slide-up" style="animation-delay: 0.2s;">
-                    
-                    <!-- Events -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto slide-up" style="animation-delay: 0.4s;">
+
                     <div class="feature-card bg-white p-8 rounded-3xl border border-slate-200 shadow-lg">
                         <div class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center mb-5">
                             <i class="fa-solid fa-calendar-days text-2xl text-blue-600"></i>
@@ -118,11 +172,10 @@
                             Concerts, festivals, markets, and shows happening around you. Updated daily.
                         </p>
                         <div class="text-blue-600 font-bold text-sm">
-                            100+ events <i class="fa-solid fa-arrow-right ml-1"></i>
+                            170+ events <i class="fa-solid fa-arrow-right ml-1"></i>
                         </div>
                     </div>
 
-                    <!-- Dining -->
                     <div class="feature-card bg-white p-8 rounded-3xl border border-slate-200 shadow-lg">
                         <div class="w-14 h-14 bg-amber-100 rounded-2xl flex items-center justify-center mb-5">
                             <i class="fa-solid fa-utensils text-2xl text-amber-600"></i>
@@ -132,11 +185,10 @@
                             Curated restaurants, cafes, and breweries with real vibes and honest reviews.
                         </p>
                         <div class="text-amber-600 font-bold text-sm">
-                            19 dining spots <i class="fa-solid fa-arrow-right ml-1"></i>
+                            61 dining spots <i class="fa-solid fa-arrow-right ml-1"></i>
                         </div>
                     </div>
 
-                    <!-- Curated Plans -->
                     <div class="feature-card bg-white p-8 rounded-3xl border border-slate-200 shadow-lg">
                         <div class="w-14 h-14 bg-purple-100 rounded-2xl flex items-center justify-center mb-5">
                             <i class="fa-solid fa-compass text-2xl text-purple-600"></i>
@@ -146,7 +198,7 @@
                             Ready-made day and evening itineraries. Date nights, family days, and more.
                         </p>
                         <div class="text-purple-600 font-bold text-sm">
-                            16 day plans <i class="fa-solid fa-arrow-right ml-1"></i>
+                            26 day plans <i class="fa-solid fa-arrow-right ml-1"></i>
                         </div>
                     </div>
 
@@ -156,30 +208,30 @@
         </div>
 
         <!-- Stats Bar -->
-        <div class="bg-slate-50 border-t border-slate-200 py-12 fade-in" style="animation-delay: 0.4s;">
+        <div class="bg-slate-50 border-t border-slate-200 py-12 fade-in" style="animation-delay: 0.6s;">
             <div class="max-w-5xl mx-auto px-6">
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                     <div>
-                        <div class="text-3xl font-black text-blue-600 mb-2">100+</div>
+                        <div class="text-3xl font-black text-blue-600 mb-2">170+</div>
                         <div class="text-slate-600 text-sm font-bold">Live Events</div>
                     </div>
                     <div>
-                        <div class="text-3xl font-black text-amber-600 mb-2">19</div>
+                        <div class="text-3xl font-black text-amber-600 mb-2">61</div>
                         <div class="text-slate-600 text-sm font-bold">Restaurants</div>
                     </div>
                     <div>
-                        <div class="text-3xl font-black text-purple-600 mb-2">27</div>
+                        <div class="text-3xl font-black text-purple-600 mb-2">45</div>
                         <div class="text-slate-600 text-sm font-bold">Activities</div>
                     </div>
                     <div>
-                        <div class="text-3xl font-black text-green-600 mb-2">16</div>
+                        <div class="text-3xl font-black text-green-600 mb-2">26</div>
                         <div class="text-slate-600 text-sm font-bold">Day Plans</div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Features Section -->
+        <!-- Why LocalSpot -->
         <div class="py-20 px-6">
             <div class="max-w-5xl mx-auto">
                 <div class="text-center mb-16">
@@ -188,7 +240,6 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    
                     <div class="flex gap-4">
                         <div class="flex-shrink-0">
                             <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
@@ -221,7 +272,7 @@
                         </div>
                         <div>
                             <h3 class="font-bold text-lg text-slate-900 mb-2">Ready-Made Itineraries</h3>
-                            <p class="text-slate-600">From romantic date nights to family adventures - complete plans with timing and tips.</p>
+                            <p class="text-slate-600">From romantic date nights to family adventures — complete plans with timing and tips.</p>
                         </div>
                     </div>
 
@@ -236,7 +287,6 @@
                             <p class="text-slate-600">Beautiful, fast, and works perfectly on your phone. No app download needed.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -250,12 +300,14 @@
                 <p class="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
                     Break free from the feed. Experience real human connection in your local community.
                 </p>
-                <a href="app.html">
-                    <button class="bg-white text-blue-600 font-bold text-lg px-12 py-5 rounded-2xl shadow-2xl hover:scale-105 transform transition-all inline-flex items-center gap-3">
-                        Launch LocalSpot
-                        <i class="fa-solid fa-rocket"></i>
-                    </button>
-                </a>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/phoenixville/" class="bg-white text-blue-600 font-bold text-lg px-10 py-4 rounded-2xl shadow-2xl hover:scale-105 transform transition-all inline-flex items-center justify-center gap-3">
+                        Phoenixville <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="/west-chester/" class="bg-blue-500 text-white font-bold text-lg px-10 py-4 rounded-2xl shadow-2xl hover:scale-105 transform transition-all inline-flex items-center justify-center gap-3 border border-blue-400">
+                        West Chester <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -269,21 +321,22 @@
                         </div>
                         <span class="font-bold text-white">Local<span class="text-blue-400">Spot</span> HQ</span>
                     </div>
-                    
+
                     <div class="flex flex-col md:flex-row gap-6 items-center">
+                        <div class="flex gap-6 text-sm">
+                            <a href="/phoenixville/" class="text-slate-300 hover:text-white transition-colors">Phoenixville</a>
+                            <a href="/west-chester/" class="text-slate-300 hover:text-white transition-colors">West Chester</a>
+                            <a href="submit.html" class="text-slate-300 hover:text-white transition-colors">Submit Event</a>
+                        </div>
                         <a href="mailto:contact@localspothq.com" class="text-slate-300 hover:text-white transition-colors flex items-center gap-2">
                             <i class="fa-regular fa-envelope"></i>
                             <span class="text-sm font-medium">contact@localspothq.com</span>
                         </a>
-                        <div class="text-center md:text-right">
-                            <p class="text-sm">Currently serving Phoenixville, Oaks & Collegeville</p>
-                            <p class="text-xs text-slate-500 mt-1">More regions coming soon</p>
-                        </div>
                     </div>
                 </div>
-                
+
                 <div class="border-t border-slate-800 pt-8 text-center">
-                    <p class="text-xs text-slate-500 mb-2">Connect in real life. Break free from the feed.</p>
+                    <p class="text-xs text-slate-500 mb-2">Currently serving Phoenixville &bull; West Chester &bull; Chester County PA</p>
                     <p class="text-xs text-slate-600">&copy; 2025 LocalSpot HQ. Made with <i class="fa-solid fa-heart text-red-500"></i> for Chester County.</p>
                 </div>
             </div>
