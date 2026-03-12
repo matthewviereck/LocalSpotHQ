@@ -70,6 +70,12 @@ function gitPullLatest($repoDir) {
         return false;
     }
 
+    if (!function_exists('exec') || !is_callable('exec')) {
+        logMsg("  NOTICE: exec() not available (shared hosting). Skipping git pull.");
+        logMsg("  To update code, run manually: cd ~/localspot && git pull origin master");
+        return true;
+    }
+
     $output = [];
     $returnCode = 0;
     exec("cd " . escapeshellarg($repoDir) . " && git pull origin main 2>&1", $output, $returnCode);
