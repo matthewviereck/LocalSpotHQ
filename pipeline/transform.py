@@ -172,10 +172,10 @@ def transform_events(input_file, output_file):
         except Exception as e:
             print(f"   ! Skipped event '{event.get('title', 'unknown')}': {e}")
 
-    # Sort by date
+    # Sort by date. Keep _sort_date in the serialized output so downstream consumers
+    # (e.g. inject.py building Event JSON-LD) can derive an ISO startDate without
+    # re-parsing the display string.
     transformed_events.sort(key=lambda x: x["_sort_date"])
-    for event in transformed_events:
-        del event["_sort_date"]
 
     os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:

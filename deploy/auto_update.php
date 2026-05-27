@@ -195,7 +195,7 @@ function gitPullLatest($repoDir) {
 
     $output = [];
     $returnCode = 0;
-    exec("cd " . escapeshellarg($repoDir) . " && git pull origin main 2>&1", $output, $returnCode);
+    exec("cd " . escapeshellarg($repoDir) . " && git pull origin master 2>&1", $output, $returnCode);
 
     $outputStr = implode("\n", $output);
     if ($returnCode !== 0) {

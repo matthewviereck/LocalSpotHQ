@@ -1,6 +1,93 @@
 import json
 import re
 import os
+from datetime import datetime, timezone
+
+
+def _build_structured_data(area_config, events):
+    """Build JSON-LD: a WebPage and a list of upcoming Events.
+
+    Returns a string of one or more <script type="application/ld+json"> blocks,
+    safe to drop directly into the HTML <head>.
+    """
+    meta = (area_config or {}).get('meta', {}) if area_config else {}
+    area_name = (area_config or {}).get('name', '') if area_config else ''
+    canonical_url = meta.get('canonical_url', '')
+
+    web_page = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": meta.get('title', ''),
+        "description": meta.get('description', ''),
+        "url": canonical_url,
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "LocalSpot HQ",
+            "url": "https://www.localspothq.com"
+        },
+        "about": {
+            "@type": "Place",
+            "name": area_name,
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "PA",
+                "addressCountry": "US"
+            }
+        }
+    }
+
+    event_items = []
+    for ev in (events or []):
+        if not isinstance(ev, dict):
+            continue
+        title = ev.get('title') or ev.get('name')
+        # transform.py outputs `_sort_date` as a Unix timestamp; fall back to ISO fields
+        # for forward-compatibility if the upstream schema gains one.
+        start_iso = ev.get('start_iso') or ev.get('date_iso')
+        if not start_iso and ev.get('_sort_date'):
+            try:
+                ts = float(ev['_sort_date'])
+                # The sentinel value 9999999999 means "no parseable date" — skip those
+                if ts < 9_000_000_000:
+                    start_iso = datetime.fromtimestamp(ts, tz=timezone.utc).date().isoformat()
+            except (TypeError, ValueError):
+                pass
+        if not title or not start_iso:
+            continue
+        item = {
+            "@context": "https://schema.org",
+            "@type": "Event",
+            "name": title,
+            "startDate": start_iso,
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        }
+        if ev.get('end_iso'):
+            item["endDate"] = ev["end_iso"]
+        if ev.get('img'):
+            item["image"] = ev["img"]
+        if ev.get('link'):
+            item["url"] = ev["link"]
+        location_name = ev.get('loc') or ev.get('venue')
+        if location_name:
+            item["location"] = {
+                "@type": "Place",
+                "name": location_name,
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": area_name or location_name,
+                    "addressRegion": "PA",
+                    "addressCountry": "US"
+                }
+            }
+        event_items.append(item)
+
+    blocks = [f'<script type="application/ld+json">\n{json.dumps(web_page, indent=4)}\n</script>']
+    if event_items:
+        blocks.append(
+            f'<script type="application/ld+json">\n{json.dumps(event_items, indent=4)}\n</script>'
+        )
+    return "\n    ".join(blocks)
 
 
 def inject_all_data(events_file, dining_file, outings_file, plans_file,
@@ -30,6 +117,8 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
     if area_config:
         print("\n3. Substituting area placeholders...")
         meta = area_config.get('meta', {})
+        build_timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+        structured_data = _build_structured_data(area_config, events)
         replacements = {
             '{{AREA_NAME}}': area_config.get('name', ''),
             '{{AREA_TAGLINE}}': area_config.get('tagline', ''),
@@ -38,11 +127,17 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
             '{{META_KEYWORDS}}': meta.get('keywords', ''),
             '{{OG_IMAGE}}': meta.get('og_image', ''),
             '{{CANONICAL_URL}}': meta.get('canonical_url', ''),
+            '{{BUILD_TIMESTAMP}}': build_timestamp,
+            '{{STRUCTURED_DATA}}': structured_data,
         }
         for placeholder, value in replacements.items():
             if placeholder in html:
                 html = html.replace(placeholder, value)
                 print(f"   Replaced {placeholder}")
+        # Warn for any leftover placeholders (catches typos and missing config keys)
+        leftover = re.findall(r'\{\{[A-Z_]+\}\}', html)
+        if leftover:
+            print(f"   WARNING: unsubstituted placeholders remain: {sorted(set(leftover))}")
 
     # 4. Convert to JS and inject
     data_injections = [

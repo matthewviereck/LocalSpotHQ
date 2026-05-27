@@ -2,8 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2563eb">
+    <meta name="referrer" content="no-referrer-when-downgrade">
     <title>{{META_TITLE}}</title>
+    <meta name="description" content="{{META_DESCRIPTION}}">
+    <meta name="keywords" content="{{META_KEYWORDS}}">
+    <meta name="author" content="LocalSpot HQ">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{CANONICAL_URL}}">
+    <meta property="og:title" content="{{META_TITLE}}">
+    <meta property="og:description" content="{{META_DESCRIPTION}}">
+    <meta property="og:image" content="{{OG_IMAGE}}">
+    <meta property="og:site_name" content="LocalSpot HQ">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{CANONICAL_URL}}">
+    <meta name="twitter:title" content="{{META_TITLE}}">
+    <meta name="twitter:description" content="{{META_DESCRIPTION}}">
+    <meta name="twitter:image" content="{{OG_IMAGE}}">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{CANONICAL_URL}}">
+
+    <!-- Build metadata (used to debug freshness) -->
+    <meta name="localspot:built-at" content="{{BUILD_TIMESTAMP}}">
+
+    <!-- JSON-LD: WebPage + Event list (populated by pipeline/inject.py) -->
+    {{STRUCTURED_DATA}}
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -622,15 +654,15 @@
 
                     // Build action buttons
                     const itemJSON = JSON.stringify(item).replace(/"/g, '&quot;');
-                    const calendarBtn = currentTab === 'events' 
-                        ? `<button onclick="addToCalendar(${itemJSON}, event)" class="action-btn" title="Add to Calendar"><i class="fa-regular fa-calendar-plus"></i> Cal</button>`
+                    const calendarBtn = currentTab === 'events'
+                        ? `<button onclick="addToCalendar(${itemJSON}, event)" class="action-btn" aria-label="Add ${item.title.replace(/`/g,'')} to calendar" title="Add to Calendar"><i class="fa-regular fa-calendar-plus" aria-hidden="true"></i> Cal</button>`
                         : '';
-                    const shareBtn = `<button onclick="shareItem(${itemJSON}, event)" class="action-btn" title="Share"><i class="fa-solid fa-share-nodes"></i></button>`;
+                    const shareBtn = `<button onclick="shareItem(${itemJSON}, event)" class="action-btn" aria-label="Share ${item.title.replace(/`/g,'')}" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>`;
 
                     return `
                     <div class="card fade-in group" onclick="if(this.dataset.link) window.open(this.dataset.link, '_blank')" data-link="${item.link || ''}">
                         <div class="w-32 relative flex-shrink-0 bg-gray-100 overflow-hidden">
-                            <img src="${item.img}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/200x200?text=Img'">
+                            <img src="${item.img}" alt="${item.title.replace(/"/g,'&quot;')}" loading="lazy" referrerpolicy="no-referrer" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/200x200?text=Img'">
                         </div>
                         <div class="p-4 flex-grow flex flex-col justify-center min-w-0 bg-white">
                             <div class="flex justify-between items-start mb-2">
@@ -855,7 +887,7 @@
                     <div class="today-card" onclick="if('${item.link}') window.open('${item.link}', '_blank')">
                         <div class="flex items-center gap-3">
                             <div class="w-12 h-12 rounded-xl overflow-hidden flex-shrink-0 bg-white/20">
-                                <img src="${item.img}" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/100x100?text=🎭'">
+                                <img src="${item.img}" alt="${item.title.replace(/"/g,'&quot;')}" loading="lazy" referrerpolicy="no-referrer" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/100x100?text=🎭'">
                             </div>
                             <div class="flex-grow min-w-0">
                                 <h4 class="font-bold text-white text-sm leading-tight truncate">${item.title}</h4>
@@ -879,8 +911,10 @@
         }
 
         // --- INIT ---
+        // renderContent() intentionally NOT called here — postprocess.py injects a
+        // DOMContentLoaded handler that calls it once the DOM is ready. Calling it
+        // here too caused double-rendering (see console logs).
         renderChips();
-        renderContent();
         renderTodayHighlight();
         
         // Render Discover tab with Activities and Curated Plans sections
@@ -1124,5 +1158,10 @@
 
 
         </script>
+
+    <!-- Build freshness indicator (small, low-contrast — debugging aid) -->
+    <footer class="text-center text-[10px] text-slate-400 py-4" aria-hidden="true">
+        LocalSpot · built {{BUILD_TIMESTAMP}}
+    </footer>
 </body>
 </html>

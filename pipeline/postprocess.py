@@ -44,23 +44,27 @@ def remove_landing_page(input_file, output_file):
     else:
         print("   WARNING: Could not find main-app div")
 
-    # 3. Add auto-load script
+    # 3. Add auto-load script as a standalone <script> immediately before </body>.
+    # Using a dedicated <script> tag (instead of appending into an existing one)
+    # keeps this robust against trailing markup between the last </script> and </body>
+    # (e.g. a build-timestamp footer).
     print(">> Adding auto-load script...")
-    auto_load_script = '''
-        // Load content when page loads (since we're skipping the landing page)
-        window.addEventListener('DOMContentLoaded', function() {
-            console.log('Auto-loading content...');
-            renderContent();
-        });
+    auto_load_script = (
+        '\n    <script>\n'
+        '        // Auto-load content (landing page is skipped on built output)\n'
+        '        window.addEventListener("DOMContentLoaded", function() {\n'
+        '            console.log("Auto-loading content...");\n'
+        '            if (typeof renderContent === "function") renderContent();\n'
+        '        });\n'
+        '    </script>\n'
+    )
 
-    '''
-
-    pattern = r'([\s\S]*)(</script>\s*</body>)'
-    if re.search(pattern, html):
-        html = re.sub(pattern, r'\1' + auto_load_script + r'\2', html)
-        print("   Auto-load script added")
+    if '</body>' in html:
+        html = html.replace('</body>', auto_load_script + '</body>', 1)
+        print("   Auto-load script added before </body>")
     else:
-        print("   WARNING: Could not find </script></body> pattern")
+        print("   WARNING: Could not find </body>; appending auto-load script at end")
+        html += auto_load_script
 
     # 4. Save
     os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
