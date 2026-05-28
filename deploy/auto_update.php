@@ -47,6 +47,10 @@ $TEMPLATE_FILE = $REPO_DIR . '/templates/app_template.html';
 $AREA_NAME = 'Phoenixville';
 $AREA_TAGLINE = 'Phoenixville • Oaks • Collegeville';
 $META_TITLE = 'LocalSpot - Phoenixville Events, Dining & Activities';
+$META_DESCRIPTION = 'Your guide to events, restaurants, and things to do in Phoenixville, Oaks, and Collegeville PA.';
+$META_KEYWORDS = 'Phoenixville events, Phoenixville restaurants, things to do Phoenixville PA, Oaks events, Collegeville dining';
+$OG_IMAGE = 'https://images.unsplash.com/photo-1572979929837-149ee617c06c?auto=format&fit=crop&w=1200&q=80';
+$CANONICAL_URL = 'https://www.localspothq.com/phoenixville/';
 
 // ============================================================
 // LOGGING
@@ -876,25 +880,94 @@ function transformEvents($allEvents) {
         ];
     }
 
-    // Sort by date
+    // Sort by date. Keep _sort_date in the output so buildStructuredData() can
+    // derive an ISO startDate without re-parsing.
     usort($transformed, function($a, $b) {
         return $a['_sort_date'] - $b['_sort_date'];
     });
-
-    // Remove sort field
-    foreach ($transformed as &$event) {
-        unset($event['_sort_date']);
-    }
 
     logMsg("  Transformed " . count($transformed) . " upcoming events (skipped {$skipped} past)");
     return $transformed;
 }
 
 // ============================================================
+// BUILD STRUCTURED DATA (JSON-LD)
+// ============================================================
+
+function buildStructuredData($areaName, $metaTitle, $metaDescription, $canonicalUrl, $events) {
+    $webPage = [
+        '@context' => 'https://schema.org',
+        '@type' => 'WebPage',
+        'name' => $metaTitle,
+        'description' => $metaDescription,
+        'url' => $canonicalUrl,
+        'isPartOf' => [
+            '@type' => 'WebSite',
+            'name' => 'LocalSpot HQ',
+            'url' => 'https://www.localspothq.com'
+        ],
+        'about' => [
+            '@type' => 'Place',
+            'name' => $areaName,
+            'address' => [
+                '@type' => 'PostalAddress',
+                'addressRegion' => 'PA',
+                'addressCountry' => 'US'
+            ]
+        ]
+    ];
+
+    $eventItems = [];
+    foreach ($events as $ev) {
+        if (!is_array($ev)) continue;
+        $title = $ev['title'] ?? null;
+        $ts = $ev['_sort_date'] ?? null;
+        // Skip sentinel "no parseable date" entries
+        if (!$title || !$ts || $ts >= 9000000000) continue;
+        $startIso = gmdate('Y-m-d', (int)$ts);
+        $item = [
+            '@context' => 'https://schema.org',
+            '@type' => 'Event',
+            'name' => $title,
+            'startDate' => $startIso,
+            'eventStatus' => 'https://schema.org/EventScheduled',
+            'eventAttendanceMode' => 'https://schema.org/OfflineEventAttendanceMode'
+        ];
+        if (!empty($ev['img'])) $item['image'] = $ev['img'];
+        if (!empty($ev['link'])) $item['url'] = $ev['link'];
+        if (!empty($ev['loc'])) {
+            $item['location'] = [
+                '@type' => 'Place',
+                'name' => $ev['loc'],
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'addressLocality' => $areaName,
+                    'addressRegion' => 'PA',
+                    'addressCountry' => 'US'
+                ]
+            ];
+        }
+        $eventItems[] = $item;
+    }
+
+    $blocks = [];
+    $blocks[] = '<script type="application/ld+json">' . "\n"
+              . json_encode($webPage, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n"
+              . '</script>';
+    if (!empty($eventItems)) {
+        $blocks[] = '<script type="application/ld+json">' . "\n"
+                  . json_encode($eventItems, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n"
+                  . '</script>';
+    }
+    return implode("\n    ", $blocks);
+}
+
+// ============================================================
 // INJECT DATA INTO HTML
 // ============================================================
 
-function injectDataIntoHtml($dataDir, $templateFile, $events, $areaName, $areaTagline, $metaTitle) {
+function injectDataIntoHtml($dataDir, $templateFile, $events, $areaName, $areaTagline, $metaTitle,
+                            $metaDescription = '', $metaKeywords = '', $ogImage = '', $canonicalUrl = '') {
     logMsg("Loading static data files from repo...");
 
     // Load dining data
@@ -921,11 +994,30 @@ function injectDataIntoHtml($dataDir, $templateFile, $events, $areaName, $areaTa
     $html = file_get_contents($templateFile);
     logMsg("  Loaded template (" . strlen($html) . " characters)");
 
-    // Substitute area placeholders
-    $html = str_replace('{{AREA_NAME}}', $areaName, $html);
-    $html = str_replace('{{AREA_TAGLINE}}', $areaTagline, $html);
-    $html = str_replace('{{META_TITLE}}', $metaTitle, $html);
-    logMsg("  Replaced area placeholders");
+    // Substitute area + SEO placeholders
+    $buildTimestamp = gmdate('Y-m-d\TH:i:s\Z');
+    $structuredData = buildStructuredData($areaName, $metaTitle, $metaDescription, $canonicalUrl, $events);
+    $replacements = [
+        '{{AREA_NAME}}' => $areaName,
+        '{{AREA_TAGLINE}}' => $areaTagline,
+        '{{META_TITLE}}' => $metaTitle,
+        '{{META_DESCRIPTION}}' => $metaDescription,
+        '{{META_KEYWORDS}}' => $metaKeywords,
+        '{{OG_IMAGE}}' => $ogImage,
+        '{{CANONICAL_URL}}' => $canonicalUrl,
+        '{{BUILD_TIMESTAMP}}' => $buildTimestamp,
+        '{{STRUCTURED_DATA}}' => $structuredData,
+    ];
+    foreach ($replacements as $placeholder => $value) {
+        $html = str_replace($placeholder, $value, $html);
+    }
+    logMsg("  Replaced " . count($replacements) . " placeholders (build " . $buildTimestamp . ")");
+
+    // Warn on any unsubstituted {{PLACEHOLDER}} so future template additions don't silently leak
+    if (preg_match_all('/\{\{[A-Z_]+\}\}/', $html, $leftover)) {
+        $unique = array_unique($leftover[0]);
+        logMsg("  WARNING: unsubstituted placeholders remain: " . implode(', ', $unique));
+    }
 
     // Convert to JS format
     $eventsJs = json_encode($events, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
@@ -983,19 +1075,24 @@ function injectDataIntoHtml($dataDir, $templateFile, $events, $areaName, $areaTa
         $html
     );
 
-    // Add auto-load script
-    $autoLoadScript = '
-        // Load content when page loads (since we\'re skipping the landing page)
-        window.addEventListener(\'DOMContentLoaded\', function() {
-            console.log(\'Auto-loading content...\');
-            renderContent();
-        });
+    // Add auto-load script as its own <script> immediately before </body>.
+    // Using a standalone block (rather than appending to an existing one) is
+    // robust against trailing markup such as the build-timestamp footer.
+    $autoLoadScript = "\n    <script>\n"
+                    . "        // Auto-load content (landing page is skipped on built output)\n"
+                    . "        window.addEventListener(\"DOMContentLoaded\", function() {\n"
+                    . "            console.log(\"Auto-loading content...\");\n"
+                    . "            if (typeof renderContent === \"function\") renderContent();\n"
+                    . "        });\n"
+                    . "    </script>\n";
 
-    ';
-
-    $html = preg_replace('/([\s\S]*?)(<\/script>\s*<\/body>)/', '$1' . $autoLoadScript . '$2', $html, 1);
-
-    logMsg("  Landing page removed, auto-load added");
+    if (strpos($html, '</body>') !== false) {
+        $html = preg_replace('/<\/body>/', $autoLoadScript . '</body>', $html, 1);
+        logMsg("  Landing page removed, auto-load added before </body>");
+    } else {
+        logMsg("  WARNING: </body> not found; appending auto-load at end");
+        $html .= $autoLoadScript;
+    }
 
     return $html;
 }
@@ -1116,7 +1213,11 @@ logMsg("  Total merged: " . count($allEvents) . " events");
 $formattedEvents = transformEvents($allEvents);
 
 // Inject into HTML
-$finalHtml = injectDataIntoHtml($DATA_DIR, $TEMPLATE_FILE, $formattedEvents, $AREA_NAME, $AREA_TAGLINE, $META_TITLE);
+$finalHtml = injectDataIntoHtml(
+    $DATA_DIR, $TEMPLATE_FILE, $formattedEvents,
+    $AREA_NAME, $AREA_TAGLINE, $META_TITLE,
+    $META_DESCRIPTION, $META_KEYWORDS, $OG_IMAGE, $CANONICAL_URL
+);
 
 if ($finalHtml === false) {
     logMsg(str_repeat('=', 60));
