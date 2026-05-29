@@ -46,6 +46,7 @@
     "scraped/oaks_events.json",
     "scraped/steel_city_events.json",
     "scraped/molly_maguires_events.json",
+    "scraped/discovered_events.json",
     "recurring_events.json"
   ],
   "deploy": {

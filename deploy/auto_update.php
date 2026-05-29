@@ -1204,9 +1204,25 @@ if ($mollyEvents === false) {
     file_put_contents($CACHE_DIR . '/molly_maguires_events.json', json_encode($mollyEvents, JSON_PRETTY_PRINT));
 }
 
+// Step 6: Load AI-discovered events (written daily by the scheduled Claude routine).
+// The file may be missing — treat that as zero events rather than an error.
+$discoveredFile = $DATA_DIR . '/scraped/discovered_events.json';
+$discoveredEvents = [];
+if (file_exists($discoveredFile)) {
+    $raw = json_decode(file_get_contents($discoveredFile), true);
+    if (is_array($raw)) {
+        $discoveredEvents = $raw;
+        logMsg("  Loaded " . count($discoveredEvents) . " AI-discovered events from " . basename($discoveredFile));
+    } else {
+        logMsg("  WARNING: discovered_events.json present but not valid JSON; skipping");
+    }
+} else {
+    logMsg("  No discovered_events.json yet (scheduled routine hasn't run)");
+}
+
 // Merge all events
 logMsg("Merging all events...");
-$allEvents = array_merge($recurringEvents, $colonialEvents, $oaksEvents, $steelCityEvents, $mollyEvents);
+$allEvents = array_merge($recurringEvents, $colonialEvents, $oaksEvents, $steelCityEvents, $mollyEvents, $discoveredEvents);
 logMsg("  Total merged: " . count($allEvents) . " events");
 
 // Transform events
