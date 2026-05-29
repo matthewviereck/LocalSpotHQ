@@ -1,0 +1,87 @@
+[
+  {
+    "id": "discovered_garden_tour_bird_up_20260606",
+    "type": "event",
+    "title": "Phoenixville Garden Tour 2026: Bird Up! Elevating Bird-Friendly Gardens",
+    "venue_info": {
+      "name": "Various Gardens – Phoenixville (Self-Guided Tour)",
+      "location": {"lat": 40.1304, "lng": -75.5155}
+    },
+    "raw_date_string": "Jun 6, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Outdoor", "Nature", "Self-Guided", "Local"],
+      "price": "$20"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.eventbrite.com/e/phoenixville-garden-tour-2026-bird-up-elevating-bird-friendly-gardens-tickets-1985335315372"
+  },
+  {
+    "id": "discovered_exfest_xiv_20260613",
+    "type": "event",
+    "title": "Exhumed Films Presents eX-Fest Part XIV",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jun 13, 2026",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": ["Film Marathon", "Exploitation Films", "Historic Venue", "12-Hour Event"],
+      "price": "$45"
+    },
+    "media": {"image": ""},
+    "action_link": "https://thecolonialtheatre.com/films/guest-presentations/exhumed-films-presents-ex-fest-part-xiv-at-the-colonial-theatre/"
+  },
+  {
+    "id": "discovered_art_street_festival_20260613",
+    "type": "event",
+    "title": "Ninth Annual Phoenixville Art Street Festival",
+    "venue_info": {
+      "name": "Bridge Street, Downtown Phoenixville",
+      "location": {"lat": 40.1304, "lng": -75.5155}
+    },
+    "raw_date_string": "Jun 13, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": ["Family Friendly", "Outdoor", "Arts", "Live Music", "Free"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://phoenixvillechamber.org/news-events/events/phoenixville-art-street-festival/"
+  },
+  {
+    "id": "discovered_juneteenth_20260614",
+    "type": "event",
+    "title": "Phoenixville Juneteenth Celebration 2026",
+    "venue_info": {
+      "name": "200 Block of Bridge Street, Phoenixville",
+      "location": {"lat": 40.1304, "lng": -75.5155}
+    },
+    "raw_date_string": "Jun 14, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Family Friendly", "Cultural", "Free", "Outdoor"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://phoenixvillechamber.org/news-events/events/juneteenth-celebration-4/"
+  },
+  {
+    "id": "discovered_toomanygames_20260626",
+    "type": "event",
+    "title": "TooManyGames 2026 – PA's Premier Gaming Convention",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {"lat": 40.1325, "lng": -75.4699}
+    },
+    "raw_date_string": "Jun 26 - 28, 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": ["Gaming", "Convention", "Family Friendly", "Marketplace"],
+      "price": "From $109"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.eventbrite.com/e/toomanygames-2026-tickets-1974937189297"
+  }
+]
