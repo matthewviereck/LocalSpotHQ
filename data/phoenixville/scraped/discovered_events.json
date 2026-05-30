@@ -1,5 +1,56 @@
 [
   {
+    "id": "discovered_vintage_fest_20260530",
+    "type": "event",
+    "title": "Phoenixville Vintage Fest",
+    "venue_info": {
+      "name": "Bridge & Main Street Parking Lot, Downtown Phoenixville",
+      "location": {"lat": 40.1304, "lng": -75.5155}
+    },
+    "raw_date_string": "May 30-31, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": ["Vintage", "Shopping", "Outdoor", "Local", "Family Friendly"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.facebook.com/events/phoenixville-bridge-street/phoenixville-vintage-fest/1242767197275514/"
+  },
+  {
+    "id": "discovered_cirque_luzia_20260530",
+    "type": "event",
+    "title": "Cirque du Soleil: LUZIA",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center (Big Top), Oaks",
+      "location": {"lat": 40.1325, "lng": -75.4699}
+    },
+    "raw_date_string": "May 7 - Jun 7, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": ["Acrobatics", "Live Performance", "Family Friendly", "World-Class Show"],
+      "price": "Check Link"
+    },
+    "media": {"image": ""},
+    "action_link": "https://luzia.cirquedusoleil.com/oaks/"
+  },
+  {
+    "id": "discovered_movies_lawn_ursinus_20260605",
+    "type": "event",
+    "title": "Movies on the Lawn – \"Hoppers\" at Ursinus College",
+    "venue_info": {
+      "name": "Ursinus College Front Lawn, Collegeville",
+      "location": {"lat": 40.1853, "lng": -75.4527}
+    },
+    "raw_date_string": "Jun 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Family Friendly", "Free", "Outdoor", "Film", "Food Trucks"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.ursinus.edu/live/events/14005-movies-on-the-lawn"
+  },
+  {
     "id": "discovered_garden_tour_bird_up_20260606",
     "type": "event",
     "title": "Phoenixville Garden Tour 2026: Bird Up! Elevating Bird-Friendly Gardens",
@@ -49,6 +100,23 @@
     },
     "media": {"image": ""},
     "action_link": "https://phoenixvillechamber.org/news-events/events/phoenixville-art-street-festival/"
+  },
+  {
+    "id": "discovered_cars_guitars_20260613",
+    "type": "event",
+    "title": "Cars & Guitars at Anderson Farm Park",
+    "venue_info": {
+      "name": "Anderson Farm Park, Upper Providence (Collegeville)",
+      "location": {"lat": 40.1853, "lng": -75.4527}
+    },
+    "raw_date_string": "Jun 13, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": ["Car Show", "Live Music", "Family Friendly", "Free", "Outdoor"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.uprov-montco.org/416/Program-and-Event-Calendar"
   },
   {
     "id": "discovered_juneteenth_20260614",
