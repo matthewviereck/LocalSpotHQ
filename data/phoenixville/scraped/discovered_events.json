@@ -1,20 +1,20 @@
 [
   {
-    "id": "discovered_vintage_fest_20260530",
+    "id": "discovered_history_rocks_20260604",
     "type": "event",
-    "title": "Phoenixville Vintage Fest",
+    "title": "History on the Rocks: The Phoenix Wheel",
     "venue_info": {
-      "name": "Bridge & Main Street Parking Lot, Downtown Phoenixville",
-      "location": {"lat": 40.1304, "lng": -75.5155}
+      "name": "The Colonial Theatre (Berry Theatre & Garden Suite)",
+      "location": {"lat": 40.132, "lng": -75.513}
     },
-    "raw_date_string": "May 30-31, 2026",
+    "raw_date_string": "Jun 4, 2026",
     "attributes": {
-      "category": "Festival",
-      "vibes": ["Vintage", "Shopping", "Outdoor", "Local", "Family Friendly"],
-      "price": "Free"
+      "category": "Community Event",
+      "vibes": ["Local History", "Cocktails", "Storytelling", "Indoor", "Community"],
+      "price": "Check Link"
     },
     "media": {"image": ""},
-    "action_link": "https://www.facebook.com/events/phoenixville-bridge-street/phoenixville-vintage-fest/1242767197275514/"
+    "action_link": "https://thecolonialtheatre.com/events/colonial-events/history-on-the-rocks-the-phoenix-wheel/"
   },
   {
     "id": "discovered_cirque_luzia_20260530",
@@ -136,6 +136,40 @@
     "action_link": "https://phoenixvillechamber.org/news-events/events/juneteenth-celebration-4/"
   },
   {
+    "id": "discovered_cianni_archive_journal_20260620",
+    "type": "event",
+    "title": "The Man Behind the Camera: Vincent Cianni – Archive/Journal",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jun 20, 2026",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": ["Photography", "LGBTQ+", "Book Signing", "Q&A", "Documentary"],
+      "price": "From $20"
+    },
+    "media": {"image": ""},
+    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/archive-journal/"
+  },
+  {
+    "id": "discovered_magical_mystery_doors_20260626",
+    "type": "event",
+    "title": "Beatles, Zeppelin & Doors: Magical Mystery Doors Tribute",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jun 26, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Live Music", "Tribute Band", "Classic Rock", "Indoor"],
+      "price": "From $52"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.tixr.com/groups/rsp-colonial"
+  },
+  {
     "id": "discovered_toomanygames_20260626",
     "type": "event",
     "title": "TooManyGames 2026 – PA's Premier Gaming Convention",
@@ -151,5 +185,22 @@
     },
     "media": {"image": ""},
     "action_link": "https://www.eventbrite.com/e/toomanygames-2026-tickets-1974937189297"
+  },
+  {
+    "id": "discovered_the_church_20260627",
+    "type": "event",
+    "title": "The Church: The Singles 1980–2025",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jun 27, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Live Music", "Alt-Rock", "Indie", "45-Year Retrospective"],
+      "price": "Check Link"
+    },
+    "media": {"image": ""},
+    "action_link": "https://thecolonialtheatre.com/events/live-music/the-church-the-singles-1980-2025/"
   }
 ]
