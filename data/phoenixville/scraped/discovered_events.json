@@ -202,5 +202,56 @@
     },
     "media": {"image": ""},
     "action_link": "https://thecolonialtheatre.com/events/live-music/the-church-the-singles-1980-2025/"
+  },
+  {
+    "id": "discovered_collegeville_concert_bigg_romeo_20260609",
+    "type": "event",
+    "title": "Concert in the Park: Bigg Romeo",
+    "venue_info": {
+      "name": "Community Park, Collegeville",
+      "location": {"lat": 40.1853, "lng": -75.4527}
+    },
+    "raw_date_string": "Jun 9, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Family Friendly", "Live Music", "Community"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.collegeville-pa.gov/bigg-romeo-concert-in-the-park/"
+  },
+  {
+    "id": "discovered_collegeville_concert_bachelor_boys_20260623",
+    "type": "event",
+    "title": "Concert in the Park: Bachelor Boys Band",
+    "venue_info": {
+      "name": "Community Park, Collegeville",
+      "location": {"lat": 40.1853, "lng": -75.4527}
+    },
+    "raw_date_string": "Jun 23, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Family Friendly", "Live Music", "Community"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.collegeville-pa.gov/concert-in-the-park/"
+  },
+  {
+    "id": "discovered_phoenixville_blues_festival_20260627",
+    "type": "event",
+    "title": "Phoenixville Blues Festival",
+    "venue_info": {
+      "name": "Reeves Park, Phoenixville",
+      "location": {"lat": 40.1304, "lng": -75.5155}
+    },
+    "raw_date_string": "Jun 27 - 28, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": ["Blues Music", "Free", "Outdoor", "Community", "Live Music"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://pvilleblues.org/"
   }
 ]
