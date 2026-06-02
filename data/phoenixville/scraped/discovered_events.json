@@ -51,6 +51,23 @@
     "action_link": "https://www.ursinus.edu/live/events/14005-movies-on-the-lawn"
   },
   {
+    "id": "discovered_trivia_habitat_hum_20260605",
+    "type": "event",
+    "title": "Trivia Night for a Cause: Habitat for Humanity",
+    "venue_info": {
+      "name": "Steel City Coffeehouse & Brewery, Phoenixville",
+      "location": {"lat": 40.1304, "lng": -75.5155}
+    },
+    "raw_date_string": "Jun 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Trivia", "Fundraiser", "Indoor", "Community", "Food & Drink"],
+      "price": "$10 / $35 team of 4"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.steelcityphx.com/concerts-and-events"
+  },
+  {
     "id": "discovered_garden_tour_bird_up_20260606",
     "type": "event",
     "title": "Phoenixville Garden Tour 2026: Bird Up! Elevating Bird-Friendly Gardens",
@@ -66,6 +83,40 @@
     },
     "media": {"image": ""},
     "action_link": "https://www.eventbrite.com/e/phoenixville-garden-tour-2026-bird-up-elevating-bird-friendly-gardens-tickets-1985335315372"
+  },
+  {
+    "id": "discovered_wizard_oz_screening_20260606",
+    "type": "event",
+    "title": "The Wizard of Oz – Crowd Pleaser Screening",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jun 6, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": ["Classic Film", "Family Friendly", "Historic Venue", "Indoor"],
+      "price": "Check Link"
+    },
+    "media": {"image": ""},
+    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/the-wizard-of-oz/"
+  },
+  {
+    "id": "discovered_collegeville_concert_bigg_romeo_20260609",
+    "type": "event",
+    "title": "Concert in the Park: Bigg Romeo",
+    "venue_info": {
+      "name": "Community Park, Collegeville",
+      "location": {"lat": 40.1853, "lng": -75.4527}
+    },
+    "raw_date_string": "Jun 9, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Family Friendly", "Live Music", "Community"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.collegeville-pa.gov/bigg-romeo-concert-in-the-park/"
   },
   {
     "id": "discovered_exfest_xiv_20260613",
@@ -153,6 +204,23 @@
     "action_link": "https://thecolonialtheatre.com/events/guest-presentations/archive-journal/"
   },
   {
+    "id": "discovered_collegeville_concert_bachelor_boys_20260623",
+    "type": "event",
+    "title": "Concert in the Park: Bachelor Boys Band",
+    "venue_info": {
+      "name": "Community Park, Collegeville",
+      "location": {"lat": 40.1853, "lng": -75.4527}
+    },
+    "raw_date_string": "Jun 23, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Family Friendly", "Live Music", "Community"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.collegeville-pa.gov/concert-in-the-park/"
+  },
+  {
     "id": "discovered_magical_mystery_doors_20260626",
     "type": "event",
     "title": "Beatles, Zeppelin & Doors: Magical Mystery Doors Tribute",
@@ -204,40 +272,6 @@
     "action_link": "https://thecolonialtheatre.com/events/live-music/the-church-the-singles-1980-2025/"
   },
   {
-    "id": "discovered_collegeville_concert_bigg_romeo_20260609",
-    "type": "event",
-    "title": "Concert in the Park: Bigg Romeo",
-    "venue_info": {
-      "name": "Community Park, Collegeville",
-      "location": {"lat": 40.1853, "lng": -75.4527}
-    },
-    "raw_date_string": "Jun 9, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Family Friendly", "Live Music", "Community"],
-      "price": "Free"
-    },
-    "media": {"image": ""},
-    "action_link": "https://www.collegeville-pa.gov/bigg-romeo-concert-in-the-park/"
-  },
-  {
-    "id": "discovered_collegeville_concert_bachelor_boys_20260623",
-    "type": "event",
-    "title": "Concert in the Park: Bachelor Boys Band",
-    "venue_info": {
-      "name": "Community Park, Collegeville",
-      "location": {"lat": 40.1853, "lng": -75.4527}
-    },
-    "raw_date_string": "Jun 23, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Family Friendly", "Live Music", "Community"],
-      "price": "Free"
-    },
-    "media": {"image": ""},
-    "action_link": "https://www.collegeville-pa.gov/concert-in-the-park/"
-  },
-  {
     "id": "discovered_phoenixville_blues_festival_20260627",
     "type": "event",
     "title": "Phoenixville Blues Festival",
@@ -253,5 +287,56 @@
     },
     "media": {"image": ""},
     "action_link": "https://pvilleblues.org/"
+  },
+  {
+    "id": "discovered_fireworks_food_trucks_20260705",
+    "type": "event",
+    "title": "Phoenixville Food Trucks & Fireworks – Independence Day Celebration",
+    "venue_info": {
+      "name": "Dayton Street Field, Phoenixville",
+      "location": {"lat": 40.1304, "lng": -75.5155}
+    },
+    "raw_date_string": "Jul 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Fireworks", "Family Friendly", "Free", "Outdoor", "Food Trucks"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=3421"
+  },
+  {
+    "id": "discovered_stewart_copeland_20260718",
+    "type": "event",
+    "title": "Stewart Copeland: \"Have I Said Too Much\" – Spoken Word & Stories",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jul 18, 2026",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": ["Spoken Word", "Rock History", "The Police", "Intimate Venue", "Memoir"],
+      "price": "From $92"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.stewartcopeland.org/tour"
+  },
+  {
+    "id": "discovered_winslow_eagles_tribute_20260725",
+    "type": "event",
+    "title": "Winslow: An Evening of the Eagles Tribute",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jul 25, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Live Music", "Tribute Band", "Classic Rock", "Eagles", "Indoor"],
+      "price": "Check Link"
+    },
+    "media": {"image": ""},
+    "action_link": "https://thecolonialtheatre.com/events/live-music/winslow-an-evening-of-the-eagles-tribute/"
   }
 ]
