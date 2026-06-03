@@ -34,6 +34,23 @@
     "action_link": "https://luzia.cirquedusoleil.com/oaks/"
   },
   {
+    "id": "discovered_oaks_gun_show_20260605",
+    "type": "event",
+    "title": "Oaks Gun Show – Eagle Shows",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {"lat": 40.1325, "lng": -75.4699}
+    },
+    "raw_date_string": "Jun 5 - 7, 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": ["Shopping", "Collectibles", "Indoor", "Family Friendly"],
+      "price": "$15"
+    },
+    "media": {"image": ""},
+    "action_link": "https://eagleshows.com/events/category/oaks-gun-show/"
+  },
+  {
     "id": "discovered_movies_lawn_ursinus_20260605",
     "type": "event",
     "title": "Movies on the Lawn – \"Hoppers\" at Ursinus College",
@@ -185,6 +202,23 @@
     },
     "media": {"image": ""},
     "action_link": "https://phoenixvillechamber.org/news-events/events/juneteenth-celebration-4/"
+  },
+  {
+    "id": "discovered_kimberton_concert_bekindrewind_20260619",
+    "type": "event",
+    "title": "Kimberton Park Summer Concert: Be Kind Rewind (90s Music)",
+    "venue_info": {
+      "name": "Miller Amphitheater at Kimberton Park, Phoenixville",
+      "location": {"lat": 40.115, "lng": -75.544}
+    },
+    "raw_date_string": "Jun 19, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Live Music", "Family Friendly", "90s"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.eastpikeland.org/community/page/summer-concert-series-0"
   },
   {
     "id": "discovered_cianni_archive_journal_20260620",
