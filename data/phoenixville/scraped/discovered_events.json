@@ -85,6 +85,23 @@
     "action_link": "https://www.steelcityphx.com/concerts-and-events"
   },
   {
+    "id": "discovered_first_friday_20260605",
+    "type": "event",
+    "title": "First Friday – Downtown Phoenixville",
+    "venue_info": {
+      "name": "Bridge Street, Downtown Phoenixville",
+      "location": {"lat": 40.1304, "lng": -75.5155}
+    },
+    "raw_date_string": "Jun 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Live Music", "Vendors", "Family Friendly"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://phoenixvillechamber.org/news-events/events/first-friday-june/"
+  },
+  {
     "id": "discovered_garden_tour_bird_up_20260606",
     "type": "event",
     "title": "Phoenixville Garden Tour 2026: Bird Up! Elevating Bird-Friendly Gardens",
@@ -117,6 +134,23 @@
     },
     "media": {"image": ""},
     "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/the-wizard-of-oz/"
+  },
+  {
+    "id": "discovered_science_on_screen_20260606",
+    "type": "event",
+    "title": "Science on Screen: Remember Sammy Jankis (Memento)",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jun 6, 2026",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": ["Film", "Science", "Memory & Brain", "Nolan", "Historic Venue"],
+      "price": "Check Link"
+    },
+    "media": {"image": ""},
+    "action_link": "https://thecolonialtheatre.com/films/science-on-screen/science-on-screen-remember-sammy-jankis-memory-executive-function-and-the-brain/"
   },
   {
     "id": "discovered_collegeville_concert_bigg_romeo_20260609",
@@ -221,6 +255,23 @@
     "action_link": "https://www.eastpikeland.org/community/page/summer-concert-series-0"
   },
   {
+    "id": "discovered_pridefest_20260620",
+    "type": "event",
+    "title": "Chester County PrideFest 2026",
+    "venue_info": {
+      "name": "Bridge Street, Downtown Phoenixville",
+      "location": {"lat": 40.1304, "lng": -75.5155}
+    },
+    "raw_date_string": "Jun 20, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": ["LGBTQ+", "Free", "Outdoor", "Family Friendly", "Live Music"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "https://lgbteachesco.org/pridefest"
+  },
+  {
     "id": "discovered_cianni_archive_journal_20260620",
     "type": "event",
     "title": "The Man Behind the Camera: Vincent Cianni – Archive/Journal",
@@ -236,6 +287,23 @@
     },
     "media": {"image": ""},
     "action_link": "https://thecolonialtheatre.com/events/guest-presentations/archive-journal/"
+  },
+  {
+    "id": "discovered_hush_gatsby_20260621",
+    "type": "event",
+    "title": "HUSH: An Immersive Gatsby Party",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jun 21, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Speakeasy", "1920s", "Gatsby", "Live Music", "Immersive"],
+      "price": "Check Link"
+    },
+    "media": {"image": ""},
+    "action_link": "https://thecolonialtheatre.com/events/colonial-events/hush-an-immersive-gatsby-party/"
   },
   {
     "id": "discovered_collegeville_concert_bachelor_boys_20260623",
@@ -323,6 +391,23 @@
     "action_link": "https://pvilleblues.org/"
   },
   {
+    "id": "discovered_first_friday_20260703",
+    "type": "event",
+    "title": "First Friday – Downtown Phoenixville (July)",
+    "venue_info": {
+      "name": "Bridge Street, Downtown Phoenixville",
+      "location": {"lat": 40.1304, "lng": -75.5155}
+    },
+    "raw_date_string": "Jul 3, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Live Music", "Vendors", "Family Friendly"],
+      "price": "Free"
+    },
+    "media": {"image": ""},
+    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
     "id": "discovered_fireworks_food_trucks_20260705",
     "type": "event",
     "title": "Phoenixville Food Trucks & Fireworks – Independence Day Celebration",
@@ -338,6 +423,40 @@
     },
     "media": {"image": ""},
     "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=3421"
+  },
+  {
+    "id": "discovered_blobfest_20260710",
+    "type": "event",
+    "title": "Blobfest 2026: Cirque du Blobfest",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jul 10 - 12, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": ["Horror Film", "Annual Festival", "Immersive", "Run-Out", "Community"],
+      "price": "Check Link"
+    },
+    "media": {"image": ""},
+    "action_link": "https://thecolonialtheatre.com/films/blobfest/"
+  },
+  {
+    "id": "discovered_emily_mcintire_20260717",
+    "type": "event",
+    "title": "Emily McIntire: \"Forsaking Midnight\" Author Event",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jul 17, 2026",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": ["Author Reading", "Book Signing", "Romance", "Q&A", "Indoor"],
+      "price": "Check Link"
+    },
+    "media": {"image": ""},
+    "action_link": "https://www.emilymcintire.com/events"
   },
   {
     "id": "discovered_stewart_copeland_20260718",
