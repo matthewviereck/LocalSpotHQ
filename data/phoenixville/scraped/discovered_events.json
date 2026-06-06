@@ -1,22 +1,5 @@
 [
   {
-    "id": "discovered_history_rocks_20260604",
-    "type": "event",
-    "title": "History on the Rocks: The Phoenix Wheel",
-    "venue_info": {
-      "name": "The Colonial Theatre (Berry Theatre & Garden Suite)",
-      "location": {"lat": 40.132, "lng": -75.513}
-    },
-    "raw_date_string": "Jun 4, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Local History", "Cocktails", "Storytelling", "Indoor", "Community"],
-      "price": "Check Link"
-    },
-    "media": {"image": ""},
-    "action_link": "https://thecolonialtheatre.com/events/colonial-events/history-on-the-rocks-the-phoenix-wheel/"
-  },
-  {
     "id": "discovered_cirque_luzia_20260530",
     "type": "event",
     "title": "Cirque du Soleil: LUZIA",
@@ -49,57 +32,6 @@
     },
     "media": {"image": ""},
     "action_link": "https://eagleshows.com/events/category/oaks-gun-show/"
-  },
-  {
-    "id": "discovered_movies_lawn_ursinus_20260605",
-    "type": "event",
-    "title": "Movies on the Lawn – \"Hoppers\" at Ursinus College",
-    "venue_info": {
-      "name": "Ursinus College Front Lawn, Collegeville",
-      "location": {"lat": 40.1853, "lng": -75.4527}
-    },
-    "raw_date_string": "Jun 5, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Family Friendly", "Free", "Outdoor", "Film", "Food Trucks"],
-      "price": "Free"
-    },
-    "media": {"image": ""},
-    "action_link": "https://www.ursinus.edu/live/events/14005-movies-on-the-lawn"
-  },
-  {
-    "id": "discovered_trivia_habitat_hum_20260605",
-    "type": "event",
-    "title": "Trivia Night for a Cause: Habitat for Humanity",
-    "venue_info": {
-      "name": "Steel City Coffeehouse & Brewery, Phoenixville",
-      "location": {"lat": 40.1304, "lng": -75.5155}
-    },
-    "raw_date_string": "Jun 5, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Trivia", "Fundraiser", "Indoor", "Community", "Food & Drink"],
-      "price": "$10 / $35 team of 4"
-    },
-    "media": {"image": ""},
-    "action_link": "https://www.steelcityphx.com/concerts-and-events"
-  },
-  {
-    "id": "discovered_first_friday_20260605",
-    "type": "event",
-    "title": "First Friday – Downtown Phoenixville",
-    "venue_info": {
-      "name": "Bridge Street, Downtown Phoenixville",
-      "location": {"lat": 40.1304, "lng": -75.5155}
-    },
-    "raw_date_string": "Jun 5, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Live Music", "Vendors", "Family Friendly"],
-      "price": "Free"
-    },
-    "media": {"image": ""},
-    "action_link": "https://phoenixvillechamber.org/news-events/events/first-friday-june/"
   },
   {
     "id": "discovered_garden_tour_bird_up_20260606",
@@ -151,6 +83,23 @@
     },
     "media": {"image": ""},
     "action_link": "https://thecolonialtheatre.com/films/science-on-screen/science-on-screen-remember-sammy-jankis-memory-executive-function-and-the-brain/"
+  },
+  {
+    "id": "discovered_broadway_colonial_20260607",
+    "type": "event",
+    "title": "Broadway at the Colonial Theatre – Stars of Wicked, Frozen & The Great Gatsby",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jun 7, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": ["Broadway", "Live Performance", "Vocal Show", "Indoor", "Historic Venue"],
+      "price": "From $80"
+    },
+    "media": {"image": ""},
+    "action_link": "https://thecolonialtheatre.com/events/live-music/broadway-at-the-colonial-theatre/"
   },
   {
     "id": "discovered_collegeville_concert_bigg_romeo_20260609",
@@ -391,6 +340,23 @@
     "action_link": "https://www.eventbrite.com/e/toomanygames-2026-tickets-1974937189297"
   },
   {
+    "id": "discovered_fright_night_16mm_20260627",
+    "type": "event",
+    "title": "Fright Night – 16mm Horror Double Feature",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {"lat": 40.132, "lng": -75.513}
+    },
+    "raw_date_string": "Jun 27, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": ["Horror Film", "16mm Projection", "Double Feature", "Classic Horror", "Indoor"],
+      "price": "Check Link"
+    },
+    "media": {"image": ""},
+    "action_link": "https://thecolonialtheatre.com/films/fright-night/"
+  },
+  {
     "id": "discovered_the_church_20260627",
     "type": "event",
     "title": "The Church: The Singles 1980–2025",
@@ -423,6 +389,23 @@
     },
     "media": {"image": ""},
     "action_link": "https://pvilleblues.org/"
+  },
+  {
+    "id": "discovered_canal_day_20260628",
+    "type": "event",
+    "title": "41st Annual Canal Day at Lock 60 – Schuylkill Canal",
+    "venue_info": {
+      "name": "Lock 60 & St. Michael's Park, Mont Clare (near Phoenixville)",
+      "location": {"lat": 40.1241, "lng": -75.5019}
+    },
+    "raw_date_string": "Jun 28, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Family Friendly", "Outdoor", "Live Music", "Canal History", "Community", "Food", "Kids Activities"],
+      "price": "$5"
+    },
+    "media": {"image": ""},
+    "action_link": "https://schuylkillcanal.org/page-1456148"
   },
   {
     "id": "discovered_first_friday_20260703",
