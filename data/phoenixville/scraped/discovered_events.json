@@ -1,104 +1,30 @@
 [
   {
-    "id": "discovered_cirque_luzia_20260530",
-    "type": "event",
-    "title": "Cirque du Soleil: LUZIA",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center (Big Top), Oaks",
-      "location": {"lat": 40.1325, "lng": -75.4699}
-    },
-    "raw_date_string": "May 7 - Jun 7, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": ["Acrobatics", "Live Performance", "Family Friendly", "World-Class Show"],
-      "price": "Check Link"
-    },
-    "media": {"image": ""},
-    "action_link": "https://luzia.cirquedusoleil.com/oaks/"
-  },
-  {
-    "id": "discovered_oaks_gun_show_20260605",
-    "type": "event",
-    "title": "Oaks Gun Show – Eagle Shows",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": {"lat": 40.1325, "lng": -75.4699}
-    },
-    "raw_date_string": "Jun 5 - 7, 2026",
-    "attributes": {
-      "category": "Expo",
-      "vibes": ["Shopping", "Collectibles", "Indoor", "Family Friendly"],
-      "price": "$15"
-    },
-    "media": {"image": ""},
-    "action_link": "https://eagleshows.com/events/category/oaks-gun-show/"
-  },
-  {
-    "id": "discovered_garden_tour_bird_up_20260606",
-    "type": "event",
-    "title": "Phoenixville Garden Tour 2026: Bird Up! Elevating Bird-Friendly Gardens",
-    "venue_info": {
-      "name": "Various Gardens – Phoenixville (Self-Guided Tour)",
-      "location": {"lat": 40.1304, "lng": -75.5155}
-    },
-    "raw_date_string": "Jun 6, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Outdoor", "Nature", "Self-Guided", "Local"],
-      "price": "$20"
-    },
-    "media": {"image": ""},
-    "action_link": "https://www.eventbrite.com/e/phoenixville-garden-tour-2026-bird-up-elevating-bird-friendly-gardens-tickets-1985335315372"
-  },
-  {
-    "id": "discovered_wizard_oz_screening_20260606",
-    "type": "event",
-    "title": "The Wizard of Oz – Crowd Pleaser Screening",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
-    },
-    "raw_date_string": "Jun 6, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": ["Classic Film", "Family Friendly", "Historic Venue", "Indoor"],
-      "price": "Check Link"
-    },
-    "media": {"image": ""},
-    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/the-wizard-of-oz/"
-  },
-  {
-    "id": "discovered_science_on_screen_20260606",
-    "type": "event",
-    "title": "Science on Screen: Remember Sammy Jankis (Memento)",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
-    },
-    "raw_date_string": "Jun 6, 2026",
-    "attributes": {
-      "category": "Guest Presentations",
-      "vibes": ["Film", "Science", "Memory & Brain", "Nolan", "Historic Venue"],
-      "price": "Check Link"
-    },
-    "media": {"image": ""},
-    "action_link": "https://thecolonialtheatre.com/films/science-on-screen/science-on-screen-remember-sammy-jankis-memory-executive-function-and-the-brain/"
-  },
-  {
     "id": "discovered_broadway_colonial_20260607",
     "type": "event",
     "title": "Broadway at the Colonial Theatre – Stars of Wicked, Frozen & The Great Gatsby",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jun 7, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Broadway", "Live Performance", "Vocal Show", "Indoor", "Historic Venue"],
+      "vibes": [
+        "Broadway",
+        "Live Performance",
+        "Vocal Show",
+        "Indoor",
+        "Historic Venue"
+      ],
       "price": "From $80"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/live-music/broadway-at-the-colonial-theatre/"
   },
   {
@@ -107,15 +33,26 @@
     "title": "Concert in the Park: Bigg Romeo",
     "venue_info": {
       "name": "Community Park, Collegeville",
-      "location": {"lat": 40.1853, "lng": -75.4527}
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
     },
     "raw_date_string": "Jun 9, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Family Friendly", "Live Music", "Community"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly",
+        "Live Music",
+        "Community"
+      ],
       "price": "Free"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.collegeville-pa.gov/bigg-romeo-concert-in-the-park/"
   },
   {
@@ -124,15 +61,25 @@
     "title": "Exhumed Films Presents eX-Fest Part XIV",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jun 13, 2026",
     "attributes": {
       "category": "Guest Presentations",
-      "vibes": ["Film Marathon", "Exploitation Films", "Historic Venue", "12-Hour Event"],
+      "vibes": [
+        "Film Marathon",
+        "Exploitation Films",
+        "Historic Venue",
+        "12-Hour Event"
+      ],
       "price": "$45"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/guest-presentations/exhumed-films-presents-ex-fest-part-xiv-at-the-colonial-theatre/"
   },
   {
@@ -141,15 +88,26 @@
     "title": "Ninth Annual Phoenixville Art Street Festival",
     "venue_info": {
       "name": "Bridge Street, Downtown Phoenixville",
-      "location": {"lat": 40.1304, "lng": -75.5155}
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jun 13, 2026",
     "attributes": {
       "category": "Festival",
-      "vibes": ["Family Friendly", "Outdoor", "Arts", "Live Music", "Free"],
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Arts",
+        "Live Music",
+        "Free"
+      ],
       "price": "Free"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://phoenixvillechamber.org/news-events/events/phoenixville-art-street-festival/"
   },
   {
@@ -158,15 +116,26 @@
     "title": "Cars & Guitars at Anderson Farm Park",
     "venue_info": {
       "name": "Anderson Farm Park, Upper Providence (Collegeville)",
-      "location": {"lat": 40.1853, "lng": -75.4527}
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
     },
     "raw_date_string": "Jun 13, 2026",
     "attributes": {
       "category": "Festival",
-      "vibes": ["Car Show", "Live Music", "Family Friendly", "Free", "Outdoor"],
+      "vibes": [
+        "Car Show",
+        "Live Music",
+        "Family Friendly",
+        "Free",
+        "Outdoor"
+      ],
       "price": "Free"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.uprov-montco.org/416/Program-and-Event-Calendar"
   },
   {
@@ -175,16 +144,54 @@
     "title": "Phoenixville Juneteenth Celebration 2026",
     "venue_info": {
       "name": "200 Block of Bridge Street, Phoenixville",
-      "location": {"lat": 40.1304, "lng": -75.5155}
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jun 14, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Family Friendly", "Cultural", "Free", "Outdoor"],
+      "vibes": [
+        "Family Friendly",
+        "Cultural",
+        "Free",
+        "Outdoor"
+      ],
       "price": "Free"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://phoenixvillechamber.org/news-events/events/juneteenth-celebration-4/"
+  },
+  {
+    "id": "discovered_french_creek_iron_tour_20260614",
+    "type": "event",
+    "title": "24th Annual French Creek Iron Tour – Cycling for Open Space",
+    "venue_info": {
+      "name": "Kimberton Fire Company & Fairgrounds, Phoenixville",
+      "location": {
+        "lat": 40.115,
+        "lng": -75.544
+      }
+    },
+    "raw_date_string": "Jun 14, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Cycling",
+        "Charity",
+        "Outdoor",
+        "All Fitness Levels",
+        "Nature"
+      ],
+      "price": "$80"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.bikereg.com/74248"
   },
   {
     "id": "discovered_kimberton_concert_bekindrewind_20260619",
@@ -192,15 +199,26 @@
     "title": "Kimberton Park Summer Concert: Be Kind Rewind (90s Music)",
     "venue_info": {
       "name": "Miller Amphitheater at Kimberton Park, Phoenixville",
-      "location": {"lat": 40.115, "lng": -75.544}
+      "location": {
+        "lat": 40.115,
+        "lng": -75.544
+      }
     },
     "raw_date_string": "Jun 19, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Live Music", "Family Friendly", "90s"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "90s"
+      ],
       "price": "Free"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eastpikeland.org/community/page/summer-concert-series-0"
   },
   {
@@ -209,15 +227,26 @@
     "title": "Chester County PrideFest 2026",
     "venue_info": {
       "name": "Bridge Street, Downtown Phoenixville",
-      "location": {"lat": 40.1304, "lng": -75.5155}
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jun 20, 2026",
     "attributes": {
       "category": "Festival",
-      "vibes": ["LGBTQ+", "Free", "Outdoor", "Family Friendly", "Live Music"],
+      "vibes": [
+        "LGBTQ+",
+        "Free",
+        "Outdoor",
+        "Family Friendly",
+        "Live Music"
+      ],
       "price": "Free"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://lgbteachesco.org/pridefest"
   },
   {
@@ -226,15 +255,26 @@
     "title": "The Man Behind the Camera: Vincent Cianni – Archive/Journal",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jun 20, 2026",
     "attributes": {
       "category": "Guest Presentations",
-      "vibes": ["Photography", "LGBTQ+", "Book Signing", "Q&A", "Documentary"],
+      "vibes": [
+        "Photography",
+        "LGBTQ+",
+        "Book Signing",
+        "Q&A",
+        "Documentary"
+      ],
       "price": "From $20"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/guest-presentations/archive-journal/"
   },
   {
@@ -243,15 +283,27 @@
     "title": "Good Vibrations for a Cure – Alzheimer's Fundraiser",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jun 20, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Fundraiser", "Alzheimer's Awareness", "Live Music", "Silent Auction", "Wellness", "Community"],
+      "vibes": [
+        "Fundraiser",
+        "Alzheimer's Awareness",
+        "Live Music",
+        "Silent Auction",
+        "Wellness",
+        "Community"
+      ],
       "price": "Check Link"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://phoenixvillechamber.org/news-events/events/good-vibrations-for-a-cure/"
   },
   {
@@ -260,15 +312,26 @@
     "title": "HUSH: An Immersive Gatsby Party",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jun 21, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Speakeasy", "1920s", "Gatsby", "Live Music", "Immersive"],
+      "vibes": [
+        "Speakeasy",
+        "1920s",
+        "Gatsby",
+        "Live Music",
+        "Immersive"
+      ],
       "price": "Check Link"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/colonial-events/hush-an-immersive-gatsby-party/"
   },
   {
@@ -277,15 +340,26 @@
     "title": "Concert in the Park: Bachelor Boys Band",
     "venue_info": {
       "name": "Community Park, Collegeville",
-      "location": {"lat": 40.1853, "lng": -75.4527}
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
     },
     "raw_date_string": "Jun 23, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Family Friendly", "Live Music", "Community"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly",
+        "Live Music",
+        "Community"
+      ],
       "price": "Free"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.collegeville-pa.gov/concert-in-the-park/"
   },
   {
@@ -294,15 +368,27 @@
     "title": "Cold War in Philly: Flyers vs. Russia 1976 – Documentary Screening & Q&A",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jun 25, 2026",
     "attributes": {
       "category": "Guest Presentations",
-      "vibes": ["Documentary", "Hockey", "Philadelphia Flyers", "Q&A", "Sports History", "Indoor"],
+      "vibes": [
+        "Documentary",
+        "Hockey",
+        "Philadelphia Flyers",
+        "Q&A",
+        "Sports History",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/guest-presentations/cold-war-in-philly-flyers-vs-russia-1976/"
   },
   {
@@ -311,15 +397,25 @@
     "title": "Beatles, Zeppelin & Doors: Magical Mystery Doors Tribute",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jun 26, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Live Music", "Tribute Band", "Classic Rock", "Indoor"],
+      "vibes": [
+        "Live Music",
+        "Tribute Band",
+        "Classic Rock",
+        "Indoor"
+      ],
       "price": "From $52"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.tixr.com/groups/rsp-colonial"
   },
   {
@@ -328,15 +424,25 @@
     "title": "TooManyGames 2026 – PA's Premier Gaming Convention",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center",
-      "location": {"lat": 40.1325, "lng": -75.4699}
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Jun 26 - 28, 2026",
     "attributes": {
       "category": "Expo",
-      "vibes": ["Gaming", "Convention", "Family Friendly", "Marketplace"],
+      "vibes": [
+        "Gaming",
+        "Convention",
+        "Family Friendly",
+        "Marketplace"
+      ],
       "price": "From $109"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eventbrite.com/e/toomanygames-2026-tickets-1974937189297"
   },
   {
@@ -345,15 +451,26 @@
     "title": "Fright Night – 16mm Horror Double Feature",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jun 27, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Horror Film", "16mm Projection", "Double Feature", "Classic Horror", "Indoor"],
+      "vibes": [
+        "Horror Film",
+        "16mm Projection",
+        "Double Feature",
+        "Classic Horror",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/fright-night/"
   },
   {
@@ -362,15 +479,25 @@
     "title": "The Church: The Singles 1980–2025",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jun 27, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Live Music", "Alt-Rock", "Indie", "45-Year Retrospective"],
+      "vibes": [
+        "Live Music",
+        "Alt-Rock",
+        "Indie",
+        "45-Year Retrospective"
+      ],
       "price": "Check Link"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/live-music/the-church-the-singles-1980-2025/"
   },
   {
@@ -379,15 +506,26 @@
     "title": "Phoenixville Blues Festival",
     "venue_info": {
       "name": "Reeves Park, Phoenixville",
-      "location": {"lat": 40.1304, "lng": -75.5155}
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jun 27 - 28, 2026",
     "attributes": {
       "category": "Festival",
-      "vibes": ["Blues Music", "Free", "Outdoor", "Community", "Live Music"],
+      "vibes": [
+        "Blues Music",
+        "Free",
+        "Outdoor",
+        "Community",
+        "Live Music"
+      ],
       "price": "Free"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://pvilleblues.org/"
   },
   {
@@ -396,15 +534,28 @@
     "title": "41st Annual Canal Day at Lock 60 – Schuylkill Canal",
     "venue_info": {
       "name": "Lock 60 & St. Michael's Park, Mont Clare (near Phoenixville)",
-      "location": {"lat": 40.1241, "lng": -75.5019}
+      "location": {
+        "lat": 40.1241,
+        "lng": -75.5019
+      }
     },
     "raw_date_string": "Jun 28, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Family Friendly", "Outdoor", "Live Music", "Canal History", "Community", "Food", "Kids Activities"],
+      "vibes": [
+        "Family Friendly",
+        "Outdoor",
+        "Live Music",
+        "Canal History",
+        "Community",
+        "Food",
+        "Kids Activities"
+      ],
       "price": "$5"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://schuylkillcanal.org/page-1456148"
   },
   {
@@ -413,15 +564,26 @@
     "title": "First Friday – Downtown Phoenixville (July)",
     "venue_info": {
       "name": "Bridge Street, Downtown Phoenixville",
-      "location": {"lat": 40.1304, "lng": -75.5155}
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jul 3, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Live Music", "Vendors", "Family Friendly"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Vendors",
+        "Family Friendly"
+      ],
       "price": "Free"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "http://www.phoenixvillefirst.org/first-fridays"
   },
   {
@@ -430,15 +592,26 @@
     "title": "Phoenixville Food Trucks & Fireworks – Independence Day Celebration",
     "venue_info": {
       "name": "Dayton Street Field, Phoenixville",
-      "location": {"lat": 40.1304, "lng": -75.5155}
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jul 5, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Fireworks", "Family Friendly", "Free", "Outdoor", "Food Trucks"],
+      "vibes": [
+        "Fireworks",
+        "Family Friendly",
+        "Free",
+        "Outdoor",
+        "Food Trucks"
+      ],
       "price": "Free"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=3421"
   },
   {
@@ -447,15 +620,26 @@
     "title": "Blobfest 2026: Cirque du Blobfest",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 10 - 12, 2026",
     "attributes": {
       "category": "Festival",
-      "vibes": ["Horror Film", "Annual Festival", "Immersive", "Run-Out", "Community"],
+      "vibes": [
+        "Horror Film",
+        "Annual Festival",
+        "Immersive",
+        "Run-Out",
+        "Community"
+      ],
       "price": "Check Link"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/blobfest/"
   },
   {
@@ -464,15 +648,26 @@
     "title": "Emily McIntire: \"Forsaking Midnight\" Author Event",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 17, 2026",
     "attributes": {
       "category": "Guest Presentations",
-      "vibes": ["Author Reading", "Book Signing", "Romance", "Q&A", "Indoor"],
+      "vibes": [
+        "Author Reading",
+        "Book Signing",
+        "Romance",
+        "Q&A",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.emilymcintire.com/events"
   },
   {
@@ -481,15 +676,26 @@
     "title": "Stewart Copeland: \"Have I Said Too Much\" – Spoken Word & Stories",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 18, 2026",
     "attributes": {
       "category": "Guest Presentations",
-      "vibes": ["Spoken Word", "Rock History", "The Police", "Intimate Venue", "Memoir"],
+      "vibes": [
+        "Spoken Word",
+        "Rock History",
+        "The Police",
+        "Intimate Venue",
+        "Memoir"
+      ],
       "price": "From $92"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.stewartcopeland.org/tour"
   },
   {
@@ -498,15 +704,26 @@
     "title": "Winslow: An Evening of the Eagles Tribute",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": {"lat": 40.132, "lng": -75.513}
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 25, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Live Music", "Tribute Band", "Classic Rock", "Eagles", "Indoor"],
+      "vibes": [
+        "Live Music",
+        "Tribute Band",
+        "Classic Rock",
+        "Eagles",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": {"image": ""},
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/live-music/winslow-an-evening-of-the-eagles-tribute/"
   }
 ]
