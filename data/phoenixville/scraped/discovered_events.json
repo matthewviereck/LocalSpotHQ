@@ -1,33 +1,5 @@
 [
   {
-    "id": "discovered_broadway_colonial_20260607",
-    "type": "event",
-    "title": "Broadway at the Colonial Theatre – Stars of Wicked, Frozen & The Great Gatsby",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 7, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Broadway",
-        "Live Performance",
-        "Vocal Show",
-        "Indoor",
-        "Historic Venue"
-      ],
-      "price": "From $80"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/live-music/broadway-at-the-colonial-theatre/"
-  },
-  {
     "id": "discovered_collegeville_concert_bigg_romeo_20260609",
     "type": "event",
     "title": "Concert in the Park: Bigg Romeo",
@@ -53,7 +25,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://www.collegeville-pa.gov/bigg-romeo-concert-in-the-park/"
+    "action_link": "https://www.collegeville-pa.gov/concert-in-the-park/"
   },
   {
     "id": "discovered_exfest_xiv_20260613",
@@ -392,6 +364,34 @@
     "action_link": "https://thecolonialtheatre.com/films/guest-presentations/cold-war-in-philly-flyers-vs-russia-1976/"
   },
   {
+    "id": "discovered_bullitt_35mm_20260626",
+    "type": "event",
+    "title": "Bullitt – 35mm Classic Film Screening",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jun 26, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Classic Film",
+        "35mm Projection",
+        "Steve McQueen",
+        "Car Chase",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/classic-films/bullitt/"
+  },
+  {
     "id": "discovered_magical_mystery_doors_20260626",
     "type": "event",
     "title": "Beatles, Zeppelin & Doors: Magical Mystery Doors Tribute",
@@ -697,6 +697,34 @@
       "image": ""
     },
     "action_link": "https://www.stewartcopeland.org/tour"
+  },
+  {
+    "id": "discovered_unforgettable_fire_u2_20260724",
+    "type": "event",
+    "title": "Unforgettable Fire – U2 Tribute Band",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 24, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Live Music",
+        "Tribute Band",
+        "U2",
+        "Classic Rock",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/unforgettable-fire-u2-tribute/"
   },
   {
     "id": "discovered_winslow_eagles_tribute_20260725",
