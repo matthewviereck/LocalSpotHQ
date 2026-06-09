@@ -587,6 +587,35 @@
     "action_link": "http://www.phoenixvillefirst.org/first-fridays"
   },
   {
+    "id": "discovered_skippack_july4_parade_20260704",
+    "type": "event",
+    "title": "Skippack Village 4th of July Parade & Fireworks",
+    "venue_info": {
+      "name": "Skippack Village (Skippack Pike), Skippack Township",
+      "location": {
+        "lat": 40.2078,
+        "lng": -75.4138
+      }
+    },
+    "raw_date_string": "Jul 4, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Fireworks",
+        "Parade",
+        "Outdoor",
+        "Independence Day",
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://swmontgomery.macaronikid.com/events/684bc1c810e7a669a45268e1/skippack-july-4th-parade-and-fireworks"
+  },
+  {
     "id": "discovered_fireworks_food_trucks_20260705",
     "type": "event",
     "title": "Phoenixville Food Trucks & Fireworks – Independence Day Celebration",
@@ -613,6 +642,34 @@
       "image": ""
     },
     "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=3421"
+  },
+  {
+    "id": "discovered_pluto_summer_cinema_20260705",
+    "type": "event",
+    "title": "Pluto TV Summer of Cinema – Free Movie Weekend at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 5 - 6, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Free",
+        "Classic Films",
+        "Family Friendly",
+        "Indoor",
+        "Summer Cinema"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/news/pluto-tvs-summer-of-cinema-returns/"
   },
   {
     "id": "discovered_blobfest_20260710",
