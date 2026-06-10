@@ -1,33 +1,5 @@
 [
   {
-    "id": "discovered_collegeville_concert_bigg_romeo_20260609",
-    "type": "event",
-    "title": "Concert in the Park: Bigg Romeo",
-    "venue_info": {
-      "name": "Community Park, Collegeville",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "Jun 9, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly",
-        "Live Music",
-        "Community"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.collegeville-pa.gov/concert-in-the-park/"
-  },
-  {
     "id": "discovered_exfest_xiv_20260613",
     "type": "event",
     "title": "Exhumed Films Presents eX-Fest Part XIV",
@@ -111,6 +83,35 @@
     "action_link": "https://www.uprov-montco.org/416/Program-and-Event-Calendar"
   },
   {
+    "id": "discovered_hspa_strawberry_festival_20260613",
+    "type": "event",
+    "title": "HSPA Annual Strawberry Festival & Flea Market",
+    "venue_info": {
+      "name": "Historical Society of the Phoenixville Area, 204 Church St",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jun 13, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Family Friendly",
+        "Outdoor",
+        "Local History",
+        "Flea Market",
+        "Food"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://countylinesmagazine.com/event/historical-society-of-phoenixvilles-annual-strawberry-festival/"
+  },
+  {
     "id": "discovered_juneteenth_20260614",
     "type": "event",
     "title": "Phoenixville Juneteenth Celebration 2026",
@@ -136,6 +137,34 @@
       "image": ""
     },
     "action_link": "https://phoenixvillechamber.org/news-events/events/juneteenth-celebration-4/"
+  },
+  {
+    "id": "discovered_colonial_juneteenth_harriet_20260614",
+    "type": "event",
+    "title": "Harriet – Juneteenth Film Screening at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jun 14, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Film Screening",
+        "Juneteenth",
+        "History",
+        "Indoor",
+        "Community"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/phoenixville-juneteenth/"
   },
   {
     "id": "discovered_french_creek_iron_tour_20260614",
