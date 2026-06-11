@@ -992,6 +992,8 @@ function transformEvents($allEvents) {
         $transformed[] = $best[$key]['ev'];
     }
 
+    $transformed = fuzzyDedupe($transformed);
+
     // Sort by date. Keep _sort_date in the output so buildStructuredData() can
     // derive an ISO startDate without re-parsing.
     usort($transformed, function($a, $b) {
@@ -1000,6 +1002,59 @@ function transformEvents($allEvents) {
 
     logMsg("  Transformed " . count($transformed) . " upcoming events (skipped {$skipped} past)");
     return $transformed;
+}
+
+function titleTokens($title) {
+    static $stopwords = ['the', 'a', 'an', 'at', 'of', 'in', 'on', 'with', 'and', 'for', 'to'];
+    preg_match_all('/[a-z0-9]+/', strtolower($title), $m);
+    return array_values(array_diff(array_unique($m[0]), $stopwords));
+}
+
+function fuzzyDedupe($events) {
+    // Merge near-duplicate events: same parsed date, one title's tokens a
+    // subset of the other's ("First Friday - July" vs "First Friday -
+    // Downtown Phoenixville (July)"). Keeps the richer copy. Undated events
+    // are skipped - they all share a sentinel timestamp and would over-merge.
+    $byDate = [];
+    foreach ($events as $ev) {
+        $byDate[$ev['_sort_date']][] = $ev;
+    }
+
+    $removed = 0;
+    $result = [];
+    foreach ($byDate as $ts => $group) {
+        if ($ts == 9999999999 || count($group) === 1) {
+            foreach ($group as $ev) { $result[] = $ev; }
+            continue;
+        }
+        $kept = []; // each: ['tokens' =>, 'ev' =>, 'richness' =>]
+        foreach ($group as $ev) {
+            $tokens = titleTokens($ev['title']);
+            $richness = [strpos($ev['img'], 'placehold.co') === false, !empty($ev['link'])];
+            $merged = false;
+            foreach ($kept as $i => $entry) {
+                $small = count($tokens) <= count($entry['tokens']) ? $tokens : $entry['tokens'];
+                $large = count($tokens) <= count($entry['tokens']) ? $entry['tokens'] : $tokens;
+                if (count($small) >= 2 && count(array_diff($small, $large)) === 0) {
+                    $removed++;
+                    if ($richness > $entry['richness']) {
+                        $kept[$i] = ['tokens' => $tokens, 'ev' => $ev, 'richness' => $richness];
+                    }
+                    $merged = true;
+                    break;
+                }
+            }
+            if (!$merged) {
+                $kept[] = ['tokens' => $tokens, 'ev' => $ev, 'richness' => $richness];
+            }
+        }
+        foreach ($kept as $entry) { $result[] = $entry['ev']; }
+    }
+
+    if ($removed > 0) {
+        logMsg("  Removed {$removed} near-duplicate events (fuzzy title match)");
+    }
+    return $result;
 }
 
 // ============================================================

@@ -126,6 +126,51 @@ def get_smart_label(event_date):
         return ""
 
 
+_TITLE_STOPWORDS = {'the', 'a', 'an', 'at', 'of', 'in', 'on', 'with', 'and', 'for', 'to'}
+
+
+def _title_tokens(title):
+    words = re.findall(r'[a-z0-9]+', title.lower())
+    return frozenset(w for w in words if w not in _TITLE_STOPWORDS)
+
+
+def fuzzy_dedupe(events):
+    """Merge near-duplicate events: same parsed date, one title's tokens a
+    subset of the other's ("First Friday - July" vs "First Friday - Downtown
+    Phoenixville (July)"). Keeps the richer copy. Undated events are skipped -
+    they all share a sentinel timestamp and would over-merge."""
+    by_date = {}
+    for ev in events:
+        by_date.setdefault(ev['_sort_date'], []).append(ev)
+
+    removed = 0
+    result = []
+    for ts, group in by_date.items():
+        if ts == 9999999999 or len(group) == 1:
+            result.extend(group)
+            continue
+        kept = []  # list of [tokens, event, richness]
+        for ev in group:
+            tokens = _title_tokens(ev['title'])
+            richness = ('placehold.co' not in ev['img'], bool(ev['link']))
+            merged = False
+            for entry in kept:
+                small, large = (tokens, entry[0]) if len(tokens) <= len(entry[0]) else (entry[0], tokens)
+                if len(small) >= 2 and small <= large:
+                    removed += 1
+                    if richness > entry[2]:
+                        entry[0], entry[1], entry[2] = tokens, ev, richness
+                    merged = True
+                    break
+            if not merged:
+                kept.append([tokens, ev, richness])
+        result.extend(entry[1] for entry in kept)
+
+    if removed:
+        print(f"   Removed {removed} near-duplicate events (fuzzy title match)")
+    return result
+
+
 def transform_events(input_file, output_file):
     """Transform scraped events with date parsing, filtering, and categorization."""
     print(f">> Reading {input_file}...")
@@ -189,6 +234,8 @@ def transform_events(input_file, output_file):
     if len(best) < len(transformed_events):
         print(f"   Removed {len(transformed_events) - len(best)} duplicate events (post-parse)")
     transformed_events = [best[k][0] for k in order]
+
+    transformed_events = fuzzy_dedupe(transformed_events)
 
     # Sort by date. Keep _sort_date in the serialized output so downstream consumers
     # (e.g. inject.py building Event JSON-LD) can derive an ISO startDate without
