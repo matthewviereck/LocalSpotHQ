@@ -66,60 +66,74 @@ function logMsg($message) {
 // ============================================================
 
 function scrapeBandsintownVenue($venueId, $venueInfo, $fallbackUrl, $idPrefix, $defaultVibes) {
-    $url = "https://rest.bandsintown.com/v4/venues/{$venueId}/events?app_id=LocalSpotHQ&date=upcoming";
+    // The authenticated v4 API now returns 403 for unregistered app_ids, so
+    // scrape the public venue page's JSON-LD (schema.org MusicEvent) instead.
+    $url = "https://www.bandsintown.com/v/{$venueId}";
 
     $context = stream_context_create([
         'http' => [
-            'header' => "User-Agent: LocalSpotHQ/1.0\r\nAccept: application/json\r\n",
-            'timeout' => 15
+            'header' => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\r\nAccept: text/html,application/xhtml+xml\r\n",
+            'timeout' => 20
         ]
     ]);
 
-    $json = @file_get_contents($url, false, $context);
-    if ($json === false) {
-        logMsg("  Bandsintown API unavailable for venue {$venueId}");
+    $html = @file_get_contents($url, false, $context);
+    if ($html === false) {
+        logMsg("  Bandsintown venue page unavailable for venue {$venueId}");
         return false;
     }
 
-    $data = json_decode($json, true);
-    if (!is_array($data) || empty($data)) {
-        logMsg("  No events from Bandsintown for venue {$venueId}");
+    if (!preg_match_all('#<script type="application/ld\+json">(.*?)</script>#s', $html, $matches)) {
+        logMsg("  No JSON-LD found on Bandsintown page for venue {$venueId}");
         return [];
     }
 
     $events = [];
-    foreach ($data as $item) {
-        $artist = $item['lineup'][0] ?? ($item['artist']['name'] ?? '');
-        $title = $item['title'] ?? $artist;
-        if (!$title) continue;
+    $seen = [];
+    foreach ($matches[1] as $block) {
+        $data = json_decode($block, true);
+        if (!$data) continue;
+        $items = isset($data[0]) ? $data : [$data];
+        foreach ($items as $item) {
+            $types = (array)($item['@type'] ?? []);
+            if (!in_array('MusicEvent', $types) && !in_array('Event', $types)) continue;
 
-        $datetime = $item['datetime'] ?? '';
-        $dateText = $datetime ? date('F j, Y g:i A', strtotime($datetime)) : 'Check website';
+            $title = trim($item['name'] ?? '');
+            if ($title === '') continue;
+            // Bandsintown names events "Artist @ Venue" - keep just the artist
+            $atPos = strrpos($title, ' @ ');
+            if ($atPos !== false && $atPos > 0) {
+                $title = trim(substr($title, 0, $atPos));
+            }
 
-        $ticketUrl = $item['url'] ?? $item['ticket_url'] ?? $fallbackUrl;
+            $startDate = $item['startDate'] ?? '';
+            $dateText = $startDate ? date('F j, Y g:i A', strtotime($startDate)) : 'Check website';
 
-        $imgSrc = '';
-        if (!empty($item['artist']['thumb_url'])) {
-            $imgSrc = $item['artist']['thumb_url'];
-        } elseif (!empty($item['artist']['image_url'])) {
-            $imgSrc = $item['artist']['image_url'];
+            $key = $title . '|' . $dateText;
+            if (isset($seen[$key])) continue;
+            $seen[$key] = true;
+
+            $img = $item['image'] ?? '';
+            if (is_array($img)) {
+                $img = $img[0] ?? '';
+            }
+
+            $events[] = [
+                'id' => $idPrefix . abs(crc32($title . $dateText)),
+                'type' => 'event',
+                'title' => $title,
+                'venue_info' => $venueInfo,
+                'raw_date_string' => $dateText,
+                'attributes' => [
+                    'category' => 'Live Music',
+                    'vibes' => $defaultVibes,
+                    'price' => 'Check Link'
+                ],
+                'media' => ['image' => $img],
+                'action_link' => $item['url'] ?? $fallbackUrl
+            ];
+            logMsg("  + {$title} ({$dateText})");
         }
-
-        $events[] = [
-            'id' => $idPrefix . abs(crc32($title . $dateText)),
-            'type' => 'event',
-            'title' => $title,
-            'venue_info' => $venueInfo,
-            'raw_date_string' => $dateText,
-            'attributes' => [
-                'category' => 'Live Music',
-                'vibes' => $defaultVibes,
-                'price' => 'Check Link'
-            ],
-            'media' => ['image' => $imgSrc],
-            'action_link' => $ticketUrl
-        ];
-        logMsg("  + {$title} ({$dateText})");
     }
 
     return $events;
@@ -1058,6 +1072,233 @@ function fuzzyDedupe($events) {
 }
 
 // ============================================================
+// THIS WEEKEND PAGE + ICS FEED
+// ============================================================
+
+function weekendRange() {
+    // Upcoming Fri-Sun, or the current weekend if today is Fri/Sat/Sun
+    $today = new DateTime('today');
+    $dow = (int)$today->format('N'); // Mon=1 .. Sun=7
+    $friday = clone $today;
+    if ($dow >= 5) {
+        $friday->modify('-' . ($dow - 5) . ' days');
+    } else {
+        $friday->modify('+' . (5 - $dow) . ' days');
+    }
+    $sunday = (clone $friday)->modify('+2 days');
+    return [$friday, $sunday];
+}
+
+function buildThisWeekendPage($events, $deployDir, $areaName, $ogImage, $canonicalBase) {
+    list($friday, $sunday) = weekendRange();
+    $today = new DateTime('today');
+    $start = max($friday, $today);
+
+    $picked = [];
+    foreach ($events as $ev) {
+        $ts = $ev['_sort_date'] ?? 9999999999;
+        if ($ts == 9999999999) continue;
+        $d = (new DateTime('@' . $ts))->setTime(0, 0); // server TZ == builder TZ (UTC)
+        if ($d >= $start && $d <= $sunday) {
+            $picked[] = ['date' => $d, 'ev' => $ev];
+        }
+    }
+    usort($picked, function($a, $b) {
+        $c = $a['date'] <=> $b['date'];
+        return $c !== 0 ? $c : strcasecmp($a['ev']['title'], $b['ev']['title']);
+    });
+
+    $base = rtrim($canonicalBase, '/');
+    $canonical = $base . '/this-weekend/';
+    $rangeLabel = $friday->format('F j') . '–' .
+        ($friday->format('m') === $sunday->format('m') ? $sunday->format('j') : $sunday->format('F j')) .
+        ', ' . $sunday->format('Y');
+    $title = "Things to Do in {$areaName} This Weekend ({$rangeLabel})";
+    $description = count($picked) . " events happening in and around {$areaName} PA this weekend, "
+        . "{$rangeLabel}: festivals, live music, markets, family activities. Updated daily.";
+
+    // Day sections
+    $byDay = [];
+    foreach ($picked as $p) {
+        $byDay[$p['date']->format('Y-m-d')][] = $p;
+    }
+    $sections = '';
+    foreach ($byDay as $entries) {
+        $sections .= '<h2>' . $entries[0]['date']->format('l, F j') . "</h2>\n<ul>\n";
+        foreach ($entries as $p) {
+            $ev = $p['ev'];
+            $t = htmlspecialchars($ev['title'], ENT_QUOTES);
+            $titleHtml = !empty($ev['link'])
+                ? '<a href="' . htmlspecialchars($ev['link'], ENT_QUOTES) . '" rel="nofollow">' . $t . '</a>'
+                : $t;
+            $metaParts = array_filter([
+                htmlspecialchars($ev['loc'] ?? '', ENT_QUOTES),
+                ($ev['type'] ?? '') !== 'Event' ? htmlspecialchars($ev['type'] ?? '', ENT_QUOTES) : ''
+            ]);
+            $sections .= '<li><strong>' . $titleHtml . '</strong><br><span class="meta">'
+                . implode(' &middot; ', $metaParts) . "</span></li>\n";
+        }
+        $sections .= "</ul>\n";
+    }
+    if ($sections === '') {
+        $sections = '<p>No events listed for this weekend yet — check the <a href="' . $base
+            . '/">full ' . htmlspecialchars($areaName) . ' events calendar</a>.</p>';
+    }
+
+    // JSON-LD ItemList
+    $items = [];
+    foreach ($picked as $i => $p) {
+        $item = [
+            '@type' => 'ListItem',
+            'position' => $i + 1,
+            'item' => [
+                '@type' => 'Event',
+                'name' => $p['ev']['title'],
+                'startDate' => $p['date']->format('Y-m-d'),
+                'eventAttendanceMode' => 'https://schema.org/OfflineEventAttendanceMode',
+                'location' => [
+                    '@type' => 'Place',
+                    'name' => $p['ev']['loc'] ?? $areaName,
+                    'address' => ['@type' => 'PostalAddress', 'addressRegion' => 'PA', 'addressCountry' => 'US']
+                ]
+            ]
+        ];
+        if (!empty($p['ev']['link'])) {
+            $item['item']['url'] = $p['ev']['link'];
+        }
+        $items[] = $item;
+    }
+    $jsonLd = json_encode([
+        '@context' => 'https://schema.org',
+        '@type' => 'ItemList',
+        'name' => $title,
+        'numberOfItems' => count($picked),
+        'itemListElement' => $items
+    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+
+    $titleEsc = htmlspecialchars($title, ENT_QUOTES);
+    $descEsc = htmlspecialchars($description, ENT_QUOTES);
+    $areaEsc = htmlspecialchars($areaName, ENT_QUOTES);
+    $generated = date('Y-m-d');
+    $count = count($picked);
+
+    $page = <<<HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{$titleEsc} | LocalSpot</title>
+<meta name="description" content="{$descEsc}">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{$canonical}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{$canonical}">
+<meta property="og:title" content="{$titleEsc}">
+<meta property="og:description" content="{$descEsc}">
+<meta property="og:image" content="{$ogImage}">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{$jsonLd}</script>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:680px;margin:0 auto;padding:24px 16px;color:#0f172a;line-height:1.5}
+h1{font-size:1.6rem;margin-bottom:4px}
+.sub{color:#64748b;margin-top:0}
+h2{font-size:1.1rem;margin:28px 0 8px;border-bottom:2px solid #e2e8f0;padding-bottom:4px}
+ul{list-style:none;padding:0;margin:0}
+li{padding:10px 0;border-bottom:1px solid #f1f5f9}
+a{color:#2563eb;text-decoration:none}
+a:hover{text-decoration:underline}
+.meta{color:#64748b;font-size:0.85rem}
+.cta{display:inline-block;margin-top:24px;background:#2563eb;color:#fff;padding:10px 18px;border-radius:10px;font-weight:700}
+footer{margin-top:32px;color:#94a3b8;font-size:0.8rem}
+</style>
+</head>
+<body>
+<h1>Things to Do in {$areaEsc} This Weekend</h1>
+<p class="sub">{$rangeLabel} &middot; {$count} events &middot; updated daily</p>
+{$sections}
+<a class="cta" href="{$base}/">See all {$areaEsc} events &rarr;</a>
+<p><a href="{$base}/events.ics">&#128197; Subscribe to the {$areaEsc} events calendar</a></p>
+<footer>LocalSpot HQ &middot; generated {$generated}</footer>
+</body>
+</html>
+HTML;
+
+    $dir = $deployDir . '/this-weekend';
+    if (!is_dir($dir)) {
+        mkdir($dir, 0755, true);
+    }
+    if (@file_put_contents($dir . '/index.html', $page) !== false) {
+        logMsg("  This Weekend page: {$count} events -> {$dir}/index.html");
+    } else {
+        logMsg("  WARNING: could not write This Weekend page");
+    }
+}
+
+function icsEscape($text) {
+    return str_replace(["\\", ";", ",", "\n"], ["\\\\", "\\;", "\\,", "\\n"], $text);
+}
+
+function icsFold($line) {
+    // Fold lines >75 octets per RFC 5545
+    $out = [];
+    while (strlen($line) > 73) {
+        $cut = 73;
+        // don't split a UTF-8 sequence
+        while ($cut > 0 && (ord($line[$cut]) & 0xC0) === 0x80) {
+            $cut--;
+        }
+        $out[] = substr($line, 0, $cut);
+        $line = ' ' . substr($line, $cut);
+    }
+    $out[] = $line;
+    return implode("\r\n", $out);
+}
+
+function buildIcsFeed($events, $deployDir, $areaName) {
+    $nowUtc = gmdate('Ymd\THis\Z');
+    $lines = [
+        'BEGIN:VCALENDAR',
+        'VERSION:2.0',
+        'PRODID:-//LocalSpot HQ//' . $areaName . ' Events//EN',
+        'CALSCALE:GREGORIAN',
+        'METHOD:PUBLISH',
+        'X-WR-CALNAME:' . icsEscape($areaName) . ' Events (LocalSpot)',
+        'X-WR-TIMEZONE:America/New_York',
+    ];
+
+    $count = 0;
+    foreach ($events as $ev) {
+        $ts = $ev['_sort_date'] ?? 9999999999;
+        if ($ts == 9999999999) continue;
+        $day = gmdate('Ymd', $ts);
+        $nextDay = gmdate('Ymd', $ts + 86400);
+        $uid = md5($ev['title'] . gmdate('Y-m-d', $ts));
+        $lines[] = 'BEGIN:VEVENT';
+        $lines[] = "UID:{$uid}@localspothq.com";
+        $lines[] = "DTSTAMP:{$nowUtc}";
+        $lines[] = "DTSTART;VALUE=DATE:{$day}";
+        $lines[] = "DTEND;VALUE=DATE:{$nextDay}";
+        $lines[] = icsFold('SUMMARY:' . icsEscape($ev['title']));
+        if (!empty($ev['loc'])) {
+            $lines[] = icsFold('LOCATION:' . icsEscape($ev['loc']));
+        }
+        if (!empty($ev['link'])) {
+            $lines[] = icsFold('URL:' . $ev['link']);
+        }
+        $lines[] = 'END:VEVENT';
+        $count++;
+    }
+    $lines[] = 'END:VCALENDAR';
+
+    if (@file_put_contents($deployDir . '/events.ics', implode("\r\n", $lines) . "\r\n") !== false) {
+        logMsg("  ICS feed: {$count} events -> {$deployDir}/events.ics");
+    } else {
+        logMsg("  WARNING: could not write ICS feed");
+    }
+}
+
+// ============================================================
 // BUILD STRUCTURED DATA (JSON-LD)
 // ============================================================
 
@@ -1421,6 +1662,10 @@ logMsg("Backing up and deploying...");
 backupCurrentApp($deployPath, $BACKUP_DIR);
 
 if (deploy($finalHtml, $deployPath)) {
+    // SEO/subscription artifacts (non-fatal if they fail)
+    buildThisWeekendPage($formattedEvents, $PUBLIC_HTML . '/phoenixville', $AREA_NAME, $OG_IMAGE, $CANONICAL_URL);
+    buildIcsFeed($formattedEvents, $PUBLIC_HTML . '/phoenixville', $AREA_NAME);
+
     logMsg(str_repeat('=', 60));
     logMsg("AUTO-UPDATE COMPLETE!");
     logMsg("Events: " . count($formattedEvents));

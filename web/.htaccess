@@ -9,3 +9,6 @@ RewriteRule ^(.*)$ https://www.localspothq.com/$1 [R=301,L]
 
 # Legacy single-page app -> Phoenixville area app
 RewriteRule ^app\.html$ https://www.localspothq.com/phoenixville/ [R=301,L]
+
+# Calendar feed MIME type
+AddType text/calendar .ics

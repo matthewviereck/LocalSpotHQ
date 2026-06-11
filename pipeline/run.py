@@ -21,6 +21,7 @@ from pipeline.merge import merge_events
 from pipeline.transform import transform_events
 from pipeline.inject import inject_all_data
 from pipeline.postprocess import remove_landing_page
+from pipeline.feeds import generate_this_weekend_page, generate_ics
 
 
 def load_area_config(area_id):
@@ -106,6 +107,11 @@ def run_area(area_id):
     # Cleanup intermediate
     if os.path.exists(intermediate_html):
         os.remove(intermediate_html)
+
+    # Step 7: SEO/subscription artifacts
+    print(f"\n--- Step 7: This Weekend page + ICS feed ---")
+    generate_this_weekend_page(formatted_output, output_dir, config)
+    generate_ics(formatted_output, output_dir, config)
 
     print(f"\n{'='*60}")
     print(f"DONE! Output: {final_output}")

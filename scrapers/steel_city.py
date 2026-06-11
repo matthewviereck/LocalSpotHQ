@@ -11,8 +11,24 @@ VENUE_INFO = {
 }
 
 
+BANDSINTOWN_VENUE_ID = '10008291'
+
+
 def scrape_steel_city(output_file='steel_city_events.json'):
-    """Scrape events from Steel City Coffeehouse & Brewery website."""
+    """Scrape events from Steel City Coffeehouse & Brewery."""
+    # Bandsintown public venue page is the most reliable source; the venue's
+    # own site (Square Online) renders events client-side and is unscrapeable.
+    from scrapers.bandsintown import scrape_bandsintown_venue
+    events = scrape_bandsintown_venue(
+        BANDSINTOWN_VENUE_ID, VENUE_INFO, TARGET_URL, 'sc_',
+        ['Live Music', 'Coffeehouse', 'Brewery'])
+    if events:
+        os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(events, f, indent=2, ensure_ascii=False)
+        print(f">> Done! Saved {len(events)} events to {output_file}")
+        return
+
     print(f">> Connecting to {TARGET_URL}...")
 
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}

@@ -1319,9 +1319,13 @@
 
         </script>
 
-    <!-- Build freshness indicator (small, low-contrast — debugging aid) -->
-    <footer class="text-center text-[10px] text-slate-400 py-4" aria-hidden="true">
-        LocalSpot · built {{BUILD_TIMESTAMP}}
+    <footer class="text-center py-5">
+        <nav class="flex items-center justify-center gap-4 text-xs font-semibold text-slate-500 mb-2">
+            <a href="this-weekend/" class="hover:text-blue-600"><i class="fa-solid fa-calendar-week mr-1" aria-hidden="true"></i>This Weekend</a>
+            <a href="events.ics" class="hover:text-blue-600"><i class="fa-regular fa-calendar-plus mr-1" aria-hidden="true"></i>Subscribe to Calendar</a>
+        </nav>
+        <!-- Build freshness indicator (small, low-contrast — debugging aid) -->
+        <div class="text-[10px] text-slate-400" aria-hidden="true">LocalSpot · built {{BUILD_TIMESTAMP}}</div>
     </footer>
 </body>
 </html>

@@ -11,8 +11,24 @@ VENUE_INFO = {
 }
 
 
+BANDSINTOWN_VENUE_ID = '10131755'
+
+
 def scrape_molly_maguires(output_file='molly_maguires_events.json'):
-    """Scrape events from Molly Maguire's Irish Pub website."""
+    """Scrape events from Molly Maguire's Irish Pub."""
+    # Bandsintown public venue page is the most reliable source; the venue's
+    # own /events/ page is an empty shell (events only posted to Facebook).
+    from scrapers.bandsintown import scrape_bandsintown_venue
+    events = scrape_bandsintown_venue(
+        BANDSINTOWN_VENUE_ID, VENUE_INFO, TARGET_URL, 'mm_',
+        ['Live Music', 'Irish Pub'])
+    if events:
+        os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(events, f, indent=2, ensure_ascii=False)
+        print(f">> Done! Saved {len(events)} events to {output_file}")
+        return
+
     print(f">> Connecting to {TARGET_URL}...")
 
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
