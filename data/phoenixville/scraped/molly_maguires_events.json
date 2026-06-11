@@ -1,0 +1,102 @@
+[
+  {
+    "id": "mm_1970082812",
+    "type": "event",
+    "title": "Smash Atoms Band",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Pub",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "June 27, 2026 9:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Irish Pub"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://photos.bandsintown.com/thumb/22675899.jpeg"
+    },
+    "action_link": "https://www.bandsintown.com/e/1037077742-smash-atoms-band-at-molly-maguire's-irish-restaurant-and-pub?came_from=209"
+  },
+  {
+    "id": "mm_1568455158",
+    "type": "event",
+    "title": "DeepSpace90s",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Pub",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "August 21, 2026 10:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Irish Pub"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://photos.bandsintown.com/thumb/21561256.jpeg"
+    },
+    "action_link": "https://www.bandsintown.com/e/1038638174-deepspace90s-at-molly-maguire's-irish-restaurant-and-pub?came_from=209"
+  },
+  {
+    "id": "mm_2030130446",
+    "type": "event",
+    "title": "DeepSpace90s",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Pub",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "October 23, 2026 10:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Irish Pub"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://photos.bandsintown.com/thumb/21561256.jpeg"
+    },
+    "action_link": "https://www.bandsintown.com/e/1038638986-deepspace90s-at-molly-maguire's-irish-restaurant-and-pub?came_from=209"
+  },
+  {
+    "id": "mm_1548917798",
+    "type": "event",
+    "title": "DeepSpace90s",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Pub",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "December 18, 2026 10:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Irish Pub"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://photos.bandsintown.com/thumb/21561256.jpeg"
+    },
+    "action_link": "https://www.bandsintown.com/e/1038638786-deepspace90s-at-molly-maguire's-irish-restaurant-and-pub?came_from=209"
+  }
+]

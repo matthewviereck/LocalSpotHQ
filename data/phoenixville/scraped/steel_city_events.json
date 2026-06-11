@@ -1,0 +1,54 @@
+[
+  {
+    "id": "sc_233342301",
+    "type": "event",
+    "title": "Eli Lev",
+    "venue_info": {
+      "name": "Steel City Coffeehouse & Brewery",
+      "location": {
+        "lat": 40.1305,
+        "lng": -75.5148
+      }
+    },
+    "raw_date_string": "October 23, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Coffeehouse",
+        "Brewery"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://photos.bandsintown.com/thumb/15984245.jpeg"
+    },
+    "action_link": "https://www.bandsintown.com/e/1038419042-eli-lev-at-steel-city-coffee-house?came_from=209"
+  },
+  {
+    "id": "sc_3586568894",
+    "type": "event",
+    "title": "The Wedding Funeral",
+    "venue_info": {
+      "name": "Steel City Coffeehouse & Brewery",
+      "location": {
+        "lat": 40.1305,
+        "lng": -75.5148
+      }
+    },
+    "raw_date_string": "October 24, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Coffeehouse",
+        "Brewery"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": "https://photos.bandsintown.com/thumb/24637539.jpeg"
+    },
+    "action_link": "https://www.bandsintown.com/e/1038444346-the-wedding-funeral-at-steel-city-coffee-house?came_from=209"
+  }
+]

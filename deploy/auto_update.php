@@ -208,6 +208,8 @@ function syncFromGitHubRaw($repoDir) {
         'data/phoenixville/outings.json'                => 100,
         'data/phoenixville/plans.json'                  => 100,
         'data/phoenixville/scraped/discovered_events.json' => 2,
+        'data/phoenixville/scraped/steel_city_events.json'  => 2,
+        'data/phoenixville/scraped/molly_maguires_events.json' => 2,
         'deploy/auto_update.php'                        => 20000, // self-update, takes effect next run
     ];
 
@@ -1600,6 +1602,15 @@ if ($steelCityEvents === false) {
 } else {
     file_put_contents($CACHE_DIR . '/steel_city_events.json', json_encode($steelCityEvents, JSON_PRETTY_PRINT));
 }
+if (empty($steelCityEvents)) {
+    // Bandsintown blocks this host's datacenter IP; the local Python pipeline
+    // scrapes it fine and commits the JSON, which STEP 0 syncs from GitHub.
+    $repoFile = $DATA_DIR . '/scraped/steel_city_events.json';
+    $steelCityEvents = file_exists($repoFile) ? (json_decode(file_get_contents($repoFile), true) ?: []) : [];
+    if (!empty($steelCityEvents)) {
+        logMsg("  Using " . count($steelCityEvents) . " repo-synced Steel City events");
+    }
+}
 
 // Step 5: Scrape Molly Maguire's
 $mollyEvents = scrapeMollyMaguires();
@@ -1610,6 +1621,14 @@ if ($mollyEvents === false) {
     logMsg("  Loaded " . count($mollyEvents) . " cached Molly Maguire's events");
 } else {
     file_put_contents($CACHE_DIR . '/molly_maguires_events.json', json_encode($mollyEvents, JSON_PRETTY_PRINT));
+}
+if (empty($mollyEvents)) {
+    // Same Bandsintown IP block as Steel City - use the repo-synced JSON
+    $repoFile = $DATA_DIR . '/scraped/molly_maguires_events.json';
+    $mollyEvents = file_exists($repoFile) ? (json_decode(file_get_contents($repoFile), true) ?: []) : [];
+    if (!empty($mollyEvents)) {
+        logMsg("  Using " . count($mollyEvents) . " repo-synced Molly Maguire's events");
+    }
 }
 
 // Step 6: Load AI-discovered events (written daily by the scheduled Claude routine).
