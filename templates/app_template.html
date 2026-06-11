@@ -582,20 +582,20 @@
                 
                 // FOR EVENTS TAB: Filter by date_category field
                 if (currentTab === 'events' && currentFilter === 'This Weekend') {
-                    // Weekend = upcoming Fri 00:00 through Sun 23:59 (or the current
-                    // weekend if today is Fri/Sat/Sun). Computed from _sort_date so it
-                    // stays correct even if the page was built days ago.
-                    const todayMid = new Date();
-                    todayMid.setHours(0, 0, 0, 0);
-                    const day = todayMid.getDay(); // 0=Sun .. 6=Sat
-                    const friOffset = day === 0 ? -2 : day === 6 ? -1 : 5 - day;
-                    const weekendStart = new Date(todayMid);
-                    weekendStart.setDate(weekendStart.getDate() + friOffset);
-                    const weekendEnd = new Date(weekendStart);
-                    weekendEnd.setDate(weekendEnd.getDate() + 3); // Mon 00:00
-                    const ts = (item._sort_date || 0) * 1000;
-                    matchesCategory = ts >= Math.max(weekendStart.getTime(), todayMid.getTime()) &&
-                                      ts < weekendEnd.getTime() && item._sort_date !== 9999999999;
+                    // Weekend = upcoming Fri through Sun (or the current weekend if
+                    // today is Fri/Sat/Sun). _sort_date is midnight in the BUILDER's
+                    // timezone (UTC on the server), so compare calendar days — reading
+                    // the timestamp in browser-local time can shift it back a day.
+                    matchesCategory = item._sort_date !== 9999999999 && (() => {
+                        const ev = new Date(item._sort_date * 1000);
+                        const evDay = Date.UTC(ev.getUTCFullYear(), ev.getUTCMonth(), ev.getUTCDate());
+                        const now = new Date();
+                        const todayDay = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+                        const dow = new Date(todayDay).getUTCDay(); // 0=Sun .. 6=Sat
+                        const friOffset = dow === 0 ? -2 : dow === 6 ? -1 : 5 - dow;
+                        const friDay = todayDay + friOffset * 86400000;
+                        return evDay >= Math.max(friDay, todayDay) && evDay < friDay + 3 * 86400000;
+                    })();
                 } else if (currentTab === 'events' && currentFilter !== 'All') {
                     // Map button labels to data field values
                     const filterMap = {
@@ -744,7 +744,7 @@
                 const first = g.items[0];
                 const isRange = /[-–]/.test(g.date);
                 const weekday = !isRange && first._sort_date
-                    ? new Date(first._sort_date * 1000).toLocaleDateString('en-US', { weekday: 'long' }) + ', '
+                    ? new Date(first._sort_date * 1000).toLocaleDateString('en-US', { weekday: 'long', timeZone: 'UTC' }) + ', '
                     : '';
                 const label = first.date_label === 'Today' || first.date_label === 'Tomorrow'
                     ? `<span class="text-[11px] font-bold uppercase tracking-wide text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full">${first.date_label}</span>`
