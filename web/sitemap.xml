@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
+
   <!-- Landing Page -->
   <url>
     <loc>https://www.localspothq.com/</loc>
-    <lastmod>2025-02-05</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  <!-- Main App -->
+
+  <!-- Phoenixville Area App -->
   <url>
-    <loc>https://www.localspothq.com/app.html</loc>
-    <lastmod>2025-02-05</lastmod>
+    <loc>https://www.localspothq.com/phoenixville/</loc>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>

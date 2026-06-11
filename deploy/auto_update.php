@@ -49,7 +49,7 @@ $AREA_TAGLINE = 'Phoenixville • Oaks • Collegeville';
 $META_TITLE = 'LocalSpot - Phoenixville Events, Dining & Activities';
 $META_DESCRIPTION = 'Your guide to events, restaurants, and things to do in Phoenixville, Oaks, and Collegeville PA.';
 $META_KEYWORDS = 'Phoenixville events, Phoenixville restaurants, things to do Phoenixville PA, Oaks events, Collegeville dining';
-$OG_IMAGE = 'https://images.unsplash.com/photo-1572979929837-149ee617c06c?auto=format&fit=crop&w=1200&q=80';
+$OG_IMAGE = 'https://www.localspothq.com/images/og-image.png';
 $CANONICAL_URL = 'https://www.localspothq.com/phoenixville/';
 
 // ============================================================
@@ -182,6 +182,67 @@ function scrapeSquarespaceJson($baseUrl, $venueInfo, $idPrefix, $defaultVibes) {
 // STEP 0: GIT PULL LATEST CODE
 // ============================================================
 
+function syncFromGitHubRaw($repoDir) {
+    // exec() is disabled on Hostinger shared hosting, so instead of git pull we
+    // download the files this script depends on straight from GitHub raw.
+    $rawBase = 'https://raw.githubusercontent.com/matthewviereck/LocalSpotHQ/master/';
+
+    // path => minimum sane byte size (guards against deploying error pages)
+    $files = [
+        'templates/app_template.html'                   => 10000,
+        'data/phoenixville/dining.json'                 => 100,
+        'data/phoenixville/outings.json'                => 100,
+        'data/phoenixville/plans.json'                  => 100,
+        'data/phoenixville/scraped/discovered_events.json' => 2,
+        'deploy/auto_update.php'                        => 20000, // self-update, takes effect next run
+    ];
+
+    $context = stream_context_create([
+        'http' => [
+            'header' => "User-Agent: LocalSpotHQ/1.0\r\n",
+            'timeout' => 20
+        ]
+    ]);
+
+    $updated = 0;
+    foreach ($files as $path => $minSize) {
+        $content = @file_get_contents($rawBase . $path, false, $context);
+
+        if ($content === false || strlen($content) < $minSize) {
+            // 404s are expected for optional files (e.g. discovered_events.json)
+            logMsg("  Skipped {$path} (unavailable or too small)");
+            continue;
+        }
+        if (substr($path, -5) === '.json' && json_decode($content) === null) {
+            logMsg("  Skipped {$path} (not valid JSON)");
+            continue;
+        }
+        if (substr($path, -4) === '.php' && strpos($content, '<?php') !== 0) {
+            logMsg("  Skipped {$path} (does not look like PHP)");
+            continue;
+        }
+
+        $localPath = $repoDir . '/' . $path;
+        if (file_exists($localPath) && md5_file($localPath) === md5($content)) {
+            continue; // unchanged
+        }
+
+        $dir = dirname($localPath);
+        if (!is_dir($dir)) {
+            mkdir($dir, 0755, true);
+        }
+        if (@file_put_contents($localPath, $content) !== false) {
+            logMsg("  Updated {$path} (" . strlen($content) . " bytes)");
+            $updated++;
+        } else {
+            logMsg("  WARNING: could not write {$localPath}");
+        }
+    }
+
+    logMsg($updated > 0 ? "  Synced {$updated} file(s) from GitHub" : "  All files already up to date");
+    return true;
+}
+
 function gitPullLatest($repoDir) {
     logMsg("STEP 0: Pulling latest code from GitHub...");
 
@@ -192,9 +253,8 @@ function gitPullLatest($repoDir) {
     }
 
     if (!function_exists('exec') || !is_callable('exec')) {
-        logMsg("  NOTICE: exec() not available (shared hosting). Skipping git pull.");
-        logMsg("  To update code, run manually: cd ~/localspot && git pull origin master");
-        return true;
+        logMsg("  NOTICE: exec() not available (shared hosting). Syncing from GitHub raw instead...");
+        return syncFromGitHubRaw($repoDir);
     }
 
     $output = [];

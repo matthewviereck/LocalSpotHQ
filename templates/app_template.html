@@ -553,7 +553,22 @@
                 let matchesCategory;
                 
                 // FOR EVENTS TAB: Filter by date_category field
-                if (currentTab === 'events' && currentFilter !== 'All') {
+                if (currentTab === 'events' && currentFilter === 'This Weekend') {
+                    // Weekend = upcoming Fri 00:00 through Sun 23:59 (or the current
+                    // weekend if today is Fri/Sat/Sun). Computed from _sort_date so it
+                    // stays correct even if the page was built days ago.
+                    const todayMid = new Date();
+                    todayMid.setHours(0, 0, 0, 0);
+                    const day = todayMid.getDay(); // 0=Sun .. 6=Sat
+                    const friOffset = day === 0 ? -2 : day === 6 ? -1 : 5 - day;
+                    const weekendStart = new Date(todayMid);
+                    weekendStart.setDate(weekendStart.getDate() + friOffset);
+                    const weekendEnd = new Date(weekendStart);
+                    weekendEnd.setDate(weekendEnd.getDate() + 3); // Mon 00:00
+                    const ts = (item._sort_date || 0) * 1000;
+                    matchesCategory = ts >= Math.max(weekendStart.getTime(), todayMid.getTime()) &&
+                                      ts < weekendEnd.getTime() && item._sort_date !== 9999999999;
+                } else if (currentTab === 'events' && currentFilter !== 'All') {
                     // Map button labels to data field values
                     const filterMap = {
                         'Tomorrow': 'tomorrow',
@@ -589,7 +604,7 @@
             
             // FOR EVENTS TAB: Show date filters instead of type filters
             if (currentTab === 'events') {
-                const dateFilters = ['All', 'Tomorrow', 'This Week', 'Next Week', 'This Month', 'Later'];
+                const dateFilters = ['All', 'This Weekend', 'Tomorrow', 'This Week', 'Next Week', 'This Month', 'Later'];
                 const html = dateFilters.map(filter => `
                     <button onclick="setCategory('${filter}')" 
                         class="px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap ${currentFilter === filter ? 'bg-blue-600 text-white border-blue-600 shadow-md transform scale-105' : 'bg-white text-slate-500 border-slate-200 hover:bg-slate-50'}">

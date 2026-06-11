@@ -1,0 +1,11 @@
+# LocalSpot HQ - canonical host + legacy redirects
+
+RewriteEngine On
+
+# Force HTTPS and www (canonical host is https://www.localspothq.com)
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^localspothq\.com$ [NC]
+RewriteRule ^(.*)$ https://www.localspothq.com/$1 [R=301,L]
+
+# Legacy single-page app -> Phoenixville area app
+RewriteRule ^app\.html$ https://www.localspothq.com/phoenixville/ [R=301,L]
