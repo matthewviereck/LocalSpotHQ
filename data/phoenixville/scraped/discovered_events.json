@@ -195,7 +195,7 @@
     "action_link": "https://www.bikereg.com/74248"
   },
   {
-    "id": "discovered_kimberton_concert_bekindrewind_20260619",
+    "id": "discovered_kimberton_concert_bekindrewind_20260618",
     "type": "event",
     "title": "Kimberton Park Summer Concert: Be Kind Rewind (90s Music)",
     "venue_info": {
@@ -205,7 +205,7 @@
         "lng": -75.544
       }
     },
-    "raw_date_string": "Jun 19, 2026",
+    "raw_date_string": "Jun 18, 2026",
     "attributes": {
       "category": "Community Event",
       "vibes": [
@@ -588,32 +588,33 @@
     "action_link": "https://schuylkillcanal.org/page-1456148"
   },
   {
-    "id": "discovered_first_friday_20260703",
+    "id": "discovered_retreat_valley_forge_20260703",
     "type": "event",
-    "title": "First Friday – Downtown Phoenixville (July)",
+    "title": "Retreat to Valley Forge – America's 250th & Park's 50th Celebration",
     "venue_info": {
-      "name": "Bridge Street, Downtown Phoenixville",
+      "name": "Valley Forge National Historical Park",
       "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
+        "lat": 40.1014,
+        "lng": -75.4544
       }
     },
-    "raw_date_string": "Jul 3, 2026",
+    "raw_date_string": "Jul 3 - 5, 2026",
     "attributes": {
       "category": "Community Event",
       "vibes": [
+        "Living History",
+        "Family Friendly",
         "Free",
         "Outdoor",
-        "Live Music",
-        "Vendors",
-        "Family Friendly"
+        "America's 250th",
+        "National Park"
       ],
       "price": "Free"
     },
     "media": {
       "image": ""
     },
-    "action_link": "http://www.phoenixvillefirst.org/first-fridays"
+    "action_link": "https://www.nps.gov/vafo/planyourvisit/upcoming-commemorations.htm"
   },
   {
     "id": "discovered_skippack_july4_parade_20260704",
@@ -701,32 +702,32 @@
     "action_link": "https://thecolonialtheatre.com/news/pluto-tvs-summer-of-cinema-returns/"
   },
   {
-    "id": "discovered_blobfest_20260710",
+    "id": "discovered_kimberton_concert_justaddwater_20260716",
     "type": "event",
-    "title": "Blobfest 2026: Cirque du Blobfest",
+    "title": "Kimberton Park Summer Concert: Just Add Water",
     "venue_info": {
-      "name": "The Colonial Theatre",
+      "name": "Miller Amphitheater at Kimberton Park, Phoenixville",
       "location": {
-        "lat": 40.132,
-        "lng": -75.513
+        "lat": 40.115,
+        "lng": -75.544
       }
     },
-    "raw_date_string": "Jul 10 - 12, 2026",
+    "raw_date_string": "Jul 16, 2026",
     "attributes": {
-      "category": "Festival",
+      "category": "Community Event",
       "vibes": [
-        "Horror Film",
-        "Annual Festival",
-        "Immersive",
-        "Run-Out",
-        "Community"
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "Food Trucks"
       ],
-      "price": "Check Link"
+      "price": "Free"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://thecolonialtheatre.com/films/blobfest/"
+    "action_link": "https://www.eastpikeland.org/community/page/summer-concert-series-0"
   },
   {
     "id": "discovered_emily_mcintire_20260717",
@@ -783,6 +784,36 @@
       "image": ""
     },
     "action_link": "https://www.stewartcopeland.org/tour"
+  },
+  {
+    "id": "discovered_kimberton_fair_20260720",
+    "type": "event",
+    "title": "Kimberton Community Fair 2026",
+    "venue_info": {
+      "name": "Kimberton Fairgrounds, Kimberton (near Phoenixville)",
+      "location": {
+        "lat": 40.115,
+        "lng": -75.544
+      }
+    },
+    "raw_date_string": "Jul 20 - 25, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Family Friendly",
+        "Annual Fair",
+        "Carnival Rides",
+        "Live Music",
+        "Food",
+        "Fireworks",
+        "Community"
+      ],
+      "price": "Free (Parking by Donation)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.kimbertonfair.org/"
   },
   {
     "id": "discovered_unforgettable_fire_u2_20260724",
