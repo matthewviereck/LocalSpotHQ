@@ -172,6 +172,24 @@ def transform_events(input_file, output_file):
         except Exception as e:
             print(f"   ! Skipped event '{event.get('title', 'unknown')}': {e}")
 
+    # Second dedupe pass: sources may write the same date differently
+    # ("June 17 - September 2" vs "Jun 17 - Sep 2"), which slips past the
+    # merge-level dedupe. After parsing they share a timestamp, so dedupe on
+    # normalized title + parsed date, preferring the copy with a real image.
+    best = {}
+    order = []
+    for ev in transformed_events:
+        key = re.sub(r'[^a-z0-9]', '', ev['title'].lower()) + '|' + str(ev['_sort_date'])
+        richness = ('placehold.co' not in ev['img'], bool(ev['link']))
+        if key not in best:
+            best[key] = (ev, richness)
+            order.append(key)
+        elif richness > best[key][1]:
+            best[key] = (ev, richness)
+    if len(best) < len(transformed_events):
+        print(f"   Removed {len(transformed_events) - len(best)} duplicate events (post-parse)")
+    transformed_events = [best[k][0] for k in order]
+
     # Sort by date. Keep _sort_date in the serialized output so downstream consumers
     # (e.g. inject.py building Event JSON-LD) can derive an ISO startDate without
     # re-parsing the display string.

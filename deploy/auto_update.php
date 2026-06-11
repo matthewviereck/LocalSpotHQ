@@ -243,6 +243,34 @@ function syncFromGitHubRaw($repoDir) {
     return true;
 }
 
+function dedupeEvents($events) {
+    // Same event from two sources: match on normalized title + raw date.
+    // Keep the richer copy (real image beats none, then a link beats none).
+    $best = [];
+    $order = [];
+    foreach ($events as $event) {
+        $title = preg_replace('/[^a-z0-9]/', '', strtolower($event['title'] ?? ''));
+        $date = preg_replace('/[^a-z0-9]/', '', strtolower($event['raw_date_string'] ?? ''));
+        $key = $title . '|' . $date;
+
+        $img = $event['media']['image'] ?? '';
+        $richness = [($img !== '' && strpos($img, 'placehold.co') === false), !empty($event['action_link'])];
+
+        if (!isset($best[$key])) {
+            $best[$key] = ['event' => $event, 'richness' => $richness];
+            $order[] = $key;
+        } elseif ($richness > $best[$key]['richness']) {
+            $best[$key]['event'] = $event;
+            $best[$key]['richness'] = $richness;
+        }
+    }
+    $result = [];
+    foreach ($order as $key) {
+        $result[] = $best[$key]['event'];
+    }
+    return $result;
+}
+
 function gitPullLatest($repoDir) {
     logMsg("STEP 0: Pulling latest code from GitHub...");
 
@@ -940,6 +968,30 @@ function transformEvents($allEvents) {
         ];
     }
 
+    // Second dedupe pass: sources may write the same date differently
+    // ("June 17 - September 2" vs "Jun 17 - Sep 2"), which slips past the
+    // merge-level dedupe. After parsing they share a timestamp, so dedupe on
+    // normalized title + parsed date, preferring the copy with a real image.
+    $best = [];
+    $order = [];
+    foreach ($transformed as $ev) {
+        $key = preg_replace('/[^a-z0-9]/', '', strtolower($ev['title'])) . '|' . $ev['_sort_date'];
+        $richness = [strpos($ev['img'], 'placehold.co') === false, !empty($ev['link'])];
+        if (!isset($best[$key])) {
+            $best[$key] = ['ev' => $ev, 'richness' => $richness];
+            $order[] = $key;
+        } elseif ($richness > $best[$key]['richness']) {
+            $best[$key] = ['ev' => $ev, 'richness' => $richness];
+        }
+    }
+    if (count($best) < count($transformed)) {
+        logMsg("  Removed " . (count($transformed) - count($best)) . " duplicate events (post-parse)");
+    }
+    $transformed = [];
+    foreach ($order as $key) {
+        $transformed[] = $best[$key]['ev'];
+    }
+
     // Sort by date. Keep _sort_date in the output so buildStructuredData() can
     // derive an ISO startDate without re-parsing.
     usort($transformed, function($a, $b) {
@@ -1283,6 +1335,11 @@ if (file_exists($discoveredFile)) {
 // Merge all events
 logMsg("Merging all events...");
 $allEvents = array_merge($recurringEvents, $colonialEvents, $oaksEvents, $steelCityEvents, $mollyEvents, $discoveredEvents);
+$beforeDedupe = count($allEvents);
+$allEvents = dedupeEvents($allEvents);
+if (count($allEvents) < $beforeDedupe) {
+    logMsg("  Removed " . ($beforeDedupe - count($allEvents)) . " duplicate events");
+}
 logMsg("  Total merged: " . count($allEvents) . " events");
 
 // Transform events
