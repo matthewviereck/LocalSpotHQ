@@ -112,6 +112,35 @@
     "action_link": "https://countylinesmagazine.com/event/historical-society-of-phoenixvilles-annual-strawberry-festival/"
   },
   {
+    "id": "discovered_valley_forge_march_out_20260613",
+    "type": "event",
+    "title": "248th Anniversary: March Out of the Continental Army",
+    "venue_info": {
+      "name": "Valley Forge National Historical Park",
+      "location": {
+        "lat": 40.1014,
+        "lng": -75.4544
+      }
+    },
+    "raw_date_string": "Jun 13, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Living History",
+        "Free",
+        "Family Friendly",
+        "Outdoor",
+        "History",
+        "National Park"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.nps.gov/vafo/planyourvisit/upcoming-commemorations.htm"
+  },
+  {
     "id": "discovered_juneteenth_20260614",
     "type": "event",
     "title": "Phoenixville Juneteenth Celebration 2026",
@@ -334,6 +363,34 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/colonial-events/hush-an-immersive-gatsby-party/"
+  },
+  {
+    "id": "discovered_car_show_pxv_20260621",
+    "type": "event",
+    "title": "Phoenixville Car Show",
+    "venue_info": {
+      "name": "Main & Bridge Street Parking Lot, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jun 21, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Car Show",
+        "Family Friendly",
+        "Free",
+        "Outdoor",
+        "Community"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://phoenixvillechamber.org/news-events/events/phoenixville-car-show/"
   },
   {
     "id": "discovered_collegeville_concert_bachelor_boys_20260623",
