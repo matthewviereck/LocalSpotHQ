@@ -759,6 +759,35 @@
     "action_link": "https://thecolonialtheatre.com/news/pluto-tvs-summer-of-cinema-returns/"
   },
   {
+    "id": "discovered_blob_ball_20260711",
+    "type": "event",
+    "title": "Cirque du Blobfest: Blob Ball – Annual Costume Gala",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 11, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Costume Party",
+        "Blobfest",
+        "Horror",
+        "Dancing",
+        "Themed Gala",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-blob-ball/"
+  },
+  {
     "id": "discovered_kimberton_concert_justaddwater_20260716",
     "type": "event",
     "title": "Kimberton Park Summer Concert: Just Add Water",
