@@ -1,146 +1,5 @@
 [
   {
-    "id": "discovered_exfest_xiv_20260613",
-    "type": "event",
-    "title": "Exhumed Films Presents eX-Fest Part XIV",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 13, 2026",
-    "attributes": {
-      "category": "Guest Presentations",
-      "vibes": [
-        "Film Marathon",
-        "Exploitation Films",
-        "Historic Venue",
-        "12-Hour Event"
-      ],
-      "price": "$45"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/guest-presentations/exhumed-films-presents-ex-fest-part-xiv-at-the-colonial-theatre/"
-  },
-  {
-    "id": "discovered_art_street_festival_20260613",
-    "type": "event",
-    "title": "Ninth Annual Phoenixville Art Street Festival",
-    "venue_info": {
-      "name": "Bridge Street, Downtown Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Jun 13, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Family Friendly",
-        "Outdoor",
-        "Arts",
-        "Live Music",
-        "Free"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://phoenixvillechamber.org/news-events/events/phoenixville-art-street-festival/"
-  },
-  {
-    "id": "discovered_cars_guitars_20260613",
-    "type": "event",
-    "title": "Cars & Guitars at Anderson Farm Park",
-    "venue_info": {
-      "name": "Anderson Farm Park, Upper Providence (Collegeville)",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "Jun 13, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Car Show",
-        "Live Music",
-        "Family Friendly",
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.uprov-montco.org/416/Program-and-Event-Calendar"
-  },
-  {
-    "id": "discovered_hspa_strawberry_festival_20260613",
-    "type": "event",
-    "title": "HSPA Annual Strawberry Festival & Flea Market",
-    "venue_info": {
-      "name": "Historical Society of the Phoenixville Area, 204 Church St",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Jun 13, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Family Friendly",
-        "Outdoor",
-        "Local History",
-        "Flea Market",
-        "Food"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://countylinesmagazine.com/event/historical-society-of-phoenixvilles-annual-strawberry-festival/"
-  },
-  {
-    "id": "discovered_valley_forge_march_out_20260613",
-    "type": "event",
-    "title": "248th Anniversary: March Out of the Continental Army",
-    "venue_info": {
-      "name": "Valley Forge National Historical Park",
-      "location": {
-        "lat": 40.1014,
-        "lng": -75.4544
-      }
-    },
-    "raw_date_string": "Jun 13, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Living History",
-        "Free",
-        "Family Friendly",
-        "Outdoor",
-        "History",
-        "National Park"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.nps.gov/vafo/planyourvisit/upcoming-commemorations.htm"
-  },
-  {
     "id": "discovered_juneteenth_20260614",
     "type": "event",
     "title": "Phoenixville Juneteenth Celebration 2026",
@@ -786,6 +645,64 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-blob-ball/"
+  },
+  {
+    "id": "discovered_dinner_en_blob_20260712",
+    "type": "event",
+    "title": "Cirque du Blobfest: Dinner en Blob – Community Fundraiser Dinner",
+    "venue_info": {
+      "name": "Secret Location (Revealed to Attendees), Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Blobfest",
+        "Fundraiser",
+        "Red Dress",
+        "Community Dinner",
+        "Secret Location",
+        "BYOD"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-dinner-en-blob/"
+  },
+  {
+    "id": "discovered_shortys_film_contest_20260712",
+    "type": "event",
+    "title": "Cirque du Blobfest: Shorty's Short Film Contest Exhibition",
+    "venue_info": {
+      "name": "The Colonial Theatre – White Rabbit Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 12, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Short Films",
+        "Blobfest",
+        "Horror",
+        "Film Festival",
+        "Indoor",
+        "Afternoon"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-shortys-short-film-contest/"
   },
   {
     "id": "discovered_kimberton_concert_justaddwater_20260716",
