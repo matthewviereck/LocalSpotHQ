@@ -871,5 +871,121 @@
       "image": ""
     },
     "action_link": "https://phoenixvilletabletennis.com/"
+  },
+  {
+    "id": "discovered_blobfest_runout_friday_20260710",
+    "type": "event",
+    "title": "Cirque du Blobfest: Friday Night Immersive Screening & Run-Out",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 10, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Blobfest",
+        "Horror Film",
+        "Immersive",
+        "Interactive",
+        "Circus",
+        "Run-Out"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-friday-immersive-screening-run-out/"
+  },
+  {
+    "id": "discovered_blobfest_streetfair_20260711",
+    "type": "event",
+    "title": "Cirque du Blobfest: Saturday Street Fair & Kids Carnival",
+    "venue_info": {
+      "name": "Bridge Street, Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 11, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly",
+        "Blobfest",
+        "Live Music",
+        "Vendors",
+        "Kids Activities"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-saturday-street-fair-kids-carnival/"
+  },
+  {
+    "id": "discovered_blobfest_5k_20260712",
+    "type": "event",
+    "title": "9th Annual Blobfest 5K, 10K & Half Marathon",
+    "venue_info": {
+      "name": "The Colonial Theatre & Bridge Street, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Running Race",
+        "Blobfest",
+        "Family Friendly",
+        "Kids Fun Run",
+        "Community"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://runsignup.com/Race/PA/Phoenixville/TheBlobfest5k"
+  },
+  {
+    "id": "discovered_lisa_scottoline_20260716",
+    "type": "event",
+    "title": "Lisa Scottoline: \"This Changes Everything\" – Live Author Event",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 16, 2026",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": [
+        "Author Reading",
+        "Book Signing",
+        "Mystery",
+        "Thriller",
+        "Q&A",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/lisa-scottoline-author-of-this-changes-everything-live-in-phoenixville-tickets-1989396493465"
   }
 ]
