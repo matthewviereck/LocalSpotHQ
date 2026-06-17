@@ -28,6 +28,34 @@
     "action_link": "https://www.eastpikeland.org/community/page/summer-concert-series-0"
   },
   {
+    "id": "discovered_summer_music_series_20260619",
+    "type": "event",
+    "title": "Phoenixville Summer Music Series – Friday Night Live",
+    "venue_info": {
+      "name": "Downtown Phoenixville (Bridge & Main Streets)",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jun 19, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "Summer Series"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=1773"
+  },
+  {
     "id": "discovered_pridefest_20260620",
     "type": "event",
     "title": "Chester County PrideFest 2026",
@@ -58,7 +86,7 @@
   {
     "id": "discovered_cianni_archive_journal_20260620",
     "type": "event",
-    "title": "The Man Behind the Camera: Vincent Cianni \u2013 Archive/Journal",
+    "title": "The Man Behind the Camera: Vincent Cianni – Archive/Journal",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -86,7 +114,7 @@
   {
     "id": "discovered_good_vibrations_cure_20260620",
     "type": "event",
-    "title": "Good Vibrations for a Cure \u2013 Alzheimer's Fundraiser",
+    "title": "Good Vibrations for a Cure – Alzheimer's Fundraiser",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -169,6 +197,62 @@
     "action_link": "https://phoenixvillechamber.org/news-events/events/phoenixville-car-show/"
   },
   {
+    "id": "discovered_solstice_celebration_20260621",
+    "type": "event",
+    "title": "Summer Solstice Celebration 2026",
+    "venue_info": {
+      "name": "Kimberton Park Amphitheater, Kimberton",
+      "location": {
+        "lat": 40.115,
+        "lng": -75.544
+      }
+    },
+    "raw_date_string": "Jun 21, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "BYO Picnic"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.pat.community/summer-solstice"
+  },
+  {
+    "id": "discovered_movies_lawn_ursinus_20260621",
+    "type": "event",
+    "title": "Movies on the Lawn at Ursinus College",
+    "venue_info": {
+      "name": "Ursinus College Front Lawn, Collegeville",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "Jun 21, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly",
+        "Movies",
+        "Food Trucks",
+        "BYO Chairs"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.ursinus.edu/offices/protocol-and-special-events/flagship-events/movies-on-the-lawn/"
+  },
+  {
     "id": "discovered_collegeville_concert_bachelor_boys_20260623",
     "type": "event",
     "title": "Concert in the Park: Bachelor Boys Band",
@@ -199,7 +283,7 @@
   {
     "id": "discovered_cold_war_philly_flyers_20260625",
     "type": "event",
-    "title": "Cold War in Philly: Flyers vs. Russia 1976 \u2013 Documentary Screening & Q&A",
+    "title": "Cold War in Philly: Flyers vs. Russia 1976 – Documentary Screening & Q&A",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -228,7 +312,7 @@
   {
     "id": "discovered_bullitt_35mm_20260626",
     "type": "event",
-    "title": "Bullitt \u2013 35mm Classic Film Screening",
+    "title": "Bullitt – 35mm Classic Film Screening",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -283,7 +367,7 @@
   {
     "id": "discovered_toomanygames_20260626",
     "type": "event",
-    "title": "TooManyGames 2026 \u2013 PA's Premier Gaming Convention",
+    "title": "TooManyGames 2026 – PA's Premier Gaming Convention",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center",
       "location": {
@@ -308,9 +392,36 @@
     "action_link": "https://www.eventbrite.com/e/toomanygames-2026-tickets-1974937189297"
   },
   {
+    "id": "discovered_float_friday_20260626",
+    "type": "event",
+    "title": "Float Friday – Schuylkill River Float at Lock 60",
+    "venue_info": {
+      "name": "Lock 60 Recreation Area, Mont Clare (near Phoenixville)",
+      "location": {
+        "lat": 40.1241,
+        "lng": -75.5019
+      }
+    },
+    "raw_date_string": "Jun 26, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Water Activity",
+        "Adults Only",
+        "Social",
+        "River Float"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.meetup.com/phoenixville-float-friday/events/314706703/"
+  },
+  {
     "id": "discovered_fright_night_16mm_20260627",
     "type": "event",
-    "title": "Fright Night \u2013 16mm Horror Double Feature",
+    "title": "Fright Night – 16mm Horror Double Feature",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -338,7 +449,7 @@
   {
     "id": "discovered_the_church_20260627",
     "type": "event",
-    "title": "The Church: The Singles 1980\u20132025",
+    "title": "The Church: The Singles 1980–2025",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -391,9 +502,36 @@
     "action_link": "https://pvilleblues.org/"
   },
   {
+    "id": "discovered_usatt_pa_state_open_20260627",
+    "type": "event",
+    "title": "USA Table Tennis Pennsylvania State Open 2026",
+    "venue_info": {
+      "name": "Phoenixville Recreation Center",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jun 27, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Sports",
+        "Table Tennis",
+        "Competition",
+        "Indoor",
+        "All Skill Levels"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://phoenixvilletabletennis.com/"
+  },
+  {
     "id": "discovered_canal_day_20260628",
     "type": "event",
-    "title": "41st Annual Canal Day at Lock 60 \u2013 Schuylkill Canal",
+    "title": "41st Annual Canal Day at Lock 60 – Schuylkill Canal",
     "venue_info": {
       "name": "Lock 60 & St. Michael's Park, Mont Clare (near Phoenixville)",
       "location": {
@@ -423,7 +561,7 @@
   {
     "id": "discovered_retreat_valley_forge_20260703",
     "type": "event",
-    "title": "Retreat to Valley Forge \u2013 America's 250th & Park's 50th Celebration",
+    "title": "Retreat to Valley Forge – America's 250th & Park's 50th Celebration",
     "venue_info": {
       "name": "Valley Forge National Historical Park",
       "location": {
@@ -481,7 +619,7 @@
   {
     "id": "discovered_fireworks_food_trucks_20260705",
     "type": "event",
-    "title": "Phoenixville Food Trucks & Fireworks \u2013 Independence Day Celebration",
+    "title": "Phoenixville Food Trucks & Fireworks – Independence Day Celebration",
     "venue_info": {
       "name": "Dayton Street Field, Phoenixville",
       "location": {
@@ -509,7 +647,7 @@
   {
     "id": "discovered_pluto_summer_cinema_20260705",
     "type": "event",
-    "title": "Pluto TV Summer of Cinema \u2013 Free Movie Weekend at Colonial Theatre",
+    "title": "Pluto TV Summer of Cinema – Free Movie Weekend at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -535,9 +673,38 @@
     "action_link": "https://thecolonialtheatre.com/news/pluto-tvs-summer-of-cinema-returns/"
   },
   {
+    "id": "discovered_blobfest_runout_friday_20260710",
+    "type": "event",
+    "title": "Cirque du Blobfest: Friday Night Immersive Screening & Run-Out",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 10, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Blobfest",
+        "Horror Film",
+        "Immersive",
+        "Interactive",
+        "Circus",
+        "Run-Out"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-friday-immersive-screening-run-out/"
+  },
+  {
     "id": "discovered_blob_ball_20260711",
     "type": "event",
-    "title": "Cirque du Blobfest: Blob Ball \u2013 Annual Costume Gala",
+    "title": "Cirque du Blobfest: Blob Ball – Annual Costume Gala",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -564,9 +731,68 @@
     "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-blob-ball/"
   },
   {
+    "id": "discovered_blobfest_streetfair_20260711",
+    "type": "event",
+    "title": "Cirque du Blobfest: Saturday Street Fair & Kids Carnival",
+    "venue_info": {
+      "name": "Bridge Street, Downtown Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 11, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly",
+        "Blobfest",
+        "Live Music",
+        "Vendors",
+        "Kids Activities"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-saturday-street-fair-kids-carnival/"
+  },
+  {
+    "id": "discovered_lock60_guided_tour_20260711",
+    "type": "event",
+    "title": "Lock 60 Guided Walking Tour – Schuylkill Canal History",
+    "venue_info": {
+      "name": "Lock 60 at Schuylkill Canal Park, Mont Clare (near Phoenixville)",
+      "location": {
+        "lat": 40.1241,
+        "lng": -75.5019
+      }
+    },
+    "raw_date_string": "Jul 11, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "History",
+        "Guided Tour",
+        "Family Friendly",
+        "Canal History"
+      ],
+      "price": "Free (registration required)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.montgomerycountypa.gov/Calendar.aspx?EID=5298"
+  },
+  {
     "id": "discovered_dinner_en_blob_20260712",
     "type": "event",
-    "title": "Cirque du Blobfest: Dinner en Blob \u2013 Community Fundraiser Dinner",
+    "title": "Cirque du Blobfest: Dinner en Blob – Community Fundraiser Dinner",
     "venue_info": {
       "name": "Secret Location (Revealed to Attendees), Phoenixville",
       "location": {
@@ -597,7 +823,7 @@
     "type": "event",
     "title": "Cirque du Blobfest: Shorty's Short Film Contest Exhibition",
     "venue_info": {
-      "name": "The Colonial Theatre \u2013 White Rabbit Theatre",
+      "name": "The Colonial Theatre – White Rabbit Theatre",
       "location": {
         "lat": 40.132,
         "lng": -75.513
@@ -620,6 +846,34 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-shortys-short-film-contest/"
+  },
+  {
+    "id": "discovered_blobfest_5k_20260712",
+    "type": "event",
+    "title": "9th Annual Blobfest 5K, 10K & Half Marathon",
+    "venue_info": {
+      "name": "The Colonial Theatre & Bridge Street, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Running Race",
+        "Blobfest",
+        "Family Friendly",
+        "Kids Fun Run",
+        "Community"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://runsignup.com/Race/PA/Phoenixville/TheBlobfest5k"
   },
   {
     "id": "discovered_kimberton_concert_justaddwater_20260716",
@@ -648,6 +902,35 @@
       "image": ""
     },
     "action_link": "https://www.eastpikeland.org/community/page/summer-concert-series-0"
+  },
+  {
+    "id": "discovered_lisa_scottoline_20260716",
+    "type": "event",
+    "title": "Lisa Scottoline: \"This Changes Everything\" – Live Author Event",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 16, 2026",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": [
+        "Author Reading",
+        "Book Signing",
+        "Mystery",
+        "Thriller",
+        "Q&A",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/lisa-scottoline-author-of-this-changes-everything-live-in-phoenixville-tickets-1989396493465"
   },
   {
     "id": "discovered_emily_mcintire_20260717",
@@ -680,7 +963,7 @@
   {
     "id": "discovered_stewart_copeland_20260718",
     "type": "event",
-    "title": "Stewart Copeland: \"Have I Said Too Much\" \u2013 Spoken Word & Stories",
+    "title": "Stewart Copeland: \"Have I Said Too Much\" – Spoken Word & Stories",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -738,7 +1021,7 @@
   {
     "id": "discovered_unforgettable_fire_u2_20260724",
     "type": "event",
-    "title": "Unforgettable Fire \u2013 U2 Tribute Band",
+    "title": "Unforgettable Fire – U2 Tribute Band",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -790,202 +1073,5 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/live-music/winslow-an-evening-of-the-eagles-tribute/"
-  },
-  {
-    "id": "discovered_solstice_celebration_20260621",
-    "type": "event",
-    "title": "Summer Solstice Celebration 2026",
-    "venue_info": {
-      "name": "Kimberton Park Amphitheater, Kimberton",
-      "location": {
-        "lat": 40.115,
-        "lng": -75.544
-      }
-    },
-    "raw_date_string": "Jun 21, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Family Friendly",
-        "BYO Picnic"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.pat.community/summer-solstice"
-  },
-  {
-    "id": "discovered_float_friday_20260626",
-    "type": "event",
-    "title": "Float Friday \u2013 Schuylkill River Float at Lock 60",
-    "venue_info": {
-      "name": "Lock 60 Recreation Area, Mont Clare (near Phoenixville)",
-      "location": {
-        "lat": 40.1241,
-        "lng": -75.5019
-      }
-    },
-    "raw_date_string": "Jun 26, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Water Activity",
-        "Adults Only",
-        "Social",
-        "River Float"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.meetup.com/phoenixville-float-friday/events/314706703/"
-  },
-  {
-    "id": "discovered_usatt_pa_state_open_20260627",
-    "type": "event",
-    "title": "USA Table Tennis Pennsylvania State Open 2026",
-    "venue_info": {
-      "name": "Phoenixville Recreation Center",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Jun 27, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Sports",
-        "Table Tennis",
-        "Competition",
-        "Indoor",
-        "All Skill Levels"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://phoenixvilletabletennis.com/"
-  },
-  {
-    "id": "discovered_blobfest_runout_friday_20260710",
-    "type": "event",
-    "title": "Cirque du Blobfest: Friday Night Immersive Screening & Run-Out",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jul 10, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Blobfest",
-        "Horror Film",
-        "Immersive",
-        "Interactive",
-        "Circus",
-        "Run-Out"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-friday-immersive-screening-run-out/"
-  },
-  {
-    "id": "discovered_blobfest_streetfair_20260711",
-    "type": "event",
-    "title": "Cirque du Blobfest: Saturday Street Fair & Kids Carnival",
-    "venue_info": {
-      "name": "Bridge Street, Downtown Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Jul 11, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly",
-        "Blobfest",
-        "Live Music",
-        "Vendors",
-        "Kids Activities"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-saturday-street-fair-kids-carnival/"
-  },
-  {
-    "id": "discovered_blobfest_5k_20260712",
-    "type": "event",
-    "title": "9th Annual Blobfest 5K, 10K & Half Marathon",
-    "venue_info": {
-      "name": "The Colonial Theatre & Bridge Street, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jul 12, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Running Race",
-        "Blobfest",
-        "Family Friendly",
-        "Kids Fun Run",
-        "Community"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://runsignup.com/Race/PA/Phoenixville/TheBlobfest5k"
-  },
-  {
-    "id": "discovered_lisa_scottoline_20260716",
-    "type": "event",
-    "title": "Lisa Scottoline: \"This Changes Everything\" – Live Author Event",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jul 16, 2026",
-    "attributes": {
-      "category": "Guest Presentations",
-      "vibes": [
-        "Author Reading",
-        "Book Signing",
-        "Mystery",
-        "Thriller",
-        "Q&A",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eventbrite.com/e/lisa-scottoline-author-of-this-changes-everything-live-in-phoenixville-tickets-1989396493465"
   }
 ]
