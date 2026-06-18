@@ -141,6 +141,35 @@
     "action_link": "https://phoenixvillechamber.org/news-events/events/good-vibrations-for-a-cure/"
   },
   {
+    "id": "discovered_science_on_screen_memento_20260620",
+    "type": "event",
+    "title": "Science on Screen: Memento – Memory, Executive Function & the Brain",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jun 20, 2026",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": [
+        "Science",
+        "Film",
+        "Neuroscience",
+        "Christopher Nolan",
+        "Q&A",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/science-on-screen/science-on-screen-remember-sammy-jankis-memory-executive-function-and-the-brain/"
+  },
+  {
     "id": "discovered_hush_gatsby_20260621",
     "type": "event",
     "title": "HUSH: An Immersive Gatsby Party",
@@ -959,6 +988,35 @@
       "image": ""
     },
     "action_link": "https://www.emilymcintire.com/events"
+  },
+  {
+    "id": "discovered_rico_rico_fiesta_20260717",
+    "type": "event",
+    "title": "Rico Rico Fiesta 2026 – Latin Culture, Food & Music Festival",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Jul 17 - 19, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Latin Culture",
+        "Live Music",
+        "Food",
+        "Family Friendly",
+        "Lucha Libre",
+        "Cultural Festival"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.ricoricofiesta.us/philly26"
   },
   {
     "id": "discovered_stewart_copeland_20260718",
