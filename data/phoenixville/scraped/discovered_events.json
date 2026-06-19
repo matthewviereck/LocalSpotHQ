@@ -1,33 +1,5 @@
 [
   {
-    "id": "discovered_kimberton_concert_bekindrewind_20260618",
-    "type": "event",
-    "title": "Kimberton Park Summer Concert: Be Kind Rewind (90s Music)",
-    "venue_info": {
-      "name": "Miller Amphitheater at Kimberton Park, Phoenixville",
-      "location": {
-        "lat": 40.115,
-        "lng": -75.544
-      }
-    },
-    "raw_date_string": "Jun 18, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Family Friendly",
-        "90s"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eastpikeland.org/community/page/summer-concert-series-0"
-  },
-  {
     "id": "discovered_summer_music_series_20260619",
     "type": "event",
     "title": "Phoenixville Summer Music Series – Friday Night Live",
@@ -819,6 +791,35 @@
     "action_link": "https://www.montgomerycountypa.gov/Calendar.aspx?EID=5298"
   },
   {
+    "id": "discovered_blobfest_sat_blob_screening_20260711",
+    "type": "event",
+    "title": "Cirque du Blobfest: Saturday Blob Screening & Second Run-Out",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 11, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Blobfest",
+        "Horror Film",
+        "Immersive",
+        "Interactive",
+        "Run-Out",
+        "Classic Horror"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/blobfest/"
+  },
+  {
     "id": "discovered_dinner_en_blob_20260712",
     "type": "event",
     "title": "Cirque du Blobfest: Dinner en Blob – Community Fundraiser Dinner",
@@ -1045,6 +1046,64 @@
       "image": ""
     },
     "action_link": "https://www.stewartcopeland.org/tour"
+  },
+  {
+    "id": "discovered_greenbergs_train_show_20260718",
+    "type": "event",
+    "title": "Greenberg's Great Train & Toy Show",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Jul 18 - 19, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Train Show",
+        "Collectibles",
+        "Vendors",
+        "Kids Free",
+        "Indoor"
+      ],
+      "price": "From $11"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.trainshow.com/greenbergpages/gb-landing-pages/oaks"
+  },
+  {
+    "id": "discovered_wicked_gluten_free_expo_20260718",
+    "type": "event",
+    "title": "Wicked Gluten Free Expo – Greater Philadelphia",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Jul 18, 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Gluten Free",
+        "Food Samples",
+        "Food Trucks",
+        "Allergen-Friendly",
+        "Family Friendly",
+        "Indoor"
+      ],
+      "price": "From $27.50"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://store.wickedglutenfree.com/products/copy-of-2026-wicked-gluten-free-expo-philadelphia"
   },
   {
     "id": "discovered_kimberton_fair_20260720",
