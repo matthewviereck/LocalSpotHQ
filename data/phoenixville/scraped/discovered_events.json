@@ -1,33 +1,5 @@
 [
   {
-    "id": "discovered_summer_music_series_20260619",
-    "type": "event",
-    "title": "Phoenixville Summer Music Series – Friday Night Live",
-    "venue_info": {
-      "name": "Downtown Phoenixville (Bridge & Main Streets)",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Jun 19, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Family Friendly",
-        "Summer Series"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=1773"
-  },
-  {
     "id": "discovered_pridefest_20260620",
     "type": "event",
     "title": "Chester County PrideFest 2026",
@@ -420,6 +392,35 @@
     "action_link": "https://www.meetup.com/phoenixville-float-friday/events/314706703/"
   },
   {
+    "id": "discovered_big_bounce_america_june_20260627",
+    "type": "event",
+    "title": "The Big Bounce America – World's Largest Bounce House",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center Fairgrounds, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Jun 27 - 28, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Kids",
+        "Outdoor",
+        "Inflatable",
+        "Active",
+        "DJ"
+      ],
+      "price": "From $35"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thebigbounceamerica.com/event/philadelphia-pa/"
+  },
+  {
     "id": "discovered_fright_night_16mm_20260627",
     "type": "event",
     "title": "Fright Night – 16mm Horror Double Feature",
@@ -587,6 +588,35 @@
       "image": ""
     },
     "action_link": "https://www.nps.gov/vafo/planyourvisit/upcoming-commemorations.htm"
+  },
+  {
+    "id": "discovered_big_bounce_america_july_20260703",
+    "type": "event",
+    "title": "The Big Bounce America – World's Largest Bounce House",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center Fairgrounds, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Jul 3 - 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Kids",
+        "Outdoor",
+        "Inflatable",
+        "Active",
+        "DJ"
+      ],
+      "price": "From $35"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thebigbounceamerica.com/event/philadelphia-pa/"
   },
   {
     "id": "discovered_skippack_july4_parade_20260704",
