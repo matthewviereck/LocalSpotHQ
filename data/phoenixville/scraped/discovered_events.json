@@ -1,119 +1,5 @@
 [
   {
-    "id": "discovered_pridefest_20260620",
-    "type": "event",
-    "title": "Chester County PrideFest 2026",
-    "venue_info": {
-      "name": "Bridge Street, Downtown Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Jun 20, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "LGBTQ+",
-        "Free",
-        "Outdoor",
-        "Family Friendly",
-        "Live Music"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://lgbteachesco.org/pridefest"
-  },
-  {
-    "id": "discovered_cianni_archive_journal_20260620",
-    "type": "event",
-    "title": "The Man Behind the Camera: Vincent Cianni – Archive/Journal",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 20, 2026",
-    "attributes": {
-      "category": "Guest Presentations",
-      "vibes": [
-        "Photography",
-        "LGBTQ+",
-        "Book Signing",
-        "Q&A",
-        "Documentary"
-      ],
-      "price": "From $20"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/archive-journal/"
-  },
-  {
-    "id": "discovered_good_vibrations_cure_20260620",
-    "type": "event",
-    "title": "Good Vibrations for a Cure – Alzheimer's Fundraiser",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 20, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Fundraiser",
-        "Alzheimer's Awareness",
-        "Live Music",
-        "Silent Auction",
-        "Wellness",
-        "Community"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://phoenixvillechamber.org/news-events/events/good-vibrations-for-a-cure/"
-  },
-  {
-    "id": "discovered_science_on_screen_memento_20260620",
-    "type": "event",
-    "title": "Science on Screen: Memento – Memory, Executive Function & the Brain",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 20, 2026",
-    "attributes": {
-      "category": "Guest Presentations",
-      "vibes": [
-        "Science",
-        "Film",
-        "Neuroscience",
-        "Christopher Nolan",
-        "Q&A",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/science-on-screen/science-on-screen-remember-sammy-jankis-memory-executive-function-and-the-brain/"
-  },
-  {
     "id": "discovered_hush_gatsby_20260621",
     "type": "event",
     "title": "HUSH: An Immersive Gatsby Party",
@@ -559,6 +445,36 @@
       "image": ""
     },
     "action_link": "https://schuylkillcanal.org/page-1456148"
+  },
+  {
+    "id": "discovered_first_friday_july_20260703",
+    "type": "event",
+    "title": "Phoenixville First Friday – July",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 3, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "Vendors",
+        "Night Market",
+        "Arts & Crafts"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://phoenixvillechamber.org/news-events/events/first-friday-july/"
   },
   {
     "id": "discovered_retreat_valley_forge_20260703",
