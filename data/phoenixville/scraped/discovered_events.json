@@ -1,117 +1,5 @@
 [
   {
-    "id": "discovered_hush_gatsby_20260621",
-    "type": "event",
-    "title": "HUSH: An Immersive Gatsby Party",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 21, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Speakeasy",
-        "1920s",
-        "Gatsby",
-        "Live Music",
-        "Immersive"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/colonial-events/hush-an-immersive-gatsby-party/"
-  },
-  {
-    "id": "discovered_car_show_pxv_20260621",
-    "type": "event",
-    "title": "Phoenixville Car Show",
-    "venue_info": {
-      "name": "Main & Bridge Street Parking Lot, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Jun 21, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Car Show",
-        "Family Friendly",
-        "Free",
-        "Outdoor",
-        "Community"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://phoenixvillechamber.org/news-events/events/phoenixville-car-show/"
-  },
-  {
-    "id": "discovered_solstice_celebration_20260621",
-    "type": "event",
-    "title": "Summer Solstice Celebration 2026",
-    "venue_info": {
-      "name": "Kimberton Park Amphitheater, Kimberton",
-      "location": {
-        "lat": 40.115,
-        "lng": -75.544
-      }
-    },
-    "raw_date_string": "Jun 21, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Family Friendly",
-        "BYO Picnic"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.pat.community/summer-solstice"
-  },
-  {
-    "id": "discovered_movies_lawn_ursinus_20260621",
-    "type": "event",
-    "title": "Movies on the Lawn at Ursinus College",
-    "venue_info": {
-      "name": "Ursinus College Front Lawn, Collegeville",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "Jun 21, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly",
-        "Movies",
-        "Food Trucks",
-        "BYO Chairs"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.ursinus.edu/offices/protocol-and-special-events/flagship-events/movies-on-the-lawn/"
-  },
-  {
     "id": "discovered_collegeville_concert_bachelor_boys_20260623",
     "type": "event",
     "title": "Concert in the Park: Bachelor Boys Band",
@@ -1052,6 +940,34 @@
     "action_link": "https://store.wickedglutenfree.com/products/copy-of-2026-wicked-gluten-free-expo-philadelphia"
   },
   {
+    "id": "discovered_jmc_relay_ultrachallenge_20260718",
+    "type": "event",
+    "title": "JMC Running Co: 10th Annual 4-Hour Relay & Solo-Ultra Challenge",
+    "venue_info": {
+      "name": "Charlestown Park, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 18, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Running Race",
+        "Relay",
+        "Ultra Marathon",
+        "Active",
+        "Community"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://runsignup.com/Race/PA/Phoenixville/PhoenixvilleXCMilesforCancer6HourRelayUltra"
+  },
+  {
     "id": "discovered_kimberton_fair_20260720",
     "type": "event",
     "title": "Kimberton Community Fair 2026",
@@ -1080,6 +996,36 @@
       "image": ""
     },
     "action_link": "https://www.kimbertonfair.org/"
+  },
+  {
+    "id": "discovered_lock60_kids_tour_20260722",
+    "type": "event",
+    "title": "Lock 60 Kids Walking Tour – Hands-On Canal History",
+    "venue_info": {
+      "name": "Lock 60 at Schuylkill Canal Park, Mont Clare (near Phoenixville)",
+      "location": {
+        "lat": 40.1241,
+        "lng": -75.5019
+      }
+    },
+    "raw_date_string": "Jul 22, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "History",
+        "Kids",
+        "Family Friendly",
+        "Canal History",
+        "Interactive"
+      ],
+      "price": "Free (registration required)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.montgomerycountypa.gov/1145/Lock-60-at-the-Schuylkill-Canal-Park"
   },
   {
     "id": "discovered_unforgettable_fire_u2_20260724",
