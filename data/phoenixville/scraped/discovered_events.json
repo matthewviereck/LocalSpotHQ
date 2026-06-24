@@ -1,33 +1,5 @@
 [
   {
-    "id": "discovered_collegeville_concert_bachelor_boys_20260623",
-    "type": "event",
-    "title": "Concert in the Park: Bachelor Boys Band",
-    "venue_info": {
-      "name": "Community Park, Collegeville",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "Jun 23, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly",
-        "Live Music",
-        "Community"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.collegeville-pa.gov/concert-in-the-park/"
-  },
-  {
     "id": "discovered_cold_war_philly_flyers_20260625",
     "type": "event",
     "title": "Cold War in Philly: Flyers vs. Russia 1976 – Documentary Screening & Q&A",
@@ -737,6 +709,35 @@
     "action_link": "https://thecolonialtheatre.com/events/blobfest/"
   },
   {
+    "id": "discovered_mavis_staples_colonial_20260711",
+    "type": "event",
+    "title": "Mavis Staples – Live in Concert",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 11, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Soul",
+        "R&B",
+        "Gospel",
+        "Iconic Artist",
+        "Indoor"
+      ],
+      "price": "Sold Out"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/mavis-staples/"
+  },
+  {
     "id": "discovered_dinner_en_blob_20260712",
     "type": "event",
     "title": "Cirque du Blobfest: Dinner en Blob – Community Fundraiser Dinner",
@@ -878,6 +879,35 @@
       "image": ""
     },
     "action_link": "https://www.eventbrite.com/e/lisa-scottoline-author-of-this-changes-everything-live-in-phoenixville-tickets-1989396493465"
+  },
+  {
+    "id": "discovered_rhythm_brews_july_20260716",
+    "type": "event",
+    "title": "Rhythm & Brews – Live Music & Beer Garden",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 16, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Beer Garden",
+        "Community",
+        "Summer"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=2080"
   },
   {
     "id": "discovered_emily_mcintire_20260717",
@@ -1223,6 +1253,35 @@
       "image": ""
     },
     "action_link": "https://eastcoastreptilesuperexpos.com/"
+  },
+  {
+    "id": "discovered_philly_phavorites_expo_20260725",
+    "type": "event",
+    "title": "Philly Phavorites Expo",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Jul 25, 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Local Vendors",
+        "Philly Food",
+        "Tastings",
+        "Family Friendly",
+        "Indoor",
+        "Marketplace"
+      ],
+      "price": "$10 online / $15 at door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://phillyexpocenter.com/events/philly-phavorites-expo/"
   },
   {
     "id": "discovered_perfect_strangers_watertower_20260731",
