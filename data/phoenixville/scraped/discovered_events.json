@@ -1,34 +1,5 @@
 [
   {
-    "id": "discovered_cold_war_philly_flyers_20260625",
-    "type": "event",
-    "title": "Cold War in Philly: Flyers vs. Russia 1976 – Documentary Screening & Q&A",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 25, 2026",
-    "attributes": {
-      "category": "Guest Presentations",
-      "vibes": [
-        "Documentary",
-        "Hockey",
-        "Philadelphia Flyers",
-        "Q&A",
-        "Sports History",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/guest-presentations/cold-war-in-philly-flyers-vs-russia-1976/"
-  },
-  {
     "id": "discovered_bullitt_35mm_20260626",
     "type": "event",
     "title": "Bullitt – 35mm Classic Film Screening",
@@ -97,7 +68,7 @@
     },
     "raw_date_string": "Jun 26, 2026",
     "attributes": {
-      "category": "Community Event",
+      "category": "Live Music",
       "vibes": [
         "Live Music",
         "Tribute Band",
@@ -187,7 +158,8 @@
         "Adults Only",
         "Social",
         "River Float"
-      ]
+      ],
+      "price": "Free"
     },
     "media": {
       "image": ""
@@ -264,7 +236,7 @@
     },
     "raw_date_string": "Jun 27, 2026",
     "attributes": {
-      "category": "Community Event",
+      "category": "Live Music",
       "vibes": [
         "Live Music",
         "Alt-Rock",
@@ -305,33 +277,6 @@
       "image": ""
     },
     "action_link": "https://pvilleblues.org/"
-  },
-  {
-    "id": "discovered_usatt_pa_state_open_20260627",
-    "type": "event",
-    "title": "USA Table Tennis Pennsylvania State Open 2026",
-    "venue_info": {
-      "name": "Phoenixville Recreation Center",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Jun 27, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Sports",
-        "Table Tennis",
-        "Competition",
-        "Indoor",
-        "All Skill Levels"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://phoenixvilletabletennis.com/"
   },
   {
     "id": "discovered_canal_day_20260628",
@@ -823,7 +768,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://www.montgomerycountypa.gov/Calendar.aspx?EID=5298"
+    "action_link": "https://www.montgomerycountypa.gov/1145/Lock-60-at-the-Schuylkill-Canal-Park"
   },
   {
     "id": "discovered_blobfest_sat_blob_screening_20260711",
@@ -968,6 +913,36 @@
       "image": ""
     },
     "action_link": "https://runsignup.com/Race/PA/Phoenixville/TheBlobfest5k"
+  },
+  {
+    "id": "discovered_malvern_fire_fair_20260714",
+    "type": "event",
+    "title": "Annual Malvern Fire Company Fair – Carnival, Rides & Fireworks",
+    "venue_info": {
+      "name": "Paoli Memorial Grounds & Malvern Memorial Park, Malvern",
+      "location": {
+        "lat": 40.0359,
+        "lng": -75.5127
+      }
+    },
+    "raw_date_string": "Jul 14 - 18, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Family Friendly",
+        "Carnival Rides",
+        "Fireworks",
+        "Outdoor",
+        "Community",
+        "Fire Company Fair",
+        "Food"
+      ],
+      "price": "From $30"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.malvernfireco.com/"
   },
   {
     "id": "discovered_kimberton_concert_justaddwater_20260716",
@@ -1386,7 +1361,7 @@
     },
     "raw_date_string": "Jul 24, 2026",
     "attributes": {
-      "category": "Community Event",
+      "category": "Live Music",
       "vibes": [
         "Live Music",
         "Tribute Band",
@@ -1414,7 +1389,7 @@
     },
     "raw_date_string": "Jul 25, 2026",
     "attributes": {
-      "category": "Community Event",
+      "category": "Live Music",
       "vibes": [
         "Live Music",
         "Tribute Band",
@@ -1500,7 +1475,7 @@
     },
     "raw_date_string": "Jul 31, 2026",
     "attributes": {
-      "category": "Community Event",
+      "category": "Live Music",
       "vibes": [
         "Live Music",
         "Cover Band",
