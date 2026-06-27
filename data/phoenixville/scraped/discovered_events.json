@@ -1,172 +1,5 @@
 [
   {
-    "id": "discovered_bullitt_35mm_20260626",
-    "type": "event",
-    "title": "Bullitt – 35mm Classic Film Screening",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 26, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Classic Film",
-        "35mm Projection",
-        "Steve McQueen",
-        "Car Chase",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/classic-films/bullitt/"
-  },
-  {
-    "id": "discovered_doom_generation_colonial_20260626",
-    "type": "event",
-    "title": "The Doom Generation (1995) – Cult Cinema Screening",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 26, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Cult Cinema",
-        "Gregg Araki",
-        "Indie Film",
-        "LGBTQ+",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/cult-cinema/the-doom-generation-1995/"
-  },
-  {
-    "id": "discovered_magical_mystery_doors_20260626",
-    "type": "event",
-    "title": "Beatles, Zeppelin & Doors: Magical Mystery Doors Tribute",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 26, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Tribute Band",
-        "Classic Rock",
-        "Indoor"
-      ],
-      "price": "From $52"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.tixr.com/groups/rsp-colonial"
-  },
-  {
-    "id": "discovered_summer_music_bridge_st_20260626",
-    "type": "event",
-    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
-    "venue_info": {
-      "name": "Downtown Phoenixville – Bridge Street",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Jun 26, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Downtown",
-        "Summer",
-        "Family Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=1773"
-  },
-  {
-    "id": "discovered_toomanygames_20260626",
-    "type": "event",
-    "title": "TooManyGames 2026 – PA's Premier Gaming Convention",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "Jun 26 - 28, 2026",
-    "attributes": {
-      "category": "Expo",
-      "vibes": [
-        "Gaming",
-        "Convention",
-        "Family Friendly",
-        "Marketplace"
-      ],
-      "price": "From $109"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eventbrite.com/e/toomanygames-2026-tickets-1974937189297"
-  },
-  {
-    "id": "discovered_float_friday_20260626",
-    "type": "event",
-    "title": "Float Friday – Schuylkill River Float at Lock 60",
-    "venue_info": {
-      "name": "Lock 60 Recreation Area, Mont Clare (near Phoenixville)",
-      "location": {
-        "lat": 40.1241,
-        "lng": -75.5019
-      }
-    },
-    "raw_date_string": "Jun 26, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Water Activity",
-        "Adults Only",
-        "Social",
-        "River Float"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.meetup.com/phoenixville-float-friday/events/314706703/"
-  },
-  {
     "id": "discovered_big_bounce_america_june_20260627",
     "type": "event",
     "title": "The Big Bounce America – World's Largest Bounce House",
@@ -973,6 +806,33 @@
     "action_link": "https://www.eastpikeland.org/community/page/summer-concert-series-0"
   },
   {
+    "id": "discovered_crowd_pleasers_colonial_20260716",
+    "type": "event",
+    "title": "Crowd Pleasers Family Film Screening at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 16, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Family Friendly",
+        "Classic Film",
+        "Kids",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/"
+  },
+  {
     "id": "discovered_lisa_scottoline_20260716",
     "type": "event",
     "title": "Lisa Scottoline: \"This Changes Everything\" – Live Author Event",
@@ -1320,6 +1180,33 @@
     "action_link": "https://www.montgomerycountypa.gov/1145/Lock-60-at-the-Schuylkill-Canal-Park"
   },
   {
+    "id": "discovered_crowd_pleasers_colonial_20260723",
+    "type": "event",
+    "title": "Crowd Pleasers Family Film Screening at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 23, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Family Friendly",
+        "Classic Film",
+        "Kids",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/"
+  },
+  {
     "id": "discovered_summer_music_bridge_st_20260724",
     "type": "event",
     "title": "Phoenixville Summer Music Series – Live on Bridge Street",
@@ -1461,6 +1348,62 @@
       "image": ""
     },
     "action_link": "https://phillyexpocenter.com/events/philly-phavorites-expo/"
+  },
+  {
+    "id": "discovered_philly_vintage_flea_20260725",
+    "type": "event",
+    "title": "The Philly Vintage Flea – Enormous Vintage Clothing Market",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Jul 25, 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Vintage Clothing",
+        "Flea Market",
+        "Shopping",
+        "100+ Vendors",
+        "Indoor",
+        "Family Friendly"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thephillyvintageflea.com/"
+  },
+  {
+    "id": "discovered_art_house_cinema_colonial_20260726",
+    "type": "event",
+    "title": "Art House Cinema Sunday at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 26, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Art House Cinema",
+        "Independent Film",
+        "Indoor",
+        "Curated"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/art-house-cinema/"
   },
   {
     "id": "discovered_perfect_strangers_watertower_20260731",
