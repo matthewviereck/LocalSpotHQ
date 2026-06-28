@@ -29,61 +29,6 @@
     "action_link": "https://thebigbounceamerica.com/event/philadelphia-pa/"
   },
   {
-    "id": "discovered_fright_night_16mm_20260627",
-    "type": "event",
-    "title": "Fright Night – 16mm Horror Double Feature",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 27, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Horror Film",
-        "16mm Projection",
-        "Double Feature",
-        "Classic Horror",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/fright-night/"
-  },
-  {
-    "id": "discovered_the_church_20260627",
-    "type": "event",
-    "title": "The Church: The Singles 1980–2025",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 27, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Alt-Rock",
-        "Indie",
-        "45-Year Retrospective"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/live-music/the-church-the-singles-1980-2025/"
-  },
-  {
     "id": "discovered_phoenixville_blues_festival_20260627",
     "type": "event",
     "title": "Phoenixville Blues Festival",
@@ -168,6 +113,65 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/programs/blazing-saddles/"
+  },
+  {
+    "id": "discovered_girls_from_mars_20260628",
+    "type": "event",
+    "title": "Girls From Mars – Swing & Jazz Dinner Show",
+    "venue_info": {
+      "name": "Steel City Coffeehouse & Brewery",
+      "location": {
+        "lat": 40.1305,
+        "lng": -75.5148
+      }
+    },
+    "raw_date_string": "Jun 28, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Swing Music",
+        "Jazz",
+        "1930s-40s",
+        "Dinner Show",
+        "Intimate Listening Room",
+        "Seated"
+      ],
+      "price": "$20 / $26 Reserved"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.steelcityphx.com/concerts-and-events"
+  },
+  {
+    "id": "discovered_prfm_root_down_20260628",
+    "type": "event",
+    "title": "Phoenixville Punk Rock Flea Market (PRFM) at Root Down Brewing",
+    "venue_info": {
+      "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jun 28, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Flea Market",
+        "Punk Rock",
+        "Vinyl Records",
+        "Vintage",
+        "Local Vendors",
+        "Brewery",
+        "Free Entry"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://rootdownbrewing.com/rootdown-events/"
   },
   {
     "id": "discovered_crowd_pleasers_colonial_20260701",
@@ -748,6 +752,35 @@
     "action_link": "https://runsignup.com/Race/PA/Phoenixville/TheBlobfest5k"
   },
   {
+    "id": "discovered_ellis_island_colonial_20260712",
+    "type": "event",
+    "title": "Ellis Island: The Dream of America – Live Performance",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 12, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Orchestra",
+        "Immigration History",
+        "Classical Music",
+        "Multimedia",
+        "Live Performance",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/colonial-events/"
+  },
+  {
     "id": "discovered_malvern_fire_fair_20260714",
     "type": "event",
     "title": "Annual Malvern Fire Company Fair – Carnival, Rides & Fireworks",
@@ -831,6 +864,34 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/"
+  },
+  {
+    "id": "discovered_improv_fundamentals_colonial_20260716",
+    "type": "event",
+    "title": "Improv Fundamentals Showcase – Pay What You Wish",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 16, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Improv Comedy",
+        "Showcase",
+        "Pay What You Wish",
+        "Indoor",
+        "Community"
+      ],
+      "price": "Pay What You Wish"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/colonial-events/"
   },
   {
     "id": "discovered_lisa_scottoline_20260716",
@@ -946,6 +1007,35 @@
       "image": ""
     },
     "action_link": "https://www.emilymcintire.com/events"
+  },
+  {
+    "id": "discovered_lbk_troubles_end_20260717",
+    "type": "event",
+    "title": "Live Band Karaoke at Trouble's End Brewing – Third Friday",
+    "venue_info": {
+      "name": "Trouble's End Brewing, Collegeville",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "Jul 17, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Karaoke",
+        "Live Band",
+        "Brewery",
+        "Fun",
+        "Collegeville",
+        "21+"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.troublesendbrewing.com/live-music-calendar"
   },
   {
     "id": "discovered_djgabagool_karaoke_20260717",
@@ -1118,6 +1208,35 @@
       "image": ""
     },
     "action_link": "https://runsignup.com/Race/PA/Phoenixville/PhoenixvilleXCMilesforCancer6HourRelayUltra"
+  },
+  {
+    "id": "discovered_two_johns_steel_city_20260719",
+    "type": "event",
+    "title": "The Two Johns: Johnny Never & John Colgan-Davis at Steel City",
+    "venue_info": {
+      "name": "Steel City Coffeehouse & Brewery",
+      "location": {
+        "lat": 40.1305,
+        "lng": -75.5148
+      }
+    },
+    "raw_date_string": "Jul 19, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Folk",
+        "Acoustic",
+        "Storytelling",
+        "Coffeehouse",
+        "Intimate Listening Room",
+        "Seated"
+      ],
+      "price": "$20 advance / $25 at door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.steelcityphx.com/product/the-two-johns-johnny-never-and-john-colgan-davis/261"
   },
   {
     "id": "discovered_kimberton_fair_20260720",
@@ -1406,31 +1525,33 @@
     "action_link": "https://thecolonialtheatre.com/films/art-house-cinema/"
   },
   {
-    "id": "discovered_perfect_strangers_watertower_20260731",
+    "id": "discovered_prfm_root_down_20260726",
     "type": "event",
-    "title": "Perfect Strangers Live at Water Tower Live",
+    "title": "Phoenixville Punk Rock Flea Market (PRFM) at Root Down Brewing",
     "venue_info": {
-      "name": "The Water Tower Live at Arnold's, Oaks",
+      "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
       "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
+        "lat": 40.1304,
+        "lng": -75.5155
       }
     },
-    "raw_date_string": "Jul 31, 2026",
+    "raw_date_string": "Jul 26, 2026",
     "attributes": {
-      "category": "Live Music",
+      "category": "Community Event",
       "vibes": [
-        "Live Music",
-        "Cover Band",
-        "Party Band",
-        "Bar",
-        "Sly Fox Beer"
+        "Flea Market",
+        "Punk Rock",
+        "Vinyl Records",
+        "Vintage",
+        "Local Vendors",
+        "Brewery",
+        "Free Entry"
       ],
-      "price": "$5"
+      "price": "Free"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://events.ticketleap.com/tickets/arnoldsatthefactory/the-water-tower-live-at-arnolds-entertainment-center-in-oaks-presents-perfect-strangers"
+    "action_link": "https://rootdownbrewing.com/rootdown-events/"
   }
 ]
