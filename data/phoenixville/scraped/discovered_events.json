@@ -1,179 +1,5 @@
 [
   {
-    "id": "discovered_big_bounce_america_june_20260627",
-    "type": "event",
-    "title": "The Big Bounce America – World's Largest Bounce House",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center Fairgrounds, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "Jun 27 - 28, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Family Friendly",
-        "Kids",
-        "Outdoor",
-        "Inflatable",
-        "Active",
-        "DJ"
-      ],
-      "price": "From $35"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thebigbounceamerica.com/event/philadelphia-pa/"
-  },
-  {
-    "id": "discovered_phoenixville_blues_festival_20260627",
-    "type": "event",
-    "title": "Phoenixville Blues Festival",
-    "venue_info": {
-      "name": "Reeves Park, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Jun 27 - 28, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Blues Music",
-        "Free",
-        "Outdoor",
-        "Community",
-        "Live Music"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://pvilleblues.org/"
-  },
-  {
-    "id": "discovered_canal_day_20260628",
-    "type": "event",
-    "title": "41st Annual Canal Day at Lock 60 – Schuylkill Canal",
-    "venue_info": {
-      "name": "Lock 60 & St. Michael's Park, Mont Clare (near Phoenixville)",
-      "location": {
-        "lat": 40.1241,
-        "lng": -75.5019
-      }
-    },
-    "raw_date_string": "Jun 28, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Family Friendly",
-        "Outdoor",
-        "Live Music",
-        "Canal History",
-        "Community",
-        "Food",
-        "Kids Activities"
-      ],
-      "price": "$5"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://schuylkillcanal.org/page-1456148"
-  },
-  {
-    "id": "discovered_mel_brooks_100_colonial_20260628",
-    "type": "event",
-    "title": "Happy 100th Birthday, Mel Brooks! – Classic Films Celebration",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jun 28, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Classic Films",
-        "Comedy",
-        "Mel Brooks",
-        "Indoor",
-        "Special Event"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/programs/blazing-saddles/"
-  },
-  {
-    "id": "discovered_girls_from_mars_20260628",
-    "type": "event",
-    "title": "Girls From Mars – Swing & Jazz Dinner Show",
-    "venue_info": {
-      "name": "Steel City Coffeehouse & Brewery",
-      "location": {
-        "lat": 40.1305,
-        "lng": -75.5148
-      }
-    },
-    "raw_date_string": "Jun 28, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Swing Music",
-        "Jazz",
-        "1930s-40s",
-        "Dinner Show",
-        "Intimate Listening Room",
-        "Seated"
-      ],
-      "price": "$20 / $26 Reserved"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.steelcityphx.com/concerts-and-events"
-  },
-  {
-    "id": "discovered_prfm_root_down_20260628",
-    "type": "event",
-    "title": "Phoenixville Punk Rock Flea Market (PRFM) at Root Down Brewing",
-    "venue_info": {
-      "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Jun 28, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Flea Market",
-        "Punk Rock",
-        "Vinyl Records",
-        "Vintage",
-        "Local Vendors",
-        "Brewery",
-        "Free Entry"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://rootdownbrewing.com/rootdown-events/"
-  },
-  {
     "id": "discovered_crowd_pleasers_colonial_20260701",
     "type": "event",
     "title": "Crowd Pleasers Family Film Screening at Colonial Theatre",
@@ -433,6 +259,35 @@
     "action_link": "https://thecolonialtheatre.com/news/pluto-tvs-summer-of-cinema-returns/"
   },
   {
+    "id": "discovered_exhumed_films_monsterthon_20260705",
+    "type": "event",
+    "title": "Exhumed Films: Attack of the Super 16MM Monster-Thon",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 5, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Horror Films",
+        "16mm",
+        "Mystery Marathon",
+        "Creature Features",
+        "All Day",
+        "Indoor"
+      ],
+      "price": "$30"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/guest-presentations/exhumed-films-presents-attack-of-the-super-16mm-monster-thon/"
+  },
+  {
     "id": "discovered_summer_music_bridge_st_20260710",
     "type": "event",
     "title": "Phoenixville Summer Music Series – Live on Bridge Street",
@@ -666,6 +521,64 @@
     "action_link": "https://thecolonialtheatre.com/events/live-music/mavis-staples/"
   },
   {
+    "id": "discovered_craft_cinema_the_craft_20260712",
+    "type": "event",
+    "title": "Craft Cinema: The Craft (1994)",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 12, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Horror Film",
+        "90s Classic",
+        "Craft Projects",
+        "Interactive Screening",
+        "Indoor",
+        "Blobfest Weekend"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/craft-cinema/the-craft/"
+  },
+  {
+    "id": "discovered_blobfest_afterparty_rootdown_20260712",
+    "type": "event",
+    "title": "Blobfest Afterparty: Tribute of Terror – Horror Tribute Bands",
+    "venue_info": {
+      "name": "Root Down Brewing Co., Phoenixville",
+      "location": {
+        "lat": 40.1334,
+        "lng": -75.5089
+      }
+    },
+    "raw_date_string": "Jul 12, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Horror",
+        "Tribute Bands",
+        "Blobfest",
+        "Brewery",
+        "Metal",
+        "System of a Down"
+      ],
+      "price": "$10"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://rootdownbrewing.com/rootdown-events/"
+  },
+  {
     "id": "discovered_dinner_en_blob_20260712",
     "type": "event",
     "title": "Cirque du Blobfest: Dinner en Blob – Community Fundraiser Dinner",
@@ -809,6 +722,35 @@
       "image": ""
     },
     "action_link": "https://www.malvernfireco.com/"
+  },
+  {
+    "id": "discovered_nosferatu_organ_colonial_20260715",
+    "type": "event",
+    "title": "Nosferatu (1922) with Live Theatre Organ Accompaniment",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 15, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Classic Horror",
+        "Silent Film",
+        "Live Organ",
+        "Wurlitzer",
+        "Indoor",
+        "Unique Experience"
+      ],
+      "price": "$12 / $7 children"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/classic-films/nosferatu-1922-with-live-theatre-organ-accompaniment/"
   },
   {
     "id": "discovered_kimberton_concert_justaddwater_20260716",
@@ -1006,7 +948,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://www.emilymcintire.com/events"
+    "action_link": "https://www.eventbrite.com/e/live-in-phoenixville-emily-mcintire-author-of-forsaking-midnight-tickets-1987863856306"
   },
   {
     "id": "discovered_lbk_troubles_end_20260717",
@@ -1121,7 +1063,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://www.stewartcopeland.org/tour"
+    "action_link": "https://thecolonialtheatre.com/events/live-music/stewart-copeland-have-i-said-too-much/"
   },
   {
     "id": "discovered_greenbergs_train_show_20260718",
@@ -1301,7 +1243,7 @@
   {
     "id": "discovered_crowd_pleasers_colonial_20260723",
     "type": "event",
-    "title": "Crowd Pleasers Family Film Screening at Colonial Theatre",
+    "title": "Crowd Pleasers: Clue (1985) at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -1315,7 +1257,8 @@
       "vibes": [
         "Family Friendly",
         "Classic Film",
-        "Kids",
+        "Comedy",
+        "Murder Mystery",
         "Indoor"
       ],
       "price": "Check Link"
@@ -1323,7 +1266,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/"
+    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/clue-1985/"
   },
   {
     "id": "discovered_summer_music_bridge_st_20260724",
