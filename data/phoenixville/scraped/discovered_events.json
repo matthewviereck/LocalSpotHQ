@@ -1496,5 +1496,32 @@
       "image": ""
     },
     "action_link": "https://rootdownbrewing.com/rootdown-events/"
+  },
+  {
+    "id": "discovered_crowd_pleasers_colonial_20260730",
+    "type": "event",
+    "title": "Crowd Pleasers Family Film Screening at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 30, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Family Friendly",
+        "Classic Film",
+        "Kids",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/"
   }
 ]
