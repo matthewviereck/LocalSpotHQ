@@ -1241,6 +1241,34 @@
     "action_link": "https://www.montgomerycountypa.gov/1145/Lock-60-at-the-Schuylkill-Canal-Park"
   },
   {
+    "id": "discovered_philadelphia_story_colonial_20260722",
+    "type": "event",
+    "title": "The Philadelphia Story (1940) – Classic Film Screening",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 22, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Classic Film",
+        "Comedy",
+        "Romance",
+        "Hollywood Golden Age",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/classic-films/the-philadelphia-story/"
+  },
+  {
     "id": "discovered_crowd_pleasers_colonial_20260723",
     "type": "event",
     "title": "Crowd Pleasers: Clue (1985) at Colonial Theatre",
@@ -1523,5 +1551,33 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/"
+  },
+  {
+    "id": "discovered_perfect_strangers_watertower_20260731",
+    "type": "event",
+    "title": "Perfect Strangers – Live at The Water Tower Live",
+    "venue_info": {
+      "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Jul 31, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Rock",
+        "Bar",
+        "Weekend Night Out",
+        "Oaks"
+      ],
+      "price": "$5"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://events.ticketleap.com/tickets/arnoldsatthefactory/the-water-tower-live-at-arnolds-entertainment-center-in-oaks-presents-perfect-strangers"
   }
 ]
