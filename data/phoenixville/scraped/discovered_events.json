@@ -288,6 +288,35 @@
     "action_link": "https://thecolonialtheatre.com/films/guest-presentations/exhumed-films-presents-attack-of-the-super-16mm-monster-thon/"
   },
   {
+    "id": "discovered_ravensgate_retro_show_20260705",
+    "type": "event",
+    "title": "Ravensgate Gallery: RETRO Group Show Opening Reception",
+    "venue_info": {
+      "name": "Ravensgate Art Gallery, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Jul 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Art Gallery",
+        "Opening Reception",
+        "Free",
+        "Blobfest Theme",
+        "Retro Art",
+        "Local Artists"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.ravensgatepxv.com/events"
+  },
+  {
     "id": "discovered_summer_music_bridge_st_20260710",
     "type": "event",
     "title": "Phoenixville Summer Music Series – Live on Bridge Street",
