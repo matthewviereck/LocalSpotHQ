@@ -1,32 +1,5 @@
 [
   {
-    "id": "discovered_crowd_pleasers_colonial_20260701",
-    "type": "event",
-    "title": "Crowd Pleasers Family Film Screening at Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jul 1, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Family Friendly",
-        "Classic Film",
-        "Kids",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/"
-  },
-  {
     "id": "discovered_first_friday_july_20260703",
     "type": "event",
     "title": "Phoenixville First Friday – July",
@@ -837,6 +810,35 @@
     "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/"
   },
   {
+    "id": "discovered_rocky_horror_shadow_cast_20260716",
+    "type": "event",
+    "title": "The Rocky Horror Picture Show with Shadow Cast",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 16, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Late Night",
+        "Cult Classic",
+        "Shadow Cast",
+        "Interactive",
+        "Costume Contest",
+        "Indoor"
+      ],
+      "price": "From $10"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/rocky-horror-picture-show-2/"
+  },
+  {
     "id": "discovered_improv_fundamentals_colonial_20260716",
     "type": "event",
     "title": "Improv Fundamentals Showcase – Pay What You Wish",
@@ -1326,6 +1328,35 @@
     "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/clue-1985/"
   },
   {
+    "id": "discovered_rocky_horror_shadow_cast_20260723",
+    "type": "event",
+    "title": "The Rocky Horror Picture Show with Shadow Cast",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 23, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Late Night",
+        "Cult Classic",
+        "Shadow Cast",
+        "Interactive",
+        "Costume Contest",
+        "Indoor"
+      ],
+      "price": "From $10"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/rocky-horror-picture-show-2/"
+  },
+  {
     "id": "discovered_summer_music_bridge_st_20260724",
     "type": "event",
     "title": "Phoenixville Summer Music Series – Live on Bridge Street",
@@ -1525,6 +1556,35 @@
     "action_link": "https://thecolonialtheatre.com/films/art-house-cinema/"
   },
   {
+    "id": "discovered_kids_rave_expo_20260726",
+    "type": "event",
+    "title": "Kids Rave Party at Philly Expo Center – RaverKids",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Jul 26, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Kids",
+        "DJ",
+        "Dancing",
+        "Concert Lighting",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/kids-rave-party-july-26-philly-expo-center-by-raverkids-tickets-1991060904764"
+  },
+  {
     "id": "discovered_prfm_root_down_20260726",
     "type": "event",
     "title": "Phoenixville Punk Rock Flea Market (PRFM) at Root Down Brewing",
@@ -1608,5 +1668,60 @@
       "image": ""
     },
     "action_link": "https://events.ticketleap.com/tickets/arnoldsatthefactory/the-water-tower-live-at-arnolds-entertainment-center-in-oaks-presents-perfect-strangers"
+  },
+  {
+    "id": "discovered_family_favorites_colonial_20260801",
+    "type": "event",
+    "title": "Family Favorites Film Screening at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Aug 1, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Family Friendly",
+        "Classic Film",
+        "Kids",
+        "Summer",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/film/"
+  },
+  {
+    "id": "discovered_art_house_cinema_colonial_20260802",
+    "type": "event",
+    "title": "Art House Cinema Sunday at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Aug 2, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Art House Cinema",
+        "Independent Film",
+        "Indoor",
+        "Curated"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/art-house-cinema/"
   }
 ]
