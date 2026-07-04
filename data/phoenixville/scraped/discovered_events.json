@@ -1,64 +1,5 @@
 [
   {
-    "id": "discovered_first_friday_july_20260703",
-    "type": "event",
-    "title": "Phoenixville First Friday – July",
-    "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Jul 3, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Family Friendly",
-        "Vendors",
-        "Night Market",
-        "Arts & Crafts"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://phoenixvillechamber.org/news-events/events/first-friday-july/"
-  },
-  {
-    "id": "discovered_troubles_end_karaoke_20260703",
-    "type": "event",
-    "title": "Live Band Karaoke at Trouble's End Brewing – First Friday",
-    "venue_info": {
-      "name": "Trouble's End Brewing, Collegeville",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "Jul 3, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Karaoke",
-        "Live Band",
-        "Brewery",
-        "Fun",
-        "Collegeville",
-        "21+"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.troublesendbrewing.com/calendar"
-  },
-  {
     "id": "discovered_retreat_valley_forge_20260703",
     "type": "event",
     "title": "Retreat to Valley Forge – America's 250th & Park's 50th Celebration",
@@ -1097,6 +1038,34 @@
     "action_link": "https://thecolonialtheatre.com/events/live-music/stewart-copeland-have-i-said-too-much/"
   },
   {
+    "id": "discovered_family_favorites_colonial_20260718",
+    "type": "event",
+    "title": "Family Favorites Film Screening at Colonial Theatre (co-presented with Phoenixville Public Library)",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 18, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Family Friendly",
+        "Classic Film",
+        "Kids",
+        "Indoor",
+        "Library Partnership"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/family-favorites/"
+  },
+  {
     "id": "discovered_greenbergs_train_show_20260718",
     "type": "event",
     "title": "Greenberg's Great Train & Toy Show",
@@ -1556,6 +1525,35 @@
     "action_link": "https://thecolonialtheatre.com/films/art-house-cinema/"
   },
   {
+    "id": "discovered_twelve_monkeys_semiquinc_20260726",
+    "type": "event",
+    "title": "Twelve Monkeys (1995) – Semiquincentennial Series at Colonial",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 26, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Classic Film",
+        "Sci-Fi",
+        "Thriller",
+        "Philadelphia History",
+        "Semiquincentennial",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/semiquincentennial-series/twelve-monkeys/"
+  },
+  {
     "id": "discovered_kids_rave_expo_20260726",
     "type": "event",
     "title": "Kids Rave Party at Philly Expo Center – RaverKids",
@@ -1670,6 +1668,35 @@
     "action_link": "https://events.ticketleap.com/tickets/arnoldsatthefactory/the-water-tower-live-at-arnolds-entertainment-center-in-oaks-presents-perfect-strangers"
   },
   {
+    "id": "discovered_exhumed_black_belt_16mm_20260731",
+    "type": "event",
+    "title": "Exhumed Films Presents: Black Belt Theatre on 16mm",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Jul 31, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "16mm Film",
+        "Kung Fu",
+        "Martial Arts",
+        "Cult Cinema",
+        "Late Night",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/guest-presentations/exhumed-films-presents-black-belt-theatre-on-16mm-at-the-colonial-theatre/"
+  },
+  {
     "id": "discovered_family_favorites_colonial_20260801",
     "type": "event",
     "title": "Family Favorites Film Screening at Colonial Theatre",
@@ -1723,5 +1750,182 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/films/art-house-cinema/"
+  },
+  {
+    "id": "discovered_hannah_maehrer_colonial_20260804",
+    "type": "event",
+    "title": "Hannah Nicole Maehrer: \"Adversary to the Villain\" – Author Event",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Aug 4, 2026",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": [
+        "Author Reading",
+        "Book Signing",
+        "Fantasy",
+        "Romance",
+        "Q&A",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/hannah-nicole-maehrer-author-of-adversary-to-the-villain-live-tickets-1990237153903"
+  },
+  {
+    "id": "discovered_aj_croce_colonial_20260805",
+    "type": "event",
+    "title": "AJ Croce Presents: Croce Plays Croce – Live at Colonial",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Aug 5, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Tribute",
+        "Jim Croce",
+        "Singer-Songwriter",
+        "Storytelling",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/aj-croce-presents-croce-plays-croce/"
+  },
+  {
+    "id": "discovered_first_friday_august_20260807",
+    "type": "event",
+    "title": "Phoenixville First Friday – August",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Aug 7, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "Vendors",
+        "Night Market",
+        "Arts & Crafts"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "discovered_liberty_comic_con_20260807",
+    "type": "event",
+    "title": "Liberty Comic Con – Greater Philadelphia Expo Center",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Aug 7 - 9, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Pop Culture",
+        "Comics",
+        "Cosplay",
+        "Family Friendly",
+        "Vendors",
+        "Indoor"
+      ],
+      "price": "From $25 / day"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.libertycomiccon.com/pages/tickets"
+  },
+  {
+    "id": "discovered_phoenixville_vegfest_20260808",
+    "type": "event",
+    "title": "Phoenixville VegFest 2026 – Plant-Based Food & Music Festival",
+    "venue_info": {
+      "name": "Reeves Park, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Aug 8, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Plant-Based",
+        "Live Music",
+        "Food Trucks",
+        "Family Friendly",
+        "Beer Garden",
+        "Vendors"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=2297"
+  },
+  {
+    "id": "discovered_garcia_project_colonial_20260808",
+    "type": "event",
+    "title": "The Garcia Project – Jerry Garcia Band Tribute Live at Colonial",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "Aug 8, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Tribute Band",
+        "Grateful Dead",
+        "Jerry Garcia",
+        "Jam Band",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/the-garcia-project/"
   }
 ]
