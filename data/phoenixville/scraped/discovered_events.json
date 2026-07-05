@@ -1927,5 +1927,65 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/live-music/the-garcia-project/"
+  },
+  {
+    "id": "discovered_phoenixville_farmers_market_20260712",
+    "type": "event",
+    "title": "Phoenixville Farmers Market",
+    "venue_info": {
+      "name": "200 Mill St (under Gay Street Bridge), Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "July 12, 2026 9:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Farmers Market",
+        "Local Farms",
+        "Artisan Food",
+        "Outdoor",
+        "Family Friendly",
+        "Free",
+        "Every Saturday"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org/"
+  },
+  {
+    "id": "discovered_shopping_en_blanc_skippack_20260716",
+    "type": "event",
+    "title": "Girls Night Out: Shopping En Blanc – Skippack Village",
+    "venue_info": {
+      "name": "Skippack Village (Skippack Pike), Skippack Township",
+      "location": {
+        "lat": 40.2078,
+        "lng": -75.4138
+      }
+    },
+    "raw_date_string": "July 16, 2026 5:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Shopping",
+        "Dining",
+        "White Attire",
+        "Annual Event",
+        "Skippack Village",
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://skippackalive.com/events/"
   }
 ]
