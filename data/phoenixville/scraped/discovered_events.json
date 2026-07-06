@@ -2,7 +2,7 @@
   {
     "id": "discovered_retreat_valley_forge_20260703",
     "type": "event",
-    "title": "Retreat to Valley Forge – America's 250th & Park's 50th Celebration",
+    "title": "Retreat to Valley Forge \u2013 America's 250th & Park's 50th Celebration",
     "venue_info": {
       "name": "Valley Forge National Historical Park",
       "location": {
@@ -31,7 +31,7 @@
   {
     "id": "discovered_big_bounce_america_july_20260703",
     "type": "event",
-    "title": "The Big Bounce America – World's Largest Bounce House",
+    "title": "The Big Bounce America \u2013 World's Largest Bounce House",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center Fairgrounds, Oaks",
       "location": {
@@ -119,7 +119,7 @@
   {
     "id": "discovered_fireworks_food_trucks_20260705",
     "type": "event",
-    "title": "Phoenixville Food Trucks & Fireworks – Independence Day Celebration",
+    "title": "Phoenixville Food Trucks & Fireworks \u2013 Independence Day Celebration",
     "venue_info": {
       "name": "Dayton Street Field, Phoenixville",
       "location": {
@@ -147,7 +147,7 @@
   {
     "id": "discovered_pluto_summer_cinema_20260705",
     "type": "event",
-    "title": "Pluto TV Summer of Cinema – Free Movie Weekend at Colonial Theatre",
+    "title": "Pluto TV Summer of Cinema \u2013 Free Movie Weekend at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -233,9 +233,9 @@
   {
     "id": "discovered_summer_music_bridge_st_20260710",
     "type": "event",
-    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
+    "title": "Phoenixville Summer Music Series \u2013 Live on Bridge Street",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge Street",
+      "name": "Downtown Phoenixville \u2013 Bridge Street",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -291,7 +291,7 @@
   {
     "id": "discovered_blob_ball_20260711",
     "type": "event",
-    "title": "Cirque du Blobfest: Blob Ball – Annual Costume Gala",
+    "title": "Cirque du Blobfest: Blob Ball \u2013 Annual Costume Gala",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -350,7 +350,7 @@
   {
     "id": "discovered_be_kind_rewind_troubles_end_20260711",
     "type": "event",
-    "title": "Be Kind Rewind – 90s Cover Band at Trouble's End Brewing",
+    "title": "Be Kind Rewind \u2013 90s Cover Band at Trouble's End Brewing",
     "venue_info": {
       "name": "Trouble's End Brewing, Collegeville",
       "location": {
@@ -379,7 +379,7 @@
   {
     "id": "discovered_lock60_guided_tour_20260711",
     "type": "event",
-    "title": "Lock 60 Guided Walking Tour – Schuylkill Canal History",
+    "title": "Lock 60 Guided Walking Tour \u2013 Schuylkill Canal History",
     "venue_info": {
       "name": "Lock 60 at Schuylkill Canal Park, Mont Clare (near Phoenixville)",
       "location": {
@@ -437,7 +437,7 @@
   {
     "id": "discovered_mavis_staples_colonial_20260711",
     "type": "event",
-    "title": "Mavis Staples – Live in Concert",
+    "title": "Mavis Staples \u2013 Live in Concert",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -495,7 +495,7 @@
   {
     "id": "discovered_blobfest_afterparty_rootdown_20260712",
     "type": "event",
-    "title": "Blobfest Afterparty: Tribute of Terror – Horror Tribute Bands",
+    "title": "Blobfest Afterparty: Tribute of Terror \u2013 Horror Tribute Bands",
     "venue_info": {
       "name": "Root Down Brewing Co., Phoenixville",
       "location": {
@@ -524,7 +524,7 @@
   {
     "id": "discovered_dinner_en_blob_20260712",
     "type": "event",
-    "title": "Cirque du Blobfest: Dinner en Blob – Community Fundraiser Dinner",
+    "title": "Cirque du Blobfest: Dinner en Blob \u2013 Community Fundraiser Dinner",
     "venue_info": {
       "name": "Secret Location (Revealed to Attendees), Phoenixville",
       "location": {
@@ -555,7 +555,7 @@
     "type": "event",
     "title": "Cirque du Blobfest: Shorty's Short Film Contest Exhibition",
     "venue_info": {
-      "name": "The Colonial Theatre – White Rabbit Theatre",
+      "name": "The Colonial Theatre \u2013 White Rabbit Theatre",
       "location": {
         "lat": 40.132,
         "lng": -75.513
@@ -610,7 +610,7 @@
   {
     "id": "discovered_ellis_island_colonial_20260712",
     "type": "event",
-    "title": "Ellis Island: The Dream of America – Live Performance",
+    "title": "Ellis Island: The Dream of America \u2013 Live Performance",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -639,7 +639,7 @@
   {
     "id": "discovered_malvern_fire_fair_20260714",
     "type": "event",
-    "title": "Annual Malvern Fire Company Fair – Carnival, Rides & Fireworks",
+    "title": "Annual Malvern Fire Company Fair \u2013 Carnival, Rides & Fireworks",
     "venue_info": {
       "name": "Paoli Memorial Grounds & Malvern Memorial Park, Malvern",
       "location": {
@@ -782,7 +782,7 @@
   {
     "id": "discovered_improv_fundamentals_colonial_20260716",
     "type": "event",
-    "title": "Improv Fundamentals Showcase – Pay What You Wish",
+    "title": "Improv Fundamentals Showcase \u2013 Pay What You Wish",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -810,7 +810,7 @@
   {
     "id": "discovered_lisa_scottoline_20260716",
     "type": "event",
-    "title": "Lisa Scottoline: \"This Changes Everything\" – Live Author Event",
+    "title": "Lisa Scottoline: \"This Changes Everything\" \u2013 Live Author Event",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -839,9 +839,9 @@
   {
     "id": "discovered_rhythm_brews_july_20260716",
     "type": "event",
-    "title": "Rhythm & Brews – Live Music & Beer Garden",
+    "title": "Rhythm & Brews \u2013 Live Music & Beer Garden",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -868,9 +868,9 @@
   {
     "id": "discovered_summer_music_bridge_st_20260717",
     "type": "event",
-    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
+    "title": "Phoenixville Summer Music Series \u2013 Live on Bridge Street",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge Street",
+      "name": "Downtown Phoenixville \u2013 Bridge Street",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -925,7 +925,7 @@
   {
     "id": "discovered_lbk_troubles_end_20260717",
     "type": "event",
-    "title": "Live Band Karaoke at Trouble's End Brewing – Third Friday",
+    "title": "Live Band Karaoke at Trouble's End Brewing \u2013 Third Friday",
     "venue_info": {
       "name": "Trouble's End Brewing, Collegeville",
       "location": {
@@ -983,7 +983,7 @@
   {
     "id": "discovered_rico_rico_fiesta_20260717",
     "type": "event",
-    "title": "Rico Rico Fiesta 2026 – Latin Culture, Food & Music Festival",
+    "title": "Rico Rico Fiesta 2026 \u2013 Latin Culture, Food & Music Festival",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center",
       "location": {
@@ -1012,7 +1012,7 @@
   {
     "id": "discovered_stewart_copeland_20260718",
     "type": "event",
-    "title": "Stewart Copeland: \"Have I Said Too Much\" – Spoken Word & Stories",
+    "title": "Stewart Copeland: \"Have I Said Too Much\" \u2013 Spoken Word & Stories",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -1097,7 +1097,7 @@
   {
     "id": "discovered_wicked_gluten_free_expo_20260718",
     "type": "event",
-    "title": "Wicked Gluten Free Expo – Greater Philadelphia",
+    "title": "Wicked Gluten Free Expo \u2013 Greater Philadelphia",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center",
       "location": {
@@ -1213,7 +1213,7 @@
   {
     "id": "discovered_lock60_kids_tour_20260722",
     "type": "event",
-    "title": "Lock 60 Kids Walking Tour – Hands-On Canal History",
+    "title": "Lock 60 Kids Walking Tour \u2013 Hands-On Canal History",
     "venue_info": {
       "name": "Lock 60 at Schuylkill Canal Park, Mont Clare (near Phoenixville)",
       "location": {
@@ -1243,7 +1243,7 @@
   {
     "id": "discovered_philadelphia_story_colonial_20260722",
     "type": "event",
-    "title": "The Philadelphia Story (1940) – Classic Film Screening",
+    "title": "The Philadelphia Story (1940) \u2013 Classic Film Screening",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -1328,9 +1328,9 @@
   {
     "id": "discovered_summer_music_bridge_st_20260724",
     "type": "event",
-    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
+    "title": "Phoenixville Summer Music Series \u2013 Live on Bridge Street",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge Street",
+      "name": "Downtown Phoenixville \u2013 Bridge Street",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -1357,7 +1357,7 @@
   {
     "id": "discovered_unforgettable_fire_u2_20260724",
     "type": "event",
-    "title": "Unforgettable Fire – U2 Tribute Band",
+    "title": "Unforgettable Fire \u2013 U2 Tribute Band",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -1413,7 +1413,7 @@
   {
     "id": "discovered_reptile_expo_oaks_20260725",
     "type": "event",
-    "title": "East Coast Reptile Super Expo – Greater Philadelphia",
+    "title": "East Coast Reptile Super Expo \u2013 Greater Philadelphia",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center (Hall A), Oaks",
       "location": {
@@ -1471,7 +1471,7 @@
   {
     "id": "discovered_philly_vintage_flea_20260725",
     "type": "event",
-    "title": "The Philly Vintage Flea – Enormous Vintage Clothing Market",
+    "title": "The Philly Vintage Flea \u2013 Enormous Vintage Clothing Market",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
       "location": {
@@ -1527,7 +1527,7 @@
   {
     "id": "discovered_twelve_monkeys_semiquinc_20260726",
     "type": "event",
-    "title": "Twelve Monkeys (1995) – Semiquincentennial Series at Colonial",
+    "title": "Twelve Monkeys (1995) \u2013 Semiquincentennial Series at Colonial",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -1556,7 +1556,7 @@
   {
     "id": "discovered_kids_rave_expo_20260726",
     "type": "event",
-    "title": "Kids Rave Party at Philly Expo Center – RaverKids",
+    "title": "Kids Rave Party at Philly Expo Center \u2013 RaverKids",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
       "location": {
@@ -1642,7 +1642,7 @@
   {
     "id": "discovered_perfect_strangers_watertower_20260731",
     "type": "event",
-    "title": "Perfect Strangers – Live at The Water Tower Live",
+    "title": "Perfect Strangers \u2013 Live at The Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
       "location": {
@@ -1754,7 +1754,7 @@
   {
     "id": "discovered_hannah_maehrer_colonial_20260804",
     "type": "event",
-    "title": "Hannah Nicole Maehrer: \"Adversary to the Villain\" – Author Event",
+    "title": "Hannah Nicole Maehrer: \"Adversary to the Villain\" \u2013 Author Event",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -1783,7 +1783,7 @@
   {
     "id": "discovered_aj_croce_colonial_20260805",
     "type": "event",
-    "title": "AJ Croce Presents: Croce Plays Croce – Live at Colonial",
+    "title": "AJ Croce Presents: Croce Plays Croce \u2013 Live at Colonial",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -1812,9 +1812,9 @@
   {
     "id": "discovered_first_friday_august_20260807",
     "type": "event",
-    "title": "Phoenixville First Friday – August",
+    "title": "Phoenixville First Friday \u2013 August",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -1842,7 +1842,7 @@
   {
     "id": "discovered_liberty_comic_con_20260807",
     "type": "event",
-    "title": "Liberty Comic Con – Greater Philadelphia Expo Center",
+    "title": "Liberty Comic Con \u2013 Greater Philadelphia Expo Center",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
       "location": {
@@ -1871,7 +1871,7 @@
   {
     "id": "discovered_phoenixville_vegfest_20260808",
     "type": "event",
-    "title": "Phoenixville VegFest 2026 – Plant-Based Food & Music Festival",
+    "title": "Phoenixville VegFest 2026 \u2013 Plant-Based Food & Music Festival",
     "venue_info": {
       "name": "Reeves Park, Phoenixville",
       "location": {
@@ -1902,7 +1902,7 @@
   {
     "id": "discovered_garcia_project_colonial_20260808",
     "type": "event",
-    "title": "The Garcia Project – Jerry Garcia Band Tribute Live at Colonial",
+    "title": "The Garcia Project \u2013 Jerry Garcia Band Tribute Live at Colonial",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -1961,7 +1961,7 @@
   {
     "id": "discovered_shopping_en_blanc_skippack_20260716",
     "type": "event",
-    "title": "Girls Night Out: Shopping En Blanc – Skippack Village",
+    "title": "Girls Night Out: Shopping En Blanc \u2013 Skippack Village",
     "venue_info": {
       "name": "Skippack Village (Skippack Pike), Skippack Township",
       "location": {
@@ -1987,5 +1987,229 @@
       "image": ""
     },
     "action_link": "https://skippackalive.com/events/"
+  },
+  {
+    "id": "discovered_crow_keywork_gem_20260711",
+    "type": "event",
+    "title": "A Crow Left of Keywork: Part Foo \u2013 Incubus / Coheed / Foo Fighters Tribute",
+    "venue_info": {
+      "name": "The Gem Music Hall, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "Jul 11, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Tribute Band",
+        "Rock",
+        "Spring City",
+        "Weekend"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/events"
+  },
+  {
+    "id": "discovered_karls_garcia_band_gem_20260717",
+    "type": "event",
+    "title": "Karl's Garcia Band \u2013 Tribute to the Jerry Garcia Band",
+    "venue_info": {
+      "name": "The Gem Music Hall, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "Jul 17, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Tribute Band",
+        "Grateful Dead",
+        "Jerry Garcia",
+        "Spring City"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/event-details/karls-garcia-band-tribute-to-jerry-garcia-band-2"
+  },
+  {
+    "id": "discovered_chinaberry_lane_gem_20260718",
+    "type": "event",
+    "title": "Chinaberry Lane w/ Just Todd \u2013 Live at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "Jul 18, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Local Band",
+        "Spring City",
+        "Weekend"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/events"
+  },
+  {
+    "id": "discovered_summer_saturdays_skippack_20260718",
+    "type": "event",
+    "title": "Summer Saturdays in Skippack Village \u2013 Family Fun & Activities",
+    "venue_info": {
+      "name": "Skippack Village, Skippack Pike, Skippack",
+      "location": {
+        "lat": 40.2078,
+        "lng": -75.4138
+      }
+    },
+    "raw_date_string": "Jul 18, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly",
+        "Kids",
+        "Shopping",
+        "Skippack Village"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.skippackvillage.com/"
+  },
+  {
+    "id": "discovered_tuner_evolution_expo_20260725",
+    "type": "event",
+    "title": "Tuner Evolution Philly \u2013 Automotive Lifestyle Car Show",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Jul 25, 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Car Show",
+        "Live Music",
+        "B-Boy Contest",
+        "Sneakers",
+        "Vendors",
+        "Indoor"
+      ],
+      "price": "5 advance / 0 at door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://tuner-evolution.com/event/philly/"
+  },
+  {
+    "id": "discovered_strays_misfits_gem_20260725",
+    "type": "event",
+    "title": "Strays and Misfits w/ Antar Goodwin & Sam Houseal Band \u2013 The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "Jul 25, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Local Bands",
+        "Spring City",
+        "Weekend"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/events"
+  },
+  {
+    "id": "discovered_yarn_gem_20260801",
+    "type": "event",
+    "title": "YARN \u2013 Brooklyn Americana Live at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "Aug 1, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Americana",
+        "Brooklyn",
+        "Spring City",
+        "Weekend"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/events"
+  },
+  {
+    "id": "discovered_harmonizing_perspectives_ravensgate_20260804",
+    "type": "event",
+    "title": "Harmonizing Perspectives \u2013 Art Opening Reception at Ravensgate",
+    "venue_info": {
+      "name": "Ravensgate Art Gallery, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Aug 4, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Art Gallery",
+        "Opening Reception",
+        "Free",
+        "Local Artists",
+        "Indoor"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.ravensgatepxv.com/events"
   }
 ]
