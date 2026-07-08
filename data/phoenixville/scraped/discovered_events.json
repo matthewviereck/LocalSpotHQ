@@ -1,5 +1,22 @@
 [
   {
+    "id": "discovered_carillon_concert_20260708",
+    "type": "event",
+    "title": "Frank P. Law Summer Carillon Concert Series – July 8",
+    "venue_info": {
+      "name": "Washington Memorial Chapel, Valley Forge",
+      "location": { "lat": 40.1014, "lng": -75.4544 }
+    },
+    "raw_date_string": "July 8, 2026 7:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
+  },
+  {
     "id": "discovered_summer_music_bridge_st_20260710",
     "type": "event",
     "title": "Phoenixville Summer Music Series – Live on Bridge Street",
@@ -32,6 +49,23 @@
     },
     "media": { "image": "" },
     "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-friday-immersive-screening-run-out/"
+  },
+  {
+    "id": "discovered_phoenixville_blues_festival_20260711",
+    "type": "event",
+    "title": "Phoenixville Blues Festival 2026",
+    "venue_info": {
+      "name": "Reeves Park Amphitheater, Phoenixville",
+      "location": { "lat": 40.1304, "lng": -75.5155 }
+    },
+    "raw_date_string": "July 11, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": ["Free", "Outdoor", "Blues Music", "Live Music", "Family Friendly", "All Day"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://pvilleblues.org/"
   },
   {
     "id": "discovered_blob_ball_20260711",
@@ -306,6 +340,23 @@
     "action_link": "https://thecolonialtheatre.com/films/classic-films/nosferatu-1922-with-live-theatre-organ-accompaniment/"
   },
   {
+    "id": "discovered_carillon_concert_20260715",
+    "type": "event",
+    "title": "Frank P. Law Summer Carillon Concert Series – July 15",
+    "venue_info": {
+      "name": "Washington Memorial Chapel, Valley Forge",
+      "location": { "lat": 40.1014, "lng": -75.4544 }
+    },
+    "raw_date_string": "July 15, 2026 7:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
+  },
+  {
     "id": "discovered_kimberton_concert_justaddwater_20260716",
     "type": "event",
     "title": "Kimberton Park Summer Concert: Just Add Water",
@@ -561,6 +612,23 @@
     "action_link": "https://thecolonialtheatre.com/films/family-favorites/"
   },
   {
+    "id": "discovered_super_sabbath_watertower_20260718",
+    "type": "event",
+    "title": "Super Sabbath + 3-Band Showcase at Water Tower Live",
+    "venue_info": {
+      "name": "The Water Tower Live at Arnold's, Oaks",
+      "location": { "lat": 40.1325, "lng": -75.4699 }
+    },
+    "raw_date_string": "July 18, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": ["Live Music", "Classic Rock", "Black Sabbath Tribute", "Multi-Band", "Bar", "Oaks"],
+      "price": "$10"
+    },
+    "media": { "image": "" },
+    "action_link": "https://events.ticketleap.com/events/arnoldsatthefactory"
+  },
+  {
     "id": "discovered_greenbergs_train_show_20260718",
     "type": "event",
     "title": "Greenberg's Great Train & Toy Show",
@@ -712,6 +780,23 @@
     },
     "media": { "image": "" },
     "action_link": "https://thecolonialtheatre.com/films/classic-films/the-philadelphia-story/"
+  },
+  {
+    "id": "discovered_carillon_concert_20260722",
+    "type": "event",
+    "title": "Frank P. Law Summer Carillon Concert Series – July 22",
+    "venue_info": {
+      "name": "Washington Memorial Chapel, Valley Forge",
+      "location": { "lat": 40.1014, "lng": -75.4544 }
+    },
+    "raw_date_string": "July 22, 2026 7:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
   },
   {
     "id": "discovered_crowd_pleasers_colonial_20260723",
@@ -867,6 +952,23 @@
     "action_link": "https://tuner-evolution.com/event/philly/"
   },
   {
+    "id": "discovered_night_of_the_leos_20260725",
+    "type": "event",
+    "title": "Night of the Leos 2026 – Multi-Act Leo Season Celebration",
+    "venue_info": {
+      "name": "The Water Tower Live at Arnold's, Oaks",
+      "location": { "lat": 40.1325, "lng": -75.4699 }
+    },
+    "raw_date_string": "July 25, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": ["Live Music", "Leo Season", "Multi-Act", "Bar", "Oaks", "Sly Fox Beer"],
+      "price": "$8 advance / $10 door"
+    },
+    "media": { "image": "" },
+    "action_link": "https://events.ticketleap.com/tickets/arnoldsatthefactory/night-of-the-leos-2026"
+  },
+  {
     "id": "discovered_strays_misfits_gem_20260725",
     "type": "event",
     "title": "Strays and Misfits w/ Antar Goodwin & Sam Houseal Band – The Gem",
@@ -952,6 +1054,23 @@
     "action_link": "https://rootdownbrewing.com/rootdown-events/"
   },
   {
+    "id": "discovered_carillon_concert_20260729",
+    "type": "event",
+    "title": "Frank P. Law Summer Carillon Concert Series – July 29",
+    "venue_info": {
+      "name": "Washington Memorial Chapel, Valley Forge",
+      "location": { "lat": 40.1014, "lng": -75.4544 }
+    },
+    "raw_date_string": "July 29, 2026 7:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
+  },
+  {
     "id": "discovered_crowd_pleasers_colonial_20260730",
     "type": "event",
     "title": "Crowd Pleasers Family Film Screening at Colonial Theatre",
@@ -984,6 +1103,23 @@
     },
     "media": { "image": "" },
     "action_link": "https://events.ticketleap.com/tickets/arnoldsatthefactory/the-water-tower-live-at-arnolds-entertainment-center-in-oaks-presents-perfect-strangers"
+  },
+  {
+    "id": "discovered_highway_run_gem_20260731",
+    "type": "event",
+    "title": "Highway Run – Journey, Heart & Pat Benatar Tribute at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, Spring City",
+      "location": { "lat": 40.1769, "lng": -75.5461 }
+    },
+    "raw_date_string": "July 31, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": ["Live Music", "Tribute Band", "Journey", "Heart", "Classic Rock", "Spring City"],
+      "price": "$20 advance / $25 door"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.thegemspringcity.com/event-details/highway-run-a-journey-tribute-2"
   },
   {
     "id": "discovered_exhumed_black_belt_16mm_20260731",
@@ -1054,6 +1190,23 @@
     "action_link": "https://thecolonialtheatre.com/films/art-house-cinema/"
   },
   {
+    "id": "discovered_science_on_tap_20260804",
+    "type": "event",
+    "title": "Science on Tap Phoenixville – August Monthly Science Talk",
+    "venue_info": {
+      "name": "Root Down Brewing Co., Phoenixville",
+      "location": { "lat": 40.1304, "lng": -75.5155 }
+    },
+    "raw_date_string": "August 4, 2026 6:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Educational", "Science Talk", "Beer", "21+", "Q&A", "Monthly Series"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.eventbrite.com/e/science-on-tap-phoenixville-at-root-down-brewing-co-registration-310534265347"
+  },
+  {
     "id": "discovered_hannah_maehrer_colonial_20260804",
     "type": "event",
     "title": "Hannah Nicole Maehrer: \"Adversary to the Villain\" – Author Event",
@@ -1122,6 +1275,23 @@
     "action_link": "https://www.phoenixvillefirst.org/first-fridays"
   },
   {
+    "id": "discovered_lbk_troubles_end_20260807",
+    "type": "event",
+    "title": "Live Band Karaoke at Trouble's End Brewing – First Friday August",
+    "venue_info": {
+      "name": "Trouble's End Brewing, Collegeville",
+      "location": { "lat": 40.1853, "lng": -75.4527 }
+    },
+    "raw_date_string": "Aug 7, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": ["Karaoke", "Live Band", "Brewery", "Fun", "Collegeville", "21+"],
+      "price": "Check Link"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.troublesendbrewing.com/live-music-calendar"
+  },
+  {
     "id": "discovered_liberty_comic_con_20260807",
     "type": "event",
     "title": "Liberty Comic Con – Greater Philadelphia Expo Center",
@@ -1137,6 +1307,23 @@
     },
     "media": { "image": "" },
     "action_link": "https://www.libertycomiccon.com/pages/tickets"
+  },
+  {
+    "id": "discovered_eagle_shows_gun_show_20260807",
+    "type": "event",
+    "title": "Eagle Shows Gun Show – Greater Philadelphia Expo Center",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": { "lat": 40.1325, "lng": -75.4699 }
+    },
+    "raw_date_string": "Aug 7 - 9, 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": ["Gun Show", "Vendors", "Firearms", "Hunting Gear", "Outdoor Sports", "Indoor"],
+      "price": "$15 at door"
+    },
+    "media": { "image": "" },
+    "action_link": "https://eagleshows.com/events/category/oaks-gun-show/"
   },
   {
     "id": "discovered_phoenixville_vegfest_20260808",
@@ -1171,175 +1358,5 @@
     },
     "media": { "image": "" },
     "action_link": "https://thecolonialtheatre.com/events/live-music/the-garcia-project/"
-  },
-  {
-    "id": "discovered_science_on_tap_20260707",
-    "type": "event",
-    "title": "Science on Tap Phoenixville – Monthly Community Science Talk",
-    "venue_info": {
-      "name": "Root Down Brewing Co., Phoenixville",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
-    },
-    "raw_date_string": "July 7, 2026 6:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Educational", "Science Talk", "Beer", "21+", "Q&A", "Monthly Series"],
-      "price": "Free"
-    },
-    "media": { "image": "" },
-    "action_link": "https://www.eventbrite.com/e/science-on-tap-phoenixville-at-root-down-brewing-co-registration-310534265347"
-  },
-  {
-    "id": "discovered_carillon_concert_20260708",
-    "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – July 8",
-    "venue_info": {
-      "name": "Washington Memorial Chapel, Valley Forge",
-      "location": { "lat": 40.1014, "lng": -75.4544 }
-    },
-    "raw_date_string": "July 8, 2026 7:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
-      "price": "Free"
-    },
-    "media": { "image": "" },
-    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
-  },
-  {
-    "id": "discovered_phoenixville_blues_festival_20260711",
-    "type": "event",
-    "title": "Phoenixville Blues Festival 2026",
-    "venue_info": {
-      "name": "Reeves Park Amphitheater, Phoenixville",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
-    },
-    "raw_date_string": "July 11, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": ["Free", "Outdoor", "Blues Music", "Live Music", "Family Friendly", "All Day"],
-      "price": "Free"
-    },
-    "media": { "image": "" },
-    "action_link": "https://pvilleblues.org/"
-  },
-  {
-    "id": "discovered_carillon_concert_20260715",
-    "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – July 15",
-    "venue_info": {
-      "name": "Washington Memorial Chapel, Valley Forge",
-      "location": { "lat": 40.1014, "lng": -75.4544 }
-    },
-    "raw_date_string": "July 15, 2026 7:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
-      "price": "Free"
-    },
-    "media": { "image": "" },
-    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
-  },
-  {
-    "id": "discovered_super_sabbath_watertower_20260718",
-    "type": "event",
-    "title": "Super Sabbath + 3-Band Showcase at Water Tower Live",
-    "venue_info": {
-      "name": "The Water Tower Live at Arnold's, Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
-    },
-    "raw_date_string": "July 18, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": ["Live Music", "Classic Rock", "Black Sabbath Tribute", "Multi-Band", "Bar", "Oaks"],
-      "price": "$10"
-    },
-    "media": { "image": "" },
-    "action_link": "https://events.ticketleap.com/events/arnoldsatthefactory"
-  },
-  {
-    "id": "discovered_carillon_concert_20260722",
-    "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – July 22",
-    "venue_info": {
-      "name": "Washington Memorial Chapel, Valley Forge",
-      "location": { "lat": 40.1014, "lng": -75.4544 }
-    },
-    "raw_date_string": "July 22, 2026 7:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
-      "price": "Free"
-    },
-    "media": { "image": "" },
-    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
-  },
-  {
-    "id": "discovered_night_of_the_leos_20260725",
-    "type": "event",
-    "title": "Night of the Leos 2026 – Multi-Act Leo Season Celebration",
-    "venue_info": {
-      "name": "The Water Tower Live at Arnold's, Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
-    },
-    "raw_date_string": "July 25, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": ["Live Music", "Leo Season", "Multi-Act", "Bar", "Oaks", "Sly Fox Beer"],
-      "price": "$8 advance / $10 door"
-    },
-    "media": { "image": "" },
-    "action_link": "https://events.ticketleap.com/tickets/arnoldsatthefactory/night-of-the-leos-2026"
-  },
-  {
-    "id": "discovered_carillon_concert_20260729",
-    "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – July 29",
-    "venue_info": {
-      "name": "Washington Memorial Chapel, Valley Forge",
-      "location": { "lat": 40.1014, "lng": -75.4544 }
-    },
-    "raw_date_string": "July 29, 2026 7:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
-      "price": "Free"
-    },
-    "media": { "image": "" },
-    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
-  },
-  {
-    "id": "discovered_highway_run_gem_20260731",
-    "type": "event",
-    "title": "Highway Run – Journey, Heart & Pat Benatar Tribute at The Gem",
-    "venue_info": {
-      "name": "The Gem Music Hall, Spring City",
-      "location": { "lat": 40.1769, "lng": -75.5461 }
-    },
-    "raw_date_string": "July 31, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": ["Live Music", "Tribute Band", "Journey", "Heart", "Classic Rock", "Spring City"],
-      "price": "$20 advance / $25 door"
-    },
-    "media": { "image": "" },
-    "action_link": "https://www.thegemspringcity.com/event-details/highway-run-a-journey-tribute-2"
-  },
-  {
-    "id": "discovered_science_on_tap_20260804",
-    "type": "event",
-    "title": "Science on Tap Phoenixville – August Monthly Science Talk",
-    "venue_info": {
-      "name": "Root Down Brewing Co., Phoenixville",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
-    },
-    "raw_date_string": "August 4, 2026 6:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Educational", "Science Talk", "Beer", "21+", "Q&A", "Monthly Series"],
-      "price": "Free"
-    },
-    "media": { "image": "" },
-    "action_link": "https://www.eventbrite.com/e/science-on-tap-phoenixville-at-root-down-brewing-co-registration-310534265347"
   }
 ]
