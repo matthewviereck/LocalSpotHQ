@@ -1,22 +1,5 @@
 [
   {
-    "id": "discovered_carillon_concert_20260708",
-    "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – July 8",
-    "venue_info": {
-      "name": "Washington Memorial Chapel, Valley Forge",
-      "location": { "lat": 40.1014, "lng": -75.4544 }
-    },
-    "raw_date_string": "July 8, 2026 7:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
-      "price": "Free"
-    },
-    "media": { "image": "" },
-    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
-  },
-  {
     "id": "discovered_summer_music_bridge_st_20260710",
     "type": "event",
     "title": "Phoenixville Summer Music Series – Live on Bridge Street",
@@ -321,6 +304,23 @@
     },
     "media": { "image": "" },
     "action_link": "https://www.malvernfireco.com/"
+  },
+  {
+    "id": "discovered_eagleview_concert_20260714",
+    "type": "event",
+    "title": "Eagleview Summer Concert: Sophie Gault & Lazy Villains",
+    "venue_info": {
+      "name": "Eagleview Town Center, Exton (near Phoenixville)",
+      "location": { "lat": 40.0337, "lng": -75.6174 }
+    },
+    "raw_date_string": "July 14, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": ["Free", "Outdoor", "Live Music", "Singer-Songwriter", "Americana", "Family Friendly", "Lawn Concert"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
   },
   {
     "id": "discovered_nosferatu_organ_colonial_20260715",
@@ -748,6 +748,40 @@
     "action_link": "https://www.kimbertonfair.org/"
   },
   {
+    "id": "discovered_eagleview_concert_20260721",
+    "type": "event",
+    "title": "Eagleview Town Center Free Summer Concert",
+    "venue_info": {
+      "name": "Eagleview Town Center, Exton (near Phoenixville)",
+      "location": { "lat": 40.0337, "lng": -75.6174 }
+    },
+    "raw_date_string": "July 21, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": ["Free", "Outdoor", "Live Music", "Family Friendly", "Lawn Concert", "Bring Chairs"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
+  },
+  {
+    "id": "discovered_eagleview_movie_wicked_20260721",
+    "type": "event",
+    "title": "Eagleview Outdoor Movie Night: Wicked",
+    "venue_info": {
+      "name": "Eagleview Town Center, Exton (near Phoenixville)",
+      "location": { "lat": 40.0337, "lng": -75.6174 }
+    },
+    "raw_date_string": "July 21, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Movie Night", "Family Friendly", "Bring Lawn Chairs", "Musical"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.eagleviewtowncenter.com/upcoming-events/movie-night-wicked"
+  },
+  {
     "id": "discovered_lock60_kids_tour_20260722",
     "type": "event",
     "title": "Lock 60 Kids Walking Tour – Hands-On Canal History",
@@ -1054,6 +1088,23 @@
     "action_link": "https://rootdownbrewing.com/rootdown-events/"
   },
   {
+    "id": "discovered_eagleview_concert_20260728",
+    "type": "event",
+    "title": "Eagleview Town Center Free Summer Concert",
+    "venue_info": {
+      "name": "Eagleview Town Center, Exton (near Phoenixville)",
+      "location": { "lat": 40.0337, "lng": -75.6174 }
+    },
+    "raw_date_string": "July 28, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": ["Free", "Outdoor", "Live Music", "Family Friendly", "Lawn Concert", "Bring Chairs"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
+  },
+  {
     "id": "discovered_carillon_concert_20260729",
     "type": "event",
     "title": "Frank P. Law Summer Carillon Concert Series – July 29",
@@ -1188,6 +1239,23 @@
     },
     "media": { "image": "" },
     "action_link": "https://thecolonialtheatre.com/films/art-house-cinema/"
+  },
+  {
+    "id": "discovered_eagleview_concert_20260804",
+    "type": "event",
+    "title": "Eagleview Town Center Free Summer Concert",
+    "venue_info": {
+      "name": "Eagleview Town Center, Exton (near Phoenixville)",
+      "location": { "lat": 40.0337, "lng": -75.6174 }
+    },
+    "raw_date_string": "August 4, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": ["Free", "Outdoor", "Live Music", "Family Friendly", "Lawn Concert", "Bring Chairs"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
   },
   {
     "id": "discovered_science_on_tap_20260804",
