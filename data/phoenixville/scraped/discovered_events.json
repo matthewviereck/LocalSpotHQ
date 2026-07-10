@@ -750,7 +750,7 @@
   {
     "id": "discovered_eagleview_concert_20260721",
     "type": "event",
-    "title": "Eagleview Town Center Free Summer Concert",
+    "title": "Eagleview Summer Concert: Polyrhythmics feat. Adryon de León w/ Julia Miralles",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
       "location": { "lat": 40.0337, "lng": -75.6174 }
@@ -1090,7 +1090,7 @@
   {
     "id": "discovered_eagleview_concert_20260728",
     "type": "event",
-    "title": "Eagleview Town Center Free Summer Concert",
+    "title": "Eagleview Summer Concert: The Legwarmers – 80s Tribute",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
       "location": { "lat": 40.0337, "lng": -75.6174 }
@@ -1243,7 +1243,7 @@
   {
     "id": "discovered_eagleview_concert_20260804",
     "type": "event",
-    "title": "Eagleview Town Center Free Summer Concert",
+    "title": "Eagleview Summer Concert: Dylan Zangwill Band w/ The Noisy",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
       "location": { "lat": 40.0337, "lng": -75.6174 }
@@ -1426,5 +1426,73 @@
     },
     "media": { "image": "" },
     "action_link": "https://thecolonialtheatre.com/events/live-music/the-garcia-project/"
+  },
+  {
+    "id": "discovered_summer_music_bridge_st_20260731",
+    "type": "event",
+    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge Street",
+      "location": { "lat": 40.1304, "lng": -75.5155 }
+    },
+    "raw_date_string": "Jul 31, 2026 6:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": ["Free", "Outdoor", "Live Music", "Downtown", "Summer", "Family Friendly"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=1773"
+  },
+  {
+    "id": "discovered_carillon_concert_20260805",
+    "type": "event",
+    "title": "Frank P. Law Summer Carillon Concert Series – August 5",
+    "venue_info": {
+      "name": "Washington Memorial Chapel, Valley Forge",
+      "location": { "lat": 40.1014, "lng": -75.4544 }
+    },
+    "raw_date_string": "August 5, 2026 7:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
+  },
+  {
+    "id": "discovered_fhy_fair_collegeville_20260806",
+    "type": "event",
+    "title": "Farm, Home & Youth Fair – Montgomery County 4-H Fair",
+    "venue_info": {
+      "name": "Farm, Home & Youth Complex, Collegeville",
+      "location": { "lat": 40.1853, "lng": -75.4527 }
+    },
+    "raw_date_string": "Aug 6 - 8, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": ["Family Friendly", "4-H Fair", "Livestock", "Kids Activities", "Goat Yoga", "Food", "Community", "Outdoor"],
+      "price": "Free (parking $10/car)"
+    },
+    "media": { "image": "" },
+    "action_link": "https://fhycomplex.org/"
+  },
+  {
+    "id": "discovered_collegeville_car_show_20260809",
+    "type": "event",
+    "title": "26th Annual Collegeville Fire Company Main Street Car Show",
+    "venue_info": {
+      "name": "E. Main Street (3rd Ave to 9th Ave), Collegeville",
+      "location": { "lat": 40.1853, "lng": -75.4527 }
+    },
+    "raw_date_string": "August 9, 2026 9:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Car Show", "Family Friendly", "Outdoor", "Community", "Awards", "Food Vendors"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.collegeville-pa.gov/events/collegeville-main-street-car-show/"
   }
 ]
