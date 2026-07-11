@@ -1,39 +1,5 @@
 [
   {
-    "id": "discovered_summer_music_bridge_st_20260710",
-    "type": "event",
-    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
-    "venue_info": {
-      "name": "Downtown Phoenixville – Bridge Street",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
-    },
-    "raw_date_string": "Jul 10, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": ["Free", "Outdoor", "Live Music", "Downtown", "Summer", "Family Friendly"],
-      "price": "Free"
-    },
-    "media": { "image": "" },
-    "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=1773"
-  },
-  {
-    "id": "discovered_blobfest_runout_friday_20260710",
-    "type": "event",
-    "title": "Cirque du Blobfest: Friday Night Immersive Screening & Run-Out",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
-    },
-    "raw_date_string": "Jul 10, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": ["Blobfest", "Horror Film", "Immersive", "Interactive", "Circus", "Run-Out"],
-      "price": "Check Link"
-    },
-    "media": { "image": "" },
-    "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-friday-immersive-screening-run-out/"
-  },
-  {
     "id": "discovered_phoenixville_blues_festival_20260711",
     "type": "event",
     "title": "Phoenixville Blues Festival 2026",
@@ -748,6 +714,23 @@
     "action_link": "https://www.kimbertonfair.org/"
   },
   {
+    "id": "discovered_eagleview_movie_ratatouille_20260720",
+    "type": "event",
+    "title": "Eagleview Outdoor Movie Night: Ratatouille",
+    "venue_info": {
+      "name": "Eagleview Town Center, Exton (near Phoenixville)",
+      "location": { "lat": 40.0337, "lng": -75.6174 }
+    },
+    "raw_date_string": "July 20, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Movie Night", "Family Friendly", "Bring Lawn Chairs", "Animated"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.eagleviewtowncenter.com/movie-nights"
+  },
+  {
     "id": "discovered_eagleview_concert_20260721",
     "type": "event",
     "title": "Eagleview Summer Concert: Polyrhythmics feat. Adryon de León w/ Julia Miralles",
@@ -1088,6 +1071,23 @@
     "action_link": "https://rootdownbrewing.com/rootdown-events/"
   },
   {
+    "id": "discovered_summerfest_trappe_20260726",
+    "type": "event",
+    "title": "SummerFest '26 – Community Summer Celebration",
+    "venue_info": {
+      "name": "Trappe Life Church Grounds, Collegeville",
+      "location": { "lat": 40.1853, "lng": -75.4527 }
+    },
+    "raw_date_string": "July 26, 2026 5:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Family Friendly", "Community", "Touch-A-Truck", "Summer"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.facebook.com/events/616-s-trappe-rd-collegeville-pa-united-states-pennsylvania-19426/summerfest/777022871084518/"
+  },
+  {
     "id": "discovered_eagleview_concert_20260728",
     "type": "event",
     "title": "Eagleview Summer Concert: The Legwarmers – 80s Tribute",
@@ -1239,6 +1239,23 @@
     },
     "media": { "image": "" },
     "action_link": "https://thecolonialtheatre.com/films/art-house-cinema/"
+  },
+  {
+    "id": "discovered_eagleview_movie_zootopia2_20260803",
+    "type": "event",
+    "title": "Eagleview Outdoor Movie Night: Zootopia 2",
+    "venue_info": {
+      "name": "Eagleview Town Center, Exton (near Phoenixville)",
+      "location": { "lat": 40.0337, "lng": -75.6174 }
+    },
+    "raw_date_string": "August 3, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": ["Free", "Outdoor", "Movie Night", "Family Friendly", "Bring Lawn Chairs", "Animated"],
+      "price": "Free"
+    },
+    "media": { "image": "" },
+    "action_link": "https://www.eagleviewtowncenter.com/movie-nights"
   },
   {
     "id": "discovered_eagleview_concert_20260804",
