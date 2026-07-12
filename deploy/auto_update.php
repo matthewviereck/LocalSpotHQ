@@ -867,7 +867,7 @@ function parseDateAdvanced($dateString) {
             'Jan' => 1, 'January' => 1, 'Feb' => 2, 'February' => 2,
             'Mar' => 3, 'March' => 3, 'Apr' => 4, 'April' => 4,
             'May' => 5, 'Jun' => 6, 'June' => 6, 'Jul' => 7, 'July' => 7,
-            'Aug' => 8, 'August' => 8, 'Sep' => 9, 'September' => 9,
+            'Aug' => 8, 'August' => 8, 'Sep' => 9, 'Sept' => 9, 'September' => 9,
             'Oct' => 10, 'October' => 10, 'Nov' => 11, 'November' => 11,
             'Dec' => 12, 'December' => 12
         ];
@@ -887,6 +887,21 @@ function parseDateAdvanced($dateString) {
     return null;
 }
 
+// The display date is the client's grouping key: "Jul 11" and "July 11"
+// render as two separate day sections, so every emitted month name must
+// collapse to one canonical form.
+function canonMonth($name) {
+    static $map = [
+        'jan' => 'Jan', 'january' => 'Jan', 'feb' => 'Feb', 'february' => 'Feb',
+        'mar' => 'Mar', 'march' => 'Mar', 'apr' => 'Apr', 'april' => 'Apr', 'may' => 'May',
+        'jun' => 'Jun', 'june' => 'Jun', 'jul' => 'Jul', 'july' => 'Jul',
+        'aug' => 'Aug', 'august' => 'Aug', 'sep' => 'Sep', 'sept' => 'Sep', 'september' => 'Sep',
+        'oct' => 'Oct', 'october' => 'Oct', 'nov' => 'Nov', 'november' => 'Nov',
+        'dec' => 'Dec', 'december' => 'Dec'
+    ];
+    return $map[strtolower($name)] ?? $name;
+}
+
 function formatDateDisplay($dateString) {
     $dateString = preg_replace('/\s+/', ' ', trim($dateString));
 
@@ -901,7 +916,7 @@ function formatDateDisplay($dateString) {
             $end = trim($parts[1]);
 
             if (preg_match('/([A-Za-z]+)\s+(\d+)/', $start, $startMatch)) {
-                $startMonth = $startMatch[1];
+                $startMonth = canonMonth($startMatch[1]);
                 $startDay = (int)$startMatch[2];
 
                 if (preg_match('/^(\d+)/', $end, $endMatch)) {
@@ -909,7 +924,7 @@ function formatDateDisplay($dateString) {
                 }
 
                 if (preg_match('/([A-Za-z]+)\s+(\d+)/', $end, $endMatch)) {
-                    return "{$startMonth} {$startDay} - {$endMatch[1]} " . (int)$endMatch[2];
+                    return "{$startMonth} {$startDay} - " . canonMonth($endMatch[1]) . ' ' . (int)$endMatch[2];
                 }
             }
         }
@@ -917,7 +932,7 @@ function formatDateDisplay($dateString) {
 
     // Single date
     if (preg_match('/([A-Za-z]+)\s+(\d+)/', $dateString, $match)) {
-        return $match[1] . ' ' . (int)$match[2];
+        return canonMonth($match[1]) . ' ' . (int)$match[2];
     }
 
     // Strip year suffixes
@@ -1029,8 +1044,14 @@ function titleTokens($title) {
 function fuzzyDedupe($events) {
     // Merge near-duplicate events: same parsed date, one title's tokens a
     // subset of the other's ("First Friday - July" vs "First Friday -
-    // Downtown Phoenixville (July)"). Keeps the richer copy. Undated events
-    // are skipped - they all share a sentinel timestamp and would over-merge.
+    // Downtown Phoenixville (July)"), or nearly so (>=85% of the smaller
+    // title's tokens, 4-token minimum - "Reads & Co Presents Lisa
+    // Scottoline..." vs "Lisa Scottoline: ... Live Author Event"). The
+    // threshold must stay above 0.80: same-series events like "CIRQUE du
+    // BLOBFEST: Costume Contest" vs "...: Blob Ball - Annual Costume Gala"
+    // overlap at exactly 0.80 and are distinct. Keeps the richer copy.
+    // Undated events are skipped - they all share a sentinel timestamp and
+    // would over-merge.
     $byDate = [];
     foreach ($events as $ev) {
         $byDate[$ev['_sort_date']][] = $ev;
@@ -1051,7 +1072,8 @@ function fuzzyDedupe($events) {
             foreach ($kept as $i => $entry) {
                 $small = count($tokens) <= count($entry['tokens']) ? $tokens : $entry['tokens'];
                 $large = count($tokens) <= count($entry['tokens']) ? $entry['tokens'] : $tokens;
-                if (count($small) >= 2 && count(array_diff($small, $large)) === 0) {
+                $overlap = count($small) ? count(array_intersect($small, $large)) / count($small) : 0;
+                if ((count($small) >= 2 && $overlap == 1.0) || (count($small) >= 4 && $overlap >= 0.85)) {
                     $removed++;
                     if ($richness > $entry['richness']) {
                         $kept[$i] = ['tokens' => $tokens, 'ev' => $ev, 'richness' => $richness];

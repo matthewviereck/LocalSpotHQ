@@ -23,7 +23,7 @@ def parse_date_advanced(date_string):
                 'Jan': 1, 'January': 1, 'Feb': 2, 'February': 2,
                 'Mar': 3, 'March': 3, 'Apr': 4, 'April': 4,
                 'May': 5, 'Jun': 6, 'June': 6, 'Jul': 7, 'July': 7,
-                'Aug': 8, 'August': 8, 'Sep': 9, 'September': 9,
+                'Aug': 8, 'August': 8, 'Sep': 9, 'Sept': 9, 'September': 9,
                 'Oct': 10, 'October': 10, 'Nov': 11, 'November': 11,
                 'Dec': 12, 'December': 12
             }
@@ -35,6 +35,23 @@ def parse_date_advanced(date_string):
         return None
 
     return None
+
+
+# The display date is the client's grouping key: "Jul 11" and "July 11"
+# render as two separate day sections, so every emitted month name must
+# collapse to one canonical form.
+_MONTH_CANON = {
+    'jan': 'Jan', 'january': 'Jan', 'feb': 'Feb', 'february': 'Feb',
+    'mar': 'Mar', 'march': 'Mar', 'apr': 'Apr', 'april': 'Apr', 'may': 'May',
+    'jun': 'Jun', 'june': 'Jun', 'jul': 'Jul', 'july': 'Jul',
+    'aug': 'Aug', 'august': 'Aug', 'sep': 'Sep', 'sept': 'Sep', 'september': 'Sep',
+    'oct': 'Oct', 'october': 'Oct', 'nov': 'Nov', 'november': 'Nov',
+    'dec': 'Dec', 'december': 'Dec',
+}
+
+
+def _canon_month(name):
+    return _MONTH_CANON.get(name.lower(), name)
 
 
 def format_date_display(date_string):
@@ -52,7 +69,7 @@ def format_date_display(date_string):
 
                 start_match = re.match(r'([A-Za-z]+)\s+(\d+)', start)
                 if start_match:
-                    start_month = start_match.group(1)
+                    start_month = _canon_month(start_match.group(1))
                     start_day = int(start_match.group(2))
 
                     if re.match(r'^\d+', end):
@@ -61,13 +78,13 @@ def format_date_display(date_string):
 
                     end_match = re.match(r'([A-Za-z]+)\s+(\d+)', end)
                     if end_match:
-                        end_month = end_match.group(1)
+                        end_month = _canon_month(end_match.group(1))
                         end_day = int(end_match.group(2))
                         return f"{start_month} {start_day} - {end_month} {end_day}"
 
         single_match = re.match(r'([A-Za-z]+)\s+(\d+)', date_string)
         if single_match:
-            month = single_match.group(1)
+            month = _canon_month(single_match.group(1))
             day = int(single_match.group(2))
             return f"{month} {day}"
 
@@ -137,8 +154,13 @@ def _title_tokens(title):
 def fuzzy_dedupe(events):
     """Merge near-duplicate events: same parsed date, one title's tokens a
     subset of the other's ("First Friday - July" vs "First Friday - Downtown
-    Phoenixville (July)"). Keeps the richer copy. Undated events are skipped -
-    they all share a sentinel timestamp and would over-merge."""
+    Phoenixville (July)"), or nearly so (>=85% of the smaller title's tokens,
+    4-token minimum - "Reads & Co Presents Lisa Scottoline..." vs "Lisa
+    Scottoline: ... Live Author Event"). The threshold must stay above 0.80:
+    same-series events like "CIRQUE du BLOBFEST: Costume Contest" vs
+    "...: Blob Ball - Annual Costume Gala" overlap at exactly 0.80 and are
+    distinct. Keeps the richer copy. Undated events are skipped - they all
+    share a sentinel timestamp and would over-merge."""
     by_date = {}
     for ev in events:
         by_date.setdefault(ev['_sort_date'], []).append(ev)
@@ -156,7 +178,8 @@ def fuzzy_dedupe(events):
             merged = False
             for entry in kept:
                 small, large = (tokens, entry[0]) if len(tokens) <= len(entry[0]) else (entry[0], tokens)
-                if len(small) >= 2 and small <= large:
+                overlap = len(small & large) / len(small) if small else 0
+                if (len(small) >= 2 and overlap == 1.0) or (len(small) >= 4 and overlap >= 0.85):
                     removed += 1
                     if richness > entry[2]:
                         entry[0], entry[1], entry[2] = tokens, ev, richness
