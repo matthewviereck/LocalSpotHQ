@@ -1,189 +1,89 @@
 [
   {
-    "id": "discovered_phoenixville_blues_festival_20260711",
-    "type": "event",
-    "title": "Phoenixville Blues Festival 2026",
-    "venue_info": {
-      "name": "Reeves Park Amphitheater, Phoenixville",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
-    },
-    "raw_date_string": "July 11, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": ["Free", "Outdoor", "Blues Music", "Live Music", "Family Friendly", "All Day"],
-      "price": "Free"
-    },
-    "media": { "image": "" },
-    "action_link": "https://pvilleblues.org/"
-  },
-  {
-    "id": "discovered_blob_ball_20260711",
-    "type": "event",
-    "title": "Cirque du Blobfest: Blob Ball – Annual Costume Gala",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
-    },
-    "raw_date_string": "Jul 11, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Costume Party", "Blobfest", "Horror", "Dancing", "Themed Gala", "Indoor"],
-      "price": "Check Link"
-    },
-    "media": { "image": "" },
-    "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-blob-ball/"
-  },
-  {
-    "id": "discovered_blobfest_streetfair_20260711",
-    "type": "event",
-    "title": "Cirque du Blobfest: Saturday Street Fair & Kids Carnival",
-    "venue_info": {
-      "name": "Bridge Street, Downtown Phoenixville",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
-    },
-    "raw_date_string": "Jul 11, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": ["Free", "Outdoor", "Family Friendly", "Blobfest", "Live Music", "Vendors", "Kids Activities"],
-      "price": "Free"
-    },
-    "media": { "image": "" },
-    "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-saturday-street-fair-kids-carnival/"
-  },
-  {
-    "id": "discovered_be_kind_rewind_troubles_end_20260711",
-    "type": "event",
-    "title": "Be Kind Rewind – 90s Cover Band at Trouble's End Brewing",
-    "venue_info": {
-      "name": "Trouble's End Brewing, Collegeville",
-      "location": { "lat": 40.1853, "lng": -75.4527 }
-    },
-    "raw_date_string": "Jul 11, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": ["Live Music", "90s Cover Band", "Brewery", "Collegeville", "Nostalgic", "Fun"],
-      "price": "Check Link"
-    },
-    "media": { "image": "" },
-    "action_link": "https://events.ticketleap.com/tickets/soundbank-presents/be-kind-rewind-2060496038"
-  },
-  {
-    "id": "discovered_lock60_guided_tour_20260711",
-    "type": "event",
-    "title": "Lock 60 Guided Walking Tour – Schuylkill Canal History",
-    "venue_info": {
-      "name": "Lock 60 at Schuylkill Canal Park, Mont Clare (near Phoenixville)",
-      "location": { "lat": 40.1241, "lng": -75.5019 }
-    },
-    "raw_date_string": "Jul 11, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "History", "Guided Tour", "Family Friendly", "Canal History"],
-      "price": "Free (registration required)"
-    },
-    "media": { "image": "" },
-    "action_link": "https://www.montgomerycountypa.gov/1145/Lock-60-at-the-Schuylkill-Canal-Park"
-  },
-  {
-    "id": "discovered_blobfest_sat_blob_screening_20260711",
-    "type": "event",
-    "title": "Cirque du Blobfest: Saturday Blob Screening & Second Run-Out",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
-    },
-    "raw_date_string": "Jul 11, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": ["Blobfest", "Horror Film", "Immersive", "Interactive", "Run-Out", "Classic Horror"],
-      "price": "Check Link"
-    },
-    "media": { "image": "" },
-    "action_link": "https://thecolonialtheatre.com/events/blobfest/"
-  },
-  {
-    "id": "discovered_mavis_staples_colonial_20260711",
-    "type": "event",
-    "title": "Mavis Staples – Live in Concert",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
-    },
-    "raw_date_string": "Jul 11, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": ["Live Music", "Soul", "R&B", "Gospel", "Iconic Artist", "Indoor"],
-      "price": "Sold Out"
-    },
-    "media": { "image": "" },
-    "action_link": "https://thecolonialtheatre.com/events/live-music/mavis-staples/"
-  },
-  {
-    "id": "discovered_crow_keywork_gem_20260711",
-    "type": "event",
-    "title": "A Crow Left of Keywork: Part Foo – Incubus / Coheed / Foo Fighters Tribute",
-    "venue_info": {
-      "name": "The Gem Music Hall, Spring City",
-      "location": { "lat": 40.1769, "lng": -75.5461 }
-    },
-    "raw_date_string": "Jul 11, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": ["Live Music", "Tribute Band", "Rock", "Spring City", "Weekend"],
-      "price": "Check Link"
-    },
-    "media": { "image": "" },
-    "action_link": "https://www.thegemspringcity.com/events"
-  },
-  {
     "id": "discovered_craft_cinema_the_craft_20260712",
     "type": "event",
     "title": "Craft Cinema: The Craft (1994)",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 12, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Horror Film", "90s Classic", "Craft Projects", "Interactive Screening", "Indoor", "Blobfest Weekend"],
+      "vibes": [
+        "Horror Film",
+        "90s Classic",
+        "Craft Projects",
+        "Interactive Screening",
+        "Indoor",
+        "Blobfest Weekend"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/craft-cinema/the-craft/"
   },
   {
     "id": "discovered_blobfest_afterparty_rootdown_20260712",
     "type": "event",
-    "title": "Blobfest Afterparty: Tribute of Terror – Horror Tribute Bands",
+    "title": "Blobfest Afterparty: Tribute of Terror \u2013 Horror Tribute Bands",
     "venue_info": {
       "name": "Root Down Brewing Co., Phoenixville",
-      "location": { "lat": 40.1334, "lng": -75.5089 }
+      "location": {
+        "lat": 40.1334,
+        "lng": -75.5089
+      }
     },
     "raw_date_string": "Jul 12, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Horror", "Tribute Bands", "Blobfest", "Brewery", "Metal", "System of a Down"],
+      "vibes": [
+        "Horror",
+        "Tribute Bands",
+        "Blobfest",
+        "Brewery",
+        "Metal",
+        "System of a Down"
+      ],
       "price": "$10"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://rootdownbrewing.com/rootdown-events/"
   },
   {
     "id": "discovered_dinner_en_blob_20260712",
     "type": "event",
-    "title": "Cirque du Blobfest: Dinner en Blob – Community Fundraiser Dinner",
+    "title": "Cirque du Blobfest: Dinner en Blob \u2013 Community Fundraiser Dinner",
     "venue_info": {
       "name": "Secret Location (Revealed to Attendees), Phoenixville",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jul 12, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Blobfest", "Fundraiser", "Red Dress", "Community Dinner", "Secret Location", "BYOD"],
+      "vibes": [
+        "Blobfest",
+        "Fundraiser",
+        "Red Dress",
+        "Community Dinner",
+        "Secret Location",
+        "BYOD"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-dinner-en-blob/"
   },
   {
@@ -191,16 +91,28 @@
     "type": "event",
     "title": "Cirque du Blobfest: Shorty's Short Film Contest Exhibition",
     "venue_info": {
-      "name": "The Colonial Theatre – White Rabbit Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "name": "The Colonial Theatre \u2013 White Rabbit Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 12, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Short Films", "Blobfest", "Horror", "Film Festival", "Indoor", "Afternoon"],
+      "vibes": [
+        "Short Films",
+        "Blobfest",
+        "Horror",
+        "Film Festival",
+        "Indoor",
+        "Afternoon"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/blobfest/cirque-du-blobfest-shortys-short-film-contest/"
   },
   {
@@ -209,32 +121,55 @@
     "title": "9th Annual Blobfest 5K, 10K & Half Marathon",
     "venue_info": {
       "name": "The Colonial Theatre & Bridge Street, Phoenixville",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 12, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Running Race", "Blobfest", "Family Friendly", "Kids Fun Run", "Community"],
+      "vibes": [
+        "Running Race",
+        "Blobfest",
+        "Family Friendly",
+        "Kids Fun Run",
+        "Community"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://runsignup.com/Race/PA/Phoenixville/TheBlobfest5k"
   },
   {
     "id": "discovered_ellis_island_colonial_20260712",
     "type": "event",
-    "title": "Ellis Island: The Dream of America – Live Performance",
+    "title": "Ellis Island: The Dream of America \u2013 Live Performance",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 12, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Orchestra", "Immigration History", "Classical Music", "Multimedia", "Live Performance", "Indoor"],
+      "vibes": [
+        "Orchestra",
+        "Immigration History",
+        "Classical Music",
+        "Multimedia",
+        "Live Performance",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/colonial-events/"
   },
   {
@@ -243,32 +178,58 @@
     "title": "Phoenixville Farmers Market",
     "venue_info": {
       "name": "200 Mill St (under Gay Street Bridge), Phoenixville",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "July 12, 2026 9:00 AM",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Farmers Market", "Local Farms", "Artisan Food", "Outdoor", "Family Friendly", "Free", "Every Saturday"],
+      "vibes": [
+        "Farmers Market",
+        "Local Farms",
+        "Artisan Food",
+        "Outdoor",
+        "Family Friendly",
+        "Free",
+        "Every Saturday"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.phoenixvillefarmersmarket.org/"
   },
   {
     "id": "discovered_malvern_fire_fair_20260714",
     "type": "event",
-    "title": "Annual Malvern Fire Company Fair – Carnival, Rides & Fireworks",
+    "title": "Annual Malvern Fire Company Fair \u2013 Carnival, Rides & Fireworks",
     "venue_info": {
       "name": "Paoli Memorial Grounds & Malvern Memorial Park, Malvern",
-      "location": { "lat": 40.0359, "lng": -75.5127 }
+      "location": {
+        "lat": 40.0359,
+        "lng": -75.5127
+      }
     },
     "raw_date_string": "Jul 14 - 18, 2026",
     "attributes": {
       "category": "Festival",
-      "vibes": ["Family Friendly", "Carnival Rides", "Fireworks", "Outdoor", "Community", "Fire Company Fair", "Food"],
+      "vibes": [
+        "Family Friendly",
+        "Carnival Rides",
+        "Fireworks",
+        "Outdoor",
+        "Community",
+        "Fire Company Fair",
+        "Food"
+      ],
       "price": "From $30"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.malvernfireco.com/"
   },
   {
@@ -277,15 +238,28 @@
     "title": "Eagleview Summer Concert: Sophie Gault & Lazy Villains",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
-      "location": { "lat": 40.0337, "lng": -75.6174 }
+      "location": {
+        "lat": 40.0337,
+        "lng": -75.6174
+      }
     },
     "raw_date_string": "July 14, 2026 7:00 PM",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Free", "Outdoor", "Live Music", "Singer-Songwriter", "Americana", "Family Friendly", "Lawn Concert"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Singer-Songwriter",
+        "Americana",
+        "Family Friendly",
+        "Lawn Concert"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
   },
   {
@@ -294,32 +268,56 @@
     "title": "Nosferatu (1922) with Live Theatre Organ Accompaniment",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 15, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Classic Horror", "Silent Film", "Live Organ", "Wurlitzer", "Indoor", "Unique Experience"],
+      "vibes": [
+        "Classic Horror",
+        "Silent Film",
+        "Live Organ",
+        "Wurlitzer",
+        "Indoor",
+        "Unique Experience"
+      ],
       "price": "$12 / $7 children"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/classic-films/nosferatu-1922-with-live-theatre-organ-accompaniment/"
   },
   {
     "id": "discovered_carillon_concert_20260715",
     "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – July 15",
+    "title": "Frank P. Law Summer Carillon Concert Series \u2013 July 15",
     "venue_info": {
       "name": "Washington Memorial Chapel, Valley Forge",
-      "location": { "lat": 40.1014, "lng": -75.4544 }
+      "location": {
+        "lat": 40.1014,
+        "lng": -75.4544
+      }
     },
     "raw_date_string": "July 15, 2026 7:30 PM",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Classical Music",
+        "Bell Tower",
+        "Family Friendly",
+        "Picnic-Friendly"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
   },
   {
@@ -328,15 +326,26 @@
     "title": "Kimberton Park Summer Concert: Just Add Water",
     "venue_info": {
       "name": "Miller Amphitheater at Kimberton Park, Phoenixville",
-      "location": { "lat": 40.115, "lng": -75.544 }
+      "location": {
+        "lat": 40.115,
+        "lng": -75.544
+      }
     },
     "raw_date_string": "Jul 16, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Live Music", "Family Friendly", "Food Trucks"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "Food Trucks"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eastpikeland.org/community/page/summer-concert-series-0"
   },
   {
@@ -345,15 +354,25 @@
     "title": "Crowd Pleasers Family Film Screening at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 16, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Family Friendly", "Classic Film", "Kids", "Indoor"],
+      "vibes": [
+        "Family Friendly",
+        "Classic Film",
+        "Kids",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/"
   },
   {
@@ -362,100 +381,172 @@
     "title": "The Rocky Horror Picture Show with Shadow Cast",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 16, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Late Night", "Cult Classic", "Shadow Cast", "Interactive", "Costume Contest", "Indoor"],
+      "vibes": [
+        "Late Night",
+        "Cult Classic",
+        "Shadow Cast",
+        "Interactive",
+        "Costume Contest",
+        "Indoor"
+      ],
       "price": "From $10"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/rocky-horror-picture-show-2/"
   },
   {
     "id": "discovered_improv_fundamentals_colonial_20260716",
     "type": "event",
-    "title": "Improv Fundamentals Showcase – Pay What You Wish",
+    "title": "Improv Fundamentals Showcase \u2013 Pay What You Wish",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 16, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Improv Comedy", "Showcase", "Pay What You Wish", "Indoor", "Community"],
+      "vibes": [
+        "Improv Comedy",
+        "Showcase",
+        "Pay What You Wish",
+        "Indoor",
+        "Community"
+      ],
       "price": "Pay What You Wish"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/colonial-events/"
   },
   {
     "id": "discovered_lisa_scottoline_20260716",
     "type": "event",
-    "title": "Lisa Scottoline: \"This Changes Everything\" – Live Author Event",
+    "title": "Lisa Scottoline: \"This Changes Everything\" \u2013 Live Author Event",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 16, 2026",
     "attributes": {
       "category": "Guest Presentations",
-      "vibes": ["Author Reading", "Book Signing", "Mystery", "Thriller", "Q&A", "Indoor"],
+      "vibes": [
+        "Author Reading",
+        "Book Signing",
+        "Mystery",
+        "Thriller",
+        "Q&A",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eventbrite.com/e/lisa-scottoline-author-of-this-changes-everything-live-in-phoenixville-tickets-1989396493465"
   },
   {
     "id": "discovered_rhythm_brews_july_20260716",
     "type": "event",
-    "title": "Rhythm & Brews – Live Music & Beer Garden",
+    "title": "Rhythm & Brews \u2013 Live Music & Beer Garden",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jul 16, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Free", "Outdoor", "Live Music", "Beer Garden", "Community", "Summer"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Beer Garden",
+        "Community",
+        "Summer"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=2080"
   },
   {
     "id": "discovered_shopping_en_blanc_skippack_20260716",
     "type": "event",
-    "title": "Girls Night Out: Shopping En Blanc – Skippack Village",
+    "title": "Girls Night Out: Shopping En Blanc \u2013 Skippack Village",
     "venue_info": {
       "name": "Skippack Village (Skippack Pike), Skippack Township",
-      "location": { "lat": 40.2078, "lng": -75.4138 }
+      "location": {
+        "lat": 40.2078,
+        "lng": -75.4138
+      }
     },
     "raw_date_string": "July 16, 2026 5:00 PM",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Outdoor", "Shopping", "Dining", "White Attire", "Annual Event", "Skippack Village", "Free"],
+      "vibes": [
+        "Outdoor",
+        "Shopping",
+        "Dining",
+        "White Attire",
+        "Annual Event",
+        "Skippack Village",
+        "Free"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://skippackalive.com/events/"
   },
   {
     "id": "discovered_summer_music_bridge_st_20260717",
     "type": "event",
-    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
+    "title": "Phoenixville Summer Music Series \u2013 Live on Bridge Street",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge Street",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
+      "name": "Downtown Phoenixville \u2013 Bridge Street",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jul 17, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Free", "Outdoor", "Live Music", "Downtown", "Summer", "Family Friendly"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Downtown",
+        "Summer",
+        "Family Friendly"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=1773"
   },
   {
@@ -464,32 +555,55 @@
     "title": "Emily McIntire: \"Forsaking Midnight\" Author Event",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 17, 2026",
     "attributes": {
       "category": "Guest Presentations",
-      "vibes": ["Author Reading", "Book Signing", "Romance", "Q&A", "Indoor"],
+      "vibes": [
+        "Author Reading",
+        "Book Signing",
+        "Romance",
+        "Q&A",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eventbrite.com/e/live-in-phoenixville-emily-mcintire-author-of-forsaking-midnight-tickets-1987863856306"
   },
   {
     "id": "discovered_lbk_troubles_end_20260717",
     "type": "event",
-    "title": "Live Band Karaoke at Trouble's End Brewing – Third Friday",
+    "title": "Live Band Karaoke at Trouble's End Brewing \u2013 Third Friday",
     "venue_info": {
       "name": "Trouble's End Brewing, Collegeville",
-      "location": { "lat": 40.1853, "lng": -75.4527 }
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
     },
     "raw_date_string": "Jul 17, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Karaoke", "Live Band", "Brewery", "Fun", "Collegeville", "21+"],
+      "vibes": [
+        "Karaoke",
+        "Live Band",
+        "Brewery",
+        "Fun",
+        "Collegeville",
+        "21+"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.troublesendbrewing.com/live-music-calendar"
   },
   {
@@ -498,66 +612,112 @@
     "title": "DJ Gabagool's Patriotic Karaoke Night at Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's, Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Jul 17, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Karaoke", "Free", "21+", "Bar", "Patriotic", "Sly Fox Beer"],
+      "vibes": [
+        "Karaoke",
+        "Free",
+        "21+",
+        "Bar",
+        "Patriotic",
+        "Sly Fox Beer"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://events.ticketleap.com/events/arnoldsatthefactory"
   },
   {
     "id": "discovered_rico_rico_fiesta_20260717",
     "type": "event",
-    "title": "Rico Rico Fiesta 2026 – Latin Culture, Food & Music Festival",
+    "title": "Rico Rico Fiesta 2026 \u2013 Latin Culture, Food & Music Festival",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Jul 17 - 19, 2026",
     "attributes": {
       "category": "Festival",
-      "vibes": ["Latin Culture", "Live Music", "Food", "Family Friendly", "Lucha Libre", "Cultural Festival"],
+      "vibes": [
+        "Latin Culture",
+        "Live Music",
+        "Food",
+        "Family Friendly",
+        "Lucha Libre",
+        "Cultural Festival"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.ricoricofiesta.us/philly26"
   },
   {
     "id": "discovered_karls_garcia_band_gem_20260717",
     "type": "event",
-    "title": "Karl's Garcia Band – Tribute to the Jerry Garcia Band",
+    "title": "Karl's Garcia Band \u2013 Tribute to the Jerry Garcia Band",
     "venue_info": {
       "name": "The Gem Music Hall, Spring City",
-      "location": { "lat": 40.1769, "lng": -75.5461 }
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
     },
     "raw_date_string": "Jul 17, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Live Music", "Tribute Band", "Grateful Dead", "Jerry Garcia", "Spring City"],
+      "vibes": [
+        "Live Music",
+        "Tribute Band",
+        "Grateful Dead",
+        "Jerry Garcia",
+        "Spring City"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.thegemspringcity.com/event-details/karls-garcia-band-tribute-to-jerry-garcia-band-2"
   },
   {
     "id": "discovered_stewart_copeland_20260718",
     "type": "event",
-    "title": "Stewart Copeland: \"Have I Said Too Much\" – Spoken Word & Stories",
+    "title": "Stewart Copeland: \"Have I Said Too Much\" \u2013 Spoken Word & Stories",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 18, 2026",
     "attributes": {
       "category": "Guest Presentations",
-      "vibes": ["Spoken Word", "Rock History", "The Police", "Intimate Venue", "Memoir"],
+      "vibes": [
+        "Spoken Word",
+        "Rock History",
+        "The Police",
+        "Intimate Venue",
+        "Memoir"
+      ],
       "price": "From $92"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/live-music/stewart-copeland-have-i-said-too-much/"
   },
   {
@@ -566,15 +726,26 @@
     "title": "Family Favorites Film Screening at Colonial Theatre (co-presented with Phoenixville Public Library)",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 18, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Family Friendly", "Classic Film", "Kids", "Indoor", "Library Partnership"],
+      "vibes": [
+        "Family Friendly",
+        "Classic Film",
+        "Kids",
+        "Indoor",
+        "Library Partnership"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/family-favorites/"
   },
   {
@@ -583,15 +754,27 @@
     "title": "Super Sabbath + 3-Band Showcase at Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's, Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "July 18, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Live Music", "Classic Rock", "Black Sabbath Tribute", "Multi-Band", "Bar", "Oaks"],
+      "vibes": [
+        "Live Music",
+        "Classic Rock",
+        "Black Sabbath Tribute",
+        "Multi-Band",
+        "Bar",
+        "Oaks"
+      ],
       "price": "$10"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://events.ticketleap.com/events/arnoldsatthefactory"
   },
   {
@@ -600,32 +783,56 @@
     "title": "Greenberg's Great Train & Toy Show",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Jul 18 - 19, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Family Friendly", "Train Show", "Collectibles", "Vendors", "Kids Free", "Indoor"],
+      "vibes": [
+        "Family Friendly",
+        "Train Show",
+        "Collectibles",
+        "Vendors",
+        "Kids Free",
+        "Indoor"
+      ],
       "price": "From $11"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.trainshow.com/greenbergpages/gb-landing-pages/oaks"
   },
   {
     "id": "discovered_wicked_gluten_free_expo_20260718",
     "type": "event",
-    "title": "Wicked Gluten Free Expo – Greater Philadelphia",
+    "title": "Wicked Gluten Free Expo \u2013 Greater Philadelphia",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Jul 18, 2026",
     "attributes": {
       "category": "Expo",
-      "vibes": ["Gluten Free", "Food Samples", "Food Trucks", "Allergen-Friendly", "Family Friendly", "Indoor"],
+      "vibes": [
+        "Gluten Free",
+        "Food Samples",
+        "Food Trucks",
+        "Allergen-Friendly",
+        "Family Friendly",
+        "Indoor"
+      ],
       "price": "From $27.50"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://store.wickedglutenfree.com/products/copy-of-2026-wicked-gluten-free-expo-philadelphia"
   },
   {
@@ -634,49 +841,82 @@
     "title": "JMC Running Co: 10th Annual 4-Hour Relay & Solo-Ultra Challenge",
     "venue_info": {
       "name": "Charlestown Park, Phoenixville",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jul 18, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Running Race", "Relay", "Ultra Marathon", "Active", "Community"],
+      "vibes": [
+        "Running Race",
+        "Relay",
+        "Ultra Marathon",
+        "Active",
+        "Community"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://runsignup.com/Race/PA/Phoenixville/PhoenixvilleXCMilesforCancer6HourRelayUltra"
   },
   {
     "id": "discovered_chinaberry_lane_gem_20260718",
     "type": "event",
-    "title": "Chinaberry Lane w/ Just Todd – Live at The Gem",
+    "title": "Chinaberry Lane w/ Just Todd \u2013 Live at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, Spring City",
-      "location": { "lat": 40.1769, "lng": -75.5461 }
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
     },
     "raw_date_string": "Jul 18, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Live Music", "Local Band", "Spring City", "Weekend"],
+      "vibes": [
+        "Live Music",
+        "Local Band",
+        "Spring City",
+        "Weekend"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.thegemspringcity.com/events"
   },
   {
     "id": "discovered_summer_saturdays_skippack_20260718",
     "type": "event",
-    "title": "Summer Saturdays in Skippack Village – Family Fun & Activities",
+    "title": "Summer Saturdays in Skippack Village \u2013 Family Fun & Activities",
     "venue_info": {
       "name": "Skippack Village, Skippack Pike, Skippack",
-      "location": { "lat": 40.2078, "lng": -75.4138 }
+      "location": {
+        "lat": 40.2078,
+        "lng": -75.4138
+      }
     },
     "raw_date_string": "Jul 18, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Family Friendly", "Kids", "Shopping", "Skippack Village"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly",
+        "Kids",
+        "Shopping",
+        "Skippack Village"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.skippackvillage.com/"
   },
   {
@@ -685,15 +925,27 @@
     "title": "The Two Johns: Johnny Never & John Colgan-Davis at Steel City",
     "venue_info": {
       "name": "Steel City Coffeehouse & Brewery",
-      "location": { "lat": 40.1305, "lng": -75.5148 }
+      "location": {
+        "lat": 40.1305,
+        "lng": -75.5148
+      }
     },
     "raw_date_string": "Jul 19, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Folk", "Acoustic", "Storytelling", "Coffeehouse", "Intimate Listening Room", "Seated"],
+      "vibes": [
+        "Folk",
+        "Acoustic",
+        "Storytelling",
+        "Coffeehouse",
+        "Intimate Listening Room",
+        "Seated"
+      ],
       "price": "$20 advance / $25 at door"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.steelcityphx.com/product/the-two-johns-johnny-never-and-john-colgan-davis/261"
   },
   {
@@ -702,15 +954,28 @@
     "title": "Kimberton Community Fair 2026",
     "venue_info": {
       "name": "Kimberton Fairgrounds, Kimberton (near Phoenixville)",
-      "location": { "lat": 40.115, "lng": -75.544 }
+      "location": {
+        "lat": 40.115,
+        "lng": -75.544
+      }
     },
     "raw_date_string": "Jul 20 - 25, 2026",
     "attributes": {
       "category": "Festival",
-      "vibes": ["Family Friendly", "Annual Fair", "Carnival Rides", "Live Music", "Food", "Fireworks", "Community"],
+      "vibes": [
+        "Family Friendly",
+        "Annual Fair",
+        "Carnival Rides",
+        "Live Music",
+        "Food",
+        "Fireworks",
+        "Community"
+      ],
       "price": "Free (Parking by Donation)"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.kimbertonfair.org/"
   },
   {
@@ -719,32 +984,56 @@
     "title": "Eagleview Outdoor Movie Night: Ratatouille",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
-      "location": { "lat": 40.0337, "lng": -75.6174 }
+      "location": {
+        "lat": 40.0337,
+        "lng": -75.6174
+      }
     },
     "raw_date_string": "July 20, 2026 7:00 PM",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Movie Night", "Family Friendly", "Bring Lawn Chairs", "Animated"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Movie Night",
+        "Family Friendly",
+        "Bring Lawn Chairs",
+        "Animated"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eagleviewtowncenter.com/movie-nights"
   },
   {
     "id": "discovered_eagleview_concert_20260721",
     "type": "event",
-    "title": "Eagleview Summer Concert: Polyrhythmics feat. Adryon de León w/ Julia Miralles",
+    "title": "Eagleview Summer Concert: Polyrhythmics feat. Adryon de Le\u00f3n w/ Julia Miralles",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
-      "location": { "lat": 40.0337, "lng": -75.6174 }
+      "location": {
+        "lat": 40.0337,
+        "lng": -75.6174
+      }
     },
     "raw_date_string": "July 21, 2026 7:00 PM",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Free", "Outdoor", "Live Music", "Family Friendly", "Lawn Concert", "Bring Chairs"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "Lawn Concert",
+        "Bring Chairs"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
   },
   {
@@ -753,66 +1042,114 @@
     "title": "Eagleview Outdoor Movie Night: Wicked",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
-      "location": { "lat": 40.0337, "lng": -75.6174 }
+      "location": {
+        "lat": 40.0337,
+        "lng": -75.6174
+      }
     },
     "raw_date_string": "July 21, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Movie Night", "Family Friendly", "Bring Lawn Chairs", "Musical"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Movie Night",
+        "Family Friendly",
+        "Bring Lawn Chairs",
+        "Musical"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eagleviewtowncenter.com/upcoming-events/movie-night-wicked"
   },
   {
     "id": "discovered_lock60_kids_tour_20260722",
     "type": "event",
-    "title": "Lock 60 Kids Walking Tour – Hands-On Canal History",
+    "title": "Lock 60 Kids Walking Tour \u2013 Hands-On Canal History",
     "venue_info": {
       "name": "Lock 60 at Schuylkill Canal Park, Mont Clare (near Phoenixville)",
-      "location": { "lat": 40.1241, "lng": -75.5019 }
+      "location": {
+        "lat": 40.1241,
+        "lng": -75.5019
+      }
     },
     "raw_date_string": "Jul 22, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "History", "Kids", "Family Friendly", "Canal History", "Interactive"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "History",
+        "Kids",
+        "Family Friendly",
+        "Canal History",
+        "Interactive"
+      ],
       "price": "Free (registration required)"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.montgomerycountypa.gov/1145/Lock-60-at-the-Schuylkill-Canal-Park"
   },
   {
     "id": "discovered_philadelphia_story_colonial_20260722",
     "type": "event",
-    "title": "The Philadelphia Story (1940) – Classic Film Screening",
+    "title": "The Philadelphia Story (1940) \u2013 Classic Film Screening",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 22, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Classic Film", "Comedy", "Romance", "Hollywood Golden Age", "Indoor"],
+      "vibes": [
+        "Classic Film",
+        "Comedy",
+        "Romance",
+        "Hollywood Golden Age",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/classic-films/the-philadelphia-story/"
   },
   {
     "id": "discovered_carillon_concert_20260722",
     "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – July 22",
+    "title": "Frank P. Law Summer Carillon Concert Series \u2013 July 22",
     "venue_info": {
       "name": "Washington Memorial Chapel, Valley Forge",
-      "location": { "lat": 40.1014, "lng": -75.4544 }
+      "location": {
+        "lat": 40.1014,
+        "lng": -75.4544
+      }
     },
     "raw_date_string": "July 22, 2026 7:30 PM",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Classical Music",
+        "Bell Tower",
+        "Family Friendly",
+        "Picnic-Friendly"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
   },
   {
@@ -821,15 +1158,26 @@
     "title": "Crowd Pleasers: Clue (1985) at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 23, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Family Friendly", "Classic Film", "Comedy", "Murder Mystery", "Indoor"],
+      "vibes": [
+        "Family Friendly",
+        "Classic Film",
+        "Comedy",
+        "Murder Mystery",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/clue-1985/"
   },
   {
@@ -838,49 +1186,84 @@
     "title": "The Rocky Horror Picture Show with Shadow Cast",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 23, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Late Night", "Cult Classic", "Shadow Cast", "Interactive", "Costume Contest", "Indoor"],
+      "vibes": [
+        "Late Night",
+        "Cult Classic",
+        "Shadow Cast",
+        "Interactive",
+        "Costume Contest",
+        "Indoor"
+      ],
       "price": "From $10"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/rocky-horror-picture-show-2/"
   },
   {
     "id": "discovered_summer_music_bridge_st_20260724",
     "type": "event",
-    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
+    "title": "Phoenixville Summer Music Series \u2013 Live on Bridge Street",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge Street",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
+      "name": "Downtown Phoenixville \u2013 Bridge Street",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jul 24, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Free", "Outdoor", "Live Music", "Downtown", "Summer", "Family Friendly"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Downtown",
+        "Summer",
+        "Family Friendly"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=1773"
   },
   {
     "id": "discovered_unforgettable_fire_u2_20260724",
     "type": "event",
-    "title": "Unforgettable Fire – U2 Tribute Band",
+    "title": "Unforgettable Fire \u2013 U2 Tribute Band",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 24, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Live Music", "Tribute Band", "U2", "Classic Rock", "Indoor"],
+      "vibes": [
+        "Live Music",
+        "Tribute Band",
+        "U2",
+        "Classic Rock",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/live-music/unforgettable-fire-u2-tribute/"
   },
   {
@@ -889,32 +1272,55 @@
     "title": "Winslow: An Evening of the Eagles Tribute",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 25, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Live Music", "Tribute Band", "Classic Rock", "Eagles", "Indoor"],
+      "vibes": [
+        "Live Music",
+        "Tribute Band",
+        "Classic Rock",
+        "Eagles",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/live-music/winslow-an-evening-of-the-eagles-tribute/"
   },
   {
     "id": "discovered_reptile_expo_oaks_20260725",
     "type": "event",
-    "title": "East Coast Reptile Super Expo – Greater Philadelphia",
+    "title": "East Coast Reptile Super Expo \u2013 Greater Philadelphia",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center (Hall A), Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Jul 25, 2026",
     "attributes": {
       "category": "Expo",
-      "vibes": ["Reptiles", "Exotic Animals", "Vendors", "Family Friendly", "Kids", "Indoor"],
+      "vibes": [
+        "Reptiles",
+        "Exotic Animals",
+        "Vendors",
+        "Family Friendly",
+        "Kids",
+        "Indoor"
+      ],
       "price": "$10 at door"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://eastcoastreptilesuperexpos.com/"
   },
   {
@@ -923,83 +1329,141 @@
     "title": "Philly Phavorites Expo",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Jul 25, 2026",
     "attributes": {
       "category": "Expo",
-      "vibes": ["Local Vendors", "Philly Food", "Tastings", "Family Friendly", "Indoor", "Marketplace"],
+      "vibes": [
+        "Local Vendors",
+        "Philly Food",
+        "Tastings",
+        "Family Friendly",
+        "Indoor",
+        "Marketplace"
+      ],
       "price": "$10 online / $15 at door"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://phillyexpocenter.com/events/philly-phavorites-expo/"
   },
   {
     "id": "discovered_philly_vintage_flea_20260725",
     "type": "event",
-    "title": "The Philly Vintage Flea – Enormous Vintage Clothing Market",
+    "title": "The Philly Vintage Flea \u2013 Enormous Vintage Clothing Market",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Jul 25, 2026",
     "attributes": {
       "category": "Expo",
-      "vibes": ["Vintage Clothing", "Flea Market", "Shopping", "100+ Vendors", "Indoor", "Family Friendly"],
+      "vibes": [
+        "Vintage Clothing",
+        "Flea Market",
+        "Shopping",
+        "100+ Vendors",
+        "Indoor",
+        "Family Friendly"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.thephillyvintageflea.com/"
   },
   {
     "id": "discovered_tuner_evolution_expo_20260725",
     "type": "event",
-    "title": "Tuner Evolution Philly – Automotive Lifestyle Car Show",
+    "title": "Tuner Evolution Philly \u2013 Automotive Lifestyle Car Show",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Jul 25, 2026",
     "attributes": {
       "category": "Expo",
-      "vibes": ["Car Show", "Live Music", "B-Boy Contest", "Sneakers", "Vendors", "Indoor"],
+      "vibes": [
+        "Car Show",
+        "Live Music",
+        "B-Boy Contest",
+        "Sneakers",
+        "Vendors",
+        "Indoor"
+      ],
       "price": "5 advance / 0 at door"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://tuner-evolution.com/event/philly/"
   },
   {
     "id": "discovered_night_of_the_leos_20260725",
     "type": "event",
-    "title": "Night of the Leos 2026 – Multi-Act Leo Season Celebration",
+    "title": "Night of the Leos 2026 \u2013 Multi-Act Leo Season Celebration",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's, Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "July 25, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Live Music", "Leo Season", "Multi-Act", "Bar", "Oaks", "Sly Fox Beer"],
+      "vibes": [
+        "Live Music",
+        "Leo Season",
+        "Multi-Act",
+        "Bar",
+        "Oaks",
+        "Sly Fox Beer"
+      ],
       "price": "$8 advance / $10 door"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://events.ticketleap.com/tickets/arnoldsatthefactory/night-of-the-leos-2026"
   },
   {
     "id": "discovered_strays_misfits_gem_20260725",
     "type": "event",
-    "title": "Strays and Misfits w/ Antar Goodwin & Sam Houseal Band – The Gem",
+    "title": "Strays and Misfits w/ Antar Goodwin & Sam Houseal Band \u2013 The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, Spring City",
-      "location": { "lat": 40.1769, "lng": -75.5461 }
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
     },
     "raw_date_string": "Jul 25, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Live Music", "Local Bands", "Spring City", "Weekend"],
+      "vibes": [
+        "Live Music",
+        "Local Bands",
+        "Spring City",
+        "Weekend"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.thegemspringcity.com/events"
   },
   {
@@ -1008,49 +1472,83 @@
     "title": "Art House Cinema Sunday at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 26, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Art House Cinema", "Independent Film", "Indoor", "Curated"],
+      "vibes": [
+        "Art House Cinema",
+        "Independent Film",
+        "Indoor",
+        "Curated"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/art-house-cinema/"
   },
   {
     "id": "discovered_twelve_monkeys_semiquinc_20260726",
     "type": "event",
-    "title": "Twelve Monkeys (1995) – Semiquincentennial Series at Colonial",
+    "title": "Twelve Monkeys (1995) \u2013 Semiquincentennial Series at Colonial",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 26, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Classic Film", "Sci-Fi", "Thriller", "Philadelphia History", "Semiquincentennial", "Indoor"],
+      "vibes": [
+        "Classic Film",
+        "Sci-Fi",
+        "Thriller",
+        "Philadelphia History",
+        "Semiquincentennial",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/semiquincentennial-series/twelve-monkeys/"
   },
   {
     "id": "discovered_kids_rave_expo_20260726",
     "type": "event",
-    "title": "Kids Rave Party at Philly Expo Center – RaverKids",
+    "title": "Kids Rave Party at Philly Expo Center \u2013 RaverKids",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Jul 26, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Family Friendly", "Kids", "DJ", "Dancing", "Concert Lighting", "Indoor"],
+      "vibes": [
+        "Family Friendly",
+        "Kids",
+        "DJ",
+        "Dancing",
+        "Concert Lighting",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eventbrite.com/e/kids-rave-party-july-26-philly-expo-center-by-raverkids-tickets-1991060904764"
   },
   {
@@ -1059,66 +1557,115 @@
     "title": "Phoenixville Punk Rock Flea Market (PRFM) at Root Down Brewing",
     "venue_info": {
       "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jul 26, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Flea Market", "Punk Rock", "Vinyl Records", "Vintage", "Local Vendors", "Brewery", "Free Entry"],
+      "vibes": [
+        "Flea Market",
+        "Punk Rock",
+        "Vinyl Records",
+        "Vintage",
+        "Local Vendors",
+        "Brewery",
+        "Free Entry"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://rootdownbrewing.com/rootdown-events/"
   },
   {
     "id": "discovered_summerfest_trappe_20260726",
     "type": "event",
-    "title": "SummerFest '26 – Community Summer Celebration",
+    "title": "SummerFest '26 \u2013 Community Summer Celebration",
     "venue_info": {
       "name": "Trappe Life Church Grounds, Collegeville",
-      "location": { "lat": 40.1853, "lng": -75.4527 }
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
     },
     "raw_date_string": "July 26, 2026 5:00 PM",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Family Friendly", "Community", "Touch-A-Truck", "Summer"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly",
+        "Community",
+        "Touch-A-Truck",
+        "Summer"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.facebook.com/events/616-s-trappe-rd-collegeville-pa-united-states-pennsylvania-19426/summerfest/777022871084518/"
   },
   {
     "id": "discovered_eagleview_concert_20260728",
     "type": "event",
-    "title": "Eagleview Summer Concert: The Legwarmers – 80s Tribute",
+    "title": "Eagleview Summer Concert: The Legwarmers \u2013 80s Tribute",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
-      "location": { "lat": 40.0337, "lng": -75.6174 }
+      "location": {
+        "lat": 40.0337,
+        "lng": -75.6174
+      }
     },
     "raw_date_string": "July 28, 2026 7:00 PM",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Free", "Outdoor", "Live Music", "Family Friendly", "Lawn Concert", "Bring Chairs"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "Lawn Concert",
+        "Bring Chairs"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
   },
   {
     "id": "discovered_carillon_concert_20260729",
     "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – July 29",
+    "title": "Frank P. Law Summer Carillon Concert Series \u2013 July 29",
     "venue_info": {
       "name": "Washington Memorial Chapel, Valley Forge",
-      "location": { "lat": 40.1014, "lng": -75.4544 }
+      "location": {
+        "lat": 40.1014,
+        "lng": -75.4544
+      }
     },
     "raw_date_string": "July 29, 2026 7:30 PM",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Classical Music",
+        "Bell Tower",
+        "Family Friendly",
+        "Picnic-Friendly"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
   },
   {
@@ -1127,49 +1674,82 @@
     "title": "Crowd Pleasers Family Film Screening at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 30, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Family Friendly", "Classic Film", "Kids", "Indoor"],
+      "vibes": [
+        "Family Friendly",
+        "Classic Film",
+        "Kids",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/"
   },
   {
     "id": "discovered_perfect_strangers_watertower_20260731",
     "type": "event",
-    "title": "Perfect Strangers – Live at The Water Tower Live",
+    "title": "Perfect Strangers \u2013 Live at The Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Jul 31, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Live Music", "Rock", "Bar", "Weekend Night Out", "Oaks"],
+      "vibes": [
+        "Live Music",
+        "Rock",
+        "Bar",
+        "Weekend Night Out",
+        "Oaks"
+      ],
       "price": "$5"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://events.ticketleap.com/tickets/arnoldsatthefactory/the-water-tower-live-at-arnolds-entertainment-center-in-oaks-presents-perfect-strangers"
   },
   {
     "id": "discovered_highway_run_gem_20260731",
     "type": "event",
-    "title": "Highway Run – Journey, Heart & Pat Benatar Tribute at The Gem",
+    "title": "Highway Run \u2013 Journey, Heart & Pat Benatar Tribute at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, Spring City",
-      "location": { "lat": 40.1769, "lng": -75.5461 }
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
     },
     "raw_date_string": "July 31, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Live Music", "Tribute Band", "Journey", "Heart", "Classic Rock", "Spring City"],
+      "vibes": [
+        "Live Music",
+        "Tribute Band",
+        "Journey",
+        "Heart",
+        "Classic Rock",
+        "Spring City"
+      ],
       "price": "$20 advance / $25 door"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.thegemspringcity.com/event-details/highway-run-a-journey-tribute-2"
   },
   {
@@ -1178,15 +1758,27 @@
     "title": "Exhumed Films Presents: Black Belt Theatre on 16mm",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Jul 31, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["16mm Film", "Kung Fu", "Martial Arts", "Cult Cinema", "Late Night", "Indoor"],
+      "vibes": [
+        "16mm Film",
+        "Kung Fu",
+        "Martial Arts",
+        "Cult Cinema",
+        "Late Night",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/guest-presentations/exhumed-films-presents-black-belt-theatre-on-16mm-at-the-colonial-theatre/"
   },
   {
@@ -1195,32 +1787,54 @@
     "title": "Family Favorites Film Screening at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Aug 1, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Family Friendly", "Classic Film", "Kids", "Summer", "Indoor"],
+      "vibes": [
+        "Family Friendly",
+        "Classic Film",
+        "Kids",
+        "Summer",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/film/"
   },
   {
     "id": "discovered_yarn_gem_20260801",
     "type": "event",
-    "title": "YARN – Brooklyn Americana Live at The Gem",
+    "title": "YARN \u2013 Brooklyn Americana Live at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, Spring City",
-      "location": { "lat": 40.1769, "lng": -75.5461 }
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
     },
     "raw_date_string": "Aug 1, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Live Music", "Americana", "Brooklyn", "Spring City", "Weekend"],
+      "vibes": [
+        "Live Music",
+        "Americana",
+        "Brooklyn",
+        "Spring City",
+        "Weekend"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.thegemspringcity.com/events"
   },
   {
@@ -1229,15 +1843,25 @@
     "title": "Art House Cinema Sunday at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Aug 2, 2026",
     "attributes": {
       "category": "Theater",
-      "vibes": ["Art House Cinema", "Independent Film", "Indoor", "Curated"],
+      "vibes": [
+        "Art House Cinema",
+        "Independent Film",
+        "Indoor",
+        "Curated"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/films/art-house-cinema/"
   },
   {
@@ -1246,15 +1870,27 @@
     "title": "Eagleview Outdoor Movie Night: Zootopia 2",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
-      "location": { "lat": 40.0337, "lng": -75.6174 }
+      "location": {
+        "lat": 40.0337,
+        "lng": -75.6174
+      }
     },
     "raw_date_string": "August 3, 2026 7:00 PM",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Movie Night", "Family Friendly", "Bring Lawn Chairs", "Animated"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Movie Night",
+        "Family Friendly",
+        "Bring Lawn Chairs",
+        "Animated"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eagleviewtowncenter.com/movie-nights"
   },
   {
@@ -1263,236 +1899,408 @@
     "title": "Eagleview Summer Concert: Dylan Zangwill Band w/ The Noisy",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
-      "location": { "lat": 40.0337, "lng": -75.6174 }
+      "location": {
+        "lat": 40.0337,
+        "lng": -75.6174
+      }
     },
     "raw_date_string": "August 4, 2026 7:00 PM",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Free", "Outdoor", "Live Music", "Family Friendly", "Lawn Concert", "Bring Chairs"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "Lawn Concert",
+        "Bring Chairs"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
   },
   {
     "id": "discovered_science_on_tap_20260804",
     "type": "event",
-    "title": "Science on Tap Phoenixville – August Monthly Science Talk",
+    "title": "Science on Tap Phoenixville \u2013 August Monthly Science Talk",
     "venue_info": {
       "name": "Root Down Brewing Co., Phoenixville",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "August 4, 2026 6:30 PM",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Educational", "Science Talk", "Beer", "21+", "Q&A", "Monthly Series"],
+      "vibes": [
+        "Educational",
+        "Science Talk",
+        "Beer",
+        "21+",
+        "Q&A",
+        "Monthly Series"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eventbrite.com/e/science-on-tap-phoenixville-at-root-down-brewing-co-registration-310534265347"
   },
   {
     "id": "discovered_hannah_maehrer_colonial_20260804",
     "type": "event",
-    "title": "Hannah Nicole Maehrer: \"Adversary to the Villain\" – Author Event",
+    "title": "Hannah Nicole Maehrer: \"Adversary to the Villain\" \u2013 Author Event",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Aug 4, 2026",
     "attributes": {
       "category": "Guest Presentations",
-      "vibes": ["Author Reading", "Book Signing", "Fantasy", "Romance", "Q&A", "Indoor"],
+      "vibes": [
+        "Author Reading",
+        "Book Signing",
+        "Fantasy",
+        "Romance",
+        "Q&A",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.eventbrite.com/e/hannah-nicole-maehrer-author-of-adversary-to-the-villain-live-tickets-1990237153903"
   },
   {
     "id": "discovered_harmonizing_perspectives_ravensgate_20260804",
     "type": "event",
-    "title": "Harmonizing Perspectives – Art Opening Reception at Ravensgate",
+    "title": "Harmonizing Perspectives \u2013 Art Opening Reception at Ravensgate",
     "venue_info": {
       "name": "Ravensgate Art Gallery, Phoenixville",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Aug 4, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Art Gallery", "Opening Reception", "Free", "Local Artists", "Indoor"],
+      "vibes": [
+        "Art Gallery",
+        "Opening Reception",
+        "Free",
+        "Local Artists",
+        "Indoor"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.ravensgatepxv.com/events"
   },
   {
     "id": "discovered_aj_croce_colonial_20260805",
     "type": "event",
-    "title": "AJ Croce Presents: Croce Plays Croce – Live at Colonial",
+    "title": "AJ Croce Presents: Croce Plays Croce \u2013 Live at Colonial",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Aug 5, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Live Music", "Tribute", "Jim Croce", "Singer-Songwriter", "Storytelling", "Indoor"],
+      "vibes": [
+        "Live Music",
+        "Tribute",
+        "Jim Croce",
+        "Singer-Songwriter",
+        "Storytelling",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/live-music/aj-croce-presents-croce-plays-croce/"
   },
   {
     "id": "discovered_first_friday_august_20260807",
     "type": "event",
-    "title": "Phoenixville First Friday – August",
+    "title": "Phoenixville First Friday \u2013 August",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Aug 7, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Live Music", "Family Friendly", "Vendors", "Night Market", "Arts & Crafts"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "Vendors",
+        "Night Market",
+        "Arts & Crafts"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.phoenixvillefirst.org/first-fridays"
   },
   {
     "id": "discovered_lbk_troubles_end_20260807",
     "type": "event",
-    "title": "Live Band Karaoke at Trouble's End Brewing – First Friday August",
+    "title": "Live Band Karaoke at Trouble's End Brewing \u2013 First Friday August",
     "venue_info": {
       "name": "Trouble's End Brewing, Collegeville",
-      "location": { "lat": 40.1853, "lng": -75.4527 }
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
     },
     "raw_date_string": "Aug 7, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Karaoke", "Live Band", "Brewery", "Fun", "Collegeville", "21+"],
+      "vibes": [
+        "Karaoke",
+        "Live Band",
+        "Brewery",
+        "Fun",
+        "Collegeville",
+        "21+"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.troublesendbrewing.com/live-music-calendar"
   },
   {
     "id": "discovered_liberty_comic_con_20260807",
     "type": "event",
-    "title": "Liberty Comic Con – Greater Philadelphia Expo Center",
+    "title": "Liberty Comic Con \u2013 Greater Philadelphia Expo Center",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Aug 7 - 9, 2026",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Pop Culture", "Comics", "Cosplay", "Family Friendly", "Vendors", "Indoor"],
+      "vibes": [
+        "Pop Culture",
+        "Comics",
+        "Cosplay",
+        "Family Friendly",
+        "Vendors",
+        "Indoor"
+      ],
       "price": "From $25 / day"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.libertycomiccon.com/pages/tickets"
   },
   {
     "id": "discovered_eagle_shows_gun_show_20260807",
     "type": "event",
-    "title": "Eagle Shows Gun Show – Greater Philadelphia Expo Center",
+    "title": "Eagle Shows Gun Show \u2013 Greater Philadelphia Expo Center",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": { "lat": 40.1325, "lng": -75.4699 }
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
     },
     "raw_date_string": "Aug 7 - 9, 2026",
     "attributes": {
       "category": "Expo",
-      "vibes": ["Gun Show", "Vendors", "Firearms", "Hunting Gear", "Outdoor Sports", "Indoor"],
+      "vibes": [
+        "Gun Show",
+        "Vendors",
+        "Firearms",
+        "Hunting Gear",
+        "Outdoor Sports",
+        "Indoor"
+      ],
       "price": "$15 at door"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://eagleshows.com/events/category/oaks-gun-show/"
   },
   {
     "id": "discovered_phoenixville_vegfest_20260808",
     "type": "event",
-    "title": "Phoenixville VegFest 2026 – Plant-Based Food & Music Festival",
+    "title": "Phoenixville VegFest 2026 \u2013 Plant-Based Food & Music Festival",
     "venue_info": {
       "name": "Reeves Park, Phoenixville",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Aug 8, 2026",
     "attributes": {
       "category": "Festival",
-      "vibes": ["Free", "Outdoor", "Plant-Based", "Live Music", "Food Trucks", "Family Friendly", "Beer Garden", "Vendors"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Plant-Based",
+        "Live Music",
+        "Food Trucks",
+        "Family Friendly",
+        "Beer Garden",
+        "Vendors"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=2297"
   },
   {
     "id": "discovered_garcia_project_colonial_20260808",
     "type": "event",
-    "title": "The Garcia Project – Jerry Garcia Band Tribute Live at Colonial",
+    "title": "The Garcia Project \u2013 Jerry Garcia Band Tribute Live at Colonial",
     "venue_info": {
       "name": "The Colonial Theatre",
-      "location": { "lat": 40.132, "lng": -75.513 }
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
     },
     "raw_date_string": "Aug 8, 2026",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Live Music", "Tribute Band", "Grateful Dead", "Jerry Garcia", "Jam Band", "Indoor"],
+      "vibes": [
+        "Live Music",
+        "Tribute Band",
+        "Grateful Dead",
+        "Jerry Garcia",
+        "Jam Band",
+        "Indoor"
+      ],
       "price": "Check Link"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://thecolonialtheatre.com/events/live-music/the-garcia-project/"
   },
   {
     "id": "discovered_summer_music_bridge_st_20260731",
     "type": "event",
-    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
+    "title": "Phoenixville Summer Music Series \u2013 Live on Bridge Street",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge Street",
-      "location": { "lat": 40.1304, "lng": -75.5155 }
+      "name": "Downtown Phoenixville \u2013 Bridge Street",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
     },
     "raw_date_string": "Jul 31, 2026 6:00 PM",
     "attributes": {
       "category": "Live Music",
-      "vibes": ["Free", "Outdoor", "Live Music", "Downtown", "Summer", "Family Friendly"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Downtown",
+        "Summer",
+        "Family Friendly"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=1773"
   },
   {
     "id": "discovered_carillon_concert_20260805",
     "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – August 5",
+    "title": "Frank P. Law Summer Carillon Concert Series \u2013 August 5",
     "venue_info": {
       "name": "Washington Memorial Chapel, Valley Forge",
-      "location": { "lat": 40.1014, "lng": -75.4544 }
+      "location": {
+        "lat": 40.1014,
+        "lng": -75.4544
+      }
     },
     "raw_date_string": "August 5, 2026 7:30 PM",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Outdoor", "Classical Music", "Bell Tower", "Family Friendly", "Picnic-Friendly"],
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Classical Music",
+        "Bell Tower",
+        "Family Friendly",
+        "Picnic-Friendly"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
   },
   {
     "id": "discovered_fhy_fair_collegeville_20260806",
     "type": "event",
-    "title": "Farm, Home & Youth Fair – Montgomery County 4-H Fair",
+    "title": "Farm, Home & Youth Fair \u2013 Montgomery County 4-H Fair",
     "venue_info": {
       "name": "Farm, Home & Youth Complex, Collegeville",
-      "location": { "lat": 40.1853, "lng": -75.4527 }
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
     },
     "raw_date_string": "Aug 6 - 8, 2026",
     "attributes": {
       "category": "Festival",
-      "vibes": ["Family Friendly", "4-H Fair", "Livestock", "Kids Activities", "Goat Yoga", "Food", "Community", "Outdoor"],
+      "vibes": [
+        "Family Friendly",
+        "4-H Fair",
+        "Livestock",
+        "Kids Activities",
+        "Goat Yoga",
+        "Food",
+        "Community",
+        "Outdoor"
+      ],
       "price": "Free (parking $10/car)"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://fhycomplex.org/"
   },
   {
@@ -1501,15 +2309,175 @@
     "title": "26th Annual Collegeville Fire Company Main Street Car Show",
     "venue_info": {
       "name": "E. Main Street (3rd Ave to 9th Ave), Collegeville",
-      "location": { "lat": 40.1853, "lng": -75.4527 }
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
     },
     "raw_date_string": "August 9, 2026 9:00 AM",
     "attributes": {
       "category": "Community Event",
-      "vibes": ["Free", "Car Show", "Family Friendly", "Outdoor", "Community", "Awards", "Food Vendors"],
+      "vibes": [
+        "Free",
+        "Car Show",
+        "Family Friendly",
+        "Outdoor",
+        "Community",
+        "Awards",
+        "Food Vendors"
+      ],
       "price": "Free"
     },
-    "media": { "image": "" },
+    "media": {
+      "image": ""
+    },
     "action_link": "https://www.collegeville-pa.gov/events/collegeville-main-street-car-show/"
+  },
+  {
+    "id": "discovered_fruition_eagleview_20260811",
+    "type": "event",
+    "title": "Eagleview Summer Concert: Fruition w/ Special Guest Max Davey",
+    "venue_info": {
+      "name": "Eagleview Town Center, Exton (near Phoenixville)",
+      "location": {
+        "lat": 40.0337,
+        "lng": -75.6174
+      }
+    },
+    "raw_date_string": "August 11, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Americana",
+        "Family Friendly",
+        "Lawn Concert",
+        "Bring Chairs"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
+  },
+  {
+    "id": "discovered_leading_zero_molly_maguires_20260808",
+    "type": "event",
+    "title": "Leading Zero \u2013 Live at Molly Maguire's",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "August 8, 2026 10:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Irish Pub",
+        "Late Night",
+        "Bar",
+        "Downtown Phoenixville"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mollymaguiresphoenixville.com/events/"
+  },
+  {
+    "id": "discovered_kreeky_knees_watertower_20260808",
+    "type": "event",
+    "title": "Kreeky Knees \u2013 Live at Water Tower Live",
+    "venue_info": {
+      "name": "The Water Tower Live at Arnold's, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "August 8, 2026 8:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Free",
+        "Bar",
+        "Oaks",
+        "Sly Fox Beer",
+        "Weekend"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.watertowerlive.com/events"
+  },
+  {
+    "id": "discovered_movies_on_lawn_ursinus_20260724",
+    "type": "event",
+    "title": "Movies on the Lawn: Lady and the Tramp \u2013 Ursinus College",
+    "venue_info": {
+      "name": "Berman Lawn, Ursinus College, Collegeville",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "July 24, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Movie Night",
+        "Family Friendly",
+        "Bring Lawn Chairs",
+        "Food Trucks",
+        "Collegeville"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.ursinus.edu/offices/protocol-and-special-events/flagship-events/movies-on-the-lawn/"
+  },
+  {
+    "id": "discovered_abby_haduck_ravensgate_20260807",
+    "type": "event",
+    "title": "Abby Haduck Solo Exhibition \u2013 Opening Reception at Ravensgate",
+    "venue_info": {
+      "name": "Ravensgate Art Gallery, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 7, 2026 6:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Art Gallery",
+        "Opening Reception",
+        "Free",
+        "Local Artist",
+        "Oil Painting",
+        "Indoor",
+        "First Friday"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.ravensgatepxv.com/events"
   }
 ]
