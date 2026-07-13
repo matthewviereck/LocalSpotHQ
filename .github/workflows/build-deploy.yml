@@ -1,0 +1,78 @@
+# Parallel-run replacement for the Hostinger PHP cron (deploy/auto_update.php).
+# Builds the site with the Python pipeline and deploys it to a beta directory
+# (public_html/phoenixville-beta/) so it can be compared against production.
+#
+# Cutover plan: once the beta output matches production for a few days, change
+# DEPLOY_DIR below to public_html/phoenixville, disable the hPanel cron, and
+# delete deploy/auto_update.php.
+#
+# Required repo secrets: HOSTINGER_SSH_KEY (dedicated deploy key, NOT a
+# personal key), HOSTINGER_HOST, HOSTINGER_USER, HOSTINGER_PORT. Until they
+# are set, the deploy step skips itself and the run only validates the build.
+
+name: Build and deploy Phoenixville
+
+on:
+  schedule:
+    - cron: '15 10 * * *' # daily, 10:15 UTC = 6:15 AM ET
+  workflow_dispatch:
+
+concurrency:
+  group: build-deploy-phoenixville
+  cancel-in-progress: false
+
+env:
+  # The pipeline's date math (today/tomorrow/weekend windows) uses local time;
+  # runners are UTC by default, which would mislabel events for 4-5 h a day.
+  TZ: America/New_York
+  DEPLOY_DIR: domains/localspothq.com/public_html/phoenixville-beta
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build site
+        run: python pipeline/run.py --area phoenixville
+
+      - name: Verify build output
+        run: |
+          test -s output/phoenixville/index.html
+          test -s output/phoenixville/this-weekend/index.html
+          test -s output/phoenixville/events.ics
+          # Refuse to ship a gutted build (e.g. every scraper failed and the
+          # committed fallbacks were missing).
+          python -c "
+          import json
+          events = json.load(open('data/phoenixville/generated/events_formatted.json', encoding='utf-8'))
+          assert len(events) >= 20, f'only {len(events)} events - refusing to deploy'
+          print(f'{len(events)} events in build')
+          " | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Deploy to Hostinger
+        env:
+          SSH_KEY: ${{ secrets.HOSTINGER_SSH_KEY }}
+          HOST: ${{ secrets.HOSTINGER_HOST }}
+          DEPLOY_USER: ${{ secrets.HOSTINGER_USER }}
+          PORT: ${{ secrets.HOSTINGER_PORT }}
+        run: |
+          if [ -z "$SSH_KEY" ]; then
+            echo 'HOSTINGER_* secrets not set - build validated, deploy skipped.' | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p "$PORT" "$HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          RSH="ssh -p $PORT -i $HOME/.ssh/deploy_key"
+          $RSH "$DEPLOY_USER@$HOST" "mkdir -p ~/$DEPLOY_DIR"
+          rsync -rtz --delete -e "$RSH" output/phoenixville/ "$DEPLOY_USER@$HOST:$DEPLOY_DIR/"
+          echo "Deployed to https://www.localspothq.com/${DEPLOY_DIR##*/}/" | tee -a "$GITHUB_STEP_SUMMARY"
