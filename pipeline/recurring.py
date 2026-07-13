@@ -40,11 +40,38 @@ def generate_recurring_events(config_file, output_file):
     return events
 
 
+_WEEKDAYS = {'monday': 0, 'tuesday': 1, 'wednesday': 2, 'thursday': 3,
+             'friday': 4, 'saturday': 5, 'sunday': 6}
+
+
+def _today():
+    return datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+
+
+def _nth_weekday_of_month(year, month, weekday, nth):
+    first = datetime(year, month, 1)
+    offset = (weekday - first.weekday()) % 7
+    return first + timedelta(days=offset + 7 * (nth - 1))
+
+
 def _generate_weekly(event_def):
-    """Generate weekly recurring events."""
+    """Generate weekly recurring events.
+
+    Rolling form ("weekday" + optional "horizon_days", parity with the PHP
+    builder): next occurrence through today + horizon, so the calendar never
+    runs dry at a fixed end_date. Unlike PHP's 'next Saturday', today itself
+    is included - the market should still be listed on its own morning.
+    Legacy form: fixed "start_date"/"end_date".
+    """
     events = []
-    start = datetime.strptime(event_def['start_date'], '%Y-%m-%d')
-    end = datetime.strptime(event_def['end_date'], '%Y-%m-%d')
+    if 'weekday' in event_def:
+        today = _today()
+        weekday = _WEEKDAYS[event_def['weekday'].lower()]
+        start = today + timedelta(days=(weekday - today.weekday()) % 7)
+        end = today + timedelta(days=event_def.get('horizon_days', 364))
+    else:
+        start = datetime.strptime(event_def['start_date'], '%Y-%m-%d')
+        end = datetime.strptime(event_def['end_date'], '%Y-%m-%d')
     current = start
 
     while current <= end:
@@ -82,10 +109,27 @@ def _generate_weekly(event_def):
 
 
 def _generate_monthly(event_def):
-    """Generate monthly recurring events from explicit date list."""
+    """Generate monthly recurring events.
+
+    Rolling form ("nth" + "weekday" + optional "horizon_months"): the nth
+    <weekday> of each month from this month through the horizon, skipping
+    dates already past. Legacy form: explicit "dates" list.
+    """
     events = []
 
-    for date_entry in event_def.get('dates', []):
+    date_entries = event_def.get('dates', [])
+    if 'nth' in event_def and 'weekday' in event_def:
+        today = _today()
+        weekday = _WEEKDAYS[event_def['weekday'].lower()]
+        date_entries = []
+        for i in range(event_def.get('horizon_months', 12) + 1):
+            year = today.year + (today.month - 1 + i) // 12
+            month = (today.month - 1 + i) % 12 + 1
+            d = _nth_weekday_of_month(year, month, weekday, event_def['nth'])
+            if d >= today:
+                date_entries.append(d.strftime('%Y-%m-%d'))
+
+    for date_entry in date_entries:
         if isinstance(date_entry, str):
             date_str = date_entry
             subtitle = ""
@@ -132,10 +176,31 @@ def _generate_monthly(event_def):
 
 
 def _generate_festival(event_def):
-    """Generate multi-day festival events."""
+    """Generate multi-day festival events.
+
+    Rule form ("rule": {month, nth, weekday} with per-day "offset"s): anchors
+    the festival to e.g. the second Friday of July for this year and next, so
+    the config never goes stale. Legacy form: explicit "date" per day.
+    """
     events = []
 
-    for day in event_def.get('days', []):
+    days = event_def.get('days', [])
+    if 'rule' in event_def:
+        rule = event_def['rule']
+        today = _today()
+        rolled = []
+        for year in (today.year, today.year + 1):
+            anchor = _nth_weekday_of_month(
+                year, rule['month'], _WEEKDAYS[rule['weekday'].lower()], rule['nth'])
+            for day in days:
+                d = anchor + timedelta(days=day.get('offset', 0))
+                if d >= today:
+                    rolled.append({'date': d.strftime('%Y-%m-%d'),
+                                   'title': day.get('title', ''),
+                                   'time': day.get('time', '')})
+        days = rolled
+
+    for day in days:
         event_date = datetime.strptime(day['date'], '%Y-%m-%d')
 
         event = {

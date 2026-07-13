@@ -9,8 +9,8 @@
       "category": "Farmers Market",
       "vibes": ["Family Friendly", "Outdoor", "Local"],
       "price": "Free Entry",
-      "start_date": "2026-02-07",
-      "end_date": "2026-12-26",
+      "weekday": "Saturday",
+      "horizon_days": 364,
       "seasons": [
         {"months": [5, 6, 7, 8, 9, 10, 11], "time": "9am-12pm"},
         {"months": [1, 2, 3, 4, 12], "time": "10am-12pm"}
@@ -28,19 +28,9 @@
       "vibes": ["Family Friendly", "Live Music", "Food & Drink", "Street Festival"],
       "price": "Free",
       "time": "5:30pm-8:30pm",
-      "dates": [
-        "2026-02-07",
-        "2026-03-06",
-        "2026-04-03",
-        "2026-05-01",
-        "2026-06-05",
-        "2026-07-03",
-        "2026-08-07",
-        "2026-09-04",
-        "2026-10-02",
-        "2026-11-06",
-        "2026-12-04"
-      ],
+      "nth": 1,
+      "weekday": "Friday",
+      "horizon_months": 12,
       "overrides": [
         {"month": 12, "extra_vibes": ["Tree Lighting", "Holiday"]}
       ],
@@ -56,10 +46,11 @@
       "category": "Festival",
       "vibes": ["Family Friendly", "Cult Classic", "Horror", "Community"],
       "price": "Varies",
+      "rule": {"month": 7, "nth": 2, "weekday": "Friday"},
       "days": [
-        {"date": "2026-07-10", "title": "Blobfest - Opening Night", "time": "Evening"},
-        {"date": "2026-07-11", "title": "Blobfest - Street Fair", "time": "All Day"},
-        {"date": "2026-07-12", "title": "Blobfest - 5K/10K/Half Marathon", "time": "7am Start"}
+        {"offset": 0, "title": "Blobfest - Opening Night", "time": "Evening"},
+        {"offset": 1, "title": "Blobfest - Street Fair", "time": "All Day"},
+        {"offset": 2, "title": "Blobfest - 5K/10K/Half Marathon", "time": "7am Start"}
       ],
       "image": "https://images.unsplash.com/photo-1574267432644-f610246f25be?auto=format&fit=crop&w=600&q=80",
       "link": "https://thecolonialtheatre.com/blobfest/"

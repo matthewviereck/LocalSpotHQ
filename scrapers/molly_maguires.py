@@ -144,6 +144,13 @@ def scrape_molly_maguires(output_file='molly_maguires_events.json'):
         except Exception as e:
             print(f"   ! Error parsing a card: {e}")
 
+    # A loaded page with zero extracted events means the layout changed or a
+    # bot wall served a shell - don't overwrite the committed fallback data.
+    if not extracted_events:
+        print("   ! Page loaded but no events extracted")
+        _fallback(output_file)
+        return
+
     os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(extracted_events, f, indent=2, ensure_ascii=False)
