@@ -560,6 +560,12 @@
             });
         }
 
+        // Dining "cuisine" is an array on some entries and a bare string on
+        // others - normalize everywhere it's consumed.
+        function cuisineList(item) {
+            return Array.isArray(item.cuisine) ? item.cuisine : (item.cuisine ? [item.cuisine] : []);
+        }
+
         function getActiveData() {
             if (currentTab === 'events') return eventsData;
             if (currentTab === 'dining') return diningData;
@@ -607,10 +613,13 @@
                     };
                     matchesCategory = item.date_category === filterMap[currentFilter];
                 } else {
-                    // Original filtering for other tabs
-                    matchesCategory = currentFilter === 'All' || 
-                                            (item.type && item.type === currentFilter) || 
-                                            (item.tags && item.tags.includes(currentFilter));
+                    // Other tabs: match type, tags, vibes, cuisine, or price tier
+                    matchesCategory = currentFilter === 'All' ||
+                                            (item.type && item.type === currentFilter) ||
+                                            (item.tags && item.tags.includes(currentFilter)) ||
+                                            (item.vibes && item.vibes.includes(currentFilter)) ||
+                                            cuisineList(item).includes(currentFilter) ||
+                                            item.price === currentFilter;
                 }
 
                 return matchesText && matchesCategory;
@@ -643,13 +652,32 @@
                 return;
             }
             
-            // For other tabs: show type/tag filters (original behavior)
-            let categories = new Set();
-            data.forEach(item => {
-                if (item.type) categories.add(item.type);
-                if (item.tags) item.tags.forEach(t => categories.add(t));
-            });
-            const list = ['All', ...categories];
+            // FOR DINING TAB: price tiers, then BYOB pinned, then vibes and
+            // cuisines by frequency - the fields people actually pick a
+            // restaurant by. (Raw tags overlap vibes and stay search-only.)
+            let list;
+            if (currentTab === 'dining') {
+                const counts = new Map();
+                data.forEach(item => {
+                    (item.vibes || []).forEach(v => counts.set(v, (counts.get(v) || 0) + 1));
+                    cuisineList(item).forEach(c => counts.set(c, (counts.get(c) || 0) + 1));
+                });
+                const prices = [...new Set(data.map(i => i.price).filter(Boolean))]
+                    .sort((a, b) => a.length - b.length);
+                const facets = [...counts.entries()]
+                    .sort((a, b) => b[1] - a[1])
+                    .map(([k]) => k)
+                    .filter(f => f !== 'BYOB');
+                list = ['All', ...prices, ...(counts.has('BYOB') ? ['BYOB'] : []), ...facets];
+            } else {
+                // Other tabs: type/tag filters (original behavior)
+                let categories = new Set();
+                data.forEach(item => {
+                    if (item.type) categories.add(item.type);
+                    if (item.tags) item.tags.forEach(t => categories.add(t));
+                });
+                list = ['All', ...categories];
+            }
             
             const html = list.map(cat => `
                 <button onclick="setCategory('${cat}')" 
@@ -690,9 +718,88 @@
             </div>`;
         }
 
+        // --- "MAKE IT A NIGHT": event -> nearby dinner suggestions ---
+        // Dining locs are town-level ("Phoenixville", "Oaks", "Collegeville");
+        // map an event's venue string to the same town so picks are walkable
+        // or a short drive, never a different suburb.
+        function townForLoc(loc) {
+            const l = (loc || '').toLowerCase();
+            if (/collegeville|trappe/.test(l)) return 'Collegeville';
+            if (/\boaks\b|expo center/.test(l)) return 'Oaks';
+            if (/phoenixville|colonial|downtown|gay street|bridge st|reeves|steel city|kimberton|mont clare/.test(l)) return 'Phoenixville';
+            return null;
+        }
+
+        function suggestDining(item, e) {
+            if (e) e.stopPropagation();
+            const town = townForLoc(item.loc);
+            const pool = diningData.filter(d => townForLoc(d.loc) === town);
+            if (!pool.length) return;
+
+            const family = /kids|family|child|story|matinee/i.test((item.type || '') + ' ' + item.title);
+            const prefVibe = family ? 'Family Friendly' : 'Date Night';
+            // Stable rotation: the same event always shows the same picks, but
+            // different events surface different spots across the pool.
+            let seed = 0;
+            for (const ch of item.title) seed = (seed * 31 + ch.charCodeAt(0)) % 997;
+            const picks = pool
+                .map((d, i) => [((d.vibes || []).includes(prefVibe) ? 0 : 1000) + ((i + seed) % pool.length), d])
+                .sort((a, b) => a[0] - b[0])
+                .slice(0, 3)
+                .map(p => p[1]);
+
+            let modal = document.getElementById('dining-suggest-modal');
+            if (!modal) {
+                modal = document.createElement('div');
+                modal.id = 'dining-suggest-modal';
+                modal.className = 'fixed inset-0 z-50 hidden';
+                modal.innerHTML = `
+                    <div class="absolute inset-0 bg-black/50" onclick="closeDiningSuggest()"></div>
+                    <div id="dining-suggest-sheet" class="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl p-5 max-w-2xl mx-auto max-h-[70vh] overflow-y-auto shadow-2xl"></div>`;
+                document.body.appendChild(modal);
+            }
+
+            const rows = picks.map(d => {
+                const link = d.link || `https://www.google.com/maps/search/${encodeURIComponent(d.title + ' ' + town + ' PA')}`;
+                const vibes = (d.vibes || []).slice(0, 3).map(v =>
+                    `<span class="text-[10px] bg-slate-50 text-slate-500 px-2 py-0.5 rounded border border-slate-200 font-bold whitespace-nowrap">${v}</span>`).join('');
+                return `
+                <a href="${link}" target="_blank" rel="noopener" class="flex items-center gap-3 p-3 rounded-xl border border-slate-100 hover:bg-slate-50 transition-colors">
+                    <div class="flex-grow min-w-0">
+                        <h4 class="font-bold text-slate-900 text-sm">${d.title}</h4>
+                        <p class="text-xs text-slate-500 mt-0.5"><span class="text-green-600 font-bold">${d.price}</span> &middot; ${d.type}</p>
+                        <div class="flex flex-wrap gap-1 mt-1.5">${vibes}</div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right text-slate-300 flex-shrink-0" aria-hidden="true"></i>
+                </a>`;
+            }).join('');
+
+            document.getElementById('dining-suggest-sheet').innerHTML = `
+                <div class="flex items-center justify-between mb-1">
+                    <h3 class="font-black text-lg text-slate-900"><i class="fa-solid fa-utensils text-blue-600 mr-2" aria-hidden="true"></i>Make it a night</h3>
+                    <button onclick="closeDiningSuggest()" class="action-btn" aria-label="Close"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+                </div>
+                <p class="text-xs text-slate-500 mb-4 truncate">Dinner in ${town} before &ldquo;${item.title.replace(/</g, '&lt;')}&rdquo;</p>
+                <div class="flex flex-col gap-2">${rows}</div>
+                <button onclick="closeDiningSuggest(); switchTab('dining')" class="w-full mt-4 py-2.5 rounded-xl border border-slate-200 text-blue-600 text-sm font-bold hover:bg-slate-50 transition-colors">Browse all dining</button>`;
+
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeDiningSuggest() {
+            const modal = document.getElementById('dining-suggest-modal');
+            if (modal) modal.classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+
         function eventRow(item) {
             const itemJSON = JSON.stringify(item).replace(/"/g, '&quot;');
             const safeTitle = item.title.replace(/`/g, '').replace(/"/g, '&quot;');
+            const town = townForLoc(item.loc);
+            const dinnerBtn = town && diningData.some(d => townForLoc(d.loc) === town)
+                ? `<button onclick="suggestDining(${itemJSON}, event)" class="action-btn" aria-label="Dinner near ${safeTitle}" title="Dinner nearby"><i class="fa-solid fa-utensils" aria-hidden="true"></i></button>`
+                : '';
             return `
             <div class="event-row fade-in" onclick="if(this.dataset.link) window.open(this.dataset.link, '_blank')" data-link="${item.link || ''}">
                 ${eventThumb(item)}
@@ -701,6 +808,7 @@
                     <p class="text-xs text-slate-500 mt-0.5 truncate">${item.loc}${item.type && item.type !== 'Event' ? ' &middot; ' + item.type : ''}</p>
                 </div>
                 <div class="flex gap-1 flex-shrink-0">
+                    ${dinnerBtn}
                     <button onclick="addToCalendar(${itemJSON}, event)" class="action-btn" aria-label="Add ${safeTitle} to calendar" title="Add to Calendar"><i class="fa-regular fa-calendar-plus" aria-hidden="true"></i></button>
                     <button onclick="shareItem(${itemJSON}, event)" class="action-btn" aria-label="Share ${safeTitle}" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
                 </div>
@@ -832,9 +940,11 @@
                             <p class="text-xs text-slate-500 font-semibold mb-2 flex items-center">
                                 ${meta}
                             </p>
-                            <div class="flex items-center justify-between">
-                                <span class="text-[10px] bg-slate-50 text-slate-500 px-2 py-1 rounded border border-slate-200 font-bold">${item.type}</span>
-                                <div class="flex gap-1">${shareBtn}</div>
+                            <div class="flex items-center justify-between gap-2">
+                                <div class="flex flex-wrap gap-1 min-w-0">${(item.vibes || []).slice(0, 3).map(v =>
+                                    `<span class="text-[10px] bg-slate-50 text-slate-500 px-2 py-1 rounded border border-slate-200 font-bold whitespace-nowrap">${v}</span>`
+                                ).join('')}</div>
+                                <div class="flex gap-1 flex-shrink-0">${shareBtn}</div>
                             </div>
                         </div>
                     </div>`;
@@ -897,18 +1007,26 @@
         }
 
         // --- UTILITY: Email Signup ---
-        function handleEmailSignup(e) {
+        async function handleEmailSignup(e) {
             e.preventDefault();
-            const email = document.getElementById('email-input').value;
-            // Store locally (you can later hook this up to Mailchimp/ConvertKit/etc.)
-            const subscribers = JSON.parse(localStorage.getItem('ls_subscribers') || '[]');
-            if (!subscribers.includes(email)) {
-                subscribers.push(email);
-                localStorage.setItem('ls_subscribers', JSON.stringify(subscribers));
+            const email = document.getElementById('email-input').value.trim();
+            const btn = document.querySelector('#email-form button');
+            if (btn) btn.disabled = true;
+            try {
+                const res = await fetch('/subscribe.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email: email, source: '{{AREA_NAME}}' })
+                });
+                const out = await res.json();
+                if (!out.success) throw new Error(out.error || 'failed');
+                document.getElementById('email-form').classList.add('hidden');
+                document.getElementById('email-success').classList.remove('hidden');
+                showToast('Welcome to the LocalSpot weekly!');
+            } catch (err) {
+                showToast("Couldn't subscribe right now - please try again later.");
+                if (btn) btn.disabled = false;
             }
-            document.getElementById('email-form').classList.add('hidden');
-            document.getElementById('email-success').classList.remove('hidden');
-            showToast('Welcome to the LocalSpot weekly!');
         }
 
         // --- UTILITY: Add to Calendar (.ics export) ---
@@ -1084,9 +1202,9 @@
             
             let html = '';
             
-            // SECTION 2: CURATED PLANS
+            // SECTION 1: CURATED PLANS (renders first - no divider styling)
             html += `
-                <div class="mt-16 pt-8 border-t-4 border-slate-200">
+                <div class="mb-4">
                     <div class="flex items-center justify-between mb-4">
                         <div>
                             <h2 class="text-2xl font-black text-slate-900">Curated Day Plans</h2>
@@ -1144,9 +1262,9 @@
             
             html += '</div>';
             
-            // SECTION 1: ACTIVITIES
+            // SECTION 2: ACTIVITIES (divider separates it from the plans above)
             html += `
-                <div class="mb-12">
+                <div class="mt-16 pt-8 border-t-4 border-slate-200 mb-12">
                     <div class="flex items-center justify-between mb-4">
                         <div>
                             <h2 class="text-2xl font-black text-slate-900">Activities & Attractions</h2>

@@ -210,6 +210,7 @@ function syncFromGitHubRaw($repoDir) {
         'data/phoenixville/scraped/discovered_events.json' => 2,
         'data/phoenixville/scraped/steel_city_events.json'  => 2,
         'data/phoenixville/scraped/molly_maguires_events.json' => 2,
+        'web/subscribe.php'                             => 100,
         'deploy/auto_update.php'                        => 20000, // self-update, takes effect next run
     ];
 
@@ -1706,6 +1707,19 @@ if (deploy($finalHtml, $deployPath)) {
     // SEO/subscription artifacts (non-fatal if they fail)
     buildThisWeekendPage($formattedEvents, $PUBLIC_HTML . '/phoenixville', $AREA_NAME, $OG_IMAGE, $CANONICAL_URL);
     buildIcsFeed($formattedEvents, $PUBLIC_HTML . '/phoenixville', $AREA_NAME);
+
+    // Install the email-signup endpoint at the docroot root. Other web/
+    // assets deploy manually, but the app's signup form POSTs here daily.
+    $subscribeSrc = $REPO_DIR . '/web/subscribe.php';
+    $subscribeDst = $PUBLIC_HTML . '/subscribe.php';
+    if (file_exists($subscribeSrc) &&
+        (!file_exists($subscribeDst) || md5_file($subscribeSrc) !== md5_file($subscribeDst))) {
+        if (@copy($subscribeSrc, $subscribeDst)) {
+            logMsg("  Installed subscribe.php endpoint");
+        } else {
+            logMsg("  WARNING: could not install subscribe.php");
+        }
+    }
 
     logMsg(str_repeat('=', 60));
     logMsg("AUTO-UPDATE COMPLETE!");

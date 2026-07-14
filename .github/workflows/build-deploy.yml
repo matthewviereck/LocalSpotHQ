@@ -75,4 +75,6 @@ jobs:
           RSH="ssh -p $PORT -i $HOME/.ssh/deploy_key"
           $RSH "$DEPLOY_USER@$HOST" "mkdir -p ~/$DEPLOY_DIR"
           rsync -rtz --delete -e "$RSH" output/phoenixville/ "$DEPLOY_USER@$HOST:$DEPLOY_DIR/"
+          # The signup form POSTs to /subscribe.php at the site root
+          rsync -tz -e "$RSH" web/subscribe.php "$DEPLOY_USER@$HOST:${DEPLOY_DIR%/*}/subscribe.php"
           echo "Deployed to https://www.localspothq.com/${DEPLOY_DIR##*/}/" | tee -a "$GITHUB_STEP_SUMMARY"
