@@ -12,3 +12,12 @@ RewriteRule ^app\.html$ https://www.localspothq.com/phoenixville/ [R=301,L]
 
 # Calendar feed MIME type
 AddType text/calendar .ics
+
+# No JSON in the docroot is meant to be public (submissions/subscriber data
+# lives above the docroot, but deny defensively in case a file reappears).
+<FilesMatch "\.json$">
+    Require all denied
+</FilesMatch>
+
+# Legacy submission log directory
+RewriteRule ^logs(/|$) - [F,L]

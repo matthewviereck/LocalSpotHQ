@@ -35,14 +35,22 @@ $event = [
     'status' => 'pending'
 ];
 
-// Save to submissions file
-$submissionsFile = __DIR__ . '/submissions.json';
+// Save one level ABOVE the docroot so the file (submitter names/emails) is
+// never web-fetchable. Same pattern as subscribe.php.
+$submissionsFile = dirname(__DIR__) . '/submissions.json';
 $submissions = [];
 if (file_exists($submissionsFile)) {
     $submissions = json_decode(file_get_contents($submissionsFile), true) ?: [];
 }
+// Migrate any legacy file that still lives in the docroot.
+$legacyFile = __DIR__ . '/submissions.json';
+if (file_exists($legacyFile)) {
+    $legacy = json_decode(file_get_contents($legacyFile), true) ?: [];
+    $submissions = array_merge($legacy, $submissions);
+    @unlink($legacyFile);
+}
 $submissions[] = $event;
-file_put_contents($submissionsFile, json_encode($submissions, JSON_PRETTY_PRINT));
+file_put_contents($submissionsFile, json_encode($submissions, JSON_PRETTY_PRINT), LOCK_EX);
 
 // Send email notification
 $to = 'contact@localspothq.com';
@@ -59,15 +67,15 @@ $message .= "Contact: " . $event['contactName'] . " (" . $event['contactEmail'] 
 if ($event['recurring']) {
     $message .= "Recurring: " . $event['recurringPattern'] . "\n";
 }
-$message .= "\n---\nReview submissions at: submissions.json\n";
+$message .= "\n---\nReview submissions at: ~/domains/localspothq.com/submissions.json (above docroot)\n";
 
 $headers = "From: noreply@localspothq.com\r\n";
 $headers .= "Reply-To: " . ($event['contactEmail'] ?: 'contact@localspothq.com') . "\r\n";
 
 @mail($to, $subject, $message, $headers);
 
-// Log it
-$logFile = __DIR__ . '/logs/submissions.log';
+// Log it (also above the docroot)
+$logFile = dirname(__DIR__) . '/logs/submissions.log';
 $logDir = dirname($logFile);
 if (!is_dir($logDir)) mkdir($logDir, 0755, true);
 file_put_contents($logFile, date('Y-m-d H:i:s') . " - New submission: " . $event['name'] . "\n", FILE_APPEND);
