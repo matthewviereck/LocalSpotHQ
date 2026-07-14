@@ -44,4 +44,15 @@ if (file_put_contents($file, json_encode($subs, JSON_PRETTY_PRINT), LOCK_EX) ===
     exit;
 }
 
+// Heads-up to the owner on each signup (best effort - the signup itself
+// already succeeded, so a mail failure is silently ignored).
+$latest = end($subs);
+@mail(
+    'matthewviereck@gmail.com',
+    'New LocalSpot subscriber (#' . count($subs) . ')',
+    "{$latest['email']} signed up from {$latest['source']} at {$latest['date']}.\n"
+        . 'Total subscribers: ' . count($subs),
+    'From: noreply@localspothq.com'
+);
+
 echo json_encode(['success' => true]);

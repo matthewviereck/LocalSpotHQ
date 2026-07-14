@@ -77,4 +77,7 @@ jobs:
           rsync -rtz --delete -e "$RSH" output/phoenixville/ "$DEPLOY_USER@$HOST:$DEPLOY_DIR/"
           # The signup form POSTs to /subscribe.php at the site root
           rsync -tz -e "$RSH" web/subscribe.php "$DEPLOY_USER@$HOST:${DEPLOY_DIR%/*}/subscribe.php"
+          # Subscriber list lives one level above the docroot (never web-served)
+          SUBS=$($RSH "$DEPLOY_USER@$HOST" "grep -c '\"email\"' domains/localspothq.com/subscribers.json 2>/dev/null || echo 0")
+          echo "Email subscribers: $SUBS" | tee -a "$GITHUB_STEP_SUMMARY"
           echo "Deployed to https://www.localspothq.com/${DEPLOY_DIR##*/}/" | tee -a "$GITHUB_STEP_SUMMARY"
