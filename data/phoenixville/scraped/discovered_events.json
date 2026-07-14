@@ -2276,5 +2276,206 @@
       "image": ""
     },
     "action_link": "https://www.ravensgatepxv.com/events"
+  },
+  {
+    "id": "discovered_pxv_inside_out_20260719",
+    "type": "event",
+    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "July 19, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Street Performance",
+        "Community",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_pxv_inside_out_20260726",
+    "type": "event",
+    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "July 26, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Street Performance",
+        "Community",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_pxv_inside_out_20260802",
+    "type": "event",
+    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 2, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Street Performance",
+        "Community",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_pxv_inside_out_20260809",
+    "type": "event",
+    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 9, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Street Performance",
+        "Community",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_little_shop_colonial_20260806",
+    "type": "event",
+    "title": "Little Shop of Horrors (1986) Director's Cut – Crowd Pleasers Screening",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "August 6, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Classic Film",
+        "Musical Comedy",
+        "Horror Comedy",
+        "Cult Classic",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/little-shop-of-horrors/"
+  },
+  {
+    "id": "discovered_bella_rayne_gem_20260807",
+    "type": "event",
+    "title": "Bella Rayne Band with Crickets and Cicadas – Live at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "August 7, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Local Bands",
+        "Spring City",
+        "First Friday",
+        "Weekend"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/event-details/bella-rayne-and-friends-with-lofton-myers-project"
+  },
+  {
+    "id": "discovered_history_on_rocks_colonial_20260813",
+    "type": "event",
+    "title": "History on the Rocks: The Phoenix Wheel – Local History Happy Hour",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "August 13, 2026 5:30 PM",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": [
+        "Local History",
+        "Happy Hour",
+        "Cocktails",
+        "Phoenix Steel",
+        "Educational",
+        "Community"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/colonial-events/history-on-the-rocks-the-phoenix-wheel/"
   }
 ]
