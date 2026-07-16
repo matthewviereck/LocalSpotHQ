@@ -19,7 +19,9 @@
     "tags": [
       "dinner",
       "wine"
-    ]
+    ],
+    "lat": 40.13363,
+    "lng": -75.518
   },
   {
     "title": "The Boardroom Restaurant & Bottle Shop",
@@ -42,7 +44,9 @@
       "dinner",
       "cocktails",
       "spirits"
-    ]
+    ],
+    "lat": 40.13455,
+    "lng": -75.5132
   },
   {
     "title": "Bistro on Bridge",
@@ -66,7 +70,9 @@
       "dinner",
       "brunch",
       "beer"
-    ]
+    ],
+    "lat": 40.13382,
+    "lng": -75.51662
   },
   {
     "title": "Sedona Taphouse",
@@ -89,7 +95,9 @@
       "lunch",
       "dinner",
       "happy hour"
-    ]
+    ],
+    "lat": 40.13429,
+    "lng": -75.51423
   },
   {
     "title": "Molly Maguire's Irish Pub",
@@ -113,7 +121,9 @@
       "dinner",
       "live music",
       "pub"
-    ]
+    ],
+    "lat": 40.13038,
+    "lng": -75.51491
   },
   {
     "title": "Il Granaio",
@@ -136,7 +146,9 @@
       "dinner",
       "italian",
       "byob"
-    ]
+    ],
+    "lat": 40.13383,
+    "lng": -75.51545
   },
   {
     "title": "Bluebird Distilling",
@@ -159,7 +171,9 @@
       "spirits",
       "cocktails",
       "local"
-    ]
+    ],
+    "lat": 40.13414,
+    "lng": -75.5125
   },
   {
     "title": "Steel City Coffeehouse",
@@ -182,7 +196,9 @@
       "breakfast",
       "coffee",
       "cafe"
-    ]
+    ],
+    "lat": 40.13412,
+    "lng": -75.51647
   },
   {
     "title": "The Foodery",
@@ -205,7 +221,9 @@
       "lunch",
       "beer",
       "sandwiches"
-    ]
+    ],
+    "lat": 40.13369,
+    "lng": -75.51951
   },
   {
     "title": "Stable 12 Brewing",
@@ -229,7 +247,9 @@
       "dinner",
       "beer",
       "dog friendly"
-    ]
+    ],
+    "lat": 40.13534,
+    "lng": -75.5087
   },
   {
     "title": "Chikara Sushi & Asian Fusion",
@@ -252,7 +272,9 @@
       "lunch",
       "dinner",
       "sushi"
-    ]
+    ],
+    "lat": 40.13429,
+    "lng": -75.51423
   },
   {
     "title": "Brown's Cow Ice Cream",
@@ -274,7 +296,9 @@
     "tags": [
       "dessert",
       "family"
-    ]
+    ],
+    "lat": 40.13307,
+    "lng": -75.516
   },
   {
     "title": "La Patrona Mexican Restaurant",
@@ -298,7 +322,9 @@
       "dinner",
       "mexican",
       "margaritas"
-    ]
+    ],
+    "lat": 40.13534,
+    "lng": -75.5087
   },
   {
     "title": "Rivertown Tap",
@@ -322,7 +348,9 @@
       "dinner",
       "waterfront",
       "patio"
-    ]
+    ],
+    "lat": 40.13038,
+    "lng": -75.51491
   },
   {
     "title": "Firebirds Wood Fired Grill",
@@ -345,7 +373,9 @@
       "dinner",
       "steak",
       "seafood"
-    ]
+    ],
+    "lat": 40.16618,
+    "lng": -75.47879
   },
   {
     "title": "Harvest Seasonal Grill",
@@ -369,7 +399,9 @@
       "dinner",
       "healthy",
       "wine"
-    ]
+    ],
+    "lat": 40.16689,
+    "lng": -75.47937
   },
   {
     "title": "Troubles End Brewing",
@@ -393,7 +425,9 @@
       "dinner",
       "beer",
       "brewery"
-    ]
+    ],
+    "lat": 40.18522,
+    "lng": -75.45252
   },
   {
     "title": "Arnold's Family Fun Center",
@@ -417,7 +451,9 @@
       "pizza",
       "family",
       "arcade"
-    ]
+    ],
+    "lat": 40.12348,
+    "lng": -75.45653
   },
   {
     "title": "Oaks Pizzeria",
@@ -440,10 +476,12 @@
       "lunch",
       "dinner",
       "pizza"
-    ]
+    ],
+    "lat": 40.13177,
+    "lng": -75.45963
   },
   {
-    "title": "Avl\u00f3s Greek Cuisine",
+    "title": "Avlós Greek Cuisine",
     "cuisine": "Greek",
     "loc": "258 Bridge St, Phoenixville",
     "desc": "Authentic Greek restaurant with fresh lamb, fish, and Mediterranean dishes. BYOB with sunny decor. One of the best new additions to Bridge Street.",
@@ -461,7 +499,9 @@
       "byob",
       "date night",
       "bridge street"
-    ]
+    ],
+    "lat": 40.13038,
+    "lng": -75.51491
   },
   {
     "title": "Sage Mediterranean",
@@ -482,7 +522,9 @@
       "byob",
       "healthy",
       "bridge street"
-    ]
+    ],
+    "lat": 40.13038,
+    "lng": -75.51491
   },
   {
     "title": "Great American Pub",
@@ -504,7 +546,9 @@
       "casual",
       "family friendly",
       "bridge street"
-    ]
+    ],
+    "lat": 40.13391,
+    "lng": -75.51417
   },
   {
     "title": "Dim Sum Court",
@@ -524,7 +568,9 @@
       "dim sum",
       "casual",
       "bridge street"
-    ]
+    ],
+    "lat": 40.13367,
+    "lng": -75.5176
   },
   {
     "title": "Tai Me Up",
@@ -544,7 +590,9 @@
       "asian",
       "cocktails",
       "bridge street"
-    ]
+    ],
+    "lat": 40.13384,
+    "lng": -75.51865
   },
   {
     "title": "Fitzwater Station",
@@ -564,7 +612,9 @@
       "bbq",
       "casual",
       "family friendly"
-    ]
+    ],
+    "lat": 40.12807,
+    "lng": -75.49327
   },
   {
     "title": "Root Down Brewing",
@@ -585,7 +635,9 @@
       "craft beer",
       "local",
       "outdoor"
-    ]
+    ],
+    "lat": 40.13038,
+    "lng": -75.51491
   },
   {
     "title": "Lock 29",
@@ -606,7 +658,9 @@
       "waterfront",
       "outdoor",
       "views"
-    ]
+    ],
+    "lat": 40.1361,
+    "lng": -75.50743
   },
   {
     "title": "Paloma's",
@@ -626,7 +680,9 @@
       "upscale",
       "date night",
       "bridge street"
-    ]
+    ],
+    "lat": 40.13038,
+    "lng": -75.51491
   },
   {
     "title": "PJ Ryan's",
@@ -647,7 +703,9 @@
       "pub",
       "casual",
       "drinks"
-    ]
+    ],
+    "lat": 40.13038,
+    "lng": -75.51491
   },
   {
     "title": "Soltane Cafe",
@@ -668,6 +726,8 @@
       "coffee",
       "casual",
       "bridge street"
-    ]
+    ],
+    "lat": 40.13411,
+    "lng": -75.51397
   }
 ]

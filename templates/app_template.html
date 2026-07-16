@@ -539,6 +539,7 @@
         function switchTab(tabName) {
             currentTab = tabName;
             currentFilter = 'All'; // Reset filters
+            diningView = 'list';
             updateTabButtons();
             renderContent();
             renderChips();
@@ -685,6 +686,16 @@
                     .map(([k]) => k)
                     .filter(f => f !== 'BYOB');
                 list = ['All', ...(favs.size ? [SAVED_FILTER] : []), ...prices, ...(counts.has('BYOB') ? ['BYOB'] : []), ...facets];
+                const toggle = `<button onclick="toggleDiningView()"
+                    class="px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap bg-white text-blue-600 border-blue-200 hover:bg-blue-50">
+                    <i class="fa-solid ${diningView === 'map' ? 'fa-list' : 'fa-map-location-dot'} mr-1" aria-hidden="true"></i>${diningView === 'map' ? 'List' : 'Map'}
+                </button>`;
+                chipContainer.innerHTML = toggle + list.map(cat => `
+                    <button onclick="setCategory('${cat}')"
+                        class="px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap ${currentFilter === cat ? 'bg-blue-600 text-white border-blue-600 shadow-md transform scale-105' : 'bg-white text-slate-500 border-slate-200 hover:bg-slate-50'}">
+                        ${cat}
+                    </button>`).join('');
+                return;
             } else {
                 // Other tabs: type/tag filters (original behavior)
                 let categories = new Set();
@@ -732,6 +743,66 @@
                 <img src="${item.img}" alt="" loading="lazy" referrerpolicy="no-referrer"
                      onerror="this.outerHTML='<i class=\\'fa-solid ${icon}\\' aria-hidden=\\'true\\'></i>'">
             </div>`;
+        }
+
+        // --- DINING MAP VIEW (Leaflet + OSM, lazy-loaded on first open) ---
+        let diningView = 'list';
+        let leafletReady = null;
+
+        function toggleDiningView() {
+            diningView = diningView === 'list' ? 'map' : 'list';
+            renderChips();
+            renderContent();
+        }
+
+        function loadLeaflet() {
+            if (leafletReady) return leafletReady;
+            leafletReady = new Promise((resolve, reject) => {
+                const css = document.createElement('link');
+                css.rel = 'stylesheet';
+                css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+                document.head.appendChild(css);
+                const js = document.createElement('script');
+                js.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+                js.onload = resolve;
+                js.onerror = reject;
+                document.head.appendChild(js);
+            });
+            return leafletReady;
+        }
+
+        let diningMap = null;
+        async function renderDiningMap(container, data) {
+            container.className = 'max-w-7xl mx-auto p-4 w-full flex-grow';
+            container.innerHTML = '<div id="dining-map" class="rounded-2xl border border-slate-200 shadow-sm" style="height:65vh;min-height:380px;"></div>';
+            try {
+                await loadLeaflet();
+            } catch (e) {
+                container.innerHTML = '<p class="text-center text-slate-500 pt-12">Map could not load — check your connection.</p>';
+                return;
+            }
+            const el = document.getElementById('dining-map');
+            if (!el) return; // user navigated away while Leaflet loaded
+            if (diningMap) { diningMap.remove(); diningMap = null; }
+            const spots = data.filter(d => d.lat && d.lng);
+            diningMap = L.map(el);
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(diningMap);
+            const bounds = [];
+            spots.forEach(d => {
+                const link = d.link || `https://www.google.com/maps/search/${encodeURIComponent(d.title + ' ' + d.loc)}`;
+                const vibes = (d.vibes || []).slice(0, 2).join(' · ');
+                L.marker([d.lat, d.lng]).addTo(diningMap).bindPopup(
+                    `<strong>${d.title}</strong><br>` +
+                    `<span style="color:#16a34a;font-weight:bold">${d.price}</span> · ${d.type}` +
+                    (vibes ? `<br><span style="color:#64748b;font-size:11px">${vibes}</span>` : '') +
+                    `<br><a href="${link}" target="_blank" rel="noopener">Details →</a>`);
+                bounds.push([d.lat, d.lng]);
+            });
+            if (bounds.length) diningMap.fitBounds(bounds, { padding: [30, 30], maxZoom: 16 });
+            else diningMap.setView([40.1304, -75.5149], 14);
         }
 
         // --- "MAKE IT A NIGHT": event -> nearby dinner suggestions ---
@@ -936,6 +1007,12 @@
             // Events tab: calm agenda list grouped by date
             if (currentTab === 'events') {
                 renderEventsList(container, data);
+                return;
+            }
+
+            // Dining tab, map mode
+            if (currentTab === 'dining' && diningView === 'map') {
+                renderDiningMap(container, data);
                 return;
             }
 
