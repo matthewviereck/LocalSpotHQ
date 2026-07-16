@@ -23,6 +23,7 @@ from pipeline.inject import inject_all_data
 from pipeline.postprocess import remove_landing_page
 from pipeline.feeds import generate_this_weekend_page, generate_ics
 from pipeline.pwa import emit_pwa_assets
+from pipeline.event_pages import generate_event_pages, generate_area_sitemap
 
 
 def load_area_config(area_id):
@@ -117,6 +118,11 @@ def run_area(area_id):
     # Step 8: PWA assets (manifest, service worker, icons)
     print(f"\n--- Step 8: PWA assets ---")
     emit_pwa_assets(output_dir, config)
+
+    # Step 9: Per-event SEO pages + area sitemap
+    print(f"\n--- Step 9: Event pages + sitemap ---")
+    event_slugs = generate_event_pages(formatted_output, output_dir, config)
+    generate_area_sitemap(output_dir, config, event_slugs)
 
     print(f"\n{'='*60}")
     print(f"DONE! Output: {final_output}")
