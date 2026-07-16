@@ -211,6 +211,8 @@ function syncFromGitHubRaw($repoDir) {
         'data/phoenixville/scraped/steel_city_events.json'  => 2,
         'data/phoenixville/scraped/molly_maguires_events.json' => 2,
         'web/subscribe.php'                             => 100,
+        'web/unsubscribe.php'                           => 100,
+        'deploy/send_digest.php'                        => 1000,
         'deploy/auto_update.php'                        => 20000, // self-update, takes effect next run
     ];
 
@@ -1708,16 +1710,27 @@ if (deploy($finalHtml, $deployPath)) {
     buildThisWeekendPage($formattedEvents, $PUBLIC_HTML . '/phoenixville', $AREA_NAME, $OG_IMAGE, $CANONICAL_URL);
     buildIcsFeed($formattedEvents, $PUBLIC_HTML . '/phoenixville', $AREA_NAME);
 
-    // Install the email-signup endpoint at the docroot root. Other web/
-    // assets deploy manually, but the app's signup form POSTs here daily.
-    $subscribeSrc = $REPO_DIR . '/web/subscribe.php';
-    $subscribeDst = $PUBLIC_HTML . '/subscribe.php';
-    if (file_exists($subscribeSrc) &&
-        (!file_exists($subscribeDst) || md5_file($subscribeSrc) !== md5_file($subscribeDst))) {
-        if (@copy($subscribeSrc, $subscribeDst)) {
-            logMsg("  Installed subscribe.php endpoint");
-        } else {
-            logMsg("  WARNING: could not install subscribe.php");
+    // Install the email endpoints at the docroot root. Other web/ assets
+    // deploy manually, but the app and digest depend on these daily.
+    foreach (['subscribe.php', 'unsubscribe.php'] as $endpoint) {
+        $src = $REPO_DIR . '/web/' . $endpoint;
+        $dst = $PUBLIC_HTML . '/' . $endpoint;
+        if (file_exists($src) &&
+            (!file_exists($dst) || md5_file($src) !== md5_file($dst))) {
+            if (@copy($src, $dst)) {
+                logMsg("  Installed {$endpoint} endpoint");
+            } else {
+                logMsg("  WARNING: could not install {$endpoint}");
+            }
+        }
+    }
+
+    // Fridays: send the "LocalSpot weekly" digest (idempotent per ISO week).
+    if (date('w') == 5) {
+        $digestScript = $REPO_DIR . '/deploy/send_digest.php';
+        if (file_exists($digestScript)) {
+            require_once $digestScript;
+            sendWeeklyDigest();
         }
     }
 
