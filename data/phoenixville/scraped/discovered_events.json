@@ -2607,7 +2607,7 @@
     },
     "raw_date_string": "July 20, 2026 8:00 PM",
     "attributes": {
-      "category": "Community Event",
+      "category": "Comedy",
       "vibes": [
         "Free",
         "Stand-Up Comedy",
@@ -2650,7 +2650,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://www.stable12.com/calendar/event-calendar/"
+    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
   },
   {
     "id": "discovered_royersford_night_out_20260804",
@@ -2917,7 +2917,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://www.stable12.com/calendar/event-calendar/"
+    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
   },
   {
     "id": "discovered_stable12_trivia_20260805",
@@ -2946,7 +2946,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://www.stable12.com/calendar/event-calendar/"
+    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
   },
   {
     "id": "discovered_stable12_trivia_20260812",
@@ -2975,7 +2975,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://www.stable12.com/calendar/event-calendar/"
+    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
   },
   {
     "id": "discovered_comedy_open_mic_20260727",
@@ -2990,7 +2990,7 @@
     },
     "raw_date_string": "July 27, 2026 8:00 PM",
     "attributes": {
-      "category": "Community Event",
+      "category": "Comedy",
       "vibes": [
         "Free",
         "Stand-Up Comedy",
@@ -3019,7 +3019,7 @@
     },
     "raw_date_string": "August 3, 2026 8:00 PM",
     "attributes": {
-      "category": "Community Event",
+      "category": "Comedy",
       "vibes": [
         "Free",
         "Stand-Up Comedy",
@@ -3048,7 +3048,7 @@
     },
     "raw_date_string": "August 10, 2026 8:00 PM",
     "attributes": {
-      "category": "Community Event",
+      "category": "Comedy",
       "vibes": [
         "Free",
         "Stand-Up Comedy",
@@ -3063,5 +3063,180 @@
       "image": ""
     },
     "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
+  },
+  {
+    "id": "discovered_slashers_16mm_colonial_20260814",
+    "type": "event",
+    "title": "Slashers on 16mm: The Prowler (1981) + The Town That Dreaded Sundown (1976)",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "August 14, 2026 7:15 PM",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Horror",
+        "16mm Film",
+        "Slasher",
+        "Double Feature",
+        "Cult Cinema",
+        "Fright Night",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/fright-night/slashers-on-16mm-the-prowler-1981-the-town-that-dreaded-sundown-1976/"
+  },
+  {
+    "id": "discovered_rock_n_lol_fest_gem_20260815",
+    "type": "event",
+    "title": "Rock n LOL Fest 2026 – Comedy & Rock Music Festival",
+    "venue_info": {
+      "name": "The Gem Music Hall, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "August 15, 2026 6:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Comedy",
+        "Live Music",
+        "Rock",
+        "Multi-Act",
+        "Spring City",
+        "Festival"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/event-details/rock-n-lol-fest"
+  },
+  {
+    "id": "discovered_carillon_concert_20260812",
+    "type": "event",
+    "title": "Frank P. Law Summer Carillon Concert Series – August 12",
+    "venue_info": {
+      "name": "Washington Memorial Chapel, Valley Forge",
+      "location": {
+        "lat": 40.1014,
+        "lng": -75.4544
+      }
+    },
+    "raw_date_string": "August 12, 2026 7:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Classical Music",
+        "Bell Tower",
+        "Family Friendly",
+        "Picnic-Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
+  },
+  {
+    "id": "discovered_mm_irish_sessions_20260726",
+    "type": "event",
+    "title": "Sunday Irish Traditional Music Session at Molly Maguire’s",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "July 26, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Irish Music",
+        "Traditional",
+        "Acoustic",
+        "Irish Pub",
+        "Sunday Afternoon"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thesession.org/sessions/2793"
+  },
+  {
+    "id": "discovered_mm_irish_sessions_20260802",
+    "type": "event",
+    "title": "Sunday Irish Traditional Music Session at Molly Maguire’s",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "August 2, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Irish Music",
+        "Traditional",
+        "Acoustic",
+        "Irish Pub",
+        "Sunday Afternoon"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thesession.org/sessions/2793"
+  },
+  {
+    "id": "discovered_mm_irish_sessions_20260809",
+    "type": "event",
+    "title": "Sunday Irish Traditional Music Session at Molly Maguire’s",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "August 9, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Irish Music",
+        "Traditional",
+        "Acoustic",
+        "Irish Pub",
+        "Sunday Afternoon"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thesession.org/sessions/2793"
   }
 ]
