@@ -402,6 +402,7 @@
         </div>
 
         <div id="today-highlight-container" class="max-w-7xl mx-auto px-4 pt-4 w-full"></div>
+        <div id="weekend-weather" class="hidden max-w-2xl mx-auto px-4 pt-3 w-full text-xs text-slate-500 flex items-center gap-2 flex-wrap"></div>
         <div id="content-area" class="max-w-7xl mx-auto p-4 w-full flex-grow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
     </div>
@@ -534,10 +535,14 @@
             updateTabButtons();
             renderContent();
             renderChips();
-            // Show today highlight only on events tab
+            // Today highlight and weather strip only make sense on the events tab
             const todayContainer = document.getElementById('today-highlight-container');
             if (todayContainer) {
                 todayContainer.style.display = tabName === 'events' ? 'block' : 'none';
+            }
+            const weather = document.getElementById('weekend-weather');
+            if (weather) {
+                weather.style.display = tabName === 'events' ? 'flex' : 'none';
             }
         }
         function setCategory(cat) {
@@ -585,7 +590,10 @@
                     (item.tags ? item.tags.join(' ').toLowerCase().includes(query) : false);
                 
                 let matchesCategory;
-                
+
+                if (currentFilter === SAVED_FILTER) {
+                    matchesCategory = favs.has(favKey(item));
+                } else
                 // FOR EVENTS TAB: Filter by date_category field
                 if (currentTab === 'events' && currentFilter === 'This Weekend') {
                     // Weekend = upcoming Fri through Sun (or the current weekend if
@@ -642,6 +650,7 @@
             // FOR EVENTS TAB: Show date filters instead of type filters
             if (currentTab === 'events') {
                 const dateFilters = ['All', 'This Weekend', 'Tomorrow', 'This Week', 'Next Week', 'This Month', 'Later'];
+                if (favs.size) dateFilters.push(SAVED_FILTER);
                 const html = dateFilters.map(filter => `
                     <button onclick="setCategory('${filter}')" 
                         class="px-4 py-2 rounded-full text-xs font-bold transition-all border whitespace-nowrap ${currentFilter === filter ? 'bg-blue-600 text-white border-blue-600 shadow-md transform scale-105' : 'bg-white text-slate-500 border-slate-200 hover:bg-slate-50'}">
@@ -668,7 +677,7 @@
                     .sort((a, b) => b[1] - a[1])
                     .map(([k]) => k)
                     .filter(f => f !== 'BYOB');
-                list = ['All', ...prices, ...(counts.has('BYOB') ? ['BYOB'] : []), ...facets];
+                list = ['All', ...(favs.size ? [SAVED_FILTER] : []), ...prices, ...(counts.has('BYOB') ? ['BYOB'] : []), ...facets];
             } else {
                 // Other tabs: type/tag filters (original behavior)
                 let categories = new Set();
@@ -808,6 +817,7 @@
                     <p class="text-xs text-slate-500 mt-0.5 truncate">${item.loc}${item.type && item.type !== 'Event' ? ' &middot; ' + item.type : ''}</p>
                 </div>
                 <div class="flex gap-1 flex-shrink-0">
+                    ${favBtn(item)}
                     ${dinnerBtn}
                     <button onclick="addToCalendar(${itemJSON}, event)" class="action-btn" aria-label="Add ${safeTitle} to calendar" title="Add to Calendar"><i class="fa-regular fa-calendar-plus" aria-hidden="true"></i></button>
                     <button onclick="shareItem(${itemJSON}, event)" class="action-btn" aria-label="Share ${safeTitle}" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
@@ -881,6 +891,15 @@
                 </details>`;
             }
 
+            // Live calendar subscription (the daily-rebuilt events.ics feed)
+            const webcal = AREA_URL.replace(/^https?/, 'webcal')
+                + (AREA_URL.endsWith('/') ? '' : '/') + 'events.ics';
+            html += `
+                <a href="${webcal}" class="flex items-center justify-center gap-2 mt-4 mb-2 py-3 rounded-xl border border-slate-200 bg-white text-slate-600 text-sm font-bold hover:bg-slate-50 transition-colors">
+                    <i class="fa-regular fa-calendar-check text-blue-600" aria-hidden="true"></i>
+                    Subscribe in your calendar app &mdash; updates automatically
+                </a>`;
+
             container.innerHTML = html;
         }
 
@@ -944,7 +963,7 @@
                                 <div class="flex flex-wrap gap-1 min-w-0">${(item.vibes || []).slice(0, 3).map(v =>
                                     `<span class="text-[10px] bg-slate-50 text-slate-500 px-2 py-1 rounded border border-slate-200 font-bold whitespace-nowrap">${v}</span>`
                                 ).join('')}</div>
-                                <div class="flex gap-1 flex-shrink-0">${shareBtn}</div>
+                                <div class="flex gap-1 flex-shrink-0">${favBtn(item)}${shareBtn}</div>
                             </div>
                         </div>
                     </div>`;
@@ -1088,7 +1107,7 @@
             const shareData = {
                 title: item.title,
                 text: text + '\n\nFound on LocalSpot',
-                url: item.link || 'https://localspothq.com'
+                url: deepLink(item)
             };
 
             if (navigator.share) {
@@ -1188,12 +1207,83 @@
             container.innerHTML = html;
         }
 
+        // --- FAVORITES: localStorage hearts + a "Saved" filter chip ---
+        const SAVED_FILTER = '♥ Saved';
+        function slugKey(s) { return (s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
+        function favKey(item) { return slugKey(item.title) + (item.date ? '@' + slugKey(item.date) : ''); }
+        let favs = new Set(JSON.parse(localStorage.getItem('ls_favs') || '[]'));
+
+        function toggleFav(key, e) {
+            if (e) e.stopPropagation();
+            favs.has(key) ? favs.delete(key) : favs.add(key);
+            localStorage.setItem('ls_favs', JSON.stringify([...favs]));
+            if (!favs.size && currentFilter === SAVED_FILTER) currentFilter = 'All';
+            renderChips();
+            renderContent();
+        }
+
+        function favBtn(item) {
+            const key = favKey(item);
+            const on = favs.has(key);
+            return `<button onclick="toggleFav('${key}', event)" class="action-btn${on ? ' text-rose-500' : ''}" aria-label="${on ? 'Remove from saved' : 'Save'}" title="${on ? 'Saved' : 'Save'}"><i class="fa-${on ? 'solid' : 'regular'} fa-heart" aria-hidden="true"></i></button>`;
+        }
+
+        // --- DEEP LINKS: #event=slug / #dining=slug ---
+        const AREA_URL = (document.querySelector('link[rel="canonical"]') || {}).href
+            || (location.origin + location.pathname);
+
+        function deepLink(item) {
+            return AREA_URL + '#' + (item.date ? 'event' : 'dining') + '=' + slugKey(item.title);
+        }
+
+        function openFromHash() {
+            const m = location.hash.match(/^#(event|dining)=([a-z0-9-]+)/);
+            if (!m) return;
+            const pool = m[1] === 'event' ? eventsData : diningData;
+            const item = pool.find(x => slugKey(x.title) === m[2]);
+            if (!item) return;
+            if (m[1] === 'dining' && currentTab !== 'dining') { switchTab('dining'); }
+            const input = document.getElementById('searchInput');
+            if (input) input.value = item.title;
+            renderContent();
+        }
+
+        // --- WEEKEND WEATHER: Open-Meteo, keyless; purely decorative so any
+        // failure (offline, API change, unknown area name) just stays hidden ---
+        async function loadWeekendWeather() {
+            try {
+                const geo = await (await fetch('https://geocoding-api.open-meteo.com/v1/search?name='
+                    + encodeURIComponent('{{AREA_NAME}}') + '&count=1&countryCode=US')).json();
+                const spot = geo.results && geo.results[0];
+                if (!spot) return;
+                const wx = await (await fetch('https://api.open-meteo.com/v1/forecast?latitude=' + spot.latitude
+                    + '&longitude=' + spot.longitude
+                    + '&daily=weathercode,temperature_2m_max&temperature_unit=fahrenheit&timezone=auto&forecast_days=7')).json();
+                const icon = c => c <= 1 ? '☀️' : c <= 3 ? '⛅' : c <= 48 ? '🌫️'
+                    : c <= 67 ? '🌧️' : c <= 77 ? '🌨️' : c <= 82 ? '🌦️' : '⛈️';
+                const wknd = wx.daily.time
+                    .map((t, i) => ({ d: new Date(t + 'T12:00:00'), code: wx.daily.weathercode[i], hi: Math.round(wx.daily.temperature_2m_max[i]) }))
+                    .filter(x => [5, 6, 0].includes(x.d.getDay()))
+                    .slice(0, 3);
+                if (!wknd.length) return;
+                const el = document.getElementById('weekend-weather');
+                if (!el) return;
+                el.innerHTML = '<i class="fa-solid fa-cloud-sun text-blue-500" aria-hidden="true"></i>'
+                    + '<span class="font-bold text-slate-600">This weekend:</span> '
+                    + wknd.map(x => `<span class="whitespace-nowrap font-semibold">${x.d.toLocaleDateString('en-US', { weekday: 'short' })} ${icon(x.code)} ${x.hi}°</span>`).join('<span class="text-slate-300">&middot;</span>');
+                el.classList.remove('hidden');
+            } catch (err) { /* decoration only */ }
+        }
+
         // --- INIT ---
         // renderContent() intentionally NOT called here — postprocess.py injects a
         // DOMContentLoaded handler that calls it once the DOM is ready. Calling it
         // here too caused double-rendering (see console logs).
         renderChips();
         renderTodayHighlight();
+        openFromHash();
+        window.addEventListener('hashchange', openFromHash);
+        loadWeekendWeather();
         
         // Render Discover tab with Activities and Curated Plans sections
         function renderDiscoverTab(container, activities) {
