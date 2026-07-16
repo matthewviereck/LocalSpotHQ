@@ -1,5 +1,28 @@
 import re
 import os
+import shutil
+
+TAILWIND_CDN_TAG = '<script src="https://cdn.tailwindcss.com"></script>'
+PREBUILT_CSS = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'assets', 'app.css')
+
+
+def swap_tailwind_cdn(html, output_dir):
+    """Replace the Tailwind CDN JIT compiler (a large render-blocking script
+    that compiles CSS in the browser on every visit) with the prebuilt static
+    stylesheet from assets/app.css. Pipeline builds only - the PHP builder
+    keeps the CDN tag until cutover. Regenerate the CSS after template edits:
+        npx tailwindcss@3.4.17 --content templates/app_template.html -o assets/app.css --minify
+    """
+    if TAILWIND_CDN_TAG not in html:
+        print("   WARNING: Tailwind CDN tag not found; leaving as-is")
+        return html
+    if not os.path.exists(PREBUILT_CSS):
+        print("   WARNING: assets/app.css missing; keeping Tailwind CDN")
+        return html
+    shutil.copy(PREBUILT_CSS, os.path.join(output_dir, 'app.css'))
+    print("   Tailwind CDN swapped for prebuilt app.css")
+    return html.replace(TAILWIND_CDN_TAG, '<link rel="stylesheet" href="app.css">', 1)
 
 
 def remove_landing_page(input_file, output_file):
@@ -66,7 +89,11 @@ def remove_landing_page(input_file, output_file):
         print("   WARNING: Could not find </body>; appending auto-load script at end")
         html += auto_load_script
 
-    # 4. Save
+    # 4. Prebuilt CSS instead of the in-browser Tailwind compiler
+    print(">> Swapping Tailwind CDN for prebuilt CSS...")
+    html = swap_tailwind_cdn(html, os.path.dirname(output_file) or '.')
+
+    # 5. Save
     os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(html)

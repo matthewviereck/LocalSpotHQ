@@ -44,6 +44,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Prebuild Tailwind CSS
+        # Regenerated every run so the committed assets/app.css fallback can
+        # never drift from the template's classes
+        run: npx --yes tailwindcss@3.4.17 --content templates/app_template.html -o assets/app.css --minify
+
       - name: Build Phoenixville
         run: python pipeline/run.py --area phoenixville
 
