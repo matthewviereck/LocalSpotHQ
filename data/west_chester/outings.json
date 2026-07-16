@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Longwood Gardens",
+    "category": "outdoor",
+    "desc": "World-renowned botanical garden with 1,100 acres of gardens, meadows, and woodlands. Stunning seasonal displays and a spectacular fountain show.",
+    "tags": ["Family", "Outdoor", "Gardens", "Photography"],
+    "price": "$25-30",
+    "img": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=600&q=80",
+    "link": "https://longwoodgardens.org/"
+  },
+  {
+    "title": "Brandywine River Museum of Art",
+    "category": "arts",
+    "desc": "Housed in a converted grist mill, showcasing the Wyeth family art collection and American illustration, landscape, and still life paintings.",
+    "tags": ["Arts", "Indoor", "Museum", "History"],
+    "price": "$18",
+    "img": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.brandywine.org/museum"
+  },
+  {
+    "title": "Stroud Preserve",
+    "category": "outdoor",
+    "desc": "940-acre nature preserve with miles of hiking trails through meadows and woodlands. Great for birding, wildlife watching, and trail running.",
+    "tags": ["Outdoor", "Free", "Hiking", "Nature"],
+    "price": "Free",
+    "img": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80",
+    "link": "https://stroudcenter.org/"
+  },
+  {
+    "title": "Uptown Knauer Performing Arts Center",
+    "category": "arts",
+    "desc": "Downtown West Chester's premier venue for live theater, music, dance, comedy, and film in a beautifully restored historic building.",
+    "tags": ["Arts", "Indoor", "Live Music", "Theatre"],
+    "price": "Varies",
+    "img": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=600&q=80",
+    "link": "https://uptownwestchester.org/"
+  },
+  {
+    "title": "Chester County History Center",
+    "category": "arts",
+    "desc": "Interactive museum exploring Chester County's rich history from colonial times to today, with rotating exhibits and a research library.",
+    "tags": ["Indoor", "History", "Museum", "Family"],
+    "price": "$10",
+    "img": "https://images.unsplash.com/photo-1564399580075-5dfe19c205f0?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.chestercohistorical.org/"
+  },
+  {
+    "title": "Downtown West Chester Shopping",
+    "category": "indoor",
+    "desc": "Walkable downtown packed with boutiques, antique shops, bookstores, and specialty stores along Gay Street, Market Street, and Church Street.",
+    "tags": ["Shopping", "Indoor", "Boutiques", "Walkable"],
+    "price": "Free to browse",
+    "img": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.downtownwestchester.com/"
+  },
+  {
+    "title": "QVC Studio Tour",
+    "category": "indoor",
+    "desc": "Tour the QVC broadcasting studios in West Chester and see behind the scenes of live television shopping. Free tours available.",
+    "tags": ["Indoor", "Free", "Family", "Unique"],
+    "price": "Free",
+    "img": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.qvc.com/content/about-qvc/studio-tour.html"
+  },
+  {
+    "title": "Brandywine Creek State Park",
+    "category": "outdoor",
+    "desc": "Beautiful state park with 12+ miles of trails through forests and meadows along Brandywine Creek. Great for hiking, fishing, and cross-country skiing.",
+    "tags": ["Outdoor", "Free", "Hiking", "Nature", "Family"],
+    "price": "Free",
+    "img": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.destateparks.com/BrandywineCreek"
+  },
+  {
+    "title": "American Helicopter Museum",
+    "category": "indoor",
+    "desc": "The largest helicopter museum in the country, featuring 35+ aircraft and interactive exhibits. Helicopter rides available seasonally.",
+    "tags": ["Indoor", "Family", "Museum", "Aviation"],
+    "price": "$12",
+    "img": "https://images.unsplash.com/photo-1534786676903-e8aa915f0dba?auto=format&fit=crop&w=600&q=80",
+    "link": "https://americanhelicopter.museum/"
+  },
+  {
+    "title": "West Chester University Campus Walk",
+    "category": "outdoor",
+    "desc": "Stroll through the beautiful WCU campus with its mix of historic and modern architecture, public art installations, and the S. Quad green space.",
+    "tags": ["Outdoor", "Free", "Walkable", "Photography"],
+    "price": "Free",
+    "img": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.wcupa.edu/"
+  },
+  {
+    "title": "Chadds Ford Winery",
+    "category": "indoor",
+    "desc": "Family-owned winery offering tastings of award-winning wines in a rustic barn setting with a view of the Brandywine Valley.",
+    "tags": ["Indoor", "Wine", "Date Night", "Adults"],
+    "price": "$15 tasting",
+    "img": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.chaddsford.com/"
+  },
+  {
+    "title": "West Chester Railroad",
+    "category": "outdoor",
+    "desc": "Heritage railroad offering scenic 90-minute train rides through Chester County countryside. Special themed rides for holidays.",
+    "tags": ["Family", "Outdoor", "Unique", "Kids"],
+    "price": "$15-25",
+    "img": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.westchesterrr.net/"
+  },
+  {
+    "title": "Everhart Park",
+    "category": "outdoor",
+    "desc": "West Chester's beloved town park with a playground, tennis courts, open fields, walking paths, and a bandshell for summer concerts.",
+    "tags": ["Outdoor", "Free", "Family", "Kids", "Park"],
+    "price": "Free",
+    "img": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?auto=format&fit=crop&w=600&q=80",
+    "link": "https://west-chester.com/139/Parks-Recreation"
+  },
+  {
+    "title": "Escape Room West Chester",
+    "category": "indoor",
+    "desc": "Immersive escape room experiences with multiple themed rooms. Great for team building, date nights, or friend outings.",
+    "tags": ["Indoor", "Group Activity", "Fun", "Date Night"],
+    "price": "$30/person",
+    "img": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.escaperoomwestchester.com/"
+  },
+  {
+    "title": "Craft Beer Trail",
+    "category": "indoor",
+    "desc": "Hit West Chester's craft breweries — Sterling Pig, Iron Hill, Artillery Brewing, and Bierhaul — all within walking distance downtown.",
+    "tags": ["Adults", "Indoor", "Craft Beer", "Walkable"],
+    "price": "$$",
+    "img": "https://images.unsplash.com/photo-1535958636474-b021ee887b13?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.downtownwestchester.com/"
+  },
+  {
+    "title": "West Chester Public Library",
+    "category": "indoor",
+    "desc": "Historic public library hosting regular book discussions, art exhibits, children's story times, and community programs.",
+    "tags": ["Indoor", "Free", "Family", "Books"],
+    "price": "Free",
+    "img": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.wcpubliclibrary.org/"
+  },
+  {
+    "title": "Hagley Museum & Library",
+    "category": "arts",
+    "desc": "The original DuPont gunpowder works along the Brandywine River. Explore 235 acres of gardens, a workers' community, and the du Pont ancestral home.",
+    "tags": ["Outdoor", "History", "Museum", "Family"],
+    "price": "$15",
+    "img": "https://images.unsplash.com/photo-1565402170291-8491f14678db?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.hagley.org/"
+  },
+  {
+    "title": "Winterthur Museum & Gardens",
+    "category": "arts",
+    "desc": "Henry Francis du Pont's former estate with the premier collection of American decorative arts and a stunning 1,000-acre naturalistic garden.",
+    "tags": ["Arts", "Outdoor", "Museum", "Gardens"],
+    "price": "$22",
+    "img": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=600&q=80",
+    "link": "https://www.winterthur.org/"
+  }
+]

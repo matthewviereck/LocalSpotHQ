@@ -1,0 +1,36 @@
+{
+  "id": "west_chester",
+  "name": "West Chester",
+  "slug": "west-chester",
+  "tagline": "West Chester \u2022 Downtown \u2022 Brandywine Valley",
+  "meta": {
+    "title": "LocalSpot - West Chester Events, Dining & Activities",
+    "description": "Your guide to events, restaurants, and things to do in West Chester PA and the Brandywine Valley.",
+    "keywords": "West Chester events, West Chester restaurants, things to do West Chester PA, downtown West Chester, Brandywine Valley",
+    "og_image": "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?auto=format&fit=crop&w=1200&q=80",
+    "canonical_url": "https://www.localspothq.com/west-chester/"
+  },
+  "scrapers": [
+    {
+      "module": "scrapers.uptown_knauer",
+      "function": "scrape_uptown",
+      "output_file": "scraped/uptown_events.json"
+    }
+  ],
+  "recurring_events": {
+    "config_file": "recurring_events_config.json",
+    "output_file": "recurring_events.json"
+  },
+  "static_data": {
+    "dining": "dining.json",
+    "outings": "outings.json",
+    "plans": "plans.json"
+  },
+  "merge_sources": [
+    "scraped/uptown_events.json",
+    "recurring_events.json"
+  ],
+  "deploy": {
+    "remote_path": "west-chester/index.html"
+  }
+}

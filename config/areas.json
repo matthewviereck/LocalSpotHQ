@@ -10,7 +10,7 @@
       "id": "west_chester",
       "name": "West Chester",
       "slug": "west-chester",
-      "enabled": false
+      "enabled": true
     }
   ]
 }

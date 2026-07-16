@@ -1,0 +1,119 @@
+{
+  "events": [
+    {
+      "type": "weekly",
+      "id_prefix": "wc_growers_market",
+      "title": "West Chester Growers Market",
+      "venue": "Chestnut & Church Streets",
+      "location": {"lat": 39.9594, "lng": -75.6059},
+      "category": "Farmers Market",
+      "vibes": ["Family Friendly", "Outdoor", "Local", "Farm Fresh"],
+      "price": "Free Entry",
+      "start_date": "2026-04-04",
+      "end_date": "2026-11-21",
+      "seasons": [
+        {"months": [4, 5, 6, 7, 8, 9, 10, 11], "time": "9am-1pm"}
+      ],
+      "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80",
+      "link": "https://westchestergrowersmarket.com/"
+    },
+    {
+      "type": "monthly",
+      "id_prefix": "wc_first_friday",
+      "title_template": "First Friday Summer Concert - {month_name}",
+      "venue": "Downtown West Chester",
+      "location": {"lat": 39.9601, "lng": -75.6055},
+      "category": "Community Event",
+      "vibes": ["Family Friendly", "Live Music", "Outdoor", "Free"],
+      "price": "Free",
+      "time": "6pm-9pm",
+      "dates": [
+        "2026-06-05",
+        "2026-07-03",
+        "2026-08-07",
+        "2026-09-04"
+      ],
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80",
+      "link": "https://www.downtownwestchester.com/events/"
+    },
+    {
+      "type": "festival",
+      "id_prefix": "turks_head",
+      "title": "Turks Head Music Festival",
+      "venue": "Everhart Park",
+      "location": {"lat": 39.9567, "lng": -75.6109},
+      "category": "Festival",
+      "vibes": ["Family Friendly", "Live Music", "Outdoor", "Vendors", "Free"],
+      "price": "Free Admission",
+      "days": [
+        {"date": "2026-06-07", "title": "Turks Head Music Festival", "time": "11am-7pm"}
+      ],
+      "image": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=600&q=80",
+      "link": "https://turksheadfestival.com/"
+    },
+    {
+      "type": "festival",
+      "id_prefix": "wc_chili",
+      "title": "West Chester Chili Cook-Off",
+      "venue": "Gay Street, Downtown",
+      "location": {"lat": 39.9601, "lng": -75.6055},
+      "category": "Festival",
+      "vibes": ["Family Friendly", "Food & Drink", "Competition", "Outdoor"],
+      "price": "$10-15",
+      "days": [
+        {"date": "2026-10-04", "title": "West Chester Chili Cook-Off", "time": "12pm-4pm"}
+      ],
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80",
+      "link": "https://westchesterchilicookoff.com/"
+    },
+    {
+      "type": "festival",
+      "id_prefix": "wc_halloween",
+      "title": "West Chester Halloween Parade",
+      "venue": "Downtown West Chester",
+      "location": {"lat": 39.9601, "lng": -75.6055},
+      "category": "Community Event",
+      "vibes": ["Family Friendly", "Parade", "Costumes", "Halloween"],
+      "price": "Free",
+      "days": [
+        {"date": "2026-10-25", "title": "West Chester Halloween Parade", "time": "1pm"}
+      ],
+      "image": "https://images.unsplash.com/photo-1509557965875-b88c97052f0e?auto=format&fit=crop&w=600&q=80",
+      "link": "https://west-chester.com/370/Events"
+    },
+    {
+      "type": "festival",
+      "id_prefix": "wc_christmas",
+      "title": "Lights Up! Christmas Parade",
+      "venue": "Downtown West Chester",
+      "location": {"lat": 39.9601, "lng": -75.6055},
+      "category": "Community Event",
+      "vibes": ["Family Friendly", "Holiday", "Parade", "Tree Lighting"],
+      "price": "Free",
+      "days": [
+        {"date": "2026-12-04", "title": "Lights Up! Christmas Parade & Tree Lighting", "time": "Evening"}
+      ],
+      "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?auto=format&fit=crop&w=600&q=80",
+      "link": "https://www.greaterwestchester.com/lightsupchristmasparade.html"
+    },
+    {
+      "type": "festival",
+      "id_prefix": "wc_open_air",
+      "title": "Gay Street Open-Air Market",
+      "venue": "Gay Street (Matlack to Darlington)",
+      "location": {"lat": 39.9601, "lng": -75.6055},
+      "category": "Market",
+      "vibes": ["Outdoor", "Shopping", "Food & Drink", "Weekend"],
+      "price": "Free",
+      "days": [
+        {"date": "2026-05-03", "title": "Gay Street Open-Air Market Opening Weekend", "time": "All Weekend"},
+        {"date": "2026-06-07", "title": "Gay Street Open-Air Market", "time": "All Weekend"},
+        {"date": "2026-07-05", "title": "Gay Street Open-Air Market", "time": "All Weekend"},
+        {"date": "2026-08-02", "title": "Gay Street Open-Air Market", "time": "All Weekend"},
+        {"date": "2026-09-06", "title": "Gay Street Open-Air Market", "time": "All Weekend"}
+      ],
+      "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
+      "link": "https://www.downtownwestchester.com/openairmarket/"
+    }
+  ]
+}

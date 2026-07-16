@@ -1,0 +1,125 @@
+[
+  {
+    "title": "Romantic Date Night",
+    "desc": "The classic West Chester date night — cocktails, a world-class dinner, and a show.",
+    "duration": "Evening",
+    "tags": ["Night Out", "West Chester"],
+    "img": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80",
+    "steps": [
+      {"title": "Cocktails at Bar Avalon", "desc": "Start with craft cocktails in the stylish lounge. The seasonal menu always has something creative.", "link": "https://www.baravalon.com/"},
+      {"title": "Dinner at Andiario", "desc": "West Chester's crown jewel — a New York Times 'Best Restaurant' with a seasonal tasting-style menu. Reservations essential.", "link": "https://www.andiario.com/"},
+      {"title": "Show at Uptown Knauer", "desc": "Catch a live performance — theater, music, or comedy — at the beautifully restored performing arts center.", "link": "https://uptownwestchester.org/"}
+    ]
+  },
+  {
+    "title": "Downtown Walking Tour",
+    "desc": "Experience the best of downtown West Chester on foot. Coffee, shops, and a great lunch.",
+    "duration": "Half Day",
+    "tags": ["Relaxed", "West Chester"],
+    "img": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=600&q=80",
+    "steps": [
+      {"title": "Coffee at Roots Cafe", "desc": "Start with a quality latte and a pastry at this cozy, health-conscious cafe.", "link": "https://www.rootscafewc.com/"},
+      {"title": "Browse Gay Street Shops", "desc": "Walk Gay Street and pop into the boutiques, vintage shops, and local stores.", "link": "https://www.downtownwestchester.com/"},
+      {"title": "Lunch at Carlino's", "desc": "Italian market and deli with incredible sandwiches, prepared foods, and imported goods to take home.", "link": "https://www.carlinosmarket.com/"},
+      {"title": "Chester County History Center", "desc": "Wrap up with an hour exploring Chester County's fascinating history.", "link": "https://www.chestercohistorical.org/"}
+    ]
+  },
+  {
+    "title": "BYOB Night",
+    "desc": "West Chester is famous for its BYOB restaurants. Grab a bottle and enjoy a no-corkage-fee dinner.",
+    "duration": "Evening",
+    "tags": ["Night Out", "West Chester", "BYOB"],
+    "img": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=600&q=80",
+    "steps": [
+      {"title": "Pick Up Wine", "desc": "Stop by The Wine Merchant on Gay Street for a great bottle recommendation.", "link": ""},
+      {"title": "Dinner at Limoncello", "desc": "Upscale Italian BYOB with handmade pasta and a warm, inviting atmosphere.", "link": "https://www.limoncellorestaurant.com/"},
+      {"title": "Dessert Walk", "desc": "Stroll to Insomnia Cookies or La Bamba for post-dinner treats.", "link": ""}
+    ]
+  },
+  {
+    "title": "Brandywine Valley Art Day",
+    "desc": "A day exploring the incredible art and gardens of the Brandywine Valley.",
+    "duration": "Full Day",
+    "tags": ["Arts", "Outdoor", "Brandywine Valley"],
+    "img": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=600&q=80",
+    "steps": [
+      {"title": "Brandywine River Museum", "desc": "Start with the Wyeth family collection and American illustration masterpieces in a gorgeous converted mill.", "link": "https://www.brandywine.org/museum"},
+      {"title": "Lunch at Terrain Cafe", "desc": "Stunning farm-to-table restaurant inside a garden center. The ambiance alone is worth it.", "link": "https://www.shopterrain.com/terrain-cafe"},
+      {"title": "Longwood Gardens", "desc": "Spend the afternoon exploring 1,100 acres of world-class gardens, conservatories, and the fountain show.", "link": "https://longwoodgardens.org/"}
+    ]
+  },
+  {
+    "title": "Craft Beer Crawl",
+    "desc": "Hit West Chester's best breweries and beer spots — all walkable in downtown.",
+    "duration": "Afternoon/Evening",
+    "tags": ["Night Out", "West Chester", "Craft Beer"],
+    "img": "https://images.unsplash.com/photo-1535958636474-b021ee887b13?auto=format&fit=crop&w=600&q=80",
+    "steps": [
+      {"title": "Start at Sterling Pig", "desc": "Award-winning brewery with a great tap list and solid pub food.", "link": "https://sterlingpig.com/"},
+      {"title": "Iron Hill Brewery", "desc": "The OG West Chester brewpub. Try a flight of their rotating seasonal beers.", "link": "https://www.ironhillbrewery.com/west-chester"},
+      {"title": "Artillery Brewing", "desc": "Laid-back taproom with unique small-batch brews and a good vibe.", "link": "https://www.artillerybrewing.com/"},
+      {"title": "Finish at Bierhaul", "desc": "German-inspired beer hall with pretzels, brats, and an impressive draft list.", "link": ""}
+    ]
+  },
+  {
+    "title": "Family Fun Day",
+    "desc": "A full day of kid-friendly activities around West Chester.",
+    "duration": "Full Day",
+    "tags": ["Family", "Kids", "West Chester"],
+    "img": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?auto=format&fit=crop&w=600&q=80",
+    "steps": [
+      {"title": "Everhart Park", "desc": "Start with the playground, open fields, and walking paths. Pack some snacks.", "link": "https://west-chester.com/139/Parks-Recreation"},
+      {"title": "American Helicopter Museum", "desc": "Kids love the 35+ helicopters and interactive exhibits. Helicopter rides available seasonally!", "link": "https://americanhelicopter.museum/"},
+      {"title": "Lunch at Mas Mexicali", "desc": "Family-friendly with a fun atmosphere, great tacos, and a kids menu.", "link": "https://masmexicali.com/"},
+      {"title": "West Chester Railroad", "desc": "Wrap up with a 90-minute scenic train ride through the Chester County countryside.", "link": "https://www.westchesterrr.net/"}
+    ]
+  },
+  {
+    "title": "Dog Walk & Brunch",
+    "desc": "A perfect morning with your pup — trails, outdoor dining, and good vibes.",
+    "duration": "Morning",
+    "tags": ["Dog Friendly", "West Chester", "Outdoor"],
+    "img": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=600&q=80",
+    "steps": [
+      {"title": "Hike Stroud Preserve", "desc": "940 acres of dog-friendly trails through meadows and forests. Leash required.", "link": "https://stroudcenter.org/"},
+      {"title": "Brunch at Stove & Tap", "desc": "Head to Stove & Tap for their excellent brunch menu. Outdoor patio seating is dog-friendly.", "link": "https://www.stoveandtap.com/"}
+    ]
+  },
+  {
+    "title": "Girls' Day Out",
+    "desc": "Shopping, wine, and a great dinner — the perfect WC ladies' day.",
+    "duration": "Afternoon + Evening",
+    "tags": ["Night Out", "West Chester", "Shopping"],
+    "img": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=600&q=80",
+    "steps": [
+      {"title": "Downtown Boutique Shopping", "desc": "Browse the unique boutiques along Gay Street and Church Street.", "link": "https://www.downtownwestchester.com/"},
+      {"title": "Wine Tasting at Chadds Ford", "desc": "Drive 10 minutes to Chadds Ford Winery for a tasting in the barn.", "link": "https://www.chaddsford.com/"},
+      {"title": "Dinner at Mercato", "desc": "End the day with handmade pasta and Italian wines at Mercato Ristorante.", "link": "https://www.mercatoristorante.com/"}
+    ]
+  },
+  {
+    "title": "History Buff Day",
+    "desc": "Explore centuries of American history in the Brandywine Valley.",
+    "duration": "Full Day",
+    "tags": ["History", "Brandywine Valley", "Indoor"],
+    "img": "https://images.unsplash.com/photo-1565402170291-8491f14678db?auto=format&fit=crop&w=600&q=80",
+    "steps": [
+      {"title": "Chester County History Center", "desc": "Start downtown with interactive exhibits on Chester County's colonial and industrial past.", "link": "https://www.chestercohistorical.org/"},
+      {"title": "Lunch at Pietro's Prime", "desc": "Classic steakhouse lunch in a beautifully restored historic building.", "link": "https://www.pietrosprime.com/"},
+      {"title": "Hagley Museum", "desc": "Explore the original DuPont gunpowder works, workers' village, and du Pont family estate along the Brandywine.", "link": "https://www.hagley.org/"},
+      {"title": "Winterthur Estate", "desc": "End with the premier American decorative arts collection and 1,000 acres of gardens.", "link": "https://www.winterthur.org/"}
+    ]
+  },
+  {
+    "title": "College Town Night Out",
+    "desc": "Experience the WCU college-town energy with affordable eats and fun bars.",
+    "duration": "Evening",
+    "tags": ["Night Out", "West Chester", "Budget"],
+    "img": "https://images.unsplash.com/photo-1575444758702-4a6b9222c016?auto=format&fit=crop&w=600&q=80",
+    "steps": [
+      {"title": "Tacos at La Bamba", "desc": "Cheap, delicious BYOB Mexican — a West Chester institution.", "link": ""},
+      {"title": "Drinks at Kildare's", "desc": "Classic Irish pub with a great atmosphere, live music, and a rooftop deck.", "link": "https://www.kildaresirishpub.com/west-chester"},
+      {"title": "Late Night at Side Bar", "desc": "Good music, good drinks, and a lively late-night crowd.", "link": "https://www.sidebarrestaurant.com/"}
+    ]
+  }
+]

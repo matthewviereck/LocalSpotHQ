@@ -1,0 +1,746 @@
+[
+  {
+    "id": "upt_848142427001605786",
+    "type": "event",
+    "title": "The Last Five Years",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "April 17",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/04/up-the-last-five-years-revival-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_6835825574553250497",
+    "type": "event",
+    "title": "West Chester Film Festival",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "April 24",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2026/02/up-wcff-2026-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_2866181200016826239",
+    "type": "event",
+    "title": "Dueling Pianos with The Philly Keys",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 11",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2026/01/up-philly-keys-tile-2.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_89222169576224286",
+    "type": "event",
+    "title": "Better Than Bacon – March 2026",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 20",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/07/up-better-than-bacon-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_7239810028506169468",
+    "type": "event",
+    "title": "Seamus Kennedy In Concert",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 15",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/12/up-seamus-kennedy-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_6067655036602534550",
+    "type": "event",
+    "title": "Ned Kelly",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 16",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2026/01/up-ned-kelly-2003-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_867372427155744077",
+    "type": "event",
+    "title": "Whiskey Rovers: Irish Music with a Kick",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 17",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2026/01/up-whiskey-rovers-2026.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_2146875988311051684",
+    "type": "event",
+    "title": "Jazz Cocktail Hour – V. Shayne Frederick’s Treasures",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 19",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2026/01/up-v-shayne-frederick-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_2989210068513422414",
+    "type": "event",
+    "title": "Andy Gross: Are You Kidding Me?",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 20",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/10/up-andy-gross-2026-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_6096099825794490150",
+    "type": "event",
+    "title": "Classic Stones Live",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 21",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/10/up-classic-stones-live-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_7519437662616679091",
+    "type": "event",
+    "title": "Masterworks 2: Songs Without Borders",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 22",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/10/up-brandywine-valley-symphony-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_3055617539367528628",
+    "type": "event",
+    "title": "Singin’ in the Rain",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 23",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2026/01/up-singing-in-the-rain-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_7344910409656978943",
+    "type": "event",
+    "title": "Music & Pop Culture Trivia Night",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 25",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/09/us-trivia-night-2026-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_2987501679766543369",
+    "type": "event",
+    "title": "The Laugh Lounge March 2026",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 20",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2024/03/laugh-lounge-at-uptown.png"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_4641282903909626150",
+    "type": "event",
+    "title": "Mamma Mania!",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 27",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/07/up-mamma-mania-abba-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_6559225191872375579",
+    "type": "event",
+    "title": "In Pursuit – West Chester Dance Works Spring Concert and Fundraiser",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "March 29",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2026/02/up-wcdw-spring-concert-2026-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_9149758004543955188",
+    "type": "event",
+    "title": "Fooz Fighters",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "April 3",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2026/01/up-fooz-fighters-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_5838919672859034605",
+    "type": "event",
+    "title": "Gabby Felix’s Senior Recital – Love & War (& School)",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "April 9",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/05/up-gabby-felix-love-and-war-and-school-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_8533478701176294925",
+    "type": "event",
+    "title": "Listening In! presents “From my Life” – Stories in Music and Words",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "April 10",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/10/up-listening-in-friday-dreams-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_8087353229298013969",
+    "type": "event",
+    "title": "Listening In! Family Concert: “From My Life”",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "April 11",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/10/up-listening-in-saturday-dreams-family-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_4656277542751736875",
+    "type": "event",
+    "title": "Caro Pierotto Rooted in Rhythm",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "April 11",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/07/up-caro-pierotto-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_1882179321088910893",
+    "type": "event",
+    "title": "John Jorgenson Bluegrass Band",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "April 12",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/07/up-j2b2-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_5947209621823203567",
+    "type": "event",
+    "title": "Jazz Cocktail Hour – Songs of Peace Hope and Healing",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "July 20",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2026/02/up-denise-king-2026-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_2866181200016826239",
+    "type": "event",
+    "title": "Dueling Pianos with The Philly Keys",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "April 29",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2026/01/up-philly-keys-tile-2.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_5974940727805095455",
+    "type": "event",
+    "title": "The Laugh Lounge April 2026",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "April 20",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2024/03/laugh-lounge-at-uptown.png"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_550487094177190994",
+    "type": "event",
+    "title": "Willy Wonka Jr.",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "May 1",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/11/us-willy-wonka-jr-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_7649201549175694353",
+    "type": "event",
+    "title": "Dan Tyminski Solo",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "May 7",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/11/up-dan-tyminski-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_1722846442725632941",
+    "type": "event",
+    "title": "The Prom",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "May 15",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2025/11/us-the-prom-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_7634269330955040585",
+    "type": "event",
+    "title": "Secretariat",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "May 18",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2026/01/up-secretariat-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_381399789624559659",
+    "type": "event",
+    "title": "One Alternative",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "May 21",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2026/02/up-one-alternative-tile.jpg"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  },
+  {
+    "id": "upt_6222352607591542254",
+    "type": "event",
+    "title": "The Laugh Lounge May 2026",
+    "venue_info": {
+      "name": "Uptown Knauer Performing Arts Center",
+      "location": {
+        "lat": 39.9607,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "May 20",
+    "attributes": {
+      "category": "Event",
+      "vibes": [
+        "Event",
+        "Performing Arts"
+      ]
+    },
+    "media": {
+      "image": "https://uptownwestchester.org/wp-content/uploads/2024/03/laugh-lounge-at-uptown.png"
+    },
+    "action_link": "https://ci.ovationtix.com/36886/store/giftCard"
+  }
+]

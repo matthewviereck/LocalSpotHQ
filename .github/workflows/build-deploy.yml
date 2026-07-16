@@ -1,16 +1,19 @@
-# Parallel-run replacement for the Hostinger PHP cron (deploy/auto_update.php).
-# Builds the site with the Python pipeline and deploys it to a beta directory
-# (public_html/phoenixville-beta/) so it can be compared against production.
+# Daily build/deploy of the LocalSpot areas via the Python pipeline.
 #
-# Cutover plan: once the beta output matches production for a few days, change
-# DEPLOY_DIR below to public_html/phoenixville, disable the hPanel cron, and
-# delete deploy/auto_update.php.
+# Phoenixville deploys to a beta directory (public_html/phoenixville-beta/)
+# to run in parallel with the legacy Hostinger PHP cron until cutover.
+# Cutover plan: once beta matches production for a few days, change PHX_DIR
+# to public_html/phoenixville, disable the hPanel cron, and delete
+# deploy/auto_update.php (moving send_digest.php to its own Friday cron).
+#
+# West Chester has no PHP builder - this workflow deploys it straight to
+# production (public_html/west-chester/).
 #
 # Required repo secrets: HOSTINGER_SSH_KEY (dedicated deploy key, NOT a
 # personal key), HOSTINGER_HOST, HOSTINGER_USER, HOSTINGER_PORT. Until they
 # are set, the deploy step skips itself and the run only validates the build.
 
-name: Build and deploy Phoenixville
+name: Build and deploy areas
 
 on:
   schedule:
@@ -25,7 +28,8 @@ env:
   # The pipeline's date math (today/tomorrow/weekend windows) uses local time;
   # runners are UTC by default, which would mislabel events for 4-5 h a day.
   TZ: America/New_York
-  DEPLOY_DIR: domains/localspothq.com/public_html/phoenixville-beta
+  PHX_DIR: domains/localspothq.com/public_html/phoenixville-beta
+  WC_DIR: domains/localspothq.com/public_html/west-chester
 
 jobs:
   build-deploy:
@@ -40,21 +44,28 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Build site
+      - name: Build Phoenixville
         run: python pipeline/run.py --area phoenixville
+
+      - name: Build West Chester
+        run: python pipeline/run.py --area west_chester
 
       - name: Verify build output
         run: |
           test -s output/phoenixville/index.html
           test -s output/phoenixville/this-weekend/index.html
           test -s output/phoenixville/events.ics
+          test -s output/west_chester/index.html
           # Refuse to ship a gutted build (e.g. every scraper failed and the
-          # committed fallbacks were missing).
+          # committed fallbacks were missing). West Chester has one scraper
+          # plus recurring events, so its floor is lower.
           python -c "
           import json
-          events = json.load(open('data/phoenixville/generated/events_formatted.json', encoding='utf-8'))
-          assert len(events) >= 20, f'only {len(events)} events - refusing to deploy'
-          print(f'{len(events)} events in build')
+          phx = json.load(open('data/phoenixville/generated/events_formatted.json', encoding='utf-8'))
+          wc = json.load(open('data/west_chester/generated/events_formatted.json', encoding='utf-8'))
+          assert len(phx) >= 20, f'Phoenixville: only {len(phx)} events - refusing to deploy'
+          assert len(wc) >= 8, f'West Chester: only {len(wc)} events - refusing to deploy'
+          print(f'Phoenixville: {len(phx)} events | West Chester: {len(wc)} events')
           " | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Deploy to Hostinger
@@ -73,17 +84,26 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -p "$PORT" "$HOST" >> ~/.ssh/known_hosts 2>/dev/null
           RSH="ssh -p $PORT -i $HOME/.ssh/deploy_key"
-          $RSH "$DEPLOY_USER@$HOST" "mkdir -p ~/$DEPLOY_DIR"
-          rsync -rtz --delete -e "$RSH" output/phoenixville/ "$DEPLOY_USER@$HOST:$DEPLOY_DIR/"
+          DOCROOT="${PHX_DIR%/*}"
+
+          # Phoenixville -> beta dir (parallel run with the PHP cron)
+          $RSH "$DEPLOY_USER@$HOST" "mkdir -p ~/$PHX_DIR ~/$WC_DIR"
+          rsync -rtz --delete -e "$RSH" output/phoenixville/ "$DEPLOY_USER@$HOST:$PHX_DIR/"
+
+          # West Chester -> production (no other builder exists for it)
+          rsync -rtz --delete -e "$RSH" output/west_chester/ "$DEPLOY_USER@$HOST:$WC_DIR/"
+
           # The signup form POSTs to /subscribe.php at the site root
-          rsync -tz -e "$RSH" web/subscribe.php "$DEPLOY_USER@$HOST:${DEPLOY_DIR%/*}/subscribe.php"
-          # PWA assets into the PRODUCTION app dir too: the PHP cron build
-          # doesn't emit them, and the shared template links them relatively.
-          # (Additive only - the PHP deploy never deletes sibling files.)
+          rsync -tz -e "$RSH" web/subscribe.php "$DEPLOY_USER@$HOST:$DOCROOT/subscribe.php"
+
+          # PWA assets into the PRODUCTION phoenixville dir too: the PHP cron
+          # build doesn't emit them, and the shared template links them
+          # relatively. (Additive only - the PHP deploy never deletes files.)
           rsync -tz -e "$RSH" output/phoenixville/manifest.webmanifest output/phoenixville/sw.js \
             output/phoenixville/icon-192.png output/phoenixville/icon-512.png output/phoenixville/icon-180.png \
-            "$DEPLOY_USER@$HOST:${DEPLOY_DIR%/*}/phoenixville/"
+            "$DEPLOY_USER@$HOST:$DOCROOT/phoenixville/"
+
           # Subscriber list lives one level above the docroot (never web-served)
           SUBS=$($RSH "$DEPLOY_USER@$HOST" "grep -c '\"email\"' domains/localspothq.com/subscribers.json 2>/dev/null || echo 0")
           echo "Email subscribers: $SUBS" | tee -a "$GITHUB_STEP_SUMMARY"
-          echo "Deployed to https://www.localspothq.com/${DEPLOY_DIR##*/}/" | tee -a "$GITHUB_STEP_SUMMARY"
+          echo "Deployed: https://www.localspothq.com/phoenixville-beta/ and https://www.localspothq.com/west-chester/" | tee -a "$GITHUB_STEP_SUMMARY"
