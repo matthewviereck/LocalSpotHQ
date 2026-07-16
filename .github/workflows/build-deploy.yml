@@ -77,6 +77,12 @@ jobs:
           rsync -rtz --delete -e "$RSH" output/phoenixville/ "$DEPLOY_USER@$HOST:$DEPLOY_DIR/"
           # The signup form POSTs to /subscribe.php at the site root
           rsync -tz -e "$RSH" web/subscribe.php "$DEPLOY_USER@$HOST:${DEPLOY_DIR%/*}/subscribe.php"
+          # PWA assets into the PRODUCTION app dir too: the PHP cron build
+          # doesn't emit them, and the shared template links them relatively.
+          # (Additive only - the PHP deploy never deletes sibling files.)
+          rsync -tz -e "$RSH" output/phoenixville/manifest.webmanifest output/phoenixville/sw.js \
+            output/phoenixville/icon-192.png output/phoenixville/icon-512.png output/phoenixville/icon-180.png \
+            "$DEPLOY_USER@$HOST:${DEPLOY_DIR%/*}/phoenixville/"
           # Subscriber list lives one level above the docroot (never web-served)
           SUBS=$($RSH "$DEPLOY_USER@$HOST" "grep -c '\"email\"' domains/localspothq.com/subscribers.json 2>/dev/null || echo 0")
           echo "Email subscribers: $SUBS" | tee -a "$GITHUB_STEP_SUMMARY"

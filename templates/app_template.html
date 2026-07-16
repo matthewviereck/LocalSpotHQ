@@ -39,6 +39,13 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="{{CANONICAL_URL}}">
 
+    <!-- PWA: assets are emitted per-area by the pipeline; on builds without
+         them (PHP cron, pre-cutover) these 404 harmlessly -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="icon-180.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
     <!-- Build metadata (used to debug freshness) -->
     <meta name="localspot:built-at" content="{{BUILD_TIMESTAMP}}">
 
@@ -1284,6 +1291,10 @@
         openFromHash();
         window.addEventListener('hashchange', openFromHash);
         loadWeekendWeather();
+        // PWA: register the service worker if this build shipped one
+        if ('serviceWorker' in navigator && location.protocol === 'https:') {
+            navigator.serviceWorker.register('sw.js').catch(() => { /* no sw on this build */ });
+        }
         
         // Render Discover tab with Activities and Curated Plans sections
         function renderDiscoverTab(container, activities) {

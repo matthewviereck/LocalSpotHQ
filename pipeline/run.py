@@ -22,6 +22,7 @@ from pipeline.transform import transform_events
 from pipeline.inject import inject_all_data
 from pipeline.postprocess import remove_landing_page
 from pipeline.feeds import generate_this_weekend_page, generate_ics
+from pipeline.pwa import emit_pwa_assets
 
 
 def load_area_config(area_id):
@@ -112,6 +113,10 @@ def run_area(area_id):
     print(f"\n--- Step 7: This Weekend page + ICS feed ---")
     generate_this_weekend_page(formatted_output, output_dir, config)
     generate_ics(formatted_output, output_dir, config)
+
+    # Step 8: PWA assets (manifest, service worker, icons)
+    print(f"\n--- Step 8: PWA assets ---")
+    emit_pwa_assets(output_dir, config)
 
     print(f"\n{'='*60}")
     print(f"DONE! Output: {final_output}")
