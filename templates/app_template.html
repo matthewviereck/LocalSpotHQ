@@ -392,6 +392,7 @@
                 <div class="tab-segment">
                     <button onclick="switchTab('events')" id="tab-events" class="tab-btn tab-active">Events</button>
                     <button onclick="switchTab('dining')" id="tab-dining" class="tab-btn">Dining</button>
+                    <button onclick="switchTab('news')" id="tab-news" class="tab-btn"><i class="fa-regular fa-newspaper mr-1"></i> News</button>
                     <button onclick="switchTab('discover')" id="tab-discover" class="tab-btn"><i class="fa-solid fa-compass mr-1"></i> Discover</button>
                 </div>
                 <div id="search-panel" class="transition-all">
@@ -566,7 +567,7 @@
 
 
         function updateTabButtons() {
-            ['events', 'dining', 'discover'].forEach(t => {
+            ['events', 'dining', 'news', 'discover'].forEach(t => {
                 const btn = document.getElementById(`tab-${t}`);
                 if (t === currentTab) {
                     btn.classList.add('tab-active');
@@ -585,6 +586,7 @@
         function getActiveData() {
             if (currentTab === 'events') return eventsData;
             if (currentTab === 'dining') return diningData;
+            if (currentTab === 'news') return newsData;
             if (currentTab === 'discover') return outingsData;
             return [];
         }
@@ -594,10 +596,11 @@
             const data = getActiveData();
             
             return data.filter(item => {
-                const matchesText = 
-                    item.title.toLowerCase().includes(query) || 
-                    (item.loc && item.loc.toLowerCase().includes(query)) || 
+                const matchesText =
+                    item.title.toLowerCase().includes(query) ||
+                    (item.loc && item.loc.toLowerCase().includes(query)) ||
                     (item.type ? item.type.toLowerCase().includes(query) : false) ||
+                    (item.summary ? item.summary.toLowerCase().includes(query) : false) ||
                     (item.tags ? item.tags.join(' ').toLowerCase().includes(query) : false);
                 
                 let matchesCategory;
@@ -632,13 +635,14 @@
                     };
                     matchesCategory = item.date_category === filterMap[currentFilter];
                 } else {
-                    // Other tabs: match type, tags, vibes, cuisine, or price tier
+                    // Other tabs: match type, tags, vibes, cuisine, price, or news category
                     matchesCategory = currentFilter === 'All' ||
                                             (item.type && item.type === currentFilter) ||
                                             (item.tags && item.tags.includes(currentFilter)) ||
                                             (item.vibes && item.vibes.includes(currentFilter)) ||
                                             cuisineList(item).includes(currentFilter) ||
-                                            item.price === currentFilter;
+                                            item.price === currentFilter ||
+                                            item.category === currentFilter;
                 }
 
                 return matchesText && matchesCategory;
@@ -699,6 +703,10 @@
                         ${cat}
                     </button>`).join('');
                 return;
+            } else if (currentTab === 'news') {
+                let categories = new Set();
+                data.forEach(item => { if (item.category) categories.add(item.category); });
+                list = ['All', ...categories];
             } else {
                 // Other tabs: type/tag filters (original behavior)
                 let categories = new Set();
@@ -746,6 +754,46 @@
                 <img src="${item.img}" alt="" loading="lazy" referrerpolicy="no-referrer"
                      onerror="this.outerHTML='<i class=\\'fa-solid ${icon}\\' aria-hidden=\\'true\\'></i>'">
             </div>`;
+        }
+
+        // --- NEWS TAB: "What's Coming to the Area" ---
+        function newsCatStyle(c) {
+            return {
+                'Opening Soon': 'bg-amber-50 text-amber-700 border-amber-200',
+                'Now Open': 'bg-emerald-50 text-emerald-700 border-emerald-200',
+                'Closed': 'bg-rose-50 text-rose-600 border-rose-200',
+                'Development': 'bg-indigo-50 text-indigo-700 border-indigo-200'
+            }[c] || 'bg-slate-50 text-slate-600 border-slate-200';
+        }
+
+        function newsDate(d) {
+            const dt = new Date((d || '') + 'T12:00:00');
+            return isNaN(dt) ? '' : dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        }
+
+        function newsCard(n) {
+            return `
+            <a href="${n.link || '#'}" target="_blank" rel="noopener"
+               class="bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow p-5 block fade-in">
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="text-[10px] font-bold px-2 py-0.5 rounded-full border uppercase tracking-wide ${newsCatStyle(n.category)}">${n.category || 'News'}</span>
+                    <span class="text-xs text-slate-400 font-semibold">${newsDate(n.date)}</span>
+                </div>
+                <h3 class="font-bold text-slate-900 leading-snug">${n.title}</h3>
+                ${n.summary ? `<p class="text-sm text-slate-600 mt-1">${n.summary}</p>` : ''}
+                ${n.loc ? `<p class="text-xs text-slate-400 mt-2"><i class="fa-solid fa-location-dot mr-1" aria-hidden="true"></i>${n.loc}</p>` : ''}
+            </a>`;
+        }
+
+        function renderNewsTab(container, data) {
+            container.className = 'max-w-7xl mx-auto p-4 w-full flex-grow';
+            const items = [...data].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+            container.innerHTML = `
+                <div class="mb-4">
+                    <h2 class="text-2xl font-black text-slate-900">What's Coming to {{AREA_NAME}}</h2>
+                    <p class="text-sm text-slate-600 mt-1">Openings, closings & local buzz &middot; updated weekly</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">${items.map(newsCard).join('')}</div>`;
         }
 
         // --- DINING MAP VIEW (Leaflet + OSM, lazy-loaded on first open) ---
@@ -939,7 +987,21 @@
                 groups = visible;
             }
 
-            let html = groups.map(g => {
+            let html = '';
+
+            // Latest-news teaser: surface the News tab's newest item where
+            // everyone actually lands
+            if (newsData.length) {
+                const latest = [...newsData].sort((a, b) => (b.date || '').localeCompare(a.date || ''))[0];
+                html += `
+                <button onclick="switchTab('news')" class="w-full flex items-center gap-2 mb-3 px-4 py-2.5 rounded-xl border border-amber-200 bg-amber-50 hover:bg-amber-100 transition-colors text-left">
+                    <span class="text-[10px] font-bold uppercase tracking-wide text-amber-700 bg-white px-2 py-0.5 rounded-full border border-amber-200 flex-shrink-0 whitespace-nowrap">What's coming</span>
+                    <span class="text-sm font-semibold text-slate-800 truncate flex-grow">${latest.title}</span>
+                    <i class="fa-solid fa-chevron-right text-amber-400 text-xs flex-shrink-0" aria-hidden="true"></i>
+                </button>`;
+            }
+
+            html += groups.map(g => {
                 const first = g.items[0];
                 const isRange = /[-–]/.test(g.date);
                 const weekday = !isRange && first._sort_date
@@ -1010,6 +1072,12 @@
             // Events tab: calm agenda list grouped by date
             if (currentTab === 'events') {
                 renderEventsList(container, data);
+                return;
+            }
+
+            // News tab
+            if (currentTab === 'news') {
+                renderNewsTab(container, data);
                 return;
             }
 
@@ -1382,44 +1450,6 @@
             container.className = 'max-w-7xl mx-auto p-4 w-full flex-grow';
             
             let html = '';
-
-            // SECTION 0: AREA NEWS - "What's Coming"
-            if (newsData.length) {
-                const catStyle = c => ({
-                    'Opening Soon': 'bg-amber-50 text-amber-700 border-amber-200',
-                    'Now Open': 'bg-emerald-50 text-emerald-700 border-emerald-200',
-                    'Closed': 'bg-rose-50 text-rose-600 border-rose-200',
-                    'Development': 'bg-indigo-50 text-indigo-700 border-indigo-200'
-                }[c] || 'bg-slate-50 text-slate-600 border-slate-200');
-                const fmtDate = d => {
-                    const dt = new Date((d || '') + 'T12:00:00');
-                    return isNaN(dt) ? '' : dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-                };
-                const items = [...newsData]
-                    .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
-                    .slice(0, 8);
-                html += `
-                <div class="mb-4">
-                    <div class="mb-4">
-                        <h2 class="text-2xl font-black text-slate-900">What's Coming to {{AREA_NAME}}</h2>
-                        <p class="text-sm text-slate-600 mt-1">Openings, closings & local buzz</p>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        ${items.map(n => `
-                        <a href="${n.link || '#'}" target="_blank" rel="noopener"
-                           class="bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow p-5 block">
-                            <div class="flex items-center gap-2 mb-2">
-                                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full border uppercase tracking-wide ${catStyle(n.category)}">${n.category || 'News'}</span>
-                                <span class="text-xs text-slate-400 font-semibold">${fmtDate(n.date)}</span>
-                            </div>
-                            <h3 class="font-bold text-slate-900 leading-snug">${n.title}</h3>
-                            ${n.summary ? `<p class="text-sm text-slate-600 mt-1">${n.summary}</p>` : ''}
-                            ${n.loc ? `<p class="text-xs text-slate-400 mt-2"><i class="fa-solid fa-location-dot mr-1" aria-hidden="true"></i>${n.loc}</p>` : ''}
-                        </a>`).join('')}
-                    </div>
-                </div>
-                <div class="mt-16 pt-8 border-t-4 border-slate-200 mb-4"></div>`;
-            }
 
             // SECTION 1: CURATED PLANS (renders first - no divider styling)
             html += `
