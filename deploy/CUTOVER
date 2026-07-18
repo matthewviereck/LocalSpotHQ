@@ -1,0 +1,4 @@
+Cutover 2026-07-16: GitHub Actions (.github/workflows/build-deploy.yml) owns
+the Phoenixville build and deploy. When auto_update.php syncs this marker it
+stops building and only sends the Friday digest. Delete this file to hand the
+build back to the PHP cron.

@@ -213,6 +213,8 @@ function syncFromGitHubRaw($repoDir) {
         'web/subscribe.php'                             => 100,
         'web/unsubscribe.php'                           => 100,
         'deploy/send_digest.php'                        => 1000,
+        'deploy/CUTOVER'                                => 2, // presence = Actions owns the build
+
         'deploy/auto_update.php'                        => 20000, // self-update, takes effect next run
     ];
 
@@ -1591,6 +1593,23 @@ if (!is_dir($CACHE_DIR)) mkdir($CACHE_DIR, 0755, true);
 
 // Step 0: Git pull latest code
 gitPullLatest($REPO_DIR);
+
+// After cutover, GitHub Actions owns the build and deploy. The synced CUTOVER
+// marker turns this cron into a digest-only runner: it still sends the Friday
+// email but never touches the site. Deleting deploy/CUTOVER from the repo
+// hands the build back to this script.
+if (file_exists($REPO_DIR . '/deploy/CUTOVER')) {
+    logMsg("CUTOVER marker present - build is handled by GitHub Actions.");
+    if (date('w') == 5) {
+        $digestScript = $REPO_DIR . '/deploy/send_digest.php';
+        if (file_exists($digestScript)) {
+            require_once $digestScript;
+            sendWeeklyDigest();
+        }
+    }
+    logMsg("Done (digest-only mode).");
+    exit(0);
+}
 
 // Step 1: Generate recurring events
 $recurringEvents = generateRecurringEvents();
