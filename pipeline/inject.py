@@ -91,10 +91,10 @@ def _build_structured_data(area_config, events):
 
 
 def inject_all_data(events_file, dining_file, outings_file, plans_file,
-                    template_file, output_file, area_config=None):
+                    template_file, output_file, area_config=None, news_file=None):
     """
-    Inject events, dining, outings, and curated plans data into HTML template.
-    Optionally substitutes area-specific placeholders from area_config.
+    Inject events, dining, outings, curated plans, and area news into the
+    HTML template. Optionally substitutes area placeholders from area_config.
     """
     print("=" * 60)
     print("INJECTING DATA INTO HTML")
@@ -106,6 +106,8 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
     dining = _load_json(dining_file, "dining spots")
     outings = _load_json(outings_file, "outings")
     plans = _load_json(plans_file, "curated plans")
+    # News is optional - areas without a news.json just hide the section
+    news = _load_json(news_file, "news items") if news_file and os.path.exists(news_file) else []
 
     # 2. Load HTML template
     print("\n2. Loading HTML template...")
@@ -145,6 +147,7 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
         ('diningData', dining, 'dining spots'),
         ('outingsData', outings, 'outings'),
         ('plansData', plans, 'curated plans'),
+        ('newsData', news, 'news items'),
     ]
 
     step = 4

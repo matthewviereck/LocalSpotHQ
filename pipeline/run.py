@@ -98,7 +98,8 @@ def run_area(area_id):
         plans_file=os.path.join(data_dir, static['plans']),
         template_file=template_path,
         output_file=intermediate_html,
-        area_config=config
+        area_config=config,
+        news_file=os.path.join(data_dir, 'news.json')
     )
 
     # Step 6: Post-process (remove landing page, add autoload)

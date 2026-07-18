@@ -532,6 +532,9 @@
 
         const plansData = [];
 
+        // AREA NEWS (openings, closings, coming-soon)
+        const newsData = [];
+
         // --- 3. APP LOGIC ---
         let currentTab = 'events';
         let currentFilter = 'All';
@@ -1379,7 +1382,45 @@
             container.className = 'max-w-7xl mx-auto p-4 w-full flex-grow';
             
             let html = '';
-            
+
+            // SECTION 0: AREA NEWS - "What's Coming"
+            if (newsData.length) {
+                const catStyle = c => ({
+                    'Opening Soon': 'bg-amber-50 text-amber-700 border-amber-200',
+                    'Now Open': 'bg-emerald-50 text-emerald-700 border-emerald-200',
+                    'Closed': 'bg-rose-50 text-rose-600 border-rose-200',
+                    'Development': 'bg-indigo-50 text-indigo-700 border-indigo-200'
+                }[c] || 'bg-slate-50 text-slate-600 border-slate-200');
+                const fmtDate = d => {
+                    const dt = new Date((d || '') + 'T12:00:00');
+                    return isNaN(dt) ? '' : dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+                };
+                const items = [...newsData]
+                    .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+                    .slice(0, 8);
+                html += `
+                <div class="mb-4">
+                    <div class="mb-4">
+                        <h2 class="text-2xl font-black text-slate-900">What's Coming to {{AREA_NAME}}</h2>
+                        <p class="text-sm text-slate-600 mt-1">Openings, closings & local buzz</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        ${items.map(n => `
+                        <a href="${n.link || '#'}" target="_blank" rel="noopener"
+                           class="bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow p-5 block">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full border uppercase tracking-wide ${catStyle(n.category)}">${n.category || 'News'}</span>
+                                <span class="text-xs text-slate-400 font-semibold">${fmtDate(n.date)}</span>
+                            </div>
+                            <h3 class="font-bold text-slate-900 leading-snug">${n.title}</h3>
+                            ${n.summary ? `<p class="text-sm text-slate-600 mt-1">${n.summary}</p>` : ''}
+                            ${n.loc ? `<p class="text-xs text-slate-400 mt-2"><i class="fa-solid fa-location-dot mr-1" aria-hidden="true"></i>${n.loc}</p>` : ''}
+                        </a>`).join('')}
+                    </div>
+                </div>
+                <div class="mt-16 pt-8 border-t-4 border-slate-200 mb-4"></div>`;
+            }
+
             // SECTION 1: CURATED PLANS (renders first - no divider styling)
             html += `
                 <div class="mb-4">
