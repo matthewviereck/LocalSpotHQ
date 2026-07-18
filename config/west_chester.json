@@ -28,6 +28,7 @@
   },
   "merge_sources": [
     "scraped/uptown_events.json",
+    "scraped/discovered_events.json",
     "recurring_events.json"
   ],
   "deploy": {
