@@ -1,0 +1,34 @@
+# Weekly dead-link report: builds the event data, HEAD-checks every unique
+# event/dining/outing link, and writes a broken-link table to the run summary.
+# Report-only - it never fails the build or blocks a deploy.
+
+name: Weekly link check
+
+on:
+  schedule:
+    - cron: '0 11 * * 1' # Mondays 11:00 UTC = 7:00 AM ET
+  workflow_dispatch:
+
+env:
+  TZ: America/New_York
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build event data
+        run: |
+          python pipeline/run.py --area phoenixville
+          python pipeline/run.py --area west_chester
+
+      - name: Check links
+        run: python scripts/check_links.py | tee -a "$GITHUB_STEP_SUMMARY"
