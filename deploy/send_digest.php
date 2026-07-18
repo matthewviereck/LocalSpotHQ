@@ -92,6 +92,7 @@ function sendWeeklyDigest() {
         $token = md5(strtolower($email) . $salt);
         $unsub = 'https://www.localspothq.com/unsubscribe.php?e=' . urlencode($email) . '&t=' . $token;
         $body = "<!doctype html><html><body style=\"font-family:-apple-system,Segoe UI,Arial,sans-serif;color:#0f172a;max-width:560px;margin:0 auto;padding:16px;\">"
+            . "<a href=\"{$DIGEST_SITE_URL}\"><img src=\"{$DIGEST_SITE_URL}weekend-card.png\" alt=\"This weekend in Phoenixville\" style=\"width:100%;border-radius:12px;margin-bottom:12px;\"></a>"
             . "<h2 style=\"margin:0 0 4px;\">This weekend in Phoenixville</h2>"
             . "<p style=\"color:#64748b;margin:0 0 16px;\">{$rangeLabel} &middot; picked from <a href=\"{$DIGEST_SITE_URL}\" style=\"color:#1d4ed8;\">LocalSpot</a></p>"
             . "<table style=\"width:100%;border-collapse:collapse;\">{$rows}</table>"

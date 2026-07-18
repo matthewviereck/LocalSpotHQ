@@ -52,7 +52,9 @@ def generate_this_weekend_page(events_file, output_dir, area_config):
     area_name = area_config['name']
     base_url = area_config['meta']['canonical_url'].rstrip('/')
     canonical = f"{base_url}/this-weekend/"
-    og_image = area_config['meta'].get('og_image', '')
+    # The generated weekend card (pipeline/social_card.py) beats a generic
+    # stock photo when this page gets shared
+    og_image = f"{base_url}/weekend-card.png"
 
     friday, sunday, picked = weekend_events(events)
     fri_label = f"{friday.strftime('%B')} {friday.day}"

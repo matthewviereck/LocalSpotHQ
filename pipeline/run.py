@@ -124,6 +124,11 @@ def run_area(area_id):
     event_slugs = generate_event_pages(formatted_output, output_dir, config)
     generate_area_sitemap(output_dir, config, event_slugs)
 
+    # Step 10: Weekend social card
+    print(f"\n--- Step 10: Weekend social card ---")
+    from pipeline.social_card import generate_weekend_card
+    generate_weekend_card(formatted_output, output_dir, config)
+
     print(f"\n{'='*60}")
     print(f"DONE! Output: {final_output}")
     print(f"{'='*60}")
