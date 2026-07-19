@@ -3039,5 +3039,64 @@
       "image": ""
     },
     "action_link": "https://www.parrc.net/post/summer-concerts-at-sanatoga-park"
+  },
+  {
+    "id": "discovered_oddities_curiosities_expo_20260815",
+    "type": "event",
+    "title": "Philadelphia Oddities & Curiosities Expo",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Aug 15 - 16, 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Oddities",
+        "Taxidermy",
+        "Curiosities",
+        "Sideshow Performers",
+        "Vendors",
+        "Horror",
+        "Indoor"
+      ],
+      "price": "$15 advance / $20 at door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://phillyexpocenter.com/events/the-oddities-and-curiosities-expo-261/"
+  },
+  {
+    "id": "discovered_eagleview_concert_20260818",
+    "type": "event",
+    "title": "Eagleview Summer Concert Series – August 18",
+    "venue_info": {
+      "name": "Eagleview Town Center, Exton (near Phoenixville)",
+      "location": {
+        "lat": 40.0337,
+        "lng": -75.6174
+      }
+    },
+    "raw_date_string": "August 18, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "Lawn Concert",
+        "Bring Chairs"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
   }
 ]
