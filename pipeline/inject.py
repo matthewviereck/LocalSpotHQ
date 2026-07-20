@@ -91,7 +91,8 @@ def _build_structured_data(area_config, events):
 
 
 def inject_all_data(events_file, dining_file, outings_file, plans_file,
-                    template_file, output_file, area_config=None, news_file=None):
+                    template_file, output_file, area_config=None, news_file=None,
+                    guides_file=None):
     """
     Inject events, dining, outings, curated plans, and area news into the
     HTML template. Optionally substitutes area placeholders from area_config.
@@ -106,8 +107,12 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
     dining = _load_json(dining_file, "dining spots")
     outings = _load_json(outings_file, "outings")
     plans = _load_json(plans_file, "curated plans")
-    # News is optional - areas without a news.json just hide the section
+    # News and guides are optional - areas without the files hide the sections
     news = _load_json(news_file, "news items") if news_file and os.path.exists(news_file) else []
+    guides = _load_json(guides_file, "guides") if guides_file and os.path.exists(guides_file) else []
+    # The app only needs guide cards, not the full page bodies
+    guides = [{k: g.get(k, '') for k in ('slug', 'title', 'category', 'description', 'img', 'updated')}
+              for g in guides]
 
     # 2. Load HTML template
     print("\n2. Loading HTML template...")
@@ -148,6 +153,7 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
         ('outingsData', outings, 'outings'),
         ('plansData', plans, 'curated plans'),
         ('newsData', news, 'news items'),
+        ('guidesData', guides, 'guides'),
     ]
 
     step = 4

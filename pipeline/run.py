@@ -24,6 +24,7 @@ from pipeline.postprocess import remove_landing_page
 from pipeline.feeds import generate_this_weekend_page, generate_ics
 from pipeline.pwa import emit_pwa_assets
 from pipeline.event_pages import generate_event_pages, generate_area_sitemap
+from pipeline.guides import generate_guide_pages
 
 
 def load_area_config(area_id):
@@ -99,7 +100,8 @@ def run_area(area_id):
         template_file=template_path,
         output_file=intermediate_html,
         area_config=config,
-        news_file=os.path.join(data_dir, 'news.json')
+        news_file=os.path.join(data_dir, 'news.json'),
+        guides_file=os.path.join(data_dir, 'guides.json')
     )
 
     # Step 6: Post-process (remove landing page, add autoload)
@@ -120,10 +122,11 @@ def run_area(area_id):
     print(f"\n--- Step 8: PWA assets ---")
     emit_pwa_assets(output_dir, config)
 
-    # Step 9: Per-event SEO pages + area sitemap
-    print(f"\n--- Step 9: Event pages + sitemap ---")
+    # Step 9: Per-event SEO pages, guide pages, area sitemap
+    print(f"\n--- Step 9: Event pages + guides + sitemap ---")
     event_slugs = generate_event_pages(formatted_output, output_dir, config)
-    generate_area_sitemap(output_dir, config, event_slugs)
+    guide_slugs = generate_guide_pages(os.path.join(data_dir, 'guides.json'), output_dir, config)
+    generate_area_sitemap(output_dir, config, event_slugs, guide_slugs)
 
     # Step 10: Weekend social card
     print(f"\n--- Step 10: Weekend social card ---")
