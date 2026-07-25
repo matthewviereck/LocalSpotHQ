@@ -46,7 +46,7 @@ python pipeline/inject.py --area phoenixville
 
 ## Project Structure
 - `config/` - Area configs (areas.json, phoenixville.json)
-- `pipeline/` - Modular pipeline: run.py, recurring.py, merge.py, transform.py, inject.py, postprocess.py
+- `pipeline/` - Modular pipeline: run.py, recurring.py, merge.py, geo.py, transform.py, inject.py, postprocess.py, hub.py
 - `scrapers/` - Web scrapers: colonial_theatre.py, philly_expo.py
 - `templates/` - HTML template (app_template.html)
 - `web/` - Static web files (index.html, robots.txt, sitemap.xml, submit.html)
@@ -55,13 +55,32 @@ python pipeline/inject.py --area phoenixville
 - `archive/` - Historical phase completion docs
 
 ## Configuration
-- `config/areas.json` - Registry of geographic areas (phoenixville enabled, west_chester disabled)
-- `config/phoenixville.json` - Area-specific config (scrapers, data paths, deploy paths, metadata)
+- `config/areas.json` - Registry of geographic areas (phoenixville and west_chester both enabled)
+- `config/phoenixville.json` - Area-specific config (scrapers, data paths, deploy paths, metadata, town roster)
 - `data/phoenixville/recurring_events_config.json` - Recurring event definitions
+
+## Town rosters and geographic routing
+Each area config carries a `towns` roster (name + lat/lng) and a `geo` block
+(`radius_miles`, `tagline_towns`). `pipeline/geo.py` assigns every event to its
+nearest roster town and drops anything outside the area — venue *names* are not
+trusted, because discovery labels venues things like
+"Eagleview Town Center, Exton (near Phoenixville)".
+
+`run.py` pools all areas' `merge_sources` before routing, so an event one area's
+discovery found still reaches the area whose roster actually claims it. The
+header tagline is derived from the towns that have events, not hardcoded.
+A town may set `dining_group` to share a neighbor's restaurant pool
+(Mont Clare -> Phoenixville).
 
 ## Notes
 - Scrapers use requests + BeautifulSoup with User-Agent headers and 30s timeouts
 - Date parsing is custom regex-based (no dateutil dependency)
 - HTML injection uses regex find/replace on `const eventsData = [...]` patterns
-- The PHP version in `deploy/auto_update.php` is a full reimplementation for server-side cron
+- `deploy/auto_update.php` is a legacy server-side reimplementation. Since the
+  2026-07-16 cutover it sees the `deploy/CUTOVER` marker and only sends the
+  Friday digest — GitHub Actions owns the build and deploy. It has no town
+  routing, so don't revive it without porting `pipeline/geo.py`.
+- Events carry `time` and `price` when a source supplies them. Colonial, Oaks
+  and Uptown publish neither (times live in AgileTicketing/OvationTix widgets),
+  so those come from recurring config and discovery only.
 - Root-level JSON files (all_events.json, etc.) are deprecated; pipeline uses `data/` subdirectories

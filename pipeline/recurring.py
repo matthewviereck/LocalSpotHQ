@@ -97,7 +97,13 @@ def _generate_weekly(event_def):
                 "category": event_def.get('category', 'Event'),
                 "vibes": event_def.get('vibes', []),
                 "price": event_def.get('price', ''),
-                "time": time_info
+                "time": time_info,
+                # Every occurrence of one series shares this key so the app can
+                # show "every Saturday" as one row instead of 50 near-identical
+                # ones. Weeklies are ~a quarter of the feed without it.
+                "series": event_def['id_prefix'],
+                "cadence": "weekly",
+                "weekday": event_def.get('weekday', '')
             },
             "media": {"image": event_def.get('image', '')},
             "action_link": event_def.get('link', '')

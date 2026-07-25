@@ -84,6 +84,54 @@ footer{{margin-top:40px;color:#94a3b8;font-size:0.8rem;border-top:1px solid #e2e
 """
 
 
+def _guides_index(guides, area_config):
+    """Index at /guides/ so the set has a linkable home of its own."""
+    area_name = area_config['name']
+    base_url = area_config['meta']['canonical_url'].rstrip('/')
+    canonical = f"{base_url}/guides/"
+
+    cards = '\n'.join(
+        f"""<li>
+  <a href="{g['slug']}/">{html.escape(g['title'])}</a>
+  <p class="sub">{html.escape(g.get('category', 'Local Guide'))} &middot; {html.escape(g.get('description', ''))}</p>
+</li>""" for g in guides)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Local Guides | LocalSpot {html.escape(area_name)}</title>
+<meta name="description" content="In-depth local guides for {html.escape(area_name)} — festivals, food, and things worth planning around.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{canonical}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{canonical}">
+<meta property="og:title" content="Local Guides | LocalSpot {html.escape(area_name)}">
+<style>
+body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:680px;margin:0 auto;padding:24px 16px;color:#0f172a;line-height:1.65}}
+h1{{font-size:1.8rem;line-height:1.25;margin:8px 0 16px}}
+.sub{{color:#64748b;margin:2px 0 0;font-size:0.9rem}}
+a{{color:#2563eb;text-decoration:none;font-weight:700}}
+a:hover{{text-decoration:underline}}
+.crumb{{font-size:0.85rem;color:#94a3b8}}
+ul{{list-style:none;padding:0}}
+li{{border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;margin-bottom:12px}}
+footer{{margin-top:40px;color:#94a3b8;font-size:0.8rem;border-top:1px solid #e2e8f0;padding-top:14px}}
+</style>
+</head>
+<body>
+<p class="crumb"><a href="{base_url}/">LocalSpot {html.escape(area_name)}</a> &rsaquo; Guides</p>
+<h1>Local Guides</h1>
+<ul>
+{cards}
+</ul>
+<footer>LocalSpot HQ &middot; <a href="{base_url}/">Everything happening in {html.escape(area_name)} &rarr;</a></footer>
+</body>
+</html>
+"""
+
+
 def generate_guide_pages(guides_file, output_dir, area_config):
     guides = load_guides(guides_file)
 
@@ -98,6 +146,12 @@ def generate_guide_pages(guides_file, output_dir, area_config):
         with open(os.path.join(page_dir, 'index.html'), 'w', encoding='utf-8') as f:
             f.write(_guide_page(guide, area_config))
         slugs.append(guide['slug'])
+
+    # Only emit the index when there's something to list; the footer link is
+    # likewise suppressed for areas with no guides yet.
+    if slugs:
+        with open(os.path.join(guides_dir, 'index.html'), 'w', encoding='utf-8') as f:
+            f.write(_guides_index(guides, area_config))
 
     print(f">> Guide pages: {len(slugs)} -> {guides_dir}")
     return slugs

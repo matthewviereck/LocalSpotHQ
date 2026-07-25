@@ -2,6 +2,8 @@ import json
 import os
 import re
 
+from pipeline.geo import route_area_events
+
 
 def _dedupe_key(event):
     """Same event from two sources: match on normalized title + raw date."""
@@ -11,10 +13,20 @@ def _dedupe_key(event):
 
 
 def _richness(event):
-    """Rank duplicates: prefer the copy with a real image, then one with a link."""
+    """
+    Rank duplicates: prefer the copy carrying a start time, then a price,
+    then a real image, then a link. Time and price lead because they're the
+    fields a reader actually decides on and the sparsest across sources.
+    """
+    attrs = event.get('attributes') or {}
     img = (event.get('media') or {}).get('image') or ''
     has_img = bool(img) and 'placehold.co' not in img
-    return (has_img, bool(event.get('action_link')))
+    has_time = bool(attrs.get('time')) or bool(
+        re.search(r'\d{1,2}(:\d{2})?\s*[ap]\.?m\.?',
+                  str(event.get('raw_date_string', '')), re.IGNORECASE))
+    # Series identity first — see transform._richness for why losing it hurts.
+    return (bool(attrs.get('series')), has_time, bool(attrs.get('price')),
+            has_img, bool(event.get('action_link')))
 
 
 def dedupe_events(events):
@@ -30,8 +42,14 @@ def dedupe_events(events):
     return [best[k] for k in order]
 
 
-def merge_events(source_files, output_file):
-    """Merge multiple event JSON files into one combined file."""
+def merge_events(source_files, output_file, area_config=None):
+    """
+    Merge multiple event JSON files into one combined file.
+
+    With an area_config that defines a `towns` roster, each event is tagged
+    with its nearest town and anything outside the roster is dropped, so an
+    area's feed matches the towns it claims in its tagline.
+    """
     master_list = []
 
     print(">> Merging data files...")
@@ -52,6 +70,9 @@ def merge_events(source_files, output_file):
     master_list = dedupe_events(master_list)
     if len(master_list) < before:
         print(f"   Removed {before - len(master_list)} duplicate events")
+
+    if area_config:
+        master_list = route_area_events(master_list, area_config)
 
     os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:

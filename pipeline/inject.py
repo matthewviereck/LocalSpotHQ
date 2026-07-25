@@ -3,6 +3,46 @@ import re
 import os
 from datetime import datetime, timezone
 
+from pipeline.geo import derive_tagline
+
+
+def _build_area_links(area_config):
+    """
+    Footer links to the other enabled areas.
+
+    Each area page was previously a dead end — no link to a sibling area and
+    none back to the hub. Reads the registry directly so a new area appears in
+    every other area's footer without touching the template.
+    """
+    registry_path = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        'config', 'areas.json')
+    try:
+        with open(registry_path, 'r', encoding='utf-8') as f:
+            registry = json.load(f)
+    except Exception as e:
+        print(f"   ! Could not read areas registry for footer links: {e}")
+        return ''
+
+    links = []
+    for area in registry.get('areas', []):
+        if not area.get('enabled', False) or area.get('id') == area_config.get('id'):
+            continue
+        links.append(
+            f'<a href="/{area["slug"]}/" class="hover:text-blue-600 underline '
+            f'decoration-slate-200">{area["name"]}</a>')
+    links.append('<a href="/" class="hover:text-blue-600">All areas</a>')
+    return '\n            '.join(links)
+
+
+def _build_guides_link(guides):
+    """Footer entry point for guides — they were only reachable via Discover."""
+    if not guides:
+        return ''
+    return ('<a href="guides/" class="hover:text-blue-600">'
+            '<i class="fa-solid fa-book-open mr-1" aria-hidden="true"></i>'
+            f'Local Guides</a>')
+
 
 def _build_structured_data(area_config, events):
     """Build JSON-LD: a WebPage and a list of upcoming Events.
@@ -128,7 +168,7 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
         structured_data = _build_structured_data(area_config, events)
         replacements = {
             '{{AREA_NAME}}': area_config.get('name', ''),
-            '{{AREA_TAGLINE}}': area_config.get('tagline', ''),
+            '{{AREA_TAGLINE}}': derive_tagline(events, area_config),
             '{{META_TITLE}}': meta.get('title', ''),
             '{{META_DESCRIPTION}}': meta.get('description', ''),
             '{{META_KEYWORDS}}': meta.get('keywords', ''),
@@ -136,6 +176,8 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
             '{{CANONICAL_URL}}': meta.get('canonical_url', ''),
             '{{BUILD_TIMESTAMP}}': build_timestamp,
             '{{STRUCTURED_DATA}}': structured_data,
+            '{{AREA_LINKS}}': _build_area_links(area_config),
+            '{{GUIDES_LINK}}': _build_guides_link(guides),
         }
         for placeholder, value in replacements.items():
             if placeholder in html:
@@ -154,12 +196,21 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
         ('plansData', plans, 'curated plans'),
         ('newsData', news, 'news items'),
         ('guidesData', guides, 'guides'),
+        # Town names only — the app matches dining `loc` strings against these.
+        ('areaTowns', [t['name'] for t in (area_config or {}).get('towns', [])], 'town roster'),
+        # Towns that share a dining pool with a neighbor (Mont Clare is across
+        # the bridge from Phoenixville, so its restaurants count as walkable).
+        ('townGroups', {t['name']: t['dining_group']
+                        for t in (area_config or {}).get('towns', [])
+                        if t.get('dining_group')}, 'dining groups'),
     ]
 
     step = 4
     for var_name, data, label in data_injections:
         print(f"\n{step}. Injecting {label}...")
-        pattern = rf'const {var_name} = \[[\s\S]*?\];'
+        # Match either an array or object literal so dict-valued injections
+        # (townGroups) work alongside the list-valued ones.
+        pattern = rf'const {var_name} = [\[{{][\s\S]*?[\]}}];'
         data_js = json.dumps(data, indent=12, ensure_ascii=False)
         replacement = f'const {var_name} = {data_js};'
 

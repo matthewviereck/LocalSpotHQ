@@ -41,6 +41,38 @@ def load_areas_registry():
         return json.load(f)
 
 
+def _other_area_sources(area_id):
+    """
+    Event files belonging to the other enabled areas.
+
+    These are candidates only — the roster check in merge_events decides what
+    is actually kept, so pooling can never pull a neighboring town's events
+    into an area that doesn't claim it.
+    """
+    sources = []
+    try:
+        registry = load_areas_registry()
+    except Exception as e:
+        print(f"   ! Could not read areas registry, skipping cross-area pooling: {e}")
+        return sources
+
+    for area in registry.get('areas', []):
+        other_id = area.get('id')
+        if other_id == area_id or not area.get('enabled', False):
+            continue
+        try:
+            other_config = load_area_config(other_id)
+        except Exception as e:
+            print(f"   ! Could not read config for {other_id}: {e}")
+            continue
+        other_dir = os.path.join(PROJECT_ROOT, 'data', other_id)
+        for source in other_config.get('merge_sources', []):
+            path = os.path.join(other_dir, source)
+            if os.path.exists(path):
+                sources.append(path)
+    return sources
+
+
 def run_area(area_id):
     """Run the full pipeline for a single area."""
     print(f"\n{'='*60}")
@@ -78,9 +110,15 @@ def run_area(area_id):
 
     # Step 3: Merge all event sources
     print(f"\n--- Step 3: Merge events ---")
+    # Pool every area's sources, not just this one's. Discovery runs per area
+    # but doesn't respect town boundaries — it files Exton events under
+    # Phoenixville because the venue is "near Phoenixville". Routing in the
+    # merge step is what decides ownership, so an event found by one area's
+    # discovery still reaches the area whose roster actually claims it.
     source_files = [os.path.join(data_dir, s) for s in config['merge_sources']]
+    source_files += _other_area_sources(area_id)
     merged_output = os.path.join(data_dir, 'generated', 'all_events.json')
-    merge_events(source_files, merged_output)
+    merge_events(source_files, merged_output, area_config=config)
 
     # Step 4: Transform (date parsing, filtering, categorization)
     print(f"\n--- Step 4: Transform events ---")

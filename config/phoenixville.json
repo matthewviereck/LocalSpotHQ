@@ -2,11 +2,30 @@
   "id": "phoenixville",
   "name": "Phoenixville",
   "slug": "phoenixville",
-  "tagline": "Phoenixville \u2022 Oaks \u2022 Collegeville",
+  "tagline": "Phoenixville \u2022 Oaks \u2022 Collegeville \u2022 Spring City \u2022 Pottstown",
+  "region": "Schuylkill Valley",
+  "geo": {
+    "radius_miles": 6,
+    "tagline_towns": 5
+  },
+  "towns": [
+    { "name": "Phoenixville", "lat": 40.1304, "lng": -75.5149 },
+    { "name": "Mont Clare", "lat": 40.1367, "lng": -75.5028, "dining_group": "Phoenixville" },
+    { "name": "Kimberton", "lat": 40.1387, "lng": -75.5732, "dining_group": "Phoenixville" },
+    { "name": "Oaks", "lat": 40.1265, "lng": -75.4593 },
+    { "name": "Valley Forge", "lat": 40.1015, "lng": -75.4239 },
+    { "name": "Collegeville", "lat": 40.1859, "lng": -75.4527 },
+    { "name": "Trappe", "lat": 40.1976, "lng": -75.4779 },
+    { "name": "Skippack", "lat": 40.2201, "lng": -75.3971 },
+    { "name": "Spring City", "lat": 40.1762, "lng": -75.5474 },
+    { "name": "Royersford", "lat": 40.1843, "lng": -75.5382 },
+    { "name": "Limerick", "lat": 40.2273, "lng": -75.5624 },
+    { "name": "Pottstown", "lat": 40.2454, "lng": -75.6496 }
+  ],
   "meta": {
     "title": "LocalSpot - Phoenixville Events, Dining & Activities",
-    "description": "Your guide to events, restaurants, and things to do in Phoenixville, Oaks, and Collegeville PA.",
-    "keywords": "Phoenixville events, Phoenixville restaurants, things to do Phoenixville PA, Oaks events, Collegeville dining",
+    "description": "Your guide to events, restaurants, and things to do in Phoenixville, Oaks, Collegeville, Spring City, Royersford, and Pottstown PA.",
+    "keywords": "Phoenixville events, Phoenixville restaurants, things to do Phoenixville PA, Oaks events, Collegeville dining, Spring City events, Royersford events, Pottstown events, Schuylkill Valley PA",
     "og_image": "https://www.localspothq.com/images/og-image.png",
     "canonical_url": "https://www.localspothq.com/phoenixville/"
   },

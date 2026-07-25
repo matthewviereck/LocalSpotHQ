@@ -54,6 +54,81 @@ def _canon_month(name):
     return _MONTH_CANON.get(name.lower(), name)
 
 
+# Times arrive two ways: recurring events carry attributes.time ("9am-12pm"),
+# while scraped and discovered events tack it onto the date string
+# ("July 20, 2026 7:00 PM"). Normalize both to a compact "7pm" / "9am-12pm".
+_TIME_IN_DATE = re.compile(
+    r'\b(\d{1,2})(?::(\d{2}))?\s*([ap])\.?m\.?\b', re.IGNORECASE)
+
+
+def _tidy_time(hour, minute, meridiem):
+    hour = int(hour)
+    if hour == 0:
+        hour = 12
+    suffix = meridiem.lower() + 'm'
+    if minute and minute != '00':
+        return f"{hour}:{minute}{suffix}"
+    return f"{hour}{suffix}"
+
+
+def extract_time(event):
+    """Best available start time for an event, or '' when none is known."""
+    stated = (event.get('attributes') or {}).get('time')
+    if stated:
+        # Already human-readable from the recurring config; just tighten spacing.
+        return re.sub(r'\s*-\s*', '-', str(stated).strip())
+
+    match = _TIME_IN_DATE.search(str(event.get('raw_date_string', '')))
+    if match:
+        return _tidy_time(match.group(1), match.group(2), match.group(3))
+    return ''
+
+
+# Sources fill the price field with these when they don't actually know it.
+# Showing "Check Link" reads as information and isn't — better to show nothing
+# and let the row's link speak for itself.
+_PRICE_PLACEHOLDERS = re.compile(
+    r'^(check\s*(link|website|site)?|varies|tba|tbd|see\s+website|n/?a)\.?$',
+    re.IGNORECASE)
+
+
+def extract_price(event):
+    """Price string from source attributes, normalized for display."""
+    price = (event.get('attributes') or {}).get('price')
+    if not price:
+        return ''
+    price = str(price).strip()
+    if _PRICE_PLACEHOLDERS.match(price):
+        return ''
+    # Collapse the many ways sources say "free" into one label.
+    if re.fullmatch(r'free(\s+(entry|admission))?!?', price, re.IGNORECASE):
+        return 'Free'
+    # Discovery has emitted mangled amounts ("5 advance / 0 at door" for
+    # "$25 advance / $30 at door"). A ticket price that names a tier but
+    # carries no currency symbol lost its digits somewhere upstream — showing
+    # it is worse than showing nothing, since the number reads as real.
+    if re.search(r'\d', price) and '$' not in price \
+            and re.search(r'advance|door|adv\b|gate', price, re.IGNORECASE):
+        return ''
+    return price
+
+
+def _richness(event):
+    """
+    Rank two copies of the same event. Mirrors merge._richness but reads the
+    already-transformed shape.
+
+    Series identity outranks everything: discovery keeps rediscovering the
+    recurring events under slightly different titles ("Phoenixville Farmers
+    Market - Saturday"), and if one of those wins the dedupe it takes the
+    series key with it, so the app can no longer fold the run into one row.
+    Then time and price, which are what the reader decides on, then image/link.
+    """
+    return (bool(event.get('series')),
+            bool(event.get('time')), bool(event.get('price')),
+            'placehold.co' not in event.get('img', ''), bool(event.get('link')))
+
+
 def format_date_display(date_string):
     """Convert date string to readable display format."""
     try:
@@ -174,7 +249,7 @@ def fuzzy_dedupe(events):
         kept = []  # list of [tokens, event, richness]
         for ev in group:
             tokens = _title_tokens(ev['title'])
-            richness = ('placehold.co' not in ev['img'], bool(ev['link']))
+            richness = _richness(ev)
             merged = False
             for entry in kept:
                 small, large = (tokens, entry[0]) if len(tokens) <= len(entry[0]) else (entry[0], tokens)
@@ -230,6 +305,15 @@ def transform_events(input_file, output_file):
                 "date_category": date_category,
                 "type": event.get("attributes", {}).get("category", "Event"),
                 "loc": event.get("venue_info", {}).get("name", "Unknown Venue"),
+                # Set by pipeline/geo.py from venue coordinates. The app groups
+                # and filters on this rather than re-parsing the venue string.
+                "town": event.get("town", ""),
+                "time": extract_time(event),
+                "price": extract_price(event),
+                # Weekly series identity, set by pipeline/recurring.py
+                "series": (event.get("attributes") or {}).get("series", ""),
+                "cadence": (event.get("attributes") or {}).get("cadence", ""),
+                "weekday": (event.get("attributes") or {}).get("weekday", ""),
                 "img": event.get("media", {}).get("image", "https://placehold.co/400x300?text=No+Image"),
                 "link": event.get("action_link", ""),
                 "_sort_date": event_datetime.timestamp() if event_datetime else 9999999999

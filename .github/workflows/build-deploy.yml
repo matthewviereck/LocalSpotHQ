@@ -49,12 +49,16 @@ jobs:
       - name: Build West Chester
         run: python pipeline/run.py --area west_chester
 
+      - name: Build hub page
+        run: python pipeline/hub.py
+
       - name: Verify build output
         run: |
           test -s output/phoenixville/index.html
           test -s output/phoenixville/this-weekend/index.html
           test -s output/phoenixville/events.ics
           test -s output/west_chester/index.html
+          test -s output/index.html
           # Refuse to ship a gutted build (e.g. every scraper failed and the
           # committed fallbacks were missing). West Chester has one scraper
           # plus recurring events, so its floor is lower.
@@ -91,6 +95,11 @@ jobs:
 
           # The signup form POSTs to /subscribe.php at the site root
           rsync -tz -e "$RSH" web/subscribe.php "$DEPLOY_USER@$HOST:$DOCROOT/subscribe.php"
+
+          # Hub page, rebuilt each run so its per-area counts stay honest.
+          # Single file, no --delete: everything else at the docroot (images,
+          # .htaccess, sitemap.xml, submit.html) is managed by hand.
+          rsync -tz -e "$RSH" output/index.html "$DEPLOY_USER@$HOST:$DOCROOT/index.html"
 
           # Retired parallel-run dir from before cutover (no-op once gone)
           $RSH "$DEPLOY_USER@$HOST" "rm -rf ~/$DOCROOT/phoenixville-beta"
