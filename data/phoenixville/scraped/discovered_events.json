@@ -2325,7 +2325,7 @@
   {
     "id": "discovered_eagleview_concert_20260818",
     "type": "event",
-    "title": "Eagleview Summer Concert Series \u2013 August 18",
+    "title": "Eagleview Summer Concert: Rhett Miller with The Maks",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
       "location": {
@@ -2340,6 +2340,7 @@
         "Free",
         "Outdoor",
         "Live Music",
+        "Singer-Songwriter",
         "Family Friendly",
         "Lawn Concert",
         "Bring Chairs"
@@ -3105,5 +3106,35 @@
       "image": ""
     },
     "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_al_laskey_auto_show_20260823",
+    "type": "event",
+    "title": "33rd Annual Al Laskey Memorial Auto Show",
+    "venue_info": {
+      "name": "Perkiomen Valley High School Parking Lot, Collegeville",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "August 23, 2026 8:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Car Show",
+        "Family Friendly",
+        "Outdoor",
+        "Community",
+        "Collegeville",
+        "Awards"
+      ],
+      "price": "Free (viewing)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://perkiomenfirecompany.com/events/"
   }
 ]
