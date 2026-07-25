@@ -3108,9 +3108,97 @@
     "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
   },
   {
+    "id": "discovered_spinal_tap_colonial_20260809",
+    "type": "event",
+    "title": "This Is Spinal Tap – 41st Anniversary Screening",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "August 9, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Cult Cinema",
+        "Mockumentary",
+        "Comedy",
+        "Classic Film",
+        "Anniversary",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/cult-cinema/this-is-spinal-tap-41st-anniversary/"
+  },
+  {
+    "id": "discovered_spinal_tap_colonial_20260810",
+    "type": "event",
+    "title": "This Is Spinal Tap – 41st Anniversary Screening",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "August 10, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Cult Cinema",
+        "Mockumentary",
+        "Comedy",
+        "Classic Film",
+        "Anniversary",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/cult-cinema/this-is-spinal-tap-41st-anniversary/"
+  },
+  {
+    "id": "discovered_steps_recovery_walk_20260822",
+    "type": "event",
+    "title": "Steps Toward Recovery – Phoenixville Community Walk",
+    "venue_info": {
+      "name": "Reeves Park, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 22, 2026 11:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Community",
+        "Recovery",
+        "Family Friendly",
+        "Speakers",
+        "Resource Tables"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/steps-toward-recovery-community-walk-tickets-1987840782291"
+  },
+  {
     "id": "discovered_al_laskey_auto_show_20260823",
     "type": "event",
-    "title": "33rd Annual Al Laskey Memorial Auto Show",
+    "title": "34th Annual Al Laskey Memorial Auto Show",
     "venue_info": {
       "name": "Perkiomen Valley High School Parking Lot, Collegeville",
       "location": {
