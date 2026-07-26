@@ -15,6 +15,7 @@ import shutil
 from datetime import datetime, date
 
 from pipeline.feeds import _event_date
+from pipeline.analytics import GA_SNIPPET
 
 
 def _slug(title):
@@ -67,6 +68,7 @@ def _event_page(ev, d, area_config):
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+{GA_SNIPPET}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{html.escape(page_title)} | LocalSpot {html.escape(area_name)}</title>
 <meta name="description" content="{html.escape(description)}">

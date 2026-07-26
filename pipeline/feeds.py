@@ -8,6 +8,7 @@ import os
 import hashlib
 import html
 from datetime import datetime, timedelta, date
+from pipeline.analytics import GA_SNIPPET
 
 TBA_SENTINEL = 9999999999
 
@@ -117,6 +118,7 @@ def generate_this_weekend_page(events_file, output_dir, area_config):
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+{GA_SNIPPET}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{html.escape(title)} | LocalSpot</title>
 <meta name="description" content="{html.escape(description)}">

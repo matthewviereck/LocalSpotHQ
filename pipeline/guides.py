@@ -7,6 +7,7 @@ import json
 import os
 import shutil
 from datetime import date
+from pipeline.analytics import GA_SNIPPET
 
 
 def load_guides(guides_file):
@@ -45,6 +46,7 @@ def _guide_page(guide, area_config):
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+{GA_SNIPPET}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{html.escape(title)} | LocalSpot {html.escape(area_name)}</title>
 <meta name="description" content="{html.escape(description)}">
@@ -100,6 +102,7 @@ def _guides_index(guides, area_config):
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+{GA_SNIPPET}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Local Guides | LocalSpot {html.escape(area_name)}</title>
 <meta name="description" content="In-depth local guides for {html.escape(area_name)} — festivals, food, and things worth planning around.">

@@ -59,6 +59,14 @@ jobs:
           test -s output/phoenixville/events.ics
           test -s output/west_chester/index.html
           test -s output/index.html
+          test -s output/sitemap.xml
+          test -s output/robots.txt
+          # Every generated page must carry the GA tag, or analytics goes blind
+          # on exactly the pages organic search lands on.
+          for p in output/phoenixville/this-weekend/index.html \
+                   output/phoenixville/guides/index.html; do
+            grep -q 'G-FXMDYPK8KZ' "$p" || { echo "GA tag missing from $p"; exit 1; }
+          done
           # Refuse to ship a gutted build (e.g. every scraper failed and the
           # committed fallbacks were missing). West Chester has one scraper
           # plus recurring events, so its floor is lower.
@@ -96,10 +104,13 @@ jobs:
           # The signup form POSTs to /subscribe.php at the site root
           rsync -tz -e "$RSH" web/subscribe.php "$DEPLOY_USER@$HOST:$DOCROOT/subscribe.php"
 
-          # Hub page, rebuilt each run so its per-area counts stay honest.
-          # Single file, no --delete: everything else at the docroot (images,
-          # .htaccess, sitemap.xml, submit.html) is managed by hand.
+          # Hub page, rebuilt each run so its per-area counts stay honest, plus
+          # the sitemap index and robots.txt that point crawlers at every area
+          # sitemap. Individual files, no --delete: everything else at the
+          # docroot (images, .htaccess, submit.html) is managed by hand.
           rsync -tz -e "$RSH" output/index.html "$DEPLOY_USER@$HOST:$DOCROOT/index.html"
+          rsync -tz -e "$RSH" output/sitemap.xml "$DEPLOY_USER@$HOST:$DOCROOT/sitemap.xml"
+          rsync -tz -e "$RSH" output/robots.txt "$DEPLOY_USER@$HOST:$DOCROOT/robots.txt"
 
           # Retired parallel-run dir from before cutover (no-op once gone)
           $RSH "$DEPLOY_USER@$HOST" "rm -rf ~/$DOCROOT/phoenixville-beta"

@@ -14,6 +14,7 @@ import json
 import os
 import re
 import sys
+from datetime import date
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, PROJECT_ROOT)
@@ -86,6 +87,63 @@ def _replace_card(html, stats):
     return html[:start] + card_new + html[end:], True
 
 
+def build_sitemap_index(output_file=None):
+    """
+    Emit a sitemap index at the site root pointing at each area's sitemap.
+
+    The hand-written root sitemap.xml listed 3 URLs and was last read by Google
+    in March, so only 2 pages were ever indexed while ~220 live pages sat in
+    per-area sitemaps nothing referenced. An index means the one sitemap
+    already registered in Search Console reaches all of them, and stays correct
+    as areas and events come and go.
+    """
+    registry = _load(os.path.join(PROJECT_ROOT, 'config', 'areas.json'), {})
+    today = date.today().isoformat()
+
+    entries = []
+    for area in registry.get('areas', []):
+        if not area.get('enabled'):
+            continue
+        config = _load(os.path.join(PROJECT_ROOT, 'config', f"{area['id']}.json"), {})
+        base = config.get('meta', {}).get('canonical_url', '').rstrip('/')
+        if not base:
+            continue
+        entries.append(f"  <sitemap>\n    <loc>{base}/sitemap.xml</loc>\n"
+                       f"    <lastmod>{today}</lastmod>\n  </sitemap>")
+
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+           + '\n'.join(entries) + '\n</sitemapindex>\n')
+
+    output_file = output_file or os.path.join(PROJECT_ROOT, 'output', 'sitemap.xml')
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(xml)
+    print(f">> Sitemap index: {len(entries)} area sitemaps -> {output_file}")
+    return output_file
+
+
+def build_robots(output_file=None):
+    """robots.txt naming every sitemap, so crawlers find them without GSC."""
+    registry = _load(os.path.join(PROJECT_ROOT, 'config', 'areas.json'), {})
+    lines = ['User-agent: *', 'Allow: /', '',
+             'Sitemap: https://www.localspothq.com/sitemap.xml']
+    for area in registry.get('areas', []):
+        if not area.get('enabled'):
+            continue
+        config = _load(os.path.join(PROJECT_ROOT, 'config', f"{area['id']}.json"), {})
+        base = config.get('meta', {}).get('canonical_url', '').rstrip('/')
+        if base:
+            lines.append(f'Sitemap: {base}/sitemap.xml')
+
+    output_file = output_file or os.path.join(PROJECT_ROOT, 'output', 'robots.txt')
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines) + '\n')
+    print(f">> robots.txt: {len(lines) - 4} area sitemaps -> {output_file}")
+    return output_file
+
+
 def build_hub(output_file=None):
     registry = _load(os.path.join(PROJECT_ROOT, 'config', 'areas.json'), {})
     areas = [a for a in registry.get('areas', []) if a.get('enabled')]
@@ -122,3 +180,5 @@ def build_hub(output_file=None):
 
 if __name__ == '__main__':
     build_hub()
+    build_sitemap_index()
+    build_robots()
