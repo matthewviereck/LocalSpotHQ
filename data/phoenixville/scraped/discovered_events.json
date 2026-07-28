@@ -1,34 +1,5 @@
 [
   {
-    "id": "discovered_comedy_open_mic_20260727",
-    "type": "event",
-    "title": "B&C Comedy Open Mic Night at Great American Pub",
-    "venue_info": {
-      "name": "Great American Pub, 148 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "July 27, 2026 8:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Free",
-        "Stand-Up Comedy",
-        "Open Mic",
-        "21+",
-        "Downtown Phoenixville",
-        "Bar"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
-  },
-  {
     "id": "discovered_eagleview_concert_20260728",
     "type": "event",
     "title": "Eagleview Summer Concert: The Legwarmers \u2013 80s Tribute",
@@ -1241,6 +1212,36 @@
       "image": ""
     },
     "action_link": "https://www.ravensgatepxv.com/events"
+  },
+  {
+    "id": "discovered_serritella_scottoline_colonial_20260807",
+    "type": "event",
+    "title": "Francesca Serritella & Lisa Scottoline – Live at The Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "August 7, 2026 7:00 PM",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": [
+        "Author Event",
+        "Mother-Daughter",
+        "Bestselling Authors",
+        "Q&A",
+        "Book Signing",
+        "First Friday",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/francesca-serritella-lisa-scottoline-live-at-the-colonial-theatre/"
   },
   {
     "id": "discovered_movies_on_lawn_ursinus_20260807",
@@ -2708,5 +2709,34 @@
       "image": ""
     },
     "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
+  },
+  {
+    "id": "discovered_stable12_trivia_20260826",
+    "type": "event",
+    "title": "Pub Trivia Night at Stable 12 Brewing",
+    "venue_info": {
+      "name": "Stable 12 Brewing Co., 368 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 26, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Trivia",
+        "Craft Beer",
+        "Brewery",
+        "Free",
+        "Wednesday Night Out",
+        "Downtown Phoenixville"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
   }
 ]
