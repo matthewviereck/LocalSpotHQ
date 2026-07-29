@@ -1,34 +1,5 @@
 [
   {
-    "id": "discovered_eagleview_concert_20260728",
-    "type": "event",
-    "title": "Eagleview Summer Concert: The Legwarmers \u2013 80s Tribute",
-    "venue_info": {
-      "name": "Eagleview Town Center, Exton (near Phoenixville)",
-      "location": {
-        "lat": 40.0337,
-        "lng": -75.6174
-      }
-    },
-    "raw_date_string": "July 28, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Family Friendly",
-        "Lawn Concert",
-        "Bring Chairs"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
-  },
-  {
     "id": "discovered_carillon_concert_20260729",
     "type": "event",
     "title": "Frank P. Law Summer Carillon Concert Series \u2013 July 29",
@@ -1449,6 +1420,34 @@
     "action_link": "https://souljoels.com/shop/tickets/augustinclusivedance/"
   },
   {
+    "id": "discovered_tell_williams_souljoels_20260808",
+    "type": "event",
+    "title": "Tell Williams: Live Stand-Up Comedy",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "August 8, 2026 8:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Live Comedy",
+        "Philly Suburbs",
+        "HBO Appearances",
+        "Pottstown"
+      ],
+      "price": "$20 GA / $30 Preferred"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/tellwilliams/"
+  },
+  {
     "id": "discovered_farmers_market_20260808",
     "type": "event",
     "title": "Phoenixville Farmers Market \u2013 Saturday",
@@ -1800,6 +1799,35 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/colonial-events/history-on-the-rocks-the-phoenix-wheel/"
+  },
+  {
+    "id": "discovered_school_of_rock_limerick_20260813",
+    "type": "event",
+    "title": "Limerick Township Summer Concert: School of Rock Performers",
+    "venue_info": {
+      "name": "Limerick Township Veterans Pavilion, 646 W. Ridge Pike, Limerick",
+      "location": {
+        "lat": 40.2285,
+        "lng": -75.5335
+      }
+    },
+    "raw_date_string": "August 13, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "School of Rock",
+        "Family Friendly",
+        "Community Concert",
+        "All Ages"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.limerickpa.org/225/Upcoming-Events-Programs"
   },
   {
     "id": "discovered_philly_folk_festival_20260814",
@@ -2738,5 +2766,121 @@
       "image": ""
     },
     "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
+  },
+  {
+    "id": "discovered_craft_cinema_the_craft_20260826",
+    "type": "event",
+    "title": "Craft Cinema: The Craft (1996)",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "August 26, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Craft Night",
+        "Cult Film",
+        "1990s Horror",
+        "Social Crafting",
+        "Bring Your Knitting",
+        "Indoor"
+      ],
+      "price": "$10"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/craft-cinema/the-craft/"
+  },
+  {
+    "id": "discovered_jason_mewes_souljoels_20260827",
+    "type": "event",
+    "title": "Jason Mewes: Live Stand-Up Comedy",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "August 27, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Celebrity Comedian",
+        "Jay and Silent Bob",
+        "Kevin Smith",
+        "Cult Film Icon",
+        "Stand-Up Debut",
+        "Pop Culture"
+      ],
+      "price": "$30 GA / $45 Preferred"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/jasonmewes/"
+  },
+  {
+    "id": "discovered_larry_joe_latingrass_colonial_20260828",
+    "type": "event",
+    "title": "Larry & Joe: Latingrass Live",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "August 28, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Venezuelan Folk",
+        "Bluegrass",
+        "World Music",
+        "Latingrass",
+        "Acoustic",
+        "Grammy-Nominated",
+        "Cultural Fusion"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/larry-joe/"
+  },
+  {
+    "id": "discovered_tony_dabas_souljoels_20260828",
+    "type": "event",
+    "title": "Tony Dabas: Live Stand-Up Comedy",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "August 28, 2026 8:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Viral Comedian",
+        "NYC Comedian",
+        "High-Energy",
+        "Crowd Work"
+      ],
+      "price": "$20 GA / $30 Preferred"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/tonydabas/"
   }
 ]
