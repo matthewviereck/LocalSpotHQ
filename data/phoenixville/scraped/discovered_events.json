@@ -1,63 +1,5 @@
 [
   {
-    "id": "discovered_carillon_concert_20260729",
-    "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series \u2013 July 29",
-    "venue_info": {
-      "name": "Washington Memorial Chapel, Valley Forge",
-      "location": {
-        "lat": 40.1014,
-        "lng": -75.4544
-      }
-    },
-    "raw_date_string": "July 29, 2026 7:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Classical Music",
-        "Bell Tower",
-        "Family Friendly",
-        "Picnic-Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
-  },
-  {
-    "id": "discovered_stable12_trivia_20260729",
-    "type": "event",
-    "title": "Pub Trivia Night at Stable 12 Brewing",
-    "venue_info": {
-      "name": "Stable 12 Brewing Co., 368 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "July 29, 2026 7:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Trivia",
-        "Craft Beer",
-        "Brewery",
-        "Free",
-        "Wednesday Night Out",
-        "Downtown Phoenixville"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
-  },
-  {
     "id": "discovered_crowd_pleasers_colonial_20260730",
     "type": "event",
     "title": "Crowd Pleasers Family Film Screening at Colonial Theatre",
@@ -2797,7 +2739,7 @@
     "action_link": "https://thecolonialtheatre.com/films/craft-cinema/the-craft/"
   },
   {
-    "id": "discovered_jason_mewes_souljoels_20260827",
+    "id": "discovered_jason_mewes_souljoels_20260828",
     "type": "event",
     "title": "Jason Mewes: Live Stand-Up Comedy",
     "venue_info": {
@@ -2807,7 +2749,7 @@
         "lng": -75.6496
       }
     },
-    "raw_date_string": "August 27, 2026 7:00 PM",
+    "raw_date_string": "August 28, 2026 7:00 PM",
     "attributes": {
       "category": "Comedy",
       "vibes": [
@@ -2882,5 +2824,152 @@
       "image": ""
     },
     "action_link": "https://souljoels.com/shop/tickets/tonydabas/"
+  },
+  {
+    "id": "discovered_summer_music_bridge_st_20260828",
+    "type": "event",
+    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge Street",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "Aug 28, 2026 6:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Downtown",
+        "Summer",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=1773"
+  },
+  {
+    "id": "discovered_soul_cruisers_souljoels_20260828",
+    "type": "event",
+    "title": "The Soul Cruisers – Live at SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "August 28, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Soul",
+        "R&B",
+        "Dance",
+        "NYC-Pedigree Band",
+        "Pottstown"
+      ],
+      "price": "$10"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/soulcruisers/"
+  },
+  {
+    "id": "discovered_joe_devito_souljoels_20260829",
+    "type": "event",
+    "title": "Joe DeVito: Live Stand-Up Comedy",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "August 29, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Gutfeld!",
+        "Comedy Central",
+        "Dry Bar Comedy",
+        "Pottstown",
+        "Weekend"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/joedevito/"
+  },
+  {
+    "id": "discovered_big_trip_gem_20260829",
+    "type": "event",
+    "title": "The Big Trip – Grateful Dead, Allman Brothers & More at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "August 29, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Jam Band",
+        "Grateful Dead",
+        "Allman Brothers",
+        "The Band",
+        "Spring City",
+        "Weekend"
+      ],
+      "price": "$60–$80"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/event-details/the-big-trip-with-tba"
+  },
+  {
+    "id": "discovered_farmers_market_20260829",
+    "type": "event",
+    "title": "Phoenixville Farmers Market – Saturday",
+    "venue_info": {
+      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 29, 2026 9:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Local Produce",
+        "Artisan Food",
+        "Family Friendly",
+        "Live Music",
+        "Seasonal"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org/"
   }
 ]
