@@ -1,61 +1,5 @@
 [
   {
-    "id": "discovered_crowd_pleasers_colonial_20260730",
-    "type": "event",
-    "title": "Crowd Pleasers Family Film Screening at Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Jul 30, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Family Friendly",
-        "Classic Film",
-        "Kids",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/"
-  },
-  {
-    "id": "discovered_kookoo_magic_20260730",
-    "type": "event",
-    "title": "Thrilling Thursdays: KooKoo the Cartoon Magician (Free Family Show)",
-    "venue_info": {
-      "name": "Phoenixville Recreation Center, 501 Franklin Ave",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "July 30, 2026 10:30 AM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Family Friendly",
-        "Kids",
-        "Magic Show",
-        "Library Event",
-        "Indoor"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://ccls.libcal.com/event/16848079"
-  },
-  {
     "id": "discovered_perfect_strangers_watertower_20260731",
     "type": "event",
     "title": "Perfect Strangers \u2013 Live at The Water Tower Live",
@@ -834,6 +778,35 @@
       "image": ""
     },
     "action_link": "https://fhycomplex.org/"
+  },
+  {
+    "id": "discovered_ai_speaker_series_root_down_20260806",
+    "type": "event",
+    "title": "Greater Philly AI Speaker Series #02: Designing with AI",
+    "venue_info": {
+      "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 6, 2026 6:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Tech Talk",
+        "AI",
+        "Educational",
+        "Brewery",
+        "Networking",
+        "21+"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.meetup.com/greater-philly-ai/events/315501073/"
   },
   {
     "id": "discovered_goschenhoppen_folk_fest_20260808",
@@ -2971,5 +2944,37 @@
       "image": ""
     },
     "action_link": "https://www.phoenixvillefarmersmarket.org/"
+  },
+  {
+    "id": "discovered_prfm_oaks_expo_20260829",
+    "type": "event",
+    "title": "Phoenixville Punk Rock Flea Market – 11 Year Anniversary Super-Sized Spectacular",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center Hall B, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "August 29, 2026 11:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Vintage",
+        "Punk",
+        "Flea Market",
+        "Vinyl DJs",
+        "Hearse Car Show",
+        "Art",
+        "Oddities",
+        "Family Friendly",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phillyprfm.com/"
   }
 ]
