@@ -2978,5 +2978,63 @@
       "image": ""
     },
     "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_gem_fest_2026_20260822",
+    "type": "event",
+    "title": "GEM FEST 2026 – Multi-Venue Music & Arts Festival",
+    "venue_info": {
+      "name": "The Gem Music Hall, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "August 22, 2026 2:30 PM",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Festival",
+        "Local Music",
+        "Arts",
+        "Multi-Venue",
+        "Spring City",
+        "Presale Passes"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/gem-fest-2026-tickets-1981393266598"
+  },
+  {
+    "id": "discovered_philly_watch_trade_show_20260828",
+    "type": "event",
+    "title": "Philadelphia Watch Trade Show",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Aug 28 - 29, 2026",
+    "attributes": {
+      "category": "Expo",
+      "vibes": [
+        "Watches",
+        "Collectors",
+        "Vintage",
+        "Trade Show",
+        "Buy Sell Trade",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/philadelphia-watch-trade-show-aug-2829-2026-tickets-1990655467089"
   }
 ]
