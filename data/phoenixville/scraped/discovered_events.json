@@ -3036,5 +3036,64 @@
       "image": ""
     },
     "action_link": "https://www.eventbrite.com/e/philadelphia-watch-trade-show-aug-2829-2026-tickets-1990655467089"
+  },
+  {
+    "id": "discovered_vinny_guadagnino_souljoels_20260821",
+    "type": "event",
+    "title": "Vinny Guadagnino – Live Stand-Up Comedy Debut at SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "August 21, 2026 8:30 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Celebrity Comedian",
+        "Jersey Shore",
+        "Stand-Up Debut",
+        "Pop Culture",
+        "Bar",
+        "Pottstown"
+      ],
+      "price": "$30 GA / $40 Preferred"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/vinnyguadagnino/"
+  },
+  {
+    "id": "discovered_montco_concert_band_pennypacker_20260822",
+    "type": "event",
+    "title": "Porch Performance: Montgomery County Concert Band at Pennypacker Mills",
+    "venue_info": {
+      "name": "Pennypacker Mills Historic Site, 5 Haldeman Rd, Schwenksville",
+      "location": {
+        "lat": 40.2434,
+        "lng": -75.4632
+      }
+    },
+    "raw_date_string": "August 22, 2026 4:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Historic Site",
+        "Family Friendly",
+        "Bring Lawn Chairs",
+        "Summer Concert"
+      ],
+      "price": "Free (suggested $2 donation)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.montgomerycountypa.gov/2196/Upcoming-Events"
   }
 ]
