@@ -30,34 +30,6 @@
     "action_link": "https://www.makerfestivals.com/beadfest-2026"
   },
   {
-    "id": "discovered_little_shop_colonial_20260806",
-    "type": "event",
-    "title": "Little Shop of Horrors (1986) Director's Cut – Crowd Pleasers Screening",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "August 6, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Classic Film",
-        "Musical Comedy",
-        "Horror Comedy",
-        "Cult Classic",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/little-shop-of-horrors/"
-  },
-  {
     "id": "discovered_fhy_fair_collegeville_20260806",
     "type": "event",
     "title": "Farm, Home & Youth Fair – Montgomery County 4-H Fair",
@@ -87,63 +59,6 @@
       "image": ""
     },
     "action_link": "https://fhycomplex.org/"
-  },
-  {
-    "id": "discovered_ai_speaker_series_root_down_20260806",
-    "type": "event",
-    "title": "Greater Philly AI Speaker Series #02: Designing with AI",
-    "venue_info": {
-      "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 6, 2026 6:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Tech Talk",
-        "AI",
-        "Educational",
-        "Brewery",
-        "Networking",
-        "21+"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.meetup.com/greater-philly-ai/events/315501073/"
-  },
-  {
-    "id": "discovered_hysterical_comedy_souljoels_20260806",
-    "type": "event",
-    "title": "Hysterical: The Funny Ladies of SummerFest",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "August 6, 2026 7:30 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Women in Comedy",
-        "All-Female Lineup",
-        "Live Comedy",
-        "Pottstown"
-      ],
-      "price": "$10 GA"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/funnyladiesofsummerfest/"
   },
   {
     "id": "discovered_goschenhoppen_folk_fest_20260808",
@@ -2841,5 +2756,35 @@
       "image": ""
     },
     "action_link": "https://www.thegemspringcity.com/event-details/jam-pan"
+  },
+  {
+    "id": "discovered_collegeville_yard_sale_20260906",
+    "type": "event",
+    "title": "Collegeville Colossal Yard Sale",
+    "venue_info": {
+      "name": "Waterworks Park, West First Ave, Trappe (near Collegeville)",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "September 6, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly",
+        "Yard Sale",
+        "Community",
+        "Vintage",
+        "Collegeville"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.collegevilledevelopment.org/collegeville-colossal-yard-sale/"
   }
 ]
