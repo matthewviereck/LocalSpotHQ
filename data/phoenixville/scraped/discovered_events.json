@@ -61,95 +61,6 @@
     "action_link": "https://fhycomplex.org/"
   },
   {
-    "id": "discovered_goschenhoppen_folk_fest_20260808",
-    "type": "event",
-    "title": "Goschenhoppen Folk Festival",
-    "venue_info": {
-      "name": "Henry Antes Plantation, 318 Colonial Rd, Perkiomenville (near Collegeville)",
-      "location": {
-        "lat": 40.2345,
-        "lng": -75.4734
-      }
-    },
-    "raw_date_string": "Aug 8 - 9, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Pennsylvania German Heritage",
-        "Living History",
-        "Crafts",
-        "Folk Music",
-        "Family Friendly",
-        "Outdoor",
-        "Annual Tradition"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://goschenhoppen.org/goschenhoppen-folk-festival/"
-  },
-  {
-    "id": "discovered_first_friday_august_20260807",
-    "type": "event",
-    "title": "Phoenixville First Friday – August",
-    "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Aug 7, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Family Friendly",
-        "Vendors",
-        "Night Market",
-        "Arts & Crafts"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixvillefirst.org/first-fridays"
-  },
-  {
-    "id": "discovered_lbk_troubles_end_20260807",
-    "type": "event",
-    "title": "Live Band Karaoke at Trouble's End Brewing – First Friday August",
-    "venue_info": {
-      "name": "Trouble's End Brewing, Collegeville",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "Aug 7, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Karaoke",
-        "Live Band",
-        "Brewery",
-        "Fun",
-        "Collegeville",
-        "21+"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.troublesendbrewing.com/live-music-calendar"
-  },
-  {
     "id": "discovered_liberty_comic_con_20260807",
     "type": "event",
     "title": "Liberty Comic Con – Greater Philadelphia Expo Center",
@@ -237,179 +148,34 @@
     "action_link": "https://www.eventbrite.com/e/lucky-leaf-expo-philadelphia-pa-2026-tickets-1688723430239"
   },
   {
-    "id": "discovered_brad_upton_souljoels_20260807",
+    "id": "discovered_goschenhoppen_folk_fest_20260808",
     "type": "event",
-    "title": "Brad Upton Live Comedy at SoulJoel's",
+    "title": "Goschenhoppen Folk Festival",
     "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "name": "Henry Antes Plantation, 318 Colonial Rd, Perkiomenville (near Collegeville)",
       "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
+        "lat": 40.2345,
+        "lng": -75.4734
       }
     },
-    "raw_date_string": "August 7, 2026 8:00 PM",
+    "raw_date_string": "Aug 8 - 9, 2026",
     "attributes": {
-      "category": "Comedy",
+      "category": "Festival",
       "vibes": [
-        "Stand-Up Comedy",
-        "Live Comedy",
-        "Bar",
-        "Pottstown",
-        "First Friday"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/bradupton/"
-  },
-  {
-    "id": "discovered_super_unledded_stray_dog_20260807",
-    "type": "event",
-    "title": "Super Unledded – Led Zeppelin Tribute Live at Stray Dog Tavern",
-    "venue_info": {
-      "name": "Stray Dog Tavern, 3911 Skippack Pike, Skippack",
-      "location": {
-        "lat": 40.2078,
-        "lng": -75.4138
-      }
-    },
-    "raw_date_string": "August 7, 2026 8:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Led Zeppelin Tribute",
-        "Classic Rock",
-        "Live Music",
-        "Bar",
-        "Skippack",
-        "First Friday"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://allevents.in/skippack/stray-dog-tavern/200026385064932"
-  },
-  {
-    "id": "discovered_bella_rayne_gem_20260807",
-    "type": "event",
-    "title": "Bella Rayne Band with Crickets and Cicadas – Live at The Gem",
-    "venue_info": {
-      "name": "The Gem Music Hall, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "August 7, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Local Bands",
-        "Spring City",
-        "First Friday",
-        "Weekend"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/event-details/bella-rayne-and-friends-with-lofton-myers-project"
-  },
-  {
-    "id": "discovered_abby_haduck_ravensgate_20260807",
-    "type": "event",
-    "title": "Abby Haduck Solo Exhibition – Opening Reception at Ravensgate",
-    "venue_info": {
-      "name": "Ravensgate Art Gallery, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 7, 2026 6:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Art Gallery",
-        "Opening Reception",
-        "Free",
-        "Local Artist",
-        "Oil Painting",
-        "Indoor",
-        "First Friday"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.ravensgatepxv.com/events"
-  },
-  {
-    "id": "discovered_serritella_scottoline_colonial_20260807",
-    "type": "event",
-    "title": "Francesca Serritella & Lisa Scottoline – Live at The Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "August 7, 2026 7:00 PM",
-    "attributes": {
-      "category": "Guest Presentations",
-      "vibes": [
-        "Author Event",
-        "Mother-Daughter",
-        "Bestselling Authors",
-        "Q&A",
-        "Book Signing",
-        "First Friday",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/francesca-serritella-lisa-scottoline-live-at-the-colonial-theatre/"
-  },
-  {
-    "id": "discovered_movies_on_lawn_ursinus_20260807",
-    "type": "event",
-    "title": "Movies on the Lawn: The Muppet Movie – Ursinus College",
-    "venue_info": {
-      "name": "Berman Lawn, Ursinus College, Collegeville",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "August 7, 2026 7:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Movie Night",
+        "Pennsylvania German Heritage",
+        "Living History",
+        "Crafts",
+        "Folk Music",
         "Family Friendly",
-        "Bring Lawn Chairs",
-        "Food Trucks",
-        "Collegeville"
+        "Outdoor",
+        "Annual Tradition"
       ],
-      "price": "Free"
+      "price": "Check Link"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.ursinus.edu/offices/protocol-and-special-events/flagship-events/movies-on-the-lawn/"
+    "action_link": "https://goschenhoppen.org/goschenhoppen-folk-festival/"
   },
   {
     "id": "discovered_phoenixville_vegfest_20260808",
@@ -1143,6 +909,36 @@
     "action_link": "https://souljoels.com/upcoming-events/"
   },
   {
+    "id": "discovered_skippack_kid_fest_20260814",
+    "type": "event",
+    "title": "Skippack Township Kid Fest",
+    "venue_info": {
+      "name": "Palmer Park Pavilion, Skippack Township",
+      "location": {
+        "lat": 40.2201,
+        "lng": -75.3971
+      }
+    },
+    "raw_date_string": "August 14, 2026 4:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Free",
+        "Food Trucks",
+        "Fireworks",
+        "Outdoor",
+        "Kids",
+        "Skippack"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.skippacktownship.org/departments/parks-recreation/programs-events/"
+  },
+  {
     "id": "discovered_splatterfest_xii_20260815",
     "type": "event",
     "title": "Splatterfest XII – All-Night Italian Horror Film Marathon on 35mm",
@@ -1463,6 +1259,36 @@
       "image": ""
     },
     "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
+  },
+  {
+    "id": "discovered_lock60_guided_tour_20260819",
+    "type": "event",
+    "title": "Lock 60 Guided Tour – Schuylkill Canal Park",
+    "venue_info": {
+      "name": "Schuylkill Canal Lock 60, 400 Towpath Rd, Mont Clare",
+      "location": {
+        "lat": 40.1367,
+        "lng": -75.5028
+      }
+    },
+    "raw_date_string": "August 19, 2026 11:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "History",
+        "Canal Tour",
+        "Outdoor",
+        "Educational",
+        "Pre-Registration Required",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.montgomerycountypa.gov/Calendar.aspx?EID=5294"
   },
   {
     "id": "discovered_vinyl_roots_kimberton_20260820",
@@ -1989,6 +1815,37 @@
       "image": ""
     },
     "action_link": "https://perkiomenfirecompany.com/events/"
+  },
+  {
+    "id": "discovered_dog_days_skippack_20260823",
+    "type": "event",
+    "title": "Dog Days of Summer – Skippack Village",
+    "venue_info": {
+      "name": "Skippack Village, Skippack Pike, Skippack",
+      "location": {
+        "lat": 40.2201,
+        "lng": -75.3971
+      }
+    },
+    "raw_date_string": "August 23, 2026 10:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Dog Friendly",
+        "Free",
+        "Outdoor",
+        "Pet Vendors",
+        "Splash Pool",
+        "Pup Cups",
+        "Family Friendly",
+        "Skippack"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.skippackvillage.com/events/1161/dog-days-of-summer.html"
   },
   {
     "id": "discovered_comedy_open_mic_20260824",
