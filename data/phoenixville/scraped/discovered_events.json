@@ -1,69 +1,8 @@
 [
   {
-    "id": "discovered_beadfest_kop_20260805",
-    "type": "event",
-    "title": "BeadFest 2026 – 25th Anniversary",
-    "venue_info": {
-      "name": "Valley Forge Casino Resort, King of Prussia (near Oaks)",
-      "location": {
-        "lat": 40.0881,
-        "lng": -75.3826
-      }
-    },
-    "raw_date_string": "Aug 5 - 8, 2026",
-    "attributes": {
-      "category": "Expo",
-      "vibes": [
-        "Beads",
-        "Jewelry Making",
-        "Crafts",
-        "Workshops",
-        "Marketplace",
-        "25th Anniversary",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.makerfestivals.com/beadfest-2026"
-  },
-  {
-    "id": "discovered_fhy_fair_collegeville_20260806",
-    "type": "event",
-    "title": "Farm, Home & Youth Fair – Montgomery County 4-H Fair",
-    "venue_info": {
-      "name": "Farm, Home & Youth Complex, Collegeville",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "Aug 6 - 8, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Family Friendly",
-        "4-H Fair",
-        "Livestock",
-        "Kids Activities",
-        "Goat Yoga",
-        "Food",
-        "Community",
-        "Outdoor"
-      ],
-      "price": "Free (parking $10/car)"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://fhycomplex.org/"
-  },
-  {
     "id": "discovered_liberty_comic_con_20260807",
     "type": "event",
-    "title": "Liberty Comic Con – Greater Philadelphia Expo Center",
+    "title": "Liberty Comic Con \u2013 Greater Philadelphia Expo Center",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
       "location": {
@@ -92,7 +31,7 @@
   {
     "id": "discovered_eagle_shows_gun_show_20260807",
     "type": "event",
-    "title": "Eagle Shows Gun Show – Greater Philadelphia Expo Center",
+    "title": "Eagle Shows Gun Show \u2013 Greater Philadelphia Expo Center",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
       "location": {
@@ -117,35 +56,6 @@
       "image": ""
     },
     "action_link": "https://eagleshows.com/events/category/oaks-gun-show/"
-  },
-  {
-    "id": "discovered_lucky_leaf_expo_20260807",
-    "type": "event",
-    "title": "Lucky Leaf Expo Philadelphia 2026",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "Aug 7 - 8, 2026",
-    "attributes": {
-      "category": "Expo",
-      "vibes": [
-        "Cannabis Industry",
-        "Vendors",
-        "Educational Sessions",
-        "Networking",
-        "Indoor",
-        "After-Party"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eventbrite.com/e/lucky-leaf-expo-philadelphia-pa-2026-tickets-1688723430239"
   },
   {
     "id": "discovered_goschenhoppen_folk_fest_20260808",
@@ -178,215 +88,11 @@
     "action_link": "https://goschenhoppen.org/goschenhoppen-folk-festival/"
   },
   {
-    "id": "discovered_phoenixville_vegfest_20260808",
-    "type": "event",
-    "title": "Phoenixville VegFest 2026 – Plant-Based Food & Music Festival",
-    "venue_info": {
-      "name": "Reeves Park, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "Aug 8, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Plant-Based",
-        "Live Music",
-        "Food Trucks",
-        "Family Friendly",
-        "Beer Garden",
-        "Vendors"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=2297"
-  },
-  {
-    "id": "discovered_garcia_project_colonial_20260808",
-    "type": "event",
-    "title": "The Garcia Project – Jerry Garcia Band Tribute Live at Colonial",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Aug 8, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Tribute Band",
-        "Grateful Dead",
-        "Jerry Garcia",
-        "Jam Band",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/live-music/the-garcia-project/"
-  },
-  {
-    "id": "discovered_leading_zero_molly_maguires_20260808",
-    "type": "event",
-    "title": "Leading Zero – Live at Molly Maguire's",
-    "venue_info": {
-      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
-      "location": {
-        "lat": 40.1317,
-        "lng": -75.5149
-      }
-    },
-    "raw_date_string": "August 8, 2026 10:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Irish Pub",
-        "Late Night",
-        "Bar",
-        "Downtown Phoenixville"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.mollymaguiresphoenixville.com/events/"
-  },
-  {
-    "id": "discovered_kreeky_knees_watertower_20260808",
-    "type": "event",
-    "title": "Kreeky Knees – Live at Water Tower Live",
-    "venue_info": {
-      "name": "The Water Tower Live at Arnold's, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "August 8, 2026 8:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Free",
-        "Bar",
-        "Oaks",
-        "Sly Fox Beer",
-        "Weekend"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.watertowerlive.com/events"
-  },
-  {
-    "id": "discovered_luau_inclusive_dance_souljoels_20260808",
-    "type": "event",
-    "title": "Luau Themed Inclusive Dance at SoulJoel's",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "August 8, 2026 6:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Inclusive",
-        "Special Needs",
-        "DJ",
-        "Dancing",
-        "Luau",
-        "Family Friendly"
-      ],
-      "price": "$10 advance / $15 at door"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/augustinclusivedance/"
-  },
-  {
-    "id": "discovered_tell_williams_souljoels_20260808",
-    "type": "event",
-    "title": "Tell Williams: Live Stand-Up Comedy",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "August 8, 2026 8:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Live Comedy",
-        "Philly Suburbs",
-        "HBO Appearances",
-        "Pottstown"
-      ],
-      "price": "$20 GA / $30 Preferred"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/tellwilliams/"
-  },
-  {
-    "id": "discovered_farmers_market_20260808",
-    "type": "event",
-    "title": "Phoenixville Farmers Market – Saturday",
-    "venue_info": {
-      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 8, 2026 9:00 AM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Local Produce",
-        "Artisan Food",
-        "Family Friendly",
-        "Live Music",
-        "Seasonal"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixvillefarmersmarket.org/"
-  },
-  {
     "id": "discovered_pxv_inside_out_20260809",
     "type": "event",
-    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
+    "title": "PXV Inside Out Music Series \u2013 Outdoor Street Performances",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -442,7 +148,7 @@
   {
     "id": "discovered_spinal_tap_colonial_20260809",
     "type": "event",
-    "title": "This Is Spinal Tap – 41st Anniversary Screening",
+    "title": "This Is Spinal Tap \u2013 41st Anniversary Screening",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -530,7 +236,7 @@
   {
     "id": "discovered_spinal_tap_colonial_20260810",
     "type": "event",
-    "title": "This Is Spinal Tap – 41st Anniversary Screening",
+    "title": "This Is Spinal Tap \u2013 41st Anniversary Screening",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -678,7 +384,7 @@
   {
     "id": "discovered_carillon_concert_20260812",
     "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – August 12",
+    "title": "Frank P. Law Summer Carillon Concert Series \u2013 August 12",
     "venue_info": {
       "name": "Washington Memorial Chapel, Valley Forge",
       "location": {
@@ -707,7 +413,7 @@
   {
     "id": "discovered_history_on_rocks_colonial_20260813",
     "type": "event",
-    "title": "History on the Rocks: The Phoenix Wheel – Local History Happy Hour",
+    "title": "History on the Rocks: The Phoenix Wheel \u2013 Local History Happy Hour",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -765,7 +471,7 @@
   {
     "id": "discovered_greg_giraldo_jr_souljoels_20260813",
     "type": "event",
-    "title": "Greg Giraldo Jr & Brendan Smith – Live Comedy Double Headline",
+    "title": "Greg Giraldo Jr & Brendan Smith \u2013 Live Comedy Double Headline",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, Pottstown",
       "location": {
@@ -793,7 +499,7 @@
   {
     "id": "discovered_philly_folk_festival_20260814",
     "type": "event",
-    "title": "63rd Annual Philadelphia Folk Festival – Opening Day",
+    "title": "63rd Annual Philadelphia Folk Festival \u2013 Opening Day",
     "venue_info": {
       "name": "Old Pool Farm, Upper Salford Township (Montgomery County)",
       "location": {
@@ -853,9 +559,9 @@
   {
     "id": "discovered_summer_music_bridge_st_20260814",
     "type": "event",
-    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
+    "title": "Phoenixville Summer Music Series \u2013 Live on Bridge Street",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge Street",
+      "name": "Downtown Phoenixville \u2013 Bridge Street",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -882,7 +588,7 @@
   {
     "id": "discovered_bob_pantano_souljoels_20260814",
     "type": "event",
-    "title": "Bob Pantano Saturday Night Dance Party – Live at SoulJoel's",
+    "title": "Bob Pantano Saturday Night Dance Party \u2013 Live at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, Pottstown",
       "location": {
@@ -941,7 +647,7 @@
   {
     "id": "discovered_splatterfest_xii_20260815",
     "type": "event",
-    "title": "Splatterfest XII – All-Night Italian Horror Film Marathon on 35mm",
+    "title": "Splatterfest XII \u2013 All-Night Italian Horror Film Marathon on 35mm",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -971,7 +677,7 @@
   {
     "id": "discovered_rock_n_lol_fest_gem_20260815",
     "type": "event",
-    "title": "Rock n LOL Fest 2026 – Comedy & Rock Music Festival",
+    "title": "Rock n LOL Fest 2026 \u2013 Comedy & Rock Music Festival",
     "venue_info": {
       "name": "The Gem Music Hall, Spring City",
       "location": {
@@ -1000,7 +706,7 @@
   {
     "id": "discovered_shelly_belly_souljoels_20260815",
     "type": "event",
-    "title": "Comedian Shelly Belly – Live at SoulJoel's",
+    "title": "Comedian Shelly Belly \u2013 Live at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, Pottstown",
       "location": {
@@ -1058,7 +764,7 @@
   {
     "id": "discovered_farmers_market_20260815",
     "type": "event",
-    "title": "Phoenixville Farmers Market – Saturday",
+    "title": "Phoenixville Farmers Market \u2013 Saturday",
     "venue_info": {
       "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
       "location": {
@@ -1088,9 +794,9 @@
   {
     "id": "discovered_pxv_inside_out_20260816",
     "type": "event",
-    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
+    "title": "PXV Inside Out Music Series \u2013 Outdoor Street Performances",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -1205,7 +911,7 @@
   {
     "id": "discovered_carillon_concert_20260819",
     "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – August 19",
+    "title": "Frank P. Law Summer Carillon Concert Series \u2013 August 19",
     "venue_info": {
       "name": "Washington Memorial Chapel, Valley Forge",
       "location": {
@@ -1263,7 +969,7 @@
   {
     "id": "discovered_lock60_guided_tour_20260819",
     "type": "event",
-    "title": "Lock 60 Guided Tour – Schuylkill Canal Park",
+    "title": "Lock 60 Guided Tour \u2013 Schuylkill Canal Park",
     "venue_info": {
       "name": "Schuylkill Canal Lock 60, 400 Towpath Rd, Mont Clare",
       "location": {
@@ -1322,7 +1028,7 @@
   {
     "id": "discovered_yellow_springs_town_tour_20260820",
     "type": "event",
-    "title": "Chester County Town Tour: Historic Yellow Springs – Revolutionary War Site",
+    "title": "Chester County Town Tour: Historic Yellow Springs \u2013 Revolutionary War Site",
     "venue_info": {
       "name": "Historic Yellow Springs, 1701 Art School Rd, Chester Springs",
       "location": {
@@ -1352,7 +1058,7 @@
   {
     "id": "discovered_summer_music_reeves_park_20260821",
     "type": "event",
-    "title": "Phoenixville Summer Music Series – Live at Reeves Park",
+    "title": "Phoenixville Summer Music Series \u2013 Live at Reeves Park",
     "venue_info": {
       "name": "Reeves Park (2nd Ave & Starr St), Phoenixville",
       "location": {
@@ -1381,7 +1087,7 @@
   {
     "id": "discovered_watertower_live_20260821",
     "type": "event",
-    "title": "Walk On Mars – Live at The Water Tower",
+    "title": "Walk On Mars \u2013 Live at The Water Tower",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
       "location": {
@@ -1411,7 +1117,7 @@
   {
     "id": "discovered_lbk_troubles_end_20260821",
     "type": "event",
-    "title": "Live Band Karaoke at Trouble's End Brewing – 3rd Friday August",
+    "title": "Live Band Karaoke at Trouble's End Brewing \u2013 3rd Friday August",
     "venue_info": {
       "name": "Trouble's End Brewing, Collegeville",
       "location": {
@@ -1440,7 +1146,7 @@
   {
     "id": "discovered_crowd_pleasers_colonial_20260821",
     "type": "event",
-    "title": "Crowd Pleasers Film Screening at Colonial Theatre – August 21",
+    "title": "Crowd Pleasers Film Screening at Colonial Theatre \u2013 August 21",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -1467,7 +1173,7 @@
   {
     "id": "discovered_vinny_guadagnino_souljoels_20260821",
     "type": "event",
-    "title": "Vinny Guadagnino – Live Stand-Up Comedy Debut at SoulJoel's",
+    "title": "Vinny Guadagnino \u2013 Live Stand-Up Comedy Debut at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, Pottstown",
       "location": {
@@ -1496,7 +1202,7 @@
   {
     "id": "discovered_gem_fest_2026_20260822",
     "type": "event",
-    "title": "GEM FEST 2026 – Multi-Venue Music & Arts Festival",
+    "title": "GEM FEST 2026 \u2013 Multi-Venue Music & Arts Festival",
     "venue_info": {
       "name": "The Gem Music Hall, Spring City",
       "location": {
@@ -1556,7 +1262,7 @@
   {
     "id": "discovered_mighty_manatees_wtl_20260822",
     "type": "event",
-    "title": "The Mighty Manatees – Live at The Water Tower Live",
+    "title": "The Mighty Manatees \u2013 Live at The Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
       "location": {
@@ -1587,7 +1293,7 @@
   {
     "id": "discovered_classic_films_colonial_20260822",
     "type": "event",
-    "title": "Classic Films Screening at Colonial Theatre – August 22",
+    "title": "Classic Films Screening at Colonial Theatre \u2013 August 22",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -1614,7 +1320,7 @@
   {
     "id": "discovered_steps_recovery_walk_20260822",
     "type": "event",
-    "title": "Steps Toward Recovery – Phoenixville Community Walk",
+    "title": "Steps Toward Recovery \u2013 Phoenixville Community Walk",
     "venue_info": {
       "name": "Reeves Park, Phoenixville",
       "location": {
@@ -1644,7 +1350,7 @@
   {
     "id": "discovered_farmers_market_20260822",
     "type": "event",
-    "title": "Phoenixville Farmers Market – Saturday",
+    "title": "Phoenixville Farmers Market \u2013 Saturday",
     "venue_info": {
       "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
       "location": {
@@ -1760,9 +1466,9 @@
   {
     "id": "discovered_pxv_inside_out_20260823",
     "type": "event",
-    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
+    "title": "PXV Inside Out Music Series \u2013 Outdoor Street Performances",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -1819,7 +1525,7 @@
   {
     "id": "discovered_dog_days_skippack_20260823",
     "type": "event",
-    "title": "Dog Days of Summer – Skippack Village",
+    "title": "Dog Days of Summer \u2013 Skippack Village",
     "venue_info": {
       "name": "Skippack Village, Skippack Pike, Skippack",
       "location": {
@@ -1879,7 +1585,7 @@
   {
     "id": "discovered_bruce_vs_petty_eagleview_20260825",
     "type": "event",
-    "title": "Eagleview Summer Concert: An American Classic – Bruce vs. Petty",
+    "title": "Eagleview Summer Concert: An American Classic \u2013 Bruce vs. Petty",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
       "location": {
@@ -1969,7 +1675,7 @@
   {
     "id": "discovered_carillon_concert_20260826",
     "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – August 26",
+    "title": "Frank P. Law Summer Carillon Concert Series \u2013 August 26",
     "venue_info": {
       "name": "Washington Memorial Chapel, Valley Forge",
       "location": {
@@ -1998,7 +1704,7 @@
   {
     "id": "discovered_river_dawgs_cuddy_park_20260827",
     "type": "event",
-    "title": "River Dawgs – Lower Frederick Summer Concert Series",
+    "title": "River Dawgs \u2013 Lower Frederick Summer Concert Series",
     "venue_info": {
       "name": "Cuddy Park, 102 Colonial Dr, Perkiomenville",
       "location": {
@@ -2144,9 +1850,9 @@
   {
     "id": "discovered_summer_music_bridge_st_20260828",
     "type": "event",
-    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
+    "title": "Phoenixville Summer Music Series \u2013 Live on Bridge Street",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge Street",
+      "name": "Downtown Phoenixville \u2013 Bridge Street",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -2173,7 +1879,7 @@
   {
     "id": "discovered_soul_cruisers_souljoels_20260828",
     "type": "event",
-    "title": "The Soul Cruisers – Live at SoulJoel's",
+    "title": "The Soul Cruisers \u2013 Live at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, Pottstown",
       "location": {
@@ -2260,7 +1966,7 @@
   {
     "id": "discovered_big_trip_gem_20260829",
     "type": "event",
-    "title": "The Big Trip – Grateful Dead, Allman Brothers & More at The Gem",
+    "title": "The Big Trip \u2013 Grateful Dead, Allman Brothers & More at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, Spring City",
       "location": {
@@ -2280,7 +1986,7 @@
         "Spring City",
         "Weekend"
       ],
-      "price": "$60–$80"
+      "price": "$60\u2013$80"
     },
     "media": {
       "image": ""
@@ -2290,7 +1996,7 @@
   {
     "id": "discovered_farmers_market_20260829",
     "type": "event",
-    "title": "Phoenixville Farmers Market – Saturday",
+    "title": "Phoenixville Farmers Market \u2013 Saturday",
     "venue_info": {
       "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
       "location": {
@@ -2320,7 +2026,7 @@
   {
     "id": "discovered_prfm_oaks_expo_20260829",
     "type": "event",
-    "title": "Phoenixville Punk Rock Flea Market – 11 Year Anniversary Super-Sized Spectacular",
+    "title": "Phoenixville Punk Rock Flea Market \u2013 11 Year Anniversary Super-Sized Spectacular",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center Hall B, Oaks",
       "location": {
@@ -2352,7 +2058,7 @@
   {
     "id": "discovered_souljoels_got_talent_20260829",
     "type": "event",
-    "title": "SoulJoel's Got Talent – Open Talent Competition",
+    "title": "SoulJoel's Got Talent \u2013 Open Talent Competition",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, Pottstown",
       "location": {
@@ -2381,7 +2087,7 @@
   {
     "id": "discovered_prfm_afterparty_watertower_20260829",
     "type": "event",
-    "title": "PRFM Afterparty – Vacant Progress, F.O.D. & Animalhaüs",
+    "title": "PRFM Afterparty \u2013 Vacant Progress, F.O.D. & Animalha\u00fcs",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
       "location": {
@@ -2440,9 +2146,9 @@
   {
     "id": "discovered_pxv_inside_out_20260830",
     "type": "event",
-    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
+    "title": "PXV Inside Out Music Series \u2013 Outdoor Street Performances",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -2527,7 +2233,7 @@
   {
     "id": "discovered_out_there_colonial_20260903",
     "type": "event",
-    "title": "\"Out There: A National Parks Story\" – Film & Filmmaker Q&A",
+    "title": "\"Out There: A National Parks Story\" \u2013 Film & Filmmaker Q&A",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -2557,9 +2263,9 @@
   {
     "id": "discovered_first_friday_september_20260904",
     "type": "event",
-    "title": "Phoenixville First Friday – September",
+    "title": "Phoenixville First Friday \u2013 September",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -2587,7 +2293,7 @@
   {
     "id": "discovered_jam_pan_gem_20260905",
     "type": "event",
-    "title": "JaM PaN – Live Jam Band Night at The Gem",
+    "title": "JaM PaN \u2013 Live Jam Band Night at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -2643,5 +2349,122 @@
       "image": ""
     },
     "action_link": "https://www.collegevilledevelopment.org/collegeville-colossal-yard-sale/"
+  },
+  {
+    "id": "discovered_farmers_market_20260905",
+    "type": "event",
+    "title": "Phoenixville Farmers Market \u2013 Saturday",
+    "venue_info": {
+      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 5, 2026 9:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Local Produce",
+        "Artisan Food",
+        "Family Friendly",
+        "Live Music",
+        "Seasonal"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org/"
+  },
+  {
+    "id": "discovered_pxv_inside_out_20260906",
+    "type": "event",
+    "title": "PXV Inside Out Music Series \u2013 Outdoor Street Performances",
+    "venue_info": {
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 6, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Street Performance",
+        "Community",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_mm_irish_sessions_20260906",
+    "type": "event",
+    "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "September 6, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Irish Music",
+        "Traditional",
+        "Acoustic",
+        "Irish Pub",
+        "Sunday Afternoon"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thesession.org/sessions/2793"
+  },
+  {
+    "id": "discovered_comedy_open_mic_20260907",
+    "type": "event",
+    "title": "B&C Comedy Open Mic Night at Great American Pub",
+    "venue_info": {
+      "name": "Great American Pub, 148 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 7, 2026 8:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Free",
+        "Stand-Up Comedy",
+        "Open Mic",
+        "21+",
+        "Downtown Phoenixville",
+        "Bar"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
   }
 ]
