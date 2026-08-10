@@ -2466,5 +2466,124 @@
       "image": ""
     },
     "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
+  },
+  {
+    "id": "discovered_phoenixville_car_show_20260823",
+    "type": "event",
+    "title": "4th Annual Phoenixville Car Show",
+    "venue_info": {
+      "name": "Reeves Park, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 23, 2026 11:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Car Show",
+        "Family Friendly",
+        "Outdoor",
+        "100+ Vehicles",
+        "Phoenixville",
+        "Community"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://phoenixvillechamber.org/news-events/events/phoenixville-car-show/"
+  },
+  {
+    "id": "discovered_blues_festival_20260907",
+    "type": "event",
+    "title": "Phoenixville Blues Festival – Labor Day 2026",
+    "venue_info": {
+      "name": "Reeves Park, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 7, 2026 1:00 PM",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Blues Music",
+        "Live Music",
+        "Labor Day",
+        "Family Friendly",
+        "Annual Tradition",
+        "Canned Food Drive"
+      ],
+      "price": "Free (bring a canned good)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://pvilleblues.org/"
+  },
+  {
+    "id": "discovered_souljoels_open_mic_20260907",
+    "type": "event",
+    "title": "Free Comedy Open Mic – SoulJoel's Labor Day Special",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 7, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Free",
+        "Stand-Up Comedy",
+        "Open Mic",
+        "Labor Day",
+        "Pottstown",
+        "All Welcome"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/freeopenmicsept7th/"
+  },
+  {
+    "id": "discovered_souljoels_open_mic_20260908",
+    "type": "event",
+    "title": "Tuesday Comedy Open Mic at SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 8, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Free",
+        "Stand-Up Comedy",
+        "Open Mic",
+        "Weekly",
+        "Pottstown",
+        "21+"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/september8thcomedyopenmic/"
   }
 ]
