@@ -2292,5 +2292,151 @@
       "image": ""
     },
     "action_link": "https://www.bobsale.com/philadelphia"
+  },
+  {
+    "id": "discovered_spring_city_arts_festival_20260905",
+    "type": "event",
+    "title": "Spring City Arts Art Festival & Studio Tour",
+    "venue_info": {
+      "name": "Spring City Square, Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "September 5, 2026 10:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Art Festival",
+        "Local Artists",
+        "Paintings",
+        "Sculpture",
+        "Ceramics",
+        "Spring City"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.springcityarts.org/events"
+  },
+  {
+    "id": "discovered_victoria_aveyard_colonial_20260909",
+    "type": "event",
+    "title": "Victoria Aveyard Live: Tempest Book Launch at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "September 9, 2026 7:00 PM",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": [
+        "Author Event",
+        "Book Launch",
+        "NYT Bestseller",
+        "Young Adult",
+        "Fantasy",
+        "Reads & Company"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/"
+  },
+  {
+    "id": "discovered_laurie_gilmore_colonial_20260910",
+    "type": "event",
+    "title": "Laurie Gilmore Live: Big Bad Wolf Book Launch at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "September 10, 2026 6:30 PM",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": [
+        "Author Event",
+        "Book Launch",
+        "Romance Novel",
+        "Small Town",
+        "Reads & Company"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/"
+  },
+  {
+    "id": "discovered_adam_ferrara_souljoels_20260911",
+    "type": "event",
+    "title": "Adam Ferrara – Live Stand-Up Comedy",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 11, 2026 6:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Actor-Comedian",
+        "Top Gear",
+        "Law & Order",
+        "Weekend",
+        "Pottstown"
+      ],
+      "price": "$20 GA / $30 Preferred"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/adamferrara/"
+  },
+  {
+    "id": "discovered_mamma_mania_abba_colonial_20260911",
+    "type": "event",
+    "title": "Mamma Mania! – The American Tribute to ABBA",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "September 11, 2026 8:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "ABBA Tribute",
+        "Tribute Band",
+        "Dance",
+        "Sing-Along",
+        "Indoor",
+        "Theater"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/mamma-mania-the-american-tribute-to-abba/"
   }
 ]
