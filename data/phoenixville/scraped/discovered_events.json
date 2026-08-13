@@ -1,93 +1,5 @@
 [
   {
-    "id": "discovered_fruition_eagleview_20260811",
-    "type": "event",
-    "title": "Eagleview Summer Concert: Fruition w/ Special Guest Max Davey",
-    "venue_info": {
-      "name": "Eagleview Town Center, Exton (near Phoenixville)",
-      "location": {
-        "lat": 40.0337,
-        "lng": -75.6174
-      }
-    },
-    "raw_date_string": "August 11, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Americana",
-        "Family Friendly",
-        "Lawn Concert",
-        "Bring Chairs"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
-  },
-  {
-    "id": "discovered_stable12_trivia_20260812",
-    "type": "event",
-    "title": "Pub Trivia Night at Stable 12 Brewing",
-    "venue_info": {
-      "name": "Stable 12 Brewing Co., 368 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 12, 2026 7:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Trivia",
-        "Craft Beer",
-        "Brewery",
-        "Free",
-        "Wednesday Night Out",
-        "Downtown Phoenixville"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
-  },
-  {
-    "id": "discovered_carillon_concert_20260812",
-    "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – August 12",
-    "venue_info": {
-      "name": "Washington Memorial Chapel, Valley Forge",
-      "location": {
-        "lat": 40.1014,
-        "lng": -75.4544
-      }
-    },
-    "raw_date_string": "August 12, 2026 7:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Classical Music",
-        "Bell Tower",
-        "Family Friendly",
-        "Picnic-Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
-  },
-  {
     "id": "discovered_history_on_rocks_colonial_20260813",
     "type": "event",
     "title": "History on the Rocks: The Phoenix Wheel – Local History Happy Hour",
@@ -2325,6 +2237,62 @@
     "action_link": "https://www.springcityarts.org/events"
   },
   {
+    "id": "discovered_jay_black_comedy_souljoels_20260905",
+    "type": "event",
+    "title": "Jay Black – All Ages Clean Comedy Show",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 5, 2026 4:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "All Ages",
+        "Family Friendly",
+        "Clean Comedy",
+        "Afternoon Show",
+        "Pottstown"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/allagescomedywithjayblack/"
+  },
+  {
+    "id": "discovered_gantt_shaner_souljoels_20260905",
+    "type": "event",
+    "title": "Philly Takeover: Sidney Gantt & Ryan Shaner – Double Headline Comedy",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 5, 2026 8:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Double Headline",
+        "Philadelphia Comedians",
+        "Evening Show",
+        "Pottstown"
+      ],
+      "price": "$20 GA / $30 Preferred"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/shanerandgantt/"
+  },
+  {
     "id": "discovered_victoria_aveyard_colonial_20260909",
     "type": "event",
     "title": "Victoria Aveyard Live: Tempest Book Launch at Colonial Theatre",
@@ -2380,6 +2348,34 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/guest-presentations/"
+  },
+  {
+    "id": "discovered_pennhurst_legacy_comedy_20260910",
+    "type": "event",
+    "title": "Comedy Fundraiser – Pennhurst Legacy Project",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 10, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Charity Event",
+        "Stand-Up Comedy",
+        "Pennhurst History",
+        "Fundraiser",
+        "Pottstown"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/pennhurstlegacyproject/"
   },
   {
     "id": "discovered_adam_ferrara_souljoels_20260911",
@@ -2438,5 +2434,63 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/live-music/mamma-mania-the-american-tribute-to-abba/"
+  },
+  {
+    "id": "discovered_retro_con_oaks_20260912",
+    "type": "event",
+    "title": "Retro Con 2026 – Retro Toys, Collectibles & Celebrity Guests",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "September 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Retro",
+        "Collectibles",
+        "Cosplay",
+        "Celebrity Guests",
+        "Family Friendly",
+        "Indoor",
+        "Oaks"
+      ],
+      "price": "$20/day at door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://retrocons.com"
+  },
+  {
+    "id": "discovered_john_cassidy_magic_souljoels_20260912",
+    "type": "event",
+    "title": "John Cassidy – All Ages Magic Show",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 12, 2026 3:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Magic Show",
+        "All Ages",
+        "Family Friendly",
+        "Afternoon",
+        "Pottstown"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/johncassidyseptember12th/"
   }
 ]
