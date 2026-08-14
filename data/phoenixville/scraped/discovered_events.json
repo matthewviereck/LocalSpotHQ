@@ -1,91 +1,5 @@
 [
   {
-    "id": "discovered_history_on_rocks_colonial_20260813",
-    "type": "event",
-    "title": "History on the Rocks: The Phoenix Wheel – Local History Happy Hour",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "August 13, 2026 5:30 PM",
-    "attributes": {
-      "category": "Guest Presentations",
-      "vibes": [
-        "Local History",
-        "Happy Hour",
-        "Cocktails",
-        "Phoenix Steel",
-        "Educational",
-        "Community"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/colonial-events/history-on-the-rocks-the-phoenix-wheel/"
-  },
-  {
-    "id": "discovered_school_of_rock_limerick_20260813",
-    "type": "event",
-    "title": "Limerick Township Summer Concert: School of Rock Performers",
-    "venue_info": {
-      "name": "Limerick Township Veterans Pavilion, 646 W. Ridge Pike, Limerick",
-      "location": {
-        "lat": 40.2285,
-        "lng": -75.5335
-      }
-    },
-    "raw_date_string": "August 13, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "School of Rock",
-        "Family Friendly",
-        "Community Concert",
-        "All Ages"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.limerickpa.org/225/Upcoming-Events-Programs"
-  },
-  {
-    "id": "discovered_greg_giraldo_jr_souljoels_20260813",
-    "type": "event",
-    "title": "Greg Giraldo Jr & Brendan Smith – Live Comedy Double Headline",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "August 13, 2026 7:30 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Double Headline",
-        "Comedy Central",
-        "Pottstown",
-        "Live Comedy"
-      ],
-      "price": "$30"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/gerggiraldojr/"
-  },
-  {
     "id": "discovered_philly_folk_festival_20260814",
     "type": "event",
     "title": "63rd Annual Philadelphia Folk Festival – Opening Day",
@@ -2492,5 +2406,300 @@
       "image": ""
     },
     "action_link": "https://souljoels.com/shop/tickets/johncassidyseptember12th/"
+  },
+  {
+    "id": "discovered_summer_paints_pints_20260814",
+    "type": "event",
+    "title": "Summer Paints n Pints at Root Down Brewing",
+    "venue_info": {
+      "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 14, 2026 7:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Paint Night",
+        "Craft Beer",
+        "Social",
+        "Brewery",
+        "Date Night",
+        "Phoenixville"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://rootdownbrewing.com/rootdown-events/"
+  },
+  {
+    "id": "discovered_tsavo_highway_gem_20260814",
+    "type": "event",
+    "title": "Tsavo Highway with Pachyderm – Live at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "August 14, 2026 8:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indie Rock",
+        "Local Originals",
+        "Intimate",
+        "Speakeasy",
+        "Late Night",
+        "Spring City"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/"
+  },
+  {
+    "id": "discovered_bridge_street_car_show_20260816",
+    "type": "event",
+    "title": "Phoenixville Bridge Street Car Show – 1970s Themed",
+    "venue_info": {
+      "name": "Main & Bridge Street Parking Lot, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 16, 2026 12:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Car Show",
+        "1970s",
+        "Classic Cars",
+        "Family Friendly",
+        "Free",
+        "Outdoor",
+        "Downtown Phoenixville"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=2373"
+  },
+  {
+    "id": "discovered_bowie_tribute_gem_20260822",
+    "type": "event",
+    "title": "Kevin Hill & Secret Sound: Bowie Tribute",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "August 22, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "David Bowie",
+        "Tribute Band",
+        "Glam Rock",
+        "Theatrical",
+        "Immersive",
+        "Spring City"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/"
+  },
+  {
+    "id": "discovered_spring_city_library_trivia_gem_20260827",
+    "type": "event",
+    "title": "Trivia Night Benefiting Spring City Library",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "August 27, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Trivia",
+        "Library Fundraiser",
+        "Bar Night",
+        "Team Fun",
+        "Local Cause",
+        "Spring City"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/"
+  },
+  {
+    "id": "discovered_endless_summer_5k_20260828",
+    "type": "event",
+    "title": "Endless Summer 5K, Music & Brews",
+    "venue_info": {
+      "name": "Anderson Farm Park, 499 Hopwood Rd, Collegeville",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "August 28, 2026 6:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "5K Race",
+        "Live Music",
+        "Craft Beer",
+        "Outdoor",
+        "End of Summer",
+        "Collegeville",
+        "Upper Providence Township"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://upperprovidencepa.myrec.com/info/activities/program_details.aspx?ProgramID=30556"
+  },
+  {
+    "id": "discovered_mojo_hotel_doors_gem_20260828",
+    "type": "event",
+    "title": "Mojo Hotel: A Tribute to The Doors",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "August 28, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "The Doors Tribute",
+        "Classic Rock",
+        "Psychedelic",
+        "Jim Morrison",
+        "60s Rock",
+        "Spring City"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/"
+  },
+  {
+    "id": "discovered_reckless_abandon_spring_city_20260828",
+    "type": "event",
+    "title": "Summer Concert at Brown Street Park: Reckless Abandon",
+    "venue_info": {
+      "name": "Brown Street Neighborhood Park, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "August 28, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "Neighborhood Park",
+        "Borough Concert",
+        "Spring City"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.springcitypa.gov/community/page/2026-parks-and-recreation-events"
+  },
+  {
+    "id": "discovered_sinatra_darin_matinee_souljoels_20260912",
+    "type": "event",
+    "title": "Sinatra & Bobby Darin – DeSimone Brothers Matinee Show",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 12, 2026 1:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Sinatra",
+        "Bobby Darin",
+        "Classic Crooners",
+        "Matinee",
+        "Afternoon Show",
+        "Pottstown",
+        "DeSimone Brothers"
+      ],
+      "price": "$20"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/sinatrabobbydarin2026"
+  },
+  {
+    "id": "discovered_real_diamond_souljoels_20260912",
+    "type": "event",
+    "title": "Real Diamond Band – A Tribute to Neil Diamond",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 12, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Neil Diamond",
+        "Tribute Band",
+        "12-Piece Band",
+        "Sing-Along",
+        "Classic Rock",
+        "Pottstown",
+        "Dance"
+      ],
+      "price": "$20 advance / $25 door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/realdiamond2026/"
   }
 ]
