@@ -2670,5 +2670,94 @@
       "image": ""
     },
     "action_link": "https://retrocons.com/cybertronic-spree/"
+  },
+  {
+    "id": "discovered_salsa_bachata_souljoels_20260905",
+    "type": "event",
+    "title": "Salsa & Bachata Night with Dance Lessons \u2013 SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 5, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Salsa",
+        "Bachata",
+        "Dance Lessons",
+        "Latin Dance",
+        "Evening Out",
+        "Pottstown",
+        "All Levels Welcome"
+      ],
+      "price": "$10"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/salsaseptember5th/"
+  },
+  {
+    "id": "discovered_retro_con_day2_oaks_20260913",
+    "type": "event",
+    "title": "Retro Con 2026 \u2013 Day 2",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "September 13, 2026 10:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Retro",
+        "Collectibles",
+        "Cosplay",
+        "Celebrity Guests",
+        "Family Friendly",
+        "Indoor",
+        "Oaks"
+      ],
+      "price": "$20 at door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://retrocons.com"
+  },
+  {
+    "id": "discovered_pxv_inside_out_20260913",
+    "type": "event",
+    "title": "PXV Inside Out Music Series \u2013 Outdoor Street Performances",
+    "venue_info": {
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 13, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Street Performance",
+        "Community",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
   }
 ]
