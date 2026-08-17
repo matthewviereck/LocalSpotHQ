@@ -1,210 +1,5 @@
 [
   {
-    "id": "discovered_splatterfest_xii_20260815",
-    "type": "event",
-    "title": "Splatterfest XII \u2013 All-Night Italian Horror Film Marathon on 35mm",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "August 15, 2026 8:00 PM",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Horror",
-        "35mm Film",
-        "Italian Cinema",
-        "Cult Cinema",
-        "All-Night Marathon",
-        "Splatter Films",
-        "Indoor"
-      ],
-      "price": "$30 GA / $25 member"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/movie-marathons/splatterfest-xii/"
-  },
-  {
-    "id": "discovered_rock_n_lol_fest_gem_20260815",
-    "type": "event",
-    "title": "Rock n LOL Fest 2026 \u2013 Comedy & Rock Music Festival",
-    "venue_info": {
-      "name": "The Gem Music Hall, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "August 15, 2026 6:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Comedy",
-        "Live Music",
-        "Rock",
-        "Multi-Act",
-        "Spring City",
-        "Festival"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/event-details/rock-n-lol-fest"
-  },
-  {
-    "id": "discovered_shelly_belly_souljoels_20260815",
-    "type": "event",
-    "title": "Comedian Shelly Belly \u2013 Live at SoulJoel's",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "August 15, 2026 7:30 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Female Comedian",
-        "Live Comedy",
-        "Weekend",
-        "Pottstown"
-      ],
-      "price": "$25 GA / $35 Preferred"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/shellybelly/"
-  },
-  {
-    "id": "discovered_oddities_curiosities_expo_20260815",
-    "type": "event",
-    "title": "Philadelphia Oddities & Curiosities Expo",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "Aug 15 - 16, 2026",
-    "attributes": {
-      "category": "Expo",
-      "vibes": [
-        "Oddities",
-        "Taxidermy",
-        "Curiosities",
-        "Sideshow Performers",
-        "Vendors",
-        "Horror",
-        "Indoor"
-      ],
-      "price": "$15 advance / $20 at door"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://phillyexpocenter.com/events/the-oddities-and-curiosities-expo-261/"
-  },
-  {
-    "id": "discovered_farmers_market_20260815",
-    "type": "event",
-    "title": "Phoenixville Farmers Market \u2013 Saturday",
-    "venue_info": {
-      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 15, 2026 9:00 AM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Local Produce",
-        "Artisan Food",
-        "Family Friendly",
-        "Live Music",
-        "Seasonal"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixvillefarmersmarket.org/"
-  },
-  {
-    "id": "discovered_pxv_inside_out_20260816",
-    "type": "event",
-    "title": "PXV Inside Out Music Series \u2013 Outdoor Street Performances",
-    "venue_info": {
-      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 16, 2026 4:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Street Performance",
-        "Community",
-        "Family Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
-  },
-  {
-    "id": "discovered_mm_irish_sessions_20260816",
-    "type": "event",
-    "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
-    "venue_info": {
-      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
-      "location": {
-        "lat": 40.1317,
-        "lng": -75.5149
-      }
-    },
-    "raw_date_string": "August 16, 2026 4:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Irish Music",
-        "Traditional",
-        "Acoustic",
-        "Irish Pub",
-        "Sunday Afternoon"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thesession.org/sessions/2793"
-  },
-  {
     "id": "discovered_comedy_open_mic_20260817",
     "type": "event",
     "title": "B&C Comedy Open Mic Night at Great American Pub",
@@ -266,7 +61,7 @@
   {
     "id": "discovered_carillon_concert_20260819",
     "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series \u2013 August 19",
+    "title": "Frank P. Law Summer Carillon Concert Series – August 19",
     "venue_info": {
       "name": "Washington Memorial Chapel, Valley Forge",
       "location": {
@@ -324,7 +119,7 @@
   {
     "id": "discovered_lock60_guided_tour_20260819",
     "type": "event",
-    "title": "Lock 60 Guided Tour \u2013 Schuylkill Canal Park",
+    "title": "Lock 60 Guided Tour – Schuylkill Canal Park",
     "venue_info": {
       "name": "Schuylkill Canal Lock 60, 400 Towpath Rd, Mont Clare",
       "location": {
@@ -383,7 +178,7 @@
   {
     "id": "discovered_yellow_springs_town_tour_20260820",
     "type": "event",
-    "title": "Chester County Town Tour: Historic Yellow Springs \u2013 Revolutionary War Site",
+    "title": "Chester County Town Tour: Historic Yellow Springs – Revolutionary War Site",
     "venue_info": {
       "name": "Historic Yellow Springs, 1701 Art School Rd, Chester Springs",
       "location": {
@@ -413,7 +208,7 @@
   {
     "id": "discovered_summer_music_reeves_park_20260821",
     "type": "event",
-    "title": "Phoenixville Summer Music Series \u2013 Live at Reeves Park",
+    "title": "Phoenixville Summer Music Series – Live at Reeves Park",
     "venue_info": {
       "name": "Reeves Park (2nd Ave & Starr St), Phoenixville",
       "location": {
@@ -442,7 +237,7 @@
   {
     "id": "discovered_watertower_live_20260821",
     "type": "event",
-    "title": "Walk On Mars \u2013 Live at The Water Tower",
+    "title": "Walk On Mars – Live at The Water Tower",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
       "location": {
@@ -472,7 +267,7 @@
   {
     "id": "discovered_lbk_troubles_end_20260821",
     "type": "event",
-    "title": "Live Band Karaoke at Trouble's End Brewing \u2013 3rd Friday August",
+    "title": "Live Band Karaoke at Trouble's End Brewing – 3rd Friday August",
     "venue_info": {
       "name": "Trouble's End Brewing, Collegeville",
       "location": {
@@ -501,7 +296,7 @@
   {
     "id": "discovered_crowd_pleasers_colonial_20260821",
     "type": "event",
-    "title": "Crowd Pleasers Film Screening at Colonial Theatre \u2013 August 21",
+    "title": "Crowd Pleasers Film Screening at Colonial Theatre – August 21",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -528,7 +323,7 @@
   {
     "id": "discovered_vinny_guadagnino_souljoels_20260821",
     "type": "event",
-    "title": "Vinny Guadagnino \u2013 Live Stand-Up Comedy Debut at SoulJoel's",
+    "title": "Vinny Guadagnino – Live Stand-Up Comedy Debut at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, Pottstown",
       "location": {
@@ -557,7 +352,7 @@
   {
     "id": "discovered_gem_fest_2026_20260822",
     "type": "event",
-    "title": "GEM FEST 2026 \u2013 Multi-Venue Music & Arts Festival",
+    "title": "GEM FEST 2026 – Multi-Venue Music & Arts Festival",
     "venue_info": {
       "name": "The Gem Music Hall, Spring City",
       "location": {
@@ -617,7 +412,7 @@
   {
     "id": "discovered_mighty_manatees_wtl_20260822",
     "type": "event",
-    "title": "The Mighty Manatees \u2013 Live at The Water Tower Live",
+    "title": "The Mighty Manatees – Live at The Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
       "location": {
@@ -648,7 +443,7 @@
   {
     "id": "discovered_classic_films_colonial_20260822",
     "type": "event",
-    "title": "Classic Films Screening at Colonial Theatre \u2013 August 22",
+    "title": "Classic Films Screening at Colonial Theatre – August 22",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -675,7 +470,7 @@
   {
     "id": "discovered_steps_recovery_walk_20260822",
     "type": "event",
-    "title": "Steps Toward Recovery \u2013 Phoenixville Community Walk",
+    "title": "Steps Toward Recovery – Phoenixville Community Walk",
     "venue_info": {
       "name": "Reeves Park, Phoenixville",
       "location": {
@@ -705,7 +500,7 @@
   {
     "id": "discovered_farmers_market_20260822",
     "type": "event",
-    "title": "Phoenixville Farmers Market \u2013 Saturday",
+    "title": "Phoenixville Farmers Market – Saturday",
     "venue_info": {
       "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
       "location": {
@@ -761,6 +556,35 @@
       "image": ""
     },
     "action_link": "https://www.montgomerycountypa.gov/2196/Upcoming-Events"
+  },
+  {
+    "id": "discovered_bowie_tribute_gem_20260822",
+    "type": "event",
+    "title": "Kevin Hill & Secret Sound: Bowie Tribute",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "August 22, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "David Bowie",
+        "Tribute Band",
+        "Glam Rock",
+        "Theatrical",
+        "Immersive",
+        "Spring City"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/"
   },
   {
     "id": "discovered_art_house_cinema_colonial_20260823",
@@ -821,9 +645,9 @@
   {
     "id": "discovered_pxv_inside_out_20260823",
     "type": "event",
-    "title": "PXV Inside Out Music Series \u2013 Outdoor Street Performances",
+    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
     "venue_info": {
-      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -880,7 +704,7 @@
   {
     "id": "discovered_dog_days_skippack_20260823",
     "type": "event",
-    "title": "Dog Days of Summer \u2013 Skippack Village",
+    "title": "Dog Days of Summer – Skippack Village",
     "venue_info": {
       "name": "Skippack Village, Skippack Pike, Skippack",
       "location": {
@@ -970,7 +794,7 @@
   {
     "id": "discovered_bruce_vs_petty_eagleview_20260825",
     "type": "event",
-    "title": "Eagleview Summer Concert: An American Classic \u2013 Bruce vs. Petty",
+    "title": "Eagleview Summer Concert: An American Classic – Bruce vs. Petty",
     "venue_info": {
       "name": "Eagleview Town Center, Exton (near Phoenixville)",
       "location": {
@@ -1060,7 +884,7 @@
   {
     "id": "discovered_carillon_concert_20260826",
     "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series \u2013 August 26",
+    "title": "Frank P. Law Summer Carillon Concert Series – August 26",
     "venue_info": {
       "name": "Washington Memorial Chapel, Valley Forge",
       "location": {
@@ -1089,7 +913,7 @@
   {
     "id": "discovered_river_dawgs_cuddy_park_20260827",
     "type": "event",
-    "title": "River Dawgs \u2013 Lower Frederick Summer Concert Series",
+    "title": "River Dawgs – Lower Frederick Summer Concert Series",
     "venue_info": {
       "name": "Cuddy Park, 102 Colonial Dr, Perkiomenville",
       "location": {
@@ -1144,6 +968,35 @@
       "image": ""
     },
     "action_link": "https://www.skippacktownship.org/departments/parks-recreation/programs-events/"
+  },
+  {
+    "id": "discovered_spring_city_library_trivia_gem_20260827",
+    "type": "event",
+    "title": "Trivia Night Benefiting Spring City Library",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "August 27, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Trivia",
+        "Library Fundraiser",
+        "Bar Night",
+        "Team Fun",
+        "Local Cause",
+        "Spring City"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/"
   },
   {
     "id": "discovered_jason_mewes_souljoels_20260828",
@@ -1235,9 +1088,9 @@
   {
     "id": "discovered_summer_music_bridge_st_20260828",
     "type": "event",
-    "title": "Phoenixville Summer Music Series \u2013 Live on Bridge Street",
+    "title": "Phoenixville Summer Music Series – Live on Bridge Street",
     "venue_info": {
-      "name": "Downtown Phoenixville \u2013 Bridge Street",
+      "name": "Downtown Phoenixville – Bridge Street",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -1264,7 +1117,7 @@
   {
     "id": "discovered_soul_cruisers_souljoels_20260828",
     "type": "event",
-    "title": "The Soul Cruisers \u2013 Live at SoulJoel's",
+    "title": "The Soul Cruisers – Live at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, Pottstown",
       "location": {
@@ -1318,1034 +1171,6 @@
       "image": ""
     },
     "action_link": "https://www.eventbrite.com/e/philadelphia-watch-trade-show-aug-2829-2026-tickets-1990655467089"
-  },
-  {
-    "id": "discovered_joe_devito_souljoels_20260829",
-    "type": "event",
-    "title": "Joe DeVito: Live Stand-Up Comedy",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "August 29, 2026 7:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Gutfeld!",
-        "Comedy Central",
-        "Dry Bar Comedy",
-        "Pottstown",
-        "Weekend"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/joedevito/"
-  },
-  {
-    "id": "discovered_big_trip_gem_20260829",
-    "type": "event",
-    "title": "The Big Trip \u2013 Grateful Dead, Allman Brothers & More at The Gem",
-    "venue_info": {
-      "name": "The Gem Music Hall, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "August 29, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Jam Band",
-        "Grateful Dead",
-        "Allman Brothers",
-        "The Band",
-        "Spring City",
-        "Weekend"
-      ],
-      "price": "$60\u2013$80"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/event-details/the-big-trip-with-tba"
-  },
-  {
-    "id": "discovered_farmers_market_20260829",
-    "type": "event",
-    "title": "Phoenixville Farmers Market \u2013 Saturday",
-    "venue_info": {
-      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 29, 2026 9:00 AM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Local Produce",
-        "Artisan Food",
-        "Family Friendly",
-        "Live Music",
-        "Seasonal"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixvillefarmersmarket.org/"
-  },
-  {
-    "id": "discovered_prfm_oaks_expo_20260829",
-    "type": "event",
-    "title": "Phoenixville Punk Rock Flea Market \u2013 11 Year Anniversary Super-Sized Spectacular",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center Hall B, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "August 29, 2026 11:00 AM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Vintage",
-        "Punk",
-        "Flea Market",
-        "Vinyl DJs",
-        "Hearse Car Show",
-        "Art",
-        "Oddities",
-        "Family Friendly",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phillyprfm.com/"
-  },
-  {
-    "id": "discovered_souljoels_got_talent_20260829",
-    "type": "event",
-    "title": "SoulJoel's Got Talent \u2013 Open Talent Competition",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "August 29, 2026 1:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Talent Show",
-        "All Ages",
-        "Family Friendly",
-        "Open Competition",
-        "Pottstown",
-        "Weekend"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/souljoelsgottalent/"
-  },
-  {
-    "id": "discovered_prfm_afterparty_watertower_20260829",
-    "type": "event",
-    "title": "PRFM Afterparty \u2013 Vacant Progress, F.O.D. & Animalhau\u0308s",
-    "venue_info": {
-      "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "August 29, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Punk",
-        "Rock",
-        "Indie",
-        "After-Party",
-        "PRFM",
-        "Oaks"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.watertowerlive.com/events"
-  },
-  {
-    "id": "discovered_mm_irish_sessions_20260830",
-    "type": "event",
-    "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
-    "venue_info": {
-      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
-      "location": {
-        "lat": 40.1317,
-        "lng": -75.5149
-      }
-    },
-    "raw_date_string": "August 30, 2026 4:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Irish Music",
-        "Traditional",
-        "Acoustic",
-        "Irish Pub",
-        "Sunday Afternoon"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thesession.org/sessions/2793"
-  },
-  {
-    "id": "discovered_pxv_inside_out_20260830",
-    "type": "event",
-    "title": "PXV Inside Out Music Series \u2013 Outdoor Street Performances",
-    "venue_info": {
-      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 30, 2026 4:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Street Performance",
-        "Community",
-        "Family Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
-  },
-  {
-    "id": "discovered_comedy_open_mic_20260831",
-    "type": "event",
-    "title": "B&C Comedy Open Mic Night at Great American Pub",
-    "venue_info": {
-      "name": "Great American Pub, 148 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 31, 2026 8:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Free",
-        "Stand-Up Comedy",
-        "Open Mic",
-        "21+",
-        "Downtown Phoenixville",
-        "Bar"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
-  },
-  {
-    "id": "discovered_stable12_trivia_20260902",
-    "type": "event",
-    "title": "Pub Trivia Night at Stable 12 Brewing",
-    "venue_info": {
-      "name": "Stable 12 Brewing Co., 368 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "September 2, 2026 7:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Trivia",
-        "Craft Beer",
-        "Brewery",
-        "Free",
-        "Wednesday Night Out",
-        "Downtown Phoenixville"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
-  },
-  {
-    "id": "discovered_out_there_colonial_20260903",
-    "type": "event",
-    "title": "\"Out There: A National Parks Story\" \u2013 Film & Filmmaker Q&A",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "September 3, 2026",
-    "attributes": {
-      "category": "Guest Presentations",
-      "vibes": [
-        "Documentary",
-        "National Parks",
-        "Filmmaker Q&A",
-        "Valley Forge Park Alliance",
-        "Road Trip",
-        "Nature",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/"
-  },
-  {
-    "id": "discovered_first_friday_september_20260904",
-    "type": "event",
-    "title": "Phoenixville First Friday \u2013 September",
-    "venue_info": {
-      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "September 4, 2026 5:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Family Friendly",
-        "Vendors",
-        "Night Market",
-        "Arts & Crafts"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixvillefirst.org/first-fridays"
-  },
-  {
-    "id": "discovered_jam_pan_gem_20260905",
-    "type": "event",
-    "title": "JaM PaN \u2013 Live Jam Band Night at The Gem",
-    "venue_info": {
-      "name": "The Gem Music Hall, 66 N Main St, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "September 5, 2026 8:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Jam Band",
-        "Live Music",
-        "Goose",
-        "Phish",
-        "Grateful Dead",
-        "Spring City",
-        "Saturday Night"
-      ],
-      "price": "$12 advance / $15 door"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/event-details/jam-pan"
-  },
-  {
-    "id": "discovered_farmers_market_20260905",
-    "type": "event",
-    "title": "Phoenixville Farmers Market \u2013 Saturday",
-    "venue_info": {
-      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "September 5, 2026 9:00 AM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Local Produce",
-        "Artisan Food",
-        "Family Friendly",
-        "Live Music",
-        "Seasonal"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixvillefarmersmarket.org/"
-  },
-  {
-    "id": "discovered_collegeville_yard_sale_20260906",
-    "type": "event",
-    "title": "Collegeville Colossal Yard Sale",
-    "venue_info": {
-      "name": "Waterworks Park, West First Ave, Trappe (near Collegeville)",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "September 6, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly",
-        "Yard Sale",
-        "Community",
-        "Vintage",
-        "Collegeville"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.collegevilledevelopment.org/collegeville-colossal-yard-sale/"
-  },
-  {
-    "id": "discovered_pxv_inside_out_20260906",
-    "type": "event",
-    "title": "PXV Inside Out Music Series \u2013 Outdoor Street Performances",
-    "venue_info": {
-      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "September 6, 2026 4:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Street Performance",
-        "Community",
-        "Family Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
-  },
-  {
-    "id": "discovered_mm_irish_sessions_20260906",
-    "type": "event",
-    "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
-    "venue_info": {
-      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
-      "location": {
-        "lat": 40.1317,
-        "lng": -75.5149
-      }
-    },
-    "raw_date_string": "September 6, 2026 4:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Irish Music",
-        "Traditional",
-        "Acoustic",
-        "Irish Pub",
-        "Sunday Afternoon"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thesession.org/sessions/2793"
-  },
-  {
-    "id": "discovered_comedy_open_mic_20260907",
-    "type": "event",
-    "title": "B&C Comedy Open Mic Night at Great American Pub",
-    "venue_info": {
-      "name": "Great American Pub, 148 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "September 7, 2026 8:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Free",
-        "Stand-Up Comedy",
-        "Open Mic",
-        "21+",
-        "Downtown Phoenixville",
-        "Bar"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
-  },
-  {
-    "id": "discovered_blues_festival_20260907",
-    "type": "event",
-    "title": "Phoenixville Blues Festival \u2013 Labor Day 2026",
-    "venue_info": {
-      "name": "Reeves Park, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "September 7, 2026 1:00 PM",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Blues Music",
-        "Live Music",
-        "Labor Day",
-        "Family Friendly",
-        "Annual Tradition",
-        "Canned Food Drive"
-      ],
-      "price": "Free (bring a canned good)"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://pvilleblues.org/"
-  },
-  {
-    "id": "discovered_souljoels_open_mic_20260907",
-    "type": "event",
-    "title": "Free Comedy Open Mic \u2013 SoulJoel's Labor Day Special",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "September 7, 2026 7:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Free",
-        "Stand-Up Comedy",
-        "Open Mic",
-        "Labor Day",
-        "Pottstown",
-        "All Welcome"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/freeopenmicsept7th/"
-  },
-  {
-    "id": "discovered_souljoels_open_mic_20260908",
-    "type": "event",
-    "title": "Tuesday Comedy Open Mic at SoulJoel's",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "September 8, 2026 7:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Free",
-        "Stand-Up Comedy",
-        "Open Mic",
-        "Weekly",
-        "Pottstown",
-        "21+"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/september8thcomedyopenmic/"
-  },
-  {
-    "id": "discovered_beauty_on_budget_expo_20260910",
-    "type": "event",
-    "title": "Beauty on a Budget Fall Consignment Sale \u2013 Opening Night",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "September 10, 2026 4:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Consignment Sale",
-        "Women's Fashion",
-        "Teen Clothing",
-        "Upscale Resale",
-        "Indoor",
-        "Vendors",
-        "Oaks"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.bobsale.com/philadelphia"
-  },
-  {
-    "id": "discovered_spring_city_arts_festival_20260905",
-    "type": "event",
-    "title": "Spring City Arts Art Festival & Studio Tour",
-    "venue_info": {
-      "name": "Spring City Square, Main St, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "September 5, 2026 10:00 AM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Art Festival",
-        "Local Artists",
-        "Paintings",
-        "Sculpture",
-        "Ceramics",
-        "Spring City"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.springcityarts.org/events"
-  },
-  {
-    "id": "discovered_jay_black_comedy_souljoels_20260905",
-    "type": "event",
-    "title": "Jay Black \u2013 All Ages Clean Comedy Show",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "September 5, 2026 4:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "All Ages",
-        "Family Friendly",
-        "Clean Comedy",
-        "Afternoon Show",
-        "Pottstown"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/allagescomedywithjayblack/"
-  },
-  {
-    "id": "discovered_gantt_shaner_souljoels_20260905",
-    "type": "event",
-    "title": "Philly Takeover: Sidney Gantt & Ryan Shaner \u2013 Double Headline Comedy",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "September 5, 2026 8:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Double Headline",
-        "Philadelphia Comedians",
-        "Evening Show",
-        "Pottstown"
-      ],
-      "price": "$20 GA / $30 Preferred"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/shanerandgantt/"
-  },
-  {
-    "id": "discovered_victoria_aveyard_colonial_20260909",
-    "type": "event",
-    "title": "Victoria Aveyard Live: Tempest Book Launch at Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "September 9, 2026 7:00 PM",
-    "attributes": {
-      "category": "Guest Presentations",
-      "vibes": [
-        "Author Event",
-        "Book Launch",
-        "NYT Bestseller",
-        "Young Adult",
-        "Fantasy",
-        "Reads & Company"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/"
-  },
-  {
-    "id": "discovered_laurie_gilmore_colonial_20260910",
-    "type": "event",
-    "title": "Laurie Gilmore Live: Big Bad Wolf Book Launch at Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "September 10, 2026 6:30 PM",
-    "attributes": {
-      "category": "Guest Presentations",
-      "vibes": [
-        "Author Event",
-        "Book Launch",
-        "Romance Novel",
-        "Small Town",
-        "Reads & Company"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/"
-  },
-  {
-    "id": "discovered_pennhurst_legacy_comedy_20260910",
-    "type": "event",
-    "title": "Comedy Fundraiser \u2013 Pennhurst Legacy Project",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "September 10, 2026 7:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Charity Event",
-        "Stand-Up Comedy",
-        "Pennhurst History",
-        "Fundraiser",
-        "Pottstown"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/pennhurstlegacyproject/"
-  },
-  {
-    "id": "discovered_adam_ferrara_souljoels_20260911",
-    "type": "event",
-    "title": "Adam Ferrara \u2013 Live Stand-Up Comedy",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "September 11, 2026 6:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Actor-Comedian",
-        "Top Gear",
-        "Law & Order",
-        "Weekend",
-        "Pottstown"
-      ],
-      "price": "$20 GA / $30 Preferred"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/adamferrara/"
-  },
-  {
-    "id": "discovered_mamma_mania_abba_colonial_20260911",
-    "type": "event",
-    "title": "Mamma Mania! \u2013 The American Tribute to ABBA",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "September 11, 2026 8:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "ABBA Tribute",
-        "Tribute Band",
-        "Dance",
-        "Sing-Along",
-        "Indoor",
-        "Theater"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/live-music/mamma-mania-the-american-tribute-to-abba/"
-  },
-  {
-    "id": "discovered_retro_con_oaks_20260912",
-    "type": "event",
-    "title": "Retro Con 2026 \u2013 Retro Toys, Collectibles & Celebrity Guests",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "September 12, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Retro",
-        "Collectibles",
-        "Cosplay",
-        "Celebrity Guests",
-        "Family Friendly",
-        "Indoor",
-        "Oaks"
-      ],
-      "price": "$20/day at door"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://retrocons.com"
-  },
-  {
-    "id": "discovered_john_cassidy_magic_souljoels_20260912",
-    "type": "event",
-    "title": "John Cassidy \u2013 All Ages Magic Show",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "September 12, 2026 3:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Magic Show",
-        "All Ages",
-        "Family Friendly",
-        "Afternoon",
-        "Pottstown"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/johncassidyseptember12th/"
-  },
-  {
-    "id": "discovered_bridge_street_car_show_20260816",
-    "type": "event",
-    "title": "Phoenixville Bridge Street Car Show \u2013 1970s Themed",
-    "venue_info": {
-      "name": "Main & Bridge Street Parking Lot, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 16, 2026 12:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Car Show",
-        "1970s",
-        "Classic Cars",
-        "Family Friendly",
-        "Free",
-        "Outdoor",
-        "Downtown Phoenixville"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=2373"
-  },
-  {
-    "id": "discovered_bowie_tribute_gem_20260822",
-    "type": "event",
-    "title": "Kevin Hill & Secret Sound: Bowie Tribute",
-    "venue_info": {
-      "name": "The Gem Music Hall, 66 N Main St, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "August 22, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "David Bowie",
-        "Tribute Band",
-        "Glam Rock",
-        "Theatrical",
-        "Immersive",
-        "Spring City"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/"
-  },
-  {
-    "id": "discovered_spring_city_library_trivia_gem_20260827",
-    "type": "event",
-    "title": "Trivia Night Benefiting Spring City Library",
-    "venue_info": {
-      "name": "The Gem Music Hall, 66 N Main St, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "August 27, 2026 7:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Trivia",
-        "Library Fundraiser",
-        "Bar Night",
-        "Team Fun",
-        "Local Cause",
-        "Spring City"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/"
   },
   {
     "id": "discovered_endless_summer_5k_20260828",
@@ -2437,9 +1262,9 @@
     "action_link": "https://www.springcitypa.gov/community/page/2026-parks-and-recreation-events"
   },
   {
-    "id": "discovered_sinatra_darin_matinee_souljoels_20260912",
+    "id": "discovered_joe_devito_souljoels_20260829",
     "type": "event",
-    "title": "Sinatra & Bobby Darin \u2013 DeSimone Brothers Matinee Show",
+    "title": "Joe DeVito: Live Stand-Up Comedy",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, Pottstown",
       "location": {
@@ -2447,29 +1272,120 @@
         "lng": -75.6496
       }
     },
-    "raw_date_string": "September 12, 2026 1:00 PM",
+    "raw_date_string": "August 29, 2026 7:00 PM",
     "attributes": {
-      "category": "Live Music",
+      "category": "Comedy",
       "vibes": [
-        "Sinatra",
-        "Bobby Darin",
-        "Classic Crooners",
-        "Matinee",
-        "Afternoon Show",
+        "Stand-Up Comedy",
+        "Gutfeld!",
+        "Comedy Central",
+        "Dry Bar Comedy",
         "Pottstown",
-        "DeSimone Brothers"
+        "Weekend"
       ],
-      "price": "$20"
+      "price": "Check Link"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://souljoels.com/shop/tickets/sinatrabobbydarin2026"
+    "action_link": "https://souljoels.com/shop/tickets/joedevito/"
   },
   {
-    "id": "discovered_real_diamond_souljoels_20260912",
+    "id": "discovered_big_trip_gem_20260829",
     "type": "event",
-    "title": "Real Diamond Band \u2013 A Tribute to Neil Diamond",
+    "title": "The Big Trip – Grateful Dead, Allman Brothers & More at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "August 29, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Jam Band",
+        "Grateful Dead",
+        "Allman Brothers",
+        "The Band",
+        "Spring City",
+        "Weekend"
+      ],
+      "price": "$60–$80"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/event-details/the-big-trip-with-tba"
+  },
+  {
+    "id": "discovered_farmers_market_20260829",
+    "type": "event",
+    "title": "Phoenixville Farmers Market – Saturday",
+    "venue_info": {
+      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 29, 2026 9:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Local Produce",
+        "Artisan Food",
+        "Family Friendly",
+        "Live Music",
+        "Seasonal"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org/"
+  },
+  {
+    "id": "discovered_prfm_oaks_expo_20260829",
+    "type": "event",
+    "title": "Phoenixville Punk Rock Flea Market – 11 Year Anniversary Super-Sized Spectacular",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center Hall B, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "August 29, 2026 11:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Vintage",
+        "Punk",
+        "Flea Market",
+        "Vinyl DJs",
+        "Hearse Car Show",
+        "Art",
+        "Oddities",
+        "Family Friendly",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phillyprfm.com/"
+  },
+  {
+    "id": "discovered_souljoels_got_talent_20260829",
+    "type": "event",
+    "title": "SoulJoel's Got Talent – Open Talent Competition",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, Pottstown",
       "location": {
@@ -2477,29 +1393,676 @@
         "lng": -75.6496
       }
     },
-    "raw_date_string": "September 12, 2026 7:00 PM",
+    "raw_date_string": "August 29, 2026 1:00 PM",
     "attributes": {
-      "category": "Live Music",
+      "category": "Community Event",
       "vibes": [
-        "Neil Diamond",
-        "Tribute Band",
-        "12-Piece Band",
-        "Sing-Along",
-        "Classic Rock",
+        "Talent Show",
+        "All Ages",
+        "Family Friendly",
+        "Open Competition",
         "Pottstown",
-        "Dance"
+        "Weekend"
       ],
-      "price": "$20 advance / $25 door"
+      "price": "Check Link"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://souljoels.com/shop/tickets/realdiamond2026/"
+    "action_link": "https://souljoels.com/shop/tickets/souljoelsgottalent/"
+  },
+  {
+    "id": "discovered_prfm_afterparty_watertower_20260829",
+    "type": "event",
+    "title": "PRFM Afterparty – Vacant Progress, F.O.D. & Animalhaüs",
+    "venue_info": {
+      "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "August 29, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Punk",
+        "Rock",
+        "Indie",
+        "After-Party",
+        "PRFM",
+        "Oaks"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.watertowerlive.com/events"
+  },
+  {
+    "id": "discovered_mm_irish_sessions_20260830",
+    "type": "event",
+    "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "August 30, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Irish Music",
+        "Traditional",
+        "Acoustic",
+        "Irish Pub",
+        "Sunday Afternoon"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thesession.org/sessions/2793"
+  },
+  {
+    "id": "discovered_pxv_inside_out_20260830",
+    "type": "event",
+    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 30, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Street Performance",
+        "Community",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_comedy_open_mic_20260831",
+    "type": "event",
+    "title": "B&C Comedy Open Mic Night at Great American Pub",
+    "venue_info": {
+      "name": "Great American Pub, 148 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "August 31, 2026 8:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Free",
+        "Stand-Up Comedy",
+        "Open Mic",
+        "21+",
+        "Downtown Phoenixville",
+        "Bar"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
+  },
+  {
+    "id": "discovered_science_on_tap_rootdown_20260901",
+    "type": "event",
+    "title": "Science on Tap – Root Down Brewing Phoenixville",
+    "venue_info": {
+      "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 1, 2026 6:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Science Talk",
+        "Free",
+        "Brewery",
+        "Educational",
+        "21+",
+        "Downtown Phoenixville",
+        "Monthly Series"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://rootdownbrewing.com/rootdown-events/"
+  },
+  {
+    "id": "discovered_stable12_trivia_20260902",
+    "type": "event",
+    "title": "Pub Trivia Night at Stable 12 Brewing",
+    "venue_info": {
+      "name": "Stable 12 Brewing Co., 368 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 2, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Trivia",
+        "Craft Beer",
+        "Brewery",
+        "Free",
+        "Wednesday Night Out",
+        "Downtown Phoenixville"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
+  },
+  {
+    "id": "discovered_out_there_colonial_20260903",
+    "type": "event",
+    "title": "\"Out There: A National Parks Story\" – Film & Filmmaker Q&A",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "September 3, 2026",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": [
+        "Documentary",
+        "National Parks",
+        "Filmmaker Q&A",
+        "Valley Forge Park Alliance",
+        "Road Trip",
+        "Nature",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/"
+  },
+  {
+    "id": "discovered_first_friday_september_20260904",
+    "type": "event",
+    "title": "Phoenixville First Friday – September",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 4, 2026 5:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly",
+        "Vendors",
+        "Night Market",
+        "Arts & Crafts"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/first-fridays"
+  },
+  {
+    "id": "discovered_jam_pan_gem_20260905",
+    "type": "event",
+    "title": "JaM PaN – Live Jam Band Night at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "September 5, 2026 8:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Jam Band",
+        "Live Music",
+        "Goose",
+        "Phish",
+        "Grateful Dead",
+        "Spring City",
+        "Saturday Night"
+      ],
+      "price": "$12 advance / $15 door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/event-details/jam-pan"
+  },
+  {
+    "id": "discovered_farmers_market_20260905",
+    "type": "event",
+    "title": "Phoenixville Farmers Market – Saturday",
+    "venue_info": {
+      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 5, 2026 9:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Local Produce",
+        "Artisan Food",
+        "Family Friendly",
+        "Live Music",
+        "Seasonal"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org/"
+  },
+  {
+    "id": "discovered_spring_city_arts_festival_20260905",
+    "type": "event",
+    "title": "Spring City Arts Art Festival & Studio Tour",
+    "venue_info": {
+      "name": "Spring City Square, Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "September 5, 2026 10:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Art Festival",
+        "Local Artists",
+        "Paintings",
+        "Sculpture",
+        "Ceramics",
+        "Spring City"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.springcityarts.org/events"
+  },
+  {
+    "id": "discovered_jay_black_comedy_souljoels_20260905",
+    "type": "event",
+    "title": "Jay Black – All Ages Clean Comedy Show",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 5, 2026 4:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "All Ages",
+        "Family Friendly",
+        "Clean Comedy",
+        "Afternoon Show",
+        "Pottstown"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/allagescomedywithjayblack/"
+  },
+  {
+    "id": "discovered_gantt_shaner_souljoels_20260905",
+    "type": "event",
+    "title": "Philly Takeover: Sidney Gantt & Ryan Shaner – Double Headline Comedy",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 5, 2026 8:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Double Headline",
+        "Philadelphia Comedians",
+        "Evening Show",
+        "Pottstown"
+      ],
+      "price": "$20 GA / $30 Preferred"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/shanerandgantt/"
+  },
+  {
+    "id": "discovered_salsa_bachata_souljoels_20260905",
+    "type": "event",
+    "title": "Salsa & Bachata Night with Dance Lessons – SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 5, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Salsa",
+        "Bachata",
+        "Dance Lessons",
+        "Latin Dance",
+        "Evening Out",
+        "Pottstown",
+        "All Levels Welcome"
+      ],
+      "price": "$10"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/salsaseptember5th/"
+  },
+  {
+    "id": "discovered_collegeville_yard_sale_20260906",
+    "type": "event",
+    "title": "Collegeville Colossal Yard Sale",
+    "venue_info": {
+      "name": "Waterworks Park, West First Ave, Trappe (near Collegeville)",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "September 6, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly",
+        "Yard Sale",
+        "Community",
+        "Vintage",
+        "Collegeville"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.collegevilledevelopment.org/collegeville-colossal-yard-sale/"
+  },
+  {
+    "id": "discovered_pxv_inside_out_20260906",
+    "type": "event",
+    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 6, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Street Performance",
+        "Community",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_mm_irish_sessions_20260906",
+    "type": "event",
+    "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "September 6, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Irish Music",
+        "Traditional",
+        "Acoustic",
+        "Irish Pub",
+        "Sunday Afternoon"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thesession.org/sessions/2793"
+  },
+  {
+    "id": "discovered_comedy_open_mic_20260907",
+    "type": "event",
+    "title": "B&C Comedy Open Mic Night at Great American Pub",
+    "venue_info": {
+      "name": "Great American Pub, 148 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 7, 2026 8:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Free",
+        "Stand-Up Comedy",
+        "Open Mic",
+        "21+",
+        "Downtown Phoenixville",
+        "Bar"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
+  },
+  {
+    "id": "discovered_blues_festival_20260907",
+    "type": "event",
+    "title": "Phoenixville Blues Festival – Labor Day 2026",
+    "venue_info": {
+      "name": "Reeves Park, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 7, 2026 1:00 PM",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Blues Music",
+        "Live Music",
+        "Labor Day",
+        "Family Friendly",
+        "Annual Tradition",
+        "Canned Food Drive"
+      ],
+      "price": "Free (bring a canned good)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://pvilleblues.org/"
+  },
+  {
+    "id": "discovered_souljoels_open_mic_20260907",
+    "type": "event",
+    "title": "Free Comedy Open Mic – SoulJoel's Labor Day Special",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 7, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Free",
+        "Stand-Up Comedy",
+        "Open Mic",
+        "Labor Day",
+        "Pottstown",
+        "All Welcome"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/freeopenmicsept7th/"
+  },
+  {
+    "id": "discovered_souljoels_open_mic_20260908",
+    "type": "event",
+    "title": "Tuesday Comedy Open Mic at SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 8, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Free",
+        "Stand-Up Comedy",
+        "Open Mic",
+        "Weekly",
+        "Pottstown",
+        "21+"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/september8thcomedyopenmic/"
+  },
+  {
+    "id": "discovered_victoria_aveyard_colonial_20260909",
+    "type": "event",
+    "title": "Victoria Aveyard Live: Tempest Book Launch at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "September 9, 2026 7:00 PM",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": [
+        "Author Event",
+        "Book Launch",
+        "NYT Bestseller",
+        "Young Adult",
+        "Fantasy",
+        "Reads & Company"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/"
   },
   {
     "id": "discovered_robby_slowik_souljoels_20260909",
     "type": "event",
-    "title": "Robby Slowik \u2013 Live Stand-Up Comedy",
+    "title": "Robby Slowik – Live Stand-Up Comedy",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, Pottstown",
       "location": {
@@ -2525,9 +2088,65 @@
     "action_link": "https://souljoels.com/shop/tickets/robbyslowik/"
   },
   {
-    "id": "discovered_jbf_fall_consignment_oaks_20260912",
+    "id": "discovered_laurie_gilmore_colonial_20260910",
     "type": "event",
-    "title": "Just Between Friends Fall Consignment Sale \u2013 Western Main Line",
+    "title": "Laurie Gilmore Live: Big Bad Wolf Book Launch at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "September 10, 2026 6:30 PM",
+    "attributes": {
+      "category": "Guest Presentations",
+      "vibes": [
+        "Author Event",
+        "Book Launch",
+        "Romance Novel",
+        "Small Town",
+        "Reads & Company"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/"
+  },
+  {
+    "id": "discovered_pennhurst_legacy_comedy_20260910",
+    "type": "event",
+    "title": "Comedy Fundraiser – Pennhurst Legacy Project",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 10, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Charity Event",
+        "Stand-Up Comedy",
+        "Pennhurst History",
+        "Fundraiser",
+        "Pottstown"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/pennhurstlegacyproject/"
+  },
+  {
+    "id": "discovered_beauty_on_budget_expo_20260910",
+    "type": "event",
+    "title": "Beauty on a Budget Fall Consignment Sale – Opening Night",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
       "location": {
@@ -2535,29 +2154,87 @@
         "lng": -75.4699
       }
     },
-    "raw_date_string": "Sep 12 - 13, 2026",
+    "raw_date_string": "September 10, 2026 4:00 PM",
     "attributes": {
       "category": "Community Event",
       "vibes": [
-        "Kids Clothing",
-        "Maternity",
         "Consignment Sale",
-        "Budget Shopping",
-        "Family Friendly",
+        "Women's Fashion",
+        "Teen Clothing",
+        "Upscale Resale",
         "Indoor",
+        "Vendors",
         "Oaks"
       ],
-      "price": "Free (register online) / $3 at door"
+      "price": "Check Link"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://westernmainline.jbfsale.com/"
+    "action_link": "https://www.bobsale.com/philadelphia"
+  },
+  {
+    "id": "discovered_adam_ferrara_souljoels_20260911",
+    "type": "event",
+    "title": "Adam Ferrara – Live Stand-Up Comedy",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 11, 2026 6:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Actor-Comedian",
+        "Top Gear",
+        "Law & Order",
+        "Weekend",
+        "Pottstown"
+      ],
+      "price": "$20 GA / $30 Preferred"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/adamferrara/"
+  },
+  {
+    "id": "discovered_mamma_mania_abba_colonial_20260911",
+    "type": "event",
+    "title": "Mamma Mania! – The American Tribute to ABBA",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "September 11, 2026 8:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "ABBA Tribute",
+        "Tribute Band",
+        "Dance",
+        "Sing-Along",
+        "Indoor",
+        "Theater"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/mamma-mania-the-american-tribute-to-abba/"
   },
   {
     "id": "discovered_rgb_lan9_oaks_expo_20260911",
     "type": "event",
-    "title": "RGB LAN 9 \u2013 Charity Gaming LAN Party",
+    "title": "RGB LAN 9 – Charity Gaming LAN Party",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
       "location": {
@@ -2587,7 +2264,7 @@
   {
     "id": "discovered_fete_en_blanc_pottstown_20260911",
     "type": "event",
-    "title": "F\u00eate en Blanc Pottstown 2026 \u2013 All-White Outdoor Dinner Party",
+    "title": "Fête en Blanc Pottstown 2026 – All-White Outdoor Dinner Party",
     "venue_info": {
       "name": "Smith Family Plaza, 138 E High St, Pottstown",
       "location": {
@@ -2614,9 +2291,97 @@
     "action_link": "https://www.feteenblancpottstown.com/events/fete-en-blanc-pottstown"
   },
   {
+    "id": "discovered_retro_con_oaks_20260912",
+    "type": "event",
+    "title": "Retro Con 2026 – Retro Toys, Collectibles & Celebrity Guests",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "September 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Retro",
+        "Collectibles",
+        "Cosplay",
+        "Celebrity Guests",
+        "Family Friendly",
+        "Indoor",
+        "Oaks"
+      ],
+      "price": "$20/day at door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://retrocons.com"
+  },
+  {
+    "id": "discovered_john_cassidy_magic_souljoels_20260912",
+    "type": "event",
+    "title": "John Cassidy – All Ages Magic Show",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 12, 2026 3:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Magic Show",
+        "All Ages",
+        "Family Friendly",
+        "Afternoon",
+        "Pottstown"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/johncassidyseptember12th/"
+  },
+  {
+    "id": "discovered_jbf_fall_consignment_oaks_20260912",
+    "type": "event",
+    "title": "Just Between Friends Fall Consignment Sale – Western Main Line",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Sep 12 - 13, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Kids Clothing",
+        "Maternity",
+        "Consignment Sale",
+        "Budget Shopping",
+        "Family Friendly",
+        "Indoor",
+        "Oaks"
+      ],
+      "price": "Free (register online) / $3 at door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://westernmainline.jbfsale.com/"
+  },
+  {
     "id": "discovered_comedy_at_colonial_john_moses_20260912",
     "type": "event",
-    "title": "Comedy at the Colonial \u2013 John Moses Headlines",
+    "title": "Comedy at the Colonial – John Moses Headlines",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -2644,7 +2409,7 @@
   {
     "id": "discovered_cybertronic_spree_watertower_20260912",
     "type": "event",
-    "title": "The Cybertronic Spree \u2013 Transformers 40th Anniversary Concert",
+    "title": "The Cybertronic Spree – Transformers 40th Anniversary Concert",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
       "location": {
@@ -2672,9 +2437,9 @@
     "action_link": "https://retrocons.com/cybertronic-spree/"
   },
   {
-    "id": "discovered_salsa_bachata_souljoels_20260905",
+    "id": "discovered_sinatra_darin_matinee_souljoels_20260912",
     "type": "event",
-    "title": "Salsa & Bachata Night with Dance Lessons \u2013 SoulJoel's",
+    "title": "Sinatra & Bobby Darin – DeSimone Brothers Matinee Show",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, Pottstown",
       "location": {
@@ -2682,29 +2447,59 @@
         "lng": -75.6496
       }
     },
-    "raw_date_string": "September 5, 2026 7:00 PM",
+    "raw_date_string": "September 12, 2026 1:00 PM",
     "attributes": {
-      "category": "Community Event",
+      "category": "Live Music",
       "vibes": [
-        "Salsa",
-        "Bachata",
-        "Dance Lessons",
-        "Latin Dance",
-        "Evening Out",
+        "Sinatra",
+        "Bobby Darin",
+        "Classic Crooners",
+        "Matinee",
+        "Afternoon Show",
         "Pottstown",
-        "All Levels Welcome"
+        "DeSimone Brothers"
       ],
-      "price": "$10"
+      "price": "$20"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://souljoels.com/shop/tickets/salsaseptember5th/"
+    "action_link": "https://souljoels.com/shop/tickets/sinatrabobbydarin2026"
+  },
+  {
+    "id": "discovered_real_diamond_souljoels_20260912",
+    "type": "event",
+    "title": "Real Diamond Band – A Tribute to Neil Diamond",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 12, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Neil Diamond",
+        "Tribute Band",
+        "12-Piece Band",
+        "Sing-Along",
+        "Classic Rock",
+        "Pottstown",
+        "Dance"
+      ],
+      "price": "$20 advance / $25 door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/realdiamond2026/"
   },
   {
     "id": "discovered_retro_con_day2_oaks_20260913",
     "type": "event",
-    "title": "Retro Con 2026 \u2013 Day 2",
+    "title": "Retro Con 2026 – Day 2",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Oaks",
       "location": {
@@ -2734,9 +2529,9 @@
   {
     "id": "discovered_pxv_inside_out_20260913",
     "type": "event",
-    "title": "PXV Inside Out Music Series \u2013 Outdoor Street Performances",
+    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
     "venue_info": {
-      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -2759,5 +2554,36 @@
       "image": ""
     },
     "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_northern_star_fall_fest_20260913",
+    "type": "event",
+    "title": "Northern Star Farm Fall Fest – Opening Weekend",
+    "venue_info": {
+      "name": "Northern Star Farm, 96 Third Ave East, Trappe (near Collegeville)",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "September 13, 2026 10:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Pumpkin Patch",
+        "Hayrides",
+        "Corn Maze",
+        "Cider Donuts",
+        "Family Friendly",
+        "Fall Festival",
+        "Farm Animals",
+        "Outdoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.northernstarfarm.net/fall-fest"
   }
 ]
