@@ -2585,5 +2585,182 @@
       "image": ""
     },
     "action_link": "https://www.northernstarfarm.net/fall-fest"
+  },
+  {
+    "id": "discovered_stable12_trivia_20260909",
+    "type": "event",
+    "title": "Pub Trivia Night at Stable 12 Brewing",
+    "venue_info": {
+      "name": "Stable 12 Brewing Co., 368 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 9, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Trivia",
+        "Craft Beer",
+        "Brewery",
+        "Free",
+        "Wednesday Night Out",
+        "Downtown Phoenixville"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
+  },
+  {
+    "id": "discovered_farmers_market_20260912",
+    "type": "event",
+    "title": "Phoenixville Farmers Market – Saturday",
+    "venue_info": {
+      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 12, 2026 9:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Local Produce",
+        "Artisan Food",
+        "Family Friendly",
+        "Live Music",
+        "Seasonal"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org/"
+  },
+  {
+    "id": "discovered_mm_irish_sessions_20260913",
+    "type": "event",
+    "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "September 13, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Irish Music",
+        "Traditional",
+        "Acoustic",
+        "Irish Pub",
+        "Sunday Afternoon"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thesession.org/sessions/2793"
+  },
+  {
+    "id": "discovered_comedy_open_mic_20260914",
+    "type": "event",
+    "title": "B&C Comedy Open Mic Night at Great American Pub",
+    "venue_info": {
+      "name": "Great American Pub, 148 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 14, 2026 8:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Free",
+        "Stand-Up Comedy",
+        "Open Mic",
+        "21+",
+        "Downtown Phoenixville",
+        "Bar"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
+  },
+  {
+    "id": "discovered_stable12_trivia_20260916",
+    "type": "event",
+    "title": "Pub Trivia Night at Stable 12 Brewing",
+    "venue_info": {
+      "name": "Stable 12 Brewing Co., 368 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 16, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Trivia",
+        "Craft Beer",
+        "Brewery",
+        "Free",
+        "Wednesday Night Out",
+        "Downtown Phoenixville"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
+  },
+  {
+    "id": "discovered_navratri_garba_expo_20260917",
+    "type": "event",
+    "title": "Navratri Festival at Philadelphia Expo Center – Live Garba",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "September 17, 2026 8:00 PM",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Garba",
+        "Navratri",
+        "Indian Dance Festival",
+        "Live Music",
+        "Cultural Celebration",
+        "Family Friendly",
+        "Alcohol-Free",
+        "Oaks"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/navratri-festival-at-philadelphia-expo-center-2026-live-garba-tickets-1992798116812"
   }
 ]
