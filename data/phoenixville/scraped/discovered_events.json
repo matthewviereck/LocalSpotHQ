@@ -1,64 +1,5 @@
 [
   {
-    "id": "discovered_comedy_open_mic_20260817",
-    "type": "event",
-    "title": "B&C Comedy Open Mic Night at Great American Pub",
-    "venue_info": {
-      "name": "Great American Pub, 148 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 17, 2026 8:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Free",
-        "Stand-Up Comedy",
-        "Open Mic",
-        "21+",
-        "Downtown Phoenixville",
-        "Bar"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
-  },
-  {
-    "id": "discovered_eagleview_concert_20260818",
-    "type": "event",
-    "title": "Eagleview Summer Concert: Rhett Miller with The Maks",
-    "venue_info": {
-      "name": "Eagleview Town Center, Exton (near Phoenixville)",
-      "location": {
-        "lat": 40.0337,
-        "lng": -75.6174
-      }
-    },
-    "raw_date_string": "August 18, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Singer-Songwriter",
-        "Family Friendly",
-        "Lawn Concert",
-        "Bring Chairs"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eagleviewtowncenter.com/free-concerts"
-  },
-  {
     "id": "discovered_carillon_concert_20260819",
     "type": "event",
     "title": "Frank P. Law Summer Carillon Concert Series – August 19",
@@ -2762,5 +2703,65 @@
       "image": ""
     },
     "action_link": "https://www.eventbrite.com/e/navratri-festival-at-philadelphia-expo-center-2026-live-garba-tickets-1992798116812"
+  },
+  {
+    "id": "discovered_montco_fall_senior_expo_20260917",
+    "type": "event",
+    "title": "Montgomery County Fall Senior Expo",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Hall C, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "September 17, 2026 10:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Seniors",
+        "Resource Fair",
+        "Health Services",
+        "Family Friendly",
+        "Indoor",
+        "Oaks"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/montgomery-county-fall-senior-expo-tickets-1974880725412"
+  },
+  {
+    "id": "discovered_pet_sounds_live_colonial_20260918",
+    "type": "event",
+    "title": "Pet Sounds Live – A Beach Boys Celebration",
+    "venue_info": {
+      "name": "The Colonial Theatre",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "September 18, 2026 8:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Beach Boys",
+        "Tribute",
+        "Classic Rock",
+        "60s Music",
+        "Pet Sounds",
+        "Sing-Along",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-music/pet-sounds-live/"
   }
 ]
