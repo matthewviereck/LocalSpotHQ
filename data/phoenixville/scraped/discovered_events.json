@@ -1,93 +1,5 @@
 [
   {
-    "id": "discovered_carillon_concert_20260819",
-    "type": "event",
-    "title": "Frank P. Law Summer Carillon Concert Series – August 19",
-    "venue_info": {
-      "name": "Washington Memorial Chapel, Valley Forge",
-      "location": {
-        "lat": 40.1014,
-        "lng": -75.4544
-      }
-    },
-    "raw_date_string": "August 19, 2026 7:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Classical Music",
-        "Bell Tower",
-        "Family Friendly",
-        "Picnic-Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wmchapel.org/frank-law-summer-carillon"
-  },
-  {
-    "id": "discovered_stable12_trivia_20260819",
-    "type": "event",
-    "title": "Pub Trivia Night at Stable 12 Brewing",
-    "venue_info": {
-      "name": "Stable 12 Brewing Co., 368 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 19, 2026 7:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Trivia",
-        "Craft Beer",
-        "Brewery",
-        "Free",
-        "Wednesday Night Out",
-        "Downtown Phoenixville"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
-  },
-  {
-    "id": "discovered_lock60_guided_tour_20260819",
-    "type": "event",
-    "title": "Lock 60 Guided Tour – Schuylkill Canal Park",
-    "venue_info": {
-      "name": "Schuylkill Canal Lock 60, 400 Towpath Rd, Mont Clare",
-      "location": {
-        "lat": 40.1367,
-        "lng": -75.5028
-      }
-    },
-    "raw_date_string": "August 19, 2026 11:00 AM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "History",
-        "Canal Tour",
-        "Outdoor",
-        "Educational",
-        "Pre-Registration Required",
-        "Family Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.montgomerycountypa.gov/Calendar.aspx?EID=5294"
-  },
-  {
     "id": "discovered_vinyl_roots_kimberton_20260820",
     "type": "event",
     "title": "Kimberton Park Summer Concert: Vinyl Roots",
@@ -1589,6 +1501,37 @@
     "action_link": "https://www.phoenixvillefirst.org/first-fridays"
   },
   {
+    "id": "discovered_paranormal_cirque_specter_20260904",
+    "type": "event",
+    "title": "Paranormal Cirque Specter – Horror Circus",
+    "venue_info": {
+      "name": "Paranormal Cirque Big Top, Oaks PA",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "September 4–7, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Horror Circus",
+        "Acrobatics",
+        "Aerial Silks",
+        "Contortion",
+        "Thriller",
+        "Adults 18+",
+        "Black Big Top",
+        "Oaks"
+      ],
+      "price": "$20–$65"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://paranormalcirque.com/"
+  },
+  {
     "id": "discovered_jam_pan_gem_20260905",
     "type": "event",
     "title": "JaM PaN – Live Jam Band Night at The Gem",
@@ -2763,5 +2706,38 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/live-music/pet-sounds-live/"
+  },
+  {
+    "id": "discovered_upt_fall_fest_20260919",
+    "type": "event",
+    "title": "UPT Community Fall Fest",
+    "venue_info": {
+      "name": "Anderson Farm Park, 499 Hopwood Rd, Collegeville",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "September 19, 2026 12:00 PM",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly",
+        "Food Trucks",
+        "Beer Garden",
+        "Petting Zoo",
+        "Hayrides",
+        "Pony Rides",
+        "Bounce Houses",
+        "Collegeville"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.uprov-montco.org/461/UPT-Community-Fall-Festival"
   }
 ]
