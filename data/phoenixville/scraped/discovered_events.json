@@ -1,64 +1,5 @@
 [
   {
-    "id": "discovered_vinyl_roots_kimberton_20260820",
-    "type": "event",
-    "title": "Kimberton Park Summer Concert: Vinyl Roots",
-    "venue_info": {
-      "name": "Miller Amphitheater, Kimberton Park, East Pikeland",
-      "location": {
-        "lat": 40.115,
-        "lng": -75.544
-      }
-    },
-    "raw_date_string": "August 20, 2026 6:30 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Family Friendly",
-        "Food Truck",
-        "Summer Concert"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kimbertonartsalliance.org/summer-concert-series.html"
-  },
-  {
-    "id": "discovered_yellow_springs_town_tour_20260820",
-    "type": "event",
-    "title": "Chester County Town Tour: Historic Yellow Springs – Revolutionary War Site",
-    "venue_info": {
-      "name": "Historic Yellow Springs, 1701 Art School Rd, Chester Springs",
-      "location": {
-        "lat": 40.0847,
-        "lng": -75.6178
-      }
-    },
-    "raw_date_string": "August 20, 2026 5:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "History",
-        "Revolutionary War",
-        "Costumed Characters",
-        "Walking Tour",
-        "America250"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://yellowsprings.org/events/town-tours/"
-  },
-  {
     "id": "discovered_summer_music_reeves_park_20260821",
     "type": "event",
     "title": "Phoenixville Summer Music Series – Live at Reeves Park",
@@ -1267,7 +1208,7 @@
   {
     "id": "discovered_prfm_afterparty_watertower_20260829",
     "type": "event",
-    "title": "PRFM Afterparty – Vacant Progress, F.O.D. & Animalhaüs",
+    "title": "PRFM Afterparty – Vacant Progress, F.O.D. & Animalhaüs",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
       "location": {
@@ -1915,6 +1856,35 @@
     "action_link": "https://souljoels.com/shop/tickets/september8thcomedyopenmic/"
   },
   {
+    "id": "discovered_stable12_trivia_20260909",
+    "type": "event",
+    "title": "Pub Trivia Night at Stable 12 Brewing",
+    "venue_info": {
+      "name": "Stable 12 Brewing Co., 368 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 9, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Trivia",
+        "Craft Beer",
+        "Brewery",
+        "Free",
+        "Wednesday Night Out",
+        "Downtown Phoenixville"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
+  },
+  {
     "id": "discovered_victoria_aveyard_colonial_20260909",
     "type": "event",
     "title": "Victoria Aveyard Live: Tempest Book Launch at Colonial Theatre",
@@ -2381,6 +2351,36 @@
     "action_link": "https://souljoels.com/shop/tickets/realdiamond2026/"
   },
   {
+    "id": "discovered_farmers_market_20260912",
+    "type": "event",
+    "title": "Phoenixville Farmers Market – Saturday",
+    "venue_info": {
+      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 12, 2026 9:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Local Produce",
+        "Artisan Food",
+        "Family Friendly",
+        "Live Music",
+        "Seasonal"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org/"
+  },
+  {
     "id": "discovered_retro_con_day2_oaks_20260913",
     "type": "event",
     "title": "Retro Con 2026 – Day 2",
@@ -2471,65 +2471,6 @@
     "action_link": "https://www.northernstarfarm.net/fall-fest"
   },
   {
-    "id": "discovered_stable12_trivia_20260909",
-    "type": "event",
-    "title": "Pub Trivia Night at Stable 12 Brewing",
-    "venue_info": {
-      "name": "Stable 12 Brewing Co., 368 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "September 9, 2026 7:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Trivia",
-        "Craft Beer",
-        "Brewery",
-        "Free",
-        "Wednesday Night Out",
-        "Downtown Phoenixville"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
-  },
-  {
-    "id": "discovered_farmers_market_20260912",
-    "type": "event",
-    "title": "Phoenixville Farmers Market – Saturday",
-    "venue_info": {
-      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "September 12, 2026 9:00 AM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Local Produce",
-        "Artisan Food",
-        "Family Friendly",
-        "Live Music",
-        "Seasonal"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixvillefarmersmarket.org/"
-  },
-  {
     "id": "discovered_mm_irish_sessions_20260913",
     "type": "event",
     "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
@@ -2588,6 +2529,35 @@
     "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
   },
   {
+    "id": "discovered_line_dancing_souljoels_20260914",
+    "type": "event",
+    "title": "All Ages Line Dancing at SunnyBrook with Boot Scootin' Becky",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 14, 2026 6:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Line Dancing",
+        "All Ages",
+        "Country",
+        "Beginner Lessons",
+        "SunnyBrook Ballroom",
+        "Pottstown"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/allageslinedancingsept14th/"
+  },
+  {
     "id": "discovered_stable12_trivia_20260916",
     "type": "event",
     "title": "Pub Trivia Night at Stable 12 Brewing",
@@ -2615,6 +2585,35 @@
       "image": ""
     },
     "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
+  },
+  {
+    "id": "discovered_comedy_class_grad_souljoels_20260916",
+    "type": "event",
+    "title": "13th Comedy Class Graduation Show at SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 16, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Comedy",
+        "Graduation Show",
+        "Stand-Up",
+        "Local Talent",
+        "Pottstown",
+        "Unique Night"
+      ],
+      "price": "$55"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/13thgradshowsept16th/"
   },
   {
     "id": "discovered_navratri_garba_expo_20260917",
@@ -2708,6 +2707,36 @@
     "action_link": "https://thecolonialtheatre.com/events/live-music/pet-sounds-live/"
   },
   {
+    "id": "discovered_line_dancing_wxtu_souljoels_20260918",
+    "type": "event",
+    "title": "Line Dancing Night with Boot Scootin' Becky & WXTU 92.5 at SunnyBrook",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 18, 2026 6:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Line Dancing",
+        "All Ages",
+        "Country",
+        "Radio",
+        "WXTU",
+        "Beginner Lessons",
+        "SunnyBrook Ballroom"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/linedancing925xtu/"
+  },
+  {
     "id": "discovered_upt_fall_fest_20260919",
     "type": "event",
     "title": "UPT Community Fall Fest",
@@ -2739,5 +2768,125 @@
       "image": ""
     },
     "action_link": "https://www.uprov-montco.org/461/UPT-Community-Fall-Festival"
+  },
+  {
+    "id": "discovered_farmers_market_20260919",
+    "type": "event",
+    "title": "Phoenixville Farmers Market – Saturday",
+    "venue_info": {
+      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 19, 2026 9:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Local Produce",
+        "Artisan Food",
+        "Family Friendly",
+        "Live Music",
+        "Seasonal"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org/"
+  },
+  {
+    "id": "discovered_wuffjam_20260919",
+    "type": "event",
+    "title": "WuFFJam – Annual Dog-Friendly Festival at Reeves Park",
+    "venue_info": {
+      "name": "Reeves Park (2nd Ave & Starr St), Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 19, 2026 11:00 AM",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Dog Friendly",
+        "Free",
+        "Outdoor",
+        "Rescue Dogs",
+        "Live Music",
+        "Vendors",
+        "Food Trucks",
+        "Family Friendly",
+        "Reeves Park"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wuffjam.com/"
+  },
+  {
+    "id": "discovered_pxv_inside_out_20260920",
+    "type": "event",
+    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 20, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Street Performance",
+        "Community",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_mm_irish_sessions_20260920",
+    "type": "event",
+    "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "September 20, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Irish Music",
+        "Traditional",
+        "Acoustic",
+        "Irish Pub",
+        "Sunday Afternoon"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thesession.org/sessions/2793"
   }
 ]
