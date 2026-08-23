@@ -2897,5 +2897,95 @@
       "image": ""
     },
     "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
+  },
+  {
+    "id": "discovered_pottstown_fall_fest_20260902",
+    "type": "event",
+    "title": "Pottstown Fall Fest 2026",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 2, 2026 12:00 PM",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Fall Festival",
+        "Outdoor",
+        "Family Friendly",
+        "Community",
+        "Vendors",
+        "Pottstown",
+        "Afternoon"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/pottstownfallfest2026/"
+  },
+  {
+    "id": "discovered_dream_asia_fest_oaks_20260911",
+    "type": "event",
+    "title": "Dream Asia Festival 2026 – Asian Food, Music & Culture",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Sep 11-13, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Asian Food",
+        "Asian Culture",
+        "80+ Vendors",
+        "Live Music",
+        "Anime",
+        "Family Friendly",
+        "Indoor",
+        "Oaks"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.tixr.com/groups/dreamasiafoodfest/events/dream-asia-festival-pennsylvania-192375"
+  },
+  {
+    "id": "discovered_adam_hunter_souljoels_20260919",
+    "type": "event",
+    "title": "Adam Hunter – Live Stand-Up Comedy",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 19, 2026 6:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Last Comic Standing",
+        "Tonight Show",
+        "GUTFELD!",
+        "Evening Show",
+        "Pottstown"
+      ],
+      "price": "$20 GA / $30 Preferred"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/adamhunter/"
   }
 ]
