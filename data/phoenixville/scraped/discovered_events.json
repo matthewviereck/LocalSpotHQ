@@ -1,34 +1,5 @@
 [
   {
-    "id": "discovered_comedy_open_mic_20260824",
-    "type": "event",
-    "title": "B&C Comedy Open Mic Night at Great American Pub",
-    "venue_info": {
-      "name": "Great American Pub, 148 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "August 24, 2026 8:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Free",
-        "Stand-Up Comedy",
-        "Open Mic",
-        "21+",
-        "Downtown Phoenixville",
-        "Bar"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
-  },
-  {
     "id": "discovered_bruce_vs_petty_eagleview_20260825",
     "type": "event",
     "title": "Eagleview Summer Concert: An American Classic – Bruce vs. Petty",
@@ -499,6 +470,35 @@
     "action_link": "https://www.springcitypa.gov/community/page/2026-parks-and-recreation-events"
   },
   {
+    "id": "discovered_dinner_with_myself_watertower_20260828",
+    "type": "event",
+    "title": "Dinner with Myself with Radiant Gray, Mulberry Hill & Into Sunday",
+    "venue_info": {
+      "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "August 28, 2026 8:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Alternative Rock",
+        "Punk",
+        "Local Bands",
+        "Oaks",
+        "Sly Fox Beer Happy Hour"
+      ],
+      "price": "$8 advance / $10 door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://events.ticketleap.com/tickets/arnoldsatthefactory/dinner-with-myself"
+  },
+  {
     "id": "discovered_joe_devito_souljoels_20260829",
     "type": "event",
     "title": "Joe DeVito: Live Stand-Up Comedy",
@@ -823,6 +823,36 @@
       "image": ""
     },
     "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
+  },
+  {
+    "id": "discovered_pottstown_fall_fest_20260902",
+    "type": "event",
+    "title": "Pottstown Fall Fest 2026",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 2, 2026 12:00 PM",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Fall Festival",
+        "Outdoor",
+        "Family Friendly",
+        "Community",
+        "Vendors",
+        "Pottstown",
+        "Afternoon"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/pottstownfallfest2026/"
   },
   {
     "id": "discovered_out_there_colonial_20260903",
@@ -1385,6 +1415,32 @@
     "action_link": "https://souljoels.com/shop/tickets/robbyslowik/"
   },
   {
+    "id": "discovered_rigometrics_lazer_shark_gem_20260910",
+    "type": "event",
+    "title": "Rigometrics with Lazer Shark – Live at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "September 10, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Rock",
+        "Local Bands"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/"
+  },
+  {
     "id": "discovered_laurie_gilmore_colonial_20260910",
     "type": "event",
     "title": "Laurie Gilmore Live: Big Bad Wolf Book Launch at Colonial Theatre",
@@ -1586,6 +1642,63 @@
       "image": ""
     },
     "action_link": "https://www.feteenblancpottstown.com/events/fete-en-blanc-pottstown"
+  },
+  {
+    "id": "discovered_ladies_first_gem_20260911",
+    "type": "event",
+    "title": "Ladies First: Female-Fronted Bands at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "September 11, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Rock",
+        "Local Bands"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/"
+  },
+  {
+    "id": "discovered_dream_asia_fest_oaks_20260911",
+    "type": "event",
+    "title": "Dream Asia Festival 2026 – Asian Food, Music & Culture",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Sep 11-13, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Asian Food",
+        "Asian Culture",
+        "80+ Vendors",
+        "Live Music",
+        "Anime",
+        "Family Friendly",
+        "Indoor",
+        "Oaks"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.tixr.com/groups/dreamasiafoodfest/events/dream-asia-festival-pennsylvania-192375"
   },
   {
     "id": "discovered_retro_con_oaks_20260912",
@@ -1824,6 +1937,31 @@
     "action_link": "https://www.phoenixvillefarmersmarket.org/"
   },
   {
+    "id": "discovered_school_of_rock_gem_20260912",
+    "type": "event",
+    "title": "School of Rock Royersford: Summer of Festivals – Day 1",
+    "venue_info": {
+      "name": "The Gem Music Hall",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "September 12, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Family Friendly"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.schoolofrock.com/locations/royersford/events"
+  },
+  {
     "id": "discovered_retro_con_day2_oaks_20260913",
     "type": "event",
     "title": "Retro Con 2026 – Day 2",
@@ -1941,6 +2079,31 @@
       "image": ""
     },
     "action_link": "https://thesession.org/sessions/2793"
+  },
+  {
+    "id": "discovered_school_of_rock_gem_20260913",
+    "type": "event",
+    "title": "School of Rock Royersford: Summer of Festivals – Day 2",
+    "venue_info": {
+      "name": "The Gem Music Hall",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "September 13, 2026 2:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Family Friendly"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.schoolofrock.com/locations/royersford/events"
   },
   {
     "id": "discovered_comedy_open_mic_20260914",
@@ -2120,6 +2283,31 @@
     "action_link": "https://www.eventbrite.com/e/montgomery-county-fall-senior-expo-tickets-1974880725412"
   },
   {
+    "id": "discovered_flux_capacitor_gem_20260917",
+    "type": "event",
+    "title": "Flux Capacitor – Third Thursday Residency at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "September 17, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Rock"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/event-details/flux-capacitor-third-thursday-residency-at-the-gem"
+  },
+  {
     "id": "discovered_pet_sounds_live_colonial_20260918",
     "type": "event",
     "title": "Pet Sounds Live – A Beach Boys Celebration",
@@ -2275,6 +2463,35 @@
     "action_link": "https://wuffjam.com/"
   },
   {
+    "id": "discovered_adam_hunter_souljoels_20260919",
+    "type": "event",
+    "title": "Adam Hunter – Live Stand-Up Comedy",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 19, 2026 6:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Last Comic Standing",
+        "Tonight Show",
+        "GUTFELD!",
+        "Evening Show",
+        "Pottstown"
+      ],
+      "price": "$20 GA / $30 Preferred"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/adamhunter/"
+  },
+  {
     "id": "discovered_pxv_inside_out_20260920",
     "type": "event",
     "title": "PXV Inside Out Music Series – Outdoor Street Performances",
@@ -2333,278 +2550,6 @@
     "action_link": "https://thesession.org/sessions/2793"
   },
   {
-    "id": "discovered_rigometrics_lazer_shark_gem_20260910",
-    "type": "event",
-    "title": "Rigometrics with Lazer Shark – Live at The Gem",
-    "venue_info": {
-      "name": "The Gem Music Hall",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "September 10, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Rock",
-        "Local Bands"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/"
-  },
-  {
-    "id": "discovered_ladies_first_gem_20260911",
-    "type": "event",
-    "title": "Ladies First: Female-Fronted Bands at The Gem",
-    "venue_info": {
-      "name": "The Gem Music Hall",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "September 11, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Rock",
-        "Local Bands"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/"
-  },
-  {
-    "id": "discovered_school_of_rock_gem_20260912",
-    "type": "event",
-    "title": "School of Rock Royersford: Summer of Festivals – Day 1",
-    "venue_info": {
-      "name": "The Gem Music Hall",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "September 12, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Family Friendly"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.schoolofrock.com/locations/royersford/events"
-  },
-  {
-    "id": "discovered_school_of_rock_gem_20260913",
-    "type": "event",
-    "title": "School of Rock Royersford: Summer of Festivals – Day 2",
-    "venue_info": {
-      "name": "The Gem Music Hall",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "September 13, 2026 2:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Family Friendly"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.schoolofrock.com/locations/royersford/events"
-  },
-  {
-    "id": "discovered_flux_capacitor_gem_20260917",
-    "type": "event",
-    "title": "Flux Capacitor – Third Thursday Residency at The Gem",
-    "venue_info": {
-      "name": "The Gem Music Hall",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "September 17, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Rock"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/event-details/flux-capacitor-third-thursday-residency-at-the-gem"
-  },
-  {
-    "id": "discovered_comedy_open_mic_20260921",
-    "type": "event",
-    "title": "B&C Comedy Open Mic at Great American Pub",
-    "venue_info": {
-      "name": "Great American Pub of Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "September 21, 2026 7:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Comedy",
-        "Open Mic",
-        "Bar"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
-  },
-  {
-    "id": "discovered_pottstown_fall_fest_20260902",
-    "type": "event",
-    "title": "Pottstown Fall Fest 2026",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "September 2, 2026 12:00 PM",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Fall Festival",
-        "Outdoor",
-        "Family Friendly",
-        "Community",
-        "Vendors",
-        "Pottstown",
-        "Afternoon"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/pottstownfallfest2026/"
-  },
-  {
-    "id": "discovered_dream_asia_fest_oaks_20260911",
-    "type": "event",
-    "title": "Dream Asia Festival 2026 – Asian Food, Music & Culture",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "Sep 11-13, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Asian Food",
-        "Asian Culture",
-        "80+ Vendors",
-        "Live Music",
-        "Anime",
-        "Family Friendly",
-        "Indoor",
-        "Oaks"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.tixr.com/groups/dreamasiafoodfest/events/dream-asia-festival-pennsylvania-192375"
-  },
-  {
-    "id": "discovered_adam_hunter_souljoels_20260919",
-    "type": "event",
-    "title": "Adam Hunter – Live Stand-Up Comedy",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "September 19, 2026 6:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Last Comic Standing",
-        "Tonight Show",
-        "GUTFELD!",
-        "Evening Show",
-        "Pottstown"
-      ],
-      "price": "$20 GA / $30 Preferred"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/adamhunter/"
-  },
-  {
-    "id": "discovered_dinner_with_myself_watertower_20260828",
-    "type": "event",
-    "title": "Dinner with Myself with Radiant Gray, Mulberry Hill & Into Sunday",
-    "venue_info": {
-      "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "August 28, 2026 8:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Alternative Rock",
-        "Punk",
-        "Local Bands",
-        "Oaks",
-        "Sly Fox Beer Happy Hour"
-      ],
-      "price": "$8 advance / $10 door"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://events.ticketleap.com/tickets/arnoldsatthefactory/dinner-with-myself"
-  },
-  {
     "id": "discovered_upt_fall_fest_20260920",
     "type": "event",
     "title": "UPT Community Fall Festival",
@@ -2635,5 +2580,148 @@
       "image": ""
     },
     "action_link": "https://upperprovidencepa.myrec.com/info/activities/program_details.aspx?ProgramID=30513"
+  },
+  {
+    "id": "discovered_comedy_open_mic_20260921",
+    "type": "event",
+    "title": "B&C Comedy Open Mic at Great American Pub",
+    "venue_info": {
+      "name": "Great American Pub of Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 21, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Comedy",
+        "Open Mic",
+        "Bar"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
+  },
+  {
+    "id": "discovered_souljoels_open_mic_20260922",
+    "type": "event",
+    "title": "Tuesday Comedy Open Mic at SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 22, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Free",
+        "Stand-Up Comedy",
+        "Open Mic",
+        "Weekly",
+        "Pottstown",
+        "21+"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/upcoming-events/"
+  },
+  {
+    "id": "discovered_stable12_trivia_20260923",
+    "type": "event",
+    "title": "Pub Trivia Night at Stable 12 Brewing",
+    "venue_info": {
+      "name": "Stable 12 Brewing Co., 368 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 23, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Trivia",
+        "Craft Beer",
+        "Brewery",
+        "Free",
+        "Wednesday Night Out",
+        "Downtown Phoenixville"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
+  },
+  {
+    "id": "discovered_amber_wallin_souljoels_20260923",
+    "type": "event",
+    "title": "Amber Wallin – Comedy Debut at SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 23, 2026 7:30 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Social Media Comedian",
+        "The Moth",
+        "NPR",
+        "3M Followers",
+        "Parenting Humor",
+        "Pottstown"
+      ],
+      "price": "$20 GA"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/amberwallin/"
+  },
+  {
+    "id": "discovered_jeff_dye_souljoels_20260924",
+    "type": "event",
+    "title": "Jeff Dye – Live Stand-Up Comedy",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 24, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Last Comic Standing",
+        "Tonight Show",
+        "Two Shows",
+        "Headline Show",
+        "Pottstown"
+      ],
+      "price": "$35 GA / $45 Preferred"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/jeffdyesouljoels/"
   }
 ]
