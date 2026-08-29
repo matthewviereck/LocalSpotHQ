@@ -62,7 +62,14 @@ def generate_this_weekend_page(events_file, output_dir, area_config):
     sun_label = f"{sunday.day}" if friday.month == sunday.month else f"{sunday.strftime('%B')} {sunday.day}"
     range_label = f"{fri_label}–{sun_label}, {sunday.year}"
 
-    title = f"Things to Do in {area_name} This Weekend ({range_label})"
+    # "Things to do in <town> this weekend" is the highest-intent query this
+    # site can answer, so the title must survive Google's ~60-char cut. The
+    # full "(August 28-30, 2026) | LocalSpot" tail pushed it to 74 and got
+    # truncated away; a short month and no year keep the phrase intact.
+    short_fri = f"{friday.strftime('%b')} {friday.day}"
+    short_sun = (f"{sunday.day}" if friday.month == sunday.month
+                 else f"{sunday.strftime('%b')} {sunday.day}")
+    title = f"Things to Do in {area_name} This Weekend: {short_fri}–{short_sun}"
     description = (f"{len(picked)} events happening in and around {area_name} PA this weekend, "
                    f"{range_label}: festivals, live music, markets, family activities. Updated daily.")
 
@@ -120,7 +127,7 @@ def generate_this_weekend_page(events_file, output_dir, area_config):
 <meta charset="UTF-8">
 {GA_SNIPPET}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{html.escape(title)} | LocalSpot</title>
+<title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(description)}">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{canonical}">
