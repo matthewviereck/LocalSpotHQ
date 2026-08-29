@@ -93,7 +93,33 @@ jobs:
           mkdir -p ~/.ssh
           printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -p "$PORT" "$HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          # ssh-keyscan is the flakiest call in this step, and it used to fail
+          # in the worst possible way: stderr went to /dev/null and `bash -e`
+          # killed the step, so a transient blip produced a red run with ZERO
+          # output to diagnose (hit on 2026-08-29, passed on a plain re-run).
+          # Now: retry with backoff, judge success on actually having a host
+          # key rather than on exit code alone, and if it really is down, say
+          # so instead of exiting mute.
+          KEYSCAN_ERR="$(mktemp)"
+          for attempt in 1 2 3; do
+            if ssh-keyscan -p "$PORT" "$HOST" > ~/.ssh/known_hosts 2>"$KEYSCAN_ERR" \
+               && [ -s ~/.ssh/known_hosts ]; then
+              if [ "$attempt" -gt 1 ]; then
+                echo "ssh-keyscan succeeded on attempt $attempt"
+              fi
+              break
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "::error::ssh-keyscan could not retrieve the host key after 3 attempts - deploy aborted before any file was copied"
+              echo "--- ssh-keyscan stderr ---"
+              cat "$KEYSCAN_ERR"
+              echo "--------------------------"
+              exit 1
+            fi
+            echo "ssh-keyscan attempt $attempt failed (retrying in $((attempt * 5))s):"
+            sed 's/^/  /' "$KEYSCAN_ERR"
+            sleep "$((attempt * 5))"
+          done
           RSH="ssh -p $PORT -i $HOME/.ssh/deploy_key"
           DOCROOT="${PHX_DIR%/*}"
 
