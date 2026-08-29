@@ -1,8 +1,8 @@
 [
   {
-    "id": "sc_233342301",
+    "id": "sc_theregularsdarthbrandont_42026",
     "type": "event",
-    "title": "Eli Lev",
+    "title": "The Regulars, Darth Brandon, Tight Spiral & Morning Person",
     "venue_info": {
       "name": "Steel City Coffeehouse & Brewery",
       "location": {
@@ -10,7 +10,7 @@
         "lng": -75.5148
       }
     },
-    "raw_date_string": "October 23, 2026 7:00 PM",
+    "raw_date_string": "September 4, 2026 7:00 PM",
     "attributes": {
       "category": "Live Music",
       "vibes": [
@@ -18,17 +18,17 @@
         "Coffeehouse",
         "Brewery"
       ],
-      "price": "Check Link"
+      "price": "$12"
     },
     "media": {
-      "image": "https://photos.bandsintown.com/thumb/15984245.jpeg"
+      "image": ""
     },
-    "action_link": "https://www.bandsintown.com/e/1038419042-eli-lev-at-steel-city-coffee-house?came_from=209"
+    "action_link": "https://www.steelcityphx.com/concerts-and-events"
   },
   {
-    "id": "sc_3586568894",
+    "id": "sc_outintheworldabenefitcon_112026",
     "type": "event",
-    "title": "The Wedding Funeral",
+    "title": "Out in the world: A benefit concert for ParzivaL supports",
     "venue_info": {
       "name": "Steel City Coffeehouse & Brewery",
       "location": {
@@ -36,7 +36,7 @@
         "lng": -75.5148
       }
     },
-    "raw_date_string": "October 24, 2026 7:00 PM",
+    "raw_date_string": "September 11, 2026 7:00 PM",
     "attributes": {
       "category": "Live Music",
       "vibes": [
@@ -44,11 +44,115 @@
         "Coffeehouse",
         "Brewery"
       ],
-      "price": "Check Link"
+      "price": "$15"
     },
     "media": {
-      "image": "https://photos.bandsintown.com/thumb/24637539.jpeg"
+      "image": ""
     },
-    "action_link": "https://www.bandsintown.com/e/1038444346-the-wedding-funeral-at-steel-city-coffee-house?came_from=209"
+    "action_link": "https://www.steelcityphx.com/concerts-and-events"
+  },
+  {
+    "id": "sc_houseofhamillreadyforaut_122026",
+    "type": "event",
+    "title": "HOUSE OF HAMILL READY FOR AUTUMN SHOW",
+    "venue_info": {
+      "name": "Steel City Coffeehouse & Brewery",
+      "location": {
+        "lat": 40.1305,
+        "lng": -75.5148
+      }
+    },
+    "raw_date_string": "September 12, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Coffeehouse",
+        "Brewery"
+      ],
+      "price": "$30"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.steelcityphx.com/concerts-and-events"
+  },
+  {
+    "id": "sc_steelcitycomedynight_182026",
+    "type": "event",
+    "title": "Steel city Comedy night",
+    "venue_info": {
+      "name": "Steel City Coffeehouse & Brewery",
+      "location": {
+        "lat": 40.1305,
+        "lng": -75.5148
+      }
+    },
+    "raw_date_string": "September 18, 2026 8:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Coffeehouse",
+        "Brewery"
+      ],
+      "price": "$20"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.steelcityphx.com/concerts-and-events"
+  },
+  {
+    "id": "sc_aneveningwithcliffhillis_252026",
+    "type": "event",
+    "title": "AN EVENING WITH CLIFF HILLIS & THE FORWARD THINKERS",
+    "venue_info": {
+      "name": "Steel City Coffeehouse & Brewery",
+      "location": {
+        "lat": 40.1305,
+        "lng": -75.5148
+      }
+    },
+    "raw_date_string": "September 25, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Coffeehouse",
+        "Brewery"
+      ],
+      "price": "$18"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.steelcityphx.com/concerts-and-events"
+  },
+  {
+    "id": "sc_loveyoutowithethannealbe_262026",
+    "type": "event",
+    "title": "Love You to with Ethan Neal: beatles tribute & Alt-country soundscape",
+    "venue_info": {
+      "name": "Steel City Coffeehouse & Brewery",
+      "location": {
+        "lat": 40.1305,
+        "lng": -75.5148
+      }
+    },
+    "raw_date_string": "September 26, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Coffeehouse",
+        "Brewery"
+      ],
+      "price": "$15"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.steelcityphx.com/concerts-and-events"
   }
 ]

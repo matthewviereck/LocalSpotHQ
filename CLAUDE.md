@@ -73,7 +73,18 @@ A town may set `dining_group` to share a neighbor's restaurant pool
 (Mont Clare -> Phoenixville).
 
 ## Notes
-- Scrapers use requests + BeautifulSoup with User-Agent headers and 30s timeouts
+- Scrapers use requests + BeautifulSoup with 30s timeouts. **Use
+  `scrapers/http_headers.BROWSER_HEADERS`, not an ad-hoc `Mozilla/5.0`** — a
+  bare UA gets a 403 from some venue hosts (this silently killed Uptown Knauer
+  for five months).
+- A failing scraper falls back to its last-good file rather than blanking the
+  site, which also makes breakage invisible. `scripts/check_scraper_health.py`
+  runs after deploy and fails the workflow when an active scraper has no
+  upcoming events. Retire a dead scraper from the area config rather than
+  leaving it to fail — the check is only honest if the config is.
+- Bandsintown is a dead source (403 bot wall for any plain HTTP client).
+  `scrapers/molly_maguires.py` is retired for this reason; AI discovery covers
+  that venue instead.
 - Date parsing is custom regex-based (no dateutil dependency)
 - HTML injection uses regex find/replace on `const eventsData = [...]` patterns
 - `deploy/auto_update.php` is a legacy server-side reimplementation. Since the

@@ -119,3 +119,11 @@ jobs:
           SUBS=$($RSH "$DEPLOY_USER@$HOST" "grep -c '\"email\"' domains/localspothq.com/subscribers.json 2>/dev/null || echo 0")
           echo "Email subscribers: $SUBS" | tee -a "$GITHUB_STEP_SUMMARY"
           echo "Deployed: https://www.localspothq.com/phoenixville/ and https://www.localspothq.com/west-chester/" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      # Deliberately AFTER the deploy. Every scraper falls back to its last-good
+      # file when a fetch fails, so a permanently broken one is otherwise
+      # invisible - Uptown Knauer 403'd for five months and nothing said so.
+      # A dark venue should turn the run red, but it must not stop ~200 good
+      # events from shipping, so this runs once the site is already live.
+      - name: Scraper health check
+        run: python scripts/check_scraper_health.py

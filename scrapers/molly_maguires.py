@@ -1,3 +1,20 @@
+"""Molly Maguire's Irish Pub — RETIRED 2026-08-29, not wired into any area config.
+
+Both of this scraper's sources are gone:
+  * Bandsintown (the primary) now serves a 403 bot wall to any plain HTTP
+    client, headers notwithstanding — it is not recoverable with requests.
+  * The venue's own /events/ page renders an "Upcoming Events" heading with
+    nothing under it; they post shows to Facebook only.
+
+The venue is covered by the daily AI discovery task instead, which picks up its
+recurring Sunday Irish sessions. `scraped/molly_maguires_events.json` stays in
+merge_sources as a frozen snapshot so its two remaining real bookings still
+show; it ages out on its own once those dates pass.
+
+Do not re-enable this in config/phoenixville.json without first confirming a
+source actually returns data.
+"""
+
 import requests
 from bs4 import BeautifulSoup
 import json

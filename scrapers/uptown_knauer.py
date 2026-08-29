@@ -5,6 +5,8 @@ import json
 import re
 import os
 
+from scrapers.http_headers import BROWSER_HEADERS
+
 TARGET_URL = "https://uptownwestchester.org"
 
 VENUE_INFO = {
@@ -29,7 +31,7 @@ CATEGORY_MAP = {
 def scrape_uptown(output_file='uptown_events.json'):
     """Scrape events from Uptown Knauer Performing Arts Center."""
     print(f">> Connecting to {TARGET_URL}...")
-    headers = {'User-Agent': 'Mozilla/5.0'}
+    headers = BROWSER_HEADERS
 
     try:
         response = requests.get(TARGET_URL, headers=headers, timeout=30)
