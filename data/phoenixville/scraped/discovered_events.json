@@ -1957,6 +1957,36 @@
     "action_link": "https://souljoels.com/shop/tickets/allageslinedancingsept14th/"
   },
   {
+    "id": "discovered_souljoels_music_open_mic_20260915",
+    "type": "event",
+    "title": "Free Music Open Mic Night at SoulJoel's – Gatsby's Pub",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook – Gatsby's Pub, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "September 15, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Open Mic",
+        "Live Music",
+        "All Welcome",
+        "Acoustic",
+        "Pottstown",
+        "Tuesday Night Out"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/musicopenmicseptember15th/"
+  },
+  {
     "id": "discovered_stable12_trivia_20260916",
     "type": "event",
     "title": "Pub Trivia Night at Stable 12 Brewing",
@@ -2758,5 +2788,92 @@
       "image": ""
     },
     "action_link": "https://souljoels.com/shop/tickets/richvos/"
+  },
+  {
+    "id": "discovered_pxv_inside_out_20260927",
+    "type": "event",
+    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 27, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Street Performance",
+        "Community",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_mm_irish_sessions_20260927",
+    "type": "event",
+    "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "September 27, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Irish Music",
+        "Traditional",
+        "Acoustic",
+        "Irish Pub",
+        "Sunday Afternoon"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thesession.org/sessions/2793"
+  },
+  {
+    "id": "discovered_comedy_open_mic_20260928",
+    "type": "event",
+    "title": "B&C Comedy Open Mic Night at Great American Pub",
+    "venue_info": {
+      "name": "Great American Pub, 148 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "September 28, 2026 8:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Free",
+        "Stand-Up Comedy",
+        "Open Mic",
+        "21+",
+        "Downtown Phoenixville",
+        "Bar"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.facebook.com/ComedyOpenMicNight/"
   }
 ]
