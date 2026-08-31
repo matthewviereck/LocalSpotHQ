@@ -59,19 +59,27 @@ def _guide_page(guide, area_config):
 <meta property="og:image" content="{html.escape(img)}">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False)}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap">
+<link rel="stylesheet" href="../../localspot.css">
 <style>
-body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:680px;margin:0 auto;padding:24px 16px;color:#0f172a;line-height:1.65}}
-h1{{font-size:1.8rem;line-height:1.25;margin:8px 0 4px}}
-h2{{font-size:1.25rem;margin:32px 0 8px}}
-.sub{{color:#64748b;margin-top:0;font-size:0.9rem}}
-img.hero{{max-width:100%;border-radius:14px;margin:14px 0}}
-a{{color:#2563eb;text-decoration:none}}
-a:hover{{text-decoration:underline}}
-.crumb{{font-size:0.85rem;color:#94a3b8}}
-ol li,ul li{{margin-bottom:10px}}
-.tip{{background:#eff6ff;border:1px solid #bfdbfe;border-radius:12px;padding:14px 16px;margin:16px 0}}
-.rank{{font-weight:800;color:#2563eb}}
-footer{{margin-top:40px;color:#94a3b8;font-size:0.8rem;border-top:1px solid #e2e8f0;padding-top:14px}}
+body{{max-width:680px;margin:0 auto;padding:24px 16px}}
+.crumb{{font-size:13px;color:var(--ink-faint)}}
+.crumb a{{color:var(--ink-faint);text-decoration:none}}
+.sub{{color:var(--ink-soft);margin-top:2px;font-size:15px}}
+img.hero{{border-radius:var(--radius-lg);margin:16px 0}}
+h1{{font-size:clamp(26px,5vw,36px)}}
+main,article{{font-family:var(--article);font-size:18px;line-height:1.65}}
+article h2{{font-family:var(--display);font-size:22px;margin:1.7em 0 .5em}}
+article a{{color:var(--cool)}}
+ol li,ul li{{margin-bottom:.5em}}
+.tip{{font-family:var(--body);font-size:15px;background:var(--now-wash);
+border-left:3px solid var(--now);border-radius:0 var(--radius) var(--radius) 0;
+padding:14px 16px;margin:0 0 1.2em;color:var(--ink-soft)}}
+.rank{{font-family:var(--display);font-weight:700}}
+footer{{margin-top:32px;padding-top:16px;border-top:1px solid var(--rule);
+color:var(--ink-faint);font-size:13px}}
 </style>
 </head>
 <body>
@@ -111,16 +119,27 @@ def _guides_index(guides, area_config):
 <meta property="og:type" content="website">
 <meta property="og:url" content="{canonical}">
 <meta property="og:title" content="Local Guides | LocalSpot {html.escape(area_name)}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap">
+<link rel="stylesheet" href="../localspot.css">
 <style>
-body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:680px;margin:0 auto;padding:24px 16px;color:#0f172a;line-height:1.65}}
-h1{{font-size:1.8rem;line-height:1.25;margin:8px 0 16px}}
-.sub{{color:#64748b;margin:2px 0 0;font-size:0.9rem}}
-a{{color:#2563eb;text-decoration:none;font-weight:700}}
-a:hover{{text-decoration:underline}}
-.crumb{{font-size:0.85rem;color:#94a3b8}}
-ul{{list-style:none;padding:0}}
-li{{border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;margin-bottom:12px}}
-footer{{margin-top:40px;color:#94a3b8;font-size:0.8rem;border-top:1px solid #e2e8f0;padding-top:14px}}
+body{{max-width:680px;margin:0 auto;padding:24px 16px}}
+.crumb{{font-size:13px;color:var(--ink-faint)}}
+.crumb a{{color:var(--ink-faint);text-decoration:none}}
+.sub{{color:var(--ink-soft);margin-top:2px;font-size:15px}}
+img.hero{{border-radius:var(--radius-lg);margin:16px 0}}
+h1{{font-size:clamp(26px,5vw,36px)}}
+main,article{{font-family:var(--article);font-size:18px;line-height:1.65}}
+article h2{{font-family:var(--display);font-size:22px;margin:1.7em 0 .5em}}
+article a{{color:var(--cool)}}
+ol li,ul li{{margin-bottom:.5em}}
+.tip{{font-family:var(--body);font-size:15px;background:var(--now-wash);
+border-left:3px solid var(--now);border-radius:0 var(--radius) var(--radius) 0;
+padding:14px 16px;margin:0 0 1.2em;color:var(--ink-soft)}}
+.rank{{font-family:var(--display);font-weight:700}}
+footer{{margin-top:32px;padding-top:16px;border-top:1px solid var(--rule);
+color:var(--ink-faint);font-size:13px}}
 </style>
 </head>
 <body>

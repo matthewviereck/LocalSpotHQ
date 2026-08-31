@@ -25,6 +25,7 @@ from pipeline.feeds import generate_this_weekend_page, generate_ics
 from pipeline.pwa import emit_pwa_assets
 from pipeline.event_pages import generate_event_pages, generate_area_sitemap
 from pipeline.guides import generate_guide_pages
+from pipeline.community import emit_community
 
 
 def load_area_config(area_id):
@@ -139,7 +140,8 @@ def run_area(area_id):
         output_file=intermediate_html,
         area_config=config,
         news_file=os.path.join(data_dir, 'news.json'),
-        guides_file=os.path.join(data_dir, 'guides.json')
+        guides_file=os.path.join(data_dir, 'guides.json'),
+        town_file=os.path.join(data_dir, 'town.json')
     )
 
     # Step 6: Post-process (remove landing page, add autoload)
@@ -165,6 +167,10 @@ def run_area(area_id):
     event_slugs = generate_event_pages(formatted_output, output_dir, config)
     guide_slugs = generate_guide_pages(os.path.join(data_dir, 'guides.json'), output_dir, config)
     generate_area_sitemap(output_dir, config, event_slugs, guide_slugs)
+
+    # Step 9b: Community board (must be inside the build - deploy uses --delete)
+    print("\n--- Step 9b: Community board ---")
+    emit_community(output_dir, config)
 
     # Step 10: Weekend social card
     print(f"\n--- Step 10: Weekend social card ---")

@@ -194,16 +194,22 @@ def _event_page(ev, d, area_config):
 <meta property="og:image" content="{html.escape(img if real_img else og_image)}">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False)}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap">
+<link rel="stylesheet" href="../../localspot.css">
 <style>
-body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:680px;margin:0 auto;padding:24px 16px;color:#0f172a;line-height:1.5}}
-h1{{font-size:1.5rem;margin:8px 0 4px}}
-.sub{{color:#64748b;margin-top:0}}
-img{{max-width:100%;border-radius:12px;margin-top:12px}}
-a{{color:#2563eb;text-decoration:none}}
-a:hover{{text-decoration:underline}}
-.crumb{{font-size:0.85rem;color:#94a3b8}}
-.cta{{display:inline-block;margin-top:16px;background:#2563eb;color:#fff;padding:10px 18px;border-radius:10px;font-weight:700}}
-footer{{margin-top:32px;color:#94a3b8;font-size:0.8rem}}
+body{{max-width:680px;margin:0 auto;padding:24px 16px}}
+.crumb{{font-size:13px;color:var(--ink-faint)}}
+.crumb a{{color:var(--ink-faint);text-decoration:none}}
+.sub{{color:var(--ink-soft);margin-top:2px;font-size:15px}}
+img{{border-radius:var(--radius);margin-top:14px}}
+a{{color:var(--cool)}}
+.cta{{display:inline-block;margin-top:16px;background:var(--ink);color:var(--paper);
+padding:10px 18px;border-radius:var(--radius);font-weight:600;font-family:var(--display);
+text-decoration:none}}
+footer{{margin-top:32px;padding-top:16px;border-top:1px solid var(--rule);
+color:var(--ink-faint);font-size:13px}}
 </style>
 </head>
 <body>

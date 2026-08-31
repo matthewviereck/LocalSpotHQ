@@ -138,18 +138,17 @@ def generate_this_weekend_page(events_file, output_dir, area_config):
 <meta property="og:image" content="{og_image}">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{json_ld}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap">
+<link rel="stylesheet" href="../localspot.css">
 <style>
-body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:680px;margin:0 auto;padding:24px 16px;color:#0f172a;line-height:1.5}}
-h1{{font-size:1.6rem;margin-bottom:4px}}
-.sub{{color:#64748b;margin-top:0}}
-h2{{font-size:1.1rem;margin:28px 0 8px;border-bottom:2px solid #e2e8f0;padding-bottom:4px}}
-ul{{list-style:none;padding:0;margin:0}}
-li{{padding:10px 0;border-bottom:1px solid #f1f5f9}}
-a{{color:#2563eb;text-decoration:none}}
-a:hover{{text-decoration:underline}}
-.meta{{color:#64748b;font-size:0.85rem}}
-.cta{{display:inline-block;margin-top:24px;background:#2563eb;color:#fff;padding:10px 18px;border-radius:10px;font-weight:700}}
-footer{{margin-top:32px;color:#94a3b8;font-size:0.8rem}}
+body{{max-width:680px;margin:0 auto;padding:24px 16px}}
+.crumb{{font-size:13px;color:var(--ink-faint)}}
+.crumb a{{color:var(--ink-faint);text-decoration:none}}
+a{{color:var(--cool)}}
+footer{{margin-top:32px;padding-top:16px;border-top:1px solid var(--rule);
+color:var(--ink-faint);font-size:13px}}
 </style>
 </head>
 <body>
