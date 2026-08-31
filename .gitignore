@@ -19,3 +19,10 @@ recurring_events.json
 # IDE
 .vscode/
 .idea/
+
+# Claude Code personal settings (machine-local, not shared)
+.claude/settings.local.json
+.claude/worktrees/
+
+# Backups
+*.bak
