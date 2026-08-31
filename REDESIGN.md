@@ -46,6 +46,16 @@ plans as well as outings and dining.)
 | Palette | **Azure** — chosen over citrus / meadow / lagoon / coral / violet / ink+sun. |
 | Ground | **Pure white**, with cards carrying a faint azure tint. |
 | Cards | Separate by **tone, not outline** — no border, no shadow. |
+| Blue intensity | **Subtle** — chosen over medium and strong. The card tint is a ~6% wash off white, so the page reads as white and the blue lives in the accent, not the surfaces. |
+
+Two colour bugs found by the user and fixed:
+
+- The brand mark was a **dark navy square with a blue letter**, so the one
+  place the brand colour should be unmistakable read as dark. Now a solid blue
+  square with a white letter.
+- `--cool` (secondary links, e.g. "All news") was still **teal `#0e7490`** from
+  an earlier candidate palette, so two different hues were doing the same job.
+  Moved into the blue family in both light and dark.
 
 Two traps found while implementing, both worth remembering:
 
