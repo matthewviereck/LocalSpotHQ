@@ -33,7 +33,34 @@ Replaced with one hand-authored design system, `assets/localspot.css`, shared by
 all four generators. No build step, no CDN, no JIT compile in the browser.
 
 ## Nav
-`Today` (default) · `Events` · `News` · `Do` · `Community`
+`Today` (default) · `Events` · `News` · `Explore` · `Community`
+
+("Do" was the first label and was rejected. "Explore" covers the mix better
+than a pure place-word like "Places", since the section holds guides and
+plans as well as outings and dining.)
+
+## Visual decisions (chosen from live A/B on the real build)
+| | |
+|---|---|
+| Today block | **Plain** — the same card as everything else. An earlier version filled it solid dark; it carried so much of the page's weight that every accent read as loud. |
+| Palette | **Azure** — chosen over citrus / meadow / lagoon / coral / violet / ink+sun. |
+| Ground | **Pure white**, with cards carrying a faint azure tint. |
+| Cards | Separate by **tone, not outline** — no border, no shadow. |
+
+Two traps found while implementing, both worth remembering:
+
+1. **Do not get tinted cards by setting `--rule` to match `--surface`.** That is
+   how the throwaway demo did it, and it works for cards — but `--rule` also
+   draws the buttons, the search field, the filter pills, the footer and the
+   tab bar, so it silently strips the border off every control on the site.
+   The border is removed on `.card` / `.today-block` specifically instead.
+2. **`--chrome` exists so the top bar and tab bar stay pure white** while
+   content cards tint. Without it the chrome picks up the tint and the page
+   is no longer white where the user actually looks first.
+
+Dark mode is hand-built, not inverted: the page is deep navy and the cards are
+*lighter* than the page, so the tint relationship flips rather than reversing
+into something muddy.
 
 ## Verification
 - Both areas build clean (`python pipeline/run.py --all`).

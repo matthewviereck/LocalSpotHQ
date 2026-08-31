@@ -3,32 +3,42 @@
    One stylesheet for every surface: the app, event pages, guide pages and
    the weekend page. Hand-authored - no build step, no CDN, no JIT compile.
 
-   Identity: ink + paper + a marquee amber that means "happening now",
-   after the Colonial Theatre marquee on Bridge Street.
+   Identity: AZURE. A pure white page; cards carry a faint azure tint so they
+   separate by tone rather than by an outline. One accent, used only to mean
+   "happening now" - the eyebrow, event times, links.
    ========================================================================== */
 
 /* ---------- tokens ---------- */
 :root {
-  --paper:        #faf9f7;
-  --surface:      #ffffff;
-  --surface-sunk: #f1efec;
-  --ink:          #14181f;
-  --ink-soft:     #4b5461;
-  --ink-faint:    #7b8492;
-  --rule:         #e2ded8;
-  --rule-soft:    #eeebe6;
+  /* AZURE, on a white page.
 
-  /* marquee amber - the "now" signal. Used sparingly. */
-  --now:          #b45309;
-  --now-bright:   #d97706;
-  --now-wash:     #fdf3e3;
+     The page is pure white and the CARD carries a faint azure tint, so cards
+     separate by tone rather than by an outline. Note --rule stays visible:
+     it is doing real work on buttons, the search field, filter pills, the
+     footer and the tab bar. Only .card / .today-block drop their border. A
+     blunt "make --rule match --surface" would hide the card outlines and
+     silently strip the borders off every control too. */
+  --paper:        #ffffff;
+  --surface:      #eff5fd;
+  --surface-sunk: #dfe9f7;
+  --chrome:       #ffffff;   /* top bar + tab bar stay pure white */
+  --ink:          #0f1a2b;
+  --ink-soft:     #44546b;
+  --ink-faint:    #75839a;
+  --rule:         #d7e3f2;
+  --rule-soft:    #e3ebf7;
 
-  /* cool secondary for links and civic info */
-  --cool:         #2f4a6d;
-  --cool-wash:    #e9eef5;
+  /* Two-tier accent: --now is text-safe on both white and the tinted card;
+     --now-bright is decorative fill only and must never carry text. */
+  --now:          #1d4ed8;
+  --now-bright:   #3b82f6;
+  --now-wash:     #dbeafe;
 
-  --good:         #2f6b4f;
-  --good-wash:    #e6f0ea;
+  --cool:         #0e7490;
+  --cool-wash:    #e0f2f7;
+
+  --good:         #15803d;
+  --good-wash:    #dcfce7;
 
   --radius:   10px;
   --radius-lg: 16px;
@@ -45,44 +55,46 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper:        #101318;
-    --surface:      #171b22;
-    --surface-sunk: #1e232c;
-    --ink:          #e9ecf1;
-    --ink-soft:     #a9b2c0;
-    --ink-faint:    #7d8797;
-    --rule:         #2b323d;
-    --rule-soft:    #222933;
-    --now:          #e5a04a;
-    --now-bright:   #f0b45f;
-    --now-wash:     #3a2c16;
-    --cool:         #93b2d8;
-    --cool-wash:    #1b2634;
-    --good:         #6fbf95;
-    --good-wash:    #16291f;
-    --shadow:    0 1px 2px rgba(0,0,0,.3), 0 4px 14px rgba(0,0,0,.25);
-    --shadow-lg: 0 2px 6px rgba(0,0,0,.35), 0 12px 32px rgba(0,0,0,.3);
+    --paper:        #0d1522;
+    --surface:      #16202f;
+    --surface-sunk: #1f2b3d;
+    --chrome:       #111a28;
+    --ink:          #e8edf4;
+    --ink-soft:     #a6b4c8;
+    --ink-faint:    #78869a;
+    --rule:         #2a3648;
+    --rule-soft:    #222d3d;
+    --now:          #6ba3f5;
+    --now-bright:   #93bdff;
+    --now-wash:     #17273e;
+    --cool:         #58b6cf;
+    --cool-wash:    #142a32;
+    --good:         #5cbd8a;
+    --good-wash:    #14291f;
+    --shadow:    0 1px 2px rgba(0,0,0,.35), 0 4px 14px rgba(0,0,0,.28);
+    --shadow-lg: 0 2px 6px rgba(0,0,0,.4), 0 12px 32px rgba(0,0,0,.32);
   }
 }
 
 :root[data-theme="dark"] {
-  --paper:        #101318;
-  --surface:      #171b22;
-  --surface-sunk: #1e232c;
-  --ink:          #e9ecf1;
-  --ink-soft:     #a9b2c0;
-  --ink-faint:    #7d8797;
-  --rule:         #2b323d;
-  --rule-soft:    #222933;
-  --now:          #e5a04a;
-  --now-bright:   #f0b45f;
-  --now-wash:     #3a2c16;
-  --cool:         #93b2d8;
-  --cool-wash:    #1b2634;
-  --good:         #6fbf95;
-  --good-wash:    #16291f;
-  --shadow:    0 1px 2px rgba(0,0,0,.3), 0 4px 14px rgba(0,0,0,.25);
-  --shadow-lg: 0 2px 6px rgba(0,0,0,.35), 0 12px 32px rgba(0,0,0,.3);
+  --paper:    #0d1522;
+  --surface:    #16202f;
+  --surface-sunk: #1f2b3d;
+  --chrome:     #111a28;
+  --ink:      #e8edf4;
+  --ink-soft:   #a6b4c8;
+  --ink-faint:  #78869a;
+  --rule:     #2a3648;
+  --rule-soft:  #222d3d;
+  --now:      #6ba3f5;
+  --now-bright:   #93bdff;
+  --now-wash:   #17273e;
+  --cool:     #58b6cf;
+  --cool-wash:  #142a32;
+  --good:     #5cbd8a;
+  --good-wash:  #14291f;
+  --shadow:  0 1px 2px rgba(0,0,0,.35), 0 4px 14px rgba(0,0,0,.28);
+  --shadow-lg: 0 2px 6px rgba(0,0,0,.4), 0 12px 32px rgba(0,0,0,.32);
 }
 
 /* ---------- reset ---------- */
@@ -168,32 +180,26 @@ h3 { font-size: 17px; letter-spacing: -.01em; }
 /* ---------- cards ---------- */
 .card {
   background: var(--surface);
-  border: 1px solid var(--rule);
+  border: 0;
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
 }
 .card-pad { padding: 16px; }
 
-/* the marquee block - today's headline events */
-.marquee {
-  background: var(--ink);
-  color: #f7f4ee;
-  border-radius: var(--radius-lg);
-  padding: 20px 18px;
-  box-shadow: var(--shadow-lg);
-  position: relative;
-  overflow: hidden;
+/* Today's headline events.
+
+   Deliberately the SAME white card as News and Coming up: an earlier version
+   filled this solid dark and it carried so much of the page's visual weight
+   that every accent colour read as loud. The block earns attention from being
+   first and from the amber eyebrow, not from a slab of colour. */
+.today-block {
+  background: var(--surface);
+  border: 0;
+  border-radius: var(--radius);
+  padding: 16px;
 }
-.marquee::before {
-  content: "";
-  position: absolute; inset: 0 0 auto 0; height: 3px;
-  background: repeating-linear-gradient(90deg,
-    var(--now-bright) 0 10px, transparent 10px 20px);
-  opacity: .9;
-}
-.marquee .eyebrow { color: var(--now-bright); }
-.marquee h2 { color: #fdfcfa; }
-.marquee .meta { color: #a9a297; }
+.today-block h2       { color: var(--ink); }
+.today-block .eyebrow { color: var(--now); }
+.today-block .meta    { color: var(--ink-faint); }
 
 /* event row */
 .row {
@@ -201,13 +207,13 @@ h3 { font-size: 17px; letter-spacing: -.01em; }
   gap: 12px;
   align-items: flex-start;
   padding: 12px 0;
-  border-bottom: 1px solid var(--rule-soft);
+  border-bottom: 1px solid rgba(15,26,43,.09);
   text-decoration: none;
   color: inherit;
 }
 .row:last-child { border-bottom: 0; }
 .row:hover .row-title { color: var(--now); }
-.marquee .row { border-bottom-color: rgba(255,255,255,.12); }
+
 
 .row-time {
   flex: 0 0 62px;
@@ -219,7 +225,7 @@ h3 { font-size: 17px; letter-spacing: -.01em; }
   padding-top: 1px;
   font-variant-numeric: tabular-nums;
 }
-.marquee .row-time { color: var(--now-bright); }
+
 .row-body { display: block; min-width: 0; flex: 1; overflow: hidden; }
 .row-title {
   display: block;
@@ -238,7 +244,7 @@ h3 { font-size: 17px; letter-spacing: -.01em; }
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.marquee .row-meta { color: #a9a297; }
+
 
 /* ---------- chips / tags ---------- */
 .chip {
@@ -299,7 +305,7 @@ h3 { font-size: 17px; letter-spacing: -.01em; }
 }
 .fact {
   background: var(--surface);
-  border: 1px solid var(--rule);
+  border: 0;
   border-radius: var(--radius);
   padding: 12px 14px;
 }
@@ -323,7 +329,7 @@ h3 { font-size: 17px; letter-spacing: -.01em; }
 .news-item {
   display: block;
   padding: 14px 0;
-  border-bottom: 1px solid var(--rule-soft);
+  border-bottom: 1px solid rgba(15,26,43,.09);
   text-decoration: none;
   color: inherit;
 }
@@ -368,10 +374,9 @@ h3 { font-size: 17px; letter-spacing: -.01em; }
 /* ---------- community ---------- */
 .post {
   background: var(--surface);
-  border: 1px solid var(--rule);
+  border: 0;
   border-radius: var(--radius);
   padding: 14px 16px;
-  box-shadow: var(--shadow);
 }
 .post-head {
   display: flex;
