@@ -94,8 +94,8 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   Tailwind and no build step; edit the CSS directly. Before this, the app used
   Tailwind-CDN-compiled-to-`app.css` while each generated page carried its own
   ad-hoc inline CSS, so the site had four unrelated looks.
-- The app's nav is Today / Events / News / Do / Community. Dining was
-  deliberately demoted out of the nav into a short reference inside "Do".
+- The app's nav is Today / Events / News / Explore / Community. Dining was
+  deliberately demoted out of the nav into a short reference inside "Explore".
 - `data/<area>/town.json` holds civic info, schools and evergreen town facts;
   it is injected as `townData`. A missing file just renders those blocks empty.
 - **The community board is emitted into the build** by `pipeline/community.py`,
@@ -111,3 +111,32 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   and Uptown publish neither (times live in AgileTicketing/OvationTix widgets),
   so those come from recurring config and discovery only.
 - Root-level JSON files (all_events.json, etc.) are deprecated; pipeline uses `data/` subdirectories
+
+## Vault: log meaningful work without being asked
+
+This repo's hub note is:
+
+    C:\Users\matth\Documents\Second Brain MV\01 Projects\LocalSpotHQ\LocalSpotHQ.md
+
+**Sessions in this repo do not load the vault's CLAUDE.md** - only this file -
+so nothing else will remind you the vault exists. Treat updating the hub as
+part of finishing a piece of work, not a separate task the user has to ask for.
+
+**Log to "Notes & decisions"** (newest first, dated) when you:
+- ship something users see, or deploy
+- make a decision with a rationale worth not re-litigating
+- find a bug whose *cause* would be expensive to rediscover
+- discover a constraint about how the system actually behaves
+
+**Tick or add "Next actions"** when work opens or closes one.
+
+**Do NOT log** routine commits, refactors with no decision in them, or anything
+the git log already answers. The hub is for *why*; the diff is the *what*. A hub
+full of noise is as useless as an empty one.
+
+**Also append one line to that day's note** in `05 Daily Notes/YYYY-MM-DD.md`
+linking to `[[LocalSpotHQ]]`, so the day reads as a record of what happened.
+
+Record the reusable lesson, not just the incident. "A path expression copied
+between files at different directory depths is silently wrong" is worth keeping;
+"fixed community.php" is not.
