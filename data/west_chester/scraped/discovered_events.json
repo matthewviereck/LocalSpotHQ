@@ -1,476 +1,21 @@
 [
   {
-    "id": "discovered_vinyl_night_20260828",
+    "id": "discovered_first_friday_sep_20260904",
     "type": "event",
-    "title": "Bring Your Own Vinyl Night",
+    "title": "September First Friday & Summer Concert Series",
     "venue_info": {
-      "name": "Hop Fidelity, West Chester",
+      "name": "Downtown West Chester, West Chester",
       "location": {
-        "lat": 39.9591,
-        "lng": -75.6089
+        "lat": 39.9601,
+        "lng": -75.6055
       }
     },
-    "raw_date_string": "Aug 28, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Nightlife"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-08-28/"
-  },
-  {
-    "id": "discovered_dinner_dancing_manje_20260828",
-    "type": "event",
-    "title": "Dinner & Dancing at Manje",
-    "venue_info": {
-      "name": "Manje Caribbean Cuisine, West Chester",
-      "location": {
-        "lat": 39.9611,
-        "lng": -75.5974
-      }
-    },
-    "raw_date_string": "Aug 28, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Nightlife",
-        "Date Night"
-      ],
-      "price": "$25-$50"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/dinner-dancing-at-manje/"
-  },
-  {
-    "id": "discovered_family_fun_fridays_20260828",
-    "type": "event",
-    "title": "Family Fun Fridays at Penn's Table",
-    "venue_info": {
-      "name": "Penn's Table Restaurant, West Chester",
-      "location": {
-        "lat": 39.9606,
-        "lng": -75.6082
-      }
-    },
-    "raw_date_string": "Aug 28, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family-Friendly",
-        "Indoor"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/family-fun-fridays-at-penns-table/2026-08-28/"
-  },
-  {
-    "id": "discovered_gay_street_market_20260828",
-    "type": "event",
-    "title": "Gay Street Open-Air Market",
-    "venue_info": {
-      "name": "Gay Street, West Chester",
-      "location": {
-        "lat": 39.9603,
-        "lng": -75.6062
-      }
-    },
-    "raw_date_string": "Aug 28 - 30, 2026",
+    "raw_date_string": "Sep 4, 2026",
     "attributes": {
       "category": "Community Event",
       "vibes": [
         "Free",
         "Outdoor"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-08-28/"
-  },
-  {
-    "id": "discovered_pot_workshop_20260828",
-    "type": "event",
-    "title": "Make Your Own Pot Workshop",
-    "venue_info": {
-      "name": "The Green House, West Chester",
-      "location": {
-        "lat": 39.9605,
-        "lng": -75.607
-      }
-    },
-    "raw_date_string": "Aug 28, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Hands-On",
-        "Indoor"
-      ],
-      "price": "$80"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/make-your-own-pot-workshop-3/2026-08-28/"
-  },
-  {
-    "id": "discovered_sidewalk_sale_20260828",
-    "type": "event",
-    "title": "West Chester Sidewalk Sale",
-    "venue_info": {
-      "name": "Downtown West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Aug 28 - 30, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Shopping"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/sidewalk-sale-2026/2026-08-28/"
-  },
-  {
-    "id": "discovered_saturday_walks_20260829",
-    "type": "event",
-    "title": "Saturday Morning Walks",
-    "venue_info": {
-      "name": "Downtown West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Aug 29, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Active"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-08-29/"
-  },
-  {
-    "id": "discovered_growers_market_20260829",
-    "type": "event",
-    "title": "West Chester Growers Market",
-    "venue_info": {
-      "name": "Chestnut & Church Streets, West Chester",
-      "location": {
-        "lat": 39.9622,
-        "lng": -75.6083
-      }
-    },
-    "raw_date_string": "Aug 29, 2026",
-    "attributes": {
-      "category": "Farmers Market",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family-Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-08-29/"
-  },
-  {
-    "id": "discovered_books_brews_20260830",
-    "type": "event",
-    "title": "Books, Brews and Silent Reading",
-    "venue_info": {
-      "name": "Bierhaul Townhouse, West Chester",
-      "location": {
-        "lat": 39.96,
-        "lng": -75.6031
-      }
-    },
-    "raw_date_string": "Aug 30, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Chill",
-        "Indoor"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/books-brews-and-silent-reading/"
-  },
-  {
-    "id": "discovered_picnic_train_20260830",
-    "type": "event",
-    "title": "Picnic Special Train Ride",
-    "venue_info": {
-      "name": "West Chester Railroad, West Chester",
-      "location": {
-        "lat": 39.9584,
-        "lng": -75.5978
-      }
-    },
-    "raw_date_string": "Aug 30, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family-Friendly",
-        "Outdoor"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/picnic-special-train-ride-2026/2026-08-30/"
-  },
-  {
-    "id": "discovered_green_team_train_20260830",
-    "type": "event",
-    "title": "West Chester Green Team Train Ride",
-    "venue_info": {
-      "name": "West Chester Railroad, West Chester",
-      "location": {
-        "lat": 39.9584,
-        "lng": -75.5978
-      }
-    },
-    "raw_date_string": "Aug 30, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family-Friendly",
-        "Outdoor"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/west-chester-green-team-train-ride/"
-  },
-  {
-    "id": "discovered_legwarmers_eagleview_20260901",
-    "type": "event",
-    "title": "Concerts on the Square: The Legwarmers",
-    "venue_info": {
-      "name": "Eagleview Town Center, Exton",
-      "location": {
-        "lat": 40.0333,
-        "lng": -75.6836
-      }
-    },
-    "raw_date_string": "Sep 01, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family-Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eagleviewtowncenter.com/upcoming-events"
-  },
-  {
-    "id": "discovered_station_jam_20260902",
-    "type": "event",
-    "title": "Open Mic Night - Station Jam",
-    "venue_info": {
-      "name": "Station 142, West Chester",
-      "location": {
-        "lat": 39.9588,
-        "lng": -75.6001
-      }
-    },
-    "raw_date_string": "Sep 02, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Nightlife"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/open-mic-night-station-jam/2026-09-02/"
-  },
-  {
-    "id": "discovered_plagues_pestilence_20260902",
-    "type": "event",
-    "title": "Plagues and Pestilence: A Walking Tour",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.963,
-        "lng": -75.6049
-      }
-    },
-    "raw_date_string": "Sep 02, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "History"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/plagues-and-pestilence-a-walking-tour-2026/2026-09-02/"
-  },
-  {
-    "id": "discovered_songwriter_circle_20260902",
-    "type": "event",
-    "title": "Songwriter Circle",
-    "venue_info": {
-      "name": "LoCali Wine Lounge, West Chester",
-      "location": {
-        "lat": 39.9588,
-        "lng": -75.6006
-      }
-    },
-    "raw_date_string": "Sep 02, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Chill",
-        "Indoor"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/songwriter-circle/"
-  },
-  {
-    "id": "discovered_wc_taps_20260902",
-    "type": "event",
-    "title": "West Chester TAPS",
-    "venue_info": {
-      "name": "Downtown West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 02, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Nightlife",
-        "Craft Beer"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/west-chester-taps-2026/2026-09-02/"
-  },
-  {
-    "id": "discovered_revolutionary_tour_20260903",
-    "type": "event",
-    "title": "Walking Tour: Revolutionary West Chester",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.963,
-        "lng": -75.6049
-      }
-    },
-    "raw_date_string": "Sep 03, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "History"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/walking-tour-revolutionary-west-chester/2026-09-03/"
-  },
-  {
-    "id": "discovered_ginkgo_open_studio_20260904",
-    "type": "event",
-    "title": "Open Studio at Ginkgo Arts",
-    "venue_info": {
-      "name": "Ginkgo Arts, West Chester",
-      "location": {
-        "lat": 39.9599,
-        "lng": -75.606
-      }
-    },
-    "raw_date_string": "Sep 04, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Free",
-        "Indoor"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/open-studio-at-ginkgo-arts-3/"
-  },
-  {
-    "id": "discovered_september_first_friday_20260904",
-    "type": "event",
-    "title": "September First Friday",
-    "venue_info": {
-      "name": "Downtown West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 04, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family-Friendly"
       ],
       "price": "Free"
     },
@@ -480,50 +25,24 @@
     "action_link": "https://www.downtownwestchester.com/event/september-first-friday-2026/"
   },
   {
-    "id": "discovered_summer_concert_series_20260904",
-    "type": "event",
-    "title": "Summer Concert Series",
-    "venue_info": {
-      "name": "Downtown West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 04, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family-Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/summer-concert-series-2026/"
-  },
-  {
-    "id": "discovered_am_radio_20260905",
+    "id": "discovered_amradio_20260905",
     "type": "event",
     "title": "AM Radio Tribute Band",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
-    "raw_date_string": "Sep 05, 2026",
+    "raw_date_string": "Sep 5, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
-        "Nightlife"
+        "Live Music",
+        "Date Night"
       ],
-      "price": ""
+      "price": "$46-$51"
     },
     "media": {
       "image": ""
@@ -533,96 +52,18 @@
   {
     "id": "discovered_brews_in_bloom_20260905",
     "type": "event",
-    "title": "Brews in Bloom",
+    "title": "Brews in Bloom Beer Garden",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8709,
-        "lng": -75.6749
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
-    "raw_date_string": "Sep 05, 2026",
+    "raw_date_string": "Sep 5, 2026",
     "attributes": {
       "category": "Food & Drink",
       "vibes": [
-        "Outdoor",
-        "Craft Beer"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/brews-bloom"
-  },
-  {
-    "id": "discovered_growers_market_20260905",
-    "type": "event",
-    "title": "West Chester Growers Market",
-    "venue_info": {
-      "name": "Chestnut & Church Streets, West Chester",
-      "location": {
-        "lat": 39.9622,
-        "lng": -75.6083
-      }
-    },
-    "raw_date_string": "Sep 05, 2026",
-    "attributes": {
-      "category": "Farmers Market",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family-Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-09-05/"
-  },
-  {
-    "id": "discovered_fireworks_fountains_20260906",
-    "type": "event",
-    "title": "Fireworks & Fountains Show",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8709,
-        "lng": -75.6749
-      }
-    },
-    "raw_date_string": "Sep 06, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Date Night",
-        "Family-Friendly"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/fireworks-fountains-shows"
-  },
-  {
-    "id": "discovered_picnic_train_20260906",
-    "type": "event",
-    "title": "Picnic Special Train Ride",
-    "venue_info": {
-      "name": "West Chester Railroad, West Chester",
-      "location": {
-        "lat": 39.9584,
-        "lng": -75.5978
-      }
-    },
-    "raw_date_string": "Sep 06, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family-Friendly",
         "Outdoor"
       ],
       "price": ""
@@ -630,27 +71,128 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://www.downtownwestchester.com/event/picnic-special-train-ride-2026/2026-09-06/"
+    "action_link": "https://longwoodgardens.org/events-performances"
   },
   {
-    "id": "discovered_social_sessions_20260908",
+    "id": "discovered_gay_street_market_sep5_20260905",
     "type": "event",
-    "title": "Social Sessions: Open Jam Hosted by DJ HA",
+    "title": "Gay Street Open-Air Market",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 5 - 6, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/"
+  },
+  {
+    "id": "discovered_growers_market_sep5_20260905",
+    "type": "event",
+    "title": "West Chester Growers Market",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9613,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Sep 5, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Kid-Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/"
+  },
+  {
+    "id": "discovered_fireworks_fountains_sep6_20260906",
+    "type": "event",
+    "title": "Fireworks & Fountains Show",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8706,
+        "lng": -75.6741
+      }
+    },
+    "raw_date_string": "Sep 6, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Date Night"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances"
+  },
+  {
+    "id": "discovered_picnic_special_train_20260906",
+    "type": "event",
+    "title": "Picnic Special Train Ride",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9595,
+        "lng": -75.5955
+      }
+    },
+    "raw_date_string": "Sep 6, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Kid-Friendly",
+        "Outdoor"
+      ],
+      "price": "Free-$30"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/picnic-special-train-ride-2026/"
+  },
+  {
+    "id": "discovered_social_sessions_dj_ha_20260908",
+    "type": "event",
+    "title": "Social Sessions Hosted by DJ HA",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
-    "raw_date_string": "Sep 08, 2026",
+    "raw_date_string": "Sep 8, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
-        "Nightlife"
+        "Nightlife",
+        "Free"
       ],
-      "price": ""
+      "price": "Donation"
     },
     "media": {
       "image": ""
@@ -658,17 +200,17 @@
     "action_link": "https://uptownwestchester.org/pf/socialsessionsseptember/"
   },
   {
-    "id": "discovered_jazzy_jeff_20260909",
+    "id": "discovered_dj_jazzy_jeff_fountain_20260909",
     "type": "event",
     "title": "DJ Jazzy Jeff: Fountain Party",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8709,
-        "lng": -75.6749
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
-    "raw_date_string": "Sep 09, 2026",
+    "raw_date_string": "Sep 9, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
@@ -680,86 +222,14 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://longwoodgardens.org/events-performances/events/dj-jazzy-jeff-fountain-party"
-  },
-  {
-    "id": "discovered_wcu_part_time_job_fair_20260909",
-    "type": "event",
-    "title": "Part Time Job Fair for WCU Students",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 09, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_cchc_book_discussion_20260910",
-    "type": "event",
-    "title": "Book Discussion: Native Americans in the Revolution",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 10, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_comedyfest_thu_turks_head_20260910",
-    "type": "event",
-    "title": "Comedy Festival: Thursday Showcase at Turks Head Cafe",
-    "venue_info": {
-      "name": "Turks Head Cafe, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 10, 2026",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Nightlife"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
+    "action_link": "https://longwoodgardens.org/events-performances"
   },
   {
     "id": "discovered_wc_comedy_festival_20260910",
     "type": "event",
-    "title": "West Chester Comedy Festival",
+    "title": "West Chester Comedy Festival 2026",
     "venue_info": {
-      "name": "Downtown West Chester",
+      "name": "Downtown West Chester, West Chester",
       "location": {
         "lat": 39.9601,
         "lng": -75.6055
@@ -769,32 +239,30 @@
     "attributes": {
       "category": "Comedy",
       "vibes": [
-        "Nightlife",
-        "Indoor"
+        "Nightlife"
       ],
       "price": ""
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.downtownwestchester.com/event/west-chester-comedy-festival-2026/2026-09-11/"
+    "action_link": "https://uptownwestchester.org/pf/westchestercomedyfestival/"
   },
   {
-    "id": "discovered_comedy_fest_showcase_20260910",
+    "id": "discovered_wc_comedy_fest_showcase_20260910",
     "type": "event",
     "title": "West Chester Comedy Festival: Thursday Night Showcase",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Sep 10, 2026",
     "attributes": {
       "category": "Comedy",
       "vibes": [
-        "Indoor",
         "Nightlife"
       ],
       "price": ""
@@ -811,18 +279,18 @@
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Sep 11 - 27, 2026",
     "attributes": {
       "category": "Theater",
       "vibes": [
-        "Indoor",
-        "Family-Friendly"
+        "Date Night",
+        "Indoor"
       ],
-      "price": ""
+      "price": "$41-$61"
     },
     "media": {
       "image": ""
@@ -830,185 +298,39 @@
     "action_link": "https://uptownwestchester.org/pf/byebyebirdie/"
   },
   {
-    "id": "discovered_comedy_fest_headliner_20260911",
+    "id": "discovered_mushroom_festival_20260912",
     "type": "event",
-    "title": "Comedy Festival: Friday Headliner Show at Windisch Studios",
+    "title": "41st Annual Mushroom Festival",
     "venue_info": {
-      "name": "Windisch Studios, West Chester",
+      "name": "Downtown Kennett Square, Kennett Square",
       "location": {
-        "lat": 39.9598,
-        "lng": -75.606
+        "lat": 39.8468,
+        "lng": -75.7116
       }
     },
-    "raw_date_string": "Sep 11, 2026",
+    "raw_date_string": "Sep 12 - 13, 2026",
     "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Indoor",
-        "Nightlife"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/west-chester-comedy-festival-friday-headliner-show-at-windisch-studios/"
-  },
-  {
-    "id": "discovered_comedy_fest_refinery_20260911",
-    "type": "event",
-    "title": "Comedy Festival: Friday Showcase at The Refinery",
-    "venue_info": {
-      "name": "The Refinery Hair Studio, West Chester",
-      "location": {
-        "lat": 39.9592,
-        "lng": -75.6084
-      }
-    },
-    "raw_date_string": "Sep 11, 2026",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Indoor",
-        "Nightlife"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/west-chester-comedy-festival-friday-showcase-at-the-refinery/"
-  },
-  {
-    "id": "discovered_dead_fest_brandywine_20260911",
-    "type": "event",
-    "title": "Dead Fest at Brandywine Red Clay Alliance",
-    "venue_info": {
-      "name": "Brandywine Red Clay Alliance, West Chester",
-      "location": {
-        "lat": 39.8946,
-        "lng": -75.6255
-      }
-    },
-    "raw_date_string": "Sep 11, 2026",
-    "attributes": {
-      "category": "Live Music",
+      "category": "Festival",
       "vibes": [
         "Outdoor",
-        "Family Friendly"
+        "Kid-Friendly"
       ],
-      "price": "See site"
+      "price": "$5"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://brandywineredclay.org/dead-fest/"
-  },
-  {
-    "id": "discovered_better_than_bacon_sept_20260912",
-    "type": "event",
-    "title": "Better Than Bacon Improv Comedy",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9629,
-        "lng": -75.6046
-      }
-    },
-    "raw_date_string": "Sep 12, 2026",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Indoor"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/"
-  },
-  {
-    "id": "discovered_dr_marys_legacy_run_20260912",
-    "type": "event",
-    "title": "CVIM Dr. Mary's Legacy Run",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 12, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Outdoor"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://hellowestchesterpa.com/calendar/"
-  },
-  {
-    "id": "discovered_comedyfest_sat_turks_head_20260912",
-    "type": "event",
-    "title": "Comedy Festival: Saturday Showcase at Turks Head Cafe",
-    "venue_info": {
-      "name": "Turks Head Cafe, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 12, 2026",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Nightlife"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_comedyfest_setup_dating_show_20260912",
-    "type": "event",
-    "title": "Comedy Festival: The Set-Up Comedy Dating Show",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 12, 2026",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Nightlife"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
+    "action_link": "https://mushroomfestival.org/"
   },
   {
     "id": "discovered_dahlia_show_20260912",
     "type": "event",
-    "title": "Dahlia Show",
+    "title": "Greater Philadelphia Dahlia Society Show",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8709,
-        "lng": -75.6749
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
     "raw_date_string": "Sep 12 - 13, 2026",
@@ -1016,182 +338,59 @@
       "category": "Art & Culture",
       "vibes": [
         "Indoor",
-        "Family-Friendly"
+        "Kid-Friendly"
       ],
       "price": ""
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://longwoodgardens.org/events-performances/events/dahlia-show"
-  },
-  {
-    "id": "discovered_secret_gardens_west_chester_20260912",
-    "type": "event",
-    "title": "Secret Gardens of West Chester Tour",
-    "venue_info": {
-      "name": "Northwest Quadrant, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 12, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://hellowestchesterpa.com/calendar/"
-  },
-  {
-    "id": "discovered_silent_book_club_carlinos_20260912",
-    "type": "event",
-    "title": "Silent Book Club at Carlino's Market",
-    "venue_info": {
-      "name": "Carlino's Market, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 12, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Indoor"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_up_on_the_roof_20260912",
-    "type": "event",
-    "title": "Up on the Roof",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 12, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Outdoor"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_childrens_business_fair_20260912",
-    "type": "event",
-    "title": "West Chester Children's Business Fair",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 12, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_yoga_in_the_street_20260912",
-    "type": "event",
-    "title": "Yoga in the Street",
-    "venue_info": {
-      "name": "Gay Street, West Chester",
-      "location": {
-        "lat": 39.9603,
-        "lng": -75.6062
-      }
-    },
-    "raw_date_string": "Sep 12, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Active"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/yoga-in-the-street-2026/2026-09-12/"
+    "action_link": "https://longwoodgardens.org/events-performances"
   },
   {
     "id": "discovered_soldiers_and_trains_20260913",
     "type": "event",
-    "title": "Soldiers & Trains Living History Train Ride",
+    "title": "Soldiers & Trains",
     "venue_info": {
       "name": "West Chester Railroad, West Chester",
       "location": {
-        "lat": 39.9548,
-        "lng": -75.5963
+        "lat": 39.9595,
+        "lng": -75.5955
       }
     },
     "raw_date_string": "Sep 13, 2026",
     "attributes": {
       "category": "Kids & Family",
       "vibes": [
-        "Family Friendly"
+        "Kid-Friendly",
+        "Outdoor"
       ],
-      "price": "$30+"
+      "price": "$25-$30"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://wcrailroad.com/"
+    "action_link": "https://www.downtownwestchester.com/event/soldiers-trains/"
   },
   {
     "id": "discovered_toy_story_movie_monday_20260914",
     "type": "event",
-    "title": "Toy Story (Movie Monday)",
+    "title": "Movie Monday: Toy Story",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Sep 14, 2026",
     "attributes": {
       "category": "Kids & Family",
       "vibes": [
-        "Indoor",
-        "Family-Friendly"
+        "Kid-Friendly",
+        "Indoor"
       ],
-      "price": ""
+      "price": "$7"
     },
     "media": {
       "image": ""
@@ -1199,23 +398,48 @@
     "action_link": "https://uptownwestchester.org/pf/toystory/"
   },
   {
+    "id": "discovered_authentic_connection_ai_20260915",
+    "type": "event",
+    "title": "The Authentic Connection: What AI Can't Replace",
+    "venue_info": {
+      "name": "align.Space, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6058
+      }
+    },
+    "raw_date_string": "Sep 15, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Indoor"
+      ],
+      "price": "$25-$35"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/the-authentic-connection-what-ai-cant-replace/"
+  },
+  {
     "id": "discovered_no_country_for_mothers_20260916",
     "type": "event",
-    "title": "No Country for Mothers: Film and Interactive Discussion",
+    "title": "No Country for Mothers: Film and Discussion",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Sep 16, 2026",
     "attributes": {
       "category": "Art & Culture",
       "vibes": [
+        "Free",
         "Indoor"
       ],
-      "price": ""
+      "price": "Free"
     },
     "media": {
       "image": ""
@@ -1223,54 +447,77 @@
     "action_link": "https://uptownwestchester.org/pf/nocountryformothers/"
   },
   {
-    "id": "discovered_craft_night_tiger_snake_20260917",
+    "id": "discovered_plagues_pestilence_tour_20260916",
     "type": "event",
-    "title": "Craft Night at Tiger Snake Vintage",
+    "title": "Plagues and Pestilence: A Walking Tour",
     "venue_info": {
-      "name": "Tiger Snake Vintage, West Chester",
+      "name": "Chester County History Center, West Chester",
       "location": {
-        "lat": 39.9604,
-        "lng": -75.6075
+        "lat": 39.962,
+        "lng": -75.6043
       }
     },
-    "raw_date_string": "Sep 17, 2026",
+    "raw_date_string": "Sep 16, 2026",
     "attributes": {
       "category": "Art & Culture",
       "vibes": [
-        "Hands-On",
-        "Indoor"
+        "Outdoor"
       ],
-      "price": ""
+      "price": "$16"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.downtownwestchester.com/event/craft-night-at-tiger-snake-vintage/2026-09-17/"
+    "action_link": "https://www.downtownwestchester.com/event/plagues-and-pestilence-a-walking-tour-2026/2026-09-16/"
   },
   {
-    "id": "discovered_jazz_cocktail_hour_20260917",
+    "id": "discovered_hailey_brinnel_jazz_20260917",
     "type": "event",
     "title": "Jazz Cocktail Hour: Hailey Brinnel Quartet",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Sep 17, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
-        "Date Night"
+        "Date Night",
+        "Indoor"
       ],
-      "price": ""
+      "price": "$41-$46"
     },
     "media": {
       "image": ""
     },
     "action_link": "https://uptownwestchester.org/pf/haileybrinnelquintet/"
+  },
+  {
+    "id": "discovered_beans_story_slam_20260917",
+    "type": "event",
+    "title": "The Beans Story Slam: School Days",
+    "venue_info": {
+      "name": "Side Bar & Restaurant, West Chester",
+      "location": {
+        "lat": 39.9605,
+        "lng": -75.6045
+      }
+    },
+    "raw_date_string": "Sep 17, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Nightlife"
+      ],
+      "price": "$7-$14"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/the-beans-story-slam-school-days/"
   },
   {
     "id": "discovered_veterans_roll_call_20260917",
@@ -1279,16 +526,15 @@
     "venue_info": {
       "name": "Artillery Brewing Company, West Chester",
       "location": {
-        "lat": 39.9617,
-        "lng": -75.6003
+        "lat": 39.9612,
+        "lng": -75.596
       }
     },
     "raw_date_string": "Sep 17, 2026",
     "attributes": {
       "category": "Community Event",
       "vibes": [
-        "Free",
-        "Craft Beer"
+        "Free"
       ],
       "price": "Free"
     },
@@ -1298,21 +544,70 @@
     "action_link": "https://www.downtownwestchester.com/event/veterans-roll-call-4/2026-09-17/"
   },
   {
+    "id": "discovered_vinyl_night_sep18_20260918",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9598,
+        "lng": -75.6081
+      }
+    },
+    "raw_date_string": "Sep 18, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Nightlife"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-09-18/"
+  },
+  {
+    "id": "discovered_art_of_expression_20260919",
+    "type": "event",
+    "title": "Art of Expression",
+    "venue_info": {
+      "name": "Manje Caribbean Cuisine, West Chester",
+      "location": {
+        "lat": 39.9611,
+        "lng": -75.5974
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Nightlife"
+      ],
+      "price": "$25"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/art-of-expression-2/"
+  },
+  {
     "id": "discovered_girls_in_aviation_day_20260919",
     "type": "event",
     "title": "Girls in Aviation Day",
     "venue_info": {
       "name": "American Helicopter Museum, West Chester",
       "location": {
-        "lat": 39.9993,
-        "lng": -75.5849
+        "lat": 39.9917,
+        "lng": -75.5836
       }
     },
     "raw_date_string": "Sep 19, 2026",
     "attributes": {
       "category": "Kids & Family",
       "vibes": [
-        "Family-Friendly",
+        "Kid-Friendly",
         "Indoor"
       ],
       "price": ""
@@ -1320,7 +615,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://www.helicoptermuseum.org/event-details/girls-in-aviation-day-2"
+    "action_link": "https://www.helicoptermuseum.org/event-list"
   },
   {
     "id": "discovered_terrarium_workshop_20260919",
@@ -1329,18 +624,17 @@
     "venue_info": {
       "name": "The Green House, West Chester",
       "location": {
-        "lat": 39.9605,
-        "lng": -75.607
+        "lat": 39.9601,
+        "lng": -75.6055
       }
     },
     "raw_date_string": "Sep 19, 2026",
     "attributes": {
       "category": "Art & Culture",
       "vibes": [
-        "Hands-On",
         "Indoor"
       ],
-      "price": ""
+      "price": "$80"
     },
     "media": {
       "image": ""
@@ -1348,37 +642,36 @@
     "action_link": "https://www.downtownwestchester.com/event/make-your-own-terrarium-workshop-3/2026-09-19/"
   },
   {
-    "id": "discovered_growers_market_20260919",
+    "id": "discovered_saturday_morning_walks_20260919",
     "type": "event",
-    "title": "West Chester Growers Market",
+    "title": "Saturday Morning Walks",
     "venue_info": {
-      "name": "Chestnut & Church Streets, West Chester",
+      "name": "Downtown West Chester, West Chester",
       "location": {
-        "lat": 39.9622,
-        "lng": -75.6083
+        "lat": 39.9601,
+        "lng": -75.6055
       }
     },
     "raw_date_string": "Sep 19, 2026",
     "attributes": {
-      "category": "Farmers Market",
+      "category": "Sports",
       "vibes": [
         "Free",
-        "Outdoor",
-        "Family-Friendly"
+        "Outdoor"
       ],
       "price": "Free"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-09-19/"
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-09-19/"
   },
   {
     "id": "discovered_restaurant_festival_20260920",
     "type": "event",
     "title": "45th Annual Chester County Restaurant Festival",
     "venue_info": {
-      "name": "Downtown West Chester",
+      "name": "Downtown West Chester, West Chester",
       "location": {
         "lat": 39.9601,
         "lng": -75.6055
@@ -1390,7 +683,7 @@
       "vibes": [
         "Free",
         "Outdoor",
-        "Family-Friendly"
+        "Kid-Friendly"
       ],
       "price": "Free"
     },
@@ -1400,71 +693,20 @@
     "action_link": "https://www.downtownwestchester.com/event/45th-annual-restaurant-festival-2026/"
   },
   {
-    "id": "discovered_rams_lets_walk_5k_20260920",
-    "type": "event",
-    "title": "Rams Let's Walk 5K Run & Walk",
-    "venue_info": {
-      "name": "Downtown West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Sep 20, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Outdoor",
-        "Active",
-        "Charity"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/rams-lets-walk-a-5k-run-walk-to-support-student-athlete-mental-health-initiatives-2/"
-  },
-  {
-    "id": "discovered_uptown_oktoberfest_fall_music_20260921",
-    "type": "event",
-    "title": "Oktoberfest & Fall Music at Uptown",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9629,
-        "lng": -75.6046
-      }
-    },
-    "raw_date_string": "Sep 21, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Outdoor"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/"
-  },
-  {
-    "id": "discovered_dueling_pianos_uptown_20260923",
+    "id": "discovered_dueling_pianos_sep_20260923",
     "type": "event",
     "title": "Dueling Pianos with The Philly Keys",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Sep 23, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
         "Nightlife"
       ],
       "price": ""
@@ -1472,53 +714,76 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://uptownwestchester.org/pf/duelingpianosseptember"
+    "action_link": "https://uptownwestchester.org/pf/duelingpianosseptember/"
   },
   {
-    "id": "discovered_midsummer_eagleview_20260925",
+    "id": "discovered_chefs_table_9_prime_20260924",
     "type": "event",
-    "title": "Live Theater: A Midsummer Night's Dream",
+    "title": "Chef's Table at 9 Prime",
     "venue_info": {
-      "name": "Eagleview Town Center, Exton",
+      "name": "9 Prime, West Chester",
       "location": {
-        "lat": 40.0333,
-        "lng": -75.6836
+        "lat": 39.9601,
+        "lng": -75.6055
       }
     },
-    "raw_date_string": "Sep 25 - 26, 2026",
+    "raw_date_string": "Sep 24, 2026",
     "attributes": {
-      "category": "Theater",
+      "category": "Food & Drink",
       "vibes": [
-        "Free",
-        "Outdoor",
-        "Family-Friendly"
+        "Date Night",
+        "Indoor"
       ],
-      "price": "Free"
+      "price": "$125"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.eagleviewtowncenter.com/upcoming-events/live-theater-a-midsummer-nights-dream"
+    "action_link": "https://www.downtownwestchester.com/event/chefs-table-at-9-prime/"
+  },
+  {
+    "id": "discovered_family_fun_fridays_20260925",
+    "type": "event",
+    "title": "Family Fun Fridays at Penn's Table",
+    "venue_info": {
+      "name": "Penn's Table, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6068
+      }
+    },
+    "raw_date_string": "Sep 25, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Kid-Friendly"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/family-fun-fridays-at-penns-table/2026-09-25/"
   },
   {
     "id": "discovered_wcu_homecoming_20260925",
     "type": "event",
-    "title": "WCU Homecoming Weekend",
+    "title": "WCU Homecoming 2026",
     "venue_info": {
       "name": "West Chester University, West Chester",
       "location": {
-        "lat": 39.949,
-        "lng": -75.6045
+        "lat": 39.9503,
+        "lng": -75.6036
       }
     },
-    "raw_date_string": "Sep 25 - 27, 2026",
+    "raw_date_string": "Sep 25, 2026",
     "attributes": {
       "category": "Community Event",
       "vibes": [
-        "Outdoor",
-        "Family-Friendly"
+        "Free",
+        "Outdoor"
       ],
-      "price": ""
+      "price": "Free"
     },
     "media": {
       "image": ""
@@ -1526,40 +791,39 @@
     "action_link": "https://www.downtownwestchester.com/event/wcu-homecoming-2026/2026-09-25/"
   },
   {
-    "id": "discovered_fireworks_fountains_20260926",
+    "id": "discovered_fireworks_fountains_sep26_20260926",
     "type": "event",
     "title": "Fireworks & Fountains Show",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8709,
-        "lng": -75.6749
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
     "raw_date_string": "Sep 26, 2026",
     "attributes": {
-      "category": "Festival",
+      "category": "Art & Culture",
       "vibes": [
         "Outdoor",
-        "Date Night",
-        "Family-Friendly"
+        "Date Night"
       ],
       "price": ""
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://longwoodgardens.org/events-performances/events/fireworks-fountains-shows"
+    "action_link": "https://longwoodgardens.org/events-performances"
   },
   {
-    "id": "discovered_pop_up_beer_garden_20260926",
+    "id": "discovered_uptown_beer_garden_sep_20260926",
     "type": "event",
-    "title": "Pop-Up Beer Garden at Uptown!",
+    "title": "Uptown Pop-Up Beer Garden",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Sep 26, 2026",
@@ -1567,7 +831,7 @@
       "category": "Food & Drink",
       "vibes": [
         "Outdoor",
-        "Craft Beer"
+        "Nightlife"
       ],
       "price": ""
     },
@@ -1577,48 +841,21 @@
     "action_link": "https://uptownwestchester.org/beergarden/"
   },
   {
-    "id": "discovered_yoga_in_the_street_20260926",
+    "id": "discovered_stephanie_phillips_album_20260930",
     "type": "event",
-    "title": "Yoga in the Street",
-    "venue_info": {
-      "name": "Gay Street, West Chester",
-      "location": {
-        "lat": 39.9603,
-        "lng": -75.6062
-      }
-    },
-    "raw_date_string": "Sep 26, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Active"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/yoga-in-the-street-2026/2026-09-26/"
-  },
-  {
-    "id": "discovered_stephanie_phillips_20260930",
-    "type": "event",
-    "title": "Stephanie Phillips - Album Release",
+    "title": "Stephanie Phillips Album Release",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Sep 30, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
-        "Nightlife"
+        "Indoor"
       ],
       "price": ""
     },
@@ -1628,25 +865,23 @@
     "action_link": "https://uptownwestchester.org/pf/stephaniephillips/"
   },
   {
-    "id": "discovered_echoes_scavenger_hunt_20261001",
+    "id": "discovered_scavenger_hunt_echoes_20261001",
     "type": "event",
     "title": "Echoes of the Past: A West Chester Scavenger Hunt",
     "venue_info": {
       "name": "Chester County History Center, West Chester",
       "location": {
-        "lat": 39.963,
-        "lng": -75.6049
+        "lat": 39.962,
+        "lng": -75.6043
       }
     },
-    "raw_date_string": "Oct 01, 2026",
+    "raw_date_string": "Oct 1, 2026",
     "attributes": {
-      "category": "Community Event",
+      "category": "Art & Culture",
       "vibes": [
-        "Outdoor",
-        "History",
-        "Family-Friendly"
+        "Outdoor"
       ],
-      "price": ""
+      "price": "$30-$40"
     },
     "media": {
       "image": ""
@@ -1654,24 +889,23 @@
     "action_link": "https://www.downtownwestchester.com/event/echoes-of-the-past-a-west-chester-scavenger-hunt-2026/"
   },
   {
-    "id": "discovered_laugh_lounge_20261001",
+    "id": "discovered_laugh_lounge_oct1_20261001",
     "type": "event",
-    "title": "The Laugh Lounge Stand-Up Comedy",
+    "title": "The Laugh Lounge",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
-    "raw_date_string": "Oct 01, 2026",
+    "raw_date_string": "Oct 1, 2026",
     "attributes": {
       "category": "Comedy",
       "vibes": [
-        "Indoor",
         "Nightlife"
       ],
-      "price": ""
+      "price": "$31-$36"
     },
     "media": {
       "image": ""
@@ -1679,49 +913,24 @@
     "action_link": "https://uptownwestchester.org/pf/thelaughloungeoct2026/"
   },
   {
-    "id": "discovered_autumns_colors_20261002",
-    "type": "event",
-    "title": "Autumn's Colors at Longwood",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8709,
-        "lng": -75.6749
-      }
-    },
-    "raw_date_string": "Oct 02 - Nov 15, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Family-Friendly"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
-  },
-  {
-    "id": "discovered_better_than_bacon_20261002",
+    "id": "discovered_better_than_bacon_oct_20261002",
     "type": "event",
     "title": "Better Than Bacon Improv Comedy",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
-    "raw_date_string": "Oct 02, 2026",
+    "raw_date_string": "Oct 2, 2026",
     "attributes": {
       "category": "Comedy",
       "vibes": [
-        "Indoor",
-        "Nightlife"
+        "Nightlife",
+        "Indoor"
       ],
-      "price": ""
+      "price": "$31-$36"
     },
     "media": {
       "image": ""
@@ -1731,15 +940,15 @@
   {
     "id": "discovered_fall_gallery_walk_20261002",
     "type": "event",
-    "title": "Fall Gallery Walk",
+    "title": "Fall Gallery Walk 2026",
     "venue_info": {
-      "name": "Downtown West Chester",
+      "name": "Downtown West Chester, West Chester",
       "location": {
         "lat": 39.9601,
         "lng": -75.6055
       }
     },
-    "raw_date_string": "Oct 02, 2026",
+    "raw_date_string": "Oct 2, 2026",
     "attributes": {
       "category": "Art & Culture",
       "vibes": [
@@ -1754,23 +963,22 @@
     "action_link": "https://www.downtownwestchester.com/event/fall-gallery-walk-2026/"
   },
   {
-    "id": "discovered_october_first_friday_20261002",
+    "id": "discovered_first_friday_oct_20261002",
     "type": "event",
     "title": "October First Friday",
     "venue_info": {
-      "name": "Downtown West Chester",
+      "name": "Downtown West Chester, West Chester",
       "location": {
         "lat": 39.9601,
         "lng": -75.6055
       }
     },
-    "raw_date_string": "Oct 02, 2026",
+    "raw_date_string": "Oct 2, 2026",
     "attributes": {
       "category": "Community Event",
       "vibes": [
         "Free",
-        "Outdoor",
-        "Family-Friendly"
+        "Outdoor"
       ],
       "price": "Free"
     },
@@ -1780,205 +988,53 @@
     "action_link": "https://www.downtownwestchester.com/event/october-first-friday-2026/"
   },
   {
-    "id": "discovered_wc_oktoberfest_20261003",
+    "id": "discovered_open_studio_ginkgo_20261002",
     "type": "event",
-    "title": "West Chester Oktoberfest",
+    "title": "Open Studio at Ginkgo Arts",
     "venue_info": {
-      "name": "Downtown West Chester",
+      "name": "Ginkgo Arts, West Chester",
       "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
+        "lat": 39.9594,
+        "lng": -75.6052
       }
     },
-    "raw_date_string": "Oct 02 - 03, 2026",
+    "raw_date_string": "Oct 2, 2026",
     "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Craft Beer"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/oktoberfest-2026/"
-  },
-  {
-    "id": "discovered_beauty_bites_boutique_20261003",
-    "type": "event",
-    "title": "Beauty, Bites & Boutique",
-    "venue_info": {
-      "name": "La Chic Boutique, West Chester",
-      "location": {
-        "lat": 39.9603,
-        "lng": -75.6062
-      }
-    },
-    "raw_date_string": "Oct 03, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Indoor",
-        "Shopping"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/beauty-bites-boutique/"
-  },
-  {
-    "id": "discovered_downingtown_fall_fest_20261004",
-    "type": "event",
-    "title": "Downingtown Fall Fest",
-    "venue_info": {
-      "name": "Green Street & E Pennsylvania Ave, Downingtown",
-      "location": {
-        "lat": 40.0068,
-        "lng": -75.7032
-      }
-    },
-    "raw_date_string": "Oct 04, 2026",
-    "attributes": {
-      "category": "Festival",
+      "category": "Art & Culture",
       "vibes": [
         "Free",
-        "Outdoor",
-        "Family-Friendly"
+        "Indoor"
       ],
       "price": "Free"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.downingtownfallfest.com/"
+    "action_link": "https://www.downtownwestchester.com/event/open-studio-at-ginkgo-arts-3/2026-10-02/"
   },
   {
-    "id": "discovered_fall_foliage_express_20261004",
+    "id": "discovered_the_dads_documentary_20261003",
     "type": "event",
-    "title": "Fall Foliage Express Train Ride",
+    "title": "The Dads: A Documentary",
     "venue_info": {
-      "name": "West Chester Railroad, West Chester",
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9584,
-        "lng": -75.5978
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
-    "raw_date_string": "Oct 04, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family-Friendly",
-        "Outdoor"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-04/"
-  },
-  {
-    "id": "discovered_chilling_wc_tour_oct07_20261007",
-    "type": "event",
-    "title": "Chilling West Chester: A Dark History Walking Tour",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Oct 07, 2026",
+    "raw_date_string": "Oct 3, 2026",
     "attributes": {
       "category": "Art & Culture",
       "vibes": [
-        "Outdoor"
-      ],
-      "price": "$20"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_chilling_west_chester_20261008",
-    "type": "event",
-    "title": "Chilling West Chester: A Dark History Walking Tour",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.963,
-        "lng": -75.6049
-      }
-    },
-    "raw_date_string": "Oct 08, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "History",
-        "Spooky"
+        "Indoor"
       ],
       "price": ""
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-08/"
-  },
-  {
-    "id": "discovered_haunted_history_tour_20261008",
-    "type": "event",
-    "title": "Haunted History of West Chester Tour",
-    "venue_info": {
-      "name": "Downtown West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Oct 08, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Spooky"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/west-chester-social-club-x-chesco-tours-haunted-history-of-west-chester/"
-  },
-  {
-    "id": "discovered_gusten_rudolph_quintet_20261009",
-    "type": "event",
-    "title": "Gusten Rudolph Quintet",
-    "venue_info": {
-      "name": "Windisch Studios, West Chester",
-      "location": {
-        "lat": 39.9598,
-        "lng": -75.606
-      }
-    },
-    "raw_date_string": "Oct 09, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Jazz"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/gusten-rudolph-quintet/"
+    "action_link": "https://uptownwestchester.org/pf/thedads/"
   },
   {
     "id": "discovered_in_to_america_20261009",
@@ -1987,16 +1043,15 @@
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
-    "raw_date_string": "Oct 09, 2026",
+    "raw_date_string": "Oct 9, 2026",
     "attributes": {
-      "category": "Live Music",
+      "category": "Theater",
       "vibes": [
-        "Indoor",
-        "Nightlife"
+        "Indoor"
       ],
       "price": ""
     },
@@ -2006,85 +1061,35 @@
     "action_link": "https://uptownwestchester.org/pf/intoamerica/"
   },
   {
-    "id": "discovered_chilling_wc_tour_oct10_20261010",
-    "type": "event",
-    "title": "Chilling West Chester: A Dark History Walking Tour",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Oct 10, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor"
-      ],
-      "price": "$20"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_brit_pack_20261010",
+    "id": "discovered_the_brit_pack_20261010",
     "type": "event",
     "title": "The Brit Pack with Artful Impact",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Oct 10, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
-        "Nightlife"
+        "Date Night"
       ],
       "price": ""
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://uptownwestchester.org/pf/thebritpack"
+    "action_link": "https://uptownwestchester.org/pf/thebritpack/"
   },
   {
-    "id": "discovered_fall_foliage_express_20261011",
-    "type": "event",
-    "title": "Fall Foliage Express Train Ride",
-    "venue_info": {
-      "name": "West Chester Railroad, West Chester",
-      "location": {
-        "lat": 39.9584,
-        "lng": -75.5978
-      }
-    },
-    "raw_date_string": "Oct 11, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family-Friendly",
-        "Outdoor"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-11/"
-  },
-  {
-    "id": "discovered_wc_chili_cook_off_20261011",
+    "id": "discovered_chili_cook_off_20261011",
     "type": "event",
     "title": "West Chester Chili Cook-Off",
     "venue_info": {
-      "name": "Downtown West Chester",
+      "name": "Gay Street, West Chester",
       "location": {
         "lat": 39.9601,
         "lng": -75.6055
@@ -2095,7 +1100,7 @@
       "category": "Festival",
       "vibes": [
         "Outdoor",
-        "Family-Friendly"
+        "Kid-Friendly"
       ],
       "price": ""
     },
@@ -2105,71 +1110,24 @@
     "action_link": "https://www.downtownwestchester.com/event/west-chester-chili-cook-off-2026/"
   },
   {
-    "id": "discovered_chilling_wc_tour_oct14_20261014",
+    "id": "discovered_chrysanthemum_festival_20261016",
     "type": "event",
-    "title": "Chilling West Chester: A Dark History Walking Tour",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Oct 14, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor"
-      ],
-      "price": "$20"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_chilling_wc_tour_oct15_20261015",
-    "type": "event",
-    "title": "Chilling West Chester: A Dark History Walking Tour",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Oct 15, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor"
-      ],
-      "price": "$20"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_longwood_chrysanthemum_festival_20261016",
-    "type": "event",
-    "title": "Chrysanthemum Festival at Longwood",
+    "title": "Chrysanthemum Festival",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8709,
-        "lng": -75.6749
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
-    "raw_date_string": "Oct 16 - Nov 15, 2026",
+    "raw_date_string": "Oct 16 - Nov 1, 2026",
     "attributes": {
       "category": "Festival",
       "vibes": [
-        "Family Friendly"
+        "Outdoor",
+        "Kid-Friendly"
       ],
-      "price": "Admission"
+      "price": ""
     },
     "media": {
       "image": ""
@@ -2179,19 +1137,18 @@
   {
     "id": "discovered_josh_blue_20261016",
     "type": "event",
-    "title": "Josh Blue",
+    "title": "Josh Blue: The Road Dog Tour",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Oct 16, 2026",
     "attributes": {
       "category": "Comedy",
       "vibes": [
-        "Indoor",
         "Nightlife"
       ],
       "price": ""
@@ -2204,19 +1161,18 @@
   {
     "id": "discovered_kashmir_led_zeppelin_20261017",
     "type": "event",
-    "title": "Kashmir - The Spirit of Led Zeppelin Live",
+    "title": "Kashmir: The Led Zeppelin Show",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Oct 17, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
         "Nightlife"
       ],
       "price": ""
@@ -2227,14 +1183,14 @@
     "action_link": "https://uptownwestchester.org/pf/kashmir/"
   },
   {
-    "id": "discovered_pop_up_beer_garden_20261017",
+    "id": "discovered_uptown_beer_garden_oct_20261017",
     "type": "event",
-    "title": "Pop-Up Beer Garden at Uptown!",
+    "title": "Uptown Pop-Up Beer Garden",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Oct 17, 2026",
@@ -2242,7 +1198,7 @@
       "category": "Food & Drink",
       "vibes": [
         "Outdoor",
-        "Craft Beer"
+        "Nightlife"
       ],
       "price": ""
     },
@@ -2252,25 +1208,24 @@
     "action_link": "https://uptownwestchester.org/beergarden/"
   },
   {
-    "id": "discovered_halloweentown_20261019",
+    "id": "discovered_halloweentown_movie_20261019",
     "type": "event",
-    "title": "Halloweentown (Movie Monday)",
+    "title": "Movie Monday: Halloweentown",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Oct 19, 2026",
     "attributes": {
       "category": "Kids & Family",
       "vibes": [
-        "Indoor",
-        "Family-Friendly",
-        "Spooky"
+        "Kid-Friendly",
+        "Indoor"
       ],
-      "price": ""
+      "price": "$7"
     },
     "media": {
       "image": ""
@@ -2278,21 +1233,20 @@
     "action_link": "https://uptownwestchester.org/pf/halloweentown/"
   },
   {
-    "id": "discovered_dueling_pianos_uptown_20261021",
+    "id": "discovered_dueling_pianos_oct_20261021",
     "type": "event",
     "title": "Dueling Pianos with The Philly Keys",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Oct 21, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
         "Nightlife"
       ],
       "price": ""
@@ -2300,7 +1254,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://uptownwestchester.org/pf/duelingpianosoctober"
+    "action_link": "https://uptownwestchester.org/pf/duelingpianosoctober/"
   },
   {
     "id": "discovered_glenn_miller_orchestra_20261022",
@@ -2309,16 +1263,16 @@
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Oct 22, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
-        "Jazz"
+        "Date Night",
+        "Indoor"
       ],
       "price": ""
     },
@@ -2330,19 +1284,18 @@
   {
     "id": "discovered_abacab_genesis_20261023",
     "type": "event",
-    "title": "Abacab - Genesis Tribute",
+    "title": "Abacab: A Tribute to Genesis",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Oct 23, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
         "Nightlife"
       ],
       "price": ""
@@ -2355,19 +1308,18 @@
   {
     "id": "discovered_meet_loaf_20261024",
     "type": "event",
-    "title": "Meet Loaf",
+    "title": "Meet Loaf: A Meat Loaf Tribute",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Oct 24, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
         "Nightlife"
       ],
       "price": ""
@@ -2378,31 +1330,7 @@
     "action_link": "https://uptownwestchester.org/pf/meetloaf/"
   },
   {
-    "id": "discovered_longwood_meet_us_at_the_mums_20261024",
-    "type": "event",
-    "title": "Meet Us at the Mums",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8709,
-        "lng": -75.6749
-      }
-    },
-    "raw_date_string": "Oct 24, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Family Friendly"
-      ],
-      "price": "Admission"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances"
-  },
-  {
-    "id": "discovered_wc_halloween_parade_20261028",
+    "id": "discovered_halloween_parade_20261028",
     "type": "event",
     "title": "West Chester Halloween Parade",
     "venue_info": {
@@ -2418,7 +1346,7 @@
       "vibes": [
         "Free",
         "Outdoor",
-        "Family Friendly"
+        "Kid-Friendly"
       ],
       "price": "Free"
     },
@@ -2428,80 +1356,28 @@
     "action_link": "https://www.downtownwestchester.com/event/west-chester-halloween-parade-2026/"
   },
   {
-    "id": "discovered_pints_and_paints_20261029",
+    "id": "discovered_laugh_lounge_oct29_20261029",
     "type": "event",
-    "title": "Pints and Paints",
-    "venue_info": {
-      "name": "Artillery Brewing Company, West Chester",
-      "location": {
-        "lat": 39.9617,
-        "lng": -75.6003
-      }
-    },
-    "raw_date_string": "Oct 29, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Hands-On",
-        "Craft Beer"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/pints-and-paints-2026/2026-10-29/"
-  },
-  {
-    "id": "discovered_laugh_lounge_20261029",
-    "type": "event",
-    "title": "The Laugh Lounge Stand-Up Comedy",
+    "title": "The Laugh Lounge",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Oct 29, 2026",
     "attributes": {
       "category": "Comedy",
       "vibes": [
-        "Indoor",
         "Nightlife"
       ],
-      "price": ""
+      "price": "$31-$36"
     },
     "media": {
       "image": ""
     },
     "action_link": "https://uptownwestchester.org/pf/thelaughloungeoctober2026/"
-  },
-  {
-    "id": "discovered_chilling_west_chester_20261031",
-    "type": "event",
-    "title": "Chilling West Chester: A Dark History Walking Tour",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.963,
-        "lng": -75.6049
-      }
-    },
-    "raw_date_string": "Oct 31, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "History",
-        "Spooky"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-31/"
   },
   {
     "id": "discovered_rocky_horror_20261031",
@@ -2510,17 +1386,16 @@
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Oct 31, 2026",
     "attributes": {
-      "category": "Theater",
+      "category": "Art & Culture",
       "vibes": [
-        "Indoor",
         "Nightlife",
-        "Spooky"
+        "Indoor"
       ],
       "price": ""
     },
@@ -2530,71 +1405,20 @@
     "action_link": "https://uptownwestchester.org/pf/therockyhorrorpictureshow/"
   },
   {
-    "id": "discovered_november_first_friday_20261106",
-    "type": "event",
-    "title": "November First Friday",
-    "venue_info": {
-      "name": "Downtown West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Nov 06, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family-Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/november-first-friday-2026/"
-  },
-  {
-    "id": "discovered_wcu_family_weekend_20261106",
-    "type": "event",
-    "title": "WCU Family Weekend",
-    "venue_info": {
-      "name": "West Chester University, West Chester",
-      "location": {
-        "lat": 39.949,
-        "lng": -75.6045
-      }
-    },
-    "raw_date_string": "Nov 06, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Family-Friendly"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/wcu-family-weekend-2026/2026-11-06/"
-  },
-  {
     "id": "discovered_bell_bottom_blues_20261107",
     "type": "event",
     "title": "Bell Bottom Blues with Artful Impact",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
-    "raw_date_string": "Nov 07, 2026",
+    "raw_date_string": "Nov 7, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
         "Nightlife"
       ],
       "price": ""
@@ -2607,19 +1431,18 @@
   {
     "id": "discovered_total_mass_retain_20261113",
     "type": "event",
-    "title": "Total Mass Retain - YES Tribute Band",
+    "title": "Total Mass Retain: A Yes Tribute",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Nov 13, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
         "Nightlife"
       ],
       "price": ""
@@ -2630,443 +1453,21 @@
     "action_link": "https://uptownwestchester.org/pf/totalmassretain/"
   },
   {
-    "id": "discovered_concert_in_the_cupboard_20261114",
+    "id": "discovered_uncle_buck_movie_20261116",
     "type": "event",
-    "title": "Concert in the Cupboard featuring Carry On",
-    "venue_info": {
-      "name": "West Chester Food Cupboard, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Nov 14, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://hellowestchesterpa.com/calendar/"
-  },
-  {
-    "id": "discovered_holiday_shop_and_stroll_20261115",
-    "type": "event",
-    "title": "2nd Annual West Chester Holiday Shop & Stroll",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Nov 15, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_uncle_buck_20261116",
-    "type": "event",
-    "title": "Uncle Buck (Movie Monday)",
+    "title": "Movie Monday: Uncle Buck",
     "venue_info": {
       "name": "Uptown! Knauer Performing Arts Center, West Chester",
       "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
+        "lat": 39.9622,
+        "lng": -75.6042
       }
     },
     "raw_date_string": "Nov 16, 2026",
     "attributes": {
       "category": "Kids & Family",
       "vibes": [
-        "Indoor",
-        "Family-Friendly"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/pf/unclebuck/"
-  },
-  {
-    "id": "discovered_dueling_pianos_uptown_20261118",
-    "type": "event",
-    "title": "Dueling Pianos with The Philly Keys",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
-      }
-    },
-    "raw_date_string": "Nov 18, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Nightlife"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/pf/duelingpianosnovember"
-  },
-  {
-    "id": "discovered_laugh_lounge_20261119",
-    "type": "event",
-    "title": "The Laugh Lounge Stand-Up Comedy",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
-      }
-    },
-    "raw_date_string": "Nov 19, 2026",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Indoor",
-        "Nightlife"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/pf/thelaughloungenovember2026/"
-  },
-  {
-    "id": "discovered_a_longwood_christmas_20261120",
-    "type": "event",
-    "title": "A Longwood Christmas",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8709,
-        "lng": -75.6749
-      }
-    },
-    "raw_date_string": "Nov 20 - Dec 31, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Family Friendly"
-      ],
-      "price": "Admission"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/exhibits"
-  },
-  {
-    "id": "discovered_elf_movie_20261127",
-    "type": "event",
-    "title": "Elf",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
-      }
-    },
-    "raw_date_string": "Nov 27, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Indoor",
-        "Family-Friendly",
-        "Holiday"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/pf/elf/"
-  },
-  {
-    "id": "discovered_december_first_friday_20261204",
-    "type": "event",
-    "title": "December First Friday",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Dec 04, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_holiday_cheer_concert_20261204",
-    "type": "event",
-    "title": "Holiday Cheer Concert",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9632,
-        "lng": -75.6047
-      }
-    },
-    "raw_date_string": "Dec 04 - 05, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Family-Friendly",
-        "Holiday"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/pf/holidaycheer/"
-  },
-  {
-    "id": "discovered_wc_christmas_parade_20261204",
-    "type": "event",
-    "title": "West Chester Hometown Christmas Parade",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Dec 04, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_white_christmas_uptown_20261205",
-    "type": "event",
-    "title": "Irving Berlin's White Christmas",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9629,
-        "lng": -75.6046
-      }
-    },
-    "raw_date_string": "Dec 05 - 27, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Indoor"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/on-stage/holiday-events/"
-  },
-  {
-    "id": "discovered_santa_at_the_square_20261205",
-    "type": "event",
-    "title": "Santa at the Square",
-    "venue_info": {
-      "name": "Marshall Square Park, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Dec 05, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_ball_in_the_house_20261208",
-    "type": "event",
-    "title": "Ball In The House: An A Cappella Christmas",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9629,
-        "lng": -75.6046
-      }
-    },
-    "raw_date_string": "Dec 08, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/on-stage/holiday-events/"
-  },
-  {
-    "id": "discovered_emerald_strings_winter_20261209",
-    "type": "event",
-    "title": "Emerald Strings: A Winter Journey",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9629,
-        "lng": -75.6046
-      }
-    },
-    "raw_date_string": "Dec 09, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/on-stage/holiday-events/"
-  },
-  {
-    "id": "discovered_wc_jazz_orchestra_holiday_20261210",
-    "type": "event",
-    "title": "West Chester Jazz Orchestra Holiday Concert",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9629,
-        "lng": -75.6046
-      }
-    },
-    "raw_date_string": "Dec 10, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/"
-  },
-  {
-    "id": "discovered_carpenters_christmas_tribute_20261211",
-    "type": "event",
-    "title": "A Carpenters Christmas Tribute",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9629,
-        "lng": -75.6046
-      }
-    },
-    "raw_date_string": "Dec 11, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor"
-      ],
-      "price": "See site"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/"
-  },
-  {
-    "id": "discovered_christkindlmarkt_20261212",
-    "type": "event",
-    "title": "Christkindlmarkt on Gay Street",
-    "venue_info": {
-      "name": "Gay Street, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Dec 12, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/events/"
-  },
-  {
-    "id": "discovered_die_hard_movie_monday_20261214",
-    "type": "event",
-    "title": "Die Hard (Movie Monday)",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9629,
-        "lng": -75.6046
-      }
-    },
-    "raw_date_string": "Dec 14, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
+        "Kid-Friendly",
         "Indoor"
       ],
       "price": "$7"
@@ -3074,6 +1475,79 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://uptownwestchester.org/on-stage/holiday-events/"
+    "action_link": "https://uptownwestchester.org/pf/unclebuck/"
+  },
+  {
+    "id": "discovered_dueling_pianos_nov_20261118",
+    "type": "event",
+    "title": "Dueling Pianos with The Philly Keys",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9622,
+        "lng": -75.6042
+      }
+    },
+    "raw_date_string": "Nov 18, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Nightlife"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/pf/duelingpianosnovember/"
+  },
+  {
+    "id": "discovered_laugh_lounge_nov_20261119",
+    "type": "event",
+    "title": "The Laugh Lounge",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9622,
+        "lng": -75.6042
+      }
+    },
+    "raw_date_string": "Nov 19, 2026",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Nightlife"
+      ],
+      "price": "$31-$36"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/pf/thelaughloungenovember2026/"
+  },
+  {
+    "id": "discovered_elf_movie_20261127",
+    "type": "event",
+    "title": "Movie Night: Elf",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9622,
+        "lng": -75.6042
+      }
+    },
+    "raw_date_string": "Nov 27, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Kid-Friendly",
+        "Indoor"
+      ],
+      "price": "$7"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/pf/elf/"
   }
 ]
