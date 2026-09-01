@@ -167,6 +167,14 @@ h3 { font-size: 17px; letter-spacing: -.01em; }
   margin-bottom: 14px;
 }
 .section-head h2 { font-size: 20px; }
+.more {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--display);
+  color: var(--now);
+  text-decoration: none;
+}
+.more:hover { text-decoration: underline; }
 .section-head .more {
   margin-left: auto;
   font-size: 13px;

@@ -440,21 +440,32 @@
         const tomorrow = eventsData.filter(e => e.date_category === "tomorrow");
         const week     = eventsData.filter(e => e.date_category === "this_week");
 
+        // The eyebrow carries the state. There is deliberately no "N things on"
+        // count line: the events are listed immediately below, so a count is
+        // redundant at any size and reads as broken English at one ("1 thing
+        // on") or absurd at zero ("0 things on").
         let heading, list, note;
-        if (today.length)         { heading = "Happening today"; list = today;    note = ""; }
-        else if (tomorrow.length) { heading = "Nothing today — here's tomorrow"; list = tomorrow; note = ""; }
-        else if (week.length)     { heading = "Later this week"; list = week;     note = ""; }
-        else                      { heading = "Quiet stretch";   list = [];       note = "No events in the next few days."; }
+        if (today.length)         { heading = "Happening today";      list = today;    note = ""; }
+        else if (tomorrow.length) { heading = "Tomorrow";             list = tomorrow; note = ""; }
+        else if (week.length)     { heading = "Later this week";      list = week;     note = ""; }
+        else                      { heading = "Happening today";      list = [];
+                                    note = "Nothing listed today. Check back — new events land daily."; }
 
+        const SHOWN = 6;
         const m = $("#today-marquee");
         if (m) {
+            const overflow = list.length - SHOWN;
             m.innerHTML = '<div class="today-block">'
                 + '<p class="eyebrow">' + esc(heading) + '</p>'
-                + '<h2 style="margin:6px 0 12px;">' + list.length + ' '
-                + (list.length === 1 ? "thing" : "things") + ' on</h2>'
                 + (list.length
-                    ? list.slice(0, 6).map(e => eventRow(e)).join("")
-                    : '<p class="meta">' + esc(note) + '</p>')
+                    ? '<div style="margin-top:10px;">'
+                      + list.slice(0, SHOWN).map(e => eventRow(e)).join("")
+                      + '</div>'
+                      + (overflow > 0
+                          ? '<p style="margin:12px 0 0;"><a class="more" href="#events" data-nav="events">'
+                            + '+' + overflow + ' more today &rarr;</a></p>'
+                          : "")
+                    : '<p class="meta" style="margin-top:8px;">' + esc(note) + '</p>')
                 + '</div>';
         }
 
