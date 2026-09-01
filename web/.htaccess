@@ -15,9 +15,14 @@ AddType text/calendar .ics
 
 # No JSON in the docroot is meant to be public (submissions/subscriber data
 # lives above the docroot, but deny defensively in case a file reappears).
-<FilesMatch "\.json$">
+<FilesMatch "\.(json|txt)$">
     Require all denied
 </FilesMatch>
+
+# robots.txt must stay reachable despite the .txt deny above
+<Files "robots.txt">
+    Require all granted
+</Files>
 
 # Legacy submission log directory
 RewriteRule ^logs(/|$) - [F,L]

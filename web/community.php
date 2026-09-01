@@ -27,7 +27,18 @@ const MIN_FILL_SECONDS = 4; // a human takes longer than this to write a post
 $AREA   = '{{AREA_NAME}}';
 $TOPICS = ['Recommendation', 'Question', 'Heads-up', 'Lost & found', 'For sale', 'Thanks'];
 
-$DATA_DIR     = dirname(__DIR__);
+// TWO levels up, not one. These scripts are deployed INTO the area directory
+// (public_html/<area>/), so dirname(__DIR__) is public_html itself - the
+// docroot. submit_event.php uses dirname(__DIR__) correctly because it sits at
+// the docroot root; copying that expression down here put the store, and the
+// moderation token, inside the web root.
+$DATA_DIR = dirname(dirname(__DIR__));
+
+// Refuse to run if the store still resolves inside the docroot.
+if (is_dir($DATA_DIR . '/public_html') === false) {
+    http_response_code(500);
+    exit('Storage path misconfigured; refusing to start.');
+}
 $APPROVED_FILE = $DATA_DIR . '/community_posts.json';
 $PENDING_FILE  = $DATA_DIR . '/community_pending.json';
 $RATE_FILE     = $DATA_DIR . '/community_rate.json';
