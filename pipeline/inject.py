@@ -132,7 +132,7 @@ def _build_structured_data(area_config, events):
 
 def inject_all_data(events_file, dining_file, outings_file, plans_file,
                     template_file, output_file, area_config=None, news_file=None,
-                    guides_file=None):
+                    guides_file=None, town_file=None):
     """
     Inject events, dining, outings, curated plans, and area news into the
     HTML template. Optionally substitutes area placeholders from area_config.
@@ -150,6 +150,7 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
     # News and guides are optional - areas without the files hide the sections
     news = _load_json(news_file, "news items") if news_file and os.path.exists(news_file) else []
     guides = _load_json(guides_file, "guides") if guides_file and os.path.exists(guides_file) else []
+    town = _load_json_obj(town_file, "town facts") if town_file and os.path.exists(town_file) else {}
     # The app only needs guide cards, not the full page bodies
     guides = [{k: g.get(k, '') for k in ('slug', 'title', 'category', 'description', 'img', 'updated')}
               for g in guides]
@@ -196,6 +197,7 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
         ('plansData', plans, 'curated plans'),
         ('newsData', news, 'news items'),
         ('guidesData', guides, 'guides'),
+        ('townData', town, 'town facts'),
         # Town names only — the app matches dining `loc` strings against these.
         ('areaTowns', [t['name'] for t in (area_config or {}).get('towns', [])], 'town roster'),
         # Towns that share a dining pool with a neighbor (Mont Clare is across
@@ -232,6 +234,22 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
     _verify(output_file, events, dining, plans)
 
     return True
+
+
+def _load_json_obj(filepath, label):
+    """Load a dict-shaped JSON file (town.json).
+
+    Missing file -> empty dict, so an area with no town.json still builds and
+    the template simply renders those blocks empty.
+    """
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        print(f"   Loaded {label} from {os.path.basename(filepath)}")
+        return data
+    except FileNotFoundError:
+        print(f"   WARNING: {filepath} not found, using empty object")
+        return {}
 
 
 def _load_json(filepath, label):

@@ -1,0 +1,58 @@
+{
+  "civic": {
+    "trash_day": "Wednesday",
+    "recycling": "Wednesday, same collection",
+    "trash_note": "Holiday weeks push collection back one day.",
+    "borough_site": "https://www.phoenixville.org/",
+    "meetings": [
+      {
+        "body": "Borough Council",
+        "cadence": "2nd Tuesday, 7:00 PM",
+        "location": "Borough Hall, 351 Bridge St",
+        "link": "https://www.phoenixville.org/AgendaCenter"
+      },
+      {
+        "body": "Planning Commission",
+        "cadence": "1st Wednesday, 7:00 PM",
+        "location": "Borough Hall, 351 Bridge St",
+        "link": "https://www.phoenixville.org/AgendaCenter"
+      }
+    ],
+    "services": [
+      { "label": "Report a pothole",  "link": "https://www.phoenixville.org/" },
+      { "label": "Parking & permits", "link": "https://www.phoenixville.org/" },
+      { "label": "Borough agendas",   "link": "https://www.phoenixville.org/AgendaCenter" }
+    ]
+  },
+  "schools": {
+    "district": "Phoenixville Area School District",
+    "district_link": "https://www.pasd.com/",
+    "athletics_link": "https://www.pasd.com/athletics",
+    "mascot": "Phantoms",
+    "note": "Fall sports run late August through early November. Check the district athletics page for the live schedule; game times move with weather."
+  },
+  "facts": [
+    {
+      "title": "The Blob ran out of the Colonial",
+      "text": "The 1958 film's most famous scene — a packed house fleeing into the street — was shot inside the Colonial Theatre on Bridge Street. The town has re-enacted it every July since 2000.",
+      "link": "guides/blobfest/",
+      "link_label": "Read the Blobfest guide"
+    },
+    {
+      "title": "The town is named for iron",
+      "text": "Phoenix Iron Works made the Phoenix Column, a wrought-iron structural column patented in 1862 and used in bridges and buildings across the country. The foundry is why there is a town here at all."
+    },
+    {
+      "title": "The Colonial has been open since 1903",
+      "text": "It nearly went dark in the 1990s before a nonprofit bought and restored it. It now runs first-run films, repertory screenings and live events, and anchors the Bridge Street block."
+    },
+    {
+      "title": "Two waterways meet here",
+      "text": "French Creek empties into the Schuylkill River at the edge of town. The Schuylkill River Trail runs through, connecting Phoenixville to Valley Forge and, eventually, Philadelphia."
+    },
+    {
+      "title": "Bridge Street was a bypass, then a destination",
+      "text": "Decades of decline after the foundry closed in 1987 left storefronts empty. The current restaurant-and-brewery strip is a rebuild, not a survival — most of it postdates 2005."
+    }
+  ]
+}

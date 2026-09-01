@@ -1,0 +1,52 @@
+{
+  "civic": {
+    "trash_day": "Varies by zone",
+    "recycling": "Weekly, same day as trash",
+    "trash_note": "The borough splits collection into zones — check your street on the borough site.",
+    "borough_site": "https://www.west-chester.com/",
+    "meetings": [
+      {
+        "body": "Borough Council",
+        "cadence": "3rd Wednesday, 7:00 PM",
+        "location": "Borough Hall, 401 E Gay St",
+        "link": "https://www.west-chester.com/"
+      },
+      {
+        "body": "Planning Commission",
+        "cadence": "1st Tuesday, 7:00 PM",
+        "location": "Borough Hall, 401 E Gay St",
+        "link": "https://www.west-chester.com/"
+      }
+    ],
+    "services": [
+      { "label": "Parking & permits",  "link": "https://www.west-chester.com/" },
+      { "label": "Trash & recycling",  "link": "https://www.west-chester.com/" },
+      { "label": "Borough agendas",    "link": "https://www.west-chester.com/" }
+    ]
+  },
+  "schools": {
+    "district": "West Chester Area School District",
+    "district_link": "https://www.wcasd.net/",
+    "athletics_link": "https://www.wcasd.net/",
+    "mascot": "Henderson Warriors · East Vikings · Rustin Golden Knights",
+    "note": "Three high schools share the district. West Chester University athletics run on a separate calendar and draw big fall crowds downtown."
+  },
+  "facts": [
+    {
+      "title": "The county seat since 1786",
+      "text": "West Chester became Chester County's seat when the courts moved from Chester city. The Greek Revival courthouse on High Street still anchors the grid."
+    },
+    {
+      "title": "An unusually intact downtown",
+      "text": "The borough holds one of the larger concentrations of 19th-century architecture in the region, much of it never demolished — which is why the whole downtown reads as a piece."
+    },
+    {
+      "title": "The university shapes the calendar",
+      "text": "West Chester University's term dates move the town's rhythm: parking, restaurant waits and event attendance all shift when roughly 17,000 students arrive and leave."
+    },
+    {
+      "title": "Horticultural country",
+      "text": "Longwood Gardens, Chester County's marquee attraction, sits about twenty minutes south in Kennett Square. Its seasonal displays pull regional traffic through the area year-round."
+    }
+  ]
+}

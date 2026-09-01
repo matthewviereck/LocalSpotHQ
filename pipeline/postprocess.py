@@ -3,8 +3,9 @@ import os
 import shutil
 
 TAILWIND_CDN_TAG = '<script src="https://cdn.tailwindcss.com"></script>'
-PREBUILT_CSS = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'assets', 'app.css')
+_ASSETS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'assets')
+PREBUILT_CSS = os.path.join(_ASSETS, 'app.css')
+DESIGN_CSS = os.path.join(_ASSETS, 'localspot.css')
 
 
 def swap_tailwind_cdn(html, output_dir):
@@ -23,6 +24,21 @@ def swap_tailwind_cdn(html, output_dir):
     shutil.copy(PREBUILT_CSS, os.path.join(output_dir, 'app.css'))
     print("   Tailwind CDN swapped for prebuilt app.css")
     return html.replace(TAILWIND_CDN_TAG, '<link rel="stylesheet" href="app.css">', 1)
+
+
+def ship_design_css(output_dir):
+    """Copy the shared design system next to the built page.
+
+    Since the 2026 redesign the app, event pages, guide pages and the weekend
+    page all link `localspot.css`, so it has to land in every area's output
+    directory. Replaces the old Tailwind-CDN-to-app.css swap.
+    """
+    if not os.path.exists(DESIGN_CSS):
+        print("   WARNING: assets/localspot.css missing - pages will be unstyled")
+        return False
+    shutil.copy(DESIGN_CSS, os.path.join(output_dir, 'localspot.css'))
+    print("   Shipped localspot.css")
+    return True
 
 
 def remove_landing_page(input_file, output_file):
@@ -89,9 +105,13 @@ def remove_landing_page(input_file, output_file):
         print("   WARNING: Could not find </body>; appending auto-load script at end")
         html += auto_load_script
 
-    # 4. Prebuilt CSS instead of the in-browser Tailwind compiler
-    print(">> Swapping Tailwind CDN for prebuilt CSS...")
-    html = swap_tailwind_cdn(html, os.path.dirname(output_file) or '.')
+    # 4. Ship the shared design system (the template links it directly; the
+    #    Tailwind swap below is a no-op on redesigned templates and stays only
+    #    for the legacy PHP builder).
+    print(">> Shipping design CSS...")
+    ship_design_css(os.path.dirname(output_file) or '.')
+    if TAILWIND_CDN_TAG in html:
+        html = swap_tailwind_cdn(html, os.path.dirname(output_file) or '.')
 
     # 5. Save
     os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)

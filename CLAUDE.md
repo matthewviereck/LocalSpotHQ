@@ -87,6 +87,22 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   that venue instead.
 - Date parsing is custom regex-based (no dateutil dependency)
 - HTML injection uses regex find/replace on `const eventsData = [...]` patterns
+- **Design system (2026 redesign, branch `redesign-2026`):** all four page
+  generators — the app template, `event_pages.py`, `guides.py` and `feeds.py` —
+  link one hand-authored stylesheet, `assets/localspot.css`, which
+  `postprocess.ship_design_css()` copies into every area's output. There is no
+  Tailwind and no build step; edit the CSS directly. Before this, the app used
+  Tailwind-CDN-compiled-to-`app.css` while each generated page carried its own
+  ad-hoc inline CSS, so the site had four unrelated looks.
+- The app's nav is Today / Events / News / Do / Community. Dining was
+  deliberately demoted out of the nav into a short reference inside "Do".
+- `data/<area>/town.json` holds civic info, schools and evergreen town facts;
+  it is injected as `townData`. A missing file just renders those blocks empty.
+- **The community board is emitted into the build** by `pipeline/community.py`,
+  not uploaded by hand: the deploy rsyncs `output/<area>/` with `--delete`, so
+  anything not written into the build is removed from the server. Posts are
+  moderated — `community_moderate.php` needs `community_token.txt` one level
+  ABOVE the docroot, and fails closed (503) when that file is absent.
 - `deploy/auto_update.php` is a legacy server-side reimplementation. Since the
   2026-07-16 cutover it sees the `deploy/CUTOVER` marker and only sends the
   Friday digest — GitHub Actions owns the build and deploy. It has no town
