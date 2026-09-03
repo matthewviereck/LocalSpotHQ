@@ -1,5 +1,23 @@
 [
   {
+    "title": "A speakeasy-style barbershop opens down an alley off High Street",
+    "category": "Now Open",
+    "summary": "Gerome and Monica Ruff have opened Urban Cutz Barbershop at 21 S. High Street, tucked behind Ginkgo Arts and reached through a covered brick walkway next to Barnaby's. Gerome has cut hair in the borough for more than 18 years; the couple plan to add chairs and more barbers as the 1,200-square-foot shop grows.",
+    "date": "2026-09-03",
+    "loc": "21 S. High Street, West Chester",
+    "link": "https://vista.today/2026/09/urban-cutz-west-chester-barbershop/",
+    "img": ""
+  },
+  {
+    "title": "Free veterans documentary screening at WCU on Sept. 10",
+    "category": "News",
+    "summary": "West Chester University's Veterans Center and the Chester County Suicide Prevention Partnership are showing The Journey Home, local filmmaker Gary Chilutti's documentary on veterans returning to civilian life with PTSD, Sept. 10 from 6 to 8:30 p.m. The screening at the Madeleine Wing Adler Theatre is free and open to the public, followed by a community conversation.",
+    "date": "2026-09-03",
+    "loc": "817 S. High Street, West Chester",
+    "link": "https://vista.today/2026/09/wcu-the-journey-home-documentary-screening/",
+    "img": ""
+  },
+  {
     "title": "Community-owned grocery store opens on West Market Street",
     "category": "Now Open",
     "summary": "The West Chester Co-op opened Aug. 21 at 204 W. Market Street after more than a decade of organizing, fundraising and volunteer work, giving the borough a walkable grocery option again. The 2,800-square-foot market is open 8 a.m. to 8 p.m. daily and stocks local produce, dairy and baked goods alongside everyday staples; membership has passed 830.",
@@ -15,6 +33,15 @@
     "date": "2026-08-29",
     "loc": "West Chester",
     "link": "https://vista.today/2026/08/qvc-group-executive-departures/",
+    "img": ""
+  },
+  {
+    "title": "Fantasy bookstore Leaves & Lore nearly sells out in its first weekend",
+    "category": "Now Open",
+    "summary": "The father-daughter shop at 118 N. High Street opened Aug. 22 to a line that held steady for six hours, filling 600 orders and drawing about 1,500 people on day one before closing early Sunday on low stock. Jeffrey and Jessie Hilker spent two years finding the storefront, the former home of arts-and-crafts store Nightingale Materials.",
+    "date": "2026-08-29",
+    "loc": "118 N. High Street, West Chester",
+    "link": "https://vista.today/2026/08/leaves-and-lore-west-chester-bookstore/",
     "img": ""
   },
   {
@@ -45,39 +72,12 @@
     "img": ""
   },
   {
-    "title": "Fantasy bookstore Leaves & Lore nearly sells out in its first weekend",
-    "category": "Now Open",
-    "summary": "The father-daughter shop at 118 N. High Street opened Aug. 22 to a line that held steady for six hours, filling 600 orders on day one and closing early Sunday after running low on stock. Jeffrey and Jessie Hilker spent two years finding the storefront, the former home of arts-and-crafts store Nightingale Materials.",
-    "date": "2026-08-26",
-    "loc": "118 N. High Street, West Chester",
-    "link": "https://vista.today/2026/08/leaves-and-lore-west-chester-bookstore/",
-    "img": ""
-  },
-  {
-    "title": "East Side Little League's World Series run ends in extra innings",
-    "category": "News",
-    "summary": "West Chester's East Side Little League led Phenix City, Alabama 5-0 before falling 6-5 in extra innings Monday night, closing out its Williamsport appearance at 0-2. The team reached the tournament as state champion and Mid-Atlantic Region representative.",
-    "date": "2026-08-26",
-    "loc": "West Chester",
-    "link": "https://vista.today/2026/08/east-side-little-league-world-series-run/",
-    "img": ""
-  },
-  {
     "title": "Three siblings launch a canned decaf oat milk latte",
     "category": "News",
     "summary": "Mike, Jack and Corynn started Sneaky Brew in West Chester after one brother cut back on caffeine and found the decaf options lacking. Their Classic Decaf Oat Milk Latte uses housemade oat milk and organic decaf cold brew in an 8-ounce can.",
     "date": "2026-08-20",
     "loc": "West Chester",
     "link": "https://vista.today/2026/08/west-chester-sneaky-brew-decaf-latte/",
-    "img": ""
-  },
-  {
-    "title": "Baldwin's Book Barn named one of America's best independent bookstores",
-    "category": "News",
-    "summary": "Conde Nast Traveler put the West Chester landmark on its national roundup of independent bookshops. Founded in 1946 inside an 1822 five-story stone barn, it holds hundreds of thousands of used, rare and collectible books along with maps and prints, and is still run day to day by 93-year-old Carol Pfaff Rauch.",
-    "date": "2026-08-16",
-    "loc": "West Chester",
-    "link": "https://vista.today/2026/08/baldwins-book-barn-conde-nast-traveler/",
     "img": ""
   }
 ]
