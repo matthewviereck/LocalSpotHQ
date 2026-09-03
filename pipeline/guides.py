@@ -25,18 +25,31 @@ def _guide_page(guide, area_config):
     description = guide.get('description', '')
     img = guide.get('img', area_config['meta'].get('og_image', ''))
     updated = guide.get('updated', date.today().isoformat())
+    published = guide.get('published', updated)
+    # <title> is what the SERP shows and is capped at ~60 chars; the H1 and
+    # og:title keep the editorial title, which can run longer.
+    seo_title = guide.get('seo_title', title)
 
-    json_ld = {
+    json_ld = [{
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": title,
         "description": description,
+        "datePublished": published,
         "dateModified": updated,
         "image": [img] if img else [],
         "author": {"@type": "Organization", "name": "LocalSpot HQ", "url": "https://www.localspothq.com/"},
         "publisher": {"@type": "Organization", "name": "LocalSpot HQ"},
         "mainEntityOfPage": canonical
-    }
+    }, {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": f"LocalSpot {area_name}", "item": f"{base_url}/"},
+            {"@type": "ListItem", "position": 2, "name": "Guides", "item": f"{base_url}/guides/"},
+            {"@type": "ListItem", "position": 3, "name": title, "item": canonical}
+        ]
+    }]
 
     sections_html = '\n'.join(
         f"<h2>{html.escape(s['heading'])}</h2>\n{s['html']}"
@@ -48,11 +61,14 @@ def _guide_page(guide, area_config):
 <meta charset="UTF-8">
 {GA_SNIPPET}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{html.escape(title)} | LocalSpot {html.escape(area_name)}</title>
+<title>{html.escape(seo_title)} | LocalSpot {html.escape(area_name)}</title>
 <meta name="description" content="{html.escape(description)}">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="{canonical}">
 <meta property="og:type" content="article">
+<meta property="og:site_name" content="LocalSpot {html.escape(area_name)}">
+<meta property="article:published_time" content="{published}">
+<meta property="article:modified_time" content="{updated}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(description)}">
@@ -112,13 +128,14 @@ def _guides_index(guides, area_config):
 <meta charset="UTF-8">
 {GA_SNIPPET}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Local Guides | LocalSpot {html.escape(area_name)}</title>
-<meta name="description" content="In-depth local guides for {html.escape(area_name)} — festivals, food, and things worth planning around.">
+<title>{html.escape(area_name)} Local Guides: Festivals, Food &amp; Things to Do | LocalSpot</title>
+<meta name="description" content="In-depth guides to {html.escape(area_name)}, PA: festival how-tos, ranked restaurant lists and seasonal things to do, written locally and kept current.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{canonical}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{canonical}">
-<meta property="og:title" content="Local Guides | LocalSpot {html.escape(area_name)}">
+<meta property="og:title" content="{html.escape(area_name)} Local Guides | LocalSpot">
+<meta property="og:description" content="Festival how-tos, ranked restaurant lists and seasonal things to do in {html.escape(area_name)}, PA.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap">
