@@ -30,6 +30,11 @@
       "module": "scrapers.uptown_knauer",
       "function": "scrape_uptown",
       "output_file": "scraped/uptown_events.json"
+    },
+    {
+      "module": "scrapers.downtown_west_chester",
+      "function": "scrape_downtown_west_chester",
+      "output_file": "scraped/downtown_wc_events.json"
     }
   ],
   "recurring_events": {
@@ -43,6 +48,7 @@
   },
   "merge_sources": [
     "scraped/uptown_events.json",
+    "scraped/downtown_wc_events.json",
     "scraped/discovered_events.json",
     "recurring_events.json"
   ],

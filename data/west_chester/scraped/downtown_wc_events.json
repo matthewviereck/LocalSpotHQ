@@ -1,0 +1,5796 @@
+[
+  {
+    "id": "dwc_west_chester_taps_2026_20260902",
+    "type": "event",
+    "title": "West Chester TAPS 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 2, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "5 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/01/2024-INSTA_WCTAPS.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-taps-2026/2026-09-02/"
+  },
+  {
+    "id": "dwc_plagues_and_pestilence_a_walking_tour_20_20260902",
+    "type": "event",
+    "title": "Plagues and Pestilence: A Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 2, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$16",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/gi2z1fgscush151dd5mu.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/plagues-and-pestilence-a-walking-tour-2026/2026-09-02/"
+  },
+  {
+    "id": "dwc_songwriter_circle_20260902",
+    "type": "event",
+    "title": "Songwriter Circle",
+    "venue_info": {
+      "name": "LoCali Wine Lounge, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 2, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [],
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/LoCali-Wine-Lounge-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/songwriter-circle/"
+  },
+  {
+    "id": "dwc_walking_tour_revolutionary_west_chester_20260903",
+    "type": "event",
+    "title": "Walking Tour: Revolutionary West Chester",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 3, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$16",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/03/Screenshot-2026-03-31-at-12.57.18 PM.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/walking-tour-revolutionary-west-chester/2026-09-03/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260904",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 4, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-04/"
+  },
+  {
+    "id": "dwc_september_first_friday_2026_20260904",
+    "type": "event",
+    "title": "September First Friday 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 4, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/11/Final-First-Friday-Logo-1.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/september-first-friday-2026/"
+  },
+  {
+    "id": "dwc_open_studio_at_ginkgo_arts_20260904",
+    "type": "event",
+    "title": "Open Studio at Ginkgo Arts",
+    "venue_info": {
+      "name": "Ginkgo Arts, West Chester",
+      "location": {
+        "lat": 39.9592,
+        "lng": -75.6053
+      }
+    },
+    "raw_date_string": "Sep 4, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "5 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/01/Ginkgo-square-logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/open-studio-at-ginkgo-arts-3/2026-09-04/"
+  },
+  {
+    "id": "dwc_summer_concert_series_2026_20260904",
+    "type": "event",
+    "title": "Summer Concert Series 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 4, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "5:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/11/Final-First-Friday-Logo-1.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/summer-concert-series-2026/2026-09-04/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20260904",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Sep 4, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-09-04/"
+  },
+  {
+    "id": "dwc_family_fun_fridays_at_penn_s_table_20260904",
+    "type": "event",
+    "title": "Family Fun Fridays at Penn's Table",
+    "venue_info": {
+      "name": "Penn's Table Restaurant, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6062
+      }
+    },
+    "raw_date_string": "Sep 4, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/05/family-fun-fridays.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/family-fun-fridays-at-penns-table/2026-09-04/"
+  },
+  {
+    "id": "dwc_dueling_pianos_20260904",
+    "type": "event",
+    "title": "Dueling Pianos",
+    "venue_info": {
+      "name": "Kildare's Irish Pub, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 4, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/01/kildares-logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/dueling-pianos-13/2026-09-04/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260905",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-05/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20260905",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Sep 5, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-09-05/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20260905",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 5, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-09-05/"
+  },
+  {
+    "id": "dwc_plagues_and_pestilence_a_walking_tour_20_20260905",
+    "type": "event",
+    "title": "Plagues and Pestilence: A Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 5, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$16",
+      "time": "11 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/gi2z1fgscush151dd5mu.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/plagues-and-pestilence-a-walking-tour-2026/2026-09-05/"
+  },
+  {
+    "id": "dwc_am_radio_tribute_band_20260905",
+    "type": "event",
+    "title": "AM Radio Tribute Band",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 5, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [],
+      "price": "$46 - $51",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-am-radio-2026-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/am-radio-tribute-band-2/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260906",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 6, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-06/"
+  },
+  {
+    "id": "dwc_picnic_special_train_ride_2026_20260906",
+    "type": "event",
+    "title": "Picnic Special – Train Ride 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Sep 6, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "Free - $30",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/picnic-special-train-ride-2026/2026-09-06/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260907",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 7, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-07/"
+  },
+  {
+    "id": "dwc_social_sessions_hosted_by_dj_ha_20260908",
+    "type": "event",
+    "title": "Social Sessions Hosted by DJ HA",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 8, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [],
+      "price": "Donation",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/05/up-social-sessions-djha_tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/social-sessions-hosted-by-dj-ha/2026-09-08/"
+  },
+  {
+    "id": "dwc_part_time_job_fair_for_wcu_students_2026_20260909",
+    "type": "event",
+    "title": "Part Time Job Fair for WCU Students 2026",
+    "venue_info": {
+      "name": "align.Space, West Chester",
+      "location": {
+        "lat": 39.9592,
+        "lng": -75.6053
+      }
+    },
+    "raw_date_string": "Sep 9, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "3 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/WCU-Logo-square.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/part-time-job-fair-for-wcu-students-2026/"
+  },
+  {
+    "id": "dwc_plagues_and_pestilence_a_walking_tour_20_20260909",
+    "type": "event",
+    "title": "Plagues and Pestilence: A Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 9, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$16",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/gi2z1fgscush151dd5mu.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/plagues-and-pestilence-a-walking-tour-2026/2026-09-09/"
+  },
+  {
+    "id": "dwc_west_chester_comedy_festival_2026_20260910",
+    "type": "event",
+    "title": "West Chester Comedy Festival 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 10, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [],
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/07/wc-comedy-festival-2026.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-comedy-festival-2026/2026-09-10/"
+  },
+  {
+    "id": "dwc_book_discussion_unlikely_general_or_nati_20260910",
+    "type": "event",
+    "title": "Book Discussion – Unlikely General or Native Americans in the Revolution (hybrid)",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 10, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "Pay-As-You-Wish",
+      "time": "10 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/01/book-discussion.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/book-discussion-unlikely-general-or-native-americans-in-the-revolution-hybrid/"
+  },
+  {
+    "id": "dwc_come_out_west_chester_a_queer_friendly_h_20260910",
+    "type": "event",
+    "title": "Come Out, West Chester! – A Queer-Friendly Happy Hour",
+    "venue_info": {
+      "name": "LoCali Wine Lounge, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 10, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "5 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/come_out_west_chester_happy_hour.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/come-out-west-chester-a-queer-friendly-happy-hour-2/"
+  },
+  {
+    "id": "dwc_west_chester_comedy_festival_thursday_ni_20260910",
+    "type": "event",
+    "title": "West Chester Comedy Festival: Thursday Night Showcase at Turks Head Cafe",
+    "venue_info": {
+      "name": "Turks Head Cafe, West Chester",
+      "location": {
+        "lat": 39.9613,
+        "lng": -75.606
+      }
+    },
+    "raw_date_string": "Sep 10, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [],
+      "price": "$20",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/wc-comedy-festival-2026.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-comedy-festival-thursday-night-showcase-at-turks-head-cafe/"
+  },
+  {
+    "id": "dwc_west_chester_comedy_festival_thursday_ni_20260910",
+    "type": "event",
+    "title": "West Chester Comedy Festival: Thursday Night Showcase at Uptown",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 10, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [],
+      "price": "$26 - $31",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-wc-comedy-festival-2026-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-comedy-festival-thursday-night-showcase/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260911",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 11, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-11/"
+  },
+  {
+    "id": "dwc_west_chester_comedy_festival_2026_20260911",
+    "type": "event",
+    "title": "West Chester Comedy Festival 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 11, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [],
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/07/wc-comedy-festival-2026.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-comedy-festival-2026/2026-09-11/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20260911",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Sep 11, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-09-11/"
+  },
+  {
+    "id": "dwc_family_fun_fridays_at_penn_s_table_20260911",
+    "type": "event",
+    "title": "Family Fun Fridays at Penn's Table",
+    "venue_info": {
+      "name": "Penn's Table Restaurant, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6062
+      }
+    },
+    "raw_date_string": "Sep 11, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/05/family-fun-fridays.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/family-fun-fridays-at-penns-table/2026-09-11/"
+  },
+  {
+    "id": "dwc_bye_bye_birdie_20260911",
+    "type": "event",
+    "title": "Bye Bye Birdie",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 11, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$41 - $61",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-bye-bye-birdie-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bye-bye-birdie/2026-09-11/"
+  },
+  {
+    "id": "dwc_west_chester_comedy_festival_friday_head_20260911",
+    "type": "event",
+    "title": "West Chester Comedy Festival: Friday Headliner Show at Windish Studios",
+    "venue_info": {
+      "name": "Windish Studios, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 11, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [],
+      "time": "8 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/wc-comedy-festival-2026.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-comedy-festival-friday-headliner-show-at-windish-studios/"
+  },
+  {
+    "id": "dwc_west_chester_comedy_festival_friday_show_20260911",
+    "type": "event",
+    "title": "West Chester Comedy Festival: Friday Showcase at The Refinery",
+    "venue_info": {
+      "name": "The Refinery Hair Studio, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.6065
+      }
+    },
+    "raw_date_string": "Sep 11, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [],
+      "time": "8 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/wc-comedy-festival-2026.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-comedy-festival-friday-showcase-at-the-refinery/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260912",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-12/"
+  },
+  {
+    "id": "dwc_west_chester_comedy_festival_2026_20260912",
+    "type": "event",
+    "title": "West Chester Comedy Festival 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [],
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/07/wc-comedy-festival-2026.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-comedy-festival-2026/2026-09-12/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20260912",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-09-12/"
+  },
+  {
+    "id": "dwc_yoga_in_the_street_2026_20260912",
+    "type": "event",
+    "title": "Yoga in the Street 2026",
+    "venue_info": {
+      "name": "Gay Street, West Chester",
+      "location": {
+        "lat": 39.9605,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [],
+      "price": "$5",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/05/IMG_5405-IG-v2.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/yoga-in-the-street-2026/2026-09-12/"
+  },
+  {
+    "id": "dwc_west_chester_children_s_business_fair_20_20260912",
+    "type": "event",
+    "title": "West Chester Children's Business Fair 2026",
+    "venue_info": {
+      "name": "Jack Loew Plaza at 44 West, west chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/07/West-Chester-Childrens-Business-Fair-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-childrens-business-fair-2026/"
+  },
+  {
+    "id": "dwc_silent_book_club_west_chester_at_carlino_20260912",
+    "type": "event",
+    "title": "Silent Book Club West Chester at Carlino's Market",
+    "venue_info": {
+      "name": "Carlino's Market, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/IMG_1275.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/silent-book-club-west-chester-at-carlinos-market/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20260912",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-09-12/"
+  },
+  {
+    "id": "dwc_plagues_and_pestilence_a_walking_tour_20_20260912",
+    "type": "event",
+    "title": "Plagues and Pestilence: A Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$16",
+      "time": "11 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/gi2z1fgscush151dd5mu.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/plagues-and-pestilence-a-walking-tour-2026/2026-09-12/"
+  },
+  {
+    "id": "dwc_eagles_kickoff_event_at_la_chic_boutique_20260912",
+    "type": "event",
+    "title": "Eagles Kickoff Event at La Chic Boutique",
+    "venue_info": {
+      "name": "La Chic Boutique, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/Eagles.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/eagles-kickoff-event-at-la-chic-boutique/"
+  },
+  {
+    "id": "dwc_up_on_the_roof_2026_20260912",
+    "type": "event",
+    "title": "Up on the Roof 2026",
+    "venue_info": {
+      "name": "Chestnut Street Garage, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "5 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/05/UOTR-logo-2023.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/up-on-the-roof-2026/"
+  },
+  {
+    "id": "dwc_the_six_grapes_that_built_the_wine_world_20260912",
+    "type": "event",
+    "title": "The Six Grapes That Built the Wine World",
+    "venue_info": {
+      "name": "Turks Head Wines, West Chester",
+      "location": {
+        "lat": 39.9617,
+        "lng": -75.6068
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [],
+      "price": "$90",
+      "time": "5 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/turks-head-wines-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/the-six-grapes-that-built-the-wine-world/"
+  },
+  {
+    "id": "dwc_make_your_own_terrarium_workshop_20260912",
+    "type": "event",
+    "title": "Make Your Own Terrarium Workshop",
+    "venue_info": {
+      "name": "The Green House, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6053
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$80",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/07/Make-Your-Own-Terrarium-Green-House.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/make-your-own-terrarium-workshop-3/2026-09-12/"
+  },
+  {
+    "id": "dwc_west_chester_comedy_festival_saturday_sh_20260912",
+    "type": "event",
+    "title": "West Chester Comedy Festival: Saturday Showcase at Turks Head Cafe",
+    "venue_info": {
+      "name": "Turks Head Cafe, West Chester",
+      "location": {
+        "lat": 39.9613,
+        "lng": -75.606
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [],
+      "time": "6:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/wc-comedy-festival-2026.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-comedy-festival-saturday-showcase-at-turks-head-cafe/"
+  },
+  {
+    "id": "dwc_bye_bye_birdie_20260912",
+    "type": "event",
+    "title": "Bye Bye Birdie",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$41 - $61",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-bye-bye-birdie-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bye-bye-birdie/2026-09-12/"
+  },
+  {
+    "id": "dwc_better_than_bacon_september_2026_20260912",
+    "type": "event",
+    "title": "Better Than Bacon – September 2026",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [],
+      "price": "$31 - $36",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-better-than-bacon-tile-3.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/better-than-bacon-september-2026/"
+  },
+  {
+    "id": "dwc_west_chester_comedy_festival_the_set_up__20260912",
+    "type": "event",
+    "title": "West Chester Comedy Festival: The Set-Up Comedy Dating Show",
+    "venue_info": {
+      "name": "Turks Head Cafe, West Chester",
+      "location": {
+        "lat": 39.9613,
+        "lng": -75.606
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [],
+      "time": "8:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/wc-comedy-festival-2026.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-comedy-festival-the-set-up-comedy-dating-show/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260913",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 13, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-13/"
+  },
+  {
+    "id": "dwc_play_your_way_pop_up_20260913",
+    "type": "event",
+    "title": "Play Your Way Pop-Up",
+    "venue_info": {
+      "name": "wonderhouse, West Chester",
+      "location": {
+        "lat": 39.9608,
+        "lng": -75.6027
+      }
+    },
+    "raw_date_string": "Sep 13, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/770720303_17883088620615580_7690878799708524286_n.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/play-your-way-pop-up/"
+  },
+  {
+    "id": "dwc_picnic_special_train_ride_2026_20260913",
+    "type": "event",
+    "title": "Picnic Special – Train Ride 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Sep 13, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "Free - $30",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/picnic-special-train-ride-2026/2026-09-13/"
+  },
+  {
+    "id": "dwc_soldiers_trains_20260913",
+    "type": "event",
+    "title": "Soldiers & Trains",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Sep 13, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/soldiers-trains/"
+  },
+  {
+    "id": "dwc_bye_bye_birdie_20260913",
+    "type": "event",
+    "title": "Bye Bye Birdie",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 13, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$41 - $61",
+      "time": "3:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-bye-bye-birdie-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bye-bye-birdie/2026-09-13/"
+  },
+  {
+    "id": "dwc_movie_monday_series_2026_20260914",
+    "type": "event",
+    "title": "Movie Monday Series 2026",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 14, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$7",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/05/Uptown-copy.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/movie-monday-series-2026/2026-09-14/"
+  },
+  {
+    "id": "dwc_the_authentic_connection_what_ai_can_t_r_20260915",
+    "type": "event",
+    "title": "The Authentic Connection; what AI Can't Replace",
+    "venue_info": {
+      "name": "align.Space, West Chester",
+      "location": {
+        "lat": 39.9592,
+        "lng": -75.6053
+      }
+    },
+    "raw_date_string": "Sep 15, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$25 - $35",
+      "time": "8:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/tmp_8186_7-22-2026_71839_.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/the-authentic-connection-what-ai-cant-replace/"
+  },
+  {
+    "id": "dwc_plagues_and_pestilence_a_walking_tour_20_20260916",
+    "type": "event",
+    "title": "Plagues and Pestilence: A Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 16, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$16",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/gi2z1fgscush151dd5mu.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/plagues-and-pestilence-a-walking-tour-2026/2026-09-16/"
+  },
+  {
+    "id": "dwc_no_country_for_mothers_film_and_interact_20260916",
+    "type": "event",
+    "title": "No Country for Mothers: Film and Interactive Discussion",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 16, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-moms-first-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/no-country-for-mothers-film-and-interactive-discussion/"
+  },
+  {
+    "id": "dwc_veteran_s_roll_call_20260917",
+    "type": "event",
+    "title": "Veteran's Roll Call",
+    "venue_info": {
+      "name": "Artillery Brewing Company, West Chester",
+      "location": {
+        "lat": 39.9563,
+        "lng": -75.603
+      }
+    },
+    "raw_date_string": "Sep 17, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/Artillery-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/veterans-roll-call-4/2026-09-17/"
+  },
+  {
+    "id": "dwc_craft_night_at_tiger_snake_vintage_20260917",
+    "type": "event",
+    "title": "Craft Night at Tiger Snake Vintage",
+    "venue_info": {
+      "name": "Tiger Snake Vintage, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Sep 17, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/01/craft-night-tiger-snake.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/craft-night-at-tiger-snake-vintage/2026-09-17/"
+  },
+  {
+    "id": "dwc_jazz_cocktail_hour_hailey_brinnel_quarte_20260917",
+    "type": "event",
+    "title": "Jazz Cocktail Hour: Hailey Brinnel Quartet – Swingin' the 70's",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 17, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [],
+      "price": "$41 - $46",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-hailey-brinnel-quintet-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/jazz-cocktail-hour-hailey-brinnel-quartet-swingin-the-70s/"
+  },
+  {
+    "id": "dwc_the_beans_story_slam_school_days_20260917",
+    "type": "event",
+    "title": "The Beans Story Slam – SCHOOL DAYS",
+    "venue_info": {
+      "name": "Side Bar & Restaurant, West Chester",
+      "location": {
+        "lat": 39.9605,
+        "lng": -75.6045
+      }
+    },
+    "raw_date_string": "Sep 17, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$7 - $14",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/09/the-beans-story-slam-IG.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/the-beans-story-slam-school-days/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260918",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 18, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-18/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20260918",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Sep 18, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-09-18/"
+  },
+  {
+    "id": "dwc_family_fun_fridays_at_penn_s_table_20260918",
+    "type": "event",
+    "title": "Family Fun Fridays at Penn's Table",
+    "venue_info": {
+      "name": "Penn's Table Restaurant, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6062
+      }
+    },
+    "raw_date_string": "Sep 18, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/05/family-fun-fridays.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/family-fun-fridays-at-penns-table/2026-09-18/"
+  },
+  {
+    "id": "dwc_bye_bye_birdie_20260918",
+    "type": "event",
+    "title": "Bye Bye Birdie",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 18, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$41 - $61",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-bye-bye-birdie-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bye-bye-birdie/2026-09-18/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260919",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-19/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20260919",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-09-19/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20260919",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-09-19/"
+  },
+  {
+    "id": "dwc_plagues_and_pestilence_a_walking_tour_20_20260919",
+    "type": "event",
+    "title": "Plagues and Pestilence: A Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$16",
+      "time": "11 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/gi2z1fgscush151dd5mu.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/plagues-and-pestilence-a-walking-tour-2026/2026-09-19/"
+  },
+  {
+    "id": "dwc_make_your_own_terrarium_workshop_20260919",
+    "type": "event",
+    "title": "Make Your Own Terrarium Workshop",
+    "venue_info": {
+      "name": "The Green House, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6053
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$80",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/07/Make-Your-Own-Terrarium-Green-House.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/make-your-own-terrarium-workshop-3/2026-09-19/"
+  },
+  {
+    "id": "dwc_art_of_expression_20260919",
+    "type": "event",
+    "title": "Art of Expression",
+    "venue_info": {
+      "name": "Manjé Caribbean Cuisine, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$25",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/785993254_17885902350615496_3867651682545076732_n.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/art-of-expression-2/"
+  },
+  {
+    "id": "dwc_bye_bye_birdie_20260919",
+    "type": "event",
+    "title": "Bye Bye Birdie",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$41 - $61",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-bye-bye-birdie-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bye-bye-birdie/2026-09-19/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260920",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 20, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-20/"
+  },
+  {
+    "id": "dwc_rams_let_s_walk_a_5k_run_walk_to_support_20260920",
+    "type": "event",
+    "title": "Rams Let's Walk: A 5k Run & Walk to Support Student-Athlete Mental Health Initiatives",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 20, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [],
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/WCU-Logo-square.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/rams-lets-walk-a-5k-run-walk-to-support-student-athlete-mental-health-initiatives-2/"
+  },
+  {
+    "id": "dwc_45th_annual_west_chester_restaurant_and__20260920",
+    "type": "event",
+    "title": "45th Annual West Chester Restaurant and Food Truck Festival 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 20, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/01/parks-rec-logo-1.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/45th-annual-restaurant-festival-2026/"
+  },
+  {
+    "id": "dwc_picnic_special_train_ride_2026_20260920",
+    "type": "event",
+    "title": "Picnic Special – Train Ride 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Sep 20, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "Free - $30",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/picnic-special-train-ride-2026/2026-09-20/"
+  },
+  {
+    "id": "dwc_bye_bye_birdie_20260920",
+    "type": "event",
+    "title": "Bye Bye Birdie",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 20, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$41 - $61",
+      "time": "3:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-bye-bye-birdie-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bye-bye-birdie/2026-09-20/"
+  },
+  {
+    "id": "dwc_silent_book_club_west_chester_at_cutter__20260921",
+    "type": "event",
+    "title": "Silent Book Club West Chester at Cutter & Cannon",
+    "venue_info": {
+      "name": "Cutter & Cannon, West Chester",
+      "location": {
+        "lat": 39.9606,
+        "lng": -75.6035
+      }
+    },
+    "raw_date_string": "Sep 21, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "5 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/IMG_1320.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/silent-book-club-west-chester-at-cutter-cannon/"
+  },
+  {
+    "id": "dwc_succulent_pumpkin_workshop_at_stove_tap_20260922",
+    "type": "event",
+    "title": "Succulent Pumpkin Workshop at Stove & Tap",
+    "venue_info": {
+      "name": "Stove & Tap, West Chester",
+      "location": {
+        "lat": 39.9605,
+        "lng": -75.6079
+      }
+    },
+    "raw_date_string": "Sep 22, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$85",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/succulant-pumpkin-workshop-general.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/succulent-pumpkin-workshop-at-stove-and-tap/"
+  },
+  {
+    "id": "dwc_plagues_and_pestilence_a_walking_tour_20_20260923",
+    "type": "event",
+    "title": "Plagues and Pestilence: A Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 23, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$16",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/gi2z1fgscush151dd5mu.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/plagues-and-pestilence-a-walking-tour-2026/2026-09-23/"
+  },
+  {
+    "id": "dwc_dueling_pianos_with_the_philly_keys_20260923",
+    "type": "event",
+    "title": "Dueling Pianos with The Philly Keys",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 23, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [],
+      "price": "$31 - $36",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-philly-keys-tile-2-3.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/dueling-pianos-with-the-philly-keys-6/"
+  },
+  {
+    "id": "dwc_chef_s_table_at_9_prime_20260924",
+    "type": "event",
+    "title": "Chef's Table at 9 Prime",
+    "venue_info": {
+      "name": "9 Prime, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 24, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [],
+      "price": "$125",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/1E90pwLPU7sGgQqmv6MSohp3l8eOuApX9-1.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chefs-table-at-9-prime/"
+  },
+  {
+    "id": "dwc_bye_bye_birdie_20260924",
+    "type": "event",
+    "title": "Bye Bye Birdie",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 24, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$41 - $61",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-bye-bye-birdie-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bye-bye-birdie/2026-09-24/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260925",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 25, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-25/"
+  },
+  {
+    "id": "dwc_wcu_homecoming_2026_20260925",
+    "type": "event",
+    "title": "WCU Homecoming 2026",
+    "venue_info": {
+      "name": "West Chester University, West Chester",
+      "location": {
+        "lat": 39.949,
+        "lng": -75.6013
+      }
+    },
+    "raw_date_string": "Sep 25, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/Homecoming-Save-the-Date-Resized.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/wcu-homecoming-2026/2026-09-25/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20260925",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Sep 25, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-09-25/"
+  },
+  {
+    "id": "dwc_family_fun_fridays_at_penn_s_table_20260925",
+    "type": "event",
+    "title": "Family Fun Fridays at Penn's Table",
+    "venue_info": {
+      "name": "Penn's Table Restaurant, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6062
+      }
+    },
+    "raw_date_string": "Sep 25, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/05/family-fun-fridays.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/family-fun-fridays-at-penns-table/2026-09-25/"
+  },
+  {
+    "id": "dwc_bye_bye_birdie_20260925",
+    "type": "event",
+    "title": "Bye Bye Birdie",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 25, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$41 - $61",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-bye-bye-birdie-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bye-bye-birdie/2026-09-25/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260926",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-26/"
+  },
+  {
+    "id": "dwc_wcu_homecoming_2026_20260926",
+    "type": "event",
+    "title": "WCU Homecoming 2026",
+    "venue_info": {
+      "name": "West Chester University, West Chester",
+      "location": {
+        "lat": 39.949,
+        "lng": -75.6013
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/Homecoming-Save-the-Date-Resized.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/wcu-homecoming-2026/2026-09-26/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20260926",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-09-26/"
+  },
+  {
+    "id": "dwc_yoga_in_the_street_2026_20260926",
+    "type": "event",
+    "title": "Yoga in the Street 2026",
+    "venue_info": {
+      "name": "Gay Street, West Chester",
+      "location": {
+        "lat": 39.9605,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [],
+      "price": "$5",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/05/IMG_5405-IG-v2.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/yoga-in-the-street-2026/2026-09-26/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20260926",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-09-26/"
+  },
+  {
+    "id": "dwc_plagues_and_pestilence_a_walking_tour_20_20260926",
+    "type": "event",
+    "title": "Plagues and Pestilence: A Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$16",
+      "time": "11 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/gi2z1fgscush151dd5mu.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/plagues-and-pestilence-a-walking-tour-2026/2026-09-26/"
+  },
+  {
+    "id": "dwc_sicily_uncorked_native_grapes_from_volca_20260926",
+    "type": "event",
+    "title": "Sicily Uncorked: Native Grapes from Volcano to Coast",
+    "venue_info": {
+      "name": "Turks Head Wines, West Chester",
+      "location": {
+        "lat": 39.9617,
+        "lng": -75.6068
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [],
+      "price": "$95",
+      "time": "4 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/turks-head-wines-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/sicily-uncorked-native-grapes-from-volcano-to-coast-2/"
+  },
+  {
+    "id": "dwc_summer_pop_up_beer_garden_series_2026_20260926",
+    "type": "event",
+    "title": "Summer Pop-Up Beer Garden Series 2026",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [],
+      "time": "5 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/04/uptown-beer-garden2-stretch2.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/summer-pop-up-beer-garden-series-2026/2026-09-26/"
+  },
+  {
+    "id": "dwc_make_your_own_terrarium_workshop_20260926",
+    "type": "event",
+    "title": "Make Your Own Terrarium Workshop",
+    "venue_info": {
+      "name": "The Green House, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6053
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$80",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/07/Make-Your-Own-Terrarium-Green-House.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/make-your-own-terrarium-workshop-3/2026-09-26/"
+  },
+  {
+    "id": "dwc_bye_bye_birdie_20260926",
+    "type": "event",
+    "title": "Bye Bye Birdie",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$41 - $61",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-bye-bye-birdie-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bye-bye-birdie/2026-09-26/"
+  },
+  {
+    "id": "dwc_gay_street_open_air_market_2026_20260927",
+    "type": "event",
+    "title": "Gay Street Open-Air Market 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 27, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/12/IMG_1768-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gay-street-open-air-market-2026/2026-09-27/"
+  },
+  {
+    "id": "dwc_wcu_homecoming_2026_20260927",
+    "type": "event",
+    "title": "WCU Homecoming 2026",
+    "venue_info": {
+      "name": "West Chester University, West Chester",
+      "location": {
+        "lat": 39.949,
+        "lng": -75.6013
+      }
+    },
+    "raw_date_string": "Sep 27, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/Homecoming-Save-the-Date-Resized.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/wcu-homecoming-2026/2026-09-27/"
+  },
+  {
+    "id": "dwc_picnic_special_train_ride_2026_20260927",
+    "type": "event",
+    "title": "Picnic Special – Train Ride 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Sep 27, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "Free - $30",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/picnic-special-train-ride-2026/2026-09-27/"
+  },
+  {
+    "id": "dwc_bye_bye_birdie_20260927",
+    "type": "event",
+    "title": "Bye Bye Birdie",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 27, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$41 - $61",
+      "time": "3:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-bye-bye-birdie-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bye-bye-birdie/2026-09-27/"
+  },
+  {
+    "id": "dwc_kildare_s_whiskey_and_cigar_nights_20260929",
+    "type": "event",
+    "title": "Kildare's Whiskey and Cigar Nights",
+    "venue_info": {
+      "name": "Kildare's Irish Pub, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 29, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [],
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/Kildares-New-Logo-square.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/kildares-whiskey-and-cigar-nights/2026-09-29/"
+  },
+  {
+    "id": "dwc_plagues_and_pestilence_a_walking_tour_20_20260930",
+    "type": "event",
+    "title": "Plagues and Pestilence: A Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 30, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$16",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/gi2z1fgscush151dd5mu.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/plagues-and-pestilence-a-walking-tour-2026/2026-09-30/"
+  },
+  {
+    "id": "dwc_succulent_pumpkin_workshop_at_bierhaul_t_20260930",
+    "type": "event",
+    "title": "Succulent Pumpkin Workshop at Bierhaul Townhouse",
+    "venue_info": {
+      "name": "Bierhaul Townhouse, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 30, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$89",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/succulant-pumpkin-workshop-general.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/succulent-pumpkin-workshop-at-bierhaul-townhouse/"
+  },
+  {
+    "id": "dwc_stephanie_phillips_album_release_20260930",
+    "type": "event",
+    "title": "Stephanie Phillips – Album Release",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Sep 30, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [],
+      "price": "$31 - $36",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-stephanie-phillips-new-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/stephanie-phillips-album-release/"
+  },
+  {
+    "id": "dwc_echoes_of_the_past_a_west_chester_scaven_20261001",
+    "type": "event",
+    "title": "Echoes of the Past: A West Chester Scavenger Hunt 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 1, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$30 - $40",
+      "time": "5 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/tmp_8198_8-13-2026_63658_.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/echoes-of-the-past-a-west-chester-scavenger-hunt-2026/"
+  },
+  {
+    "id": "dwc_the_laugh_lounge_20261001",
+    "type": "event",
+    "title": "The Laugh Lounge",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 1, 2026",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [],
+      "price": "$31 - $36",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/laugh-lounge-at-uptown-1.webp"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/the-laugh-lounge-13/"
+  },
+  {
+    "id": "dwc_october_first_friday_2026_20261002",
+    "type": "event",
+    "title": "October First Friday 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 2, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/11/Final-First-Friday-Logo-1.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/october-first-friday-2026/"
+  },
+  {
+    "id": "dwc_fall_gallery_walk_2026_20261002",
+    "type": "event",
+    "title": "Fall Gallery Walk 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 2, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "4 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/08/Gallery-Walk-logo-banner.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-gallery-walk-2026/"
+  },
+  {
+    "id": "dwc_open_studio_at_ginkgo_arts_20261002",
+    "type": "event",
+    "title": "Open Studio at Ginkgo Arts",
+    "venue_info": {
+      "name": "Ginkgo Arts, West Chester",
+      "location": {
+        "lat": 39.9592,
+        "lng": -75.6053
+      }
+    },
+    "raw_date_string": "Oct 2, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "5 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/01/Ginkgo-square-logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/open-studio-at-ginkgo-arts-3/2026-10-02/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261002",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Oct 2, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-10-02/"
+  },
+  {
+    "id": "dwc_dueling_pianos_20261002",
+    "type": "event",
+    "title": "Dueling Pianos",
+    "venue_info": {
+      "name": "Kildare's Irish Pub, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 2, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/01/kildares-logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/dueling-pianos-13/2026-10-02/"
+  },
+  {
+    "id": "dwc_better_than_bacon_20261002",
+    "type": "event",
+    "title": "Better Than Bacon",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 2, 2026",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [],
+      "price": "$31 - $36",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-better-than-bacon-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/better-than-bacon-7/"
+  },
+  {
+    "id": "dwc_oktoberfest_2026_20261003",
+    "type": "event",
+    "title": "Oktoberfest 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/03/Oktoberfest-Logo-No-Year-Square.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/oktoberfest-2026/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261003",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-10-03/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20261003",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-10-03/"
+  },
+  {
+    "id": "dwc_navigating_tuscany_finding_the_true_gems_20261003",
+    "type": "event",
+    "title": "Navigating Tuscany: Finding the True Gems of Montepulciano, Chianti & Beyond",
+    "venue_info": {
+      "name": "Turks Head Wines, West Chester",
+      "location": {
+        "lat": 39.9617,
+        "lng": -75.6068
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [],
+      "price": "$95",
+      "time": "4 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/turks-head-wines-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/navigating-tuscany-finding-the-true-gems-of-montepulciano-chianti-beyond-2/"
+  },
+  {
+    "id": "dwc_beauty_bites_boutique_20261003",
+    "type": "event",
+    "title": "Beauty, Bites & Boutique",
+    "venue_info": {
+      "name": "La Chic Boutique, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "6:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/772697025_17984704305028621_4548175794353494900_n.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/beauty-bites-boutique/"
+  },
+  {
+    "id": "dwc_fall_foliage_express_2026_20261004",
+    "type": "event",
+    "title": "Fall Foliage Express 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 4, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "10 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-04/"
+  },
+  {
+    "id": "dwc_fall_foliage_express_2026_20261004",
+    "type": "event",
+    "title": "Fall Foliage Express 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 4, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-04/4/"
+  },
+  {
+    "id": "dwc_fall_foliage_express_2026_20261004",
+    "type": "event",
+    "title": "Fall Foliage Express 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 4, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "2 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-04/4/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261007",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 7, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-07/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261008",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 8, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-08/"
+  },
+  {
+    "id": "dwc_west_chester_social_club_x_chesco_tours__20261008",
+    "type": "event",
+    "title": "West Chester Social Club x ChesCo Tours: Haunted History of West Chester",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 8, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "6:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/WC-Social-and-chesco-tours.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-social-club-x-chesco-tours-haunted-history-of-west-chester/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261009",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Oct 9, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-10-09/"
+  },
+  {
+    "id": "dwc_gusten_rudolph_quintet_20261009",
+    "type": "event",
+    "title": "Gusten Rudolph Quintet",
+    "venue_info": {
+      "name": "Windish Studios, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 9, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [],
+      "price": "$25",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/07/Gusten-Rudolph-Quintet.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/gusten-rudolph-quintet/"
+  },
+  {
+    "id": "dwc_in_to_america_20261009",
+    "type": "event",
+    "title": "In To America",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 9, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$41 - $46",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-in-to-america-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/in-to-america/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261010",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-10-10/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20261010",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-10-10/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261010",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "11 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-10/"
+  },
+  {
+    "id": "dwc_art_sprouts_fall_art_in_the_woods_20261010",
+    "type": "event",
+    "title": "Art Sprouts: Fall Art in the Woods",
+    "venue_info": {
+      "name": "Chester County Art Association, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6118
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "11 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/Fall-Art-in-the-Woods-Flyer.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/art-sprouts-fall-art-in-the-woods/"
+  },
+  {
+    "id": "dwc_call_me_a_cab_a_world_tour_of_cabernet_s_20261010",
+    "type": "event",
+    "title": "Call Me a Cab: A World Tour of Cabernet Sauvignon",
+    "venue_info": {
+      "name": "Turks Head Wines, West Chester",
+      "location": {
+        "lat": 39.9617,
+        "lng": -75.6068
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [],
+      "price": "$90",
+      "time": "4:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/turks-head-wines-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/call-me-a-cab-a-world-tour-of-cabernet-sauvignon/"
+  },
+  {
+    "id": "dwc_the_brit_pack_with_artful_impact_20261010",
+    "type": "event",
+    "title": "The Brit Pack with Artful Impact",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$46 - $106",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-brit-pack-2026-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/the-brit-pack-with-artful-impact/"
+  },
+  {
+    "id": "dwc_fall_foliage_express_2026_20261011",
+    "type": "event",
+    "title": "Fall Foliage Express 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 11, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "10 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-11/"
+  },
+  {
+    "id": "dwc_west_chester_chili_cook_off_2026_20261011",
+    "type": "event",
+    "title": "West Chester Chili Cook-Off 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 11, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [],
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/01/cropped-2026-Chili-Cook-Off-Logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-chili-cook-off-2026/"
+  },
+  {
+    "id": "dwc_fall_foliage_express_2026_20261011",
+    "type": "event",
+    "title": "Fall Foliage Express 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 11, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-11/"
+  },
+  {
+    "id": "dwc_fall_foliage_express_2026_20261011",
+    "type": "event",
+    "title": "Fall Foliage Express 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 11, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "2 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-11/2/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261014",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 14, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-14/"
+  },
+  {
+    "id": "dwc_veteran_s_roll_call_20261015",
+    "type": "event",
+    "title": "Veteran's Roll Call",
+    "venue_info": {
+      "name": "Artillery Brewing Company, West Chester",
+      "location": {
+        "lat": 39.9563,
+        "lng": -75.603
+      }
+    },
+    "raw_date_string": "Oct 15, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/Artillery-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/veterans-roll-call-4/2026-10-15/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261015",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 15, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-15/"
+  },
+  {
+    "id": "dwc_craft_night_at_tiger_snake_vintage_20261015",
+    "type": "event",
+    "title": "Craft Night at Tiger Snake Vintage",
+    "venue_info": {
+      "name": "Tiger Snake Vintage, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Oct 15, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/01/craft-night-tiger-snake.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/craft-night-at-tiger-snake-vintage/2026-10-15/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261016",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Oct 16, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-10-16/"
+  },
+  {
+    "id": "dwc_josh_blue_20261016",
+    "type": "event",
+    "title": "Josh Blue",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 16, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$46 - $51",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-josh-blue-2-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/josh-blue/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261017",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-10-17/"
+  },
+  {
+    "id": "dwc_14th_annual_unite_for_her_run_walk_20261017",
+    "type": "event",
+    "title": "14th Annual Unite For HER Run/Walk",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [],
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/5k-Pics.gif"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/14th-annual-unite-for-her-run-walk/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20261017",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-10-17/"
+  },
+  {
+    "id": "dwc_fall_foliage_express_2026_20261017",
+    "type": "event",
+    "title": "Fall Foliage Express 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "10 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-17/"
+  },
+  {
+    "id": "dwc_la_chic_boutique_s_8th_anniversary_party_20261017",
+    "type": "event",
+    "title": "La Chic Boutique's 8th Anniversary Party",
+    "venue_info": {
+      "name": "La Chic Boutique, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "11 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/La-Chic-Logo-square.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/la-chic-boutiques-8th-anniversary-party/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261017",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "11 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-17/"
+  },
+  {
+    "id": "dwc_fall_foliage_express_2026_20261017",
+    "type": "event",
+    "title": "Fall Foliage Express 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-17/3/"
+  },
+  {
+    "id": "dwc_fall_foliage_express_2026_20261017",
+    "type": "event",
+    "title": "Fall Foliage Express 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "2 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-17/3/"
+  },
+  {
+    "id": "dwc_summer_pop_up_beer_garden_series_2026_20261017",
+    "type": "event",
+    "title": "Summer Pop-Up Beer Garden Series 2026",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [],
+      "time": "5 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/04/uptown-beer-garden2-stretch2.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/summer-pop-up-beer-garden-series-2026/2026-10-17/"
+  },
+  {
+    "id": "dwc_kashmir_the_spirit_of_led_zepplin_live_20261017",
+    "type": "event",
+    "title": "KASHMIR – THE SPIRIT OF LED ZEPPLIN LIVE",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$51 - $61",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-kashmir-2026-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/kashmir-the-spirit-of-led-zepplin-live/"
+  },
+  {
+    "id": "dwc_fall_foliage_express_2026_20261018",
+    "type": "event",
+    "title": "Fall Foliage Express 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 18, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "10 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-18/"
+  },
+  {
+    "id": "dwc_fall_foliage_express_2026_20261018",
+    "type": "event",
+    "title": "Fall Foliage Express 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 18, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-18/"
+  },
+  {
+    "id": "dwc_fall_foliage_express_2026_20261018",
+    "type": "event",
+    "title": "Fall Foliage Express 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 18, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$25 - $30",
+      "time": "2 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/fall-foliage-express-2026/2026-10-18/2/"
+  },
+  {
+    "id": "dwc_movie_monday_series_2026_20261019",
+    "type": "event",
+    "title": "Movie Monday Series 2026",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 19, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$7",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/05/Uptown-copy.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/movie-monday-series-2026/2026-10-19/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261020",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 20, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-20/"
+  },
+  {
+    "id": "dwc_pumpkin_boo_quet_workshop_at_stove_tap_20261020",
+    "type": "event",
+    "title": "Pumpkin BOO-quet Workshop at Stove & Tap",
+    "venue_info": {
+      "name": "Stove & Tap, West Chester",
+      "location": {
+        "lat": 39.9605,
+        "lng": -75.6079
+      }
+    },
+    "raw_date_string": "Oct 20, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$85",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/Pumpkin-bouqet-workshop-general.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/pumpkin-boo-quet-workshop-at-stove-tap/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261021",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 21, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-21/"
+  },
+  {
+    "id": "dwc_dueling_pianos_with_the_philly_keys_20261021",
+    "type": "event",
+    "title": "Dueling Pianos with The Philly Keys",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 21, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [],
+      "price": "$31 - $36",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-philly-keys-tile-2-4.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/dueling-pianos-with-the-philly-keys-7/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261022",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 22, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-22/"
+  },
+  {
+    "id": "dwc_glenn_miller_orchestra_20261022",
+    "type": "event",
+    "title": "Glenn Miller Orchestra",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 22, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [],
+      "price": "$51 - $56",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-glenn-miller-orchestra-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/glenn-miller-orchestra/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261023",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Oct 23, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-10-23/"
+  },
+  {
+    "id": "dwc_abacab_20261023",
+    "type": "event",
+    "title": "Abacab",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 23, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$46 - $51",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-abacab-tile2.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/abacab/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261024",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-10-24/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20261024",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-10-24/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261024",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "11 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-24/"
+  },
+  {
+    "id": "dwc_halloween_special_train_ride_2026_20261024",
+    "type": "event",
+    "title": "Halloween Special Train Ride 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$15 - $30",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/halloween-special-train-ride-2026/2026-10-24/"
+  },
+  {
+    "id": "dwc_halloween_special_train_ride_2026_20261024",
+    "type": "event",
+    "title": "Halloween Special Train Ride 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$15 - $30",
+      "time": "2 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/halloween-special-train-ride-2026/2026-10-24/2/"
+  },
+  {
+    "id": "dwc_make_your_own_terrarium_workshop_20261024",
+    "type": "event",
+    "title": "Make Your Own Terrarium Workshop",
+    "venue_info": {
+      "name": "The Green House, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6053
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$80",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/07/Make-Your-Own-Terrarium-Green-House.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/make-your-own-terrarium-workshop-3/2026-10-24/"
+  },
+  {
+    "id": "dwc_meet_loaf_20261024",
+    "type": "event",
+    "title": "Meet Loaf",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$46 - $51",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-meetloaf-2026-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/meet-loaf-3/"
+  },
+  {
+    "id": "dwc_halloween_special_train_ride_2026_20261025",
+    "type": "event",
+    "title": "Halloween Special Train Ride 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 25, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$15 - $30",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/halloween-special-train-ride-2026/2026-10-25/"
+  },
+  {
+    "id": "dwc_halloween_special_train_ride_2026_20261025",
+    "type": "event",
+    "title": "Halloween Special Train Ride 2026",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9596,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Oct 25, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$15 - $30",
+      "time": "2 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/wc-railroad.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/halloween-special-train-ride-2026/2026-10-25/3/"
+  },
+  {
+    "id": "dwc_acotar_6_midnight_release_party_20261026",
+    "type": "event",
+    "title": "ACOTAR 6 Midnight Release Party",
+    "venue_info": {
+      "name": "Leaves & Lore, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 26, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$55",
+      "time": "10:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/ACOTAR-party.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/acotar-6-midnight-release-party/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261027",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 27, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-27/"
+  },
+  {
+    "id": "dwc_kildare_s_whiskey_and_cigar_nights_20261027",
+    "type": "event",
+    "title": "Kildare's Whiskey and Cigar Nights",
+    "venue_info": {
+      "name": "Kildare's Irish Pub, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 27, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [],
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/Kildares-New-Logo-square.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/kildares-whiskey-and-cigar-nights/2026-10-27/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261028",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 28, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "5:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-28/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261028",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 28, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-28/"
+  },
+  {
+    "id": "dwc_west_chester_halloween_parade_2026_20261028",
+    "type": "event",
+    "title": "West Chester Halloween Parade 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 28, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/01/parks-rec-logo-1.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-halloween-parade-2026/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261029",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 29, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "5:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-29/"
+  },
+  {
+    "id": "dwc_pints_and_paints_2026_20261029",
+    "type": "event",
+    "title": "Pints and Paints 2026",
+    "venue_info": {
+      "name": "Artillery Brewing Company, West Chester",
+      "location": {
+        "lat": 39.9563,
+        "lng": -75.603
+      }
+    },
+    "raw_date_string": "Oct 29, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/Artillery-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/pints-and-paints-2026/2026-10-29/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261029",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 29, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-29/"
+  },
+  {
+    "id": "dwc_the_laugh_lounge_20261029",
+    "type": "event",
+    "title": "The Laugh Lounge",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 29, 2026",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [],
+      "price": "$31 - $36",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/laugh-lounge-at-uptown-2.webp"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/the-laugh-lounge-14/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261030",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Oct 30, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-10-30/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261031",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Oct 31, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-10-31/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20261031",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 31, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-10-31/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261031",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 31, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "11 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-10-31/"
+  },
+  {
+    "id": "dwc_make_your_own_terrarium_workshop_20261031",
+    "type": "event",
+    "title": "Make Your Own Terrarium Workshop",
+    "venue_info": {
+      "name": "The Green House, West Chester",
+      "location": {
+        "lat": 39.9604,
+        "lng": -75.6053
+      }
+    },
+    "raw_date_string": "Oct 31, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$80",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/07/Make-Your-Own-Terrarium-Green-House.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/make-your-own-terrarium-workshop-3/2026-10-31/"
+  },
+  {
+    "id": "dwc_the_rocky_horror_picture_show_20261031",
+    "type": "event",
+    "title": "The Rocky Horror Picture Show",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Oct 31, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$17 - $22",
+      "time": "9 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-rocky-horror-movie-tile-1.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/the-rocky-horror-picture-show/"
+  },
+  {
+    "id": "dwc_chilling_west_chester_a_dark_history_wal_20261104",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9645,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Nov 4, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$20",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/https___cdn.evbuc_.com_images_572922489_238442446664_1_original.jpeg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chilling-west-chester-a-dark-history-walking-tour-2026/2026-11-04/"
+  },
+  {
+    "id": "dwc_november_first_friday_2026_20261106",
+    "type": "event",
+    "title": "November First Friday 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 6, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/11/Final-First-Friday-Logo-1.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/november-first-friday-2026/"
+  },
+  {
+    "id": "dwc_wcu_family_weekend_2026_20261106",
+    "type": "event",
+    "title": "WCU Family Weekend 2026",
+    "venue_info": {
+      "name": "West Chester University, West Chester",
+      "location": {
+        "lat": 39.949,
+        "lng": -75.6013
+      }
+    },
+    "raw_date_string": "Nov 6, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/Family-Weekend-Banner-copy.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/wcu-family-weekend-2026/2026-11-06/"
+  },
+  {
+    "id": "dwc_open_studio_at_ginkgo_arts_20261106",
+    "type": "event",
+    "title": "Open Studio at Ginkgo Arts",
+    "venue_info": {
+      "name": "Ginkgo Arts, West Chester",
+      "location": {
+        "lat": 39.9592,
+        "lng": -75.6053
+      }
+    },
+    "raw_date_string": "Nov 6, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "5 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/01/Ginkgo-square-logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/open-studio-at-ginkgo-arts-3/2026-11-06/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261106",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Nov 6, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-11-06/"
+  },
+  {
+    "id": "dwc_dueling_pianos_20261106",
+    "type": "event",
+    "title": "Dueling Pianos",
+    "venue_info": {
+      "name": "Kildare's Irish Pub, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 6, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/01/kildares-logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/dueling-pianos-13/2026-11-06/"
+  },
+  {
+    "id": "dwc_wcu_family_weekend_2026_20261107",
+    "type": "event",
+    "title": "WCU Family Weekend 2026",
+    "venue_info": {
+      "name": "West Chester University, West Chester",
+      "location": {
+        "lat": 39.949,
+        "lng": -75.6013
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/Family-Weekend-Banner-copy.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/wcu-family-weekend-2026/2026-11-07/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261107",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-11-07/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20261107",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-11-07/"
+  },
+  {
+    "id": "dwc_wcu_family_weekend_2026_20261108",
+    "type": "event",
+    "title": "WCU Family Weekend 2026",
+    "venue_info": {
+      "name": "West Chester University, West Chester",
+      "location": {
+        "lat": 39.949,
+        "lng": -75.6013
+      }
+    },
+    "raw_date_string": "Nov 8, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/Family-Weekend-Banner-copy.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/wcu-family-weekend-2026/2026-11-08/"
+  },
+  {
+    "id": "dwc_mahjong_night_at_9_prime_20261112",
+    "type": "event",
+    "title": "Mahjong Night at 9 Prime",
+    "venue_info": {
+      "name": "9 Prime, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$25 - $75",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/1akRQwKanBpu_KGwZUz3xCwwbl3QiKTOf.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/mahjong-night-at-9-prime/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261113",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Nov 13, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-11-13/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261114",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Nov 14, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-11-14/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20261114",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 14, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-11-14/"
+  },
+  {
+    "id": "dwc_holiday_wreath_workshop_at_bierhaul_20261114",
+    "type": "event",
+    "title": "Holiday Wreath Workshop at Bierhaul",
+    "venue_info": {
+      "name": "Bierhaul Townhouse, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 14, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$95",
+      "time": "1 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/09/friendsgiving-wreath-workshop-at-bierhaul-townhouse-in-west-chester-pa-floral-design-class-christmas-wreath.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/holiday-wreath-workshop-at-bierhaul/"
+  },
+  {
+    "id": "dwc_2nd_annual_west_chester_holiday_shop_str_20261115",
+    "type": "event",
+    "title": "2nd Annual West Chester Holiday Shop & Stroll",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 15, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "12 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/shop-and-stroll-2026.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/2nd-annual-west-chester-holiday-shop-stroll/"
+  },
+  {
+    "id": "dwc_movie_monday_series_2026_20261116",
+    "type": "event",
+    "title": "Movie Monday Series 2026",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Nov 16, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$7",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/05/Uptown-copy.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/movie-monday-series-2026/2026-11-16/"
+  },
+  {
+    "id": "dwc_holiday_centerpiece_workshop_at_stove_ta_20261117",
+    "type": "event",
+    "title": "Holiday Centerpiece Workshop at Stove & Tap",
+    "venue_info": {
+      "name": "Stove & Tap, West Chester",
+      "location": {
+        "lat": 39.9605,
+        "lng": -75.6079
+      }
+    },
+    "raw_date_string": "Nov 17, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [],
+      "price": "$85",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/09/D6506897-A2E2-4080-8C33-488AE321E4C7.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/holiday-centerpiece-workshop-at-stove-tap/"
+  },
+  {
+    "id": "dwc_veteran_s_roll_call_20261119",
+    "type": "event",
+    "title": "Veteran's Roll Call",
+    "venue_info": {
+      "name": "Artillery Brewing Company, West Chester",
+      "location": {
+        "lat": 39.9563,
+        "lng": -75.603
+      }
+    },
+    "raw_date_string": "Nov 19, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/Artillery-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/veterans-roll-call-4/2026-11-19/"
+  },
+  {
+    "id": "dwc_craft_night_at_tiger_snake_vintage_20261119",
+    "type": "event",
+    "title": "Craft Night at Tiger Snake Vintage",
+    "venue_info": {
+      "name": "Tiger Snake Vintage, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Nov 19, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/01/craft-night-tiger-snake.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/craft-night-at-tiger-snake-vintage/2026-11-19/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261120",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Nov 20, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-11-20/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261121",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Nov 21, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-11-21/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20261121",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 21, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-11-21/"
+  },
+  {
+    "id": "dwc_kildare_s_whiskey_and_cigar_nights_20261124",
+    "type": "event",
+    "title": "Kildare's Whiskey and Cigar Nights",
+    "venue_info": {
+      "name": "Kildare's Irish Pub, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 24, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [],
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/Kildares-New-Logo-square.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/kildares-whiskey-and-cigar-nights/2026-11-24/"
+  },
+  {
+    "id": "dwc_west_chester_turkey_trot_2026_20261126",
+    "type": "event",
+    "title": "West Chester Turkey Trot 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 26, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "7:40 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/01/Turkey-Trot-Logo-No-Date.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-turkey-trot-2026/"
+  },
+  {
+    "id": "dwc_small_business_weekend_2026_20261127",
+    "type": "event",
+    "title": "Small Business Weekend 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 27, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/11/Small-Business-Weekend-Logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/small-business-weekend-2026/2026-11-27/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261127",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Nov 27, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-11-27/"
+  },
+  {
+    "id": "dwc_elf_20261127",
+    "type": "event",
+    "title": "Elf",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Nov 27, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "price": "$7 - $17",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/08/up-elf-movie-tile.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/elf/"
+  },
+  {
+    "id": "dwc_small_business_weekend_2026_20261128",
+    "type": "event",
+    "title": "Small Business Weekend 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 28, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/11/Small-Business-Weekend-Logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/small-business-weekend-2026/2026-11-28/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261128",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Nov 28, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-11-28/"
+  },
+  {
+    "id": "dwc_saturday_morning_walks_2026_20261128",
+    "type": "event",
+    "title": "Saturday Morning Walks 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 28, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/02/west-chester-walking-club.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/saturday-morning-walks-2026/2026-11-28/"
+  },
+  {
+    "id": "dwc_small_business_weekend_2026_20261129",
+    "type": "event",
+    "title": "Small Business Weekend 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 29, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "12 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/11/Small-Business-Weekend-Logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/small-business-weekend-2026/2026-11-29/"
+  },
+  {
+    "id": "dwc_december_first_friday_2026_20261204",
+    "type": "event",
+    "title": "December First Friday 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Dec 4, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/11/Final-First-Friday-Logo-1.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/december-first-friday-2026/"
+  },
+  {
+    "id": "dwc_open_studio_at_ginkgo_arts_20261204",
+    "type": "event",
+    "title": "Open Studio at Ginkgo Arts",
+    "venue_info": {
+      "name": "Ginkgo Arts, West Chester",
+      "location": {
+        "lat": 39.9592,
+        "lng": -75.6053
+      }
+    },
+    "raw_date_string": "Dec 4, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "5 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/01/Ginkgo-square-logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/open-studio-at-ginkgo-arts-3/2026-12-04/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261204",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Dec 4, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-12-04/"
+  },
+  {
+    "id": "dwc_dueling_pianos_20261204",
+    "type": "event",
+    "title": "Dueling Pianos",
+    "venue_info": {
+      "name": "Kildare's Irish Pub, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Dec 4, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2025/01/kildares-logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/dueling-pianos-13/2026-12-04/"
+  },
+  {
+    "id": "dwc_west_chester_hometown_christmas_parade_2_20261204",
+    "type": "event",
+    "title": "West Chester Hometown Christmas Parade 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Dec 4, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/01/CCH-Lights-Up-Logo-2026.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-hometown-christmas-parade-2026/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261205",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-12-05/"
+  },
+  {
+    "id": "dwc_santa_at_the_square_2026_20261205",
+    "type": "event",
+    "title": "Santa at the Square 2026",
+    "venue_info": {
+      "name": "Marshall Square Park, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "4:30 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/01/parks-rec-logo-1.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/santa-at-the-square-2026/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261211",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Dec 11, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-12-11/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261212",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-12-12/"
+  },
+  {
+    "id": "dwc_christkindlmarkt_2026_20261212",
+    "type": "event",
+    "title": "Christkindlmarkt 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "11 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/12/WCD_-Christkindlmarkt-2025_logo.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/christkindlmarkt-2026/"
+  },
+  {
+    "id": "dwc_movie_monday_series_2026_20261214",
+    "type": "event",
+    "title": "Movie Monday Series 2026",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Dec 14, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$7",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/05/Uptown-copy.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/movie-monday-series-2026/2026-12-14/"
+  },
+  {
+    "id": "dwc_veteran_s_roll_call_20261217",
+    "type": "event",
+    "title": "Veteran's Roll Call",
+    "venue_info": {
+      "name": "Artillery Brewing Company, West Chester",
+      "location": {
+        "lat": 39.9563,
+        "lng": -75.603
+      }
+    },
+    "raw_date_string": "Dec 17, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/Artillery-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/veterans-roll-call-4/2026-12-17/"
+  },
+  {
+    "id": "dwc_craft_night_at_tiger_snake_vintage_20261217",
+    "type": "event",
+    "title": "Craft Night at Tiger Snake Vintage",
+    "venue_info": {
+      "name": "Tiger Snake Vintage, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Dec 17, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2026/01/craft-night-tiger-snake.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/craft-night-at-tiger-snake-vintage/2026-12-17/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261218",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Dec 18, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-12-18/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261219",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Dec 19, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-12-19/"
+  },
+  {
+    "id": "dwc_movie_monday_series_2026_20261221",
+    "type": "event",
+    "title": "Movie Monday Series 2026",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Dec 21, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$7",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/05/Uptown-copy.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/movie-monday-series-2026/2026-12-21/"
+  },
+  {
+    "id": "dwc_bring_your_own_vinyl_night_20261225",
+    "type": "event",
+    "title": "Bring Your Own Vinyl Night",
+    "venue_info": {
+      "name": "Hop Fidelity, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.607
+      }
+    },
+    "raw_date_string": "Dec 25, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2023/09/bring-your-own-vinyl.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/bring-your-own-vinyl-night-2/2026-12-25/"
+  },
+  {
+    "id": "dwc_west_chester_growers_market_2026_20261226",
+    "type": "event",
+    "title": "West Chester Growers Market 2026",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9628,
+        "lng": -75.6072
+      }
+    },
+    "raw_date_string": "Dec 26, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free"
+      ],
+      "price": "Free",
+      "time": "9 AM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/growers-market-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-growers-market-2026-2/2026-12-26/"
+  },
+  {
+    "id": "dwc_movie_monday_series_2026_20261228",
+    "type": "event",
+    "title": "Movie Monday Series 2026",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9646,
+        "lng": -75.6044
+      }
+    },
+    "raw_date_string": "Dec 28, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [],
+      "price": "$7",
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2024/05/Uptown-copy.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/movie-monday-series-2026/2026-12-28/"
+  },
+  {
+    "id": "dwc_kildare_s_whiskey_and_cigar_nights_20261229",
+    "type": "event",
+    "title": "Kildare's Whiskey and Cigar Nights",
+    "venue_info": {
+      "name": "Kildare's Irish Pub, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Dec 29, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [],
+      "time": "7 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2021/01/Kildares-New-Logo-square.png"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/kildares-whiskey-and-cigar-nights/2026-12-29/"
+  },
+  {
+    "id": "dwc_pints_and_paints_2026_20261231",
+    "type": "event",
+    "title": "Pints and Paints 2026",
+    "venue_info": {
+      "name": "Artillery Brewing Company, West Chester",
+      "location": {
+        "lat": 39.9563,
+        "lng": -75.603
+      }
+    },
+    "raw_date_string": "Dec 31, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [],
+      "time": "6 PM"
+    },
+    "media": {
+      "image": "https://www.downtownwestchester.com/wp-content/uploads/2022/09/Artillery-logo.jpg"
+    },
+    "action_link": "https://www.downtownwestchester.com/event/pints-and-paints-2026/2026-12-31/"
+  }
+]
