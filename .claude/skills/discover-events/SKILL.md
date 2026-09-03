@@ -26,11 +26,13 @@ and images this routine cannot match. Likewise, don't re-list Uptown Knauer
 (`scrapers/uptown_knauer.py`), the Colonial Theatre, Philly Expo/Oaks, or
 Steel City — all scraped.
 
-This matters mechanically, not just aesthetically: `pipeline/merge.py` dedupes
-on **normalized title + `raw_date_string`**. If you write "45th Annual
-Restaurant Festival" and the scraper wrote "45th Annual West Chester Restaurant
-and Food Truck Festival 2026", both ship. The reader sees the same festival
-twice.
+The reason is **wasted effort, not broken output**. The pipeline dedupes three
+times — `merge.py` on title + raw date string, `transform.py` again on title +
+*parsed* date, then `fuzzy_dedupe` on token overlap for the same date — so
+near-duplicates do get collapsed. What overlap actually costs you is the whole
+run: researching 80 events by hand to contribute 8 new ones is a slow, failure-
+prone way to spend a routine, and the scraper's copy is better anyway (it
+carries start times, prices and images that research rarely recovers).
 
 So: your job is the venues and organizations that have no clean feed.
 
@@ -115,7 +117,11 @@ A JSON array of objects in exactly this shape:
 }
 ```
 
-**`raw_date_string` format is a hard contract** — it is half the dedupe key.
+**`raw_date_string` format** — use this exact shape. `transform.py` parses
+looser forms fine (Phoenixville's routine writes `"September 5, 2026 8:00 PM"`
+and nothing breaks), so this is hygiene rather than a hard requirement, but
+matching it lets duplicates collapse at the first pass instead of the third.
+Put the time in `attributes.time`, not in the date string.
 
 - Single day: `"Sep 17, 2026"`
 - Range in one month: `"Sep 12 - 13, 2026"`
