@@ -204,6 +204,13 @@
    "venue": "Great American Pub, 148 Bridge St, Phoenixville",
    "date": "2026-09-07"
   },
+  "bach-s-lunch-free-lunchtime-jazz-concert": {
+   "first_seen": "2026-09-03",
+   "title": "Bach's Lunch: Free Lunchtime Jazz Concert",
+   "venue": "Community Music School, 775 W Main St, Trappe",
+   "date": "2026-09-17",
+   "last_seen": "2026-09-03"
+  },
   "back-to-the-basics-comedy-show": {
    "first_seen": "2026-09-03",
    "title": "Back to the Basics Comedy Show",
@@ -434,6 +441,13 @@
    "title": "Collegeville Colossal Yard Sale",
    "venue": "Waterworks Park, West First Ave, Trappe (near Collegeville)",
    "date": "2026-09-06"
+  },
+  "collegeville-colossal-yard-sale-at-waterworks-park": {
+   "first_seen": "2026-09-03",
+   "title": "Collegeville Colossal Yard Sale at Waterworks Park",
+   "venue": "Waterworks Park, W First Ave, Trappe",
+   "date": "2026-09-05",
+   "last_seen": "2026-09-03"
   },
   "colonial-gardens-butterfly-festival": {
    "first_seen": "2026-07-23",
@@ -939,6 +953,13 @@
    "venue": "SoulJoel's at SunnyBrook – Gatsby's Pub, Pottstown",
    "date": "2026-09-15"
   },
+  "friends-of-pennypacker-mills-15th-annual-craft-marketplace": {
+   "first_seen": "2026-09-03",
+   "title": "Friends of Pennypacker Mills 15th Annual Craft Marketplace",
+   "venue": "Pennypacker Mills, 5 Haldeman Rd, Schwenksville",
+   "date": "2026-09-19",
+   "last_seen": "2026-09-03"
+  },
   "friends-of-the-brothers-a-celebration-of-the-allman-brothers-band": {
    "first_seen": "2026-08-26",
    "last_seen": "2026-09-03",
@@ -1352,12 +1373,26 @@
    "venue": "Limerick Township Veterans Pavilion, 646 W. Ridge Pike, Limerick",
    "date": "2026-08-13"
   },
+  "limerick-township-tricentennial-celebration": {
+   "first_seen": "2026-09-03",
+   "title": "Limerick Township Tricentennial Celebration",
+   "venue": "Waltz Golf Farm, 303 W Ridge Pike, Limerick",
+   "date": "2026-09-26",
+   "last_seen": "2026-09-03"
+  },
   "line-dancing-night-with-boot-scootin-becky-wxtu-92-5-at-sunnybrook": {
    "first_seen": "2026-08-21",
    "last_seen": "2026-09-03",
    "title": "Line Dancing Night with Boot Scootin' Becky & WXTU 92.5 at SunnyBrook",
    "venue": "SoulJoel's at SunnyBrook, Pottstown",
    "date": "2026-09-18"
+  },
+  "line-dancing-with-boot-scootin-becky-at-sunnybrook": {
+   "first_seen": "2026-09-03",
+   "title": "Line Dancing with Boot Scootin' Becky at SunnyBrook",
+   "venue": "SoulJoel's at SunnyBrook, 50 Sunnybrook Rd, Pottstown",
+   "date": "2026-09-08",
+   "last_seen": "2026-09-03"
   },
   "lisa-scottoline-this-changes-everything-live-author-event": {
    "first_seen": "2026-06-16",
@@ -1526,6 +1561,13 @@
    "title": "Movies on the Lawn: The Muppet Movie – Ursinus College",
    "venue": "Berman Lawn, Ursinus College, Collegeville",
    "date": "2026-08-07"
+  },
+  "native-plant-work-day-with-perkiomen-watershed-conservancy": {
+   "first_seen": "2026-09-03",
+   "title": "Native Plant Work Day with Perkiomen Watershed Conservancy",
+   "venue": "Perkiomen Watershed Conservancy, 1 Skippack Pike, Schwenksville",
+   "date": "2026-09-16",
+   "last_seen": "2026-09-03"
   },
   "navratri-festival-at-philadelphia-expo-center-live-garba": {
    "first_seen": "2026-08-18",
@@ -1849,6 +1891,13 @@
    "venue": "The Colonial Theatre",
    "date": "2026-07-05"
   },
+  "porch-performance-edgar-allan-poe-at-pennypacker-mills": {
+   "first_seen": "2026-09-03",
+   "title": "Porch Performance: Edgar Allan Poe at Pennypacker Mills",
+   "venue": "Pennypacker Mills, 5 Haldeman Rd, Schwenksville",
+   "date": "2026-10-03",
+   "last_seen": "2026-09-03"
+  },
   "porch-performance-montgomery-county-concert-band-at-pennypacker-mills": {
    "first_seen": "2026-08-03",
    "last_seen": "2026-08-23",
@@ -2115,6 +2164,13 @@
    "date": "2026-09-12",
    "last_seen": "2026-09-03"
   },
+  "sewing-the-symbol-history-of-flag-manufacturing-in-se-pennsylvania": {
+   "first_seen": "2026-09-03",
+   "title": "Sewing the Symbol: History of Flag Manufacturing in SE Pennsylvania",
+   "venue": "Royersford VFW, 730 S 4th Ave, Royersford",
+   "date": "2026-09-09",
+   "last_seen": "2026-09-03"
+  },
   "sinatra-bobby-darin-desimone-brothers-matinee-show": {
    "first_seen": "2026-08-14",
    "last_seen": "2026-09-03",
@@ -2213,6 +2269,13 @@
    "date": "2026-10-01",
    "last_seen": "2026-09-03"
   },
+  "storytime-in-the-park-at-lower-perkiomen-valley-park": {
+   "first_seen": "2026-09-03",
+   "title": "Storytime in the Park at Lower Perkiomen Valley Park",
+   "venue": "Lower Perkiomen Valley Park, 101 New Mill Rd, Oaks",
+   "date": "2026-09-09",
+   "last_seen": "2026-09-03"
+  },
   "strays-and-misfits-w-antar-goodwin-sam-houseal-band-the-gem": {
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-25",
@@ -2296,6 +2359,13 @@
    "title": "Tall Trees Music and Arts Festival 2026",
    "venue": "110 Tyson Mill Road, Collegeville",
    "date": "2026-09-26"
+  },
+  "tavern-night-at-dewees-tavern-german-buffet": {
+   "first_seen": "2026-09-03",
+   "title": "Tavern Night at Dewees Tavern: German Buffet",
+   "venue": "Dewees Tavern Museum, 301 W Main St, Trappe",
+   "date": "2026-09-24",
+   "last_seen": "2026-09-03"
   },
   "tell-me-lies-a-celebration-of-fleetwood-mac": {
    "first_seen": "2026-09-03",
@@ -2633,6 +2703,13 @@
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-07-18"
   },
+  "winemaker-s-tour-tasting-at-evansburg-vineyards": {
+   "first_seen": "2026-09-03",
+   "title": "Winemaker's Tour & Tasting at Evansburg Vineyards",
+   "venue": "Evansburg Vineyards, 3857 Germantown Pike, Collegeville",
+   "date": "2026-09-12",
+   "last_seen": "2026-09-03"
+  },
   "winetober-fest-skippack-village-wine-food-festival": {
    "first_seen": "2026-09-03",
    "last_seen": "2026-09-03",
@@ -2660,6 +2737,13 @@
    "title": "YARN – Brooklyn Americana Live at The Gem",
    "venue": "The Gem Music Hall, Spring City",
    "date": "2026-08-01"
+  },
+  "zoo-snooze-overnight-campout-at-elmwood-park-zoo": {
+   "first_seen": "2026-09-03",
+   "title": "Zoo Snooze Overnight Campout at Elmwood Park Zoo",
+   "venue": "Elmwood Park Zoo, 1661 Harding Blvd, Norristown",
+   "date": "2026-09-11",
+   "last_seen": "2026-09-03"
   }
  }
 }
