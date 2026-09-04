@@ -1,5 +1,23 @@
 [
   {
+    "title": "6abc features Bluebird's new pizza room on Bridge Street",
+    "category": "News",
+    "summary": "Bluebird Distilling's Phoenixville home now doubles as a pizzeria, and 6abc's FYI Philly put the made-over space on TV. Owner Jared Adkins added an open kitchen turning out handmade pies with local toppings, plus a fireplace dining room, a bar over the street and a patio seating more than two dozen.",
+    "date": "2026-09-05",
+    "loc": "100 Bridge Street, Phoenixville",
+    "link": "https://6abc.com/post/fyi-philly-september-5-2026/19785771/",
+    "img": ""
+  },
+  {
+    "title": "The Drift is serving seafood on Bridge Street",
+    "category": "Now Open",
+    "summary": "The Drift Seafood Kitchen & Raw Bar is up and running at 231 Bridge Street, marking Labor Day weekend as its first holiday stretch open. Hours run 4 to 10 p.m. Monday through Thursday, 11 a.m. to 11 p.m. Friday and Saturday, and 11 a.m. to 8 p.m. Sunday.",
+    "date": "2026-09-04",
+    "loc": "231 Bridge Street, Phoenixville",
+    "link": "https://thedriftseafood.com/",
+    "img": ""
+  },
+  {
     "title": "Colonial Theatre lays out a fall run of films, concerts and Halloween nights",
     "category": "News",
     "summary": "The Bridge Street theater's fall calendar runs Sept. 11 through Nov. 14, mixing tribute concerts, independent and cultural films and comedy with a month of horror programming in October. Anchors include the Exhumed Films 24-hour Horror-thon on Oct. 17 and a HUSH speakeasy night closing the season Nov. 14.",
@@ -18,12 +36,12 @@
     "img": ""
   },
   {
-    "title": "Seafood restaurant The Drift coming to Bridge Street",
-    "category": "Opening Soon",
-    "summary": "The Drift Seafood Kitchen & Raw Bar is preparing to open at 231 Bridge Street, taking a spot in the heart of the borough dining strip. The restaurant lists itself as coming soon and is currently hiring; no opening date has been announced.",
+    "title": "Phoenixville home values climb about 5% in a year",
+    "category": "News",
+    "summary": "Phoenixville Borough and Schuylkill Township posted roughly 5% annual price growth in July, which analysts tie to demand for homes within walking distance of downtown. Countywide the median sale price was $595,000, up 3.5% from a year earlier though down from June's $625,000.",
     "date": "2026-08-29",
-    "loc": "231 Bridge Street, Phoenixville",
-    "link": "https://thedriftseafood.com/",
+    "loc": "Phoenixville",
+    "link": "https://www.mychesco.com/a/lifestyle/home/real-estate-home/chester-county-home-prices-outpace-u-s-as-sales-stay-tight/",
     "img": ""
   },
   {
@@ -63,18 +81,9 @@
     "img": ""
   },
   {
-    "title": "Valley Forge Self Storage changes hands",
-    "category": "Development",
-    "summary": "Marcus & Millichap brokered the sale of the 415-unit Valley Forge Self Storage on S. 2nd Avenue to Manas Equities. The 2005-built facility covers 7.8 acres near Route 23 and the Schuylkill River, with climate-controlled and drive-up units plus covered parking.",
-    "date": "2026-08-14",
-    "loc": "30 S. 2nd Avenue, Phoenixville",
-    "link": "https://www.mychesco.com/a/news/business/real-estate/marcus-millichap-brokers-phoenixville-storage-sale/",
-    "img": ""
-  },
-  {
     "title": "Ocean State Job Lot still readying its Shoppes at Valley Forge store",
     "category": "Opening Soon",
-    "summary": "The discount chain is filling a 29,525-square-foot former Big Lots at the Shoppes at Valley Forge, its first store in Chester County and 14th in Pennsylvania. Hiring events ran through the summer for up to 70 jobs, and the company is targeting an opening after Labor Day in the second half of the year.",
+    "summary": "The discount chain is filling a 29,525-square-foot former Big Lots at the Shoppes at Valley Forge, its first store in Chester County and 14th in Pennsylvania. The store page still reads coming soon with no hours posted; the company has targeted an opening after Labor Day.",
     "date": "2026-07-31",
     "loc": "260 Schuylkill Road, East Pikeland",
     "link": "https://patch.com/pennsylvania/phoenixville/ocean-state-job-lot-nears-opening-phoenixville-area-walk-hiring-events",
