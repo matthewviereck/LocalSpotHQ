@@ -327,36 +327,6 @@
     "action_link": "https://souljoels.com/shop/tickets/salsaseptember5th/"
   },
   {
-    "id": "discovered_collegeville_yard_sale_20260906",
-    "type": "event",
-    "title": "Collegeville Colossal Yard Sale",
-    "venue_info": {
-      "name": "Waterworks Park, West First Ave, Trappe (near Collegeville)",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "September 6, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly",
-        "Yard Sale",
-        "Community",
-        "Vintage",
-        "Collegeville"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.collegevilledevelopment.org/collegeville-colossal-yard-sale/"
-  },
-  {
     "id": "discovered_pxv_inside_out_20260906",
     "type": "event",
     "title": "PXV Inside Out Music Series – Outdoor Street Performances",
