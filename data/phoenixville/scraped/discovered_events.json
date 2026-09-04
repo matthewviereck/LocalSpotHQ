@@ -1656,12 +1656,13 @@
         "Bounce Houses",
         "Collegeville"
       ],
-      "price": "Free"
+      "price": "Free",
+      "time": "12:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.uprov-montco.org/461/UPT-Community-Fall-Festival"
+    "action_link": "http://www.upperprovmcpa.gov/461/UPT-Community-Fall-Festival"
   },
   {
     "id": "discovered_farmers_market_20260919",
@@ -1811,38 +1812,6 @@
       "image": ""
     },
     "action_link": "https://thesession.org/sessions/2793"
-  },
-  {
-    "id": "discovered_upt_fall_fest_20260920",
-    "type": "event",
-    "title": "UPT Community Fall Festival",
-    "venue_info": {
-      "name": "Black Rock Park, 499 Hopwood Rd, Collegeville",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "September 20, 2026 12:00 PM",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly",
-        "Food Trucks",
-        "Bounce Houses",
-        "Petting Zoo",
-        "Beer Garden",
-        "Hayride",
-        "Collegeville"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://upperprovidencepa.myrec.com/info/activities/program_details.aspx?ProgramID=30513"
   },
   {
     "id": "discovered_comedy_open_mic_20260921",
@@ -2683,5 +2652,397 @@
       "image": ""
     },
     "action_link": "https://givebutter.com/2026-firebird-festival"
+  },
+  {
+    "id": "discovered_collegeville_colossal_yard_sale_20260905",
+    "type": "event",
+    "title": "Collegeville Colossal Yard Sale at Waterworks Park",
+    "venue_info": {
+      "name": "Waterworks Park, W First Ave, Trappe",
+      "location": {
+        "lat": 40.193,
+        "lng": -75.46
+      }
+    },
+    "raw_date_string": "Sep 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Yard Sale",
+        "80+ Sellers",
+        "Family Friendly",
+        "Rain Date Sep 13",
+        "Collegeville"
+      ],
+      "price": "Free",
+      "time": "9:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.collegeville-pa.gov/events/collegeville-colossal-yard-sale-waterworks-park/"
+  },
+  {
+    "id": "discovered_souljoels_line_dancing_20260908",
+    "type": "event",
+    "title": "Line Dancing with Boot Scootin' Becky at SunnyBrook",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, 50 Sunnybrook Rd, Pottstown",
+      "location": {
+        "lat": 40.2357,
+        "lng": -75.6168
+      }
+    },
+    "raw_date_string": "Sep 8, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Line Dancing",
+        "Beginner Lessons",
+        "DJ",
+        "Full Bar",
+        "Pottstown",
+        "Evening"
+      ],
+      "price": "$10",
+      "time": "6:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/linedancingseptember8th/"
+  },
+  {
+    "id": "discovered_sfahs_sewing_the_symbol_20260909",
+    "type": "event",
+    "title": "Sewing the Symbol: History of Flag Manufacturing in SE Pennsylvania",
+    "venue_info": {
+      "name": "Royersford VFW, 730 S 4th Ave, Royersford",
+      "location": {
+        "lat": 40.1798,
+        "lng": -75.5405
+      }
+    },
+    "raw_date_string": "Sep 9, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "History Talk",
+        "Spring-Ford Area Historical Society",
+        "America 250",
+        "Royersford",
+        "Evening"
+      ],
+      "price": "Free",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.sfahs.com/"
+  },
+  {
+    "id": "discovered_lpvp_storytime_20260909",
+    "type": "event",
+    "title": "Storytime in the Park at Lower Perkiomen Valley Park",
+    "venue_info": {
+      "name": "Lower Perkiomen Valley Park, 101 New Mill Rd, Oaks",
+      "location": {
+        "lat": 40.1355,
+        "lng": -75.452
+      }
+    },
+    "raw_date_string": "Sep 9, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Ages 3-5",
+        "Pre-Registration Required",
+        "Nature",
+        "Oaks",
+        "Morning"
+      ],
+      "price": "Free",
+      "time": "11:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.montgomerycountypa.gov/departments/parks-trails-historic-sites/parks/lower-perkiomen-valley-park"
+  },
+  {
+    "id": "discovered_zoo_snooze_20260911",
+    "type": "event",
+    "title": "Zoo Snooze Overnight Campout at Elmwood Park Zoo",
+    "venue_info": {
+      "name": "Elmwood Park Zoo, 1661 Harding Blvd, Norristown",
+      "location": {
+        "lat": 40.128,
+        "lng": -75.3413
+      }
+    },
+    "raw_date_string": "Sep 11, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Overnight",
+        "Campfire",
+        "Animal Show",
+        "Giraffe Feeding",
+        "Ages 4+",
+        "Dinner Included"
+      ],
+      "price": "$90 ($80 members)",
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://elmwoodparkzoo.org/zoo-snooze/"
+  },
+  {
+    "id": "discovered_zoo_snooze_20260925",
+    "type": "event",
+    "title": "Zoo Snooze Overnight Campout at Elmwood Park Zoo",
+    "venue_info": {
+      "name": "Elmwood Park Zoo, 1661 Harding Blvd, Norristown",
+      "location": {
+        "lat": 40.128,
+        "lng": -75.3413
+      }
+    },
+    "raw_date_string": "Sep 25, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Overnight",
+        "Campfire",
+        "Animal Show",
+        "Giraffe Feeding",
+        "Ages 4+",
+        "Dinner Included"
+      ],
+      "price": "$90 ($80 members)",
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://elmwoodparkzoo.org/zoo-snooze/"
+  },
+  {
+    "id": "discovered_evansburg_winemakers_tour_20260912",
+    "type": "event",
+    "title": "Winemaker's Tour & Tasting at Evansburg Vineyards",
+    "venue_info": {
+      "name": "Evansburg Vineyards, 3857 Germantown Pike, Collegeville",
+      "location": {
+        "lat": 40.1875,
+        "lng": -75.4195
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Wine Tasting",
+        "Vineyard Tour",
+        "21+",
+        "Collegeville",
+        "Morning"
+      ],
+      "price": "Check Link",
+      "time": "11:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://evansburgvineyards.com/event/winemakers-tourandtasting-2-2-2-2-2-2/"
+  },
+  {
+    "id": "discovered_pwc_native_plant_work_day_20260916",
+    "type": "event",
+    "title": "Native Plant Work Day with Perkiomen Watershed Conservancy",
+    "venue_info": {
+      "name": "Perkiomen Watershed Conservancy, 1 Skippack Pike, Schwenksville",
+      "location": {
+        "lat": 40.2566,
+        "lng": -75.4649
+      }
+    },
+    "raw_date_string": "Sep 16, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Volunteer",
+        "Outdoor",
+        "Native Plants",
+        "Weekly Wednesdays",
+        "Sign-Up Required"
+      ],
+      "price": "Free",
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.perkiomenwatershed.org/calendar"
+  },
+  {
+    "id": "discovered_cms_bachs_lunch_20260917",
+    "type": "event",
+    "title": "Bach's Lunch: Free Lunchtime Jazz Concert",
+    "venue_info": {
+      "name": "Community Music School, 775 W Main St, Trappe",
+      "location": {
+        "lat": 40.1993,
+        "lng": -75.4832
+      }
+    },
+    "raw_date_string": "Sep 17, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Jazz",
+        "Lunchtime",
+        "All Ages",
+        "Bring Your Lunch",
+        "Trappe"
+      ],
+      "price": "Free",
+      "time": "12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.cmsmusic.org/event/bachs-lunch-concert-7/2026-09-17/"
+  },
+  {
+    "id": "discovered_pennypacker_craft_marketplace_20260919",
+    "type": "event",
+    "title": "Friends of Pennypacker Mills 15th Annual Craft Marketplace",
+    "venue_info": {
+      "name": "Pennypacker Mills, 5 Haldeman Rd, Schwenksville",
+      "location": {
+        "lat": 40.2584,
+        "lng": -75.4652
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "100+ Vendors",
+        "Handmade Crafts",
+        "Food Truck",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.friendsppm.org/craft-marketplace.html"
+  },
+  {
+    "id": "discovered_historic_trappe_tavern_night_20260924",
+    "type": "event",
+    "title": "Tavern Night at Dewees Tavern: German Buffet",
+    "venue_info": {
+      "name": "Dewees Tavern Museum, 301 W Main St, Trappe",
+      "location": {
+        "lat": 40.199,
+        "lng": -75.479
+      }
+    },
+    "raw_date_string": "Sep 24, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Ticketed",
+        "Buffet Dinner",
+        "Beer & Wine",
+        "Historic Trappe",
+        "Limited Seating",
+        "Evening"
+      ],
+      "price": "Check Link",
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historictrappe.org/tavern-night/"
+  },
+  {
+    "id": "discovered_limerick_tricentennial_20260926",
+    "type": "event",
+    "title": "Limerick Township Tricentennial Celebration",
+    "venue_info": {
+      "name": "Waltz Golf Farm, 303 W Ridge Pike, Limerick",
+      "location": {
+        "lat": 40.2185,
+        "lng": -75.515
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Fireworks",
+        "Live Concert",
+        "Food Trucks",
+        "Beer Garden",
+        "Historical Demonstrations",
+        "Kids Activities",
+        "300th Anniversary"
+      ],
+      "price": "Check Link",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.limerickpa.org/448/Tricentennial-Celebration"
+  },
+  {
+    "id": "discovered_pennypacker_poe_porch_20261003",
+    "type": "event",
+    "title": "Porch Performance: Edgar Allan Poe at Pennypacker Mills",
+    "venue_info": {
+      "name": "Pennypacker Mills, 5 Haldeman Rd, Schwenksville",
+      "location": {
+        "lat": 40.2584,
+        "lng": -75.4652
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Bring a Chair",
+        "All Ages",
+        "Spooky",
+        "Friends of Pennypacker Mills"
+      ],
+      "price": "Free",
+      "time": "4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.montgomerycountypa.gov/departments/parks-trails-historic-sites/historic-sites/pennypacker-mills/upcoming-events"
   }
 ]
