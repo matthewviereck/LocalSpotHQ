@@ -152,7 +152,10 @@ def _price(cost):
 
 
 def _time_label(start, all_day):
-    if all_day or not start:
+    # The Events Calendar reports multi-day/all-day listings (Homecoming,
+    # festivals) as a 00:00 start with all_day false; "12 AM" is never a real
+    # start time, and a bogus time also wins dedupe against a better copy.
+    if all_day or not start or (start.hour == 0 and start.minute == 0):
         return ''
     hour = start.hour % 12 or 12
     suffix = 'AM' if start.hour < 12 else 'PM'

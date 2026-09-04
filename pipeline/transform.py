@@ -218,11 +218,19 @@ def get_smart_label(event_date):
         return ""
 
 
+from pipeline.slugs import venue_key  # noqa: E402  (no cycle: slugs imports only analytics)
+
 _TITLE_STOPWORDS = {'the', 'a', 'an', 'at', 'of', 'in', 'on', 'with', 'and', 'for', 'to'}
 
 
 def _title_tokens(title):
-    words = re.findall(r'[a-z0-9]+', title.lower())
+    # Years and ordinals never distinguish two events on the same date -
+    # "WCU Homecoming 2026" and "WCU Homecoming & Family Weekend" are one
+    # event, and "29th Annual Kennett Brewfest" is "Kennett Brewfest".
+    # Left in, the year is the one token that fails the 100% overlap rule.
+    t = re.sub(r'\b(?:19|20)\d{2}\b', ' ', title.lower())
+    t = re.sub(r'\b\d+(?:st|nd|rd|th)\b', ' ', t)
+    words = re.findall(r'[a-z0-9]+', t)
     return frozenset(w for w in words if w not in _TITLE_STOPWORDS)
 
 
@@ -235,7 +243,19 @@ def fuzzy_dedupe(events):
     same-series events like "CIRQUE du BLOBFEST: Costume Contest" vs
     "...: Blob Ball - Annual Costume Gala" overlap at exactly 0.80 and are
     distinct. Keeps the richer copy. Undated events are skipped - they all
-    share a sentinel timestamp and would over-merge."""
+    share a sentinel timestamp and would over-merge.
+
+    A title match alone is not enough when the titles differ a lot in
+    length: an umbrella listing ("West Chester Comedy Festival", "WCU
+    Homecoming") is a token-subset of every one of its sub-events ("...:
+    Friday Headliner Show at Windish Studios", "WCU Homecoming Football:
+    Golden Rams vs. Millersville"), and those are distinct events at
+    distinct venues. So a lopsided pair (smaller title under 3/4 the size of
+    the larger) only merges when both copies sit at the same venue - which
+    is exactly what the same event from two sources looks like. Known cost:
+    one show under two venue names ("Paranormal Cirque" at the Expo Center
+    vs "...Specter - Horror Circus" at "Paranormal Cirque Big Top") now
+    lists twice. A duplicate row beats a vanished event."""
     by_date = {}
     for ev in events:
         by_date.setdefault(ev['_sort_date'], []).append(ev)
@@ -254,7 +274,10 @@ def fuzzy_dedupe(events):
             for entry in kept:
                 small, large = (tokens, entry[0]) if len(tokens) <= len(entry[0]) else (entry[0], tokens)
                 overlap = len(small & large) / len(small) if small else 0
-                if (len(small) >= 2 and overlap == 1.0) or (len(small) >= 4 and overlap >= 0.85):
+                similar = (len(small) >= 2 and overlap == 1.0) or (len(small) >= 4 and overlap >= 0.85)
+                close = (len(small) / len(large) >= 0.75 if large else False) \
+                    or venue_key(ev.get('loc')) == venue_key(entry[1].get('loc'))
+                if similar and close:
                     removed += 1
                     if richness > entry[2]:
                         entry[0], entry[1], entry[2] = tokens, ev, richness
