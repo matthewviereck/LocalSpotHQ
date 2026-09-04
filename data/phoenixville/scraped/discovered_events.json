@@ -1,94 +1,5 @@
 [
   {
-    "id": "discovered_stable12_trivia_20260902",
-    "type": "event",
-    "title": "Pub Trivia Night at Stable 12 Brewing",
-    "venue_info": {
-      "name": "Stable 12 Brewing Co., 368 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "September 2, 2026 7:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Trivia",
-        "Craft Beer",
-        "Brewery",
-        "Free",
-        "Wednesday Night Out",
-        "Downtown Phoenixville"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.stable12.com/on-wednesdays-we-play-trivia/"
-  },
-  {
-    "id": "discovered_pottstown_fall_fest_20260902",
-    "type": "event",
-    "title": "Pottstown Fall Fest 2026",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "September 2, 2026 12:00 PM",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Fall Festival",
-        "Outdoor",
-        "Family Friendly",
-        "Community",
-        "Vendors",
-        "Pottstown",
-        "Afternoon"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/pottstownfallfest2026/"
-  },
-  {
-    "id": "discovered_out_there_colonial_20260903",
-    "type": "event",
-    "title": "\"Out There: A National Parks Story\" – Film & Filmmaker Q&A",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "September 3, 2026",
-    "attributes": {
-      "category": "Guest Presentations",
-      "vibes": [
-        "Documentary",
-        "National Parks",
-        "Filmmaker Q&A",
-        "Valley Forge Park Alliance",
-        "Road Trip",
-        "Nature",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/guest-presentations/"
-  },
-  {
     "id": "discovered_first_friday_september_20260904",
     "type": "event",
     "title": "Phoenixville First Friday – September",
@@ -3014,5 +2925,150 @@
       "image": ""
     },
     "action_link": "https://www.montgomerycountypa.gov/departments/parks-trails-historic-sites/historic-sites/pennypacker-mills/upcoming-events"
+  },
+  {
+    "id": "discovered_farmers_market_20261003",
+    "type": "event",
+    "title": "Phoenixville Farmers Market – Saturday",
+    "venue_info": {
+      "name": "Phoenixville Farmers Market, 200 Mill St (under Gay St Bridge)",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "October 3, 2026 9:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Local Produce",
+        "Artisan Food",
+        "Family Friendly",
+        "Live Music",
+        "Seasonal"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefarmersmarket.org/"
+  },
+  {
+    "id": "discovered_super_art_fight_colonial_20261003",
+    "type": "event",
+    "title": "Super Art Fight – Live Art Competition at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "October 3, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Live Art",
+        "Competition",
+        "Audience Participation",
+        "Unique",
+        "Indoor",
+        "Saturday Night"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/"
+  },
+  {
+    "id": "discovered_joe_matarese_souljoels_20261003",
+    "type": "event",
+    "title": "Joe Matarese – Live Stand-Up Comedy at SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "October 3, 2026 6:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Saturday Night",
+        "Pottstown",
+        "Headline Show"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/upcoming-events/"
+  },
+  {
+    "id": "discovered_pxv_inside_out_20261004",
+    "type": "event",
+    "title": "PXV Inside Out Music Series – Final Sunday of the Season",
+    "venue_info": {
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "October 4, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Street Performance",
+        "Community",
+        "Family Friendly",
+        "Season Finale"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
+  },
+  {
+    "id": "discovered_mm_irish_sessions_20261004",
+    "type": "event",
+    "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
+    "venue_info": {
+      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
+      "location": {
+        "lat": 40.1317,
+        "lng": -75.5149
+      }
+    },
+    "raw_date_string": "October 4, 2026 4:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Irish Music",
+        "Traditional",
+        "Acoustic",
+        "Irish Pub",
+        "Sunday Afternoon"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thesession.org/sessions/2793"
   }
 ]
