@@ -177,9 +177,12 @@ jobs:
           fi
           git commit -m "Update slug registry ($(date +%F))"
           # Discovery commits land on master at other times of day; rebase
-          # over them rather than fail the push.
+          # over them rather than fail the push. --autostash because the build
+          # leaves other tracked files modified (scraper fallback JSON, the
+          # generated data dir) and a plain rebase refuses to start on a dirty
+          # tree - that failed run #33829506286 after a successful deploy.
           for attempt in 1 2 3; do
-            git pull --rebase origin master && git push origin HEAD:master && break
+            git pull --rebase --autostash origin master && git push origin HEAD:master && break
             [ "$attempt" -eq 3 ] && { echo "::error::could not push slug registry"; exit 1; }
             sleep 15
           done
