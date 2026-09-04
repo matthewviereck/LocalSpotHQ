@@ -18,6 +18,12 @@ concurrency:
   group: build-deploy-phoenixville
   cancel-in-progress: false
 
+# The build writes data/*/slug_registry.json (which URL each event has been
+# published under) and the workflow commits it back - see "Persist slug
+# registry". Without that write, every rename would still 404 the next day.
+permissions:
+  contents: write
+
 env:
   # The pipeline's date math (today/tomorrow/weekend windows) uses local time;
   # runners are UTC by default, which would mislabel events for 4-5 h a day.
@@ -43,6 +49,11 @@ jobs:
         # never drift from the template's classes
         run: npx --yes tailwindcss@3.4.17 --content templates/app_template.html -o assets/app.css --minify
 
+      - name: Test URL-stability rules
+        # pipeline/slugs.py decides which event URLs live, redirect or die;
+        # a regression there 404s ranked pages, so it gates the build.
+        run: python -m unittest tests.test_slugs
+
       - name: Build Phoenixville
         run: python pipeline/run.py --area phoenixville
 
@@ -61,6 +72,11 @@ jobs:
           test -s output/index.html
           test -s output/sitemap.xml
           test -s output/robots.txt
+          # Retired event URLs must resolve to a redirect/stub/410, never 404
+          test -s output/phoenixville/.htaccess
+          test -s output/west_chester/.htaccess
+          test -s data/phoenixville/slug_registry.json
+          test -s data/west_chester/slug_registry.json
           # Every generated page must carry the GA tag, or analytics goes blind
           # on exactly the pages organic search lands on.
           for p in output/phoenixville/this-weekend/index.html \
@@ -145,6 +161,29 @@ jobs:
           SUBS=$($RSH "$DEPLOY_USER@$HOST" "grep -c '\"email\"' domains/localspothq.com/subscribers.json 2>/dev/null || echo 0")
           echo "Email subscribers: $SUBS" | tee -a "$GITHUB_STEP_SUMMARY"
           echo "Deployed: https://www.localspothq.com/phoenixville/ and https://www.localspothq.com/west-chester/" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      # The registry is the memory that keeps event URLs stable across renames.
+      # It only helps if the next run can read what this run assigned, so it
+      # goes back to master. Runs after deploy so the committed state matches
+      # what is live; before the health check so a dark venue can't lose it.
+      - name: Persist slug registry
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*/slug_registry.json
+          if git diff --cached --quiet; then
+            echo "Slug registry unchanged" | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git commit -m "Update slug registry ($(date +%F))"
+          # Discovery commits land on master at other times of day; rebase
+          # over them rather than fail the push.
+          for attempt in 1 2 3; do
+            git pull --rebase origin master && git push origin HEAD:master && break
+            [ "$attempt" -eq 3 ] && { echo "::error::could not push slug registry"; exit 1; }
+            sleep 15
+          done
+          echo "Slug registry committed" | tee -a "$GITHUB_STEP_SUMMARY"
 
       # Deliberately AFTER the deploy. Every scraper falls back to its last-good
       # file when a fetch fails, so a permanently broken one is otherwise

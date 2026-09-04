@@ -397,7 +397,9 @@
     }
     // Every event has a generated SEO page at events/<slug>/ — link there, not
     // off-site, so the visit stays on LocalSpot and the page earns its traffic.
-    const eventHref = e => "events/" + eventSlug(e.title) + "/";
+    // The slug is assigned by pipeline/slugs.py (pinned so a re-titled event
+    // keeps its URL); recomputing it from the title is only a fallback.
+    const eventHref = e => "events/" + (e.slug || eventSlug(e.title)) + "/";
 
     // Inside a date-grouped list the header already gives the date, so an
     // event with no published time renders a blank slot rather than repeating it.

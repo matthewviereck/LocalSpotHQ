@@ -111,6 +111,15 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   and Uptown publish neither (times live in AgileTicketing/OvationTix widgets),
   so those come from recurring config and discovery only.
 - Root-level JSON files (all_events.json, etc.) are deprecated; pipeline uses `data/` subdirectories
+- **Event URLs are pinned, not derived.** `pipeline/slugs.py` assigns each
+  event's slug from the committed `data/<area>/slug_registry.json` (same
+  venue + date + similar title = same URL, even after discovery re-titles it;
+  same venue + year-stripped title = the annual repeat inherits the URL).
+  New slugs drop standalone years. Every registered slug missing from a build
+  gets a 301 (superseded), a stub page (ended < 90 days ago) or a 410 via the
+  generated `output/<area>/.htaccess` - never a 404. The workflow commits the
+  registry back after each deploy; **never delete or hand-edit it**, and never
+  compute a slug from a title anywhere else (the app reads `e.slug`).
 
 ## Vault: log meaningful work without being asked
 

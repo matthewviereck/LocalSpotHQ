@@ -24,6 +24,7 @@ from pipeline.postprocess import remove_landing_page
 from pipeline.feeds import generate_this_weekend_page, generate_ics
 from pipeline.pwa import emit_pwa_assets
 from pipeline.event_pages import generate_event_pages, generate_area_sitemap
+from pipeline.slugs import REGISTRY_FILE, SlugRegistry, assign_slugs, emit_retired
 from pipeline.guides import generate_guide_pages
 from pipeline.community import emit_community
 
@@ -126,6 +127,12 @@ def run_area(area_id):
     formatted_output = os.path.join(data_dir, 'generated', 'events_formatted.json')
     transform_events(merged_output, formatted_output)
 
+    # Step 4b: Pin each event's URL slug via the committed registry, BEFORE
+    # inject so the app links to the same URL the event page is built at.
+    print(f"\n--- Step 4b: Stable event slugs ---")
+    registry = SlugRegistry(os.path.join(data_dir, REGISTRY_FILE))
+    events = assign_slugs(formatted_output, registry)
+
     # Step 5: Inject data into HTML template
     print(f"\n--- Step 5: Inject data into template ---")
     template_path = os.path.join(PROJECT_ROOT, 'templates', 'app_template.html')
@@ -167,6 +174,13 @@ def run_area(area_id):
     event_slugs = generate_event_pages(formatted_output, output_dir, config)
     guide_slugs = generate_guide_pages(os.path.join(data_dir, 'guides.json'), output_dir, config)
     generate_area_sitemap(output_dir, config, event_slugs, guide_slugs)
+
+    # Step 9a: Every slug that was ever published but isn't in this build
+    # gets a 301, a stub or a 410 (output/<area>/.htaccess + stub pages).
+    # The registry is committed back by the workflow after deploy.
+    print(f"\n--- Step 9a: Retired event URLs ---")
+    emit_retired(registry, events, output_dir, config)
+    registry.save()
 
     # Step 9b: Community board (must be inside the build - deploy uses --delete)
     print("\n--- Step 9b: Community board ---")

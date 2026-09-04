@@ -1,10 +1,11 @@
 """Per-event SEO pages + area sitemap.
 
 Each dated event gets /events/<slug>/index.html with Event JSON-LD - the
-long-tail search surface one aggregate page can't rank for. Slugs are
-title-only (matching the app's #event= deep links); recurring events that
-share a title (52 Farmers Markets) collapse to ONE page for their next
-occurrence rather than a pile of near-duplicate thin pages.
+long-tail search surface one aggregate page can't rank for. Slugs come from
+pipeline/slugs.py (assigned into the formatted events file before this runs,
+pinned by a committed registry so a re-titled event keeps its URL); recurring
+events that share a slug (52 Farmers Markets) collapse to ONE page for their
+next occurrence rather than a pile of near-duplicate thin pages.
 """
 
 import html
@@ -19,6 +20,7 @@ from pipeline.analytics import GA_SNIPPET
 
 
 def _slug(title):
+    # Fallback only - the pipeline assigns ev['slug'] via pipeline/slugs.py
     return re.sub(r'^-|-$', '', re.sub(r'[^a-z0-9]+', '-', title.lower()))
 
 
@@ -108,7 +110,7 @@ def _event_page(ev, d, area_config):
     area_name = area_config['name']
     base_url = area_config['meta']['canonical_url'].rstrip('/')
     og_image = area_config['meta'].get('og_image', '')
-    slug = _slug(ev['title'])
+    slug = ev.get('slug') or _slug(ev['title'])
     canonical = f"{base_url}/events/{slug}/"
 
     title = ev['title']
@@ -231,7 +233,9 @@ def generate_event_pages(events_file, output_dir, area_config):
 
     events_dir = os.path.join(output_dir, 'events')
     # Regenerate from scratch so pages for past/removed events don't linger
-    # (the deploy rsync uses --delete, so they disappear from the server too)
+    # (the deploy rsync uses --delete, so they disappear from the server too).
+    # pipeline/slugs.emit_retired runs afterwards and gives every URL that
+    # disappears a redirect, a stub or a 410 - never a bare 404.
     if os.path.isdir(events_dir):
         shutil.rmtree(events_dir)
 
@@ -243,7 +247,7 @@ def generate_event_pages(events_file, output_dir, area_config):
             continue
         slug, page = _event_page(ev, d, area_config)
         if not slug or slug in seen:
-            continue  # recurring titles collapse to their next occurrence
+            continue  # recurring slugs collapse to their next occurrence
         seen.add(slug)
         page_dir = os.path.join(events_dir, slug)
         os.makedirs(page_dir, exist_ok=True)
