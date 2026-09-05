@@ -3070,5 +3070,98 @@
       "image": ""
     },
     "action_link": "https://thesession.org/sessions/2793"
+  },
+  {
+    "id": "discovered_buena_vista_orchestra_colonial_20261007",
+    "type": "event",
+    "title": "The Buena Vista Orchestra – Live Cuban Music",
+    "venue_info": {
+      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "October 7, 2026 7:30 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Cuban Music",
+        "Buena Vista Social Club",
+        "Latin Dance",
+        "World Music",
+        "Orchestra",
+        "Phoenixville",
+        "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.axs.com/artists/1122184/buena-vista-orchestra-tickets"
+  },
+  {
+    "id": "discovered_history_on_rocks_haunted_20261008",
+    "type": "event",
+    "title": "History on the Rocks: Haunted Phoenixville",
+    "venue_info": {
+      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "October 8, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Local History",
+        "Ghost Stories",
+        "Eerie Tales",
+        "Local Legends",
+        "Specialty Cocktails",
+        "Phoenixville",
+        "Indoor",
+        "Evening"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/"
+  },
+  {
+    "id": "discovered_flocktoberfest_20261010",
+    "type": "event",
+    "title": "Flocktoberfest 2026 – Birds of Prey & Community Festival",
+    "venue_info": {
+      "name": "St. Peter's Episcopal Church, 121 Church St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "October 10, 2026 12:00 PM",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Birds of Prey",
+        "Live Music",
+        "Nature",
+        "Citizen Science",
+        "Kids Activities",
+        "Family Friendly",
+        "Phoenixville"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://phoenixvillechamber.org/news-events/events/flocktoberfest/"
   }
 ]
