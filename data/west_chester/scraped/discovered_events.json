@@ -1,13 +1,13 @@
 [
   {
-    "id": "discovered_brews_in_bloom_beer_20260905",
+    "id": "discovered_brews-in-bloom-beer-garden_20260905",
     "type": "event",
     "title": "Brews in Bloom Beer Garden",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8703,
-        "lng": -75.6747
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
     "raw_date_string": "Sep 5, 2026",
@@ -15,10 +15,10 @@
       "category": "Food & Drink",
       "vibes": [
         "Outdoor",
-        "Date Night"
+        "Live Music"
       ],
-      "price": "Included with admission",
-      "time": "12:00 PM - 5:00 PM"
+      "price": "With Gardens admission",
+      "time": "12:00 PM"
     },
     "media": {
       "image": ""
@@ -26,22 +26,22 @@
     "action_link": "https://longwoodgardens.org/events-performances/calendar"
   },
   {
-    "id": "discovered_fireworks_fountains_show_20260906",
+    "id": "discovered_fireworks-fountains-show_20260906",
     "type": "event",
     "title": "Fireworks & Fountains Show",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8703,
-        "lng": -75.6747
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
     "raw_date_string": "Sep 6, 2026",
     "attributes": {
-      "category": "Festival",
+      "category": "Art & Culture",
       "vibes": [
         "Outdoor",
-        "Family Friendly"
+        "Date Night"
       ],
       "price": "Ticketed",
       "time": "8:15 PM"
@@ -52,14 +52,14 @@
     "action_link": "https://longwoodgardens.org/events-performances/calendar"
   },
   {
-    "id": "discovered_dj_jazzy_jeff_fountain_20260909",
+    "id": "discovered_dj-jazzy-jeff-fountain-party_20260909",
     "type": "event",
     "title": "DJ Jazzy Jeff: Fountain Party",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8703,
-        "lng": -75.6747
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
     "raw_date_string": "Sep 9, 2026",
@@ -67,7 +67,7 @@
       "category": "Live Music",
       "vibes": [
         "Outdoor",
-        "Date Night"
+        "Nightlife"
       ],
       "price": "Ticketed",
       "time": "8:00 PM"
@@ -78,14 +78,14 @@
     "action_link": "https://longwoodgardens.org/events-performances/calendar"
   },
   {
-    "id": "discovered_greater_philadelphia_dahlia_society_20260912",
+    "id": "discovered_greater-philadelphia-dahlia-society-show_20260912",
     "type": "event",
     "title": "Greater Philadelphia Dahlia Society Show",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8703,
-        "lng": -75.6747
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
     "raw_date_string": "Sep 12 - 13, 2026",
@@ -94,7 +94,7 @@
       "vibes": [
         "Family Friendly"
       ],
-      "price": "Included with admission"
+      "price": "With Gardens admission"
     },
     "media": {
       "image": ""
@@ -102,14 +102,14 @@
     "action_link": "https://longwoodgardens.org/events-performances/exhibits"
   },
   {
-    "id": "discovered_guster_in_concert_20260916",
+    "id": "discovered_guster-in-concert_20260916",
     "type": "event",
     "title": "Guster in Concert",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8703,
-        "lng": -75.6747
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
     "raw_date_string": "Sep 16, 2026",
@@ -119,7 +119,7 @@
         "Outdoor",
         "Date Night"
       ],
-      "price": "Ticketed",
+      "price": "$64-$110",
       "time": "7:30 PM"
     },
     "media": {
@@ -128,14 +128,14 @@
     "action_link": "https://longwoodgardens.org/events-performances/calendar"
   },
   {
-    "id": "discovered_love_is_in_the_20260918",
+    "id": "discovered_love-is-in-the-air-fountain-fest-weekend_20260918",
     "type": "event",
     "title": "Love is in the Air Fountain Fest Weekend",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8703,
-        "lng": -75.6747
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
     "raw_date_string": "Sep 18 - 20, 2026",
@@ -143,25 +143,25 @@
       "category": "Festival",
       "vibes": [
         "Outdoor",
-        "Family Friendly"
+        "Date Night"
       ],
-      "price": "Included with admission",
-      "time": "5:00 PM - 9:00 PM"
+      "price": "With Gardens admission",
+      "time": "5:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
+    "action_link": "https://longwoodgardens.org/events-performances/fountains/fountain-fest-weekends"
   },
   {
-    "id": "discovered_garden_club_federation_of_20260919",
+    "id": "discovered_garden-club-federation-of-pennsylvania-f_20260919",
     "type": "event",
     "title": "Garden Club Federation of Pennsylvania Flower Show",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8703,
-        "lng": -75.6747
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
     "raw_date_string": "Sep 19 - 20, 2026",
@@ -170,7 +170,7 @@
       "vibes": [
         "Family Friendly"
       ],
-      "price": "Included with admission"
+      "price": "With Gardens admission"
     },
     "media": {
       "image": ""
@@ -178,25 +178,24 @@
     "action_link": "https://longwoodgardens.org/events-performances/exhibits"
   },
   {
-    "id": "discovered_fireworks_fountains_show_20260926",
+    "id": "discovered_digging-into-compost-science_20260920",
     "type": "event",
-    "title": "Fireworks & Fountains Show",
+    "title": "Digging into Compost Science",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8703,
-        "lng": -75.6747
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
-    "raw_date_string": "Sep 26, 2026",
+    "raw_date_string": "Sep 20, 2026",
     "attributes": {
-      "category": "Festival",
+      "category": "Community Event",
       "vibes": [
-        "Outdoor",
-        "Family Friendly"
+        "Outdoor"
       ],
-      "price": "Ticketed",
-      "time": "8:15 PM"
+      "price": "With Gardens admission",
+      "time": "1:00 PM"
     },
     "media": {
       "image": ""
@@ -204,93 +203,17 @@
     "action_link": "https://longwoodgardens.org/events-performances/calendar"
   },
   {
-    "id": "discovered_autumn_s_colors_20261002",
+    "id": "discovered_fireworks-fountains-show_20260926",
     "type": "event",
-    "title": "Autumn's Colors",
+    "title": "Fireworks & Fountains Show",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
-        "lat": 39.8703,
-        "lng": -75.6747
+        "lat": 39.8706,
+        "lng": -75.6741
       }
     },
-    "raw_date_string": "Oct 2 - Nov 15, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Included with admission"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/exhibits"
-  },
-  {
-    "id": "discovered_spellbound_weekend_20261016",
-    "type": "event",
-    "title": "Spellbound Weekend",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8703,
-        "lng": -75.6747
-      }
-    },
-    "raw_date_string": "Oct 16 - 18, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Family Friendly",
-        "Outdoor"
-      ],
-      "price": "Included with admission",
-      "time": "5:00 PM - 9:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/spellbound-weekend"
-  },
-  {
-    "id": "discovered_chrysanthemum_festival_20261016",
-    "type": "event",
-    "title": "Chrysanthemum Festival",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8703,
-        "lng": -75.6747
-      }
-    },
-    "raw_date_string": "Oct 16 - Nov 15, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Family Friendly",
-        "Indoor"
-      ],
-      "price": "Included with admission"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/exhibits"
-  },
-  {
-    "id": "discovered_symphony_of_horror_illuminated_20261023",
-    "type": "event",
-    "title": "Symphony of Horror Illuminated Fountain Performance",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8703,
-        "lng": -75.6747
-      }
-    },
-    "raw_date_string": "Oct 23 - 25, 2026",
+    "raw_date_string": "Sep 26, 2026",
     "attributes": {
       "category": "Art & Culture",
       "vibes": [
@@ -306,13 +229,189 @@
     "action_link": "https://longwoodgardens.org/events-performances/calendar"
   },
   {
-    "id": "discovered_mushroom_market_at_the_20260911",
+    "id": "discovered_autumn-s-colors_20261002",
+    "type": "event",
+    "title": "Autumn's Colors",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8706,
+        "lng": -75.6741
+      }
+    },
+    "raw_date_string": "Oct 2 - Nov 15, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "With Gardens admission"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/exhibits"
+  },
+  {
+    "id": "discovered_harvest-displays_20261002",
+    "type": "event",
+    "title": "Harvest Displays",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8706,
+        "lng": -75.6741
+      }
+    },
+    "raw_date_string": "Oct 2 - Nov 15, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "With Gardens admission"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/exhibits"
+  },
+  {
+    "id": "discovered_chrysanthemum-festival_20261016",
+    "type": "event",
+    "title": "Chrysanthemum Festival",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8706,
+        "lng": -75.6741
+      }
+    },
+    "raw_date_string": "Oct 16 - Nov 15, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Family Friendly"
+      ],
+      "price": "With Gardens admission"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/exhibits"
+  },
+  {
+    "id": "discovered_emerald-city-fountain-fest-weekend_20261016",
+    "type": "event",
+    "title": "Emerald City Fountain Fest Weekend",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8706,
+        "lng": -75.6741
+      }
+    },
+    "raw_date_string": "Oct 16 - 18, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "With Gardens admission",
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/fountains/fountain-fest-weekends"
+  },
+  {
+    "id": "discovered_spellbound-weekend-symphony-of-horror_20261023",
+    "type": "event",
+    "title": "Spellbound Weekend: Symphony of Horror",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8706,
+        "lng": -75.6741
+      }
+    },
+    "raw_date_string": "Oct 23 - 25, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Halloween"
+      ],
+      "price": "With Gardens admission",
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/fountains/fountain-fest-weekends"
+  },
+  {
+    "id": "discovered_meet-us-at-the-mums_20261024",
+    "type": "event",
+    "title": "Meet Us at the Mums",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8706,
+        "lng": -75.6741
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly"
+      ],
+      "price": "With Gardens admission",
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/calendar"
+  },
+  {
+    "id": "discovered_a-longwood-christmas-opens_20261120",
+    "type": "event",
+    "title": "A Longwood Christmas Opens",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8706,
+        "lng": -75.6741
+      }
+    },
+    "raw_date_string": "Nov 20, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Family Friendly",
+        "Holiday"
+      ],
+      "price": "With Gardens admission"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/exhibits"
+  },
+  {
+    "id": "discovered_mushroom-market-at-the-ksq-farmers-marke_20260911",
     "type": "event",
     "title": "Mushroom Market at the KSQ Farmers Market",
     "venue_info": {
       "name": "Downtown Kennett Square, Kennett Square",
       "location": {
-        "lat": 39.8465,
+        "lat": 39.8468,
         "lng": -75.7116
       }
     },
@@ -324,7 +423,7 @@
         "Outdoor"
       ],
       "price": "Free",
-      "time": "3:00 PM - 6:00 PM"
+      "time": "3:00 PM"
     },
     "media": {
       "image": ""
@@ -332,13 +431,13 @@
     "action_link": "https://kennettcollaborative.org/initiatives/events/"
   },
   {
-    "id": "discovered_the_mushroom_festival_20260912",
+    "id": "discovered_the-mushroom-festival_20260912",
     "type": "event",
     "title": "The Mushroom Festival",
     "venue_info": {
       "name": "Downtown Kennett Square, Kennett Square",
       "location": {
-        "lat": 39.8465,
+        "lat": 39.8468,
         "lng": -75.7116
       }
     },
@@ -348,7 +447,9 @@
       "vibes": [
         "Outdoor",
         "Family Friendly"
-      ]
+      ],
+      "price": "Ticketed",
+      "time": "10:00 AM"
     },
     "media": {
       "image": ""
@@ -356,13 +457,13 @@
     "action_link": "https://kennettcollaborative.org/initiatives/events/"
   },
   {
-    "id": "discovered_third_thursdays_on_state_20260917",
+    "id": "discovered_third-thursdays-on-state-street_20260917",
     "type": "event",
     "title": "Third Thursdays on State Street",
     "venue_info": {
       "name": "Downtown Kennett Square, Kennett Square",
       "location": {
-        "lat": 39.8465,
+        "lat": 39.8468,
         "lng": -75.7116
       }
     },
@@ -374,7 +475,7 @@
         "Outdoor"
       ],
       "price": "Free",
-      "time": "5:30 PM - 10:00 PM"
+      "time": "5:30 PM"
     },
     "media": {
       "image": ""
@@ -382,13 +483,13 @@
     "action_link": "https://kennettcollaborative.org/initiatives/events/"
   },
   {
-    "id": "discovered_kennett_brewfest_20261010",
+    "id": "discovered_kennett-brewfest_20261010",
     "type": "event",
     "title": "Kennett Brewfest",
     "venue_info": {
       "name": "Downtown Kennett Square, Kennett Square",
       "location": {
-        "lat": 39.8465,
+        "lat": 39.8468,
         "lng": -75.7116
       }
     },
@@ -399,22 +500,22 @@
         "Outdoor",
         "21+"
       ],
-      "price": "$65",
-      "time": "1:30 PM - 5:00 PM"
+      "price": "$60 general admission",
+      "time": "1:30 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.kennettbrewfest.com/"
+    "action_link": "https://kennettcollaborative.org/initiatives/events/"
   },
   {
-    "id": "discovered_third_thursdays_on_state_20261015",
+    "id": "discovered_third-thursdays-on-state-street_20261015",
     "type": "event",
     "title": "Third Thursdays on State Street",
     "venue_info": {
       "name": "Downtown Kennett Square, Kennett Square",
       "location": {
-        "lat": 39.8465,
+        "lat": 39.8468,
         "lng": -75.7116
       }
     },
@@ -426,7 +527,7 @@
         "Outdoor"
       ],
       "price": "Free",
-      "time": "5:30 PM - 10:00 PM"
+      "time": "5:30 PM"
     },
     "media": {
       "image": ""
@@ -434,563 +535,690 @@
     "action_link": "https://kennettcollaborative.org/initiatives/events/"
   },
   {
-    "id": "discovered_sugar_lime_blue_acoustic_20260905",
+    "id": "discovered_sugar-lime-blue-acoustic-duo_20260905",
     "type": "event",
     "title": "Sugar Lime Blue: Acoustic Duo",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Sep 5, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
+        "Live Music",
         "Date Night"
       ],
-      "price": "$20 - $28",
+      "price": "$20-$28",
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_an_evening_with_hiroya_20260911",
+    "id": "discovered_an-evening-with-hiroya-tsukamoto_20260911",
     "type": "event",
     "title": "An Evening With Hiroya Tsukamoto",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Sep 11, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$20 - $23",
+      "price": "$20-$23",
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_an_evening_with_eliot_20260912",
+    "id": "discovered_an-evening-with-eliot-lewis_20260912",
     "type": "event",
     "title": "An Evening With Eliot Lewis",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Sep 12, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$20 - $23",
+      "price": "$20-$23",
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_you_me_harry_celebrating_20260917",
+    "id": "discovered_you-me-harry-celebrating-harry-chapin_20260917",
     "type": "event",
     "title": "You, Me, & Harry: Celebrating Harry Chapin",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Sep 17, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$20 - $23",
+      "price": "$20-$23",
       "time": "7:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_metal_night_tempting_the_20260918",
+    "id": "discovered_metal-night-tempting-the-tides-gravelord_20260918",
     "type": "event",
     "title": "Metal Night: Tempting the Tides, GraveLord, Ashes To Vanity",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Sep 18, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$15 - $18",
+      "price": "$15-$18",
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_dirk_quinn_band_20260920",
+    "id": "discovered_dirk-quinn-band_20260920",
     "type": "event",
     "title": "Dirk Quinn Band",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Sep 20, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$20 - $23",
+      "price": "$20-$23",
       "time": "7:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_the_california_guitar_trio_20260923",
+    "id": "discovered_the-california-guitar-trio_20260923",
     "type": "event",
     "title": "The California Guitar Trio",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Sep 23, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
+        "Live Music",
         "Date Night"
       ],
-      "price": "$40 - $43",
+      "price": "$40-$43",
       "time": "7:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_an_evening_with_lucy_20261002",
+    "id": "discovered_an-evening-with-lucy-kaplansky_20261002",
     "type": "event",
     "title": "An Evening With Lucy Kaplansky",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Oct 2, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$35 - $38",
+      "price": "$35-$38",
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_legion_of_prog_prog_20261003",
+    "id": "discovered_legion-of-prog-prog-rock-tribute_20261003",
     "type": "event",
     "title": "Legion of Prog: Prog Rock Tribute",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Oct 3, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$30 - $33",
+      "price": "$30-$33",
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_the_dan_may_band_20261010",
+    "id": "discovered_the-dan-may-band-with-hannah-linowski_20261010",
     "type": "event",
     "title": "The Dan May Band with Hannah Linowski",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Oct 10, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$30 - $33",
+      "price": "$30-$33",
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_antje_duvekot_robby_hecht_20261016",
+    "id": "discovered_antje-duvekot-robby-hecht_20261016",
     "type": "event",
     "title": "Antje Duvekot & Robby Hecht",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Oct 16, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$22 - $25",
+      "price": "$22-$25",
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_the_sin_city_band_20261017",
+    "id": "discovered_the-sin-city-band-kid-davis-and-the-bull_20261017",
     "type": "event",
     "title": "The Sin City Band & Kid Davis and The Bullets",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Oct 17, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$30 - $33",
+      "price": "$30-$33",
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_trae_sheehan_with_clear_20261018",
+    "id": "discovered_trae-sheehan-with-clear-the-benches_20261018",
     "type": "event",
     "title": "Trae Sheehan with Clear The Benches",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Oct 18, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$20 - $23",
+      "price": "$20-$23",
       "time": "7:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_rocky_horror_picture_show_20261023",
+    "id": "discovered_rocky-horror-picture-show-movie-live-sho_20261023",
     "type": "event",
     "title": "Rocky Horror Picture Show: Movie & Live Show",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Oct 23, 2026",
     "attributes": {
       "category": "Theater",
       "vibes": [
-        "Indoor",
+        "Live Music",
         "Date Night"
       ],
-      "price": "$20 - $23",
+      "price": "$20-$23",
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_halloween_jam_20261024",
+    "id": "discovered_halloween-jam_20261024",
     "type": "event",
     "title": "Halloween Jam",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Oct 24, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor",
-        "Family Friendly"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$15 - $18",
+      "price": "$15-$18",
       "time": "3:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_an_evening_with_marty_20261106",
+    "id": "discovered_one-alternative-fundraiser-show_20261104",
+    "type": "event",
+    "title": "One Alternative: Fundraiser Show",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.8465,
+        "lng": -75.7113
+      }
+    },
+    "raw_date_string": "Nov 4, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Date Night"
+      ],
+      "price": "$13-$23",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.kennettflash.org/events"
+  },
+  {
+    "id": "discovered_an-evening-with-marty-o-reilly_20261106",
     "type": "event",
     "title": "An Evening With Marty O'Reilly",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Nov 6, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$20 - $23",
+      "price": "$20-$23",
       "time": "7:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_love_you_to_beatles_20261107",
+    "id": "discovered_love-you-to-a-tribute-to-the-beatles_20261107",
     "type": "event",
-    "title": "Love You To: Beatles Tribute",
+    "title": "Love You To: A Tribute to The Beatles",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Nov 7, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$30 - $33",
+      "price": "$30-$33",
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_abbie_gardner_with_sean_20261120",
+    "id": "discovered_joe-deninzon-stratospheerius-with-jane-g_20261108",
+    "type": "event",
+    "title": "Joe Deninzon & Stratospheerius with Jane Getter Premonition",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.8465,
+        "lng": -75.7113
+      }
+    },
+    "raw_date_string": "Nov 8, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Date Night"
+      ],
+      "price": "$30-$33",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.kennettflash.org/events"
+  },
+  {
+    "id": "discovered_silver-sonic-up24-impolite-society_20261113",
+    "type": "event",
+    "title": "Silver Sonic, UP24, Impolite Society",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.8465,
+        "lng": -75.7113
+      }
+    },
+    "raw_date_string": "Nov 13, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Date Night"
+      ],
+      "price": "$15-$18",
+      "time": "8:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.kennettflash.org/events"
+  },
+  {
+    "id": "discovered_abbie-gardner-with-sean-kiely_20261120",
     "type": "event",
     "title": "Abbie Gardner with Sean Kiely",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.8464,
-        "lng": -75.7115
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
     "raw_date_string": "Nov 20, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Indoor"
+        "Live Music",
+        "Date Night"
       ],
-      "price": "$25 - $28",
+      "price": "$25-$28",
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/events/"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_girls_in_aviation_day_20260919",
+    "id": "discovered_keystone-breakers-and-cordelia-blue_20261129",
     "type": "event",
-    "title": "Girls in Aviation Day",
+    "title": "Keystone Breakers and Cordelia Blue",
     "venue_info": {
-      "name": "American Helicopter Museum, West Chester",
+      "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.9911,
-        "lng": -75.5847
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
-    "raw_date_string": "Sep 19, 2026",
+    "raw_date_string": "Nov 29, 2026",
     "attributes": {
-      "category": "Kids & Family",
+      "category": "Live Music",
       "vibes": [
-        "Family Friendly",
-        "Indoor"
-      ]
+        "Live Music",
+        "Date Night"
+      ],
+      "price": "$15-$23",
+      "time": "6:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.helicoptermuseum.org/event-list"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_family_sleepover_at_the_20261003",
+    "id": "discovered_goodnight-moonshine-featuring-molly-of-r_20261205",
     "type": "event",
-    "title": "Family Sleepover at the Helicopter Museum",
+    "title": "Goodnight Moonshine featuring Molly of Red Molly",
     "venue_info": {
-      "name": "American Helicopter Museum, West Chester",
+      "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.9911,
-        "lng": -75.5847
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
-    "raw_date_string": "Oct 3, 2026",
+    "raw_date_string": "Dec 5, 2026",
     "attributes": {
-      "category": "Kids & Family",
+      "category": "Live Music",
       "vibes": [
-        "Family Friendly",
-        "Indoor"
-      ]
+        "Live Music",
+        "Date Night"
+      ],
+      "price": "$25-$28",
+      "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.helicoptermuseum.org/event-list"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_baking_soda_rocket_day_20261008",
+    "id": "discovered_charlie-brown-holiday-jazz_20261211",
     "type": "event",
-    "title": "Baking Soda Rocket Day",
+    "title": "Charlie Brown Holiday Jazz",
     "venue_info": {
-      "name": "American Helicopter Museum, West Chester",
+      "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.9911,
-        "lng": -75.5847
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
-    "raw_date_string": "Oct 8, 2026",
+    "raw_date_string": "Dec 11, 2026",
     "attributes": {
-      "category": "Kids & Family",
+      "category": "Live Music",
       "vibes": [
-        "Family Friendly"
-      ]
+        "Live Music",
+        "Date Night"
+      ],
+      "price": "$13-$28",
+      "time": "7:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.helicoptermuseum.org/event-list"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_haunted_helicopters_20261024",
+    "id": "discovered_bruce-klauber-swings-frank-sinatra_20261212",
     "type": "event",
-    "title": "Haunted Helicopters",
+    "title": "Bruce Klauber Swings Frank Sinatra",
     "venue_info": {
-      "name": "American Helicopter Museum, West Chester",
+      "name": "The Kennett Flash, Kennett Square",
       "location": {
-        "lat": 39.9911,
-        "lng": -75.5847
+        "lat": 39.8465,
+        "lng": -75.7113
       }
     },
-    "raw_date_string": "Oct 24, 2026",
+    "raw_date_string": "Dec 12, 2026",
     "attributes": {
-      "category": "Kids & Family",
+      "category": "Live Music",
       "vibes": [
-        "Family Friendly",
-        "Indoor"
-      ]
+        "Live Music",
+        "Date Night"
+      ],
+      "price": "$30-$33",
+      "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.helicoptermuseum.org/event-list"
+    "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_battle_at_chadds_ford_20260919",
+    "id": "discovered_caligula-blushed-a-visceral-live-experie_20261218",
+    "type": "event",
+    "title": "Caligula Blushed: A Visceral Live Experience",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.8465,
+        "lng": -75.7113
+      }
+    },
+    "raw_date_string": "Dec 18, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Date Night"
+      ],
+      "price": "$30-$33",
+      "time": "8:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.kennettflash.org/events"
+  },
+  {
+    "id": "discovered_battle-at-chadds-ford-historic-chadds-fo_20260919",
     "type": "event",
     "title": "Battle at Chadds Ford & Historic Chadds Ford Days",
     "venue_info": {
       "name": "Chadds Ford Historical Society, Chadds Ford",
       "location": {
-        "lat": 39.8752,
-        "lng": -75.5942
+        "lat": 39.8687,
+        "lng": -75.5893
       }
     },
     "raw_date_string": "Sep 19, 2026",
@@ -998,25 +1226,26 @@
       "category": "Festival",
       "vibes": [
         "Outdoor",
-        "Family Friendly"
+        "Family Friendly",
+        "History"
       ],
-      "price": "$10 adults / $5 youth",
-      "time": "10:00 AM - 5:00 PM"
+      "price": "Ticketed",
+      "time": "10:00 AM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://chaddsfordhistory.org/events-programs/battle-at-chadds-ford/"
+    "action_link": "https://chaddsfordhistory.org/events-programs/"
   },
   {
-    "id": "discovered_tavern_night_in_the_20260919",
+    "id": "discovered_tavern-night-in-the-grove_20260919",
     "type": "event",
     "title": "Tavern Night in the Grove",
     "venue_info": {
       "name": "Chadds Ford Historical Society, Chadds Ford",
       "location": {
-        "lat": 39.8752,
-        "lng": -75.5942
+        "lat": 39.8687,
+        "lng": -75.5893
       }
     },
     "raw_date_string": "Sep 19, 2026",
@@ -1026,23 +1255,50 @@
         "Outdoor",
         "21+"
       ],
-      "price": "$15",
-      "time": "6:00 PM - 10:00 PM"
+      "price": "Ticketed",
+      "time": "6:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://chaddsfordhistory.org/events-programs/battle-at-chadds-ford/"
+    "action_link": "https://chaddsfordhistory.org/events-programs/"
   },
   {
-    "id": "discovered_labor_day_soiree_at_20260905",
+    "id": "discovered_the-great-pumpkin-carve_20261015",
+    "type": "event",
+    "title": "The Great Pumpkin Carve",
+    "venue_info": {
+      "name": "Chadds Ford Historical Society, Chadds Ford",
+      "location": {
+        "lat": 39.8687,
+        "lng": -75.5893
+      }
+    },
+    "raw_date_string": "Oct 15 - 17, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly",
+        "Halloween"
+      ],
+      "price": "$15 adults, $5 ages 7-17",
+      "time": "2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://chaddsfordhistory.org/events-programs/great-pumpkin-carve/"
+  },
+  {
+    "id": "discovered_labor-day-soiree-at-chaddsford-winery_20260905",
     "type": "event",
     "title": "Labor Day Soiree at Chaddsford Winery",
     "venue_info": {
       "name": "Chaddsford Winery, Chadds Ford",
       "location": {
-        "lat": 39.8676,
-        "lng": -75.5872
+        "lat": 39.8654,
+        "lng": -75.5931
       }
     },
     "raw_date_string": "Sep 5 - 6, 2026",
@@ -1051,7 +1307,8 @@
       "vibes": [
         "Outdoor",
         "21+"
-      ]
+      ],
+      "price": "Ticketed"
     },
     "media": {
       "image": ""
@@ -1059,14 +1316,14 @@
     "action_link": "https://www.chaddsford.com/pages/winery-events-calendar"
   },
   {
-    "id": "discovered_free_first_sunday_at_20260906",
+    "id": "discovered_free-first-sunday-at-the-brandywine_20260906",
     "type": "event",
     "title": "Free First Sunday at the Brandywine",
     "venue_info": {
       "name": "Brandywine Museum of Art, Chadds Ford",
       "location": {
-        "lat": 39.8686,
-        "lng": -75.59
+        "lat": 39.8688,
+        "lng": -75.5906
       }
     },
     "raw_date_string": "Sep 6, 2026",
@@ -1084,14 +1341,14 @@
     "action_link": "https://www.brandywine.org/museum/events"
   },
   {
-    "id": "discovered_plein_air_painting_workshop_20260913",
+    "id": "discovered_plein-air-painting-workshop-at-the-n-c-w_20260913",
     "type": "event",
     "title": "Plein Air Painting Workshop at the N.C. Wyeth Studio",
     "venue_info": {
       "name": "Brandywine Museum of Art, Chadds Ford",
       "location": {
-        "lat": 39.8686,
-        "lng": -75.59
+        "lat": 39.8688,
+        "lng": -75.5906
       }
     },
     "raw_date_string": "Sep 13, 2026",
@@ -1108,38 +1365,14 @@
     "action_link": "https://www.brandywine.org/museum/events"
   },
   {
-    "id": "discovered_plein_air_day_at_20260927",
+    "id": "discovered_andrew-wyeth-the-masterworks-book-talk-s_20261002",
     "type": "event",
-    "title": "Plein Air Day at Kuerner Farm",
+    "title": "Andrew Wyeth: The Masterworks Book Talk & Signing",
     "venue_info": {
       "name": "Brandywine Museum of Art, Chadds Ford",
       "location": {
-        "lat": 39.8686,
-        "lng": -75.59
-      }
-    },
-    "raw_date_string": "Sep 27, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor"
-      ],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events"
-  },
-  {
-    "id": "discovered_andrew_wyeth_the_masterworks_20261002",
-    "type": "event",
-    "title": "Andrew Wyeth: The Masterworks Book Talk",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8686,
-        "lng": -75.59
+        "lat": 39.8688,
+        "lng": -75.5906
       }
     },
     "raw_date_string": "Oct 2, 2026",
@@ -1156,14 +1389,62 @@
     "action_link": "https://www.brandywine.org/museum/events"
   },
   {
-    "id": "discovered_photography_walk_at_brinton_20261008",
+    "id": "discovered_t-ai-chi-chih-at-the-brandywine_20261003",
+    "type": "event",
+    "title": "T'ai Chi Chih at the Brandywine",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8688,
+        "lng": -75.5906
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Wellness"
+      ],
+      "price": "Ticketed"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events"
+  },
+  {
+    "id": "discovered_yoga-at-the-brandywine_20261003",
+    "type": "event",
+    "title": "Yoga at the Brandywine",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8688,
+        "lng": -75.5906
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Wellness"
+      ],
+      "price": "Ticketed"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events"
+  },
+  {
+    "id": "discovered_photography-walk-at-brinton-s-mill_20261008",
     "type": "event",
     "title": "Photography Walk at Brinton's Mill",
     "venue_info": {
       "name": "Brandywine Museum of Art, Chadds Ford",
       "location": {
-        "lat": 39.8686,
-        "lng": -75.59
+        "lat": 39.8688,
+        "lng": -75.5906
       }
     },
     "raw_date_string": "Oct 8, 2026",
@@ -1180,14 +1461,14 @@
     "action_link": "https://www.brandywine.org/museum/events"
   },
   {
-    "id": "discovered_fiber_arts_circle_20261011",
+    "id": "discovered_fiber-arts-circle_20261011",
     "type": "event",
     "title": "Fiber Arts Circle",
     "venue_info": {
       "name": "Brandywine Museum of Art, Chadds Ford",
       "location": {
-        "lat": 39.8686,
-        "lng": -75.59
+        "lat": 39.8688,
+        "lng": -75.5906
       }
     },
     "raw_date_string": "Oct 11, 2026",
@@ -1204,14 +1485,14 @@
     "action_link": "https://www.brandywine.org/museum/events"
   },
   {
-    "id": "discovered_downingtown_log_house_tours_20260906",
+    "id": "discovered_downingtown-log-house-tours_20260906",
     "type": "event",
     "title": "Downingtown Log House Tours",
     "venue_info": {
       "name": "Kerr Park, Downingtown",
       "location": {
-        "lat": 40.0074,
-        "lng": -75.7013
+        "lat": 40.0068,
+        "lng": -75.7032
       }
     },
     "raw_date_string": "Sep 6, 2026",
@@ -1219,10 +1500,11 @@
       "category": "Community Event",
       "vibes": [
         "Free",
-        "Family Friendly"
+        "Family Friendly",
+        "History"
       ],
       "price": "Free",
-      "time": "1:00 PM - 4:00 PM"
+      "time": "1:00 PM"
     },
     "media": {
       "image": ""
@@ -1230,14 +1512,14 @@
     "action_link": "https://www.downingtown.org/calendar.aspx?CID=23"
   },
   {
-    "id": "discovered_repair_cafe_20260912",
+    "id": "discovered_repair-cafe_20260912",
     "type": "event",
     "title": "Repair Cafe",
     "venue_info": {
       "name": "Central Presbyterian Church, Downingtown",
       "location": {
-        "lat": 40.0061,
-        "lng": -75.7035
+        "lat": 40.0068,
+        "lng": -75.7032
       }
     },
     "raw_date_string": "Sep 12, 2026",
@@ -1247,7 +1529,7 @@
         "Free"
       ],
       "price": "Free",
-      "time": "10:00 AM - 2:00 PM"
+      "time": "10:00 AM"
     },
     "media": {
       "image": ""
@@ -1255,14 +1537,14 @@
     "action_link": "https://www.downingtown.org/calendar.aspx?CID=23"
   },
   {
-    "id": "discovered_fall_arts_fest_at_20260927",
+    "id": "discovered_fall-arts-fest-at-kerr-park_20260927",
     "type": "event",
     "title": "Fall Arts Fest at Kerr Park",
     "venue_info": {
       "name": "Kerr Park, Downingtown",
       "location": {
-        "lat": 40.0074,
-        "lng": -75.7013
+        "lat": 40.0068,
+        "lng": -75.7032
       }
     },
     "raw_date_string": "Sep 27, 2026",
@@ -1274,7 +1556,7 @@
         "Family Friendly"
       ],
       "price": "Free",
-      "time": "12:00 PM - 3:00 PM"
+      "time": "12:00 PM"
     },
     "media": {
       "image": ""
@@ -1282,23 +1564,75 @@
     "action_link": "https://www.downingtown.org/calendar.aspx?CID=23"
   },
   {
-    "id": "discovered_historic_yellow_springs_fall_20261011",
+    "id": "discovered_downingtown-fall-fest_20261004",
     "type": "event",
-    "title": "Historic Yellow Springs Fall Festival",
+    "title": "Downingtown Fall Fest",
     "venue_info": {
-      "name": "Historic Yellow Springs, Chester Springs",
+      "name": "Kardon Park & Green Street, Downingtown",
       "location": {
-        "lat": 40.1195,
-        "lng": -75.6383
+        "lat": 40.0068,
+        "lng": -75.7032
       }
     },
-    "raw_date_string": "Oct 11, 2026",
+    "raw_date_string": "Oct 4, 2026",
     "attributes": {
       "category": "Festival",
       "vibes": [
         "Free",
         "Outdoor",
         "Family Friendly"
+      ],
+      "price": "Free admission",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downingtownfallfest.com/"
+  },
+  {
+    "id": "discovered_historic-yellow-springs-fall-festival_20261011",
+    "type": "event",
+    "title": "Historic Yellow Springs Fall Festival",
+    "venue_info": {
+      "name": "Historic Yellow Springs, Chester Springs",
+      "location": {
+        "lat": 40.0968,
+        "lng": -75.6318
+      }
+    },
+    "raw_date_string": "Oct 11, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Ticketed",
+      "time": "12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://yellowsprings.org/events/"
+  },
+  {
+    "id": "discovered_town-tours-village-walks-lecture_20261015",
+    "type": "event",
+    "title": "Town Tours & Village Walks Lecture",
+    "venue_info": {
+      "name": "Historic Yellow Springs, Chester Springs",
+      "location": {
+        "lat": 40.0968,
+        "lng": -75.6318
+      }
+    },
+    "raw_date_string": "Oct 15, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "History"
       ],
       "price": "Free"
     },
@@ -1308,30 +1642,32 @@
     "action_link": "https://yellowsprings.org/events/"
   },
   {
-    "id": "discovered_town_tours_village_walks_20261015",
+    "id": "discovered_ludwig-s-corner-horse-show-country-fair_20260905",
     "type": "event",
-    "title": "Town Tours & Village Walks Lecture",
+    "title": "Ludwig's Corner Horse Show & Country Fair",
     "venue_info": {
-      "name": "Historic Yellow Springs, Chester Springs",
+      "name": "Ludwig's Corner Show Grounds, Chester Springs",
       "location": {
-        "lat": 40.1195,
-        "lng": -75.6383
+        "lat": 40.0851,
+        "lng": -75.6612
       }
     },
-    "raw_date_string": "Oct 15, 2026",
+    "raw_date_string": "Sep 5 - 7, 2026",
     "attributes": {
-      "category": "Art & Culture",
+      "category": "Sports",
       "vibes": [
-        "Indoor"
-      ]
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Ticketed"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://yellowsprings.org/events/"
+    "action_link": "https://www.ludwigshorseshow.com/"
   },
   {
-    "id": "discovered_malvern_memorial_cabin_oktoberfest_20261003",
+    "id": "discovered_malvern-memorial-cabin-oktoberfest_20261003",
     "type": "event",
     "title": "Malvern Memorial Cabin Oktoberfest",
     "venue_info": {
@@ -1346,25 +1682,25 @@
       "category": "Food & Drink",
       "vibes": [
         "Outdoor",
-        "Family Friendly"
+        "Live Music"
       ],
-      "price": "$10 advance / $15 door",
-      "time": "6:00 PM - 9:00 PM"
+      "price": "$10 advance, $15 at door",
+      "time": "6:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.malvern.org/home/events/8371"
+    "action_link": "https://www.malvern.org/home/events/13396"
   },
   {
-    "id": "discovered_wcu_homecoming_family_weekend_20260925",
+    "id": "discovered_wcu-homecoming-family-weekend_20260925",
     "type": "event",
     "title": "WCU Homecoming & Family Weekend",
     "venue_info": {
       "name": "West Chester University, West Chester",
       "location": {
         "lat": 39.949,
-        "lng": -75.6047
+        "lng": -75.603
       }
     },
     "raw_date_string": "Sep 25 - 27, 2026",
@@ -1373,7 +1709,8 @@
       "vibes": [
         "Family Friendly",
         "Outdoor"
-      ]
+      ],
+      "price": "Varies"
     },
     "media": {
       "image": ""
@@ -1381,14 +1718,14 @@
     "action_link": "https://www.wcupa.edu/_services/STU/homecoming/"
   },
   {
-    "id": "discovered_wcu_homecoming_football_golden_20260926",
+    "id": "discovered_wcu-homecoming-football-golden-rams-vs-m_20260926",
     "type": "event",
     "title": "WCU Homecoming Football: Golden Rams vs. Millersville",
     "venue_info": {
       "name": "Farrell Stadium, West Chester",
       "location": {
-        "lat": 39.9448,
-        "lng": -75.6222
+        "lat": 39.949,
+        "lng": -75.603
       }
     },
     "raw_date_string": "Sep 26, 2026",
@@ -1407,7 +1744,7 @@
     "action_link": "https://www.wcupa.edu/_services/STU/homecoming/"
   },
   {
-    "id": "discovered_chester_county_day_house_20261003",
+    "id": "discovered_chester-county-day-house-tours_20261003",
     "type": "event",
     "title": "Chester County Day House Tours",
     "venue_info": {
@@ -1421,7 +1758,7 @@
     "attributes": {
       "category": "Community Event",
       "vibes": [
-        "Family Friendly"
+        "History"
       ],
       "price": "Ticketed"
     },
@@ -1431,42 +1768,123 @@
     "action_link": "https://www.chestercountyday.com/"
   },
   {
-    "id": "discovered_soldiers_trains_excursion_20260913",
+    "id": "discovered_soldiers-trains-excursion_20260913",
     "type": "event",
     "title": "Soldiers & Trains Excursion",
     "venue_info": {
       "name": "West Chester Railroad, West Chester",
       "location": {
-        "lat": 39.9598,
-        "lng": -75.5985
+        "lat": 39.9585,
+        "lng": -75.598
       }
     },
     "raw_date_string": "Sep 13, 2026",
     "attributes": {
-      "category": "Kids & Family",
+      "category": "Community Event",
       "vibes": [
-        "Family Friendly"
+        "Family Friendly",
+        "History"
       ],
-      "price": "$30+",
+      "price": "From $30",
       "time": "12:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://wcrailroad.com/"
+    "action_link": "https://wcrailroad.com/events/"
   },
   {
-    "id": "discovered_ludwig_s_corner_horse_20260905",
+    "id": "discovered_west-chester-railroad-history-special_20261017",
     "type": "event",
-    "title": "Ludwig's Corner Horse Show & Country Fair",
+    "title": "West Chester Railroad History Special",
     "venue_info": {
-      "name": "Ludwig's Corner Show Grounds, Chester Springs",
+      "name": "West Chester Railroad, West Chester",
       "location": {
-        "lat": 40.0876,
-        "lng": -75.7488
+        "lat": 39.9585,
+        "lng": -75.598
       }
     },
-    "raw_date_string": "Sep 5 - 7, 2026",
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "History"
+      ],
+      "price": "From $35",
+      "time": "2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcrailroad.com/events/"
+  },
+  {
+    "id": "discovered_town-tours-a-hotbed-of-social-reform-in-_20261001",
+    "type": "event",
+    "title": "Town Tours: A Hotbed of Social Reform in Kennett Square",
+    "venue_info": {
+      "name": "Kennett Square Borough, Kennett Square",
+      "location": {
+        "lat": 39.8468,
+        "lng": -75.7116
+      }
+    },
+    "raw_date_string": "Oct 1, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "History"
+      ],
+      "price": "Free",
+      "time": "5:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.chescoplanning.org/historic/towntours/"
+  },
+  {
+    "id": "discovered_town-tours-adaptive-reuse-in-caln-townsh_20261008",
+    "type": "event",
+    "title": "Town Tours: Adaptive Reuse in Caln Township",
+    "venue_info": {
+      "name": "Caln Township, Coatesville",
+      "location": {
+        "lat": 39.9917,
+        "lng": -75.7846
+      }
+    },
+    "raw_date_string": "Oct 8, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "History"
+      ],
+      "price": "Free",
+      "time": "5:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.chescoplanning.org/historic/towntours/"
+  },
+  {
+    "id": "discovered_unionville-community-fair_20261002",
+    "type": "event",
+    "title": "Unionville Community Fair",
+    "venue_info": {
+      "name": "Unionville Community Fairgrounds, Kennett Square",
+      "location": {
+        "lat": 39.8987,
+        "lng": -75.7423
+      }
+    },
+    "raw_date_string": "Oct 2 - 4, 2026",
     "attributes": {
       "category": "Festival",
       "vibes": [
@@ -1478,6 +1896,6 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://www.ludwigshorseshow.com/"
+    "action_link": "https://www.ucfair.org/"
   }
 ]
