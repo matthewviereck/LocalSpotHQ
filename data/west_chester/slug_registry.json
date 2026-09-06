@@ -10,7 +10,7 @@
   },
   "14th-annual-unite-for-her-run-walk": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "14th Annual Unite For HER Run/Walk",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-10-17"
@@ -31,7 +31,7 @@
   },
   "2nd-annual-west-chester-holiday-shop-stroll": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "2nd Annual West Chester Holiday Shop & Stroll",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-11-15"
@@ -66,7 +66,7 @@
   },
   "45th-annual-west-chester-restaurant-and-food-truck-festival-2026": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "45th Annual West Chester Restaurant and Food Truck Festival 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-09-20"
@@ -101,14 +101,14 @@
   },
   "abacab": {
    "first_seen": "2026-08-29",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Abacab",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-10-23"
   },
   "abacab-a-tribute-to-genesis": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-09-06",
    "title": "Abacab: A Tribute to Genesis",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-23"
@@ -136,7 +136,7 @@
   },
   "acotar-6-midnight-release-party": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "ACOTAR 6 Midnight Release Party",
    "venue": "Leaves & Lore, West Chester",
    "date": "2026-10-26"
@@ -157,21 +157,21 @@
   },
   "an-evening-with-eliot-lewis": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "An Evening With Eliot Lewis",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-09-12"
   },
   "an-evening-with-hiroya-tsukamoto": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "An Evening With Hiroya Tsukamoto",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-09-11"
   },
   "an-evening-with-lucy-kaplansky": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "An Evening With Lucy Kaplansky",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-10-02"
@@ -185,7 +185,7 @@
   },
   "andrew-wyeth-the-masterworks-book-talk": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Andrew Wyeth: The Masterworks Book Talk & Signing",
    "venue": "Brandywine Museum of Art, Chadds Ford",
    "date": "2026-10-02"
@@ -206,7 +206,7 @@
   },
   "antje-duvekot-robby-hecht": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Antje Duvekot and Robby Hecht",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-10-16"
@@ -220,7 +220,7 @@
   },
   "art-of-expression": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Art of Expression",
    "venue": "Manjé Caribbean Cuisine, West Chester",
    "date": "2026-09-19"
@@ -234,7 +234,7 @@
   },
   "art-sprouts-fall-art-in-the-woods": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Art Sprouts: Fall Art in the Woods",
    "venue": "Chester County Art Association, West Chester",
    "date": "2026-10-10"
@@ -269,7 +269,7 @@
   },
   "baking-soda-rocket-day": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Baking Soda Rocket Day",
    "venue": "American Helicopter Museum, West Chester",
    "date": "2026-10-08"
@@ -304,7 +304,7 @@
   },
   "beauty-bites-boutique": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Beauty, Bites & Boutique",
    "venue": "La Chic Boutique, West Chester",
    "date": "2026-10-03"
@@ -323,16 +323,23 @@
    "venue": "Victory Brewing Company, Downingtown",
    "date": "2026-07-19"
   },
+  "bell-bottom-blues-an-eric-clapton-tribute": {
+   "first_seen": "2026-09-06",
+   "title": "Bell Bottom Blues: An Eric Clapton Tribute",
+   "venue": "Uptown! Knauer Performing Arts Center, West Chester",
+   "date": "2026-11-07",
+   "last_seen": "2026-09-06"
+  },
   "bell-bottom-blues-with-artful-impact": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Bell Bottom Blues with Artful Impact",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-11-07"
   },
   "better-than-bacon": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Better Than Bacon",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-02"
@@ -353,14 +360,14 @@
   },
   "better-than-bacon-october-2026": {
    "first_seen": "2026-08-29",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Better Than Bacon – October 2026",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-10-20"
   },
   "better-than-bacon-september-2026": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Better Than Bacon – September 2026",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-12"
@@ -388,7 +395,7 @@
   },
   "book-discussion-unlikely-general-or-native-americans-in-the-revolution-hybrid": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Book Discussion – Unlikely General or Native Americans in the Revolution (hybrid)",
    "venue": "Chester County History Center, West Chester",
    "date": "2026-09-10"
@@ -416,7 +423,7 @@
   },
   "bring-your-own-vinyl-night": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Bring Your Own Vinyl Night",
    "venue": "Hop Fidelity, West Chester",
    "date": "2026-09-11"
@@ -437,7 +444,7 @@
   },
   "bye-bye-birdie": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Bye Bye Birdie",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-11"
@@ -451,7 +458,7 @@
   },
   "call-me-a-cab-a-world-tour-of-cabernet-sauvignon": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Call Me a Cab: A World Tour of Cabernet Sauvignon",
    "venue": "Turks Head Wines, West Chester",
    "date": "2026-10-10"
@@ -493,7 +500,7 @@
   },
   "chef-s-table-at-9-prime": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Chef's Table at 9 Prime",
    "venue": "9 Prime, West Chester",
    "date": "2026-09-24"
@@ -507,7 +514,7 @@
   },
   "chilling-west-chester-a-dark-history-walking-tour": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Chilling West Chester: A Dark History Walking Tour 2026",
    "venue": "Chester County History Center, West Chester",
    "date": "2026-10-07"
@@ -521,7 +528,7 @@
   },
   "christkindlmarkt-2026": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Christkindlmarkt 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-12-12"
@@ -535,7 +542,7 @@
   },
   "chrysanthemum-festival": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-04",
+   "last_seen": "2026-09-06",
    "title": "Chrysanthemum Festival",
    "venue": "Longwood Gardens, Kennett Square",
    "date": "2026-10-16"
@@ -563,7 +570,7 @@
   },
   "come-out-west-chester-a-queer-friendly-happy-hour": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Come Out, West Chester! – A Queer-Friendly Happy Hour",
    "venue": "LoCali Wine Lounge, West Chester",
    "date": "2026-09-10"
@@ -626,7 +633,7 @@
   },
   "craft-night-at-tiger-snake-vintage": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Craft Night at Tiger Snake Vintage",
    "venue": "Tiger Snake Vintage, West Chester",
    "date": "2026-09-17"
@@ -661,7 +668,7 @@
   },
   "december-first-friday": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "December First Friday 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-12-04"
@@ -696,22 +703,22 @@
   },
   "dirk-quinn-band": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Dirk Quinn Band",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-09-20"
   },
   "dj-jazzy-jeff-fountain-party": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "DJ Jazzy Jeff: Fountain Party",
    "venue": "Longwood Gardens, Kennett Square",
    "date": "2026-09-09"
   },
   "downingtown-fall-fest": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
-   "title": "Downingtown Fall Fest",
+   "last_seen": "2026-09-06",
+   "title": "Downingtown Fall Fest 2026",
    "venue": "Green Street & E Pennsylvania Ave, Downingtown",
    "date": "2026-10-04"
   },
@@ -724,7 +731,7 @@
   },
   "dueling-pianos": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Dueling Pianos",
    "venue": "Kildare's Irish Pub, West Chester",
    "date": "2026-10-02"
@@ -738,14 +745,14 @@
   },
   "dueling-pianos-with-the-philly-keys": {
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Dueling Pianos with The Philly Keys",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-23"
   },
   "eagles-kickoff-event-at-la-chic-boutique": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Eagles Kickoff Event at La Chic Boutique",
    "venue": "La Chic Boutique, West Chester",
    "date": "2026-09-12"
@@ -759,7 +766,7 @@
   },
   "echoes-of-the-past-a-west-chester-scavenger-hunt": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Echoes of the Past: A West Chester Scavenger Hunt 2026",
    "venue": "Chester County History Center, West Chester",
    "date": "2026-10-01"
@@ -773,7 +780,7 @@
   },
   "elf": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Elf",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-11-27"
@@ -801,7 +808,7 @@
   },
   "fall-foliage-express-2026": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Fall Foliage Express 2026",
    "venue": "West Chester Railroad, West Chester",
    "date": "2026-10-04"
@@ -815,7 +822,7 @@
   },
   "fall-gallery-walk": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Fall Gallery Walk 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-10-02"
@@ -829,14 +836,14 @@
   },
   "family-fun-fridays-at-penn-s-table": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Family Fun Fridays at Penn's Table",
    "venue": "Penn's Table Restaurant, West Chester",
    "date": "2026-09-11"
   },
   "family-sleepover-at-the-helicopter-museum": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Family Sleepover at the Helicopter Museum",
    "venue": "American Helicopter Museum, West Chester",
    "date": "2026-10-03"
@@ -906,10 +913,10 @@
   },
   "fireworks-fountains-show": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Fireworks & Fountains Show",
    "venue": "Longwood Gardens, Kennett Square",
-   "date": "2026-09-06"
+   "date": "2026-09-26"
   },
   "fireworks-fountains-the-final-frontier": {
    "first_seen": "2026-07-18",
@@ -962,28 +969,28 @@
   },
   "gay-street-open-air-market": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
-   "title": "Gay Street Open-Air Market 2026",
-   "venue": "Downtown West Chester, West Chester",
-   "date": "2026-09-05"
+   "last_seen": "2026-09-06",
+   "title": "Gay Street Open-Air Market",
+   "venue": "Gay Street (Matlack to Darlington)",
+   "date": "2026-09-06"
   },
   "gay-street-open-air-market-2026": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-02",
+   "last_seen": "2026-09-06",
    "title": "Gay Street Open-Air Market 2026",
    "venue": "Downtown West Chester, West Chester",
-   "date": "2026-09-27"
+   "date": "2026-09-07"
   },
   "girls-in-aviation-day": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Girls in Aviation Day",
    "venue": "American Helicopter Museum, West Chester",
    "date": "2026-09-19"
   },
   "glenn-miller-orchestra": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Glenn Miller Orchestra",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-10-22"
@@ -993,7 +1000,7 @@
    "title": "Good Food Fest – Local Farms & Food Makers at Kimberton Fairgrounds",
    "venue": "Kimberton Fairgrounds, 762 Pike Springs Rd, Phoenixville",
    "date": "2026-11-01",
-   "last_seen": "2026-09-05"
+   "last_seen": "2026-09-06"
   },
   "goodnight-moonshine-featuring-molly-of-red-molly": {
    "first_seen": "2026-09-05",
@@ -1004,14 +1011,14 @@
   },
   "greater-philadelphia-dahlia-society-show": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-04",
+   "last_seen": "2026-09-06",
    "title": "Greater Philadelphia Dahlia Society Show",
    "venue": "Longwood Gardens, Kennett Square",
    "date": "2026-09-12"
   },
   "gusten-rudolph-quintet": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Gusten Rudolph Quintet",
    "venue": "Windish Studios, West Chester",
    "date": "2026-10-09"
@@ -1025,21 +1032,21 @@
   },
   "halloween-jam": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "2026 Halloween Jam",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-10-24"
   },
   "halloween-special-train-ride-2026": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Halloween Special Train Ride 2026",
    "venue": "West Chester Railroad, West Chester",
    "date": "2026-10-24"
   },
   "halloweentown": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Halloweentown",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-10-19"
@@ -1060,7 +1067,7 @@
   },
   "haunted-helicopters": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Haunted Helicopters",
    "venue": "American Helicopter Museum, West Chester",
    "date": "2026-10-24"
@@ -1102,7 +1109,7 @@
   },
   "holiday-centerpiece-workshop-at-stove-tap": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Holiday Centerpiece Workshop at Stove & Tap",
    "venue": "Stove & Tap, West Chester",
    "date": "2026-11-17"
@@ -1116,7 +1123,7 @@
   },
   "holiday-wreath-workshop-at-bierhaul": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Holiday Wreath Workshop at Bierhaul",
    "venue": "Bierhaul Townhouse, West Chester",
    "date": "2026-11-14"
@@ -1130,7 +1137,7 @@
   },
   "in-to-america": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "In To America",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-10-09"
@@ -1144,7 +1151,7 @@
   },
   "jazz-cocktail-hour-hailey-brinnel-quartet": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-09-06",
    "title": "Jazz Cocktail Hour: Hailey Brinnel Quartet",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-17"
@@ -1200,7 +1207,7 @@
   },
   "josh-blue-the-road-dog-tour": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-09-06",
    "title": "Josh Blue: The Road Dog Tour",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-16"
@@ -1228,14 +1235,14 @@
   },
   "kashmir-the-spirit-of-led-zeppelin-live": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-08-28",
-   "title": "Kashmir - The Spirit of Led Zeppelin Live",
+   "last_seen": "2026-09-06",
+   "title": "Kashmir: The Spirit of Led Zeppelin Live",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-17"
   },
   "kashmir-the-spirit-of-led-zepplin-live": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "KASHMIR – THE SPIRIT OF LED ZEPPLIN LIVE",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-17"
@@ -1252,7 +1259,7 @@
    "title": "Kennett Flash Members Party with Flint Hill",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-09-27",
-   "last_seen": "2026-09-05"
+   "last_seen": "2026-09-06"
   },
   "keystone-breakers-and-cordelia-blue": {
    "first_seen": "2026-09-05",
@@ -1277,7 +1284,7 @@
   },
   "kildare-s-whiskey-and-cigar-nights": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Kildare's Whiskey and Cigar Nights",
    "venue": "Kildare's Irish Pub, West Chester",
    "date": "2026-09-29"
@@ -1291,7 +1298,7 @@
   },
   "la-chic-boutique-s-8th-anniversary-party": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "La Chic Boutique's 8th Anniversary Party",
    "venue": "La Chic Boutique, West Chester",
    "date": "2026-10-17"
@@ -1312,7 +1319,7 @@
   },
   "legion-of-prog-prog-rock-tribute": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Legion of Prog: A Prog Rock Tribute",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-10-03"
@@ -1368,7 +1375,7 @@
   },
   "mahjong-night-at-9-prime": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Mahjong Night at 9 Prime",
    "venue": "9 Prime, West Chester",
    "date": "2026-11-12"
@@ -1382,7 +1389,7 @@
   },
   "make-your-own-terrarium-workshop": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Make Your Own Terrarium Workshop",
    "venue": "The Green House, West Chester",
    "date": "2026-09-12"
@@ -1417,9 +1424,9 @@
   },
   "meet-loaf": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
-   "title": "Meet Loaf",
-   "venue": "Uptown Knauer Performing Arts Center",
+   "last_seen": "2026-09-06",
+   "title": "Meet Loaf: A Tribute to Meat Loaf",
+   "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-24"
   },
   "meet-loaf-a-meat-loaf-tribute": {
@@ -1438,7 +1445,7 @@
   },
   "metal-night-tempting-the-tides-gravelord-ashes-to-vanity": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Metal Night: Tempting the Tides, GraveLord, Ashes To Vanity",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-09-18"
@@ -1452,14 +1459,14 @@
   },
   "movie-monday-halloweentown": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-09-06",
    "title": "Movie Monday: Halloweentown",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-19"
   },
   "movie-monday-series": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Movie Monday Series 2026",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-14"
@@ -1473,7 +1480,7 @@
   },
   "movie-monday-toy-story": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-09-06",
    "title": "Movie Monday: Toy Story",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-14"
@@ -1529,7 +1536,7 @@
   },
   "navigating-tuscany-finding-the-true-gems-of-montepulciano-chianti-beyond": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Navigating Tuscany: Finding the True Gems of Montepulciano, Chianti & Beyond",
    "venue": "Turks Head Wines, West Chester",
    "date": "2026-10-03"
@@ -1550,14 +1557,14 @@
   },
   "no-country-for-mothers-film-and-interactive-discussion": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "No Country for Mothers: Film and Interactive Discussion",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-09-16"
   },
   "november-first-friday": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "November First Friday 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-11-06"
@@ -1571,7 +1578,7 @@
   },
   "october-first-friday": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "October First Friday 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-10-02"
@@ -1585,7 +1592,7 @@
   },
   "oktoberfest-2026": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Oktoberfest 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-10-03"
@@ -1620,7 +1627,7 @@
   },
   "open-studio-at-ginkgo-arts": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Open Studio at Ginkgo Arts",
    "venue": "Ginkgo Arts, West Chester",
    "date": "2026-10-02"
@@ -1634,7 +1641,7 @@
   },
   "part-time-job-fair-for-wcu-students": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Part Time Job Fair for WCU Students 2026",
    "venue": "align.Space, West Chester",
    "date": "2026-09-09"
@@ -1648,21 +1655,21 @@
   },
   "pflag-west-chester-chester-county-the-lgbt-equality-alliance-present-the-dads": {
    "first_seen": "2026-08-29",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "PFLAG West Chester/Chester County & the LGBT Equality Alliance present: THE DADS",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-10-03"
   },
   "photography-walk-at-brinton-s-mill": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Photography Walk at Brinton's Mill",
    "venue": "Brandywine Museum of Art, Chadds Ford",
    "date": "2026-10-08"
   },
   "picnic-special-train-ride": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Picnic Special – Train Ride 2026",
    "venue": "West Chester Railroad, West Chester",
    "date": "2026-09-06"
@@ -1676,7 +1683,7 @@
   },
   "pints-and-paints": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Pints and Paints 2026",
    "venue": "Artillery Brewing Company, West Chester",
    "date": "2026-10-29"
@@ -1690,10 +1697,10 @@
   },
   "plagues-and-pestilence-a-walking-tour": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Plagues and Pestilence: A Walking Tour 2026",
    "venue": "Chester County History Center, West Chester",
-   "date": "2026-09-05"
+   "date": "2026-09-09"
   },
   "plagues-and-pestilence-a-walking-tour-2026": {
    "first_seen": "2026-09-02",
@@ -1704,7 +1711,7 @@
   },
   "play-your-way-pop-up": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Play Your Way Pop-Up",
    "venue": "wonderhouse, West Chester",
    "date": "2026-09-13"
@@ -1718,7 +1725,7 @@
   },
   "plein-air-painting-workshop-at-the-n-c-wyeth-studio": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Plein Air Painting Workshop with Randall Graham",
    "venue": "Brandywine Museum of Art, Chadds Ford",
    "date": "2026-09-13"
@@ -1732,8 +1739,8 @@
   },
   "pop-up-beer-garden-at-uptown": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-08-28",
-   "title": "Pop-Up Beer Garden at Uptown!",
+   "last_seen": "2026-09-06",
+   "title": "Pop-Up Beer Garden at Uptown",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-17"
   },
@@ -1760,7 +1767,7 @@
   },
   "pop-up-beer-garden-with-jd-malone": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-08-13",
+   "last_seen": "2026-09-06",
    "title": "Pop-Up Beer Garden with JD Malone",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-26"
@@ -1774,7 +1781,7 @@
   },
   "pumpkin-boo-quet-workshop-at-stove-tap": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Pumpkin BOO-quet Workshop at Stove & Tap",
    "venue": "Stove & Tap, West Chester",
    "date": "2026-10-20"
@@ -1788,7 +1795,7 @@
   },
   "rams-let-s-walk-a-5k-run-walk-to-support-student-athlete-mental-health-initiatives": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Rams Let's Walk: A 5k Run & Walk to Support Student-Athlete Mental Health Initiatives",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-09-20"
@@ -1809,7 +1816,7 @@
   },
   "rocky-horror-picture-show-movie-live-show": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Rocky Horror Picture Show: Screening & Live Show",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-10-23"
@@ -1844,7 +1851,7 @@
   },
   "santa-at-the-square": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Santa at the Square 2026",
    "venue": "Marshall Square Park, West Chester",
    "date": "2026-12-05"
@@ -1858,10 +1865,10 @@
   },
   "saturday-morning-walks": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Saturday Morning Walks 2026",
    "venue": "Downtown West Chester, West Chester",
-   "date": "2026-09-05"
+   "date": "2026-09-12"
   },
   "saturday-morning-walks-2026": {
    "first_seen": "2026-09-02",
@@ -1928,7 +1935,7 @@
   },
   "sicily-uncorked-native-grapes-from-volcano-to-coast": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Sicily Uncorked: Native Grapes from Volcano to Coast",
    "venue": "Turks Head Wines, West Chester",
    "date": "2026-09-26"
@@ -1956,14 +1963,14 @@
   },
   "silent-book-club-west-chester-at-carlino-s-market": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Silent Book Club West Chester at Carlino's Market",
    "venue": "Carlino's Market, West Chester",
    "date": "2026-09-12"
   },
   "silent-book-club-west-chester-at-cutter-cannon": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Silent Book Club West Chester at Cutter & Cannon",
    "venue": "Cutter & Cannon, West Chester",
    "date": "2026-09-21"
@@ -1984,14 +1991,14 @@
   },
   "small-business-weekend-2026": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Small Business Weekend 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-11-27"
   },
   "social-sessions-hosted-by-dj-ha": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Social Sessions Hosted by DJ HA",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-08"
@@ -2019,7 +2026,7 @@
   },
   "soldiers-trains": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Soldiers & Trains",
    "venue": "West Chester Railroad, West Chester",
    "date": "2026-09-13"
@@ -2061,9 +2068,9 @@
   },
   "stephanie-phillips-album-release": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
-   "title": "Stephanie Phillips – Album Release",
-   "venue": "Uptown Knauer Performing Arts Center",
+   "last_seen": "2026-09-06",
+   "title": "Stephanie Phillips Album Release Show",
+   "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-30"
   },
   "stuffed-animal-sleepover": {
@@ -2075,14 +2082,14 @@
   },
   "succulent-pumpkin-workshop-at-bierhaul-townhouse": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Succulent Pumpkin Workshop at Bierhaul Townhouse",
    "venue": "Bierhaul Townhouse, West Chester",
    "date": "2026-09-30"
   },
   "succulent-pumpkin-workshop-at-stove-tap": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Succulent Pumpkin Workshop at Stove & Tap",
    "venue": "Stove & Tap, West Chester",
    "date": "2026-09-22"
@@ -2124,7 +2131,7 @@
   },
   "summer-pop-up-beer-garden-series": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Summer Pop-Up Beer Garden Series 2026",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-26"
@@ -2145,8 +2152,8 @@
   },
   "symphony-of-horror-illuminated-fountain-performance": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-04",
-   "title": "Symphony of Horror Illuminated Fountain Performance",
+   "last_seen": "2026-09-06",
+   "title": "Symphony of Horror: Illuminated Fountain Performance",
    "venue": "Longwood Gardens, Kennett Square",
    "date": "2026-10-23"
   },
@@ -2187,7 +2194,7 @@
   },
   "the-authentic-connection-what-ai-can-t-replace": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "The Authentic Connection; what AI Can't Replace",
    "venue": "align.Space, West Chester",
    "date": "2026-09-15"
@@ -2201,35 +2208,35 @@
   },
   "the-beans-story-slam-school-days": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "The Beans Story Slam – SCHOOL DAYS",
    "venue": "Side Bar & Restaurant, West Chester",
    "date": "2026-09-17"
   },
   "the-brit-pack-with-artful-impact": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "The Brit Pack with Artful Impact",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-10"
   },
   "the-california-guitar-trio": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "The California Guitar Trio",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-09-23"
   },
   "the-dads-a-documentary": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-01",
-   "title": "The Dads: A Documentary",
+   "last_seen": "2026-09-06",
+   "title": "The Dads Documentary Screening",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-03"
   },
   "the-dan-may-band-with-hannah-linowski": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "The Dan May Band with Hannah Linowski",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-10-10"
@@ -2253,7 +2260,7 @@
    "title": "The 2026 Kennett Flash Jazz Jam",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-09-10",
-   "last_seen": "2026-09-05"
+   "last_seen": "2026-09-06"
   },
   "the-last-five-years": {
    "first_seen": "2026-07-16",
@@ -2264,7 +2271,7 @@
   },
   "the-laugh-lounge": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "The Laugh Lounge",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-01"
@@ -2306,7 +2313,7 @@
   },
   "the-laugh-lounge-october-2026": {
    "first_seen": "2026-08-29",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "The Laugh Lounge October 2026",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-10-20"
@@ -2323,7 +2330,7 @@
    "title": "The Legendary Kennett Flash Open Mic Night",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-09-13",
-   "last_seen": "2026-09-05"
+   "last_seen": "2026-09-06"
   },
   "the-mushroom-festival": {
    "first_seen": "2026-09-02",
@@ -2341,7 +2348,7 @@
   },
   "the-rocky-horror-picture-show": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "The Rocky Horror Picture Show",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-10-31"
@@ -2355,7 +2362,7 @@
   },
   "the-six-grapes-that-built-the-wine-world": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "The Six Grapes That Built the Wine World",
    "venue": "Turks Head Wines, West Chester",
    "date": "2026-09-12"
@@ -2365,28 +2372,28 @@
    "title": "The Star Vocal Competition – Finale",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-10-04",
-   "last_seen": "2026-09-05"
+   "last_seen": "2026-09-06"
   },
   "the-star-vocal-competition-october-11": {
    "first_seen": "2026-09-03",
    "title": "The Star Vocal Competition – October 11",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-10-11",
-   "last_seen": "2026-09-05"
+   "last_seen": "2026-09-06"
   },
   "the-star-vocal-competition-october-18": {
    "first_seen": "2026-09-03",
    "title": "The Star Vocal Competition – October 18",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-10-18",
-   "last_seen": "2026-09-05"
+   "last_seen": "2026-09-06"
   },
   "the-star-vocal-competition-october-4": {
    "first_seen": "2026-09-03",
    "title": "The Star Vocal Competition – October 4",
    "venue": "Uptown Knauer Performing Arts Center",
    "date": "2026-10-04",
-   "last_seen": "2026-09-05"
+   "last_seen": "2026-09-06"
   },
   "the-underground-railroad-in-west-chester-walking-tour": {
    "first_seen": "2026-07-18",
@@ -2418,8 +2425,8 @@
   },
   "total-mass-retain-a-yes-tribute": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-01",
-   "title": "Total Mass Retain: A Yes Tribute",
+   "last_seen": "2026-09-06",
+   "title": "Total Mass Retain: A YES Tribute",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-11-13"
   },
@@ -2502,7 +2509,7 @@
   },
   "up-on-the-roof": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Up on the Roof 2026",
    "venue": "Chestnut Street Garage, West Chester",
    "date": "2026-09-12"
@@ -2523,7 +2530,7 @@
   },
   "veteran-s-roll-call": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Veteran's Roll Call",
    "venue": "Artillery Brewing Company, West Chester",
    "date": "2026-09-17"
@@ -2544,7 +2551,7 @@
   },
   "wcu-family-weekend": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "WCU Family Weekend 2026",
    "venue": "West Chester University, West Chester",
    "date": "2026-11-06"
@@ -2558,42 +2565,42 @@
   },
   "wcu-golden-rams-football-vs-iup": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "WCU Football vs. IUP",
    "venue": "Farrell Stadium, West Chester",
    "date": "2026-09-12"
   },
   "wcu-golden-rams-football-vs-lackawanna": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "WCU Football vs. Lackawanna",
    "venue": "Farrell Stadium, West Chester",
    "date": "2026-10-17"
   },
   "wcu-golden-rams-football-vs-millersville-homecoming": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
-   "title": "WCU Football vs. Millersville (Homecoming)",
+   "last_seen": "2026-09-06",
+   "title": "WCU Homecoming Football vs. Millersville",
    "venue": "Farrell Stadium, West Chester",
    "date": "2026-09-26"
   },
   "wcu-golden-rams-football-vs-shepherd": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "WCU Football vs. Shepherd",
    "venue": "Farrell Stadium, West Chester",
    "date": "2026-10-10"
   },
   "wcu-golden-rams-football-vs-shippensburg-family-weekend": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
-   "title": "WCU Football vs. Shippensburg (Family Weekend)",
+   "last_seen": "2026-09-06",
+   "title": "WCU Football vs. Shippensburg",
    "venue": "Farrell Stadium, West Chester",
    "date": "2026-11-07"
   },
   "wcu-homecoming-2026": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "WCU Homecoming 2026",
    "venue": "West Chester University, West Chester",
    "date": "2026-09-25"
@@ -2628,7 +2635,7 @@
   },
   "west-chester-children-s-business-fair": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Children's Business Fair 2026",
    "venue": "Jack Loew Plaza at 44 West, west chester",
    "date": "2026-09-12"
@@ -2642,28 +2649,28 @@
   },
   "west-chester-chili-cook-off": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Chili Cook-Off",
    "venue": "Gay Street, Downtown",
    "date": "2026-10-04"
   },
   "west-chester-chili-cook-off-2026": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Chili Cook-Off 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-10-11"
   },
   "west-chester-christmas-parade-tree-lighting": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Lights Up! Christmas Parade & Tree Lighting",
    "venue": "Downtown West Chester",
    "date": "2026-12-04"
   },
   "west-chester-comedy-festival": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Comedy Festival 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-09-10"
@@ -2677,28 +2684,28 @@
   },
   "west-chester-comedy-festival-friday-headliner-show-at-windish-studios": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Comedy Festival: Friday Headliner Show at Windish Studios",
    "venue": "Windish Studios, West Chester",
    "date": "2026-09-11"
   },
   "west-chester-comedy-festival-friday-showcase-at-the-refinery": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Comedy Festival: Friday Showcase at The Refinery",
    "venue": "The Refinery Hair Studio, West Chester",
    "date": "2026-09-11"
   },
   "west-chester-comedy-festival-saturday-showcase-at-turks-head-cafe": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Comedy Festival: Saturday Showcase at Turks Head Cafe",
    "venue": "Turks Head Cafe, West Chester",
    "date": "2026-09-12"
   },
   "west-chester-comedy-festival-the-set-up-comedy-dating-show": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Comedy Festival: The Set-Up Comedy Dating Show",
    "venue": "Turks Head Cafe, West Chester",
    "date": "2026-09-12"
@@ -2712,14 +2719,14 @@
   },
   "west-chester-comedy-festival-thursday-night-showcase-at-turks-head-cafe": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Comedy Festival: Thursday Night Showcase at Turks Head Cafe",
    "venue": "Turks Head Cafe, West Chester",
    "date": "2026-09-10"
   },
   "west-chester-comedy-festival-thursday-night-showcase-at-uptown": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Comedy Festival: Thursday Night Showcase at Uptown",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-10"
@@ -2729,7 +2736,7 @@
    "title": "West Chester Community Center Comedy Fundraiser Show",
    "venue": "West Chester Community Center, West Chester",
    "date": "2026-09-18",
-   "last_seen": "2026-09-05"
+   "last_seen": "2026-09-06"
   },
   "west-chester-film-festival": {
    "first_seen": "2026-07-16",
@@ -2747,35 +2754,35 @@
   },
   "west-chester-growers-market": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Growers Market",
    "venue": "Chestnut & Church Streets",
-   "date": "2026-09-05"
+   "date": "2026-09-12"
   },
   "west-chester-growers-market-2026": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Growers Market 2026",
    "venue": "Chestnut & Church Streets, West Chester",
    "date": "2026-11-28"
   },
   "west-chester-halloween-parade": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Halloween Parade",
    "venue": "Downtown West Chester",
    "date": "2026-10-25"
   },
   "west-chester-halloween-parade-2026": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Halloween Parade 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-10-28"
   },
   "west-chester-hometown-christmas-parade": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Hometown Christmas Parade 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-12-04"
@@ -2796,10 +2803,10 @@
   },
   "west-chester-oktoberfest": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-08-28",
-   "title": "West Chester Oktoberfest",
-   "venue": "Downtown West Chester",
-   "date": "2026-10-02"
+   "last_seen": "2026-09-06",
+   "title": "West Chester Oktoberfest 2026",
+   "venue": "Downtown West Chester, West Chester",
+   "date": "2026-10-03"
   },
   "west-chester-railroad-history-special": {
    "first_seen": "2026-09-05",
@@ -2817,7 +2824,7 @@
   },
   "west-chester-social-club-x-chesco-tours-haunted-history-of-west-chester": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Social Club x ChesCo Tours: Haunted History of West Chester",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-10-08"
@@ -2838,7 +2845,7 @@
   },
   "west-chester-turkey-trot-2026": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "West Chester Turkey Trot 2026",
    "venue": "Downtown West Chester, West Chester",
    "date": "2026-11-26"
@@ -2887,7 +2894,7 @@
   },
   "yoga-in-the-street": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "Yoga in the Street 2026",
    "venue": "Gay Street, West Chester",
    "date": "2026-09-12"
@@ -2901,7 +2908,7 @@
   },
   "you-me-harry-celebrating-harry-chapin": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-09-06",
    "title": "You, Me, & Harry: Celebrating the Music of Harry Chapin",
    "venue": "The Kennett Flash, Kennett Square",
    "date": "2026-09-17"
