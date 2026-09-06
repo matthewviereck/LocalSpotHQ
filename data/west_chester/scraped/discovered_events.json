@@ -1,29 +1,1725 @@
 [
   {
-    "id": "discovered_sugar-lime-blue-acoustic-duo_20260905",
+    "id": "discovered_picnic-special-train-ride_20260906",
     "type": "event",
-    "title": "Sugar Lime Blue: Acoustic Duo",
+    "title": "Picnic Special Train Ride",
     "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
+      "name": "West Chester Railroad, West Chester",
       "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
+        "lat": 39.9585,
+        "lng": -75.5943
       }
     },
-    "raw_date_string": "Sep 5, 2026",
+    "raw_date_string": "Sep 6, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor"
+      ],
+      "price": "Free - $30",
+      "time": "12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_social-sessions-hosted-by-dj-ha_20260908",
+    "type": "event",
+    "title": "Social Sessions Hosted by DJ HA",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 8, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Casual"
+      ],
+      "price": "Donation",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_west-chester-comedy-festival-2026_20260910",
+    "type": "event",
+    "title": "West Chester Comedy Festival 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 10 - 12, 2026",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Comedy",
+        "Nightlife"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_west-chester-comedy-festival-thursday-night_20260910",
+    "type": "event",
+    "title": "West Chester Comedy Festival: Thursday Night Showcase",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 10, 2026",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Comedy",
+        "Nightlife"
+      ],
+      "price": "$26-$31",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_bye-bye-birdie_20260911",
+    "type": "event",
+    "title": "Bye Bye Birdie",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 11 - 27, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Theater",
+        "Date Night"
+      ],
+      "price": "$41-$61",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_wcu-football-vs-iup_20260912",
+    "type": "event",
+    "title": "WCU Football vs. IUP",
+    "venue_info": {
+      "name": "Farrell Stadium, West Chester",
+      "location": {
+        "lat": 39.945,
+        "lng": -75.6084
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Sports",
+        "Outdoor"
+      ],
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcupagoldenrams.com/sports/football/schedule/2026"
+  },
+  {
+    "id": "discovered_west-chester-growers-market_20260912",
+    "type": "event",
+    "title": "West Chester Growers Market",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "9:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_yoga-in-the-street_20260912",
+    "type": "event",
+    "title": "Yoga in the Street",
+    "venue_info": {
+      "name": "Gay Street, West Chester",
+      "location": {
+        "lat": 39.9603,
+        "lng": -75.6045
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Wellness"
+      ],
+      "price": "$5",
+      "time": "9:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_west-chester-children-s-business-fair_20260912",
+    "type": "event",
+    "title": "West Chester Children's Business Fair",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor"
+      ],
+      "time": "9:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_up-on-the-roof-2026_20260912",
+    "type": "event",
+    "title": "Up on the Roof 2026",
+    "venue_info": {
+      "name": "Chestnut Street Garage, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Nightlife",
+        "Outdoor"
+      ],
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_movie-monday-toy-story_20260914",
+    "type": "event",
+    "title": "Movie Monday: Toy Story",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 14, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Indoor"
+      ],
+      "price": "$7",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_no-country-for-mothers-film-and_20260916",
+    "type": "event",
+    "title": "No Country for Mothers: Film and Interactive Discussion",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 16, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor"
+      ],
+      "time": "6:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_jazz-cocktail-hour-hailey-brinnel-quartet_20260917",
+    "type": "event",
+    "title": "Jazz Cocktail Hour: Hailey Brinnel Quartet",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 17, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Date Night"
+      ],
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_girls-in-aviation-day_20260919",
+    "type": "event",
+    "title": "Girls in Aviation Day",
+    "venue_info": {
+      "name": "American Helicopter Museum, West Chester",
+      "location": {
+        "lat": 39.993,
+        "lng": -75.5817
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Indoor"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.helicoptermuseum.org/event-list"
+  },
+  {
+    "id": "discovered_dueling-pianos-with-the-philly-keys_20260923",
+    "type": "event",
+    "title": "Dueling Pianos with The Philly Keys",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 23, 2026",
     "attributes": {
       "category": "Live Music",
       "vibes": [
         "Live Music",
         "Nightlife"
       ],
-      "price": "$20-$28",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_wcu-homecoming-football-vs-millersville_20260926",
+    "type": "event",
+    "title": "WCU Homecoming Football vs. Millersville",
+    "venue_info": {
+      "name": "Farrell Stadium, West Chester",
+      "location": {
+        "lat": 39.945,
+        "lng": -75.6084
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Sports",
+        "Outdoor"
+      ],
+      "time": "2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcupagoldenrams.com/sports/football/schedule/2026"
+  },
+  {
+    "id": "discovered_pop-up-beer-garden-with-jd_20260926",
+    "type": "event",
+    "title": "Pop-Up Beer Garden with JD Malone",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Outdoor",
+        "Live Music"
+      ],
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_stephanie-phillips-album-release-show_20260930",
+    "type": "event",
+    "title": "Stephanie Phillips Album Release Show",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Sep 30, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music"
+      ],
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_the-laugh-lounge_20261001",
+    "type": "event",
+    "title": "The Laugh Lounge",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 1, 2026",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Comedy",
+        "Nightlife"
+      ],
+      "price": "$31-$36",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_echoes-of-the-past-a-west_20261001",
+    "type": "event",
+    "title": "Echoes of the Past: A West Chester Scavenger Hunt",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 1, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Date Night"
+      ],
+      "price": "$30-$40",
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_october-first-friday_20261002",
+    "type": "event",
+    "title": "October First Friday",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 2, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_fall-gallery-walk-2026_20261002",
+    "type": "event",
+    "title": "Fall Gallery Walk 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 2, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "Outdoor"
+      ],
+      "price": "Free",
+      "time": "4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_better-than-bacon-improv-comedy_20261002",
+    "type": "event",
+    "title": "Better Than Bacon Improv Comedy",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 2, 2026",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Comedy",
+        "Nightlife"
+      ],
+      "price": "$31-$36",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_west-chester-oktoberfest-2026_20261003",
+    "type": "event",
+    "title": "West Chester Oktoberfest 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_the-dads-documentary-screening_20261003",
+    "type": "event",
+    "title": "The Dads Documentary Screening",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor"
+      ],
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_family-sleepover-at-the-helicopter-museum_20261003",
+    "type": "event",
+    "title": "Family Sleepover at the Helicopter Museum",
+    "venue_info": {
+      "name": "American Helicopter Museum, West Chester",
+      "location": {
+        "lat": 39.993,
+        "lng": -75.5817
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Indoor"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.helicoptermuseum.org/event-list"
+  },
+  {
+    "id": "discovered_fall-foliage-express-train-ride_20261004",
+    "type": "event",
+    "title": "Fall Foliage Express Train Ride",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9585,
+        "lng": -75.5943
+      }
+    },
+    "raw_date_string": "Oct 4, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor"
+      ],
+      "price": "$25-$30",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_downingtown-fall-fest-2026_20261004",
+    "type": "event",
+    "title": "Downingtown Fall Fest 2026",
+    "venue_info": {
+      "name": "Green Street & E Pennsylvania Ave, Downingtown",
+      "location": {
+        "lat": 40.0068,
+        "lng": -75.7032
+      }
+    },
+    "raw_date_string": "Oct 4, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "11:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downingtownfallfest.com/"
+  },
+  {
+    "id": "discovered_chilling-west-chester-a-dark-history_20261007",
+    "type": "event",
+    "title": "Chilling West Chester: A Dark History Walking Tour",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9637,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 7, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Date Night"
+      ],
+      "price": "$20",
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_baking-soda-rocket-day_20261008",
+    "type": "event",
+    "title": "Baking Soda Rocket Day",
+    "venue_info": {
+      "name": "American Helicopter Museum, West Chester",
+      "location": {
+        "lat": 39.993,
+        "lng": -75.5817
+      }
+    },
+    "raw_date_string": "Oct 8, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Indoor"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.helicoptermuseum.org/event-list"
+  },
+  {
+    "id": "discovered_in-to-america_20261009",
+    "type": "event",
+    "title": "In To America",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 9, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Theater",
+        "Date Night"
+      ],
+      "price": "$41-$46",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_gusten-rudolph-quintet_20261009",
+    "type": "event",
+    "title": "Gusten Rudolph Quintet",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 9, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music"
+      ],
+      "price": "$25",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_wcu-football-vs-shepherd_20261010",
+    "type": "event",
+    "title": "WCU Football vs. Shepherd",
+    "venue_info": {
+      "name": "Farrell Stadium, West Chester",
+      "location": {
+        "lat": 39.945,
+        "lng": -75.6084
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Sports",
+        "Outdoor"
+      ],
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcupagoldenrams.com/sports/football/schedule/2026"
+  },
+  {
+    "id": "discovered_the-brit-pack-with-artful-impact_20261010",
+    "type": "event",
+    "title": "The Brit Pack with Artful Impact",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Date Night"
+      ],
+      "price": "$46-$106",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_art-sprouts-fall-art-in-the_20261010",
+    "type": "event",
+    "title": "Art Sprouts: Fall Art in the Woods",
+    "venue_info": {
+      "name": "Chester County Art Association, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "11:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_west-chester-chili-cook-off-2026_20261011",
+    "type": "event",
+    "title": "West Chester Chili Cook-Off 2026",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 11, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "time": "12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_josh-blue-the-road-dog-tour_20261016",
+    "type": "event",
+    "title": "Josh Blue: The Road Dog Tour",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 16, 2026",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Comedy",
+        "Nightlife"
+      ],
+      "price": "$46-$51",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_14th-annual-unite-for-her-run_20261017",
+    "type": "event",
+    "title": "14th Annual Unite For HER Run/Walk",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "time": "9:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_kashmir-the-spirit-of-led-zeppelin_20261017",
+    "type": "event",
+    "title": "Kashmir: The Spirit of Led Zeppelin Live",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Nightlife"
+      ],
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_pop-up-beer-garden-at-uptown_20261017",
+    "type": "event",
+    "title": "Pop-Up Beer Garden at Uptown",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Outdoor",
+        "Live Music"
+      ],
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_wcu-football-vs-lackawanna_20261017",
+    "type": "event",
+    "title": "WCU Football vs. Lackawanna",
+    "venue_info": {
+      "name": "Farrell Stadium, West Chester",
+      "location": {
+        "lat": 39.945,
+        "lng": -75.6084
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Sports",
+        "Outdoor"
+      ],
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcupagoldenrams.com/sports/football/schedule/2026"
+  },
+  {
+    "id": "discovered_movie-monday-halloweentown_20261019",
+    "type": "event",
+    "title": "Movie Monday: Halloweentown",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 19, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Indoor"
+      ],
+      "price": "$7",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_glenn-miller-orchestra_20261022",
+    "type": "event",
+    "title": "Glenn Miller Orchestra",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 22, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Date Night"
+      ],
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_abacab-a-tribute-to-genesis_20261023",
+    "type": "event",
+    "title": "Abacab: A Tribute to Genesis",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 23, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Nightlife"
+      ],
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_meet-loaf-a-tribute-to-meat_20261024",
+    "type": "event",
+    "title": "Meet Loaf: A Tribute to Meat Loaf",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Nightlife"
+      ],
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_haunted-helicopters_20261024",
+    "type": "event",
+    "title": "Haunted Helicopters",
+    "venue_info": {
+      "name": "American Helicopter Museum, West Chester",
+      "location": {
+        "lat": 39.993,
+        "lng": -75.5817
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Indoor"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.helicoptermuseum.org/event-list"
+  },
+  {
+    "id": "discovered_halloween-special-train-ride_20261025",
+    "type": "event",
+    "title": "Halloween Special Train Ride",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9585,
+        "lng": -75.5943
+      }
+    },
+    "raw_date_string": "Oct 25, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor"
+      ],
+      "price": "$15-$30",
+      "time": "12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_the-rocky-horror-picture-show_20261031",
+    "type": "event",
+    "title": "The Rocky Horror Picture Show",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Oct 31, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Nightlife",
+        "Theater"
+      ],
+      "time": "9:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_november-first-friday_20261106",
+    "type": "event",
+    "title": "November First Friday",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 6, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_wcu-family-weekend-2026_20261106",
+    "type": "event",
+    "title": "WCU Family Weekend 2026",
+    "venue_info": {
+      "name": "West Chester University, West Chester",
+      "location": {
+        "lat": 39.945,
+        "lng": -75.6084
+      }
+    },
+    "raw_date_string": "Nov 6 - 8, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Family Friendly",
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_bell-bottom-blues-an-eric-clapton_20261107",
+    "type": "event",
+    "title": "Bell Bottom Blues: An Eric Clapton Tribute",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Date Night"
+      ],
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_wcu-football-vs-shippensburg_20261107",
+    "type": "event",
+    "title": "WCU Football vs. Shippensburg",
+    "venue_info": {
+      "name": "Farrell Stadium, West Chester",
+      "location": {
+        "lat": 39.945,
+        "lng": -75.6084
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Sports",
+        "Outdoor"
+      ],
+      "time": "2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcupagoldenrams.com/sports/football/schedule/2026"
+  },
+  {
+    "id": "discovered_total-mass-retain-a-yes-tribute_20261113",
+    "type": "event",
+    "title": "Total Mass Retain: A YES Tribute",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Nov 13, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Nightlife"
+      ],
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/"
+  },
+  {
+    "id": "discovered_holiday-wreath-workshop-at-bierhaul_20261114",
+    "type": "event",
+    "title": "Holiday Wreath Workshop at Bierhaul",
+    "venue_info": {
+      "name": "Bierhaul Townhouse, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 14, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Date Night"
+      ],
+      "price": "$95",
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_west-chester-growers-market_20261114",
+    "type": "event",
+    "title": "West Chester Growers Market",
+    "venue_info": {
+      "name": "Chestnut & Church Streets, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 14, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "9:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_2nd-annual-west-chester-holiday-shop_20261115",
+    "type": "event",
+    "title": "2nd Annual West Chester Holiday Shop & Stroll",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 15, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_december-first-friday_20261204",
+    "type": "event",
+    "title": "December First Friday",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Dec 4, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_west-chester-hometown-christmas-parade_20261204",
+    "type": "event",
+    "title": "West Chester Hometown Christmas Parade",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Dec 4, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_santa-at-the-square_20261205",
+    "type": "event",
+    "title": "Santa at the Square",
+    "venue_info": {
+      "name": "Marshall Square Park, West Chester",
+      "location": {
+        "lat": 39.9648,
+        "lng": -75.6001
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "4:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_christkindlmarkt-2026_20261212",
+    "type": "event",
+    "title": "Christkindlmarkt 2026",
+    "venue_info": {
+      "name": "Gay Street, West Chester",
+      "location": {
+        "lat": 39.9603,
+        "lng": -75.6045
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "11:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/events/"
+  },
+  {
+    "id": "discovered_dj-jazzy-jeff-fountain-party_20260909",
+    "type": "event",
+    "title": "DJ Jazzy Jeff: Fountain Party",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8709,
+        "lng": -75.6749
+      }
+    },
+    "raw_date_string": "Sep 9, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Outdoor"
+      ],
       "time": "8:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.kennettflash.org/events"
+    "action_link": "https://longwoodgardens.org/events-performances"
+  },
+  {
+    "id": "discovered_greater-philadelphia-dahlia-society-show_20260912",
+    "type": "event",
+    "title": "Greater Philadelphia Dahlia Society Show",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8709,
+        "lng": -75.6749
+      }
+    },
+    "raw_date_string": "Sep 12 - 13, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Family Friendly",
+        "Outdoor"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances"
+  },
+  {
+    "id": "discovered_plein-air-painting-workshop-with-randall_20260913",
+    "type": "event",
+    "title": "Plein Air Painting Workshop with Randall Graham",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8697,
+        "lng": -75.5905
+      }
+    },
+    "raw_date_string": "Sep 13, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events"
+  },
+  {
+    "id": "discovered_fireworks-fountains-show_20260926",
+    "type": "event",
+    "title": "Fireworks & Fountains Show",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8709,
+        "lng": -75.6749
+      }
+    },
+    "raw_date_string": "Sep 26, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Date Night",
+        "Family Friendly"
+      ],
+      "time": "8:15 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances"
+  },
+  {
+    "id": "discovered_andrew-wyeth-the-masterworks-book-talk_20261002",
+    "type": "event",
+    "title": "Andrew Wyeth: The Masterworks Book Talk & Signing",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8697,
+        "lng": -75.5905
+      }
+    },
+    "raw_date_string": "Oct 2, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events"
+  },
+  {
+    "id": "discovered_photography-walk-at-brinton-s-mill_20261008",
+    "type": "event",
+    "title": "Photography Walk at Brinton's Mill",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8697,
+        "lng": -75.5905
+      }
+    },
+    "raw_date_string": "Oct 8, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events"
+  },
+  {
+    "id": "discovered_chrysanthemum-festival_20261016",
+    "type": "event",
+    "title": "Chrysanthemum Festival",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8709,
+        "lng": -75.6749
+      }
+    },
+    "raw_date_string": "Oct 16 - Nov 15, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly",
+        "Date Night"
+      ],
+      "price": "Free with Gardens Admission"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/chrysanthemum-festival"
+  },
+  {
+    "id": "discovered_symphony-of-horror-illuminated-fountain-performance_20261023",
+    "type": "event",
+    "title": "Symphony of Horror: Illuminated Fountain Performance",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8709,
+        "lng": -75.6749
+      }
+    },
+    "raw_date_string": "Oct 23, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Date Night"
+      ],
+      "time": "8:15 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances"
   },
   {
     "id": "discovered_the-2026-kennett-flash-jazz-jam_20260910",
@@ -40,9 +1736,10 @@
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Live Music",
-        "Casual"
+        "Free",
+        "Live Music"
       ],
+      "price": "Free",
       "time": "7:00 PM"
     },
     "media": {
@@ -66,7 +1763,7 @@
       "category": "Live Music",
       "vibes": [
         "Live Music",
-        "Nightlife"
+        "Date Night"
       ],
       "price": "$20-$23",
       "time": "8:00 PM"
@@ -92,7 +1789,7 @@
       "category": "Live Music",
       "vibes": [
         "Live Music",
-        "Nightlife"
+        "Date Night"
       ],
       "price": "$20-$23",
       "time": "8:00 PM"
@@ -117,9 +1814,11 @@
     "attributes": {
       "category": "Live Music",
       "vibes": [
+        "Free",
         "Live Music",
         "Casual"
       ],
+      "price": "Free",
       "time": "6:00 PM"
     },
     "media": {
@@ -142,8 +1841,7 @@
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Live Music",
-        "Nightlife"
+        "Live Music"
       ],
       "price": "$20-$23",
       "time": "7:00 PM"
@@ -194,8 +1892,7 @@
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Live Music",
-        "Nightlife"
+        "Live Music"
       ],
       "price": "$20-$23",
       "time": "7:00 PM"
@@ -221,7 +1918,7 @@
       "category": "Live Music",
       "vibes": [
         "Live Music",
-        "Nightlife"
+        "Date Night"
       ],
       "price": "$40-$43",
       "time": "7:00 PM"
@@ -246,9 +1943,10 @@
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Live Music",
-        "Nightlife"
+        "Free",
+        "Live Music"
       ],
+      "price": "Free",
       "time": "5:00 PM"
     },
     "media": {
@@ -272,7 +1970,7 @@
       "category": "Live Music",
       "vibes": [
         "Live Music",
-        "Nightlife"
+        "Date Night"
       ],
       "price": "$35-$38",
       "time": "8:00 PM"
@@ -309,31 +2007,6 @@
     "action_link": "https://www.kennettflash.org/events"
   },
   {
-    "id": "discovered_the-2026-kennett-flash-jazz-jam_20261008",
-    "type": "event",
-    "title": "The 2026 Kennett Flash Jazz Jam",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Oct 8, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Casual"
-      ],
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
     "id": "discovered_the-dan-may-band-with-hannah_20261010",
     "type": "event",
     "title": "The Dan May Band with Hannah Linowski",
@@ -348,8 +2021,7 @@
     "attributes": {
       "category": "Live Music",
       "vibes": [
-        "Live Music",
-        "Nightlife"
+        "Live Music"
       ],
       "price": "$30-$33",
       "time": "8:00 PM"
@@ -375,62 +2047,10 @@
       "category": "Live Music",
       "vibes": [
         "Live Music",
-        "Nightlife"
+        "Date Night"
       ],
       "price": "$22-$25",
       "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_the-sin-city-band-kid-davis_20261017",
-    "type": "event",
-    "title": "The Sin City Band & Kid Davis and The Bullets",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Oct 17, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$30-$33",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_trae-sheehan-with-clear-the-benches_20261018",
-    "type": "event",
-    "title": "Trae Sheehan with Clear The Benches",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Oct 18, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$20-$23",
-      "time": "7:00 PM"
     },
     "media": {
       "image": ""
@@ -452,8 +2072,8 @@
     "attributes": {
       "category": "Theater",
       "vibes": [
-        "Live Music",
-        "Nightlife"
+        "Nightlife",
+        "Theater"
       ],
       "price": "$20-$23",
       "time": "8:00 PM"
@@ -479,7 +2099,7 @@
       "category": "Live Music",
       "vibes": [
         "Live Music",
-        "Nightlife"
+        "Family Friendly"
       ],
       "price": "$15-$18",
       "time": "3:00 PM"
@@ -488,1556 +2108,5 @@
       "image": ""
     },
     "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_one-alternative-fundraiser-for-if-not_20261104",
-    "type": "event",
-    "title": "One Alternative: Fundraiser for If Not For Music",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Nov 4, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$13-$23",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_an-evening-with-marty-o-reilly_20261106",
-    "type": "event",
-    "title": "An Evening With Marty O'Reilly",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Nov 6, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$20-$23",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_love-you-to-a-tribute-to_20261107",
-    "type": "event",
-    "title": "Love You To: A Tribute to The Beatles",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$30-$33",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_joe-deninzon-stratospheerius-with-jane-getter_20261108",
-    "type": "event",
-    "title": "Joe Deninzon & Stratospheerius with Jane Getter Premonition",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Nov 8, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$30-$33",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_the-2026-kennett-flash-jazz-jam_20261112",
-    "type": "event",
-    "title": "The 2026 Kennett Flash Jazz Jam",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Nov 12, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Casual"
-      ],
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_silver-sonic-up24-impolite-society_20261113",
-    "type": "event",
-    "title": "Silver Sonic, UP24, Impolite Society",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Nov 13, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$15-$18",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_the-legendary-kennett-flash-open-mic_20261115",
-    "type": "event",
-    "title": "The Legendary Kennett Flash Open Mic Night",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Nov 15, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Casual"
-      ],
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_abbie-gardner-with-sean-kiely_20261120",
-    "type": "event",
-    "title": "Abbie Gardner with Sean Kiely",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Nov 20, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$25-$28",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_keystone-breakers-and-cordelia-blue_20261129",
-    "type": "event",
-    "title": "Keystone Breakers and Cordelia Blue",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Nov 29, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$15-$23",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_goodnight-moonshine-featuring-molly-of-red_20261205",
-    "type": "event",
-    "title": "Goodnight Moonshine featuring Molly of Red Molly",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Dec 5, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$25-$28",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_charlie-brown-holiday-jazz_20261211",
-    "type": "event",
-    "title": "Charlie Brown Holiday Jazz",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Dec 11, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$13-$28",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_bruce-klauber-swings-frank-sinatra_20261212",
-    "type": "event",
-    "title": "Bruce Klauber Swings Frank Sinatra",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Dec 12, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$30-$33",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_caligula-blushed-a-live-smiths-and_20261218",
-    "type": "event",
-    "title": "Caligula Blushed: A Live Smiths and Morrissey Experience",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Dec 18, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Nightlife"
-      ],
-      "price": "$30-$33",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_the-2027-kennett-flash-jazz-jam_20270114",
-    "type": "event",
-    "title": "The 2027 Kennett Flash Jazz Jam",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8474,
-        "lng": -75.7119
-      }
-    },
-    "raw_date_string": "Jan 14, 2027",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Casual"
-      ],
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettflash.org/events"
-  },
-  {
-    "id": "discovered_fireworks-fountains-show_20260906",
-    "type": "event",
-    "title": "Fireworks & Fountains Show",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.6741
-      }
-    },
-    "raw_date_string": "Sep 6, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Date Night"
-      ],
-      "price": "Ticketed",
-      "time": "8:15 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
-  },
-  {
-    "id": "discovered_dj-jazzy-jeff-fountain-party_20260909",
-    "type": "event",
-    "title": "DJ Jazzy Jeff: Fountain Party",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.6741
-      }
-    },
-    "raw_date_string": "Sep 9, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Outdoor",
-        "Nightlife"
-      ],
-      "price": "Ticketed",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
-  },
-  {
-    "id": "discovered_dahlia-show_20260912",
-    "type": "event",
-    "title": "Dahlia Show",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.6741
-      }
-    },
-    "raw_date_string": "Sep 12 - 13, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "With Gardens admission",
-      "time": "1:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
-  },
-  {
-    "id": "discovered_guster-in-concert_20260916",
-    "type": "event",
-    "title": "Guster in Concert",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.6741
-      }
-    },
-    "raw_date_string": "Sep 16, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Outdoor",
-        "Live Music"
-      ],
-      "price": "Ticketed",
-      "time": "7:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
-  },
-  {
-    "id": "discovered_garden-club-federation-of-pennsylvania-flower_20260919",
-    "type": "event",
-    "title": "Garden Club Federation of Pennsylvania Flower Show",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.6741
-      }
-    },
-    "raw_date_string": "Sep 19 - 20, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "With Gardens admission"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
-  },
-  {
-    "id": "discovered_fireworks-fountains-show_20260926",
-    "type": "event",
-    "title": "Fireworks & Fountains Show",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.6741
-      }
-    },
-    "raw_date_string": "Sep 26, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Date Night"
-      ],
-      "price": "Ticketed",
-      "time": "8:15 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
-  },
-  {
-    "id": "discovered_festival-of-fountains-finale-weekend_20260926",
-    "type": "event",
-    "title": "Festival of Fountains Finale Weekend",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.6741
-      }
-    },
-    "raw_date_string": "Sep 26 - 27, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "With Gardens admission"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
-  },
-  {
-    "id": "discovered_field-flame-open-fire-cooking_20261002",
-    "type": "event",
-    "title": "Field & Flame: Open-Fire Cooking",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.6741
-      }
-    },
-    "raw_date_string": "Oct 2 - 3, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Outdoor",
-        "Date Night"
-      ],
-      "price": "Ticketed",
-      "time": "4:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
-  },
-  {
-    "id": "discovered_garden-railway_20261002",
-    "type": "event",
-    "title": "Garden Railway",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.6741
-      }
-    },
-    "raw_date_string": "Oct 2 - 5, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "With Gardens admission"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
-  },
-  {
-    "id": "discovered_autumn-s-colors_20261002",
-    "type": "event",
-    "title": "Autumn's Colors",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.6741
-      }
-    },
-    "raw_date_string": "Oct 2 - Nov 15, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "With Gardens admission"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
-  },
-  {
-    "id": "discovered_a-longwood-christmas_20261120",
-    "type": "event",
-    "title": "A Longwood Christmas",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.6741
-      }
-    },
-    "raw_date_string": "Nov 20 - Dec 31, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly",
-        "Holiday"
-      ],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/calendar"
-  },
-  {
-    "id": "discovered_free-first-sunday-at-brandywine_20260906",
-    "type": "event",
-    "title": "Free First Sunday at Brandywine",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8686,
-        "lng": -75.5837
-      }
-    },
-    "raw_date_string": "Sep 6, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Free",
-        "Family Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events"
-  },
-  {
-    "id": "discovered_plein-air-painting-workshop-with-randall_20260913",
-    "type": "event",
-    "title": "Plein Air Painting Workshop with Randall Graham",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8686,
-        "lng": -75.5837
-      }
-    },
-    "raw_date_string": "Sep 13, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Creative"
-      ],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events"
-  },
-  {
-    "id": "discovered_andrew-wyeth-the-masterworks-book-talk_20261002",
-    "type": "event",
-    "title": "Andrew Wyeth: The Masterworks Book Talk & Signing",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8686,
-        "lng": -75.5837
-      }
-    },
-    "raw_date_string": "Oct 2, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "Creative"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events"
-  },
-  {
-    "id": "discovered_t-ai-chi-chih-at-the_20261003",
-    "type": "event",
-    "title": "T'ai Chi Chih at the Brandywine",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8686,
-        "lng": -75.5837
-      }
-    },
-    "raw_date_string": "Oct 3, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Wellness",
-        "Casual"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events"
-  },
-  {
-    "id": "discovered_yoga-at-the-brandywine_20261003",
-    "type": "event",
-    "title": "Yoga at the Brandywine",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8686,
-        "lng": -75.5837
-      }
-    },
-    "raw_date_string": "Oct 3, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Wellness",
-        "Casual"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events"
-  },
-  {
-    "id": "discovered_photography-walk-at-brinton-s-mill_20261008",
-    "type": "event",
-    "title": "Photography Walk at Brinton's Mill",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8686,
-        "lng": -75.5837
-      }
-    },
-    "raw_date_string": "Oct 8, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Creative"
-      ],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events"
-  },
-  {
-    "id": "discovered_fiber-arts-circle_20261011",
-    "type": "event",
-    "title": "Fiber Arts Circle",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8686,
-        "lng": -75.5837
-      }
-    },
-    "raw_date_string": "Oct 11, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "Creative"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events"
-  },
-  {
-    "id": "discovered_mushroom-market_20260911",
-    "type": "event",
-    "title": "Mushroom Market",
-    "venue_info": {
-      "name": "Downtown Kennett Square, Kennett Square",
-      "location": {
-        "lat": 39.8465,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Sep 11, 2026",
-    "attributes": {
-      "category": "Farmers Market",
-      "vibes": [
-        "Outdoor",
-        "Free"
-      ],
-      "price": "Free",
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettcollaborative.org/events/"
-  },
-  {
-    "id": "discovered_the-mushroom-festival_20260912",
-    "type": "event",
-    "title": "The Mushroom Festival",
-    "venue_info": {
-      "name": "Downtown Kennett Square, Kennett Square",
-      "location": {
-        "lat": 39.8465,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Sep 12 - 13, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Ticketed",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettcollaborative.org/events/"
-  },
-  {
-    "id": "discovered_third-thursdays-on-state-street_20260917",
-    "type": "event",
-    "title": "Third Thursdays on State Street",
-    "venue_info": {
-      "name": "Downtown Kennett Square, Kennett Square",
-      "location": {
-        "lat": 39.8465,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Sep 17, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Free",
-        "Nightlife"
-      ],
-      "price": "Free",
-      "time": "5:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettcollaborative.org/events/"
-  },
-  {
-    "id": "discovered_girls-in-aviation-day_20260919",
-    "type": "event",
-    "title": "Girls in Aviation Day",
-    "venue_info": {
-      "name": "American Helicopter Museum, West Chester",
-      "location": {
-        "lat": 39.9962,
-        "lng": -75.5836
-      }
-    },
-    "raw_date_string": "Sep 19, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Indoor",
-        "Family Friendly"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.helicoptermuseum.org/event-list"
-  },
-  {
-    "id": "discovered_family-sleepover-at-the-helicopter-museum_20261003",
-    "type": "event",
-    "title": "Family Sleepover at the Helicopter Museum",
-    "venue_info": {
-      "name": "American Helicopter Museum, West Chester",
-      "location": {
-        "lat": 39.9962,
-        "lng": -75.5836
-      }
-    },
-    "raw_date_string": "Oct 3, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Indoor",
-        "Family Friendly"
-      ],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.helicoptermuseum.org/event-list"
-  },
-  {
-    "id": "discovered_baking-soda-rocket-day_20261008",
-    "type": "event",
-    "title": "Baking Soda Rocket Day",
-    "venue_info": {
-      "name": "American Helicopter Museum, West Chester",
-      "location": {
-        "lat": 39.9962,
-        "lng": -75.5836
-      }
-    },
-    "raw_date_string": "Oct 8, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.helicoptermuseum.org/event-list"
-  },
-  {
-    "id": "discovered_haunted-helicopters_20261024",
-    "type": "event",
-    "title": "Haunted Helicopters",
-    "venue_info": {
-      "name": "American Helicopter Museum, West Chester",
-      "location": {
-        "lat": 39.9962,
-        "lng": -75.5836
-      }
-    },
-    "raw_date_string": "Oct 24, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Indoor",
-        "Family Friendly",
-        "Halloween"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.helicoptermuseum.org/event-list"
-  },
-  {
-    "id": "discovered_battle-at-chadds-ford-historic-chadds_20260919",
-    "type": "event",
-    "title": "Battle at Chadds Ford: Historic Chadds Ford Days",
-    "venue_info": {
-      "name": "Chadds Ford Historical Society, Chadds Ford",
-      "location": {
-        "lat": 39.8722,
-        "lng": -75.5906
-      }
-    },
-    "raw_date_string": "Sep 19, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Ticketed",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://chaddsfordhistory.org/events/"
-  },
-  {
-    "id": "discovered_the-great-pumpkin-carve-2026_20261015",
-    "type": "event",
-    "title": "The Great Pumpkin Carve 2026",
-    "venue_info": {
-      "name": "Chadds Ford Historical Society, Chadds Ford",
-      "location": {
-        "lat": 39.8722,
-        "lng": -75.5906
-      }
-    },
-    "raw_date_string": "Oct 15 - 17, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly",
-        "Halloween"
-      ],
-      "price": "Ticketed",
-      "time": "2:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://chaddsfordhistory.org/events/"
-  },
-  {
-    "id": "discovered_soldiers-trains-excursion_20260913",
-    "type": "event",
-    "title": "Soldiers & Trains Excursion",
-    "venue_info": {
-      "name": "West Chester Railroad, West Chester",
-      "location": {
-        "lat": 39.9598,
-        "lng": -75.5988
-      }
-    },
-    "raw_date_string": "Sep 13, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "From $30",
-      "time": "12:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wcrailroad.com/events/"
-  },
-  {
-    "id": "discovered_west-chester-railroad-history-special_20261017",
-    "type": "event",
-    "title": "West Chester Railroad History Special",
-    "venue_info": {
-      "name": "West Chester Railroad, West Chester",
-      "location": {
-        "lat": 39.9598,
-        "lng": -75.5988
-      }
-    },
-    "raw_date_string": "Oct 17, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "From $35",
-      "time": "2:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wcrailroad.com/events/"
-  },
-  {
-    "id": "discovered_historic-yellow-springs-fall-festival_20261011",
-    "type": "event",
-    "title": "Historic Yellow Springs Fall Festival",
-    "venue_info": {
-      "name": "Historic Yellow Springs, Chester Springs",
-      "location": {
-        "lat": 40.1093,
-        "lng": -75.6421
-      }
-    },
-    "raw_date_string": "Oct 11, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://yellowsprings.org/events/"
-  },
-  {
-    "id": "discovered_town-tours-village-walks-lecture-at_20261015",
-    "type": "event",
-    "title": "Town Tours & Village Walks Lecture at Yellow Springs",
-    "venue_info": {
-      "name": "Historic Yellow Springs, Chester Springs",
-      "location": {
-        "lat": 40.1093,
-        "lng": -75.6421
-      }
-    },
-    "raw_date_string": "Oct 15, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Indoor"
-      ],
-      "price": "Free",
-      "time": "5:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://yellowsprings.org/events/"
-  },
-  {
-    "id": "discovered_ceramics-national-exhibition_20261106",
-    "type": "event",
-    "title": "Ceramics National Exhibition",
-    "venue_info": {
-      "name": "Historic Yellow Springs, Chester Springs",
-      "location": {
-        "lat": 40.1093,
-        "lng": -75.6421
-      }
-    },
-    "raw_date_string": "Nov 6 - Dec 13, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "Creative"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://yellowsprings.org/events/"
-  },
-  {
-    "id": "discovered_veterans-art-day_20261114",
-    "type": "event",
-    "title": "Veterans Art Day",
-    "venue_info": {
-      "name": "Historic Yellow Springs, Chester Springs",
-      "location": {
-        "lat": 40.1093,
-        "lng": -75.6421
-      }
-    },
-    "raw_date_string": "Nov 14, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "Creative"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://yellowsprings.org/events/"
-  },
-  {
-    "id": "discovered_yellow-springs-art-show-poster-competition_20261205",
-    "type": "event",
-    "title": "Yellow Springs Art Show Poster Competition",
-    "venue_info": {
-      "name": "Historic Yellow Springs, Chester Springs",
-      "location": {
-        "lat": 40.1093,
-        "lng": -75.6421
-      }
-    },
-    "raw_date_string": "Dec 5 - 13, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "Creative"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://yellowsprings.org/events/"
-  },
-  {
-    "id": "discovered_yellow-springs-holiday-stroll_20261213",
-    "type": "event",
-    "title": "Yellow Springs Holiday Stroll",
-    "venue_info": {
-      "name": "Historic Yellow Springs, Chester Springs",
-      "location": {
-        "lat": 40.1093,
-        "lng": -75.6421
-      }
-    },
-    "raw_date_string": "Dec 13, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly",
-        "Holiday"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://yellowsprings.org/events/"
-  },
-  {
-    "id": "discovered_83rd-annual-ludwig-s-corner-horse_20260905",
-    "type": "event",
-    "title": "83rd Annual Ludwig's Corner Horse Show & Country Fair",
-    "venue_info": {
-      "name": "Ludwig's Corner Show Grounds, Chester Springs",
-      "location": {
-        "lat": 40.0977,
-        "lng": -75.7186
-      }
-    },
-    "raw_date_string": "Sep 5 - 7, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.ludwigshorseshow.com/"
-  },
-  {
-    "id": "discovered_102nd-unionville-community-fair_20261002",
-    "type": "event",
-    "title": "102nd Unionville Community Fair",
-    "venue_info": {
-      "name": "Unionville Community Fairgrounds, Kennett Square",
-      "location": {
-        "lat": 39.8786,
-        "lng": -75.748
-      }
-    },
-    "raw_date_string": "Oct 2 - 4, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.ucfair.org/"
-  },
-  {
-    "id": "discovered_downingtown-fall-fest_20261004",
-    "type": "event",
-    "title": "Downingtown Fall Fest",
-    "venue_info": {
-      "name": "Green Street & E Pennsylvania Ave, Downingtown",
-      "location": {
-        "lat": 40.0068,
-        "lng": -75.7032
-      }
-    },
-    "raw_date_string": "Oct 4, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly",
-        "Food"
-      ],
-      "time": "11:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downingtownfallfest.com/"
-  },
-  {
-    "id": "discovered_labor-day-soiree-at-chaddsford-winery_20260905",
-    "type": "event",
-    "title": "Labor Day Soiree at Chaddsford Winery",
-    "venue_info": {
-      "name": "Chaddsford Winery, Chadds Ford",
-      "location": {
-        "lat": 39.8697,
-        "lng": -75.5893
-      }
-    },
-    "raw_date_string": "Sep 5 - 6, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Outdoor",
-        "Date Night"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.chaddsford.com/pages/winery-events-calendar"
-  },
-  {
-    "id": "discovered_town-tours-village-walks-the-mill_20260924",
-    "type": "event",
-    "title": "Town Tours & Village Walks: The Mill at Anselma",
-    "venue_info": {
-      "name": "The Mill at Anselma, Chester Springs",
-      "location": {
-        "lat": 40.0743,
-        "lng": -75.698
-      }
-    },
-    "raw_date_string": "Sep 24, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free",
-      "time": "5:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.chescoplanning.org/historic/towntours/"
-  },
-  {
-    "id": "discovered_town-tours-village-walks-kennett-square_20261001",
-    "type": "event",
-    "title": "Town Tours & Village Walks: Kennett Square Social Reform",
-    "venue_info": {
-      "name": "Downtown Kennett Square, Kennett Square",
-      "location": {
-        "lat": 39.8465,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Oct 1, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free",
-      "time": "5:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.chescoplanning.org/historic/towntours/"
-  },
-  {
-    "id": "discovered_town-tours-village-walks-adaptive-reuse_20261008",
-    "type": "event",
-    "title": "Town Tours & Village Walks: Adaptive Reuse in Caln Township",
-    "venue_info": {
-      "name": "Caln Township, Coatesville",
-      "location": {
-        "lat": 39.99,
-        "lng": -75.77
-      }
-    },
-    "raw_date_string": "Oct 8, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free",
-      "time": "5:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.chescoplanning.org/historic/towntours/"
-  },
-  {
-    "id": "discovered_wcu-football-vs-iup_20260912",
-    "type": "event",
-    "title": "WCU Football vs. IUP",
-    "venue_info": {
-      "name": "Farrell Stadium, West Chester",
-      "location": {
-        "lat": 39.949,
-        "lng": -75.6035
-      }
-    },
-    "raw_date_string": "Sep 12, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Ticketed",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wcupagoldenrams.com/sports/football/schedule"
-  },
-  {
-    "id": "discovered_wcu-football-vs-millersville-homecoming_20260926",
-    "type": "event",
-    "title": "WCU Football vs. Millersville (Homecoming)",
-    "venue_info": {
-      "name": "Farrell Stadium, West Chester",
-      "location": {
-        "lat": 39.949,
-        "lng": -75.6035
-      }
-    },
-    "raw_date_string": "Sep 26, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Ticketed",
-      "time": "2:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wcupagoldenrams.com/sports/football/schedule"
-  },
-  {
-    "id": "discovered_wcu-football-vs-shepherd_20261010",
-    "type": "event",
-    "title": "WCU Football vs. Shepherd",
-    "venue_info": {
-      "name": "Farrell Stadium, West Chester",
-      "location": {
-        "lat": 39.949,
-        "lng": -75.6035
-      }
-    },
-    "raw_date_string": "Oct 10, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Ticketed",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wcupagoldenrams.com/sports/football/schedule"
-  },
-  {
-    "id": "discovered_wcu-football-vs-lackawanna_20261017",
-    "type": "event",
-    "title": "WCU Football vs. Lackawanna",
-    "venue_info": {
-      "name": "Farrell Stadium, West Chester",
-      "location": {
-        "lat": 39.949,
-        "lng": -75.6035
-      }
-    },
-    "raw_date_string": "Oct 17, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Ticketed",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wcupagoldenrams.com/sports/football/schedule"
-  },
-  {
-    "id": "discovered_wcu-football-vs-shippensburg-family-weekend_20261107",
-    "type": "event",
-    "title": "WCU Football vs. Shippensburg (Family Weekend)",
-    "venue_info": {
-      "name": "Farrell Stadium, West Chester",
-      "location": {
-        "lat": 39.949,
-        "lng": -75.6035
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Ticketed",
-      "time": "2:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wcupagoldenrams.com/sports/football/schedule"
   }
 ]
