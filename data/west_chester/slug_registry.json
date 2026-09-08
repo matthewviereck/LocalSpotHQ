@@ -344,6 +344,13 @@
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-02"
   },
+  "better-than-bacon-bacon-gives-back": {
+   "first_seen": "2026-09-08",
+   "title": "Better Than Bacon – Bacon Gives Back",
+   "venue": "Uptown Knauer Performing Arts Center",
+   "date": "2026-11-14",
+   "last_seen": "2026-09-08"
+  },
   "better-than-bacon-improv-comedy": {
    "first_seen": "2026-07-18",
    "last_seen": "2026-09-01",
@@ -2472,6 +2479,13 @@
    "venue": "Chester County History Center, West Chester",
    "date": "2026-07-18"
   },
+  "theatre-rock-live": {
+   "first_seen": "2026-09-08",
+   "title": "Theatre Rock Live",
+   "venue": "Uptown Knauer Performing Arts Center",
+   "date": "2026-10-30",
+   "last_seen": "2026-09-08"
+  },
   "third-thursdays-on-state-street": {
    "first_seen": "2026-07-18",
    "last_seen": "2026-09-05",
@@ -2692,9 +2706,9 @@
   "wcu-homecoming-weekend": {
    "first_seen": "2026-08-28",
    "last_seen": "2026-09-08",
-   "title": "WCU Homecoming Weekend",
+   "title": "WCU Homecoming 2026",
    "venue": "West Chester University, West Chester",
-   "date": "2026-09-26"
+   "date": "2026-09-25"
   },
   "west-chester-annual-halloween-parade": {
    "first_seen": "2026-07-18",
