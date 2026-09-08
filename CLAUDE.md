@@ -117,9 +117,17 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   same venue + year-stripped title = the annual repeat inherits the URL).
   New slugs drop standalone years. Every registered slug missing from a build
   gets a 301 (superseded), a stub page (ended < 90 days ago) or a 410 via the
-  generated `output/<area>/.htaccess` - never a 404. The workflow commits the
-  registry back after each deploy; **never delete or hand-edit it**, and never
-  compute a slug from a title anywhere else (the app reads `e.slug`).
+  generated `output/<area>/.htaccess` - never a 404. The same `.htaccess`
+  ends with a catch-all for slugs the registry never learned (pre-registry
+  pages, events that moved areas): 301 to the same slug in another area if
+  that page exists, else 410 served with `output/<area>/gone.html`. Copies
+  of one listing at the same venue with the same year-stripped title within
+  3 days share one page (a feed lists a multi-day event once per day, and
+  the merge may keep a differently-titled copy for one day); when those
+  titles map to several registered URLs the oldest wins and the rest 301.
+  The workflow commits the registry back after each deploy; **never delete
+  or hand-edit it**, and never compute a slug from a title anywhere else
+  (the app reads `e.slug`).
 
 ## Vault: log meaningful work without being asked
 

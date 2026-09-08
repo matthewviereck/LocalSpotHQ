@@ -112,5 +112,52 @@ class SlugRules(unittest.TestCase):
         self.assertEqual(result['stubs'], [('vanished', False)])
 
 
+    def test_retitled_day_of_multiday_event_shares_the_oldest_url(self):
+        # A feed lists "WCU Homecoming 2026" once per day; the merge kept
+        # discovery's copy ("WCU Homecoming Weekend") for the Saturday. Both
+        # titles are registered - the older URL is the ranked one and wins.
+        self.registry.slugs = {
+            'wcu-homecoming-weekend': {'title': 'WCU Homecoming Weekend', 'venue': 'West Chester University, West Chester',
+                                       'date': '2026-09-26', 'first_seen': '2026-08-28', 'last_seen': '2026-09-07'},
+            'wcu-homecoming-2026': {'title': 'WCU Homecoming 2026', 'venue': 'West Chester University, West Chester',
+                                    'date': '2026-09-25', 'first_seen': '2026-09-01', 'last_seen': '2026-09-07'},
+        }
+        venue = 'West Chester University, West Chester'
+        out = self._assign([_ev('WCU Homecoming 2026', venue, date(2026, 9, 25)),
+                            _ev('WCU Homecoming Weekend', venue, date(2026, 9, 26)),
+                            _ev('WCU Homecoming 2026', venue, date(2026, 9, 27)),
+                            _ev('WCU Homecoming Football: Golden Rams vs. Millersville', 'Farrell Stadium', date(2026, 9, 26))])
+        self.assertEqual([e['slug'] for e in out],
+                         ['wcu-homecoming-weekend'] * 3 + ['wcu-homecoming-football-golden-rams-vs-millersville'])
+        out_dir = os.path.join(self.tmp, 'out')
+        os.makedirs(os.path.join(out_dir, 'events'))
+        result = slugs.emit_retired(self.registry, out, out_dir, AREA, today=self.today)
+        self.assertEqual(result['redirects'], [('wcu-homecoming-2026', 'wcu-homecoming-weekend')])
+
+    def test_same_series_days_apart_stay_separate(self):
+        # Same venue, same year-stripped title, but a month apart: a monthly
+        # series, not one multi-day listing. (Identical titles still collapse
+        # to one page, as before - that rule is untouched.)
+        out = self._assign([_ev('First Friday - September', 'Downtown', date(2026, 9, 4)),
+                            _ev('First Friday: October', 'Downtown', date(2026, 10, 2))])
+        self.assertEqual(len({e['slug'] for e in out}), 2)
+
+    def test_unknown_event_urls_redirect_across_areas_or_go_410(self):
+        out_dir = os.path.join(self.tmp, 'out')
+        os.makedirs(os.path.join(out_dir, 'events'))
+        slugs.emit_retired(self.registry, [], out_dir, AREA, today=self.today,
+                           other_areas=['https://example.com/othertown/'])
+        with open(os.path.join(out_dir, '.htaccess'), encoding='utf-8') as f:
+            rules = f.read()
+        self.assertIn('ErrorDocument 410 /testville/gone.html', rules)
+        self.assertIn('RewriteCond %{DOCUMENT_ROOT}/othertown/events/$1/index.html -f\n'
+                      'RewriteRule ^events/([^/]+)/?$ https://example.com/othertown/events/$1/ [R=301,L]', rules)
+        self.assertTrue(rules.rstrip().endswith('RewriteCond %{REQUEST_FILENAME} !-d\n'
+                                                'RewriteCond %{REQUEST_FILENAME} !-f\n'
+                                                'RewriteRule ^events/[^/]+/?$ - [G,L]'))
+        with open(os.path.join(out_dir, 'gone.html'), encoding='utf-8') as f:
+            self.assertIn('no longer listed', f.read())
+
+
 if __name__ == '__main__':
     unittest.main()

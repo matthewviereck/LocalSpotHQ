@@ -75,6 +75,27 @@ def _other_area_sources(area_id):
     return sources
 
 
+def _other_area_urls(area_id):
+    """Canonical URLs of the other enabled areas, for cross-area redirects
+    of event slugs that were published under this area but now live in
+    another (the roster in merge_events decides ownership, not the source)."""
+    urls = []
+    try:
+        registry = load_areas_registry()
+    except Exception as e:
+        print(f"   ! Could not read areas registry, skipping cross-area redirects: {e}")
+        return urls
+    for area in registry.get('areas', []):
+        other_id = area.get('id')
+        if other_id == area_id or not area.get('enabled', False):
+            continue
+        try:
+            urls.append(load_area_config(other_id)['meta']['canonical_url'])
+        except Exception as e:
+            print(f"   ! Could not read config for {other_id}: {e}")
+    return urls
+
+
 def run_area(area_id):
     """Run the full pipeline for a single area."""
     print(f"\n{'='*60}")
@@ -179,7 +200,7 @@ def run_area(area_id):
     # gets a 301, a stub or a 410 (output/<area>/.htaccess + stub pages).
     # The registry is committed back by the workflow after deploy.
     print(f"\n--- Step 9a: Retired event URLs ---")
-    emit_retired(registry, events, output_dir, config)
+    emit_retired(registry, events, output_dir, config, other_areas=_other_area_urls(area_id))
     registry.save()
 
     # Step 9b: Community board (must be inside the build - deploy uses --delete)

@@ -46,6 +46,10 @@ STUB_INDEX_DAYS = 30   # stub stays indexable: stale search results still land s
 STUB_DAYS = 90         # then noindex,follow until here
 GONE_DAYS = 730        # then 410 until here, after which the record is dropped
 
+# Copies of one listing at the same venue, same year-stripped title, this
+# many days apart or fewer are one page (a multi-day event listed per day).
+SERIES_GAP_DAYS = 3
+
 _STOP = {'the', 'a', 'an', 'and', 'or', 'of', 'at', 'in', 'on', 'with', 'to',
          'for', 'by', 'from', 'live', 'presents', 'feat', 'featuring', 'vs',
          'w', 'ft', 'free', 'event', 'events', 'night', 'day', 'annual',
@@ -166,12 +170,51 @@ class SlugRegistry:
         return min(cands, key=lambda s: self.slugs[s].get('first_seen', ''))
 
 
+def _page_groups(events):
+    """Which dated events share one page. Returns lists of event indexes.
+
+    Same title anywhere in the build is one page (52 Farmers Markets, a
+    three-day festival). On top of that, copies at the same venue with the
+    same year-stripped title on consecutive days (within SERIES_GAP_DAYS)
+    are one page even when their titles differ. A feed lists "WCU Homecoming
+    2026" once per day; the merge keeps discovery's richer "WCU Homecoming
+    Weekend" copy for one of those days; without this rule that day minted
+    its own URL and Google saw two live pages for one event.
+    """
+    groups, by_title, by_series = [], {}, {}
+    for i, ev in enumerate(events):
+        d = _event_date(ev)
+        if d is None:
+            continue
+        tkey = legacy_slug(ev.get('title', ''))
+        gid = by_title.get(tkey)
+        vk, tk = venue_key(ev.get('loc', '')), title_key(ev.get('title', ''))
+        skey = (vk, tk) if vk and tk else None
+        if gid is None and skey is not None:
+            prev = by_series.get(skey)
+            if prev is not None and abs((d - prev[1]).days) <= SERIES_GAP_DAYS:
+                gid = prev[0]
+        if gid is None:
+            gid = len(groups)
+            groups.append([])
+        groups[gid].append(i)
+        by_title[tkey] = gid
+        if skey is not None:
+            by_series[skey] = (gid, d)
+    return groups
+
+
 def assign_slugs(events_file, registry, today=None):
     """Give every event in the formatted file a `slug`, pinned by the registry.
 
     Rewrites the file in place so the app (via inject) and the event pages
     read the same URL. Returns the events. Undated events get a slug too -
     the app links every event - but only dated ones get a page or a record.
+
+    When the copies of one page carry titles that map to several registered
+    URLs (a re-titled day of a multi-day event), the oldest URL wins: it has
+    had longest to earn its ranking, and the others 301 to it via
+    `emit_retired`.
     """
     today = (today or date.today()).isoformat()
     with open(events_file, 'r', encoding='utf-8') as f:
@@ -179,33 +222,37 @@ def assign_slugs(events_file, registry, today=None):
 
     by_venue = registry._by_venue()
     used = set()
-    by_title = {}  # same title in one build = one page (52 Farmers Markets, a 3-day festival)
     pinned = renamed = 0
     for ev in events:
-        title = ev.get('title', '')
-        d = _event_date(ev)
-        if d is None:
-            ev['slug'] = title_slug(title)
-            continue
-        tkey = legacy_slug(title)
-        if tkey in by_title:
-            ev['slug'] = by_title[tkey]
-            continue
-        slug = registry.match(title, ev.get('loc', ''), d, exclude=used, by_venue=by_venue)
+        if _event_date(ev) is None:
+            ev['slug'] = title_slug(ev.get('title', ''))
+    for idxs in _page_groups(events):
+        members = [events[i] for i in idxs]
+        first = members[0]
+        title, loc, d = first.get('title', ''), first.get('loc', ''), _event_date(first)
+        exact = []
+        for m in members:
+            for s in (legacy_slug(m.get('title', '')), title_slug(m.get('title', ''))):
+                if s in registry.slugs and s not in used and s not in exact:
+                    exact.append(s)
+        if exact:
+            slug = min(exact, key=lambda s: registry.slugs[s].get('first_seen', ''))
+        else:
+            slug = registry.match(title, loc, d, exclude=used, by_venue=by_venue)
         if slug is None:
             slug = title_slug(title)
         elif slug not in (legacy_slug(title), title_slug(title)):
             renamed += 1
         else:
             pinned += 1
-        ev['slug'] = slug
-        by_title[tkey] = slug
+        for m in members:
+            m['slug'] = slug
         if slug in used:
             continue
         used.add(slug)
-        rec = registry.record(slug, title, ev.get('loc', ''), d, today)
+        rec = registry.record(slug, title, loc, d, today)
         # keep the venue index current for later events in this same build
-        vk = venue_key(ev.get('loc', ''))
+        vk = venue_key(loc)
         if vk and all(s != slug for s, _ in by_venue.get(vk, [])):
             by_venue.setdefault(vk, []).append((slug, rec))
 
@@ -273,15 +320,66 @@ color:var(--ink-faint);font-size:13px}}
 """
 
 
-def emit_retired(registry, events, output_dir, area_config, today=None):
+def _gone_page(area_config):
+    """The body served with every 410: an event URL the registry never knew."""
+    area_name = area_config['name']
+    base_url = area_config['meta']['canonical_url'].rstrip('/')
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+{GA_SNIPPET}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event no longer listed — LocalSpot {html.escape(area_name)}</title>
+<meta name="robots" content="noindex, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap">
+<link rel="stylesheet" href="{base_url}/localspot.css">
+<style>
+body{{max-width:680px;margin:0 auto;padding:24px 16px}}
+.crumb{{font-size:13px;color:var(--ink-faint)}}
+.crumb a{{color:var(--ink-faint);text-decoration:none}}
+.sub{{color:var(--ink-soft);margin-top:2px;font-size:15px}}
+a{{color:var(--cool)}}
+.cta{{display:inline-block;margin-top:16px;background:var(--ink);color:var(--paper);
+padding:10px 18px;border-radius:var(--radius);font-weight:600;font-family:var(--display);
+text-decoration:none}}
+footer{{margin-top:32px;padding-top:16px;border-top:1px solid var(--rule);
+color:var(--ink-faint);font-size:13px}}
+</style>
+</head>
+<body>
+<p class="crumb"><a href="{base_url}/">LocalSpot {html.escape(area_name)}</a> &rsaquo; Events</p>
+<h1>This event is no longer listed</h1>
+<p class="sub">It has passed, or the listing was taken down.</p>
+<p>Many local events come back around each year — when this one is announced again, it will be listed here.</p>
+<p><a class="cta" href="{base_url}/this-weekend/">What's on this weekend in {html.escape(area_name)} &rarr;</a></p>
+<p><a href="{base_url}/#events">All upcoming {html.escape(area_name)} events</a></p>
+<footer>LocalSpot HQ &middot; updated {date.today().isoformat()}</footer>
+</body>
+</html>
+"""
+
+
+def emit_retired(registry, events, output_dir, area_config, today=None, other_areas=()):
     """Redirect, stub or 410 every registered slug missing from this build.
 
     Writes output/<area>/.htaccess (rewrite rules) and stub pages under
     events/<slug>/. Also prunes records past GONE_DAYS. Call AFTER the event
     pages are generated - the events dir is rebuilt from scratch each run.
+
+    Slugs the registry never learned still exist in Google's index: pages
+    published before the registry (seeded from git history, which never saw
+    slugs that lived only in gitignored scraper output) and events that
+    moved to another area. So the rules end with a catch-all: an event URL
+    with no page behind it 301s to the same slug in another area when that
+    page exists (`other_areas` = the other areas' canonical URLs), and is
+    410 otherwise - served with gone.html, never the host's 404.
     """
     today = today or date.today()
     base_url = area_config['meta']['canonical_url'].rstrip('/')
+    base_path = re.sub(r'^https?://[^/]+', '', base_url) or ''
     live = {}
     for ev in events:
         d = _event_date(ev)
@@ -337,8 +435,29 @@ def emit_retired(registry, events, output_dir, area_config, today=None):
         lines.append(f"RewriteRule ^events/{re.escape(old)}/?$ {base_url}/events/{new}/ [R=301,L]")
     for old in sorted(gone):
         lines.append(f"RewriteRule ^events/{re.escape(old)}/?$ - [G,L]")
+    lines += [
+        "# Event URLs the registry never knew (pre-registry pages, events that",
+        "# moved areas): 301 to the same slug in another area if that page",
+        "# exists, else 410 with gone.html. Never the host's 404.",
+        f"ErrorDocument 410 {base_path}/gone.html",
+    ]
+    for other in other_areas:
+        other = other.rstrip('/')
+        other_path = re.sub(r'^https?://[^/]+', '', other)
+        lines += [
+            "RewriteCond %{REQUEST_FILENAME} !-d",
+            f"RewriteCond %{{DOCUMENT_ROOT}}{other_path}/events/$1/index.html -f",
+            f"RewriteRule ^events/([^/]+)/?$ {other}/events/$1/ [R=301,L]",
+        ]
+    lines += [
+        "RewriteCond %{REQUEST_FILENAME} !-d",
+        "RewriteCond %{REQUEST_FILENAME} !-f",
+        "RewriteRule ^events/[^/]+/?$ - [G,L]",
+    ]
     with open(os.path.join(output_dir, '.htaccess'), 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n'.join(lines) + '\n')
+    with open(os.path.join(output_dir, 'gone.html'), 'w', encoding='utf-8') as f:
+        f.write(_gone_page(area_config))
 
     print(f">> Retired slugs: {len(redirects)} redirected, {len(stubs)} stubbed "
           f"({sum(1 for _, i in stubs if i)} indexable), {len(gone)} gone (410), {len(pruned)} pruned")
