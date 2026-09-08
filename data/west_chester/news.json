@@ -1,5 +1,23 @@
 [
   {
+    "title": "Community invited to greet Vietnam veterans returning from Honor Flight",
+    "category": "News",
+    "summary": "Saints Simon and Jude Parish hosts a Welcome Home celebration on Saturday, Sept. 19 for Vietnam veterans coming back from Honor Flight Philadelphia's Day of Honor in Washington. Activities start at 4 p.m. and the buses arrive around 6 p.m.; organizers are asking neighbors to line the entrance with flags.",
+    "date": "2026-09-07",
+    "loc": "Saints Simon and Jude Parish, West Chester",
+    "link": "https://www.mychesco.com/a/news/social-issues/veteran-issues/welcome-home-our-vietnam-veterans-to-saint-simon-and-jude-on-september-19/",
+    "img": ""
+  },
+  {
+    "title": "West Chester University marks 25 years since 9/11 with three days of tributes",
+    "category": "News",
+    "summary": "A student-veteran memorial ceremony opens Friday, Sept. 11 at 9 a.m. on the Academic Quad with remarks from West Chester Police Chief Josh Lee, followed that evening by the 10th annual Concert on the Quad from the Wells School of Music. Saturday's football opener against IUP adds a film tribute to alumnus Michael Horrocks, co-pilot of United Flight 175, and post-game fireworks. All events are free.",
+    "date": "2026-09-05",
+    "loc": "West Chester University, 700 S. High Street, West Chester",
+    "link": "https://www.mychesco.com/a/education/colleges-universities/wcu/west-chester-university-marks-25th-anniversary-of-9-11-with-campus-tributes/",
+    "img": ""
+  },
+  {
     "title": "Westtown School breaks ground on a $29M dining and community center",
     "category": "Development",
     "summary": "The Quaker school is midway through a run of campus construction, having finished a $10.9 million athletic complex with two lighted synthetic turf fields and a seven-acre solar array that covers up to 91% of campus electricity. Now underway is a $29 million all-electric dining and community center beside the historic Main Building, the centerpiece of a $62 million campaign.",
@@ -63,30 +81,12 @@
     "img": ""
   },
   {
-    "title": "The Netflix comedy shot in a West Chester tire shop keeps climbing",
+    "title": "Christkindlmarkt sets a Dec. 12 date with 100-plus vendors downtown",
     "category": "News",
-    "summary": "Shane Gillis' series Tires is in its third season on Netflix, filmed in a storefront attached to a working West Chester tire shop owned by co-star Steve Gerben's father. The West Chester University grad recently set a world record for the largest audience for a solo comedian at Lincoln Financial Field.",
-    "date": "2026-08-27",
-    "loc": "West Chester",
-    "link": "https://vista.today/2026/08/shane-gillis-tires-west-chester/",
-    "img": ""
-  },
-  {
-    "title": "Thistle Hills graduates to tell their stories at an October dinner",
-    "category": "News",
-    "summary": "Two women weeks from finishing the two-year Thistle Hills program will speak alongside a 2024 graduate at the nonprofit's annual dinner and silent auction Oct. 15 at the Chester County Art Association. The organization houses and supports women who have survived trafficking, exploitation and addiction.",
-    "date": "2026-08-27",
-    "loc": "Chester County Art Association, West Chester",
-    "link": "https://vista.today/2026/08/thistle-hills-annual-dinner-west-chester/",
-    "img": ""
-  },
-  {
-    "title": "Three siblings launch a canned decaf oat milk latte",
-    "category": "News",
-    "summary": "Mike, Jack and Corynn started Sneaky Brew in West Chester after one brother cut back on caffeine and found the decaf options lacking. Their Classic Decaf Oat Milk Latte uses housemade oat milk and organic decaf cold brew in an 8-ounce can.",
-    "date": "2026-08-20",
-    "loc": "West Chester",
-    "link": "https://vista.today/2026/08/west-chester-sneaky-brew-decaf-latte/",
+    "summary": "The seventh annual holiday market returns Saturday, Dec. 12 from 11 a.m. to 6 p.m., filling Gay Street between Darlington and Matlack and Church Street between Gay and Chestnut with more than 100 artists, makers and food vendors. The West Chester Downtown Foundation runs it with the Chester County Art Association and Downtown West Chester; admission is free, rain or shine.",
+    "date": "2026-08-22",
+    "loc": "Gay and Church streets, West Chester",
+    "link": "https://www.mychesco.com/a/lifestyle/holidays/west-chester-christkindlmarkt-returns-with-100-plus-holiday-vendors/",
     "img": ""
   }
 ]
