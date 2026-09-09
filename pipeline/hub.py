@@ -13,6 +13,7 @@ Run after every area has been built:
 import json
 import os
 import re
+import shutil
 import sys
 from datetime import date
 
@@ -144,6 +145,22 @@ def build_robots(output_file=None):
     return output_file
 
 
+ROOT_ICONS = ['favicon.ico', 'icon-192.png', 'icon-180.png', 'icon-512.png']
+
+
+def emit_root_icons(output_dir=None):
+    """Copy the site icon set to the docroot. Each area ships its own copy for
+    its PWA scope, but the hub page (and any browser probing /favicon.ico)
+    needs them at the root too, or the hub shows a blank tab icon while the
+    area pages show the map pin."""
+    output_dir = output_dir or os.path.join(PROJECT_ROOT, 'output')
+    os.makedirs(output_dir, exist_ok=True)
+    src_dir = os.path.join(PROJECT_ROOT, 'assets', 'pwa')
+    for name in ROOT_ICONS:
+        shutil.copy(os.path.join(src_dir, name), os.path.join(output_dir, name))
+    print(f">> Root icons: {', '.join(ROOT_ICONS)} -> {output_dir}")
+
+
 def build_hub(output_file=None):
     registry = _load(os.path.join(PROJECT_ROOT, 'config', 'areas.json'), {})
     areas = [a for a in registry.get('areas', []) if a.get('enabled')]
@@ -180,5 +197,6 @@ def build_hub(output_file=None):
 
 if __name__ == '__main__':
     build_hub()
+    emit_root_icons()
     build_sitemap_index()
     build_robots()

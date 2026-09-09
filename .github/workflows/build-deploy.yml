@@ -72,6 +72,8 @@ jobs:
           test -s output/index.html
           test -s output/sitemap.xml
           test -s output/robots.txt
+          test -s output/favicon.ico
+          test -s output/icon-192.png
           # Retired event URLs must resolve to a redirect/stub/410, never 404
           test -s output/phoenixville/.htaccess
           test -s output/west_chester/.htaccess
@@ -153,6 +155,11 @@ jobs:
           rsync -tz -e "$RSH" output/index.html "$DEPLOY_USER@$HOST:$DOCROOT/index.html"
           rsync -tz -e "$RSH" output/sitemap.xml "$DEPLOY_USER@$HOST:$DOCROOT/sitemap.xml"
           rsync -tz -e "$RSH" output/robots.txt "$DEPLOY_USER@$HOST:$DOCROOT/robots.txt"
+
+          # Site icon set at the docroot: the hub page links /icon-192.png and
+          # browsers probe /favicon.ico, so the root must carry the same pin
+          # the area PWAs ship.
+          rsync -tz -e "$RSH" output/favicon.ico output/icon-192.png output/icon-180.png output/icon-512.png "$DEPLOY_USER@$HOST:$DOCROOT/"
 
           # Retired parallel-run dir from before cutover (no-op once gone)
           $RSH "$DEPLOY_USER@$HOST" "rm -rf ~/$DOCROOT/phoenixville-beta"

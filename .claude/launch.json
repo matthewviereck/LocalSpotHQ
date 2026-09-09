@@ -4,8 +4,26 @@
     {
       "name": "localspot-preview",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8712", "--directory", "output/phoenixville"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8712",
+        "--directory",
+        "output/phoenixville"
+      ],
       "port": 8712
+    },
+    {
+      "name": "localspot-root",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8765",
+        "--directory",
+        "output"
+      ],
+      "port": 8765
     }
   ]
 }

@@ -78,6 +78,8 @@ def _guide_page(guide, area_config):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap">
+<link rel="icon" type="image/png" sizes="192x192" href="../../icon-192.png">
+<link rel="apple-touch-icon" href="../../icon-180.png">
 <link rel="stylesheet" href="../../localspot.css">
 <style>
 body{{max-width:680px;margin:0 auto;padding:24px 16px}}
@@ -139,6 +141,8 @@ def _guides_index(guides, area_config):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap">
+<link rel="icon" type="image/png" sizes="192x192" href="../icon-192.png">
+<link rel="apple-touch-icon" href="../icon-180.png">
 <link rel="stylesheet" href="../localspot.css">
 <style>
 body{{max-width:680px;margin:0 auto;padding:24px 16px}}

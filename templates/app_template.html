@@ -41,6 +41,7 @@
 
     <!-- PWA: assets are emitted per-area by the pipeline -->
     <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
     <link rel="apple-touch-icon" href="icon-180.png">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -78,9 +79,8 @@
         }
         .brand-mark {
             width: 22px; height: 22px; border-radius: 5px;
-            background: var(--now); color: #fff;
-            display: grid; place-items: center;
-            font-size: 12px; font-weight: 700;
+            background: var(--now); padding: 3px; box-sizing: border-box;
+            flex: none;
         }
         .brand-town {
             font-family: var(--display); font-size: 12px; font-weight: 600;
@@ -200,7 +200,7 @@
 
     <header class="topbar">
         <div class="topbar-in">
-            <a class="brand" href="/"><span class="brand-mark">L</span>LocalSpot</a>
+            <a class="brand" href="/"><svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>LocalSpot</a>
             <span class="brand-town">{{AREA_NAME}}</span>
             <nav class="navdesk" aria-label="Sections">
                 <a href="#today"     data-nav="today">Today</a>
