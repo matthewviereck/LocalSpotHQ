@@ -17,6 +17,7 @@ from datetime import datetime, date
 
 from pipeline.feeds import _event_date
 from pipeline.analytics import GA_SNIPPET
+from pipeline.slugs import venue_key
 
 
 def _slug(title):
@@ -106,7 +107,33 @@ def _offer(price, url):
     }
 
 
-def _event_page(ev, d, area_config):
+RELATED_COUNT = 5
+
+
+def _pick_related(slug, ev, d, catalog, n=RELATED_COUNT):
+    """Other upcoming pages worth linking from this one: same venue first,
+    then same town, then whatever is nearest in date across the area.
+
+    Search Console's internal-links report read "89 links, all to the
+    homepage" (2026-09-03): event pages linked the area hub and nothing
+    else, so Google had no crawl path between events and 52 pages sat in
+    "Discovered". `catalog` is [(slug, ev, date)] - one entry per page.
+    """
+    vk = venue_key(ev.get('loc'))
+    town = (ev.get('town') or '').strip().lower()
+    ranked = []
+    for oslug, oev, od in catalog:
+        if oslug == slug:
+            continue
+        same_venue = bool(vk) and venue_key(oev.get('loc')) == vk
+        same_town = bool(town) and (oev.get('town') or '').strip().lower() == town
+        tier = 0 if same_venue else 1 if same_town else 2
+        ranked.append((tier, abs((od - d).days), od, oslug, oev, same_venue))
+    ranked.sort(key=lambda r: r[:4])
+    return [(oslug, oev, od, same_venue) for _, _, od, oslug, oev, same_venue in ranked[:n]]
+
+
+def _event_page(ev, d, area_config, related=()):
     area_name = area_config['name']
     base_url = area_config['meta']['canonical_url'].rstrip('/')
     og_image = area_config['meta'].get('og_image', '')
@@ -179,6 +206,29 @@ def _event_page(ev, d, area_config):
     img_html = (f'<img src="{html.escape(img)}" alt="{html.escape(title)}" '
                 f'referrerpolicy="no-referrer" loading="lazy">') if real_img else ''
 
+    # Crawl paths: a breadcrumb up to the area hub, and a handful of other
+    # event pages (same venue, then same town) so the hub is not the only
+    # thing Google can reach from here.
+    breadcrumb_ld = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": f"LocalSpot {area_name}", "item": f"{base_url}/"},
+            {"@type": "ListItem", "position": 2, "name": f"{area_name} events", "item": f"{base_url}/#events"},
+            {"@type": "ListItem", "position": 3, "name": title, "item": canonical},
+        ],
+    }
+    related_html = ''
+    if related:
+        items = []
+        for rslug, rev, rd, same_venue in related:
+            rdate = f"{rd.strftime('%a %b')} {rd.day}"
+            rwhere = '' if same_venue else f" &middot; {html.escape(rev.get('loc') or rev.get('town') or '')}"
+            items.append(f'<li><a href="{base_url}/events/{rslug}/">{html.escape(rev["title"])}</a>'
+                         f'<span>{rdate}{rwhere}</span></li>')
+        heading = f"More at {html.escape(loc)}" if related[0][3] else f"More in {html.escape(where)}"
+        related_html = f'<h2 class="more">{heading}</h2>\n<ul class="related">\n' + '\n'.join(items) + '\n</ul>'
+
     return slug, f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -196,6 +246,7 @@ def _event_page(ev, d, area_config):
 <meta property="og:image" content="{html.escape(img if real_img else og_image)}">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False)}</script>
+<script type="application/ld+json">{json.dumps(breadcrumb_ld, ensure_ascii=False)}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap">
@@ -210,17 +261,24 @@ a{{color:var(--cool)}}
 .cta{{display:inline-block;margin-top:16px;background:var(--ink);color:var(--paper);
 padding:10px 18px;border-radius:var(--radius);font-weight:600;font-family:var(--display);
 text-decoration:none}}
+h2.more{{margin-top:32px;font-size:17px}}
+.related{{list-style:none;padding:0;margin:8px 0 0}}
+.related li{{padding:8px 0;border-top:1px solid var(--rule)}}
+.related li span{{display:block;color:var(--ink-faint);font-size:13px}}
+.hubs{{margin-top:20px;font-size:14px}}
 footer{{margin-top:32px;padding-top:16px;border-top:1px solid var(--rule);
 color:var(--ink-faint);font-size:13px}}
 </style>
 </head>
 <body>
-<p class="crumb"><a href="{base_url}/">LocalSpot {html.escape(area_name)}</a> &rsaquo; Events</p>
+<p class="crumb"><a href="{base_url}/">LocalSpot {html.escape(area_name)}</a> &rsaquo; <a href="{base_url}/#events">Events</a></p>
 <h1>{html.escape(title)}</h1>
 <p class="sub">{date_label} &middot; {html.escape(loc)}{' &middot; ' + html.escape(typ) if typ and typ != 'Event' else ''}</p>
 {img_html}
 {out_link}
 <p><a href="{base_url}/#event={slug}">See this event in the {html.escape(area_name)} app &rarr;</a></p>
+{related_html}
+<p class="hubs"><a href="{base_url}/">All {html.escape(area_name)} events</a> &middot; <a href="{base_url}/this-weekend/">This weekend in {html.escape(area_name)}</a></p>
 <footer>LocalSpot HQ &middot; updated {date.today().isoformat()}</footer>
 </body>
 </html>
@@ -239,16 +297,22 @@ def generate_event_pages(events_file, output_dir, area_config):
     if os.path.isdir(events_dir):
         shutil.rmtree(events_dir)
 
+    # One page per slug: recurring and multi-day slugs collapse to their next
+    # occurrence. Collect the catalog first so every page can link others.
     seen = set()
-    pages = []
+    catalog = []
     for ev in events:
         d = _event_date(ev)
-        if not d:
+        slug = ev.get('slug') or _slug(ev['title'])
+        if not d or not slug or slug in seen:
             continue
-        slug, page = _event_page(ev, d, area_config)
-        if not slug or slug in seen:
-            continue  # recurring slugs collapse to their next occurrence
         seen.add(slug)
+        catalog.append((slug, ev, d))
+
+    pages = []
+    for slug, ev, d in catalog:
+        related = _pick_related(slug, ev, d, catalog)
+        slug, page = _event_page(ev, d, area_config, related=related)
         page_dir = os.path.join(events_dir, slug)
         os.makedirs(page_dir, exist_ok=True)
         with open(os.path.join(page_dir, 'index.html'), 'w', encoding='utf-8') as f:

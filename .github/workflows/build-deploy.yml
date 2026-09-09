@@ -52,7 +52,7 @@ jobs:
       - name: Test URL-stability rules
         # pipeline/slugs.py decides which event URLs live, redirect or die;
         # a regression there 404s ranked pages, so it gates the build.
-        run: python -m unittest tests.test_slugs
+        run: python -m unittest tests.test_slugs tests.test_dedupe tests.test_event_pages
 
       - name: Build Phoenixville
         run: python pipeline/run.py --area phoenixville
