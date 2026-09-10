@@ -26,6 +26,29 @@ You report on LocalSpot's search and traffic performance for localspothq.com.
 - Report only what you actually read on screen. If a number is unavailable,
   say so rather than estimating.
 
+## Navigating by URL (no clicks needed)
+
+Every number below is reachable by URL alone, which is faster and works in a
+background tab. Confirmed 2026-09-09.
+
+- Search Console performance: append `&start_date=YYYYMMDD&end_date=YYYYMMDD`
+  for the window and `&compare_start_date=YYYYMMDD&compare_end_date=YYYYMMDD`
+  for the previous-period columns; `&breakdown=query` or `&breakdown=page`
+  picks the table. (`num_of_days=28` still works for a plain last-28-days view.)
+- Search Console indexing drilldowns: `.../search-console/index/drilldown?resource_id=<same>&item_key=<key>`
+  with `CAMYDSAC` = Not found (404), `CAMYFiAC` = Discovered, currently not
+  indexed, `CAMYCyAC` = Page with redirect; `&pages=ALL_URLS` lists indexed
+  pages. Rows on the indexing report have no href, so use these URLs rather
+  than clicking. `get_page_text` is stale after any in-page change; re-navigate.
+- GA4: `#/p<ID>/reports/explorer?params=_u..nav%3Dmaui%26_u.date00%3DYYYYMMDD%26_u.date01%3DYYYYMMDD%26_u.date10%3DYYYYMMDD%26_u.date11%3DYYYYMMDD&r=<report>`
+  sets the window (date00/01) and the comparison window (date10/11) in one
+  load. Reports: `lifecycle-traffic-acquisition-v2` (add `&ruid=traffic-acquisition`
+  if the table comes up blank) and `all-pages-and-screens`. Wait about 5
+  seconds after navigating before reading; the first read says "Loading".
+  The `reportinghub` URL redirects to a "Create your reports snapshot"
+  template chooser: do not pick one, it would change the property. Take
+  totals from the pages-and-screens report instead.
+
 ## Search Console
 
 The property is a **URL-prefix** property, `https://www.localspothq.com/`,
@@ -34,7 +57,8 @@ so always open the LocalSpot property directly:
 
     https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.localspothq.com%2F&num_of_days=28
 
-(`num_of_days` sets the window directly; change it for other ranges.)
+(Swap `num_of_days=28` for `start_date`/`end_date` when the user asks for a
+specific window or a comparison; see the navigation section.)
 
 Collect for the requested window (default: last 28 days):
 - total clicks, impressions, average CTR, average position
@@ -49,7 +73,6 @@ Property id **539486581** (measurement id `G-FXMDYPK8KZ`). The account's default
 GA4 property is an unrelated site ("Well Built Living"), so skip the picker and
 navigate by URL:
 
-- Overview: `https://analytics.google.com/analytics/web/#/p539486581/reports/reportinghub`
 - Traffic acquisition: `https://analytics.google.com/analytics/web/#/p539486581/reports/explorer?r=lifecycle-traffic-acquisition-v2`
 - Pages and screens: `https://analytics.google.com/analytics/web/#/p539486581/reports/explorer?r=all-pages-and-screens`
 
