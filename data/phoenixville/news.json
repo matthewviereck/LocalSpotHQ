@@ -1,5 +1,23 @@
 [
   {
+    "title": "Phoenixville's Sly Fox closes its Pittsburgh taphouse",
+    "category": "Closed",
+    "summary": "Sly Fox Brewing, founded in Phoenixville in 1995, chose not to renew the lease on its downtown Pittsburgh taphouse, which poured its last beers Aug. 15 after five years on Liberty Avenue. The Pennsylvania locations in Phoenixville, Pottstown, Malvern and Wyomissing stay open, and Pittsburgh gift cards remain good at them.",
+    "date": "2026-09-09",
+    "loc": "Phoenixville",
+    "link": "https://vista.today/2026/09/sly-fox-pittsburgh-taphouse-closing/",
+    "img": ""
+  },
+  {
+    "title": "Ocean State Job Lot opens at the Shoppes at Valley Forge",
+    "category": "Now Open",
+    "summary": "The discount chain opened its first Chester County store on Tuesday, Sept. 8, filling the former Big Lots at 260 Schuylkill Road. A grand-opening event follows Saturday, Sept. 12, when the first 100 customers between 9 a.m. and noon receive a gift card worth $10 to $100.",
+    "date": "2026-09-08",
+    "loc": "260 Schuylkill Road, East Pikeland",
+    "link": "https://patch.com/pennsylvania/phoenixville/grand-opening-set-ocean-state-job-lot-phoenixville",
+    "img": ""
+  },
+  {
     "title": "6abc features Bluebird's new pizza room on Bridge Street",
     "category": "News",
     "summary": "Bluebird Distilling's Phoenixville home now doubles as a pizzeria, and 6abc's FYI Philly put the made-over space on TV. Owner Jared Adkins added an open kitchen turning out handmade pies with local toppings, plus a fireplace dining room, a bar over the street and a patio seating more than two dozen.",
@@ -69,24 +87,6 @@
     "date": "2026-08-22",
     "loc": "Phoenixville",
     "link": "https://vista.today/2026/08/schuylkill-river-passenger-rail-amtrak-philadelphia/",
-    "img": ""
-  },
-  {
-    "title": "Broadway veterans bring an Alzheimer's benefit play to the Colonial",
-    "category": "News",
-    "summary": "Dan Lauria and Patty McCormack will stage their play about memory and aging, Just Another Day, at the Colonial Theatre Sept. 25 through 27. Both actors are donating their performances, with proceeds going to the Alzheimer's Association and the theater.",
-    "date": "2026-08-22",
-    "loc": "227 Bridge Street, Phoenixville",
-    "link": "https://www.mychesco.com/a/entertainment/arts-culture/broadway-stars-bring-just-another-day-to-phoenixville-for-alzheimers-cause/",
-    "img": ""
-  },
-  {
-    "title": "Ocean State Job Lot still readying its Shoppes at Valley Forge store",
-    "category": "Opening Soon",
-    "summary": "The discount chain is filling a 29,525-square-foot former Big Lots at the Shoppes at Valley Forge, its first store in Chester County and 14th in Pennsylvania. Fit-out is still underway with hours listed as to be announced; the company has targeted an opening after Labor Day.",
-    "date": "2026-07-31",
-    "loc": "260 Schuylkill Road, East Pikeland",
-    "link": "https://patch.com/pennsylvania/phoenixville/ocean-state-job-lot-nears-opening-phoenixville-area-walk-hiring-events",
     "img": ""
   }
 ]
