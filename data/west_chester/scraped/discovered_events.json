@@ -1084,12 +1084,14 @@
       "vibes": [
         "Family Friendly",
         "Indoor"
-      ]
+      ],
+      "price": "$15",
+      "time": "10:00 AM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.helicoptermuseum.org/event-list"
+    "action_link": "https://www.helicoptermuseum.org/event-details/girls-in-aviation-day-2"
   },
   {
     "id": "discovered_family_sleepover_at_the_helicopter_20261003",
@@ -1107,12 +1109,14 @@
       "category": "Kids & Family",
       "vibes": [
         "Family Friendly"
-      ]
+      ],
+      "price": "$60",
+      "time": "6:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.helicoptermuseum.org/event-list"
+    "action_link": "https://www.helicoptermuseum.org/event-details/family-sleepover"
   },
   {
     "id": "discovered_baking_soda_rocket_day_20261008",
@@ -1130,12 +1134,14 @@
       "category": "Kids & Family",
       "vibes": [
         "Family Friendly"
-      ]
+      ],
+      "price": "$15",
+      "time": "11:00 AM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.helicoptermuseum.org/event-list"
+    "action_link": "https://www.helicoptermuseum.org/event-details/baking-soda-rocket-day-1"
   },
   {
     "id": "discovered_haunted_helicopters_20261024",
@@ -1154,12 +1160,14 @@
       "vibes": [
         "Family Friendly",
         "Halloween"
-      ]
+      ],
+      "price": "$15",
+      "time": "6:00 PM"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.helicoptermuseum.org/event-list"
+    "action_link": "https://www.helicoptermuseum.org/event-details/haunted-helicopters-2"
   },
   {
     "id": "discovered_plein_air_painting_workshop_with_20260913",
