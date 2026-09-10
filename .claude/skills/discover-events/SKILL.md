@@ -149,17 +149,28 @@ one carrying a time, then a price — so these fields decide which version ships
    ```
    python -c "import json; json.load(open(r'data/west_chester/scraped/discovered_events.json', encoding='utf-8'))"
    ```
-2. Sanity-check the merge picks it up:
+2. **Verify the dates against the sources** before anything else sees them:
+   ```
+   python scripts/verify_discovered.py --area west_chester --changed
+   ```
+   Every `strong` finding (`WRONG_YEAR`, `WEEKDAY_MISMATCH`, `PAST`) is a
+   verdict: fix the date from the page, or drop the event. `blocked` and
+   `weak` findings are prompts to look, not verdicts - for those, hand the
+   file to the `event-verifier` agent ("use the event-verifier agent on
+   west_chester, changed events only") or open the source's detail page
+   yourself and demand a printed year. The routine has shipped last year's
+   events before; this step is what stops it.
+3. Sanity-check the merge picks it up:
    ```
    python pipeline/run.py --area west_chester
    ```
-3. Stage with `-f` (the directory is gitignored):
+4. Stage with `-f` (the directory is gitignored):
    ```
    git add -f data/west_chester/scraped/discovered_events.json
    ```
-4. Commit as `Daily WC discovery: <N> events (<YYYY-MM-DD>)` (or
+5. Commit as `Daily WC discovery: <N> events (<YYYY-MM-DD>)` (or
    `Daily PHX discovery: ...`).
-5. `git pull --rebase --autostash origin master`, then `git push origin master`.
+6. `git pull --rebase --autostash origin master`, then `git push origin master`.
    Rebase and retry once if rejected.
 
 The GitHub Actions workflow builds and deploys at 10:15 UTC daily, so anything
