@@ -1,11 +1,29 @@
 [
   {
+    "title": "Neighbors raise $88K to restore Everhart Park's 1908 gazebo",
+    "category": "News",
+    "summary": "The Friends of Everhart Park are funding a restoration of the park's rustic cedar-and-fieldstone gazebo over Black Horse Run entirely through private donations, with about $55,000 of the $88,000 goal raised. Work starts with hand-shaped red cedar guardrails and refurbished benches, followed by a new rot-resistant shingle roof on the National Register-listed structure.",
+    "date": "2026-09-11",
+    "loc": "Everhart Park, West Chester",
+    "link": "https://vista.today/2026/09/everhart-park-gazebo-restoration-west-chester/",
+    "img": ""
+  },
+  {
     "title": "Rustin grad's nicotine step-down device is now in 70 UK pharmacies",
     "category": "News",
     "summary": "Zachary Starr founded Quix Labs at 16 after watching classmates at West Chester Rustin High School struggle with nicotine; now 23 and a 2024 West Chester University graduate, he sells its Quixotic refillable inhaler in roughly 70 pharmacies across England. The nine-person company kept its headquarters in West Goshen and is aiming to submit for FDA review by 2028.",
     "date": "2026-09-10",
     "loc": "West Goshen",
     "link": "https://vista.today/2026/09/zachary-starr-quix-labs-west-goshen/",
+    "img": ""
+  },
+  {
+    "title": "14 West Chester students named National Merit semifinalists",
+    "category": "News",
+    "summary": "Henderson High School led the area with seven semifinalists, followed by four at Pennsylvania Leadership Charter School, two at Rustin and one at East. The students now move on to the finalist round, with scholarship winners chosen next spring.",
+    "date": "2026-09-10",
+    "loc": "West Chester",
+    "link": "https://patch.com/pennsylvania/westchester/14-west-chester-students-chosen-national-merit-scholarship-semifinalists",
     "img": ""
   },
   {
@@ -27,6 +45,15 @@
     "img": ""
   },
   {
+    "title": "Spring freeze leaves Highland Orchards with a sliver of its apple crop",
+    "category": "News",
+    "summary": "After an April warm spell was followed by a hard freeze, Highland Orchards expects roughly 5 percent of a normal apple harvest, so pick-your-own will run shorter hours with far fewer varieties this fall. Hayrides, the corn maze and crops the freeze spared are still going ahead.",
+    "date": "2026-09-08",
+    "loc": "Highland Orchards, West Chester",
+    "link": "https://www.phillymag.com/restaurants/2026/09/08/apple-shortage/",
+    "img": ""
+  },
+  {
     "title": "Community invited to greet Vietnam veterans returning from Honor Flight",
     "category": "News",
     "summary": "Saints Simon and Jude Parish hosts a Welcome Home celebration on Saturday, Sept. 19 for Vietnam veterans coming back from Honor Flight Philadelphia's Day of Honor in Washington. Activities start at 4 p.m. and the buses arrive around 6 p.m.; organizers are asking neighbors to line the entrance with flags.",
@@ -45,15 +72,6 @@
     "img": ""
   },
   {
-    "title": "Westtown School breaks ground on a $29M dining and community center",
-    "category": "Development",
-    "summary": "The Quaker school is midway through a run of campus construction, having finished a $10.9 million athletic complex with two lighted synthetic turf fields and a seven-acre solar array that covers up to 91% of campus electricity. Now underway is a $29 million all-electric dining and community center beside the historic Main Building, the centerpiece of a $62 million campaign.",
-    "date": "2026-09-04",
-    "loc": "975 Westtown Road, West Chester",
-    "link": "https://vista.today/2026/09/westtown-school-campus-upgrades/",
-    "img": ""
-  },
-  {
     "title": "A speakeasy-style barbershop opens down an alley off High Street",
     "category": "Now Open",
     "summary": "Gerome and Monica Ruff have opened Urban Cutz Barbershop at 21 S. High Street, tucked behind Ginkgo Arts and reached through a covered brick walkway next to Barnaby's. Gerome has cut hair in the borough for more than 18 years; the couple plan to add chairs and more barbers as the 1,200-square-foot shop grows.",
@@ -69,24 +87,6 @@
     "date": "2026-09-01",
     "loc": "204 W. Market Street, West Chester",
     "link": "https://vista.today/2026/09/west-chester-co-op-opens/",
-    "img": ""
-  },
-  {
-    "title": "Fantasy bookstore Leaves & Lore nearly sells out in its first weekend",
-    "category": "Now Open",
-    "summary": "The father-daughter shop at 118 N. High Street opened Aug. 22 to a line that held steady for six hours, filling 600 orders and drawing about 1,500 people on day one before closing early Sunday on low stock. Jeffrey and Jessie Hilker spent two years finding the storefront, the former home of arts-and-crafts store Nightingale Materials.",
-    "date": "2026-08-29",
-    "loc": "118 N. High Street, West Chester",
-    "link": "https://vista.today/2026/08/leaves-and-lore-west-chester-bookstore/",
-    "img": ""
-  },
-  {
-    "title": "Borough tightens the rules on where smoke and vape shops can open",
-    "category": "Development",
-    "summary": "Borough Council voted unanimously Aug. 19 to allow new smoke and vape shops only by conditional use in the town center and commercial services district, after a corner store on a residential block reopened as a vape shop. New shops must sit more than 500 feet from schools, day cares, libraries and bus stops; the five or so existing shops downtown are unaffected.",
-    "date": "2026-08-28",
-    "loc": "West Chester",
-    "link": "https://vista.today/2026/08/west-chester-smoke-vape-shop-zoning/",
     "img": ""
   }
 ]
