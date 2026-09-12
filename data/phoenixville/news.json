@@ -1,5 +1,23 @@
 [
   {
+    "title": "Phoenixville Hospital earns top marks in two care areas",
+    "category": "News",
+    "summary": "U.S. News & World Report's 2026-27 Best Hospitals ratings gave the 144-bed Tower Health facility \"high performing\" designations for rehabilitation and for heart attack treatment, the highest mark in its procedures-and-conditions scoring. Fewer than half of the roughly 4,500 hospitals reviewed nationally earned recognition in any category.",
+    "date": "2026-09-10",
+    "loc": "140 Nutt Road, Phoenixville",
+    "link": "https://www.mychesco.com/a/news/health-medical/hospitals/phoenixville-hospital-earns-high-marks-in-two-care-areas/",
+    "img": ""
+  },
+  {
+    "title": "A Phoenixville family took in a skateboarder crossing the country for his brother",
+    "category": "News",
+    "summary": "Skyler King left Oxford, Mississippi on Aug. 1 on a 1,100-mile skateboard trip to New York City in memory of his brother Justin, raising money for suicide prevention along the way, and a Phoenixville family he met on the road opened their home to him as he passed through. He reached southeastern Pennsylvania this week with under 100 miles left.",
+    "date": "2026-09-10",
+    "loc": "Phoenixville",
+    "link": "https://patch.com/pennsylvania/phoenixville/patch-am-how-pet-sounds-live-will-transform-colonial-theatre-nodx-20260910",
+    "img": ""
+  },
+  {
     "title": "Phoenixville's Sly Fox closes its Pittsburgh taphouse",
     "category": "Closed",
     "summary": "Sly Fox Brewing, founded in Phoenixville in 1995, chose not to renew the lease on its downtown Pittsburgh taphouse, which poured its last beers Aug. 15 after five years on Liberty Avenue. The Pennsylvania locations in Phoenixville, Pottstown, Malvern and Wyomissing stay open, and Pittsburgh gift cards remain good at them.",
@@ -63,30 +81,12 @@
     "img": ""
   },
   {
-    "title": "Phoenixville drugmaker lands $6.5M federal grant for a late-stage trial",
-    "category": "News",
-    "summary": "PleoPharma won a three-year, $6.5 million grant from the National Institute on Drug Abuse to fund CAN-004, a Phase 3 trial of its oral drug PP-01 in adults with moderate to severe cannabis use disorder. The borough-based company has been developing the treatment through earlier trials since 2025.",
-    "date": "2026-08-28",
-    "loc": "Phoenixville",
-    "link": "https://www.mychesco.com/a/news/health-medical/research/pleopharma-wins-6-5-million-nih-grant-for-phase-3-trial/",
-    "img": ""
-  },
-  {
-    "title": "St. Peter's lands $49K grant for a bird-watching nature program",
-    "category": "News",
-    "summary": "St. Peter's Episcopal Church won a $49,000 United Thank Offering grant to expand its Sprout Reach conservation ministry with a nature-journaling curriculum built around birding. The church is developing it with the Green Valleys Watershed Association and plans to bring it to youth camps and to Floctoberfest in October.",
-    "date": "2026-08-24",
-    "loc": "121 Church Street, Phoenixville",
-    "link": "https://episcopalnewsservice.org/2026/08/24/pennsylvania-ministry-promotes-love-of-nature-with-journaling-curriculum-backed-by-uto-grant/",
-    "img": ""
-  },
-  {
     "title": "Amtrak deal moves a Phoenixville train stop closer to reality",
     "category": "Development",
-    "summary": "Amtrak and the Schuylkill River Passenger Rail Authority signed an agreement to plan and develop passenger service linking Reading, Pottstown, Phoenixville and Philadelphia, a corridor with no trains since 1981. Officials put the rail portion near $100 million and say service could start around 2030.",
+    "summary": "Amtrak and the Schuylkill River Passenger Rail Authority signed an agreement to plan and develop passenger service linking Reading, Pottstown, Phoenixville and Philadelphia, a corridor with no trains since 1981. The authority hopes construction starts by 2028 and service around 2030.",
     "date": "2026-08-22",
     "loc": "Phoenixville",
-    "link": "https://vista.today/2026/08/schuylkill-river-passenger-rail-amtrak-philadelphia/",
+    "link": "https://patch.com/pennsylvania/phoenixville/amtrak-signs-agreement-restore-schuylkill-river-passenger-rail",
     "img": ""
   }
 ]
