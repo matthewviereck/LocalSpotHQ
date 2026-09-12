@@ -1,31 +1,5 @@
 [
   {
-    "id": "discovered_an_evening_with_hiroya_tsukamoto_20260911",
-    "type": "event",
-    "title": "An Evening With Hiroya Tsukamoto",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Sep 11, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$20-$23",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/an-evening-with-hiroya-tsukamoto/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_an_evening_with_eliot_lewis_20260912",
     "type": "event",
     "title": "An Evening With Eliot Lewis",
@@ -1586,32 +1560,6 @@
     "action_link": "https://www.chaddsford.com/pages/adult-trick-or-treat-2026"
   },
   {
-    "id": "discovered_remembrance_day_ceremony_20260911",
-    "type": "event",
-    "title": "Remembrance Day Ceremony",
-    "venue_info": {
-      "name": "Brandywine Battlefield Park, Chadds Ford",
-      "location": {
-        "lat": 39.8737,
-        "lng": -75.5836
-      }
-    },
-    "raw_date_string": "Sep 11, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywinebattlefield.org/events/"
-  },
-  {
     "id": "discovered_flag_retirement_ceremony_20261107",
     "type": "event",
     "title": "Flag Retirement Ceremony",
@@ -2490,5 +2438,640 @@
       "image": ""
     },
     "action_link": "https://stroudcenter.org/event/waters-edge-2026/"
+  },
+  {
+    "id": "discovered_pints-cheslen_20260912",
+    "type": "event",
+    "title": "Pints on the Preserve",
+    "venue_info": {
+      "name": "ChesLen Preserve, Coatesville",
+      "location": {
+        "lat": 39.9151,
+        "lng": -75.7714
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Outdoor",
+        "Craft Beer",
+        "Family Friendly"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/pints-cheslen-2026-0912/"
+  },
+  {
+    "id": "discovered_sunset-yoga-cheslen_20260912",
+    "type": "event",
+    "title": "Gentle Sunset Yoga",
+    "venue_info": {
+      "name": "ChesLen Preserve, Coatesville",
+      "location": {
+        "lat": 39.9151,
+        "lng": -75.7714
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Evening"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/sunset-yoga-cheslen-2026-0912/"
+  },
+  {
+    "id": "discovered_serpentine-barrens-willisbrook_20261005",
+    "type": "event",
+    "title": "Serpentine Barrens Tour with Willistown Township",
+    "venue_info": {
+      "name": "Willisbrook Preserve, Malvern",
+      "location": {
+        "lat": 40.0234,
+        "lng": -75.5297
+      }
+    },
+    "raw_date_string": "Oct 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Free",
+        "Nature"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/serpentine-barrens-willisbrook-2026-1005/"
+  },
+  {
+    "id": "discovered_pints-cheslen_20261010",
+    "type": "event",
+    "title": "Pints on the Preserve",
+    "venue_info": {
+      "name": "ChesLen Preserve, Coatesville",
+      "location": {
+        "lat": 39.9151,
+        "lng": -75.7714
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Outdoor",
+        "Craft Beer",
+        "Family Friendly"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/pints-cheslen-2026-1010/"
+  },
+  {
+    "id": "discovered_sunset-yoga-cheslen_20261010",
+    "type": "event",
+    "title": "Gentle Sunset Yoga",
+    "venue_info": {
+      "name": "ChesLen Preserve, Coatesville",
+      "location": {
+        "lat": 39.9151,
+        "lng": -75.7714
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Evening"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/sunset-yoga-cheslen-2026-1010/"
+  },
+  {
+    "id": "discovered_bird-walk-cheslen_20261013",
+    "type": "event",
+    "title": "Autumn Avian Adventures: Murmuration & Migrations",
+    "venue_info": {
+      "name": "ChesLen Preserve, Coatesville",
+      "location": {
+        "lat": 39.9151,
+        "lng": -75.7714
+      }
+    },
+    "raw_date_string": "Oct 13, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Nature"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/bird-walk-cheslen-2026-1013/"
+  },
+  {
+    "id": "discovered_fall-festival-stroud_20261017",
+    "type": "event",
+    "title": "Fall Festival at Stroud Preserve",
+    "venue_info": {
+      "name": "Stroud Preserve, West Chester",
+      "location": {
+        "lat": 39.9553,
+        "lng": -75.6486
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly",
+        "Fall"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/fall-festival-stroud-2026-1017/"
+  },
+  {
+    "id": "discovered_bird-walk-stroud_20261020",
+    "type": "event",
+    "title": "Autumn Avian Adventures: Murmuration & Migrations",
+    "venue_info": {
+      "name": "Stroud Preserve, West Chester",
+      "location": {
+        "lat": 39.9553,
+        "lng": -75.6486
+      }
+    },
+    "raw_date_string": "Oct 20, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Nature"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/bird-walk-stroud-2026-1020/"
+  },
+  {
+    "id": "discovered_stewards-hike-sadsbury_20261020",
+    "type": "event",
+    "title": "Stewards of Sadsbury Woods Hike",
+    "venue_info": {
+      "name": "Sadsbury Woods Preserve, Coatesville",
+      "location": {
+        "lat": 39.9925,
+        "lng": -75.8836
+      }
+    },
+    "raw_date_string": "Oct 20, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Nature"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/stewards-hike-sadsbury-2026-1020/"
+  },
+  {
+    "id": "discovered_full-moon-bryncoed_20261026",
+    "type": "event",
+    "title": "Full Hunter's Moon Ramble",
+    "venue_info": {
+      "name": "Bryn Coed Preserve, Chester Springs",
+      "location": {
+        "lat": 40.0906,
+        "lng": -75.6539
+      }
+    },
+    "raw_date_string": "Oct 26, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Evening",
+        "Nature"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/full-moon-bryncoed-2026-1026/"
+  },
+  {
+    "id": "discovered_pints-cheslen_20261114",
+    "type": "event",
+    "title": "Pints on the Preserve",
+    "venue_info": {
+      "name": "ChesLen Preserve, Coatesville",
+      "location": {
+        "lat": 39.9151,
+        "lng": -75.7714
+      }
+    },
+    "raw_date_string": "Nov 14, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Outdoor",
+        "Craft Beer",
+        "Family Friendly"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/pints-cheslen-2026-1114/"
+  },
+  {
+    "id": "discovered_pints-family-cheslen_20261114",
+    "type": "event",
+    "title": "Pints & Connect: Family Edition",
+    "venue_info": {
+      "name": "ChesLen Preserve, Coatesville",
+      "location": {
+        "lat": 39.9151,
+        "lng": -75.7714
+      }
+    },
+    "raw_date_string": "Nov 14, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/pints-family-cheslen-2026-1114/"
+  },
+  {
+    "id": "discovered_sunset-yoga-cheslen_20261114",
+    "type": "event",
+    "title": "Gentle Sunset Yoga",
+    "venue_info": {
+      "name": "ChesLen Preserve, Coatesville",
+      "location": {
+        "lat": 39.9151,
+        "lng": -75.7714
+      }
+    },
+    "raw_date_string": "Nov 14, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Evening"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wp.natlands.org/event/sunset-yoga-cheslen-2026-1114/"
+  },
+  {
+    "id": "discovered_sugartown-bee-day_20260912",
+    "type": "event",
+    "title": "Bee Day at Historic Sugartown",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "$5"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/bee-day-at-historic-sugartown-2026/"
+  },
+  {
+    "id": "discovered_sugartown-marbling_20260919",
+    "type": "event",
+    "title": "Intro to Marbling Workshop",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Hands On"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/intro-to-marbling-4/2026-09-19/"
+  },
+  {
+    "id": "discovered_sugartown-bookbinding_20260926",
+    "type": "event",
+    "title": "Bookbinding Weekend Intensive",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Sep 26 - 27, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Hands On"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/bookbinding-weekends/2026-09-26/"
+  },
+  {
+    "id": "discovered_sugartown-pinhole_20261010",
+    "type": "event",
+    "title": "Pinhole Photography Workshop",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Hands On"
+      ],
+      "price": "$70"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/pinhole-photography-workshop-2026oct10/"
+  },
+  {
+    "id": "discovered_sugartown-lantern-tours_20261016",
+    "type": "event",
+    "title": "Lantern Tours at Historic Sugartown",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Oct 16 - 17, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Evening",
+        "Local History"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/lantern-tours-3-2/2026-10-16/"
+  },
+  {
+    "id": "discovered_sugartown-book-restoration_20261017",
+    "type": "event",
+    "title": "Advanced Book Restoration Workshop",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Hands On"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/advanced-book-restoration-workshop/2026-10-17/"
+  },
+  {
+    "id": "discovered_sugartown-gold-tooling_20261107",
+    "type": "event",
+    "title": "Gold Tooling Workshop",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Hands On"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/gold-tooling-workshop/2026-11-07/"
+  },
+  {
+    "id": "discovered_cc-art-walk_20260919",
+    "type": "event",
+    "title": "5th Annual Chester County Art Walk",
+    "venue_info": {
+      "name": "Chester County Art Association, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6134
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Free",
+        "Artists"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.chestercountyarts.org/chester-county-art-walk.html"
+  },
+  {
+    "id": "discovered_art-in-the-woods_20261010",
+    "type": "event",
+    "title": "Art in the Woods",
+    "venue_info": {
+      "name": "Chester County Art Association, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6134
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Artists"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.chestercountyarts.org/art-in-the-woods.html"
+  },
+  {
+    "id": "discovered_ccaa-christkindlmarkt_20261212",
+    "type": "event",
+    "title": "Christkindlmarkt at CCAA",
+    "venue_info": {
+      "name": "Chester County Art Association, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.6134
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Holiday",
+        "Family Friendly",
+        "Artisan Vendors"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.chestercountyarts.org/christkindlmarkt.html"
+  },
+  {
+    "id": "discovered_chadds-ford-days_20260919",
+    "type": "event",
+    "title": "Battle at Chadds Ford & Historic Chadds Ford Days",
+    "venue_info": {
+      "name": "Chadds Ford Historical Society, Chadds Ford",
+      "location": {
+        "lat": 39.8722,
+        "lng": -75.5893
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly",
+        "Local History"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://chaddsfordhistory.org/events-programs/battle-at-chadds-ford/"
+  },
+  {
+    "id": "discovered_downingtown-repair-cafe_20260912",
+    "type": "event",
+    "title": "Repair Cafe",
+    "venue_info": {
+      "name": "Central Presbyterian Church, Downingtown",
+      "location": {
+        "lat": 39.9654,
+        "lng": -75.7033
+      }
+    },
+    "raw_date_string": "Sep 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Indoor",
+        "Community"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downingtown.org/Calendar.aspx?EID=1466"
   }
 ]
