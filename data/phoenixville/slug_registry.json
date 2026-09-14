@@ -195,7 +195,8 @@
    "last_seen": "2026-09-14",
    "title": "Animate! Philadelphia 2026 – Anime & Pop Culture Convention",
    "venue": "Greater Philadelphia Expo Center, Oaks",
-   "date": "2026-10-02"
+   "date": "2026-10-02",
+   "end": "2026-10-04"
   },
   "annual-malvern-fire-company-fair-carnival-rides-fireworks": {
    "first_seen": "2026-06-26",
@@ -321,6 +322,14 @@
    "title": "Bite for the Fight Benefitting Fight on Makenna Foundation",
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-09-19",
+   "last_seen": "2026-09-14"
+  },
+  "blobfest": {
+   "first_seen": "2026-09-14",
+   "title": "BLOBFEST 2027",
+   "venue": "The Colonial Theatre",
+   "date": "2027-07-09",
+   "end": "2027-07-11",
    "last_seen": "2026-09-14"
   },
   "blobfest-2026-cirque-du-blobfest": {
@@ -1315,7 +1324,8 @@
    "last_seen": "2026-09-14",
    "title": "International Gem & Jewelry Show – Philadelphia",
    "venue": "Greater Philadelphia Expo Center, Hall C, Oaks",
-   "date": "2026-09-25"
+   "date": "2026-09-25",
+   "end": "2026-09-27"
   },
   "introduction-to-screenwriting": {
    "first_seen": "2026-09-03",
@@ -1413,7 +1423,8 @@
    "title": "Just Another Day",
    "venue": "The Colonial Theatre",
    "date": "2026-09-25",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-09-27"
   },
   "just-between-friends": {
    "first_seen": "2026-09-03",
@@ -1784,7 +1795,8 @@
    "title": "Oaks Gun Show at Greater Philadelphia Expo Center",
    "venue": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
    "date": "2026-10-16",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-10-18"
   },
   "oaks-gun-show-eagle-shows": {
    "first_seen": "2026-06-03",
@@ -1854,14 +1866,16 @@
    "title": "Pennsylvania Chocolate & Coffee Festival 2026",
    "venue": "Greater Philadelphia Expo Center, Hall A, Oaks",
    "date": "2026-10-24",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-10-25"
   },
   "pennsylvania-national-quilt-extravaganza": {
    "first_seen": "2026-09-03",
    "title": "Pennsylvania National Quilt Extravaganza",
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-09-17",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-09-20"
   },
   "perfect-strangers-live-at-the-water-tower-live": {
    "first_seen": "2026-07-01",
@@ -2463,7 +2477,8 @@
    "last_seen": "2026-09-14",
    "title": "Skippack Days Arts & Crafts Festival",
    "venue": "Skippack Village, 4010 Skippack Pike, Skippack",
-   "date": "2026-10-03"
+   "date": "2026-10-03",
+   "end": "2026-10-04"
   },
   "skippack-township-kid-fest": {
    "first_seen": "2026-08-08",
@@ -2680,7 +2695,8 @@
    "title": "The 4th Annual Phoenixville Film Festival",
    "venue": "The Colonial Theatre",
    "date": "2026-09-17",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-09-20"
   },
   "the-big-bounce-america-world-s-largest-bounce-house": {
    "first_seen": "2026-06-20",
@@ -2757,7 +2773,8 @@
    "title": "The Great Junk Hunt – Traveling Vintage Market",
    "venue": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
    "date": "2026-10-23",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-10-24"
   },
   "the-greatest-moments-in-philadelphia-sports-history-with-glen-macnow-ray-didinge": {
    "first_seen": "2026-09-03",
@@ -2771,7 +2788,8 @@
    "title": "The Lightning Thief: The Percy Jackson Musical – Methacton Community Theater",
    "venue": "Community Music School, 775 W Main St, Trappe",
    "date": "2026-10-02",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-10-04"
   },
   "the-longest-johns": {
    "first_seen": "2026-09-03",
@@ -2799,7 +2817,8 @@
    "title": "The National Franchise Show",
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-10-03",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-10-04"
   },
   "the-parlour-reading-series-haunted-halloween-shorts": {
    "first_seen": "2026-09-03",
@@ -2820,7 +2839,8 @@
    "last_seen": "2026-09-14",
    "title": "The Philly Show – Sports Card & Memorabilia Show",
    "venue": "Greater Philadelphia Expo Center, Oaks",
-   "date": "2026-09-25"
+   "date": "2026-09-25",
+   "end": "2026-09-27"
   },
   "the-philly-vintage-flea-enormous-vintage-clothing-market": {
    "first_seen": "2026-06-27",
@@ -2946,7 +2966,8 @@
    "title": "True Tattoo Expo 2026 – Halloween Weekend at Expo Center Oaks",
    "venue": "Greater Philadelphia Expo Center, Hall D, Oaks",
    "date": "2026-10-30",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-11-01"
   },
   "tsavo-highway-with-pachyderm-live-at-the-gem": {
    "first_seen": "2026-08-14",
@@ -2981,7 +3002,8 @@
    "title": "Ultimate Club Duals Wrestling",
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-09-18",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-09-20"
   },
   "unforgettable-fire-u2-tribute-band": {
    "first_seen": "2026-06-08",

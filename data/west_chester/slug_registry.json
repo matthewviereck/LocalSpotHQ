@@ -111,7 +111,8 @@
    "last_seen": "2026-09-14",
    "title": "A Longwood Christmas",
    "venue": "Longwood Gardens, Kennett Square",
-   "date": "2026-11-20"
+   "date": "2026-11-20",
+   "end": "2027-01-10"
   },
   "abacab": {
    "first_seen": "2026-08-29",
@@ -160,7 +161,8 @@
    "title": "Adult Trick or Treat at Chaddsford Winery",
    "venue": "Chaddsford Winery, Chadds Ford",
    "date": "2026-10-02",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-11-01"
   },
   "advanced-book-restoration-workshop": {
    "first_seen": "2026-09-12",
@@ -314,7 +316,8 @@
    "last_seen": "2026-09-14",
    "title": "Autumn's Colors at Longwood Gardens",
    "venue": "Longwood Gardens, Kennett Square",
-   "date": "2026-10-02"
+   "date": "2026-10-02",
+   "end": "2026-11-15"
   },
   "back-home-again-a-tribute-to-john-denver": {
    "first_seen": "2026-07-18",
@@ -482,7 +485,8 @@
    "title": "Bookbinding Weekend Intensive",
    "venue": "Historic Sugartown, Malvern",
    "date": "2026-09-26",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-09-27"
   },
   "books-brews-and-silent-reading": {
    "first_seen": "2026-08-13",
@@ -678,7 +682,8 @@
    "title": "Cinderella: A Musical Panto",
    "venue": "People's Light, Malvern",
    "date": "2026-11-18",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2027-01-03"
   },
   "classic-stones-live": {
    "first_seen": "2026-07-16",
@@ -1154,7 +1159,8 @@
    "last_seen": "2026-09-14",
    "title": "Garden Club Federation of Pennsylvania Flower Show",
    "venue": "Longwood Gardens, Kennett Square",
-   "date": "2026-09-19"
+   "date": "2026-09-19",
+   "end": "2026-09-20"
   },
   "garden-railway": {
    "first_seen": "2026-09-05",
@@ -1336,7 +1342,8 @@
    "title": "Holiday Critter Sale",
    "venue": "Brandywine Museum of Art, Chadds Ford",
    "date": "2026-11-19",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-11-22"
   },
   "holiday-wreath-workshop-at-bierhaul": {
    "first_seen": "2026-09-02",
@@ -1581,7 +1588,8 @@
    "title": "Lantern Tours at Historic Sugartown",
    "venue": "Historic Sugartown, Malvern",
    "date": "2026-10-16",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-10-17"
   },
   "legally-blonde-the-musical": {
    "first_seen": "2026-07-18",
@@ -1637,7 +1645,8 @@
    "last_seen": "2026-09-14",
    "title": "Fountain Fest Weekend",
    "venue": "Longwood Gardens, Kennett Square",
-   "date": "2026-09-18"
+   "date": "2026-09-18",
+   "end": "2026-10-18"
   },
   "love-you-to-beatles-tribute": {
    "first_seen": "2026-09-03",
@@ -2659,7 +2668,8 @@
    "last_seen": "2026-09-14",
    "title": "The Great Pumpkin Carve",
    "venue": "Chadds Ford Historical Society, Chadds Ford",
-   "date": "2026-10-15"
+   "date": "2026-10-15",
+   "end": "2026-10-17"
   },
   "the-kennett-flash-jazz-jam": {
    "first_seen": "2026-09-05",
@@ -2883,7 +2893,8 @@
    "title": "Topdog/Underdog",
    "venue": "People's Light, Malvern",
    "date": "2026-09-16",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-10-18"
   },
   "total-mass-retain-a-yes-tribute": {
    "first_seen": "2026-09-01",
@@ -2981,7 +2992,8 @@
    "title": "Unionville Community Fair",
    "venue": "Unionville Fairgrounds (Landhope Farms), Kennett Square",
    "date": "2026-10-02",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-09-14",
+   "end": "2026-10-04"
   },
   "up-on-the-roof": {
    "first_seen": "2026-08-13",
