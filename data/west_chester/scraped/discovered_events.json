@@ -1,30 +1,5 @@
 [
   {
-    "id": "discovered_the_legendary_kennett_flash_open_20260913",
-    "type": "event",
-    "title": "The Legendary Kennett Flash Open Mic Night",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Sep 13, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/the-legendary-kennett-flash-open-mic-night-hosted-by-jerry-rocker-and-cherie-roberts-2/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_you_me_harry_celebrating_the_20260917",
     "type": "event",
     "title": "You, Me, & Harry: Celebrating the Music of Harry Chapin",
@@ -800,31 +775,6 @@
     "action_link": "https://kennettflash.org/event/the-2027-kennett-flash-jazz-jam/kennett-flash/kennett-square-pennsylvania/"
   },
   {
-    "id": "discovered_greater_philadelphia_dahlia_society_show_20260912",
-    "type": "event",
-    "title": "Greater Philadelphia Dahlia Society Show",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8703,
-        "lng": -75.6738
-      }
-    },
-    "raw_date_string": "Sep 12 - 13, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor"
-      ],
-      "price": "Included with admission",
-      "time": "1:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/dahlia-show"
-  },
-  {
     "id": "discovered_guster_at_longwood_gardens_20260916",
     "type": "event",
     "title": "Guster at Longwood Gardens",
@@ -1100,32 +1050,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/longwood-christmas_1"
   },
   {
-    "id": "discovered_the_mushroom_festival_20260912",
-    "type": "event",
-    "title": "The Mushroom Festival",
-    "venue_info": {
-      "name": "Downtown Kennett Square, Kennett Square",
-      "location": {
-        "lat": 39.8465,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Sep 12 - 13, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "$5",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://mushroomfestival.org/"
-  },
-  {
     "id": "discovered_third_thursdays_on_state_street_20260917",
     "type": "event",
     "title": "Third Thursdays on State Street",
@@ -1356,31 +1280,6 @@
       "image": ""
     },
     "action_link": "https://www.helicoptermuseum.org/event-details/haunted-helicopters-2"
-  },
-  {
-    "id": "discovered_plein_air_painting_workshop_with_20260913",
-    "type": "event",
-    "title": "Plein Air Painting Workshop with Randall Graham",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8688,
-        "lng": -75.5878
-      }
-    },
-    "raw_date_string": "Sep 13, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor"
-      ],
-      "price": "$60-$75",
-      "time": "9:30 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/plein-air-painting-workshop-randall-graham-nc-wyeth-studio"
   },
   {
     "id": "discovered_children_s_read_aloud_program_20261001",
@@ -1937,29 +1836,6 @@
       "image": ""
     },
     "action_link": "https://www.malvern.org/Calendar.aspx?EID=815"
-  },
-  {
-    "id": "discovered_radnor_hunt_concours_d_elegance_20260911",
-    "type": "event",
-    "title": "Radnor Hunt Concours d'Elegance",
-    "venue_info": {
-      "name": "Radnor Hunt, Malvern",
-      "location": {
-        "lat": 40.005,
-        "lng": -75.4985
-      }
-    },
-    "raw_date_string": "Sep 11 - 13, 2026",
-    "attributes": {
-      "category": "Expo",
-      "vibes": [
-        "Outdoor"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.radnorhuntconcours.org/"
   },
   {
     "id": "discovered_topdog_underdog_20260916",
@@ -2844,31 +2720,6 @@
     "action_link": "https://chaddsfordhistory.org/events-programs/battle-at-chadds-ford/"
   },
   {
-    "id": "discovered_wcrr_soldiers_trains_20260913",
-    "type": "event",
-    "title": "Soldiers & Trains at West Chester Railroad",
-    "venue_info": {
-      "name": "West Chester Railroad, West Chester",
-      "location": {
-        "lat": 39.9577,
-        "lng": -75.5977
-      }
-    },
-    "raw_date_string": "Sep 13, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "History"
-      ],
-      "price": "From $30",
-      "time": "12:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wcrailroad.com/"
-  },
-  {
     "id": "discovered_wcrr_history_special_20261017",
     "type": "event",
     "title": "West Chester Railroad History Special",
@@ -2891,7 +2742,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://wcrailroad.com/"
+    "action_link": "https://wcrailroad.com/wcrr-special/"
   },
   {
     "id": "discovered_ahmec_30th_anniversary_20261018",
@@ -2917,5 +2768,162 @@
       "image": ""
     },
     "action_link": "https://www.helicoptermuseum.org/event-details/ahmec-30th-anniversary-celebration-and-award-ceremony"
+  },
+  {
+    "id": "discovered_community_chapstick_20260925",
+    "type": "event",
+    "title": "Community Chapstick, Better Off Dead, Tight Spiral",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.847,
+        "lng": -75.713
+      }
+    },
+    "raw_date_string": "Sep 25, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "All Ages"
+      ],
+      "price": "$10-$13",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettflash.org/event/community-chapstick-better-off-dead-tight-spiral/kennett-flash/kennett-square-pennsylvania/"
+  },
+  {
+    "id": "discovered_joseph_dawson_alumni_jazz_band_20261015",
+    "type": "event",
+    "title": "Joseph Dawson's Alumni Jazz Band",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.847,
+        "lng": -75.713
+      }
+    },
+    "raw_date_string": "Oct 15, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "All Ages"
+      ],
+      "price": "$25",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettflash.org/event/joseph-dawsons-alumni-jazz-band/kennett-flash/kennett-square-pennsylvania/"
+  },
+  {
+    "id": "discovered_wild_hymns_paper_graves_20261029",
+    "type": "event",
+    "title": "The Wild Hymns with Paper Graves",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.847,
+        "lng": -75.713
+      }
+    },
+    "raw_date_string": "Oct 29, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "All Ages"
+      ],
+      "price": "$20-$23",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettflash.org/event/the-wild-hymns-with-special-guests-paper-graves/kennett-flash/kennett-square-pennsylvania/"
+  },
+  {
+    "id": "discovered_brandywine_holiday_critter_sale_20261119",
+    "type": "event",
+    "title": "Holiday Critter Sale",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8693,
+        "lng": -75.5933
+      }
+    },
+    "raw_date_string": "Nov 19 - 22, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Holiday",
+        "Shopping"
+      ],
+      "price": "$10-$35",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/holiday-critter-sale"
+  },
+  {
+    "id": "discovered_exton_park_fall_fest_20261017",
+    "type": "event",
+    "title": "Fall Fest at Exton Park",
+    "venue_info": {
+      "name": "Swedesford Recreation Area (Exton Park), Exton",
+      "location": {
+        "lat": 40.0453,
+        "lng": -75.6139
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "11:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.westwhiteland.org/518/Fall-Fest"
+  },
+  {
+    "id": "discovered_peoples_light_oktoberfest_20260927",
+    "type": "event",
+    "title": "Oktoberfest at The Farmhouse",
+    "venue_info": {
+      "name": "People's Light, Malvern",
+      "location": {
+        "lat": 40.0445,
+        "lng": -75.5432
+      }
+    },
+    "raw_date_string": "Sep 27, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Live Music",
+        "Outdoor"
+      ],
+      "time": "12:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.peopleslight.org/whats-on/events/2026/oktoberfest-september-27/"
   }
 ]
