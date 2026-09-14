@@ -438,7 +438,10 @@
 
         // Marquee cascades so a quiet Tuesday never renders an empty page:
         // today -> tonight -> tomorrow -> rest of the week.
-        const today    = eventsData.filter(e => e.date_category === "today");
+        // A run that opened on an earlier day (an exhibition, a play's
+        // six-week season) is filed under today for as long as it is open, but
+        // it would head this block every day of the run; it stays in Events.
+        const today    = eventsData.filter(e => e.date_category === "today" && !e.ongoing);
         const tomorrow = eventsData.filter(e => e.date_category === "tomorrow");
         const week     = eventsData.filter(e => e.date_category === "this_week");
 

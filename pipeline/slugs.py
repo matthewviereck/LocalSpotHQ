@@ -102,6 +102,14 @@ def _event_date(ev):
     return datetime.fromtimestamp(ts).date()
 
 
+def _event_end(ev):
+    """Last day of a multi-day run, or None for a single-day event."""
+    try:
+        return date.fromisoformat(ev.get('end_iso') or '')
+    except ValueError:
+        return None
+
+
 class SlugRegistry:
     def __init__(self, path):
         self.path = path
@@ -117,14 +125,23 @@ class SlugRegistry:
             json.dump(data, f, indent=1, ensure_ascii=False)
             f.write('\n')
 
-    def record(self, slug, title, venue, d, seen):
-        """Upsert: first_seen is sticky, everything else follows the latest build."""
+    def record(self, slug, title, venue, d, seen, end=None):
+        """Upsert: first_seen is sticky, everything else follows the latest build.
+
+        `date` is the start and stays the identity that `match` compares;
+        `end` is kept only for a multi-day run, so a six-week exhibition
+        dropped after it closes is aged from its closing day, not its opening.
+        """
         rec = self.slugs.get(slug)
         if rec is None:
             rec = self.slugs[slug] = {'first_seen': seen}
         rec['title'] = title
         rec['venue'] = venue
         rec['date'] = d.isoformat()
+        if end and end > d:
+            rec['end'] = end.isoformat()
+        else:
+            rec.pop('end', None)
         rec['last_seen'] = seen
         if 'first_seen' not in rec:
             rec['first_seen'] = seen
@@ -250,7 +267,8 @@ def assign_slugs(events_file, registry, today=None):
         if slug in used:
             continue
         used.add(slug)
-        rec = registry.record(slug, title, loc, d, today)
+        ends = [e for e in (_event_end(m) for m in members) if e]
+        rec = registry.record(slug, title, loc, d, today, end=max(ends) if ends else None)
         # keep the venue index current for later events in this same build
         vk = venue_key(loc)
         if vk and all(s != slug for s, _ in by_venue.get(vk, [])):
@@ -269,7 +287,7 @@ def _stub_page(slug, rec, area_config, indexable):
     title = rec.get('title', slug.replace('-', ' ').title())
     venue = rec.get('venue', '')
     try:
-        d = date.fromisoformat(rec['date'])
+        d = date.fromisoformat(rec.get('end') or rec['date'])
         when = f"{d.strftime('%A, %B')} {d.day}, {d.year}"
     except (KeyError, ValueError):
         d, when = None, ''
@@ -393,7 +411,7 @@ def emit_retired(registry, events, output_dir, area_config, today=None, other_ar
         if slug in live:
             continue
         try:
-            last = date.fromisoformat(rec.get('date', ''))
+            last = date.fromisoformat(rec.get('end') or rec.get('date', ''))
         except ValueError:
             last = today
         age = (today - last).days

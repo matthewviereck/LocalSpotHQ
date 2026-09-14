@@ -4,37 +4,77 @@ from datetime import datetime, timedelta
 import re
 
 
-def parse_date_advanced(date_string):
-    """Parse various date formats and return a datetime object."""
+_MONTH_NUM = {
+    'Jan': 1, 'January': 1, 'Feb': 2, 'February': 2,
+    'Mar': 3, 'March': 3, 'Apr': 4, 'April': 4,
+    'May': 5, 'Jun': 6, 'June': 6, 'Jul': 7, 'July': 7,
+    'Aug': 8, 'August': 8, 'Sep': 9, 'Sept': 9, 'September': 9,
+    'Oct': 10, 'October': 10, 'Nov': 11, 'November': 11,
+    'Dec': 12, 'December': 12
+}
+_MONTH_DAY = re.compile(r'([A-Za-z]+)\s+(\d+)(?:,?\s+(\d{4}))?')
+# "4, 2026" in "Oct 3 - 4, 2026" (or "27, 2026 1:00 PM"). Matched whole, so
+# the "10" of a trailing "7:00 PM - 10:00 PM" is never read as a day.
+_BARE_DAY = re.compile(r'(\d{1,2})(?:,?\s+(\d{4}))?(?:\s+\d{1,2}(?::\d{2})?\s*[AaPp]\.?[Mm]\.?)?')
+# Phoenixville discovery writes "September 25-27, 2026"; West Chester's
+# writes "Sep 25 - 27, 2026". Only a dash right after the leading
+# "Month D" is a range - "7-9pm" later in the string is a time.
+_TIGHT_RANGE = re.compile(r'^([A-Za-z]+\.?\s+\d{1,2})\s*-\s*(?=\d|[A-Za-z])')
+
+
+def parse_date_range(date_string):
+    """(start, end) datetimes for a date string; end is None for a single day.
+
+    Discovery writes runs as "Oct 2 - Nov 15, 2026", "Oct 3 - 4, 2026" or
+    "Nov 20 - Jan 10, 2027". A range prints its year once and the year
+    belongs to the end: when the months run backwards, the start falls in
+    the year before.
+    """
     try:
         date_string = re.sub(r'\s+', ' ', date_string.strip())
+        date_string = re.sub(r'\s*[–—]\s*', ' - ', date_string)
+        date_string = _TIGHT_RANGE.sub(r'\1 - ', date_string)
 
-        if ' - ' in date_string or '- ' in date_string:
-            date_string = date_string.split(' - ')[0].strip()
-            date_string = date_string.split('- ')[0].strip()
+        start_text, end_text = date_string, ''
+        for sep in (' - ', '- '):
+            if sep in date_string:
+                start_text, end_text = (p.strip() for p in date_string.split(sep, 1))
+                break
 
-        match = re.match(r'([A-Za-z]+)\s+(\d+)(?:,?\s+(\d{4}))?', date_string)
-        if match:
-            month_name = match.group(1)
-            day = int(match.group(2))
-            year = int(match.group(3)) if match.group(3) else datetime.now().year
+        start = _MONTH_DAY.match(start_text)
+        if not start:
+            return None, None
+        s_month = _MONTH_NUM.get(start.group(1), 1)
+        s_day = int(start.group(2))
+        s_year = int(start.group(3)) if start.group(3) else None
 
-            month_map = {
-                'Jan': 1, 'January': 1, 'Feb': 2, 'February': 2,
-                'Mar': 3, 'March': 3, 'Apr': 4, 'April': 4,
-                'May': 5, 'Jun': 6, 'June': 6, 'Jul': 7, 'July': 7,
-                'Aug': 8, 'August': 8, 'Sep': 9, 'Sept': 9, 'September': 9,
-                'Oct': 10, 'October': 10, 'Nov': 11, 'November': 11,
-                'Dec': 12, 'December': 12
-            }
-            month = month_map.get(month_name, 1)
-            return datetime(year, month, day)
+        e_month = e_day = e_year = None
+        bare = _BARE_DAY.fullmatch(end_text)
+        full = _MONTH_DAY.match(end_text)
+        if bare:
+            e_month, e_day = s_month, int(bare.group(1))
+            e_year = int(bare.group(2)) if bare.group(2) else None
+        elif full and full.group(1) in _MONTH_NUM:
+            e_month, e_day = _MONTH_NUM[full.group(1)], int(full.group(2))
+            e_year = int(full.group(3)) if full.group(3) else None
+
+        if e_month is None:
+            return datetime(s_year or datetime.now().year, s_month, s_day), None
+
+        e_year = e_year or s_year or datetime.now().year
+        if s_year is None:
+            s_year = e_year - 1 if (s_month, s_day) > (e_month, e_day) else e_year
+        begin, end = datetime(s_year, s_month, s_day), datetime(e_year, e_month, e_day)
+        return begin, (end if end > begin else None)
 
     except Exception as e:
         print(f"   ! Date parse error for '{date_string}': {e}")
-        return None
+        return None, None
 
-    return None
+
+def parse_date_advanced(date_string):
+    """Parse various date formats and return the (start) datetime."""
+    return parse_date_range(date_string)[0]
 
 
 # The display date is the client's grouping key: "Jul 11" and "July 11"
@@ -311,15 +351,27 @@ def transform_events(input_file, output_file):
     for event in scraped_data:
         try:
             raw_date = event.get("raw_date_string", "TBA")
-            event_datetime = parse_date_advanced(raw_date)
+            event_datetime, end_datetime = parse_date_range(raw_date)
 
-            # Skip past events
-            if event_datetime and event_datetime < today:
+            # Skip past events. A run ("Oct 2 - Nov 15") is past only once its
+            # END is: filtering on the start dropped every exhibition, season
+            # and theatre production the day after it opened.
+            if (end_datetime or event_datetime) and (end_datetime or event_datetime) < today:
                 continue
 
-            display_date = format_date_display(raw_date)
-            smart_label = get_smart_label(event_datetime) if event_datetime else ""
-            date_category = get_date_category(event_datetime) if event_datetime else 'later'
+            # _sort_date stays the START even once a run is under way - the
+            # slug registry keys pages on venue + that date, so moving it to
+            # "today" would mint a new URL every day of the run. The app reads
+            # `ongoing` instead, and files the event under today.
+            ongoing = bool(end_datetime and event_datetime < today)
+            if ongoing:
+                display_date = f"Now through {end_datetime.strftime('%b')} {end_datetime.day}"
+                smart_label = "On now"
+                date_category = get_date_category(today)
+            else:
+                display_date = format_date_display(raw_date)
+                smart_label = get_smart_label(event_datetime) if event_datetime else ""
+                date_category = get_date_category(event_datetime) if event_datetime else 'later'
 
             transformed = {
                 "title": event.get("title", "Untitled Event"),
@@ -339,6 +391,11 @@ def transform_events(input_file, output_file):
                 "weekday": (event.get("attributes") or {}).get("weekday", ""),
                 "img": event.get("media", {}).get("image", "https://placehold.co/400x300?text=No+Image"),
                 "link": event.get("action_link", ""),
+                # Last day of a multi-day run ('' for a single day). inject.py
+                # emits it as JSON-LD endDate; feeds, event pages and the slug
+                # registry read it too.
+                "end_iso": end_datetime.date().isoformat() if end_datetime else "",
+                "ongoing": ongoing,
                 "_sort_date": event_datetime.timestamp() if event_datetime else 9999999999
             }
 

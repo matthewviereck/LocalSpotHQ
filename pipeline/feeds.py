@@ -21,6 +21,14 @@ def _event_date(ev):
     return datetime.fromtimestamp(ts).date()
 
 
+def _event_end(ev):
+    """Last day of a multi-day run, else the event's own date (None if undated)."""
+    try:
+        return date.fromisoformat(ev.get('end_iso') or '')
+    except ValueError:
+        return _event_date(ev)
+
+
 def weekend_range(today=None):
     """Upcoming Fri-Sun, or the current weekend if today is Fri/Sat/Sun."""
     today = today or date.today()
@@ -33,15 +41,16 @@ def weekend_range(today=None):
 
 
 def weekend_events(events, today=None):
-    """Dated events falling on the upcoming weekend (today onwards)."""
+    """Dated events falling on the upcoming weekend (today onwards). A run
+    that is open over the weekend is listed once, on its first open day."""
     friday, sunday = weekend_range(today)
     today = today or date.today()
     start = max(friday, today)
     picked = []
     for ev in events:
         d = _event_date(ev)
-        if d and start <= d <= sunday:
-            picked.append((d, ev))
+        if d and d <= sunday and _event_end(ev) >= start:
+            picked.append((max(d, start), ev))
     picked.sort(key=lambda p: (p[0], p[1]['title'].lower()))
     return friday, sunday, picked
 
@@ -104,12 +113,14 @@ def generate_this_weekend_page(events_file, output_dir, area_config):
             "item": {
                 "@type": "Event",
                 "name": ev['title'],
-                "startDate": d.isoformat(),
+                "startDate": _event_date(ev).isoformat(),
                 "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
                 "location": {"@type": "Place", "name": ev.get('loc', area_name),
                              "address": {"@type": "PostalAddress", "addressRegion": "PA", "addressCountry": "US"}}
             }
         }
+        if ev.get('end_iso'):
+            item['item']['endDate'] = ev['end_iso']
         if ev.get('link'):
             item['item']['url'] = ev['link']
         items.append(item)
@@ -217,7 +228,7 @@ def generate_ics(events_file, output_dir, area_config):
         lines.append(f'UID:{uid}@localspothq.com')
         lines.append(f'DTSTAMP:{now_utc}')
         lines.append(f'DTSTART;VALUE=DATE:{d.strftime("%Y%m%d")}')
-        lines.append(f'DTEND;VALUE=DATE:{(d + timedelta(days=1)).strftime("%Y%m%d")}')
+        lines.append(f'DTEND;VALUE=DATE:{(_event_end(ev) + timedelta(days=1)).strftime("%Y%m%d")}')
         lines.append(_ics_fold(f'SUMMARY:{_ics_escape(ev["title"])}'))
         if ev.get('loc'):
             lines.append(_ics_fold(f'LOCATION:{_ics_escape(ev["loc"])}'))

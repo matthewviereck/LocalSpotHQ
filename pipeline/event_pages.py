@@ -15,7 +15,7 @@ import re
 import shutil
 from datetime import datetime, date
 
-from pipeline.feeds import _event_date
+from pipeline.feeds import _event_date, _event_end
 from pipeline.analytics import GA_SNIPPET
 from pipeline.slugs import venue_key
 
@@ -23,6 +23,12 @@ from pipeline.slugs import venue_key
 def _slug(title):
     # Fallback only - the pipeline assigns ev['slug'] via pipeline/slugs.py
     return re.sub(r'^-|-$', '', re.sub(r'[^a-z0-9]+', '-', title.lower()))
+
+
+def _short_range(start, end):
+    """"Oct 3–4", "Oct 2–Nov 15" - a multi-day run in title-sized form."""
+    tail = str(end.day) if start.month == end.month else f"{end.strftime('%b')} {end.day}"
+    return f"{start.strftime('%b')} {start.day}–{tail}"
 
 
 # Google renders roughly 60 characters of <title> before truncating. Every one
@@ -144,6 +150,8 @@ def _event_page(ev, d, area_config, related=()):
     loc = ev.get('loc', area_name)
     typ = ev.get('type', 'Event')
     date_label = d.strftime('%A, %B %d, %Y').replace(' 0', ' ')
+    end = _event_end(ev)
+    run = end is not None and end > d
     img = ev.get('img', '')
     real_img = img and 'placehold.co' not in img
 
@@ -153,6 +161,12 @@ def _event_page(ev, d, area_config, related=()):
 
     # "Sat Aug 29" - %-d is not portable to Windows, so build the day by hand.
     short_date = f"{d.strftime('%a %b')} {d.day}"
+    if run:
+        # A run is searched as a run: "Oct 2–Nov 15", not its opening night.
+        short_date = _short_range(d, end)
+        date_label = (f"{d.strftime('%B')} {d.day} – {end.strftime('%B')} {end.day}, {end.year}"
+                      if d.year == end.year else
+                      f"{d.strftime('%B')} {d.day}, {d.year} – {end.strftime('%B')} {end.day}, {end.year}")
 
     # The town is the highest-value token in a local search, but repeating it
     # when it is already in the name ("Phoenixville Punk Rock Flea Market")
@@ -164,7 +178,8 @@ def _event_page(ev, d, area_config, related=()):
     # Lead the snippet with what a searcher actually wants to know - when,
     # where, how much - instead of the old boilerplate that read identically
     # on all 176 pages.
-    long_date = f"{d.strftime('%A, %B')} {d.day}"
+    long_date = (f"{d.strftime('%B')} {d.day} – {end.strftime('%B')} {end.day}" if run
+                 else f"{d.strftime('%A, %B')} {d.day}")
     facts = [f"{long_date} at {when}" if when else long_date]
     facts.append(loc if (not town or town.lower() in loc.lower()) else f"{loc}, {town}")
     if price_note:
@@ -181,6 +196,7 @@ def _event_page(ev, d, area_config, related=()):
         "@type": "Event",
         "name": title,
         "startDate": d.isoformat(),
+        **({"endDate": end.isoformat()} if run else {}),
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "eventStatus": "https://schema.org/EventScheduled",
         "location": {
@@ -222,7 +238,8 @@ def _event_page(ev, d, area_config, related=()):
     if related:
         items = []
         for rslug, rev, rd, same_venue in related:
-            rdate = f"{rd.strftime('%a %b')} {rd.day}"
+            rend = _event_end(rev)
+            rdate = _short_range(rd, rend) if rend and rend > rd else f"{rd.strftime('%a %b')} {rd.day}"
             rwhere = '' if same_venue else f" &middot; {html.escape(rev.get('loc') or rev.get('town') or '')}"
             items.append(f'<li><a href="{base_url}/events/{rslug}/">{html.escape(rev["title"])}</a>'
                          f'<span>{rdate}{rwhere}</span></li>')

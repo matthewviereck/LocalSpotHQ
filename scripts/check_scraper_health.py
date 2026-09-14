@@ -24,7 +24,7 @@ from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from pipeline.transform import parse_date_advanced  # noqa: E402
+from pipeline.transform import parse_date_range  # noqa: E402
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -42,7 +42,8 @@ def _future_count(path):
     today = datetime.now().date()
     future = 0
     for event in events:
-        parsed = parse_date_advanced(event.get('raw_date_string', ''))
+        start, end = parse_date_range(event.get('raw_date_string', ''))
+        parsed = end or start
         if parsed and parsed.date() >= today:
             future += 1
     return future, f'{len(events)} cached'
