@@ -1,5 +1,23 @@
 [
   {
+    "title": "Netflix's 'Tires' co-creator still calls West Chester home",
+    "category": "News",
+    "summary": "Steve Gerben, who co-created and stars in the Netflix comedy Tires alongside Shane Gillis, films the show in an addition to his father's former tire shop on East Gay Street and golfs weekly on West Chester courses. The series was renewed for a fourth season after its Aug. 13 season-three premiere drew 2.4 million views in its first weekend.",
+    "date": "2026-09-12",
+    "loc": "East Gay Street, West Chester",
+    "link": "https://www.inquirer.com/entertainment/tv/steve-gerben-tires-netflix-west-chester-golf-shane-gillis-20260912.html",
+    "img": ""
+  },
+  {
+    "title": "25 years on, West Chester's ties to 9/11 are marked in bronze and steel",
+    "category": "News",
+    "summary": "A VISTA Today look back traces Chester County's links to the attacks, including Michael Horrocks, a former West Chester University quarterback who was in the cockpit of United Flight 175, and George Eric Smith of West Chester, who grew up in Phoenixville. WCU planned a moment of silence at its Sept. 12 home opener against IUP.",
+    "date": "2026-09-12",
+    "loc": "West Chester University, West Chester",
+    "link": "https://vista.today/2026/09/chester-county-9-11-connections-25-years-later/",
+    "img": ""
+  },
+  {
     "title": "West Chester starts enforcing its 35-gallon trash can limit after Sept. 30",
     "category": "News",
     "summary": "The borough's updated garbage ordinance caps curbside trash cans at 35 gallons, and Public Works says larger cans will stop being collected once a grace period ends Sept. 30, with fines possible after that. The borough says it has no approved alternative for households that need bigger containers.",
@@ -45,15 +63,6 @@
     "img": ""
   },
   {
-    "title": "Helicopter museum honors the first piloted hydrogen-powered flight",
-    "category": "News",
-    "summary": "The American Helicopter Museum and Education Center is giving its 2026 Achievement Award to the Unither Bioelectronique and Robinson Helicopter team behind the first piloted flight of a hydrogen-powered helicopter, which drew about 90 percent of its energy from fuel cells. The award ceremony is set for Oct. 18 at the museum.",
-    "date": "2026-09-09",
-    "loc": "1220 American Boulevard, West Chester",
-    "link": "https://www.mychesco.com/a/communities/west-chester/helicopter-museum-honors-hydrogen-powered-flight-team/",
-    "img": ""
-  },
-  {
     "title": "WCU opens its sustainability showcase to the public on Sept. 16",
     "category": "News",
     "summary": "West Chester University is inviting neighbors to a free showcase of its campus sustainability work Wednesday, Sept. 16 from 11 a.m. to 1 p.m. in the Sykes Student Union ballrooms. Exhibits cover green roofs, recycling and waste reduction, responsible purchasing and sustainability education.",
@@ -78,15 +87,6 @@
     "date": "2026-09-07",
     "loc": "Saints Simon and Jude Parish, West Chester",
     "link": "https://www.mychesco.com/a/news/social-issues/veteran-issues/welcome-home-our-vietnam-veterans-to-saint-simon-and-jude-on-september-19/",
-    "img": ""
-  },
-  {
-    "title": "A speakeasy-style barbershop opens down an alley off High Street",
-    "category": "Now Open",
-    "summary": "Gerome and Monica Ruff have opened Urban Cutz Barbershop at 21 S. High Street, tucked behind Ginkgo Arts and reached through a covered brick walkway next to Barnaby's. Gerome has cut hair in the borough for more than 18 years; the couple plan to add chairs and more barbers as the 1,200-square-foot shop grows.",
-    "date": "2026-09-03",
-    "loc": "21 S. High Street, West Chester",
-    "link": "https://vista.today/2026/09/urban-cutz-west-chester-barbershop/",
     "img": ""
   }
 ]
