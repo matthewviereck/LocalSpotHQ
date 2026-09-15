@@ -1,5 +1,23 @@
 [
   {
+    "title": "West Chester moves to repeal its $1.2 million stream protection fee",
+    "category": "Development",
+    "summary": "Borough Council holds a public hearing Wednesday, Sept. 16 on repealing the Stream Protection Fee ordinance, which raised about $1.2 million a year before collection stopped April 30 following a state Supreme Court ruling that the charge functioned as a tax. How stormwater work gets paid for instead — property taxes, parking rates or reduced spending — will be settled in the 2027 budget.",
+    "date": "2026-09-14",
+    "loc": "West Chester Borough",
+    "link": "https://www.mychesco.com/a/news/government/west-chester-moves-to-repeal-1-2-million-stormwater-fee/",
+    "img": ""
+  },
+  {
+    "title": "Chester County measles count climbs to 65 cases",
+    "category": "News",
+    "summary": "Nine new cases in the past week put the county third in Pennsylvania behind Lancaster and Mifflin in what state officials call the worst measles outbreak here in more than three decades. County health officials are asking residents to check their vaccination status, noting a blood test can confirm immunity when records are missing.",
+    "date": "2026-09-14",
+    "loc": "Chester County",
+    "link": "https://patch.com/pennsylvania/westchester/pa-sees-3rd-measles-death-where-chester-county-cases-stand",
+    "img": ""
+  },
+  {
     "title": "Netflix's 'Tires' co-creator still calls West Chester home",
     "category": "News",
     "summary": "Steve Gerben, who co-created and stars in the Netflix comedy Tires alongside Shane Gillis, films the show in an addition to his father's former tire shop on East Gay Street and golfs weekly on West Chester courses. The series was renewed for a fourth season after its Aug. 13 season-three premiere drew 2.4 million views in its first weekend.",
@@ -9,29 +27,11 @@
     "img": ""
   },
   {
-    "title": "25 years on, West Chester's ties to 9/11 are marked in bronze and steel",
-    "category": "News",
-    "summary": "A VISTA Today look back traces Chester County's links to the attacks, including Michael Horrocks, a former West Chester University quarterback who was in the cockpit of United Flight 175, and George Eric Smith of West Chester, who grew up in Phoenixville. WCU planned a moment of silence at its Sept. 12 home opener against IUP.",
-    "date": "2026-09-12",
-    "loc": "West Chester University, West Chester",
-    "link": "https://vista.today/2026/09/chester-county-9-11-connections-25-years-later/",
-    "img": ""
-  },
-  {
     "title": "West Chester starts enforcing its 35-gallon trash can limit after Sept. 30",
     "category": "News",
     "summary": "The borough's updated garbage ordinance caps curbside trash cans at 35 gallons, and Public Works says larger cans will stop being collected once a grace period ends Sept. 30, with fines possible after that. The borough says it has no approved alternative for households that need bigger containers.",
     "date": "2026-09-11",
     "loc": "West Chester Borough",
-    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-sept-11-2026",
-    "img": ""
-  },
-  {
-    "title": "West Goshen votes Tuesday on a 10-year plan for its 14 parks",
-    "category": "Development",
-    "summary": "The township's 2026-2035 Park, Recreation & Open Space plan goes to the Board of Supervisors for a public hearing and possible adoption, laying out playground upgrades, trail expansion and new sports facilities across 193 acres that will nearly double once the Greystone Preserve is added. One proposal would swap a use at Robert E. Lambert Park for pickleball courts, and some residents say the approval is moving too fast.",
-    "date": "2026-09-11",
-    "loc": "West Goshen Township",
     "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-sept-11-2026",
     "img": ""
   },
@@ -63,12 +63,21 @@
     "img": ""
   },
   {
-    "title": "WCU opens its sustainability showcase to the public on Sept. 16",
+    "title": "The Pear reopens the long-dark Dilworthtown Inn",
+    "category": "Now Open",
+    "summary": "The 18th-century inn at 275 Brintons Bridge Road, closed for several years while its owners worked up a new concept, is serving again as The Pear, billed as an elegant neighborhood tavern with a simple seasonal menu. Hours run 11 a.m. to 9 p.m. Tuesday through Thursday and to 10 p.m. Friday and Saturday, closed Sunday and Monday.",
+    "date": "2026-09-10",
+    "loc": "275 Brintons Bridge Road, West Chester",
+    "link": "https://patch.com/pennsylvania/westchester/new-restaurant-reopens-historic-dilworthtown-inn",
+    "img": ""
+  },
+  {
+    "title": "Helicopter Museum honors the first piloted hydrogen-powered flight",
     "category": "News",
-    "summary": "West Chester University is inviting neighbors to a free showcase of its campus sustainability work Wednesday, Sept. 16 from 11 a.m. to 1 p.m. in the Sykes Student Union ballrooms. Exhibits cover green roofs, recycling and waste reduction, responsible purchasing and sustainability education.",
+    "summary": "The American Helicopter Museum and Education Center named Unither Bioélectronique and Robinson Helicopter Company its 2026 achievement award winners for flying a hydrogen fuel-cell helicopter with a pilot aboard, a first for vertical flight. The award will be presented at the museum's 30th anniversary celebration on Oct. 18.",
     "date": "2026-09-09",
-    "loc": "110 W. Rosedale Avenue, West Chester",
-    "link": "https://www.mychesco.com/a/education/colleges-universities/wcu/west-chester-university-opens-sustainability-showcase-to-community/",
+    "loc": "1220 American Boulevard, West Chester",
+    "link": "https://www.mychesco.com/a/communities/west-chester/helicopter-museum-honors-hydrogen-powered-flight-team/",
     "img": ""
   },
   {
@@ -78,15 +87,6 @@
     "date": "2026-09-08",
     "loc": "Highland Orchards, West Chester",
     "link": "https://www.phillymag.com/restaurants/2026/09/08/apple-shortage/",
-    "img": ""
-  },
-  {
-    "title": "Community invited to greet Vietnam veterans returning from Honor Flight",
-    "category": "News",
-    "summary": "Saints Simon and Jude Parish hosts a Welcome Home celebration on Saturday, Sept. 19 for Vietnam veterans coming back from Honor Flight Philadelphia's Day of Honor in Washington. Activities start at 4 p.m. and the buses arrive around 6 p.m.; organizers are asking neighbors to line the entrance with flags.",
-    "date": "2026-09-07",
-    "loc": "Saints Simon and Jude Parish, West Chester",
-    "link": "https://www.mychesco.com/a/news/social-issues/veteran-issues/welcome-home-our-vietnam-veterans-to-saint-simon-and-jude-on-september-19/",
     "img": ""
   }
 ]
