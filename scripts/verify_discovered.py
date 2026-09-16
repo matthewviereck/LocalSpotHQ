@@ -15,10 +15,23 @@ the page, and reports one finding per event:
           PAST              the date has already passed
   weak    NOT_ON_PAGE       the month/day never appears (listing pages paginate,
                             so this is a prompt to look, not a verdict)
-          NO_YEAR_ON_PAGE   month/day found, but no year and no weekday nearby
+          NO_YEAR_ON_PAGE   month/day found, but no year anywhere - not beside
+                            it, not in the markup, not in the links
   blocked FETCH_403 / FETCH_404 / FETCH_ERROR   needs a browser or is dead
   ok      YEAR_CONFIRMED    the page prints the same year
           WEEKDAY_CONFIRMED no year printed, but the weekday fits this year
+          YEAR_FROM_SCHEMA  no year in the text; the event markup (JSON-LD
+                            startDate, hCalendar dtstart) carries the date
+          YEAR_FROM_ICS     no year in the text; a linked ICS or add-to-calendar
+                            URL carries the date
+          YEAR_FROM_URL     no year in the text; the canonical URL carries it
+
+Venues routinely print "October 10 @ 7:30 pm" and leave the year to the URL or
+to the calendar button, so the year is read from the visible text first and from
+those structured sources second - and the verdict names the source, because a
+year recovered from a URL is weaker evidence than a year printed beside the
+date. The weekday probe runs before either: a page whose weekday contradicts
+the date is wrong whatever its markup claims.
 
 Report-only: exit 0 always unless --strict, which exits 1 on any strong
 finding. The event-verifier agent reads the JSON and does the judgment half
@@ -65,6 +78,25 @@ _RECORD_DATE = re.compile(
 _YEAR_AFTER = re.compile(
     r'^(?:\s*(?:,|\.|-|–|—|/|&|to|through|thru|and|until|\d{1,2}(?:st|nd|rd|th)?)\s*){0,5}(20\d\d)\b')
 _WEEKDAY_BEFORE = re.compile(r'\b(mon|tue|wed|thu|fri|sat|sun)[a-z]*\.?,?\s*$')
+# Between the month and the day a page may print a period, a space, or both -
+# "Oct 8", "Oct. 8", "Oct.8" - so every MONTH_WORDS abbreviation reads the same
+# with or without its trailing period ("Sat., Oct. 30" and "Sat, Oct 30").
+_MONTH_DAY_GAP = r'(?:\.\s*|\s+)'
+
+# Structured date sources a page ships outside its visible text.
+_CANONICAL = re.compile(
+    r'<link[^>]+rel=["\']?canonical["\']?[^>]*?href=["\']([^"\']+)', re.I)
+_CALENDAR_LINK = re.compile(
+    r'''href=["']([^"']*(?:\.ics|ical=1|webcal:|calendar/event|calendar/render'''
+    r'''|action/compose|addtocalendar)[^"']*)''', re.I)
+_JSONLD_START = re.compile(r'"start_?date"\s*:\s*"(\d{4})-(\d{2})-(\d{2})', re.I)
+_MARKUP_START = re.compile(r'<[^>]*(?:startdate|dtstart)[^>]*>', re.I)
+_ISO_DATE = re.compile(r'(?<!\d)(\d{4})-(\d{2})-(\d{2})(?!\d)')
+# "2026-09-19", "2026/09/19" and the "20260919" a Google Calendar link prints.
+_URL_DATE = re.compile(r'(?<!\d)(20\d\d)[-/]?(\d{2})[-/]?(\d{2})(?!\d)')
+# A lone year in a path ("/schedule/2026", "-2026/"), but not half of a season
+# slug like "/20262027-season/".
+_URL_YEAR = re.compile(r'(?<!\d)(20\d\d)(?!\d)')
 
 
 def parse_record_date(raw):
@@ -87,28 +119,85 @@ def parse_record_date(raw):
         return None
 
 
+def _iso_dates(pattern, html):
+    """Every YYYY-MM-DD `pattern` finds in `html`, as dates."""
+    out = []
+    for m in pattern.finditer(html):
+        try:
+            out.append(date(int(m.group(1)), int(m.group(2)), int(m.group(3))))
+        except ValueError:
+            pass
+    return out
+
+
+def page_hints(html, final_url):
+    """The dated sources a page carries outside its visible text.
+
+    Only what the fetched HTML already holds - the canonical URL, the
+    ICS/add-to-calendar links, and the ISO dates in event markup. The calendar
+    links are read, not downloaded: the date is in the URL for every
+    add-to-calendar button there is, and one extra request per event is not
+    worth the year.
+    """
+    canonical = _CANONICAL.search(html)
+    schema = _iso_dates(_JSONLD_START, html)
+    for tag in _MARKUP_START.finditer(html):
+        schema += _iso_dates(_ISO_DATE, tag.group(0))
+    return {
+        'canonical': canonical.group(1) if canonical else final_url,
+        'calendar': sorted({m.group(1) for m in _CALENDAR_LINK.finditer(html)}),
+        'schema': schema,
+    }
+
+
 def fetch(url):
-    """(status, text) - status is an int, 'error' or 'skip'."""
+    """(status, text, hints) - status is an int, 'error' or 'skip'."""
     if not url or not url.startswith('http'):
-        return 'skip', ''
+        return 'skip', '', {}
     try:
         r = requests.get(url, headers=BROWSER_HEADERS, timeout=20, allow_redirects=True)
     except requests.RequestException as e:
-        return 'error', str(e)[:120]
+        return 'error', str(e)[:120], {}
     if r.status_code != 200:
-        return r.status_code, ''
+        return r.status_code, '', {}
+    hints = page_hints(r.text, r.url)
     soup = BeautifulSoup(r.text, 'html.parser')
     for tag in soup(['script', 'style', 'noscript']):
         tag.decompose()
     text = soup.get_text(' ')
-    return 200, re.sub(r'\s+', ' ', text).lower()
+    return 200, re.sub(r'\s+', ' ', text).lower(), hints
 
 
-def scan_page(text, when):
+def dated_sources(hints):
+    """[(finding, where, date)] for every dated source in a page's `hints`."""
+    found = [('YEAR_FROM_SCHEMA', 'the page markup', d)
+             for d in hints.get('schema') or []]
+    for link in hints.get('calendar') or []:
+        found += [('YEAR_FROM_ICS', 'the calendar link %s' % _short(link), d)
+                  for d in _iso_dates(_URL_DATE, link)]
+    canonical = hints.get('canonical') or ''
+    found += [('YEAR_FROM_URL', 'the canonical URL %s' % _short(canonical), d)
+              for d in _iso_dates(_URL_DATE, _path(canonical))]
+    return found
+
+
+def _path(url):
+    """A URL without its scheme and host, so a host's digits are not a date."""
+    return re.sub(r'^[a-z]+://[^/]*', '', url or '', flags=re.I)
+
+
+def _short(url):
+    return url if len(url) <= 70 else url[:67] + '...'
+
+
+def scan_page(text, when, hints=None):
     """Look for `when`'s month/day on the page; return (finding, detail)."""
+    hints = hints or {}
     words = '|'.join(MONTH_WORDS[when.month])
     day = when.day
-    textual = re.compile(r'\b(?:%s)\.?\s+%d(?:st|nd|rd|th)?\b(?!\s*[:/])' % (words, day))
+    # 0? because Wix and Shopify venue pages write "Thu, Oct 08".
+    textual = re.compile(r'\b(?:%s)%s0?%d(?:st|nd|rd|th)?\b(?!\s*[:/])' % (
+        words, _MONTH_DAY_GAP, day))
     numeric = re.compile(r'\b0?%d/0?%d/(20\d\d|\d\d)\b' % (when.month, day))
     iso = re.compile(r'\b(20\d\d)-%02d-%02d\b' % (when.month, day))
 
@@ -148,7 +237,28 @@ def scan_page(text, when):
         return 'WEEKDAY_MISMATCH', 'page says %s; in %d that date is a %s (a %s fits %s)' % (
             weekdays[0], when.year, WEEKDAYS[when.weekday()], weekdays[0],
             '/'.join(str(y) for y in fits) or 'no nearby year')
-    return 'NO_YEAR_ON_PAGE', 'month/day found %d time(s), no year or weekday beside it' % hits
+
+    # Nothing beside the date, so fall back to the sources the page ships
+    # around it. Only a source that names this same month/day counts - a bare
+    # year somewhere in a URL is context, not the event's date.
+    dated = [(f, where, d) for f, where, d in dated_sources(hints)
+             if (d.month, d.day) == (when.month, when.day)]
+    for finding, where, d in dated:
+        if d.year == when.year:
+            return finding, 'no year beside the date; %s gives %s' % (where, d.isoformat())
+    if dated:
+        seen = sorted({d.year for _, _, d in dated})
+        return 'WRONG_YEAR', 'no year beside the date; %s pairs it with %s, not %d' % (
+            dated[0][1], '/'.join(str(y) for y in seen), when.year)
+
+    detail = 'month/day found %d time(s), no year or weekday beside it' % hits
+    url_years = {int(m.group(1)) for m in _URL_YEAR.finditer(_path(hints.get('canonical')))}
+    if when.year in url_years:
+        return 'YEAR_FROM_URL', '%s; the canonical URL carries %d (%s)' % (
+            detail, when.year, _short(hints.get('canonical') or ''))
+    if url_years:
+        detail += ' (canonical URL carries %s)' % '/'.join(str(y) for y in sorted(url_years))
+    return 'NO_YEAR_ON_PAGE', detail
 
 
 def _safe_weekday(y, m, d):
@@ -163,6 +273,7 @@ SEVERITY = {
     'BAD_DATE': 'strong',
     'NOT_ON_PAGE': 'weak', 'NO_YEAR_ON_PAGE': 'weak',
     'YEAR_CONFIRMED': 'ok', 'WEEKDAY_CONFIRMED': 'ok',
+    'YEAR_FROM_SCHEMA': 'ok', 'YEAR_FROM_ICS': 'ok', 'YEAR_FROM_URL': 'ok',
 }
 
 
@@ -209,7 +320,7 @@ def verify(area, only_changed=False, today=None):
         elif when < today:
             row.update(finding='PAST', detail='%s is before today (%s)' % (when.isoformat(), today.isoformat()))
         else:
-            status, text = pages.get(row['url'], ('skip', ''))
+            status, text, hints = pages.get(row['url'], ('skip', '', {}))
             if status == 'skip':
                 row.update(finding='NO_LINK', detail='action_link is not an http URL')
             elif status == 'error':
@@ -217,7 +328,7 @@ def verify(area, only_changed=False, today=None):
             elif status != 200:
                 row.update(finding='FETCH_%s' % status, detail='source returned HTTP %s' % status)
             else:
-                finding, detail = scan_page(text, when)
+                finding, detail = scan_page(text, when, hints)
                 row.update(finding=finding, detail=detail)
         row['severity'] = severity(row['finding'])
         results.append(row)
