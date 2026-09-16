@@ -92,6 +92,13 @@
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-08-14"
   },
+  "85th-annual-chester-county-day-house-tour": {
+   "first_seen": "2026-09-15",
+   "title": "85th Annual Chester County Day House Tour",
+   "venue": "Chester County (Northwest Quadrant), West Chester",
+   "date": "2026-10-03",
+   "last_seen": "2026-09-15"
+  },
   "97th-annual-old-fiddler-s-picnic": {
    "first_seen": "2026-07-18",
    "last_seen": "2026-07-18",
@@ -509,6 +516,14 @@
    "venue": "Longwood Gardens, Kennett Square",
    "date": "2026-09-05"
   },
+  "bright-star-wcu-theatre": {
+   "first_seen": "2026-09-15",
+   "title": "Bright Star (WCU Theatre)",
+   "venue": "Madeleine Wing Adler Theatre, West Chester",
+   "date": "2026-10-15",
+   "end": "2026-10-18",
+   "last_seen": "2026-09-15"
+  },
   "bring-your-own-vinyl-night": {
    "first_seen": "2026-07-18",
    "last_seen": "2026-09-15",
@@ -655,6 +670,13 @@
    "title": "Christkindlmarkt on Gay Street",
    "venue": "Gay Street, West Chester",
    "date": "2026-12-12"
+  },
+  "christkindlmarkt-west-chester": {
+   "first_seen": "2026-09-15",
+   "title": "Christkindlmarkt West Chester",
+   "venue": "Gay & Church Streets, West Chester",
+   "date": "2026-12-12",
+   "last_seen": "2026-09-15"
   },
   "chrysanthemum-festival": {
    "first_seen": "2026-09-01",
@@ -901,6 +923,13 @@
    "title": "Dueling Pianos with The Philly Keys",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-23"
+  },
+  "dueling-pianos-with-the-philly-keys-november": {
+   "first_seen": "2026-09-15",
+   "title": "Dueling Pianos with The Philly Keys (November)",
+   "venue": "Uptown! Knauer Performing Arts Center, West Chester",
+   "date": "2026-11-18",
+   "last_seen": "2026-09-15"
   },
   "eagles-kickoff-event-at-la-chic-boutique": {
    "first_seen": "2026-09-02",
@@ -1403,8 +1432,8 @@
   },
   "jazz-cocktail-hour-sherry-wilson-butler-the-arpeggio-jazz-ensemble-the-sounds-of": {
    "first_seen": "2026-09-12",
-   "title": "Jazz Cocktail Hour: Sherry Wilson Butler & The Arpeggio Jazz Ensemble – The Sounds of Motown: Reimagined",
-   "venue": "Uptown Knauer Performing Arts Center",
+   "title": "Motown Reimagined",
+   "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-15",
    "last_seen": "2026-09-15"
   },
@@ -1610,6 +1639,13 @@
    "title": "Library Movie Night: Letting the Klamath River Run Free",
    "venue": "Kennett Library, Kennett Square",
    "date": "2026-09-16",
+   "last_seen": "2026-09-15"
+  },
+  "lights-up-christmas-parade-tree-lighting": {
+   "first_seen": "2026-09-15",
+   "title": "Lights Up! Christmas Parade & Tree Lighting",
+   "venue": "Downtown West Chester",
+   "date": "2026-12-04",
    "last_seen": "2026-09-15"
   },
   "listening-in-family-concert-from-my-life": {
@@ -2075,6 +2111,14 @@
    "venue": "Chester County History Center, West Chester",
    "date": "2026-09-30"
   },
+  "plantation-field-international-horse-trials": {
+   "first_seen": "2026-09-15",
+   "title": "Plantation Field International Horse Trials",
+   "venue": "Plantation Field, Unionville",
+   "date": "2026-09-16",
+   "end": "2026-09-20",
+   "last_seen": "2026-09-15"
+  },
   "play-your-way-pop-up": {
    "first_seen": "2026-09-02",
    "last_seen": "2026-09-13",
@@ -2105,15 +2149,15 @@
   },
   "pop-up-beer-garden-at-uptown": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-09-06",
-   "title": "Pop-Up Beer Garden at Uptown",
+   "last_seen": "2026-09-15",
+   "title": "Pop-Up Beer Garden at Uptown!",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-17"
   },
   "pop-up-beer-garden-jd-malone": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-09",
-   "title": "Pop-Up Beer Garden: Live Music by JD Malone",
+   "last_seen": "2026-09-15",
+   "title": "Pop-Up Beer Garden: Oktoberfest & Fall Music",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-09-26"
   },
@@ -2207,6 +2251,14 @@
    "title": "Ryan's Pub Quizzo",
    "venue": "Ryan's Pub, West Chester",
    "date": "2026-08-27"
+  },
+  "sacco-vanzetti-a-tragedia-dell-arte-wcu-theatre": {
+   "first_seen": "2026-09-15",
+   "title": "Sacco & Vanzetti: A Tragedia dell'Arte (WCU Theatre)",
+   "venue": "J.P. Adler Studio Theatre, West Chester",
+   "date": "2026-11-19",
+   "end": "2026-11-22",
+   "last_seen": "2026-09-15"
   },
   "saloon-151-music-bingo": {
    "first_seen": "2026-08-13",
@@ -2783,6 +2835,13 @@
    "venue": "Turks Head Wines, West Chester",
    "date": "2026-09-12"
   },
+  "the-star-finale": {
+   "first_seen": "2026-09-15",
+   "title": "THE STAR Finale",
+   "venue": "Uptown! Knauer Performing Arts Center, West Chester",
+   "date": "2026-10-25",
+   "last_seen": "2026-09-15"
+  },
   "the-star-vocal-competition-finale": {
    "first_seen": "2026-09-03",
    "title": "The Star Vocal Competition – Finale",
@@ -2813,24 +2872,24 @@
   },
   "the-star-vocal-competition-preliminary-week-1": {
    "first_seen": "2026-09-08",
-   "title": "The Star Vocal Competition: Preliminary Week 1",
+   "title": "THE STAR Prelims: Week 1",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-04",
-   "last_seen": "2026-09-09"
+   "last_seen": "2026-09-15"
   },
   "the-star-vocal-competition-preliminary-week-2": {
    "first_seen": "2026-09-08",
-   "title": "The Star Vocal Competition: Preliminary Week 2",
+   "title": "THE STAR Prelims: Week 2",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-11",
-   "last_seen": "2026-09-09"
+   "last_seen": "2026-09-15"
   },
   "the-star-vocal-competition-preliminary-week-3": {
    "first_seen": "2026-09-08",
-   "title": "The Star Vocal Competition: Preliminary Week 3",
+   "title": "THE STAR Prelims: Week 3",
    "venue": "Uptown! Knauer Performing Arts Center, West Chester",
    "date": "2026-10-18",
-   "last_seen": "2026-09-09"
+   "last_seen": "2026-09-15"
   },
   "the-underground-railroad-in-west-chester-walking-tour": {
    "first_seen": "2026-07-18",
@@ -2995,6 +3054,13 @@
    "last_seen": "2026-09-15",
    "end": "2026-10-04"
   },
+  "unite-for-her-5k-run-2k-walk": {
+   "first_seen": "2026-09-15",
+   "title": "Unite for HER 5K Run & 2K Walk",
+   "venue": "Gay & High Streets, West Chester",
+   "date": "2026-10-17",
+   "last_seen": "2026-09-15"
+  },
   "up-on-the-roof": {
    "first_seen": "2026-08-13",
    "last_seen": "2026-09-12",
@@ -3036,6 +3102,14 @@
    "title": "Walking Tour: Revolutionary West Chester",
    "venue": "Chester County History Center, West Chester",
    "date": "2026-09-03"
+  },
+  "wcu-fall-dance-concert": {
+   "first_seen": "2026-09-15",
+   "title": "WCU Fall Dance Concert",
+   "venue": "Madeleine Wing Adler Theatre, West Chester",
+   "date": "2026-11-06",
+   "end": "2026-11-07",
+   "last_seen": "2026-09-15"
   },
   "wcu-family-weekend": {
    "first_seen": "2026-08-28",
@@ -3152,8 +3226,8 @@
   "west-chester-christmas-parade-tree-lighting": {
    "first_seen": "2026-08-13",
    "last_seen": "2026-09-15",
-   "title": "Lights Up! Christmas Parade & Tree Lighting",
-   "venue": "Downtown West Chester",
+   "title": "West Chester Christmas Parade & Tree Lighting",
+   "venue": "Historic Courthouse, West Chester",
    "date": "2026-12-04"
   },
   "west-chester-comedy-festival": {
@@ -3291,9 +3365,9 @@
   },
   "west-chester-oktoberfest": {
    "first_seen": "2026-07-18",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-09-15",
    "title": "Oktoberfest in Downtown West Chester",
-   "venue": "Downtown West Chester, West Chester",
+   "venue": "Downtown West Chester",
    "date": "2026-10-03"
   },
   "west-chester-railroad-history-special": {
