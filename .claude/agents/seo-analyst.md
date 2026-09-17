@@ -91,6 +91,20 @@ First real reading, 28 days to 2026-09-07: 31 clicks, 2,998 impressions,
 CTR 1%, position 11.9, 288 indexed / 189 not indexed (108 of those 404).
 GA4 same window: 39 users, 61 sessions, 111 views; direct 31, organic 27.
 
+Reading of 2026-09-16 (a 9/12 read, 28 days to Sep 11, sits in the vault hub only: 36 clicks, 3,230 impressions, CTR 1.1%, position 12.0). Aug 19 to Sep 15, 2026: 32 clicks, 3,416 impressions, CTR
+0.9%, position 12.0 (previous 28 days: 40 clicks, 2,901 impressions, CTR
+1.4%, position 12.2). Last 7 days Sep 9 to 15: 9 clicks, 893 impressions,
+position 11.6 (prior 7: 9 / 1,140 / 10.3). Indexing report dated Sep 13
+(the first update since Sep 3): indexed 292 / not indexed 355, of which
+discovered-not-indexed 209 (was 53), 404 109, noindex 18, page with
+redirect 8 (new row; the cross-area 301s from the Sep 8 slug fix), crawled-
+not-indexed 8, 403 1, alternate canonical 1, duplicate 1. Search Console
+files 410 responses under "Not found (404)", so the Sep 8 catch-all will
+not show up as a separate row. "west chester homecoming 2026" drew 305
+impressions for 0 clicks. GA4: 66 sessions (direct 34, organic 27,
+unassigned 4, social 2, cross-network 1), 123 views, 41 active users;
+organic tracks Search Console clicks.
+
 ## Report format
 
 Lead with what changed versus the baseline and versus the previous period,
