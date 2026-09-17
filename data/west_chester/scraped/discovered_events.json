@@ -1,56 +1,5 @@
 [
   {
-    "id": "discovered_library_movie_night_letting_the_20260916",
-    "type": "event",
-    "title": "Library Movie Night: Letting the Klamath River Run Free",
-    "venue_info": {
-      "name": "Kennett Library, Kennett Square",
-      "location": {
-        "lat": 39.8467,
-        "lng": -75.705
-      }
-    },
-    "raw_date_string": "Sep 16, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Indoor"
-      ],
-      "price": "Free",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://stroudcenter.org/event/letting-the-klamath-run-free/"
-  },
-  {
-    "id": "discovered_guster_at_longwood_gardens_20260916",
-    "type": "event",
-    "title": "Guster at Longwood Gardens",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8703,
-        "lng": -75.6738
-      }
-    },
-    "raw_date_string": "Sep 16, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Outdoor"
-      ],
-      "price": "$64-$110",
-      "time": "7:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/guster"
-  },
-  {
     "id": "discovered_topdog_underdog_20260916",
     "type": "event",
     "title": "Topdog/Underdog",
@@ -198,6 +147,29 @@
       "image": ""
     },
     "action_link": "https://kennettflash.org/event/you-me-harry-celebrating-the-music-of-harry-chapin/kennett-flash/kennett-square-pennsylvania/"
+  },
+  {
+    "id": "discovered_plein_air_brintons_mill_20260917",
+    "type": "event",
+    "title": "Plein Air Afternoon at Brinton's Mill",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8697,
+        "lng": -75.5932
+      }
+    },
+    "raw_date_string": "Sep 17, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/plein-air-afternoon-brintons-mill"
   },
   {
     "id": "discovered_craft_mercantile_a_night_market_20260918",
@@ -480,6 +452,31 @@
       "image": ""
     },
     "action_link": "https://longwoodgardens.org/events-performances/events/garden-club-federation-pennsylvania-flower-show"
+  },
+  {
+    "id": "discovered_longwood_1906_evening_20260919",
+    "type": "event",
+    "title": "An Evening at Longwood, Featuring 1906",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8712,
+        "lng": -75.6753
+      }
+    },
+    "raw_date_string": "Sep 19, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Date Night"
+      ],
+      "price": "$255",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/evening-longwood-featuring-1906"
   },
   {
     "id": "discovered_digging_into_compost_science_20260920",
@@ -917,6 +914,29 @@
     "action_link": "https://kennettflash.org/event/kennett-flash-members-party-w-flint-hill/kennett-flash/kennett-square-pennsylvania/"
   },
   {
+    "id": "discovered_plein_air_kuerner_farm_20260927",
+    "type": "event",
+    "title": "Plein Air Day at Kuerner Farm",
+    "venue_info": {
+      "name": "Kuerner Farm, Chadds Ford",
+      "location": {
+        "lat": 39.866,
+        "lng": -75.601
+      }
+    },
+    "raw_date_string": "Sep 27, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/plein-air-day-kuerner-farm-7"
+  },
+  {
     "id": "discovered_children_s_read_aloud_program_20261001",
     "type": "event",
     "title": "Children's Read-Aloud Program",
@@ -1221,28 +1241,6 @@
     "action_link": "https://www.downingtownfallfest.com/"
   },
   {
-    "id": "discovered_the_star_prelims_week_1_20261004",
-    "type": "event",
-    "title": "THE STAR Prelims: Week 1",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9614,
-        "lng": -75.6063
-      }
-    },
-    "raw_date_string": "Oct 4, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/pf/thestarprelim1/"
-  },
-  {
     "id": "discovered_serpentine-barrens-willisbrook_20261005",
     "type": "event",
     "title": "Serpentine Barrens Tour with Willistown Township",
@@ -1520,6 +1518,32 @@
     "action_link": "https://kennettflash.org/event/the-dan-may-band-with-special-guest-hannah-linowski/kennett-flash/kennett-square-pennsylvania/"
   },
   {
+    "id": "discovered_kennett_brewfest_20261010",
+    "type": "event",
+    "title": "Kennett Brewfest",
+    "venue_info": {
+      "name": "Kennett Brewfest, Kennett Square",
+      "location": {
+        "lat": 39.8468,
+        "lng": -75.7116
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "21+",
+        "Outdoor"
+      ],
+      "price": "$65 general; $100 connoisseur",
+      "time": "1:30 PM - 5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.kennettbrewfest.com/"
+  },
+  {
     "id": "discovered_historic_yellow_springs_fall_festival_20261011",
     "type": "event",
     "title": "Historic Yellow Springs Fall Festival",
@@ -1543,28 +1567,6 @@
       "image": ""
     },
     "action_link": "https://yellowsprings.org/events/historic-yellow-springs-fall-festival/"
-  },
-  {
-    "id": "discovered_the_star_prelims_week_2_20261011",
-    "type": "event",
-    "title": "THE STAR Prelims: Week 2",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9614,
-        "lng": -75.6063
-      }
-    },
-    "raw_date_string": "Oct 11, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/pf/thestarprelim2/"
   },
   {
     "id": "discovered_bird-walk-cheslen_20261013",
@@ -1714,28 +1716,6 @@
       "image": ""
     },
     "action_link": "https://kennettflash.org/event/joseph-dawsons-alumni-jazz-band/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_motown_reimagined_20261015",
-    "type": "event",
-    "title": "Motown Reimagined",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9614,
-        "lng": -75.6063
-      }
-    },
-    "raw_date_string": "Oct 15, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/pf/motownreimagined/"
   },
   {
     "id": "discovered_sugartown-lantern-tours_20261016",
@@ -2044,28 +2024,6 @@
     "action_link": "https://kennettflash.org/event/trae-sheehan-with-clear-the-benches/kennett-flash/kennett-square-pennsylvania/"
   },
   {
-    "id": "discovered_the_star_prelims_week_3_20261018",
-    "type": "event",
-    "title": "THE STAR Prelims: Week 3",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9614,
-        "lng": -75.6063
-      }
-    },
-    "raw_date_string": "Oct 18, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/pf/thestarprelim3/"
-  },
-  {
     "id": "discovered_stewards-hike-sadsbury_20261020",
     "type": "event",
     "title": "Stewards of Sadsbury Woods Hike",
@@ -2243,28 +2201,6 @@
       "image": ""
     },
     "action_link": "https://kennettflash.org/event/2026-halloween-jam/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_the_star_finale_20261025",
-    "type": "event",
-    "title": "THE STAR Finale",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9614,
-        "lng": -75.6063
-      }
-    },
-    "raw_date_string": "Oct 25, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/pf/thestarfinale/"
   },
   {
     "id": "discovered_full-moon-bryncoed_20261026",
@@ -2716,28 +2652,6 @@
     "action_link": "https://yellowsprings.org/events/veterans-art-day/"
   },
   {
-    "id": "discovered_better_than_bacon_bacon_gives_20261114",
-    "type": "event",
-    "title": "Better Than Bacon: Bacon Gives Back",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9614,
-        "lng": -75.6063
-      }
-    },
-    "raw_date_string": "Nov 14, 2026",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/pf/bacongivesback/"
-  },
-  {
     "id": "discovered_the_legendary_kennett_flash_open_20261115",
     "type": "event",
     "title": "The Legendary Kennett Flash Open Mic Night",
@@ -2786,28 +2700,6 @@
       "image": ""
     },
     "action_link": "https://www.peopleslight.org/whats-on/20262027-season/cinderella-a-musical-panto/"
-  },
-  {
-    "id": "discovered_dueling_pianos_with_the_philly_20261118",
-    "type": "event",
-    "title": "Dueling Pianos with The Philly Keys (November)",
-    "venue_info": {
-      "name": "Uptown! Knauer Performing Arts Center, West Chester",
-      "location": {
-        "lat": 39.9614,
-        "lng": -75.6063
-      }
-    },
-    "raw_date_string": "Nov 18, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://uptownwestchester.org/pf/duelingpianosnovember"
   },
   {
     "id": "discovered_brandywine_holiday_critter_sale_20261119",
@@ -3244,77 +3136,5 @@
       "image": ""
     },
     "action_link": "https://kennettflash.org/event/the-2027-kennett-flash-jazz-jam/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_kennett_brewfest_20261010",
-    "type": "event",
-    "title": "Kennett Brewfest",
-    "venue_info": {
-      "name": "Kennett Brewfest, Kennett Square",
-      "location": {
-        "lat": 39.8468,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Oct 10, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "21+",
-        "Outdoor"
-      ],
-      "price": "$65 general; $100 connoisseur",
-      "time": "1:30 PM - 5:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.kennettbrewfest.com/"
-  },
-  {
-    "id": "discovered_plein_air_brintons_mill_20260917",
-    "type": "event",
-    "title": "Plein Air Afternoon at Brinton's Mill",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8697,
-        "lng": -75.5932
-      }
-    },
-    "raw_date_string": "Sep 17, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/plein-air-afternoon-brintons-mill"
-  },
-  {
-    "id": "discovered_plein_air_kuerner_farm_20260927",
-    "type": "event",
-    "title": "Plein Air Day at Kuerner Farm",
-    "venue_info": {
-      "name": "Kuerner Farm, Chadds Ford",
-      "location": {
-        "lat": 39.866,
-        "lng": -75.601
-      }
-    },
-    "raw_date_string": "Sep 27, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/plein-air-day-kuerner-farm-7"
   }
 ]
