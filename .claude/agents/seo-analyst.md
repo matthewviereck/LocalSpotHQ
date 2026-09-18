@@ -105,6 +105,29 @@ impressions for 0 clicks. GA4: 66 sessions (direct 34, organic 27,
 unassigned 4, social 2, cross-network 1), 123 views, 41 active users;
 organic tracks Search Console clicks.
 
+Reading of 2026-09-18, Aug 22 to Sep 18, 2026: 34 clicks, 3,310 impressions,
+CTR 1.0%, position 11.9 (previous 28 days: 42 clicks, 3,250 impressions,
+CTR 1.3%, position 12.0). Last 7 days Sep 12 to 18: 7 clicks, 713
+impressions, CTR 1.0%, position 10.8 (prior 7: 12 / 1,130 / 10.7). Top
+queries by clicks: "phoenixville blues festival 2026" 3, "west chester
+restaurant festival 2026" 2 (101 impressions), "west chester food festival
+2026" 2 (96), "west chester family weekend 2026" 1, "al laskey memorial car
+show" 1; "west chester homecoming 2026" 333 impressions for 0 clicks; 305
+queries in all. Top pages by clicks: the restaurant-and-food-truck festival
+page 5 (333 impressions), `/phoenixville/guides/fall-phoenixville/` 5 (104),
+blues festival 4, Al Laskey auto show 3, senior expo 2, Rocky Horror 2,
+`/west-chester/events/wcu-family-weekend/` 1 (336 impressions); 258 pages.
+Indexing report still dated Sep 13: indexed 292 / not indexed 355 (404 109,
+discovered-not-indexed 209, noindex 18, page with redirect 8, crawled-not-
+indexed 8, 403 1, alternate canonical 1, duplicate 1), unchanged. GA4: 69
+sessions (direct 35, organic 31, social 2, unassigned 1) vs 50 prior,
+engagement rate 67%, 131 views, 44 active users; top pages home 36,
+`/phoenixville/` 26, `/palettes.html` 9, fall-phoenixville guide 8. Last 7
+days: 14 sessions (organic 9, direct 5), 27 views. Dev pages
+`/palettes.html`, `/_rangetest/index.html` and `/blue.html` appear in the
+GA4 page list. Per-query and per-page detail for the 7-day window was not
+read this pass.
+
 ## Report format
 
 Lead with what changed versus the baseline and versus the previous period,
