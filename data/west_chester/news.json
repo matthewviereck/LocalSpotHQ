@@ -1,5 +1,23 @@
 [
   {
+    "title": "County inspectors flag a Market Street restaurant over food handling",
+    "category": "News",
+    "summary": "Chester County health inspectors cited Mercato Ristorante and Bar at 33 Market St. for storing raw chicken above ready-to-eat food, missing date labels, residue on pizza station handles and a handwashing sink blocked by equipment. It was one of eight county food facilities cited in the latest round of inspections.",
+    "date": "2026-09-16",
+    "loc": "33 Market St., West Chester",
+    "link": "https://www.mychesco.com/a/news/health-medical/inspectors-order-food-discarded-at-chester-county-sites",
+    "img": ""
+  },
+  {
+    "title": "Two brothers are the first through WCU's fast-track quantum degree",
+    "category": "News",
+    "summary": "Michael and Tyler Manfre became the inaugural pair to finish a 3+2 pathway that pairs a three-year physics bachelor's at West Chester University with a two-year master's in quantum science and engineering at the University of Delaware. Both have since started engineering jobs at Oxford Instruments and CACI International.",
+    "date": "2026-09-16",
+    "loc": "West Chester University, West Chester",
+    "link": "https://www.udel.edu/udaily/2026/september/quantum-science-michael-tyler-manfre",
+    "img": ""
+  },
+  {
     "title": "WCU opens its fall sustainability tours and talks to the public",
     "category": "News",
     "summary": "West Chester University's free fall lineup includes weekly Wednesday research seminars starting Sept. 23, a green-roof tour at The Commons on Sept. 22, later tours of North Campus, the Gordon Natural Area and the geothermal pumphouse, and an Oct. 22 community panel on plastics and health at 50 Sharpless St.",
@@ -18,21 +36,21 @@
     "img": ""
   },
   {
+    "title": "Chester County measles cases reach 65 as state deaths hit four",
+    "category": "News",
+    "summary": "Chester County added nine measles cases in a week to reach 65 confirmed, part of a statewide count of 693 that health officials call Pennsylvania's worst outbreak in more than three decades. The state confirmed two more deaths, bringing the year's toll to four.",
+    "date": "2026-09-15",
+    "loc": "Chester County",
+    "link": "https://patch.com/pennsylvania/westchester/pa-sees-3rd-measles-death-where-chester-county-cases-stand",
+    "img": ""
+  },
+  {
     "title": "West Chester moves to repeal its $1.2 million stream protection fee",
     "category": "Development",
     "summary": "Borough Council holds a public hearing Wednesday, Sept. 16 on repealing the Stream Protection Fee ordinance, which raised about $1.2 million a year before collection stopped April 30 following a state Supreme Court ruling that the charge functioned as a tax. How stormwater work gets paid for instead — property taxes, parking rates or reduced spending — will be settled in the 2027 budget.",
     "date": "2026-09-14",
     "loc": "West Chester Borough",
     "link": "https://www.mychesco.com/a/news/government/west-chester-moves-to-repeal-1-2-million-stormwater-fee/",
-    "img": ""
-  },
-  {
-    "title": "Chester County measles count climbs to 65 cases",
-    "category": "News",
-    "summary": "Nine new cases in the past week put the county third in Pennsylvania behind Lancaster and Mifflin in what state officials call the worst measles outbreak here in more than three decades. County health officials are asking residents to check their vaccination status, noting a blood test can confirm immunity when records are missing.",
-    "date": "2026-09-14",
-    "loc": "Chester County",
-    "link": "https://patch.com/pennsylvania/westchester/pa-sees-3rd-measles-death-where-chester-county-cases-stand",
     "img": ""
   },
   {
@@ -63,30 +81,12 @@
     "img": ""
   },
   {
-    "title": "Rustin grad's nicotine step-down device is now in 70 UK pharmacies",
-    "category": "News",
-    "summary": "Zachary Starr founded Quix Labs at 16 after watching classmates at West Chester Rustin High School struggle with nicotine; now 23 and a 2024 West Chester University graduate, he sells its Quixotic refillable inhaler in roughly 70 pharmacies across England. The nine-person company kept its headquarters in West Goshen and is aiming to submit for FDA review by 2028.",
-    "date": "2026-09-10",
-    "loc": "West Goshen",
-    "link": "https://vista.today/2026/09/zachary-starr-quix-labs-west-goshen/",
-    "img": ""
-  },
-  {
     "title": "14 West Chester students named National Merit semifinalists",
     "category": "News",
     "summary": "Henderson High School led the area with seven semifinalists, followed by four at Pennsylvania Leadership Charter School, two at Rustin and one at East. The students now move on to the finalist round, with scholarship winners chosen next spring.",
     "date": "2026-09-10",
     "loc": "West Chester",
     "link": "https://patch.com/pennsylvania/westchester/14-west-chester-students-chosen-national-merit-scholarship-semifinalists",
-    "img": ""
-  },
-  {
-    "title": "Spring freeze leaves Highland Orchards with a sliver of its apple crop",
-    "category": "News",
-    "summary": "After an April warm spell was followed by a hard freeze, Highland Orchards expects roughly 5 percent of a normal apple harvest, so pick-your-own will run shorter hours with far fewer varieties this fall. Hayrides, the corn maze and crops the freeze spared are still going ahead.",
-    "date": "2026-09-08",
-    "loc": "Highland Orchards, West Chester",
-    "link": "https://www.phillymag.com/restaurants/2026/09/08/apple-shortage/",
     "img": ""
   }
 ]
