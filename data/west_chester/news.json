@@ -1,11 +1,38 @@
 [
   {
-    "title": "County inspectors flag a Market Street restaurant over food handling",
+    "title": "QVC Group starts over in West Chester after shedding $5 billion in debt",
     "category": "News",
-    "summary": "Chester County health inspectors cited Mercato Ristorante and Bar at 33 Market St. for storing raw chicken above ready-to-eat food, missing date labels, residue on pizza station handles and a handwashing sink blocked by equipment. It was one of eight county food facilities cited in the latest round of inspections.",
-    "date": "2026-09-16",
-    "loc": "33 Market St., West Chester",
-    "link": "https://www.mychesco.com/a/news/health-medical/inspectors-order-food-discarded-at-chester-county-sites",
+    "summary": "The Wilson Drive shopping network left Chapter 11 on Aug. 6 with its long-term debt cut from $6.6 billion to $1.3 billion, a new $600 million lending facility and a Nasdaq listing under QVCG. Former chief Mike George has returned as board chairman and interim CEO while the company searches for a permanent leader.",
+    "date": "2026-09-19",
+    "loc": "1200 Wilson Drive, West Chester",
+    "link": "https://vista.today/2026/09/qvc-group-bankruptcy-comeback/",
+    "img": ""
+  },
+  {
+    "title": "Borough signs off on West Chester University's campus master plan",
+    "category": "Development",
+    "summary": "Council approved the university's 800-page master plan with conditions after more than a year of negotiation over student housing, parking and public-realm changes. The plan sets the framework borough officials will measure future campus projects against.",
+    "date": "2026-09-18",
+    "loc": "West Chester University, West Chester",
+    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-sept-18-2026",
+    "img": ""
+  },
+  {
+    "title": "Draft 2027 budget swaps the repealed stormwater fee for a tax increase",
+    "category": "News",
+    "summary": "Borough staff presented a 2027 budget Tuesday, Sept. 15 that raises property taxes to replace the roughly $1.2 million a year lost when the Stream Protection Fee was repealed. Borough Manager Sean Mettrick put the typical household's current tax-and-fee bill near $2,200, and the borough posted an online tool for comparing the old fee with the proposed tax.",
+    "date": "2026-09-18",
+    "loc": "West Chester Borough",
+    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-sept-18-2026",
+    "img": ""
+  },
+  {
+    "title": "45th Restaurant and Food Truck Festival fills downtown Sunday",
+    "category": "News",
+    "summary": "The free festival runs noon to 5:30 p.m. Sunday, Sept. 20 across downtown West Chester, with more than 50 food vendors and restaurants, 80-plus crafters, three stages of live music and a beer and wine garden on North Church Street. The rain date is Sunday, Sept. 27.",
+    "date": "2026-09-18",
+    "loc": "Gay Street, West Chester",
+    "link": "https://www.downtownwestchester.com/event/45th-annual-restaurant-festival-2026/",
     "img": ""
   },
   {
@@ -45,15 +72,6 @@
     "img": ""
   },
   {
-    "title": "West Chester moves to repeal its $1.2 million stream protection fee",
-    "category": "Development",
-    "summary": "Borough Council holds a public hearing Wednesday, Sept. 16 on repealing the Stream Protection Fee ordinance, which raised about $1.2 million a year before collection stopped April 30 following a state Supreme Court ruling that the charge functioned as a tax. How stormwater work gets paid for instead — property taxes, parking rates or reduced spending — will be settled in the 2027 budget.",
-    "date": "2026-09-14",
-    "loc": "West Chester Borough",
-    "link": "https://www.mychesco.com/a/news/government/west-chester-moves-to-repeal-1-2-million-stormwater-fee/",
-    "img": ""
-  },
-  {
     "title": "Netflix's 'Tires' co-creator still calls West Chester home",
     "category": "News",
     "summary": "Steve Gerben, who co-created and stars in the Netflix comedy Tires alongside Shane Gillis, films the show in an addition to his father's former tire shop on East Gay Street and golfs weekly on West Chester courses. The series was renewed for a fourth season after its Aug. 13 season-three premiere drew 2.4 million views in its first weekend.",
@@ -69,24 +87,6 @@
     "date": "2026-09-11",
     "loc": "West Chester Borough",
     "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-sept-11-2026",
-    "img": ""
-  },
-  {
-    "title": "Neighbors raise $88K to restore Everhart Park's 1908 gazebo",
-    "category": "News",
-    "summary": "The Friends of Everhart Park are funding a restoration of the park's rustic cedar-and-fieldstone gazebo over Black Horse Run entirely through private donations, with about $55,000 of the $88,000 goal raised. Work starts with hand-shaped red cedar guardrails and refurbished benches, followed by a new rot-resistant shingle roof on the National Register-listed structure.",
-    "date": "2026-09-11",
-    "loc": "Everhart Park, West Chester",
-    "link": "https://vista.today/2026/09/everhart-park-gazebo-restoration-west-chester/",
-    "img": ""
-  },
-  {
-    "title": "14 West Chester students named National Merit semifinalists",
-    "category": "News",
-    "summary": "Henderson High School led the area with seven semifinalists, followed by four at Pennsylvania Leadership Charter School, two at Rustin and one at East. The students now move on to the finalist round, with scholarship winners chosen next spring.",
-    "date": "2026-09-10",
-    "loc": "West Chester",
-    "link": "https://patch.com/pennsylvania/westchester/14-west-chester-students-chosen-national-merit-scholarship-semifinalists",
     "img": ""
   }
 ]
