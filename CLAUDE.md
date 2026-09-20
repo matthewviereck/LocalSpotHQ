@@ -145,9 +145,14 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   (webhook fails closed without it). `PROMOTE_DAYS` in the PHP must equal
   `days` in the config.
 - **The Thursday email** (`deploy/send_digest.php`, run by
-  `.github/workflows/thursday-digest.yml` over SSH): there is **no crontab on
-  this Hostinger account** and the hPanel cron never survived the 2026-07
-  cutover, so Actions is the clock. The sender reads the deployed site's
+  `.github/workflows/thursday-digest.yml` over SSH): `crontab -l` is empty
+  here, but an **hPanel cron does exist** (invisible to crontab, log in
+  `~/.logs/cronjob_*`): it runs the legacy `auto_update.php` daily at 5 AM in
+  digest-only mode and calls `sendWeeklyDigest()` on Fridays. It never
+  delivered because `mail()` is dead (below). Actions is the clock now; the
+  per-area ISO-week marker makes the Friday cron a no-op after Thursday's
+  send, so leave it alone or delete it in hPanel, but never re-enable a
+  second sender. The sender reads the deployed site's
   `eventsData`, routes subscribers by the `source` that `subscribe.php` stored
   (area name from the app, `event-page:<area-slug>` from event pages,
   `promote:<slug>` from the promote page; unmatched goes to Phoenixville), and
