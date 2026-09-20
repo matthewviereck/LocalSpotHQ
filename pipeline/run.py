@@ -26,6 +26,7 @@ from pipeline.pwa import emit_pwa_assets
 from pipeline.event_pages import generate_event_pages, generate_area_sitemap
 from pipeline.slugs import REGISTRY_FILE, SlugRegistry, assign_slugs, emit_retired
 from pipeline.guides import generate_guide_pages
+from pipeline.plans import generate_plan_pages
 from pipeline.community import emit_community
 
 
@@ -194,7 +195,8 @@ def run_area(area_id):
     print(f"\n--- Step 9: Event pages + guides + sitemap ---")
     event_slugs = generate_event_pages(formatted_output, output_dir, config)
     guide_slugs = generate_guide_pages(os.path.join(data_dir, 'guides.json'), output_dir, config)
-    generate_area_sitemap(output_dir, config, event_slugs, guide_slugs)
+    plan_slugs = generate_plan_pages(os.path.join(data_dir, static['plans']), output_dir, config)
+    generate_area_sitemap(output_dir, config, event_slugs, guide_slugs, plan_slugs)
 
     # Step 9a: Every slug that was ever published but isn't in this build
     # gets a 301, a stub or a 410 (output/<area>/.htaccess + stub pages).

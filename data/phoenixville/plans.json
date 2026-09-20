@@ -19,7 +19,7 @@
         "type": "dining",
         "duration": "90 minutes",
         "cost": "$$$",
-        "notes": "Make reservations ahead. BYOB-friendly if you want to bring a nice bottle of wine."
+        "notes": "Reserve ahead. BYOB, so bring a bottle you like. 248 Bridge St."
       },
       {
         "step": 2,
@@ -37,7 +37,7 @@
         "type": "dining",
         "duration": "45 minutes",
         "cost": "$$",
-        "notes": "Try the Phoenixville Old Fashioned \u2014 made with their own spirits. Walking distance from the theatre."
+        "notes": "Their own spirits behind the bar; walking distance from the theatre. 100 Bridge St."
       }
     ],
     "total_cost": "$100-150 per couple",
@@ -47,7 +47,8 @@
       "date",
       "romantic",
       "evening"
-    ]
+    ],
+    "updated": "2026-09-20"
   },
   {
     "id": "date_night_casual",
@@ -69,69 +70,28 @@
         "type": "dining",
         "duration": "90 minutes",
         "cost": "$$",
-        "notes": "Great beer selection and rooftop option"
+        "notes": "Good beer list and a rooftop beer garden in season. 212 Bridge St."
       },
       {
         "step": 2,
         "time": "8:00 PM",
-        "activity": "Arcade Games at FUN Dungeon",
+        "activity": "Arcade and billiards at FUN Dungeon",
         "type": "outing",
         "duration": "90 minutes",
         "cost": "$",
-        "notes": "Medieval-themed brewcade with 30+ games"
+        "notes": "Medieval-themed brewcade in the basement at 119 S Main St, a block off Bridge. Open Thursday through Sunday only."
       }
     ],
     "total_cost": "$50-80 per couple",
-    "tips": "Both locations on Bridge Street, easy walking. All-you-can-play arcade.",
+    "tips": "A short walk between the two. Check FUN Dungeon's early-closure dates before you go.",
     "img": "https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=600&q=80",
     "tags": [
       "date",
       "casual",
       "games",
       "beer"
-    ]
-  },
-  {
-    "id": "date_night_creative",
-    "title": "Wine & Paint Night",
-    "category": "Date Night",
-    "duration": "3-4 hours",
-    "budget": "$$",
-    "best_for": [
-      "Couples",
-      "Creative",
-      "Unique"
     ],
-    "description": "Creative evening with painting and Italian BYOB dinner",
-    "itinerary": [
-      {
-        "step": 1,
-        "time": "6:00 PM",
-        "activity": "Paint & Sip at The Spirited Artist",
-        "type": "outing",
-        "duration": "2 hours",
-        "cost": "$$",
-        "notes": "Book class in advance, BYOB wine allowed"
-      },
-      {
-        "step": 2,
-        "time": "8:30 PM",
-        "activity": "Late Dinner at Il Granaio (BYOB)",
-        "type": "dining",
-        "duration": "90 minutes",
-        "cost": "$$$",
-        "notes": "Authentic Italian, bring your own wine"
-      }
-    ],
-    "total_cost": "$70-100 per couple",
-    "tips": "Buy wine beforehand. Both accept reservations.",
-    "img": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=600&q=80",
-    "tags": [
-      "date",
-      "creative",
-      "wine",
-      "art"
-    ]
+    "updated": "2026-09-20"
   },
   {
     "id": "family_fun_day",
@@ -162,7 +122,7 @@
         "type": "outing",
         "duration": "90 minutes",
         "cost": "$",
-        "notes": "All-you-can-play, 18 holes"
+        "notes": "All-you-can-play, 18 holes. 360 Schuylkill Rd. Seasonal, so check hours."
       },
       {
         "step": 3,
@@ -171,7 +131,7 @@
         "type": "outing",
         "duration": "2 hours",
         "cost": "$$",
-        "notes": "15 minutes to Oaks, multiple activities"
+        "notes": "2200 West Dr in Oaks, about 10 minutes. Closed Tuesday and Wednesday."
       },
       {
         "step": 4,
@@ -180,18 +140,19 @@
         "type": "outing",
         "duration": "30 minutes",
         "cost": "$",
-        "notes": "Perfect ending, back in Phoenixville"
+        "notes": "Back in Phoenixville at 30 S Main St. Open spring through early October."
       }
     ],
     "total_cost": "$80-120 for family of 4",
-    "tips": "Wear comfortable shoes. Arnold's is 10 min drive to Oaks.",
+    "tips": "Wear comfortable shoes. Markie's and Brown's Cow are seasonal; Arnold's is closed Tuesday and Wednesday.",
     "img": "https://images.unsplash.com/photo-1519340333755-56e9c1d37a76?auto=format&fit=crop&w=600&q=80",
     "tags": [
       "family",
       "kids",
       "active",
       "fun"
-    ]
+    ],
+    "updated": "2026-09-20"
   },
   {
     "id": "family_nature_day",
@@ -218,31 +179,32 @@
       {
         "step": 2,
         "time": "12:30 PM",
-        "activity": "Lunch at Rivertown Tap",
+        "activity": "Lunch at Fitzwater Station",
         "type": "dining",
         "duration": "90 minutes",
         "cost": "$$",
-        "notes": "Waterfront seating, scenic views"
+        "notes": "Waterfront seating on the canal at 264 Canal St, Mont Clare."
       },
       {
         "step": 3,
         "time": "2:30 PM",
-        "activity": "Visit Schuylkill River Greenways Center",
+        "activity": "Walk the towpath from Lock 60",
         "type": "outing",
         "duration": "60 minutes",
         "cost": "Free",
-        "notes": "Educational exhibits about the area"
+        "notes": "Schuylkill Canal Park, 400 Towpath Rd, Mont Clare, a few minutes from lunch. Flat and stroller-friendly."
       }
     ],
     "total_cost": "$40-60 for family of 4",
-    "tips": "Pack sunscreen and bug spray. Great for learning about local ecology.",
+    "tips": "Pack sunscreen and bug spray. French Creek State Park is about 30 minutes west; the rest is back near town.",
     "img": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80",
     "tags": [
       "family",
       "nature",
       "hiking",
       "educational"
-    ]
+    ],
+    "updated": "2026-09-20"
   },
   {
     "id": "family_history_day",
@@ -264,7 +226,7 @@
         "type": "outing",
         "duration": "3 hours",
         "cost": "Free",
-        "notes": "Visitor center, historic buildings, trails"
+        "notes": "Visitor center opens 9:30. Free admission. Historic buildings and trails."
       },
       {
         "step": 2,
@@ -273,7 +235,7 @@
         "type": "dining",
         "duration": "90 minutes",
         "cost": "$$",
-        "notes": "Family-friendly pub, kid's menu"
+        "notes": "Family-friendly pub with a kids' menu. 197 Bridge St."
       },
       {
         "step": 3,
@@ -282,18 +244,19 @@
         "type": "outing",
         "duration": "90 minutes",
         "cost": "Free",
-        "notes": "Revolutionary War history placards"
+        "notes": "Interpretive signs on the Revolutionary War powder mill along the creek. Trailheads on Hares Hill Rd and Rapps Dam Rd in East Pikeland, a five-minute drive from Bridge St."
       }
     ],
     "total_cost": "$40-60 for family of 4",
-    "tips": "Great for school-age kids learning American history. Very walkable.",
+    "tips": "Good for school-age kids learning American history. Two short drives, easy walking in between.",
     "img": "https://images.unsplash.com/photo-1464207687429-7505649dae38?auto=format&fit=crop&w=600&q=80",
     "tags": [
       "family",
       "history",
       "educational",
       "outdoor"
-    ]
+    ],
+    "updated": "2026-09-20"
   },
   {
     "id": "weekend_first_friday",
@@ -315,7 +278,7 @@
         "type": "event",
         "duration": "90 minutes",
         "cost": "Free",
-        "notes": "First Friday of each month, live music & vendors"
+        "notes": "First Friday of the month, May through December, 5:30 to 8:30 PM. Live music, vendors, Bridge St closed to cars."
       },
       {
         "step": 2,
@@ -324,7 +287,7 @@
         "type": "dining",
         "duration": "90 minutes",
         "cost": "$$$",
-        "notes": "Craft cocktails & elevated food"
+        "notes": "Craft cocktails and a bottle shop. 101 Bridge St. Closed Mondays."
       },
       {
         "step": 3,
@@ -337,14 +300,15 @@
       }
     ],
     "total_cost": "$60-90 per couple",
-    "tips": "Arrive early for parking. Bridge Street closed to cars during event.",
+    "tips": "Arrive early for parking. Bridge Street is closed to cars during the event.",
     "img": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=600&q=80",
     "tags": [
       "weekend",
       "festival",
       "music",
       "food"
-    ]
+    ],
+    "updated": "2026-09-20"
   },
   {
     "id": "weekend_active_saturday",
@@ -357,16 +321,16 @@
       "Friends",
       "Couples"
     ],
-    "description": "Outdoor adventure with biking, lunch, and brewery",
+    "description": "Outdoor morning on the river trail, then lunch and a brewery",
     "itinerary": [
       {
         "step": 1,
         "time": "9:00 AM",
-        "activity": "Free Bike Rental at Bike Schuylkill",
+        "activity": "Ride or walk the Schuylkill River Trail from Lock 60",
         "type": "outing",
         "duration": "2.5 hours",
         "cost": "Free",
-        "notes": "Ride Schuylkill River Trail, return by noon"
+        "notes": "Start at Schuylkill Canal Park, 400 Towpath Rd, Mont Clare. Bring your own bike; the free Bridge St bike loaners are no longer there."
       },
       {
         "step": 2,
@@ -384,31 +348,23 @@
         "type": "dining",
         "duration": "90 minutes",
         "cost": "$$",
-        "notes": "Dog-friendly patio"
-      },
-      {
-        "step": 4,
-        "time": "Optional",
-        "activity": "Escape Room at SAGE!",
-        "type": "outing",
-        "duration": "60 minutes",
-        "cost": "$$",
-        "notes": "Book in advance"
+        "notes": "Dog-friendly beer garden. 368 Bridge St."
       }
     ],
     "total_cost": "$40-70 per person",
-    "tips": "Great for fit, active groups. Free bikes are first-come, first-served.",
+    "tips": "Good for active groups. Trail is flat and mostly shaded.",
     "img": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=600&q=80",
     "tags": [
       "weekend",
       "active",
       "biking",
       "beer"
-    ]
+    ],
+    "updated": "2026-09-20"
   },
   {
     "id": "weekend_chill_sunday",
-    "title": "Relaxed Sunday Funday",
+    "title": "Slow Saturday: Market, Brunch and Galleries",
     "category": "Weekend",
     "duration": "4-5 hours",
     "budget": "$-$$",
@@ -417,7 +373,7 @@
       "Friends",
       "Relaxed"
     ],
-    "description": "Chill morning at farmers market, brunch, and art galleries",
+    "description": "Easy Saturday morning at the farmers market, brunch, and a gallery browse",
     "itinerary": [
       {
         "step": 1,
@@ -426,7 +382,7 @@
         "type": "event",
         "duration": "90 minutes",
         "cost": "Free entry",
-        "notes": "Every Saturday, local produce & live music"
+        "notes": "Saturdays 9 to noon, April through November, at 200 Mill St under the Gay St bridge. Local produce and live music."
       },
       {
         "step": 2,
@@ -435,16 +391,16 @@
         "type": "dining",
         "duration": "90 minutes",
         "cost": "$$",
-        "notes": "Sunday brunch special"
+        "notes": "Weekend brunch. 212 Bridge St."
       },
       {
         "step": 3,
         "time": "1:00 PM",
-        "activity": "Gallery Walk - Diving Cat & Franklin Commons",
+        "activity": "Gallery browse at Diving Cat Studio",
         "type": "outing",
-        "duration": "90 minutes",
+        "duration": "60 minutes",
         "cost": "Free",
-        "notes": "Both galleries walking distance"
+        "notes": "246 Bridge St, with the Bridge St shops either side."
       },
       {
         "step": 4,
@@ -453,18 +409,20 @@
         "type": "dining",
         "duration": "30 minutes",
         "cost": "$",
-        "notes": "Local coffee roaster"
+        "notes": "Coffeehouse and brewery at 203 Bridge St."
       }
     ],
     "total_cost": "$30-50 per person",
-    "tips": "Perfect lazy Sunday. All locations walkable from downtown.",
+    "tips": "A lazy Saturday. Everything after the market is walkable on Bridge St.",
     "img": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=600&q=80",
     "tags": [
       "weekend",
       "relaxed",
       "brunch",
       "art"
-    ]
+    ],
+    "slug": "slow-saturday",
+    "updated": "2026-09-20"
   },
   {
     "id": "seasonal_summer_fun",
@@ -482,20 +440,20 @@
       {
         "step": 1,
         "time": "10:00 AM",
-        "activity": "Paddleboarding at Phoenixville SUP",
+        "activity": "Paddle with Port Providence Paddle",
         "type": "outing",
         "duration": "2 hours",
         "cost": "$$",
-        "notes": "Kayak or SUP rentals available"
+        "notes": "Canoe and kayak trips with a shuttle from Fitzwater Station in Port Providence. Book ahead."
       },
       {
         "step": 2,
         "time": "12:30 PM",
-        "activity": "Waterfront Lunch at Rivertown Tap",
+        "activity": "Waterfront lunch at Fitzwater Station",
         "type": "dining",
         "duration": "90 minutes",
         "cost": "$$",
-        "notes": "Outdoor seating by the canal"
+        "notes": "Outdoor seating on the canal. 264 Canal St, Mont Clare."
       },
       {
         "step": 3,
@@ -504,7 +462,7 @@
         "type": "outing",
         "duration": "60 minutes",
         "cost": "Free",
-        "notes": "Shaded trail along creek"
+        "notes": "Shaded creek trail in East Pikeland, trailheads on Hares Hill Rd and Rapps Dam Rd."
       },
       {
         "step": 4,
@@ -513,7 +471,7 @@
         "type": "outing",
         "duration": "30 minutes",
         "cost": "$",
-        "notes": "Perfect summer treat"
+        "notes": "30 S Main St. Open spring through early October."
       }
     ],
     "total_cost": "$50-75 per person",
@@ -524,7 +482,8 @@
       "water",
       "outdoor",
       "active"
-    ]
+    ],
+    "updated": "2026-09-20"
   },
   {
     "id": "seasonal_blobfest",
@@ -586,14 +545,15 @@
       }
     ],
     "total_cost": "$60-100 per person",
-    "tips": "Arrives early for parking. Weekend of July 10-12, 2026. Tickets sell fast!",
+    "tips": "Arrive early for parking. Next Blobfest is July 9 to 11, 2027. Tickets sell fast.",
     "img": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=600&q=80",
     "tags": [
       "summer",
       "festival",
       "unique",
       "film"
-    ]
+    ],
+    "updated": "2026-09-20"
   },
   {
     "id": "special_anniversary",
@@ -606,16 +566,16 @@
       "Celebration",
       "Upscale"
     ],
-    "description": "Elegant evening with fine dining, distillery tour, and dessert",
+    "description": "Elegant evening with craft cocktails, fine dining, and a nightcap",
     "itinerary": [
       {
         "step": 1,
         "time": "5:00 PM",
-        "activity": "Cocktails & Tour at Bluebird Distilling",
+        "activity": "Cocktails at Bluebird Distilling",
         "type": "outing",
         "duration": "60 minutes",
         "cost": "$$",
-        "notes": "Local craft spirits, tasting room"
+        "notes": "Cocktail bar and bottle shop pouring their own spirits. 100 Bridge St."
       },
       {
         "step": 2,
@@ -624,7 +584,7 @@
         "type": "dining",
         "duration": "2 hours",
         "cost": "$$$",
-        "notes": "Upscale, make reservations"
+        "notes": "Upscale, reserve ahead. 101 Bridge St. Closed Mondays."
       },
       {
         "step": 3,
@@ -653,7 +613,8 @@
       "anniversary",
       "upscale",
       "romantic"
-    ]
+    ],
+    "updated": "2026-09-20"
   },
   {
     "id": "girls_day_out",
@@ -666,7 +627,7 @@
       "Girls Day",
       "Shopping"
     ],
-    "description": "Shopping, lunch, wine, and pampering",
+    "description": "Shopping, a farm-to-table lunch, and a sweet finish",
     "itinerary": [
       {
         "step": 1,
@@ -689,28 +650,29 @@
       {
         "step": 3,
         "time": "3:00 PM",
-        "activity": "Paint & Sip at The Spirited Artist",
+        "activity": "Diving Cat Studio and Bridge Street Chocolates",
         "type": "outing",
-        "duration": "2 hours",
-        "cost": "$$",
-        "notes": "BYOB, book class ahead"
+        "duration": "60 minutes",
+        "cost": "$",
+        "notes": "Gallery at 246 Bridge St, chocolates at 175 Bridge St (closed Mondays)."
       }
     ],
     "total_cost": "$70-100 per person",
-    "tips": "Perfect for birthdays or just catching up. Bring wine to painting class.",
+    "tips": "Good for birthdays or just catching up. Harvest takes reservations.",
     "img": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
     "tags": [
       "friends",
       "shopping",
       "wine",
       "creative"
-    ]
+    ],
+    "updated": "2026-09-20"
   },
   {
     "id": "kids_indoor_adventure",
     "title": "Rainy Day Kids Adventure",
     "category": "Family",
-    "duration": "4-5 hours",
+    "duration": "3-4 hours",
     "budget": "$-$$",
     "best_for": [
       "Families",
@@ -718,47 +680,38 @@
       "Rainy Day",
       "Toddlers"
     ],
-    "description": "The ultimate indoor day for kids when the weather won't cooperate. Bounce, climb, play pretend, and refuel with pizza.",
+    "description": "The indoor day for kids when the weather won't cooperate. Play hard, refuel, and finish with ice cream.",
     "itinerary": [
       {
         "step": 1,
         "time": "10:00 AM",
         "activity": "Kids Empire Indoor Playground",
         "type": "outing",
-        "duration": "2 hours",
+        "duration": "2.5 hours",
         "cost": "$15-20/child",
-        "notes": "All-day pass \u2014 you can leave and come back. Grip socks required ($3 if you don't have them). Sign waivers online ahead of time."
+        "notes": "60 Town Center Dr, Collegeville. All-day pass, so you can leave and come back. Grip socks required. Sign waivers online ahead of time."
       },
       {
         "step": 2,
-        "time": "12:00 PM",
+        "time": "12:30 PM",
         "activity": "Lunch at Providence Town Center",
         "type": "dining",
         "duration": "45 minutes",
         "cost": "$$",
-        "notes": "Tons of kid-friendly options right next to Kids Empire \u2014 Chick-fil-A, Panera, or sit-down at Red Robin."
+        "notes": "Kid-friendly options right next door: Panera, Red Robin and more."
       },
       {
         "step": 3,
-        "time": "1:00 PM",
-        "activity": "BounceU Collegeville",
-        "type": "outing",
-        "duration": "90 minutes",
-        "cost": "$12-15/child",
-        "notes": "Check their schedule for open bounce times. Giant inflatables and obstacle courses \u2014 kids will be exhausted after this!"
-      },
-      {
-        "step": 4,
-        "time": "3:00 PM",
+        "time": "1:30 PM",
         "activity": "Ice Cream at Handel's",
         "type": "dining",
         "duration": "30 minutes",
         "cost": "$",
-        "notes": "Well-deserved treat after all that energy. Homemade ice cream with tons of flavors."
+        "notes": "627 Main St, Royersford, about 10 minutes away. Homemade, dozens of flavors."
       }
     ],
     "total_cost": "$50-70 for family of 4",
-    "tips": "Sign waivers online before you go to skip the line. Bring water bottles. Kids will sleep great tonight!",
+    "tips": "Sign waivers online before you go to skip the line. Bring water bottles.",
     "img": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=600&q=80",
     "tags": [
       "kids",
@@ -766,7 +719,8 @@
       "rainy day",
       "family",
       "active"
-    ]
+    ],
+    "updated": "2026-09-20"
   },
   {
     "id": "kids_outdoor_explorer",
@@ -789,7 +743,7 @@
         "type": "outing",
         "duration": "45 minutes",
         "cost": "Free",
-        "notes": "Let kids warm up on the playground. Splash pad is open in summer!"
+        "notes": "Tot lot, swings and open lawn at 401 Main St. Let the kids warm up."
       },
       {
         "step": 2,
@@ -798,7 +752,7 @@
         "type": "outing",
         "duration": "3 hours",
         "cost": "$$",
-        "notes": "Real treehouses, ziplines, tree climbing, bungee trampolines. Book tickets online \u2014 they sell out on weekends! 15 min drive from Phoenixville."
+        "notes": "Real treehouses, ziplines, tree climbing. 1442 Phoenixville Pike, West Chester, about 15 minutes. Weekends only; book tickets online, they sell out."
       },
       {
         "step": 3,
@@ -807,7 +761,7 @@
         "type": "dining",
         "duration": "60 minutes",
         "cost": "$$",
-        "notes": "Back in Phoenixville \u2014 family-friendly Irish pub with a great kids menu."
+        "notes": "Back in Phoenixville. Family-friendly Irish pub with a kids' menu. 197 Bridge St."
       },
       {
         "step": 4,
@@ -816,11 +770,11 @@
         "type": "dining",
         "duration": "20 minutes",
         "cost": "$",
-        "notes": "Let the kids pick out a few chocolates as a reward for their adventure day."
+        "notes": "175 Bridge St, closed Mondays. Let the kids pick a few as a reward."
       }
     ],
     "total_cost": "$80-120 for family of 4",
-    "tips": "Sunscreen and closed-toe shoes are a must for Treehouse World. Pack water. Weekday visits are less crowded.",
+    "tips": "Sunscreen and closed-toe shoes are a must for Treehouse World. Pack water. It runs weekends only, so this is a Saturday or Sunday plan.",
     "img": "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?auto=format&fit=crop&w=600&q=80",
     "tags": [
       "kids",
@@ -828,7 +782,8 @@
       "adventure",
       "family",
       "treehouses"
-    ]
+    ],
+    "updated": "2026-09-20"
   },
   {
     "id": "toddler_day_out",
@@ -850,16 +805,16 @@
         "type": "outing",
         "duration": "2 hours",
         "cost": "$15/child",
-        "notes": "Pretend-play town with a farm, vet office, fire station, and more. Sensory room available for overstimulated little ones. Book online \u2014 they close early if no one signs up."
+        "notes": "Pretend-play town with a farm, vet office and fire station. 305 2nd Ave, Collegeville. Closed Sundays. Book online; they close early if no one signs up."
       },
       {
         "step": 2,
         "time": "11:30 AM",
-        "activity": "Lunch at Chick-fil-A Collegeville",
+        "activity": "Lunch at Providence Town Center",
         "type": "dining",
         "duration": "45 minutes",
         "cost": "$",
-        "notes": "Indoor playground on-site, plus a familiar menu for picky eaters."
+        "notes": "Five minutes away. Panera and other quick, picky-eater-friendly options."
       },
       {
         "step": 3,
@@ -868,11 +823,11 @@
         "type": "outing",
         "duration": "45 minutes",
         "cost": "Free",
-        "notes": "Check their calendar for toddler storytime sessions. Great children's section to browse."
+        "notes": "183 Second Ave. Toddler Time is drop-in; check the library's calendar for the current day and time. Great children's section to browse."
       }
     ],
     "total_cost": "$25-40 for parent + toddler",
-    "tips": "Bring a change of clothes and snacks. The Barn Yard has a nursing room. Nap time will be easy after this!",
+    "tips": "Bring a change of clothes and snacks. The Barn Yard has a nursing room.",
     "img": "https://images.unsplash.com/photo-1566140967404-b8b3932483f5?auto=format&fit=crop&w=600&q=80",
     "tags": [
       "toddler",
@@ -880,6 +835,7 @@
       "gentle",
       "family",
       "indoor"
-    ]
+    ],
+    "updated": "2026-09-20"
   }
 ]

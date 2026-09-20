@@ -342,7 +342,7 @@ def generate_event_pages(events_file, output_dir, area_config):
     return pages
 
 
-def generate_area_sitemap(output_dir, area_config, event_slugs, guide_slugs=()):
+def generate_area_sitemap(output_dir, area_config, event_slugs, guide_slugs=(), plan_slugs=()):
     base_url = area_config['meta']['canonical_url'].rstrip('/')
     today = date.today().isoformat()
 
@@ -355,6 +355,7 @@ def generate_area_sitemap(output_dir, area_config, event_slugs, guide_slugs=()):
         url(f"{base_url}/this-weekend/", 'daily', '0.9'),
     ]
     entries.extend(url(f"{base_url}/guides/{slug}/", 'monthly', '0.8') for slug in guide_slugs)
+    entries.extend(url(f"{base_url}/plans/{slug}/", 'monthly', '0.7') for slug in plan_slugs)
     entries.extend(url(f"{base_url}/events/{slug}/", 'weekly', '0.6') for slug in event_slugs)
 
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'

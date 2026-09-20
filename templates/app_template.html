@@ -305,7 +305,7 @@
                 </section>
 
                 <section>
-                    <div class="section-head"><h2>Plans</h2></div>
+                    <div class="section-head"><h2>Plans</h2><a class="more" href="plans/">All plans</a></div>
                     <div class="grid2" id="do-plans"></div>
                 </section>
 
@@ -651,7 +651,7 @@
         }
         const p = $("#do-plans");
         if (p) p.innerHTML = plansData.length
-            ? plansData.slice(0, 8).map(x => tile(x.title, x.description, x.link || "#", x.category)).join("")
+            ? plansData.slice(0, 8).map(x => tile(x.title, x.description, "plans/" + x.slug + "/", x.category)).join("")
             : emptyState("No plans yet", "");
 
         const o = $("#do-outings");
