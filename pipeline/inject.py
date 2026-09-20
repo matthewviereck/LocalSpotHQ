@@ -152,8 +152,9 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
     guides = _load_json(guides_file, "guides") if guides_file and os.path.exists(guides_file) else []
     town = _load_json_obj(town_file, "town facts") if town_file and os.path.exists(town_file) else {}
     # The app only needs plan cards; the itinerary lives on /plans/<slug>/
-    from pipeline.plans import plan_slug
-    plans = [{'slug': plan_slug(p), **{k: p.get(k, '') for k in ('id', 'title', 'category', 'description', 'duration', 'budget')}}
+    from pipeline.plans import plan_slug, plan_description, plan_category
+    plans = [{'slug': plan_slug(p), 'title': p.get('title', ''), 'category': plan_category(p),
+              'description': plan_description(p), 'duration': p.get('duration', ''), 'budget': p.get('budget', '')}
              for p in plans]
     # The app only needs guide cards, not the full page bodies
     guides = [{k: g.get(k, '') for k in ('slug', 'title', 'category', 'description', 'img', 'updated')}

@@ -61,6 +61,25 @@ class PlanPages(unittest.TestCase):
         self.assertIn('href="date-night-test/"', index)
         self.assertIn('<h2>Date Night</h2>', index)
 
+    def test_west_chester_shape(self):
+        """West Chester's plans have no id/category/itinerary: title, desc,
+        tags and steps[{title, desc, link}]. They must still build."""
+        wc = {'title': "Girls' Day Out", 'desc': 'Shopping & wine', 'duration': 'Afternoon',
+              'tags': ['Night Out', 'West Chester', 'Shopping'], 'img': '',
+              'steps': [{'title': 'Shop Gay Street', 'desc': 'Boutiques', 'link': 'https://example.org/'},
+                        {'title': 'Dinner', 'desc': 'Pasta', 'link': ''}]}
+        with open(self.data, 'w', encoding='utf-8') as f:
+            json.dump([wc], f)
+        self.assertEqual(plans.plan_slug(wc), 'girls-day-out')
+        self.assertEqual(plans.plan_category(wc), 'Night Out')
+        slugs = plans.generate_plan_pages(self.data, self.tmp, AREA)
+        self.assertEqual(slugs, ['girls-day-out'])
+        page = open(os.path.join(self.tmp, 'plans', 'girls-day-out', 'index.html'), encoding='utf-8').read()
+        self.assertIn('<a href="https://example.org/" rel="noopener">Shop Gay Street</a>', page)
+        self.assertIn('<p class="what">Dinner</p>', page)
+        self.assertIn('Shopping &amp; wine', page)
+        self.assertNotIn('class="when"', page)                 # no times in this shape
+
     def test_empty_data_writes_nothing(self):
         with open(self.data, 'w', encoding='utf-8') as f:
             json.dump([], f)

@@ -7,6 +7,7 @@ its own page rather than a tile with nowhere to go."""
 import html
 import json
 import os
+import re
 import shutil
 from datetime import date
 from pipeline.analytics import GA_SNIPPET
@@ -19,10 +20,49 @@ def load_plans(plans_file):
         return json.load(f)
 
 
+def _slugify(text):
+    text = re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
+    return re.sub(r'-{2,}', '-', text)
+
+
 def plan_slug(plan):
-    """URL slug for a plan. The data uses snake_case ids; URLs use hyphens.
-    An explicit `slug` wins so a renamed plan can keep its URL."""
-    return plan.get('slug') or plan['id'].replace('_', '-')
+    """URL slug for a plan. An explicit `slug` wins so a renamed plan can
+    keep its URL; Phoenixville's snake_case ids become hyphens; the older
+    West Chester shape has no id, so the title is slugified."""
+    if plan.get('slug'):
+        return plan['slug']
+    if plan.get('id'):
+        return plan['id'].replace('_', '-')
+    return _slugify(plan['title'])
+
+
+def plan_description(plan):
+    return plan.get('description') or plan.get('desc', '')
+
+
+def plan_category(plan):
+    """Phoenixville plans carry a category; West Chester's carry tags, and
+    the first tag is the closest thing to one."""
+    if plan.get('category'):
+        return plan['category']
+    tags = [t for t in plan.get('tags', []) if t.lower() not in ('west chester', 'phoenixville')]
+    return tags[0] if tags else 'Plan'
+
+
+def plan_steps(plan):
+    """Normalise both step shapes to activity/notes/time/type/duration/cost/link."""
+    out = []
+    for s in plan.get('itinerary') or plan.get('steps') or []:
+        out.append({
+            'time': s.get('time', ''),
+            'activity': s.get('activity') or s.get('title', ''),
+            'notes': s.get('notes') or s.get('desc', ''),
+            'type': s.get('type', ''),
+            'duration': s.get('duration', ''),
+            'cost': s.get('cost', ''),
+            'link': (s.get('link') or '').strip(),
+        })
+    return out
 
 
 _STYLE = """
@@ -91,11 +131,13 @@ def _head(title, description, canonical, area_name, og_type, depth, extra_meta='
 def _step_html(step):
     when = html.escape(str(step.get('time', '')))
     what = html.escape(step.get('activity', ''))
+    if step.get('link', '').startswith('http'):
+        what = f'<a href="{html.escape(step["link"])}" rel="noopener">{what}</a>'
     bits = [step.get('type', ''), step.get('duration', ''), step.get('cost', '')]
     meta = ' &middot; '.join(html.escape(str(b)) for b in bits if b)
     notes = html.escape(step.get('notes', ''))
-    return (f'<li><span class="when">{when}</span>'
-            f'<p class="what">{what}</p>'
+    return ('<li>' + (f'<span class="when">{when}</span>' if when else '')
+            + f'<p class="what">{what}</p>'
             + (f'<p class="meta">{meta}</p>' if meta else '')
             + (f'<p class="notes">{notes}</p>' if notes else '')
             + '</li>')
@@ -107,7 +149,7 @@ def _plan_page(plan, area_config):
     slug = plan_slug(plan)
     canonical = f"{base_url}/plans/{slug}/"
     title = plan['title']
-    description = plan.get('description', '')
+    description = plan_description(plan)
     updated = plan.get('updated', date.today().isoformat())
     published = plan.get('published', updated)
     # Stock placeholder images are not shown on the page; og:image falls back
@@ -144,7 +186,7 @@ def _plan_page(plan, area_config):
         facts.append(f'<li><b>Best for</b>{html.escape(", ".join(plan["best_for"]))}</li>')
     facts_html = f'<ul class="facts">{"".join(facts)}</ul>' if facts else ''
 
-    steps_html = '\n'.join(_step_html(s) for s in plan.get('itinerary', []))
+    steps_html = '\n'.join(_step_html(s) for s in plan_steps(plan))
     tips = plan.get('tips', '')
     tips_html = f'<p class="tip">{html.escape(tips)}</p>' if tips else ''
 
@@ -158,7 +200,7 @@ def _plan_page(plan, area_config):
     return head + f"""<body>
 <p class="crumb"><a href="{base_url}/">LocalSpot {html.escape(area_name)}</a> &rsaquo; <a href="../">Plans</a></p>
 <h1>{html.escape(title)}</h1>
-<p class="sub">{html.escape(plan.get('category', 'Plan'))} &middot; updated {updated}</p>
+<p class="sub">{html.escape(plan_category(plan))} &middot; updated {updated}</p>
 <article>
 <p>{html.escape(description)}</p>
 {facts_html}
@@ -182,12 +224,12 @@ def _plans_index(plans, area_config):
 
     by_cat = {}
     for p in plans:
-        by_cat.setdefault(p.get('category', 'Plans'), []).append(p)
+        by_cat.setdefault(plan_category(p), []).append(p)
     groups = []
     for cat, items in by_cat.items():
         cards = '\n'.join(
             f"""<li><a href="{plan_slug(p)}/">{html.escape(p['title'])}</a>
-  <p class="sub">{html.escape(p.get('duration', ''))}{' &middot; ' if p.get('duration') and p.get('budget') else ''}{html.escape(p.get('budget', ''))} &middot; {html.escape(p.get('description', ''))}</p></li>"""
+  <p class="sub">{' &middot; '.join(html.escape(x) for x in (p.get('duration', ''), p.get('budget', ''), plan_description(p)) if x)}</p></li>"""
             for p in items)
         groups.append(f'<h2>{html.escape(cat)}</h2>\n<ul class="plans">\n{cards}\n</ul>')
 
