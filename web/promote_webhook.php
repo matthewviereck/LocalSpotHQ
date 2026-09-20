@@ -20,6 +20,7 @@ const OWNER_EMAIL = 'matthewviereck@gmail.com';
 const TOLERANCE_SECONDS = 300;
 
 header('Content-Type: application/json');
+require_once __DIR__ . '/mailer.php';
 
 $secretFile = dirname(__DIR__) . '/.stripe_webhook_secret';
 $logFile    = dirname(__DIR__) . '/promoted_log.json';
@@ -101,15 +102,15 @@ foreach ($log as $r) {
 }
 file_put_contents($publicFile, json_encode($active), LOCK_EX);
 
-@mail(
+localspot_mail(
     OWNER_EMAIL,
     "LocalSpot: event promoted in {$area}",
-    "Event: https://www.localspothq.com/{$area}/events/{$slug}/\n"
-        . "Pinned {$row['from']} to {$row['until']}\n"
-        . "Buyer: {$row['email']}\n"
-        . 'Amount: ' . (is_int($row['amount']) ? number_format($row['amount'] / 100, 2) : '?') . ' ' . strtoupper($row['currency']) . "\n"
-        . "Facebook post still to do (that part is by hand).\n",
-    'From: noreply@localspothq.com'
+    '<p>Event: <a href="https://www.localspothq.com/' . $area . '/events/' . $slug . '/">' . $slug . '</a></p>'
+        . '<p>Pinned ' . $row['from'] . ' to ' . $row['until'] . '</p>'
+        . '<p>Buyer: ' . htmlspecialchars($row['email']) . '</p>'
+        . '<p>Amount: ' . (is_int($row['amount']) ? number_format($row['amount'] / 100, 2) : '?') . ' ' . strtoupper($row['currency']) . '</p>'
+        . '<p>Facebook post still to do (that part is by hand).</p>',
+    'LocalSpot'
 );
 
 finish(200, 'recorded');

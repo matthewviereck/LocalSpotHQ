@@ -3,6 +3,7 @@
 // Deployed to the docroot root by deploy/auto_update.php (and the GitHub
 // Actions workflow), so the apps can POST to /subscribe.php from any area.
 header('Content-Type: application/json');
+require_once __DIR__ . '/mailer.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     echo json_encode(['success' => false, 'error' => 'POST required']);
@@ -47,12 +48,12 @@ if (file_put_contents($file, json_encode($subs, JSON_PRETTY_PRINT), LOCK_EX) ===
 // Heads-up to the owner on each signup (best effort - the signup itself
 // already succeeded, so a mail failure is silently ignored).
 $latest = end($subs);
-@mail(
+localspot_mail(
     'matthewviereck@gmail.com',
     'New LocalSpot subscriber (#' . count($subs) . ')',
-    "{$latest['email']} signed up from {$latest['source']} at {$latest['date']}.\n"
-        . 'Total subscribers: ' . count($subs),
-    'From: noreply@localspothq.com'
+    '<p>' . htmlspecialchars($latest['email']) . ' signed up from ' . htmlspecialchars($latest['source'])
+        . ' at ' . $latest['date'] . '.</p><p>Total subscribers: ' . count($subs) . '</p>',
+    'LocalSpot'
 );
 
 echo json_encode(['success' => true]);

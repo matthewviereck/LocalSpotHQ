@@ -154,6 +154,11 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   is idempotent per area per ISO week. Dispatch it by hand with `dry_run` to
   render previews into `~/domains/localspothq.com/logs/` without sending, or
   `test_to` to send one copy to yourself.
+- **PHP `mail()` on this Hostinger account delivers nothing** (2026-09-20: digest
+  copies and a control message from a real mailbox all accepted, none arrived,
+  `~/.logs/mail.log` is the only trace). All sending goes through
+  `web/mailer.php` (authenticated SMTP, credentials in `../.smtp.json`, a real
+  mailbox on the domain). Never add a bare `mail()` call.
 - **The signup form was lost in the 2026-08 redesign**, which is why the list
   was empty on 2026-09-20. It now lives on the Today tab and on every event
   page (`SIGNUP_HTML` in `event_pages.py`). Keep it there: event pages are
