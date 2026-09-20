@@ -3733,5 +3733,57 @@
       "image": ""
     },
     "action_link": "https://www.downtownwestchester.com/event/wcpl-holiday-home-tour-2026/"
+  },
+  {
+    "id": "discovered_fall_foliage_express_20261101",
+    "type": "event",
+    "title": "Fall Foliage Express",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.5967
+      }
+    },
+    "raw_date_string": "Nov 1, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "$25 - $30",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcrailroad.com/events/fall-foliage-express/"
+  },
+  {
+    "id": "discovered_fall_foliage_express_20261108",
+    "type": "event",
+    "title": "Fall Foliage Express",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.5967
+      }
+    },
+    "raw_date_string": "Nov 8, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "$25 - $30",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcrailroad.com/events/fall-foliage-express/"
   }
 ]
