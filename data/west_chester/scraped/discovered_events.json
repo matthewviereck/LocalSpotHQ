@@ -3387,5 +3387,351 @@
       "image": ""
     },
     "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2381974"
+  },
+  {
+    "id": "discovered_carlino_s_coffee_cupping_workshop_20260924",
+    "type": "event",
+    "title": "Carlino's Coffee Cupping Workshop",
+    "venue_info": {
+      "name": "Carlino's Market, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Sep 24, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Indoor"
+      ],
+      "price": "$45"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/carlinos-coffee-cupping-workshop/"
+  },
+  {
+    "id": "discovered_chester_county_latte_art_throwdown_20261003",
+    "type": "event",
+    "title": "Chester County Latte Art Throwdown",
+    "venue_info": {
+      "name": "Mayday Coffee Shop, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Free",
+        "Indoor"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/chester-county-latte-art-throwdown-2026/"
+  },
+  {
+    "id": "discovered_designer_bag_bingo_20261003",
+    "type": "event",
+    "title": "Designer Bag Bingo",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Indoor"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/designer-bag-bingo/"
+  },
+  {
+    "id": "discovered_pumpkin_lettering_workshop_at_pine_20261004",
+    "type": "event",
+    "title": "Pumpkin Lettering Workshop at Pine + Quill",
+    "venue_info": {
+      "name": "Pine + Quill, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 4, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor"
+      ],
+      "price": "$80"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/pumpkin-lettering-workshop/"
+  },
+  {
+    "id": "discovered_the_star_prelims_week_1_20261004",
+    "type": "event",
+    "title": "THE STAR Prelims: Week 1",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.604
+      }
+    },
+    "raw_date_string": "Oct 4, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Family Friendly"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/pf/thestarprelim1/"
+  },
+  {
+    "id": "discovered_the_star_prelims_week_2_20261011",
+    "type": "event",
+    "title": "THE STAR Prelims: Week 2",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.604
+      }
+    },
+    "raw_date_string": "Oct 11, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Family Friendly"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/pf/thestarprelim2/"
+  },
+  {
+    "id": "discovered_wcpl_halloween_door_tour_20261016",
+    "type": "event",
+    "title": "WCPL Halloween Door Tour",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 16 - 31, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/wcpl-halloween-door-tour-2026/"
+  },
+  {
+    "id": "discovered_paint_and_sip_at_pine_20261017",
+    "type": "event",
+    "title": "Paint and Sip at Pine + Quill",
+    "venue_info": {
+      "name": "Pine + Quill, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Date Night"
+      ],
+      "price": "$55"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/paint-and-sip-at-pine-quill/"
+  },
+  {
+    "id": "discovered_the_star_prelims_week_3_20261018",
+    "type": "event",
+    "title": "THE STAR Prelims: Week 3",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.604
+      }
+    },
+    "raw_date_string": "Oct 18, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Family Friendly"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/pf/thestarprelim3/"
+  },
+  {
+    "id": "discovered_the_star_finale_20261025",
+    "type": "event",
+    "title": "THE STAR Finale",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.604
+      }
+    },
+    "raw_date_string": "Oct 25, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Family Friendly"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/pf/thestarfinale/"
+  },
+  {
+    "id": "discovered_theatre_rock_live_20261030",
+    "type": "event",
+    "title": "Theatre Rock Live",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.604
+      }
+    },
+    "raw_date_string": "Oct 30, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://uptownwestchester.org/pf/theatrerocklive/"
+  },
+  {
+    "id": "discovered_hot_ones_wing_eating_contest_20261115",
+    "type": "event",
+    "title": "Hot Ones Wing Eating Contest",
+    "venue_info": {
+      "name": "Kildares Irish Pub, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 15, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Indoor"
+      ],
+      "price": "$45"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/hot-ones-wing-eating-contest-2026/"
+  },
+  {
+    "id": "discovered_uptown_studio_annual_holiday_cheer_20261204",
+    "type": "event",
+    "title": "Uptown Studio Annual Holiday Cheer Concert",
+    "venue_info": {
+      "name": "Uptown! Knauer Performing Arts Center, West Chester",
+      "location": {
+        "lat": 39.9639,
+        "lng": -75.604
+      }
+    },
+    "raw_date_string": "Dec 4 - 5, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Family Friendly"
+      ],
+      "price": "$20 - $28"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/uptown-studio-annual-holiday-cheer-concert-2026/2026-12-04/"
+  },
+  {
+    "id": "discovered_wcpl_holiday_home_tour_20261205",
+    "type": "event",
+    "title": "WCPL Holiday Home Tour",
+    "venue_info": {
+      "name": "West Chester Public Library, West Chester",
+      "location": {
+        "lat": 39.966,
+        "lng": -75.6073
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Indoor",
+        "Family Friendly"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/wcpl-holiday-home-tour-2026/"
   }
 ]
