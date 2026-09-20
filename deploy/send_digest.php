@@ -10,6 +10,9 @@
  * on 2026-09-20. build-deploy.yml copies this file to
  * ~/domains/localspothq.com/scripts/send_digest.php on every deploy.
  *
+ * Sends go through web/mailer.php (authenticated SMTP from a real mailbox);
+ * PHP mail() on this host accepts everything and delivers nothing.
+ *
  * Per area it:
  *   - reads the DEPLOYED site's eventsData (no scraping, no build)
  *   - takes the next 7 days, with promoted pins (/promoted.json) first
@@ -34,6 +37,9 @@ $SITE       = 'https://www.localspothq.com/';
 $PRICE      = '$19';
 $MAX_ROWS   = 18;
 $WINDOW_DAYS = 7;
+
+// The only sender that delivers on this host (see web/mailer.php).
+require_once $DOCROOT . '/mailer.php';
 
 // Subscribers are routed by the `source` subscribe.php stored: the app posts
 // the area name, event pages post "event-page:<area-slug>", the promote page
@@ -182,6 +188,9 @@ function sendDigest($areas, $opts) {
     $salt = digestSalt($SALT_FILE);
     $testOnly = $opts['to'] !== '';
     $dry = $opts['dry-run'];
+    if (!localspot_smtp_config()) {
+        digestLog('SMTP not configured (.smtp.json missing above the docroot): PHP mail() on this host delivers nothing, so sends will not arrive');
+    }
 
     foreach ($areas as $area) {
         $slug = $area['slug'];
@@ -221,10 +230,8 @@ function sendDigest($areas, $opts) {
             $token = md5(strtolower($email) . $salt);
             $unsub = $SITE . 'unsubscribe.php?e=' . urlencode($email) . '&t=' . $token;
             $body = str_replace('{{UNSUB}}', $unsub, $digest['body']);
-            $headers = "MIME-Version: 1.0\r\nContent-Type: text/html; charset=UTF-8\r\n"
-                . 'From: LocalSpot ' . $area['name'] . " <noreply@localspothq.com>\r\n"
-                . "List-Unsubscribe: <{$unsub}>";
-            if (@mail($email, $digest['subject'], $body, $headers)) $sent++;
+            if (localspot_mail($email, $digest['subject'], $body, 'LocalSpot ' . $area['name'],
+                               ['List-Unsubscribe' => "<{$unsub}>", 'List-Unsubscribe-Post' => 'List-Unsubscribe=One-Click'])) $sent++;
         }
         digestLog("{$slug}: sent {$sent}/" . count($recipients) . " ({$digest['count']} events, {$digest['pinned']} promoted)"
             . ($testOnly ? ' [test copy only]' : ''));

@@ -150,6 +150,8 @@ jobs:
 
           # The signup form POSTs to /subscribe.php at the site root
           rsync -tz -e "$RSH" web/subscribe.php "$DEPLOY_USER@$HOST:$DOCROOT/subscribe.php"
+          # The SMTP sender every script includes; credentials in ../.smtp.json
+          rsync -tz -e "$RSH" web/mailer.php "$DEPLOY_USER@$HOST:$DOCROOT/mailer.php"
 
           # "Promote this event": the Stripe webhook sits next to subscribe.php
           # (signing secret one level above the docroot) and rewrites the
