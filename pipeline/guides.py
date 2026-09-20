@@ -24,6 +24,25 @@ def _guide_page(guide, area_config):
     title = guide['title']
     description = guide.get('description', '')
     img = guide.get('img', area_config['meta'].get('og_image', ''))
+    # A relative img ("img/guides/x.jpg") is a self-hosted file shipped by
+    # postprocess.ship_images; og:image needs it absolute.
+    hero_src = img
+    if img and not img.startswith(('http://', 'https://')):
+        hero_src = f"../../{img.lstrip('/')}"      # page lives at /guides/<slug>/
+        img = f"{base_url}/{img.lstrip('/')}"
+    credit = guide.get('img_credit') or {}
+    credit_html = ''
+    if img and credit.get('author'):
+        author = html.escape(credit['author'])
+        if credit.get('author_url'):
+            author = f'<a href="{html.escape(credit["author_url"])}" rel="noopener">{author}</a>'
+        lic = html.escape(credit.get('license', ''))
+        if lic and credit.get('license_url'):
+            lic = f'<a href="{html.escape(credit["license_url"])}" rel="noopener">{lic}</a>'
+        src = ''
+        if credit.get('source_url'):
+            src = f', via <a href="{html.escape(credit["source_url"])}" rel="noopener">Wikimedia Commons</a>'
+        credit_html = f'<p class="credit">Photo: {author}{", " + lic if lic else ""}{src}</p>'
     updated = guide.get('updated', date.today().isoformat())
     published = guide.get('published', updated)
     # <title> is what the SERP shows and is capped at ~60 chars; the H1 and
@@ -87,6 +106,8 @@ body{{max-width:680px;margin:0 auto;padding:24px 16px}}
 .crumb a{{color:var(--ink-faint);text-decoration:none}}
 .sub{{color:var(--ink-soft);margin-top:2px;font-size:15px}}
 img.hero{{border-radius:var(--radius-lg);margin:16px 0}}
+.credit{{font-family:var(--body);font-size:12px;color:var(--ink-faint);margin:-6px 0 1.4em}}
+.credit a{{color:inherit}}
 h1{{font-size:clamp(26px,5vw,36px)}}
 main,article{{font-family:var(--article);font-size:18px;line-height:1.65}}
 article h2{{font-family:var(--display);font-size:22px;margin:1.7em 0 .5em}}
@@ -104,7 +125,8 @@ color:var(--ink-faint);font-size:13px}}
 <p class="crumb"><a href="{base_url}/">LocalSpot {html.escape(area_name)}</a> &rsaquo; Guides</p>
 <h1>{html.escape(title)}</h1>
 <p class="sub">{html.escape(guide.get('category', 'Local Guide'))} &middot; updated {updated}</p>
-{f'<img class="hero" src="{html.escape(img)}" alt="{html.escape(title)}" referrerpolicy="no-referrer">' if img else ''}
+{f'<img class="hero" src="{html.escape(hero_src)}" alt="{html.escape(title)}" referrerpolicy="no-referrer">' if img else ''}
+{credit_html}
 {sections_html}
 <footer>LocalSpot HQ &middot; <a href="{base_url}/">Everything happening in {html.escape(area_name)} &rarr;</a></footer>
 </body>

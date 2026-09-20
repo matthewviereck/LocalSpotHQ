@@ -6,6 +6,7 @@ TAILWIND_CDN_TAG = '<script src="https://cdn.tailwindcss.com"></script>'
 _ASSETS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'assets')
 PREBUILT_CSS = os.path.join(_ASSETS, 'app.css')
 DESIGN_CSS = os.path.join(_ASSETS, 'localspot.css')
+IMAGES_DIR = os.path.join(_ASSETS, 'img')
 
 
 def swap_tailwind_cdn(html, output_dir):
@@ -38,6 +39,22 @@ def ship_design_css(output_dir):
         return False
     shutil.copy(DESIGN_CSS, os.path.join(output_dir, 'localspot.css'))
     print("   Shipped localspot.css")
+    return True
+
+
+def ship_images(output_dir):
+    """Copy assets/img/ into the build as <output_dir>/img/.
+
+    Guide heroes are self-hosted (Wikimedia Commons photos, credited on the
+    page) rather than hotlinked, so they have to ride along with the CSS.
+    The deploy rsyncs output/<area>/ with --delete, so anything not copied
+    here is removed from the server.
+    """
+    if not os.path.isdir(IMAGES_DIR):
+        return False
+    dest = os.path.join(output_dir, 'img')
+    shutil.copytree(IMAGES_DIR, dest, dirs_exist_ok=True)
+    print("   Shipped assets/img")
     return True
 
 
@@ -110,6 +127,7 @@ def remove_landing_page(input_file, output_file):
     #    for the legacy PHP builder).
     print(">> Shipping design CSS...")
     ship_design_css(os.path.dirname(output_file) or '.')
+    ship_images(os.path.dirname(output_file) or '.')
     if TAILWIND_CDN_TAG in html:
         html = swap_tailwind_cdn(html, os.path.dirname(output_file) or '.')
 
