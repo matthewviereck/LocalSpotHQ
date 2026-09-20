@@ -1,0 +1,7 @@
+{
+  "_comment": "The 'Promote this event' offer. payment_link is the Stripe Payment Link URL; while it is empty the promote page shows the offer and collects interest through /subscribe.php (source 'promote:<slug>') instead of a pay button. The webhook web/promote_webhook.php needs .stripe_webhook_secret one level above the docroot and keeps PROMOTE_DAYS in step with 'days' here. contact_email is shown on the promote page when set.",
+  "price_label": "$19",
+  "days": 7,
+  "payment_link": "",
+  "contact_email": ""
+}

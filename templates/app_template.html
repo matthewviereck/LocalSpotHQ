@@ -244,6 +244,15 @@
                     <div id="today-upcoming"></div>
                 </section>
 
+                <section id="today-signup">
+                    <div class="card card-pad">
+                        <p class="eyebrow">The Thursday email</p>
+                        <p class="meta" style="margin:6px 0 10px;">What's on in {{AREA_NAME}} this week, every Thursday morning. One click to leave.</p>
+                        <form class="signup" id="signup-form"><input type="email" id="signup-email" placeholder="you@example.com" required autocomplete="email" aria-label="Email address"><button type="submit" class="btn btn-primary">Sign up</button></form>
+                        <p class="meta" id="signup-done" hidden>You're on the list. First email arrives Thursday.</p>
+                    </div>
+                </section>
+
                 <section>
                     <div class="section-head"><h2>Good to know</h2></div>
                     <dl class="facts" id="today-facts"></dl>
@@ -345,6 +354,7 @@
             <a href="events.ics">Calendar feed</a>
             <a href="community.php">Community</a>
             <a href="../submit.html">Submit an event</a>
+            <a href="promote/">Promote an event</a>
         </div>
         <div class="footlinks">
             {{AREA_LINKS}}
@@ -420,7 +430,7 @@
              + '<span class="row-time">' + (opts.showDate ? esc(e.date || "") : timeLabel(e)) + '</span>'
              + '<span class="row-body">'
              +   '<span class="row-title">' + esc(e.title) + '</span>'
-             +   '<span class="row-meta">' + placeLabel(e) + '</span>'
+             +   '<span class="row-meta">' + (e.promoted ? '<span class="chip chip-promo">Promoted</span> ' : '') + placeLabel(e) + '</span>'
              + '</span></a>';
     }
 
@@ -441,9 +451,9 @@
         // A run that opened on an earlier day (an exhibition, a play's
         // six-week season) is filed under today for as long as it is open, but
         // it would head this block every day of the run; it stays in Events.
-        const today    = eventsData.filter(e => e.date_category === "today" && !e.ongoing);
-        const tomorrow = eventsData.filter(e => e.date_category === "tomorrow");
-        const week     = eventsData.filter(e => e.date_category === "this_week");
+        const today    = promotedFirst(eventsData.filter(e => e.date_category === "today" && !e.ongoing));
+        const tomorrow = promotedFirst(eventsData.filter(e => e.date_category === "tomorrow"));
+        const week     = promotedFirst(eventsData.filter(e => e.date_category === "this_week"));
 
         // The eyebrow carries the state. There is deliberately no "N things on"
         // count line: the events are listed immediately below, so a count is
@@ -483,8 +493,8 @@
         }
 
         // coming up (next 5 dated events beyond today)
-        const upcoming = eventsData
-            .filter(e => dated(e) && e.date_category !== "today")
+        const upcoming = promotedFirst(eventsData
+            .filter(e => dated(e) && e.date_category !== "today"))
             .slice(0, 5);
         const tu = $("#today-upcoming");
         if (tu) {
@@ -585,6 +595,12 @@
     function renderEvents() {
         renderEventFilters();
         const list = filteredEvents();
+        // A paid pin sits above the day groups for as long as it is live,
+        // whatever the date filter says; it also keeps its place in its day.
+        const promotedBlock = list.some(e => e.promoted)
+            ? '<div class="daygroup"><h3>Promoted</h3><div class="card card-pad">'
+              + list.filter(e => e.promoted).map(e => eventRow(e, { showDate: true })).join("") + "</div></div>"
+            : "";
         const c = $("#events-count");
         if (c) c.textContent = list.length + (list.length === 1 ? " event" : " events")
             + (dateFilter === "all" && townFilter === "all" && !query ? " scheduled" : " matching");
@@ -603,7 +619,7 @@
             if (!seen[key]) { seen[key] = []; groups.push([key, seen[key]]); }
             seen[key].push(e);
         });
-        el.innerHTML = groups.map(([label, evs]) =>
+        el.innerHTML = promotedBlock + groups.map(([label, evs]) =>
             '<div class="daygroup"><h3>' + esc(label) + "</h3>"
             + '<div class="card card-pad">' + evs.map(e => eventRow(e)).join("") + "</div></div>"
         ).join("");
@@ -785,12 +801,67 @@
             .catch(() => { /* decoration only */ });
     }
 
+    /* ---------- PROMOTED PINS + SIGNUP ---------- */
+    // /promoted.json is rewritten by promote_webhook.php the moment a Stripe
+    // payment lands: rows are {area, slug, from, until}. It is only rewritten
+    // on the NEXT purchase, so expiry is checked here, not trusted from the file.
+    const AREA_SLUG = location.pathname.split("/")[1] || "";
+    function loadPromoted() {
+        return fetch("/promoted.json", { cache: "no-store" })
+            .then(r => r.ok ? r.json() : [])
+            .then(rows => {
+                const d = new Date();
+                const iso = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0")
+                          + "-" + String(d.getDate()).padStart(2, "0");
+                const live = {};
+                (rows || []).forEach(p => {
+                    if (p.area === AREA_SLUG && (!p.until || p.until >= iso) && (!p.from || p.from <= iso)) live[p.slug] = true;
+                });
+                let n = 0;
+                eventsData.forEach(e => { if (e.slug && live[e.slug]) { e.promoted = true; n++; } });
+                return n;
+            })
+            .catch(() => 0);
+    }
+    // Stable sort: pins first, everything else keeps the pipeline's order.
+    const promotedFirst = xs => xs.slice().sort((a, b) => (b.promoted ? 1 : 0) - (a.promoted ? 1 : 0));
+
+    function bindSignup() {
+        const form = $("#signup-form");
+        if (!form) return;
+        form.addEventListener("submit", function (ev) {
+            ev.preventDefault();
+            const input = $("#signup-email"), btn = form.querySelector("button"), done = $("#signup-done");
+            const email = (input.value || "").trim();
+            if (!email) return;
+            btn.disabled = true;
+            fetch("/subscribe.php", { method: "POST", headers: { "Content-Type": "application/json" },
+                   body: JSON.stringify({ email: email, source: AREA }) })
+                .then(r => r.json())
+                .then(out => {
+                    if (!out.success) throw new Error(out.error || "failed");
+                    form.hidden = true; done.hidden = false;
+                })
+                .catch(() => {
+                    btn.disabled = false;
+                    done.textContent = "Couldn't sign you up just now. Try again in a minute.";
+                    done.hidden = false;
+                });
+        });
+    }
+
     /* ---------- ENTRY POINT ---------- */
     // postprocess.py injects a DOMContentLoaded handler that calls renderContent().
     window.renderContent = function renderContent() {
         renderToday();
         openFromHash();
         loadWeather();
+        bindSignup();
+        loadPromoted().then(n => {
+            if (!n) return;
+            renderToday();
+            if ($("#events-list") && $("#events-list").innerHTML) renderEvents();
+        });
     };
 
     document.addEventListener("click", function (ev) {

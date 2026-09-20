@@ -450,3 +450,19 @@ h3 { font-size: 17px; letter-spacing: -.01em; }
     transition-duration: .001ms !important;
   }
 }
+
+/* ---------- promoted pins + email signup ---------- */
+.chip-promo { background: var(--now-wash); color: var(--now); }
+.signup { display: flex; gap: 8px; }
+.signup input {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--body);
+  font-size: 16px; /* 16px prevents iOS zoom-on-focus */
+  padding: 9px 12px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink);
+}
+.signup-card { margin-top: 24px; }
