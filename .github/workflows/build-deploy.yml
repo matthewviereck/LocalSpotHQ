@@ -73,6 +73,9 @@ jobs:
           test -s output/phoenixville/events.ics
           test -s output/west_chester/index.html
           test -s output/index.html
+          test -s output/localspot.css
+          python -m unittest tests.test_hub
+          grep -q 'id="signup-form"' output/index.html
           test -s output/sitemap.xml
           test -s output/robots.txt
           test -s output/favicon.ico
@@ -170,6 +173,8 @@ jobs:
           # sitemap. Individual files, no --delete: everything else at the
           # docroot (images, .htaccess, submit.html) is managed by hand.
           rsync -tz -e "$RSH" output/index.html "$DEPLOY_USER@$HOST:$DOCROOT/index.html"
+          # The root page links /localspot.css (each area only ships its own copy)
+          rsync -tz -e "$RSH" output/localspot.css "$DEPLOY_USER@$HOST:$DOCROOT/localspot.css"
           rsync -tz -e "$RSH" output/sitemap.xml "$DEPLOY_USER@$HOST:$DOCROOT/sitemap.xml"
           rsync -tz -e "$RSH" output/robots.txt "$DEPLOY_USER@$HOST:$DOCROOT/robots.txt"
 
