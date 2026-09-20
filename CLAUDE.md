@@ -129,6 +129,36 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   or hand-edit it**, and never compute a slug from a title anywhere else
   (the app reads `e.slug`).
 
+## Promote button and the Thursday email (gate 1 of the network plan)
+
+- **Promote this event** (`pipeline/promote.py`, `config/promote.json`,
+  `web/promote_webhook.php`): every event page links to
+  `/<area>/promote/?event=<slug>`; that page sends the buyer to the Stripe
+  Payment Link with `client_reference_id=<area-slug>__<event-slug>`; Stripe
+  calls `/promote_webhook.php`, which appends to `../promoted_log.json`
+  (private) and rewrites `/promoted.json` (public: active pins). The app and
+  the digest read `/promoted.json` at run time and filter by date themselves,
+  because the file is only rewritten on the next purchase. **The build never
+  knows who paid**, so a pin is live in seconds, not at 6:15 AM. While
+  `payment_link` is empty the page ships with an interest form instead.
+  Server-side needs, both one level above the docroot: `.stripe_webhook_secret`
+  (webhook fails closed without it). `PROMOTE_DAYS` in the PHP must equal
+  `days` in the config.
+- **The Thursday email** (`deploy/send_digest.php`, run by
+  `.github/workflows/thursday-digest.yml` over SSH): there is **no crontab on
+  this Hostinger account** and the hPanel cron never survived the 2026-07
+  cutover, so Actions is the clock. The sender reads the deployed site's
+  `eventsData`, routes subscribers by the `source` that `subscribe.php` stored
+  (area name from the app, `event-page:<area-slug>` from event pages,
+  `promote:<slug>` from the promote page; unmatched goes to Phoenixville), and
+  is idempotent per area per ISO week. Dispatch it by hand with `dry_run` to
+  render previews into `~/domains/localspothq.com/logs/` without sending, or
+  `test_to` to send one copy to yourself.
+- **The signup form was lost in the 2026-08 redesign**, which is why the list
+  was empty on 2026-09-20. It now lives on the Today tab and on every event
+  page (`SIGNUP_HTML` in `event_pages.py`). Keep it there: event pages are
+  where organic search lands.
+
 ## Vault: log meaningful work without being asked
 
 This repo's hub note is:

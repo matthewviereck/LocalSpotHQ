@@ -1,0 +1,82 @@
+# The Thursday email: "This week in <Area>", one per area, to the subscribers
+# routed to it. The sender (deploy/send_digest.php) has to run ON the server
+# because subscribers.json never leaves Hostinger, but this account has no
+# crontab and the old hPanel cron died at the 2026-07 cutover, so Actions is
+# the clock: SSH in, copy the current sender, run it. Idempotent per area per
+# ISO week, so a manual re-run on the same Thursday sends nothing twice.
+#
+# Same secrets as build-deploy.yml: HOSTINGER_SSH_KEY, HOSTINGER_HOST,
+# HOSTINGER_USER, HOSTINGER_PORT.
+
+name: Thursday email
+
+on:
+  schedule:
+    - cron: '0 11 * * 4' # Thursdays 11:00 UTC = 7:00 AM EDT / 6:00 AM EST
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Render the emails to logs/ on the server, send nothing'
+        type: boolean
+        default: false
+      test_to:
+        description: 'Send one real copy per area to this address only (leave blank for the real send)'
+        type: string
+        default: ''
+      area:
+        description: 'Only this area slug (phoenixville, west-chester); blank = all'
+        type: string
+        default: ''
+
+concurrency:
+  group: thursday-digest
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Send the digest over SSH
+        env:
+          SSH_KEY: ${{ secrets.HOSTINGER_SSH_KEY }}
+          HOST: ${{ secrets.HOSTINGER_HOST }}
+          DEPLOY_USER: ${{ secrets.HOSTINGER_USER }}
+          PORT: ${{ secrets.HOSTINGER_PORT }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          TEST_TO: ${{ inputs.test_to }}
+          ONLY_AREA: ${{ inputs.area }}
+        run: |
+          if [ -z "$SSH_KEY" ]; then
+            echo 'HOSTINGER_* secrets not set - nothing sent.' | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          for attempt in 1 2 3; do
+            if ssh-keyscan -p "$PORT" "$HOST" > ~/.ssh/known_hosts 2>/dev/null && [ -s ~/.ssh/known_hosts ]; then
+              break
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "::error::ssh-keyscan failed after 3 attempts - digest not sent"
+              exit 1
+            fi
+            sleep "$((attempt * 5))"
+          done
+          RSH="ssh -p $PORT -i $HOME/.ssh/deploy_key"
+          SCRIPTS=domains/localspothq.com/scripts
+
+          # Always ship the sender that is in this checkout, so a fix to the
+          # email never waits for the next site build.
+          $RSH "$DEPLOY_USER@$HOST" "mkdir -p ~/$SCRIPTS ~/domains/localspothq.com/logs"
+          rsync -tz -e "$RSH" deploy/send_digest.php "$DEPLOY_USER@$HOST:$SCRIPTS/send_digest.php"
+
+          FLAGS=""
+          if [ "$DRY_RUN" = "true" ]; then FLAGS="$FLAGS --dry-run"; fi
+          if [ -n "$TEST_TO" ]; then FLAGS="$FLAGS --to=$TEST_TO"; fi
+          if [ -n "$ONLY_AREA" ]; then FLAGS="$FLAGS --area=$ONLY_AREA"; fi
+
+          echo "### Thursday email" >> "$GITHUB_STEP_SUMMARY"
+          $RSH "$DEPLOY_USER@$HOST" "php ~/$SCRIPTS/send_digest.php $FLAGS" | tee -a "$GITHUB_STEP_SUMMARY"

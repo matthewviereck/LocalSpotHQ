@@ -214,6 +214,11 @@ def run_area(area_id):
     from pipeline.social_card import generate_weekend_card
     generate_weekend_card(formatted_output, output_dir, config)
 
+    # The paid "Promote this event" page; the pin itself is served from
+    # /promoted.json at run time (see pipeline/promote.py), never built.
+    from pipeline.promote import generate_promote_page
+    generate_promote_page(formatted_output, output_dir, config)
+
     print(f"\n{'='*60}")
     print(f"DONE! Output: {final_output}")
     print(f"{'='*60}")

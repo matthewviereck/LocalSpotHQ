@@ -67,6 +67,9 @@ jobs:
         run: |
           test -s output/phoenixville/index.html
           test -s output/phoenixville/this-weekend/index.html
+          test -s output/phoenixville/promote/index.html
+          test -s output/west_chester/promote/index.html
+          python -m unittest tests.test_promote
           test -s output/phoenixville/events.ics
           test -s output/west_chester/index.html
           test -s output/index.html
@@ -147,6 +150,18 @@ jobs:
 
           # The signup form POSTs to /subscribe.php at the site root
           rsync -tz -e "$RSH" web/subscribe.php "$DEPLOY_USER@$HOST:$DOCROOT/subscribe.php"
+
+          # "Promote this event": the Stripe webhook sits next to subscribe.php
+          # (signing secret one level above the docroot) and rewrites the
+          # public /promoted.json, which the build never touches. Seed it
+          # empty once so the app's fetch never 404s.
+          rsync -tz -e "$RSH" web/promote_webhook.php "$DEPLOY_USER@$HOST:$DOCROOT/promote_webhook.php"
+          $RSH "$DEPLOY_USER@$HOST" "test -f ~/$DOCROOT/promoted.json || echo '[]' > ~/$DOCROOT/promoted.json"
+
+          # The Thursday email sender lives outside the docroot and is run over
+          # SSH by thursday-digest.yml (there is no crontab on this account).
+          $RSH "$DEPLOY_USER@$HOST" "mkdir -p ~/domains/localspothq.com/scripts ~/domains/localspothq.com/logs"
+          rsync -tz -e "$RSH" deploy/send_digest.php "$DEPLOY_USER@$HOST:domains/localspothq.com/scripts/send_digest.php"
 
           # Hub page, rebuilt each run so its per-area counts stay honest, plus
           # the sitemap index and robots.txt that point crawlers at every area

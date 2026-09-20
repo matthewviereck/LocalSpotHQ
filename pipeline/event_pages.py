@@ -139,6 +139,27 @@ def _pick_related(slug, ev, d, catalog, n=RELATED_COUNT):
     return [(oslug, oev, od, same_venue) for _, _, od, oslug, oev, same_venue in ranked[:n]]
 
 
+SIGNUP_HTML = """<div class="card card-pad signup-card">
+<p class="eyebrow">The Thursday email</p>
+<p class="meta" style="margin:6px 0 10px;">What's on in __AREA__ this week, every Thursday morning. One click to leave.</p>
+<form class="signup" id="signup-form"><input type="email" id="signup-email" placeholder="you@example.com" required autocomplete="email" aria-label="Email address"><button type="submit" class="btn btn-primary">Sign up</button></form>
+<p class="meta" id="signup-done" hidden>You're on the list. First email arrives Thursday.</p>
+</div>
+<script>
+(function(){var f=document.getElementById("signup-form");if(!f)return;f.addEventListener("submit",function(ev){ev.preventDefault();var i=document.getElementById("signup-email"),b=f.querySelector("button"),d=document.getElementById("signup-done");var email=(i.value||"").trim();if(!email)return;b.disabled=true;fetch("/subscribe.php",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email:email,source:"__SOURCE__"})}).then(function(r){return r.json()}).then(function(o){if(!o.success)throw new Error(o.error||"failed");f.hidden=true;d.hidden=false;}).catch(function(){b.disabled=false;d.textContent="Couldn't sign you up just now. Try again in a minute.";d.hidden=false;});});})();
+</script>"""
+
+
+def _signup_block(area_config):
+    """The email signup card that closes every event page. These are the pages
+    organic search lands on, so this is where the list actually grows; the
+    source tag routes the subscriber to this area's Thursday email."""
+    area_name = area_config.get('name', '')
+    area_slug = area_config.get('slug') or area_config.get('id', '')
+    return (SIGNUP_HTML.replace('__AREA__', html.escape(area_name))
+                       .replace('__SOURCE__', f"event-page:{area_slug}"))
+
+
 def _event_page(ev, d, area_config, related=()):
     area_name = area_config['name']
     base_url = area_config['meta']['canonical_url'].rstrip('/')
@@ -297,7 +318,8 @@ color:var(--ink-faint);font-size:13px}}
 {out_link}
 <p><a href="{base_url}/#event={slug}">See this event in the {html.escape(area_name)} app &rarr;</a></p>
 {related_html}
-<p class="hubs"><a href="{base_url}/">All {html.escape(area_name)} events</a> &middot; <a href="{base_url}/this-weekend/">This weekend in {html.escape(area_name)}</a></p>
+<p class="hubs"><a href="{base_url}/">All {html.escape(area_name)} events</a> &middot; <a href="{base_url}/this-weekend/">This weekend in {html.escape(area_name)}</a> &middot; <a href="{base_url}/promote/?event={slug}">Promote this event</a></p>
+{_signup_block(area_config)}
 <footer>LocalSpot HQ &middot; updated {date.today().isoformat()}</footer>
 </body>
 </html>
