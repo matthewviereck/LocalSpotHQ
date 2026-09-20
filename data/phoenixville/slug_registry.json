@@ -845,6 +845,14 @@
    "venue": "Greater Philadelphia Expo Center (Hall A), Oaks",
    "date": "2026-07-25"
   },
+  "eastern-firearms-expo": {
+   "first_seen": "2026-09-20",
+   "title": "Eastern Firearms Expo",
+   "venue": "Greater Philadelphia Expo Center",
+   "date": "2026-10-16",
+   "end": "2026-10-18",
+   "last_seen": "2026-09-20"
+  },
   "eli-lev": {
    "first_seen": "2026-06-11",
    "last_seen": "2026-09-20",
