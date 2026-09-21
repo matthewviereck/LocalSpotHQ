@@ -128,6 +128,49 @@ days: 14 sessions (organic 9, direct 5), 27 views. Dev pages
 GA4 page list. Per-query and per-page detail for the 7-day window was not
 read this pass.
 
+Reading of 2026-09-21, Aug 25 to Sep 21, 2026: 27 clicks, 3,570 impressions
+(shown as 3.57K), CTR 0.8%, position 11.2 (previous 28 days, Jul 28 to Aug
+24: 49 clicks, 3,510 impressions, CTR 1.4%, position 12.1). Last 7 days Sep
+15 to 21: 7 clicks, 930 impressions, CTR 0.8%, position 8.8 (prior 7, Sep 8
+to 14: 8 clicks, 898 impressions, CTR 0.9%, position 12.2). Top queries by
+clicks: "phoenixville blues festival 2026" 3 (38 impressions), "west
+chester restaurant festival 2026" 2 (295), "west chester food festival
+2026" 2 (111), "west chester family weekend 2026" 1 (25), "phoenixville
+blues festival 2026 schedule" 1 (15), "bluebird distilling" 1 (6), "first
+friday phoenixville 2026" 1 (1); "west chester homecoming 2026" 348
+impressions for 0 clicks, "west chester university homecoming 2026" 149
+for 0, "west chester university family weekend 2026" 60 for 0; 310 queries
+in all. Top pages by clicks: the 45th-annual restaurant-and-food-truck
+festival page 5 (721 impressions), `/phoenixville/guides/fall-phoenixville/`
+5 (141), blues festival (Labor Day slug) 4 (69), Montgomery County senior
+expo 2 (60), Rocky Horror 2 (15), `wcu-family-weekend` 1 (336), paranormal
+cirque 1 (84), UPT community fall fest 1 (50), `/phoenixville/` 1 (37),
+Stop Making Sense screening 1 (18); 261 pages. Indexing report dated Sep
+17 (first update since Sep 13): indexed 295 (was 292) / not indexed 391
+(was 355), of which discovered-not-indexed 237 (was 209), 404 109
+(unchanged), noindex 21 (was 18), page with redirect 9 (was 8), crawled-
+not-indexed 12 (was 8), 403 1, alternate canonical 1, duplicate 1
+(unchanged) — the indexed/not-indexed gap widened again, driven almost
+entirely by discovered-not-indexed. Sitemaps report: 3 sitemaps, all
+Success — sitemap index `/sitemap.xml` 398 discovered pages (last read
+Sep 18), `/west-chester/sitemap.xml` 218 (last read Sep 17),
+`/phoenixville/sitemap.xml` 180 (last read Sep 21). GA4 (property
+confirmed on screen as 539486581 / LocalSpot HQ): 73 sessions (direct 42,
+organic 25, unassigned 7, social 2, cross-network 1) vs 54 prior (organic
+44, direct 10, nothing else), engagement rate 63% (was 28%), 141 views,
+42 active users (was 54). Direct sessions jumped 10 to 42 while active
+users fell, i.e. more repeat/direct visits from fewer people rather than
+new organic growth; organic-search sessions (25) still track Search
+Console clicks (27) reasonably well. Top pages by views: home 43,
+`/phoenixville/` 29, `/palettes.html` 9 (dev page still showing), fall-
+phoenixville guide 8, blues festival (Labor Day slug) 6. Chrome note: a
+second agent was using the same browser on bettersleepproject.com and
+wellbuiltliving.com during this pass; the Search Console tab's property
+flipped to their site mid-read twice (apparently shared per-origin state,
+not a tab mix-up) before a fresh tab group settled down — every number
+above was re-verified against the localspothq property immediately before
+reading it.
+
 ## Report format
 
 Lead with what changed versus the baseline and versus the previous period,
