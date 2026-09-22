@@ -3659,5 +3659,209 @@
       "image": ""
     },
     "action_link": "https://wcrailroad.com/events/fall-foliage-express/"
+  },
+  {
+    "id": "discovered_fall_foliage_express_20261004",
+    "type": "event",
+    "title": "Fall Foliage Express",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.5967
+      }
+    },
+    "raw_date_string": "Oct 4, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Scenic"
+      ],
+      "price": "$25-$30"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcrailroad.com/events/fall-foliage-express/"
+  },
+  {
+    "id": "discovered_fall_foliage_express_20261011",
+    "type": "event",
+    "title": "Fall Foliage Express",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.5967
+      }
+    },
+    "raw_date_string": "Oct 11, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Scenic"
+      ],
+      "price": "$25-$30"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcrailroad.com/events/fall-foliage-express/"
+  },
+  {
+    "id": "discovered_fall_foliage_express_20261017",
+    "type": "event",
+    "title": "Fall Foliage Express",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.5967
+      }
+    },
+    "raw_date_string": "Oct 17 - 18, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Scenic"
+      ],
+      "price": "$25-$30"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcrailroad.com/events/fall-foliage-express/"
+  },
+  {
+    "id": "discovered_wcrr_halloween_special_20261024",
+    "type": "event",
+    "title": "Halloween Special Train Ride",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.5967
+      }
+    },
+    "raw_date_string": "Oct 24 - 25, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Halloween"
+      ],
+      "price": "$15-$30"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcrailroad.com/halloween-special/"
+  },
+  {
+    "id": "discovered_christmas_tree_train_20261129",
+    "type": "event",
+    "title": "Christmas Tree Train",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.5967
+      }
+    },
+    "raw_date_string": "Nov 29, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Holiday"
+      ],
+      "price": "Ticket + tree ($90 at Wiggins)",
+      "time": "8:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcrailroad.com/christmas-tree-train/"
+  },
+  {
+    "id": "discovered_christmas_tree_train_20261206",
+    "type": "event",
+    "title": "Christmas Tree Train",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.5967
+      }
+    },
+    "raw_date_string": "Dec 6, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Holiday"
+      ],
+      "price": "Ticket + tree ($90 at Wiggins)",
+      "time": "8:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcrailroad.com/christmas-tree-train/"
+  },
+  {
+    "id": "discovered_christmas_tree_train_20261213",
+    "type": "event",
+    "title": "Christmas Tree Train",
+    "venue_info": {
+      "name": "West Chester Railroad, West Chester",
+      "location": {
+        "lat": 39.9591,
+        "lng": -75.5967
+      }
+    },
+    "raw_date_string": "Dec 13, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Holiday"
+      ],
+      "price": "Ticket + tree ($90 at Wiggins)",
+      "time": "8:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcrailroad.com/christmas-tree-train/"
+  },
+  {
+    "id": "discovered_plantology_on_tap_infusions_20261015",
+    "type": "event",
+    "title": "Plantology on Tap: Botanical Infusions",
+    "venue_info": {
+      "name": "The Creamery of Kennett Square, Kennett Square",
+      "location": {
+        "lat": 39.8467,
+        "lng": -75.7115
+      }
+    },
+    "raw_date_string": "Oct 15, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "21+",
+        "Hands-On"
+      ],
+      "price": "$29",
+      "time": "6:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/plantology-tap-botanical-infusions-0"
   }
 ]
