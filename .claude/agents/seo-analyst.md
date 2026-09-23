@@ -213,6 +213,42 @@ agent was on the same browser and its GA4 tab held property 531131523;
 working in an own tab kept the two apart, and property and date range were
 re-verified on screen before every number above.
 
+Reading of 2026-09-23. Search Console performance was re-read over the same
+window as Sep 22, because Sep 22 (44 impressions) and Sep 23 (7) are still
+partial days: Aug 26 to Sep 22, 2026: 29 clicks, 3,621 impressions (was
+3,590 yesterday; late data filling in, not growth), CTR 0.8%, position 11.1
+(previous 28 days, Jul 29 to Aug 25: 49 clicks, 3,448 impressions, CTR 1.4%,
+position 12.1). The shifted window Aug 27 to Sep 23 reads 29 / 3,592 / 0.8%
+/ 11 (vs Jul 30 to Aug 26: 47 / 3,340 / 1.4% / 12). Last 7 days Sep 16 to
+22: 7 clicks, 917 impressions, CTR 0.8%, position 9.0 (prior 7: 9 / 893 /
+1.0% / 11.6). Daily impressions Sep 16 to 23: 81, 149, 97, 150, 334, 62, 44,
+7; the Sep 20 spike (334) is the homecoming/family-weekend queries. Top
+queries and top 10 pages by clicks are unchanged from Sep 22 (restaurant-
+and-food-truck festival page 5 clicks / 738 impressions, fall-phoenixville
+guide 5 / 171, blues festival 4 / 69; "west chester homecoming 2026" 348
+impressions for 0 clicks, "west chester university homecoming 2026" 149 for
+0). The table footers now read 145 queries and 174 pages (were 307 and 265
+for the same window yesterday); totals did not drop, so this looks like a
+change in how many rows Search Console lists, not lost coverage, but watch
+it. Indexing report refreshed, "Last update: 9/20/26" (first update since
+Sep 17): indexed 307 (was 295, +12) / not indexed 417 (was 391, +26), of
+which discovered-not-indexed 251 (was 237), 404 112 (was 109), noindex 22
+(was 21), page with redirect 9, crawled-not-indexed 19 (was 12), alternate
+canonical 2 (was 1), 403 1, duplicate 1; 724 known pages (was 686). Indexed
+grew for the first time since Sep 17 but the not-indexed pile grew twice as
+fast, still led by discovered-not-indexed. Refresh dates so far: Sep 3, 13,
+17, 20, so the next one looks due around Sep 23 to 24. Sitemaps: all 3
+Success; sitemap index `/sitemap.xml` 404 discovered pages, now last read
+Sep 23 (was Sep 18); `/west-chester/sitemap.xml` 224 (Sep 22),
+`/phoenixville/sitemap.xml` 180 (Sep 21). GA4 (URL confirmed as p539486581),
+same window: 78 sessions (direct 47, organic 28, social 2, unassigned 1) vs
+54, engagement rate 68%, 150 views, 47 active users, 60 page rows —
+identical to Sep 22, as expected for the same window. Dev pages
+`/palettes.html` (9 views), `/_rangetest/index.html` (2) and `/blue.html`
+(2) still listed. Chrome note: another SEO agent was working
+wellbuiltliving.com in a neighbouring tab; the property selector read
+localspothq before every number.
+
 ## Report format
 
 Lead with what changed versus the baseline and versus the previous period,
