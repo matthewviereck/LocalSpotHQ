@@ -1,34 +1,5 @@
 [
   {
-    "id": "discovered_souljoels_open_mic_20260922",
-    "type": "event",
-    "title": "Tuesday Comedy Open Mic at SoulJoel's",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "September 22, 2026 7:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Free",
-        "Stand-Up Comedy",
-        "Open Mic",
-        "Weekly",
-        "Pottstown",
-        "21+"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/upcoming-events/"
-  },
-  {
     "id": "discovered_stable12_trivia_20260923",
     "type": "event",
     "title": "Pub Trivia Night at Stable 12 Brewing",
@@ -3295,5 +3266,154 @@
       "image": ""
     },
     "action_link": "https://www.watertowerlive.com/events"
+  },
+  {
+    "id": "discovered_pa_guild_craft_fair_20261024",
+    "type": "event",
+    "title": "PA Guild of Craftsmen Fall Fine Craft Fair",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Oct 24-25, 2026 10:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Fine Craft",
+        "Artisan Jewelry",
+        "90 Artists",
+        "Contemporary Art",
+        "Home Furnishings",
+        "Juried Show",
+        "Indoor",
+        "Oaks",
+        "Weekend Market"
+      ],
+      "price": "$8 pre-purchase / $10 at door"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://pacrafts.org/2026-fall-fcf/"
+  },
+  {
+    "id": "discovered_nick_dipaolo_souljoels_20261107",
+    "type": "event",
+    "title": "Nick DiPaolo – Live Stand-Up Comedy at SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "November 7, 2026 8:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Saturday Night",
+        "Headline Show",
+        "Meet & Greet Option",
+        "Pottstown"
+      ],
+      "price": "$30 GA / $59 Preferred (with meet & greet)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/nickdipaolo/"
+  },
+  {
+    "id": "discovered_brickfair_lego_expo_oaks_20261107",
+    "type": "event",
+    "title": "BrickFair LEGO Fan Expo – Philadelphia",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Nov 7-8, 2026 10:00 AM",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "LEGO",
+        "Fan Expo",
+        "Building Contest",
+        "Family Friendly",
+        "All Ages",
+        "Indoor",
+        "Weekend",
+        "Oaks"
+      ],
+      "price": "$17–19 (day of: $20)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brickfair.com/tickets/?eventid=125"
+  },
+  {
+    "id": "discovered_shelly_belly_souljoels_20261111",
+    "type": "event",
+    "title": "Shelly Belly – Live Stand-Up Comedy at SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "November 11, 2026 7:30 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Wednesday Night",
+        "Headline Show",
+        "Pottstown"
+      ],
+      "price": "$10"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/shellybelly/"
+  },
+  {
+    "id": "discovered_national_dog_show_oaks_20261114",
+    "type": "event",
+    "title": "National Dog Show – Kennel Club of Philadelphia",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Nov 14-15, 2026 8:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Dog Show",
+        "Purina",
+        "NBC Thanksgiving Broadcast",
+        "All Breeds",
+        "25th Annual",
+        "Family Friendly",
+        "Indoor",
+        "Oaks"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://nds.nationaldogshow.com/"
   }
 ]
