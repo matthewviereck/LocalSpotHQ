@@ -25,6 +25,9 @@
  *   --area=<slug>   restrict to one area
  */
 
+// Event dates are Eastern midnights; day headings and 'today' must agree.
+date_default_timezone_set('America/New_York');
+
 $HOME_DIR   = getenv('HOME') ?: '/home/u277879645';
 $DOMAIN_DIR = $HOME_DIR . '/domains/localspothq.com';
 $DOCROOT    = $DOMAIN_DIR . '/public_html';
@@ -116,9 +119,41 @@ function eventLink($site, $areaSlug, $ev) {
     return $link ?: "{$site}{$areaSlug}/";
 }
 
+// "7pm", "5:00 PM", "10:00 AM", "9am-12pm" all become one style: "7 PM",
+// "5 PM", "10 AM", "9 AM-12 PM". Anything that isn't a clock time ("Evening",
+// "All Day") passes through; "7am Start" keeps its words.
+function formatTime($raw) {
+    $raw = trim((string)$raw);
+    if ($raw === '') return '';
+    $out = preg_replace_callback('/\b(\d{1,2})(?::(\d{2}))?\s*([ap])\.?m\.?\b/i', function ($m) {
+        $mins = (isset($m[2]) && $m[2] !== '' && $m[2] !== '00') ? ':' . $m[2] : '';
+        return (int)$m[1] . $mins . ' ' . strtoupper($m[3]) . 'M';
+    }, $raw);
+    return preg_replace('/\s*[-\x{2013}]\s*/u', '-', $out);
+}
+
+// Source titles arrive as the venue typed them. Shouting titles get title
+// case; a lowercase start (whole title or after a colon) gets a capital.
+function formatTitle($raw) {
+    $t = trim((string)$raw);
+    $letters = preg_replace('/[^A-Za-z]/', '', $t);
+    if (strlen($letters) >= 6 && $letters === strtoupper($letters)) {
+        $t = ucwords(strtolower($t), " \t-/(&");
+    }
+    return preg_replace_callback('/(^|:\s+)([a-z])/', function ($m) {
+        return $m[1] . strtoupper($m[2]);
+    }, $t);
+}
+
 function rowHtml($site, $areaSlug, $ev, $promoted = false) {
-    $title = htmlspecialchars($ev['title'] ?? '');
-    $bits = array_filter([$ev['date'] ?? '', $ev['time'] ?? '', $ev['loc'] ?? '']);
+    $title = htmlspecialchars(formatTitle($ev['title'] ?? ''));
+    // The day heading carries the date; only a multi-day run repeats it.
+    $date = $ev['date'] ?? '';
+    $bits = array_filter([
+        (strpos($date, '-') !== false || $promoted) ? $date : '',
+        formatTime($ev['time'] ?? ''),
+        $ev['loc'] ?? '',
+    ]);
     $meta = htmlspecialchars(implode(' · ', $bits));
     $link = eventLink($site, $areaSlug, $ev);
     $chip = $promoted
@@ -130,30 +165,116 @@ function rowHtml($site, $areaSlug, $ev, $promoted = false) {
         . "<span style=\"color:#64748b;font-size:13px;\">{$meta}</span></td></tr>";
 }
 
+function dayHeadingHtml($label) {
+    return "<tr><td style=\"padding:18px 0 4px;font-size:13px;font-weight:700;letter-spacing:.04em;"
+        . "text-transform:uppercase;color:#0f172a;border-bottom:2px solid #0f172a;\">" . htmlspecialchars($label) . "</td></tr>";
+}
+
+// Home-town events first, then events with a start time, then by time.
+function rankInDay($a, $b, $home) {
+    $ah = (($a['town'] ?? '') === $home) ? 0 : 1;
+    $bh = (($b['town'] ?? '') === $home) ? 0 : 1;
+    if ($ah !== $bh) return $ah <=> $bh;
+    $at = trim((string)($a['time'] ?? '')) === '' ? 1 : 0;
+    $bt = trim((string)($b['time'] ?? '')) === '' ? 1 : 0;
+    if ($at !== $bt) return $at <=> $bt;
+    return timeSortKey($a['time'] ?? '') <=> timeSortKey($b['time'] ?? '');
+}
+
+// Minutes after midnight of the first clock time in the string; 9999 if none.
+function timeSortKey($raw) {
+    if (!preg_match('/\b(\d{1,2})(?::(\d{2}))?\s*([ap])\.?m\b/i', (string)$raw, $m)) return 9999;
+    $h = (int)$m[1] % 12;
+    if (strtolower($m[3]) === 'p') $h += 12;
+    return $h * 60 + (int)($m[2] ?? 0);
+}
+
+// Picks rows so every day of the window gets some: round-robin across days,
+// best-ranked first. A plain date-sorted cap let Thursday to Saturday fill
+// all 18 rows and Sunday to Wednesday never made the email (2026-09-24).
+function pickBalanced($byDay, $limit) {
+    $picked = [];
+    foreach ($byDay as $day => $evs) $picked[$day] = [];
+    // Leftover rows after each full round go to the weekend first.
+    $order = array_keys($byDay);
+    usort($order, function ($a, $b) {
+        $wa = in_array(date('N', strtotime($a)), ['5', '6', '7'], true) ? 0 : 1;
+        $wb = in_array(date('N', strtotime($b)), ['5', '6', '7'], true) ? 0 : 1;
+        return $wa !== $wb ? $wa <=> $wb : strcmp($a, $b);
+    });
+    $round = 0; $total = 0;
+    while ($total < $limit) {
+        $added = false;
+        foreach ($order as $day) {
+            $evs = $byDay[$day];
+            if ($total >= $limit) break;
+            if (isset($evs[$round])) { $picked[$day][] = $evs[$round]; $total++; $added = true; }
+        }
+        if (!$added) break;
+        $round++;
+    }
+    return array_filter($picked);
+}
+
 function buildDigest($area, $events, $promotedSlugs, $site, $price, $maxRows, $windowDays) {
     $today = new DateTime('today');
     $end = (clone $today)->modify('+' . ($windowDays - 1) . ' days');
     $startTs = $today->getTimestamp();
     $endTs = (clone $end)->setTime(23, 59, 59)->getTimestamp();
+    $home = $area['name'];
 
-    $pinned = []; $dated = []; $ongoing = [];
+    $pinned = []; $byDay = []; $ongoing = []; $seen = [];
     foreach ($events as $ev) {
         $ts = $ev['_sort_date'] ?? null;
         $slug = $ev['slug'] ?? '';
         if ($slug && isset($promotedSlugs[$slug])) { $pinned[] = $ev; continue; }
         if (!is_numeric($ts) || $ts >= 9000000000) continue;
-        if ($ts >= $startTs && $ts <= $endTs) $dated[] = $ev;
-        elseif ($ts < $startTs && !empty($ev['ongoing'])) $ongoing[] = $ev;
+        if ($ts >= $startTs && $ts <= $endTs) {
+            // A weekly series (farmers market, trivia) shows once, on its next date.
+            $key = strtolower(trim($ev['title'] ?? ''));
+            if (isset($seen[$key])) continue;
+            $seen[$key] = true;
+            $byDay[date('Y-m-d', (int)$ts)][] = $ev;
+        } elseif ($ts < $startTs && !empty($ev['ongoing'])) {
+            $ongoing[] = $ev;
+        }
     }
-    usort($dated, function ($a, $b) { return $a['_sort_date'] <=> $b['_sort_date']; });
-    $list = array_slice(array_merge($dated, $ongoing), 0, max(0, $maxRows - count($pinned)));
-    if (!$pinned && !$list) return null;
+    ksort($byDay);
+    foreach ($byDay as $day => &$evs) {
+        usort($evs, function ($a, $b) use ($home) { return rankInDay($a, $b, $home); });
+    }
+    unset($evs);
+
+    $room = max(0, $maxRows - count($pinned));
+    $days = pickBalanced($byDay, $room);
+    $used = array_sum(array_map('count', $days));
+    $ongoing = array_slice($ongoing, 0, max(0, $room - $used));
+    if (!$pinned && !$days && !$ongoing) return null;
 
     $areaSlug = $area['slug']; $name = $area['name'];
     $rangeLabel = $today->format('M j') . '-' . ($today->format('M') === $end->format('M') ? $end->format('j') : $end->format('M j'));
     $rows = '';
-    foreach ($pinned as $ev) $rows .= rowHtml($site, $areaSlug, $ev, true);
-    foreach ($list as $ev) $rows .= rowHtml($site, $areaSlug, $ev);
+    $lines = [];
+    foreach ($pinned as $ev) {
+        $rows .= rowHtml($site, $areaSlug, $ev, true);
+        $lines[] = 'PROMOTED  ' . formatTitle($ev['title'] ?? '');
+    }
+    foreach ($days as $day => $evs) {
+        $d = new DateTime($day);
+        $label = $d->format('l, M j') . ($day === $today->format('Y-m-d') ? ' (today)' : '');
+        $rows .= dayHeadingHtml($label);
+        foreach ($evs as $ev) {
+            $rows .= rowHtml($site, $areaSlug, $ev);
+            $lines[] = $day . '  ' . str_pad($ev['town'] ?? '', 13) . str_pad(formatTime($ev['time'] ?? ''), 14) . formatTitle($ev['title'] ?? '');
+        }
+    }
+    if ($ongoing) {
+        $rows .= dayHeadingHtml('All week');
+        foreach ($ongoing as $ev) {
+            $rows .= rowHtml($site, $areaSlug, $ev);
+            $lines[] = 'ongoing     ' . formatTitle($ev['title'] ?? '');
+        }
+    }
 
     $areaUrl = "{$site}{$areaSlug}/";
     $body = "<!doctype html><html><body style=\"font-family:-apple-system,Segoe UI,Arial,sans-serif;color:#0f172a;max-width:560px;margin:0 auto;padding:16px;\">"
@@ -172,7 +293,8 @@ function buildDigest($area, $events, $promotedSlugs, $site, $price, $maxRows, $w
     return [
         'subject' => "This week in {$name} ({$rangeLabel})",
         'body' => $body,
-        'count' => count($pinned) + count($list),
+        'count' => count($pinned) + $used + count($ongoing),
+        'lines' => $lines,
         'pinned' => count($pinned),
     ];
 }
@@ -222,6 +344,7 @@ function sendDigest($areas, $opts) {
             file_put_contents($preview, str_replace('{{UNSUB}}', '#', $digest['body']));
             digestLog("{$slug}: DRY RUN, {$digest['count']} events ({$digest['pinned']} promoted), "
                 . count($byArea[$slug] ?? []) . " subscribers, subject \"{$digest['subject']}\", preview {$preview}");
+            foreach ($digest['lines'] as $l) echo "    {$l}\n";
             continue;
         }
 
