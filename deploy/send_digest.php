@@ -170,11 +170,13 @@ function dayHeadingHtml($label) {
         . "text-transform:uppercase;color:#0f172a;border-bottom:2px solid #0f172a;\">" . htmlspecialchars($label) . "</td></tr>";
 }
 
-// Home-town events first, then events with a start time, then by time.
-function rankInDay($a, $b, $home) {
-    $ah = (($a['town'] ?? '') === $home) ? 0 : 1;
-    $bh = (($b['town'] ?? '') === $home) ? 0 : 1;
-    if ($ah !== $bh) return $ah <=> $bh;
+// Which events win a busy day: one-offs before weekly repeats (trivia, open
+// mics), then events with a start time, then by time. Town plays no part:
+// Oaks or Collegeville is as welcome as Phoenixville (Matthew, 2026-09-24).
+function rankInDay($a, $b) {
+    $ar = empty($a['cadence']) ? 0 : 1;
+    $br = empty($b['cadence']) ? 0 : 1;
+    if ($ar !== $br) return $ar <=> $br;
     $at = trim((string)($a['time'] ?? '')) === '' ? 1 : 0;
     $bt = trim((string)($b['time'] ?? '')) === '' ? 1 : 0;
     if ($at !== $bt) return $at <=> $bt;
@@ -221,7 +223,6 @@ function buildDigest($area, $events, $promotedSlugs, $site, $price, $maxRows, $w
     $end = (clone $today)->modify('+' . ($windowDays - 1) . ' days');
     $startTs = $today->getTimestamp();
     $endTs = (clone $end)->setTime(23, 59, 59)->getTimestamp();
-    $home = $area['name'];
 
     $pinned = []; $byDay = []; $ongoing = []; $seen = [];
     foreach ($events as $ev) {
@@ -241,12 +242,17 @@ function buildDigest($area, $events, $promotedSlugs, $site, $price, $maxRows, $w
     }
     ksort($byDay);
     foreach ($byDay as $day => &$evs) {
-        usort($evs, function ($a, $b) use ($home) { return rankInDay($a, $b, $home); });
+        usort($evs, 'rankInDay');
     }
     unset($evs);
 
     $room = max(0, $maxRows - count($pinned));
     $days = pickBalanced($byDay, $room);
+    // Rank decides what makes the cut; the email reads in time order.
+    foreach ($days as $day => &$evs) {
+        usort($evs, function ($a, $b) { return timeSortKey($a['time'] ?? '') <=> timeSortKey($b['time'] ?? ''); });
+    }
+    unset($evs);
     $used = array_sum(array_map('count', $days));
     $ongoing = array_slice($ongoing, 0, max(0, $room - $used));
     if (!$pinned && !$days && !$ongoing) return null;
