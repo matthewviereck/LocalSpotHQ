@@ -1,34 +1,5 @@
 [
   {
-    "id": "discovered_jeff_dye_souljoels_20260924",
-    "type": "event",
-    "title": "Jeff Dye \u2013 Live Stand-Up Comedy",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "September 24, 2026 7:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Last Comic Standing",
-        "Tonight Show",
-        "Two Shows",
-        "Headline Show",
-        "Pottstown"
-      ],
-      "price": "$35 GA / $45 Preferred"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/jeffdyesouljoels/"
-  },
-  {
     "id": "discovered_friends_of_brothers_colonial_20260925",
     "type": "event",
     "title": "Friends of the Brothers \u2013 A Celebration of the Allman Brothers Band",
@@ -754,36 +725,6 @@
       "image": ""
     },
     "action_link": "https://elmwoodparkzoo.org/zoo-snooze/"
-  },
-  {
-    "id": "discovered_historic_trappe_tavern_night_20260924",
-    "type": "event",
-    "title": "Tavern Night at Dewees Tavern: German Buffet",
-    "venue_info": {
-      "name": "Dewees Tavern Museum, 301 W Main St, Trappe",
-      "location": {
-        "lat": 40.199,
-        "lng": -75.479
-      }
-    },
-    "raw_date_string": "Sep 24, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Ticketed",
-        "Buffet Dinner",
-        "Beer & Wine",
-        "Historic Trappe",
-        "Limited Seating",
-        "Evening"
-      ],
-      "price": "Check Link",
-      "time": "5:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://historictrappe.org/tavern-night/"
   },
   {
     "id": "discovered_limerick_tricentennial_20260926",
@@ -3444,5 +3385,67 @@
       "image": ""
     },
     "action_link": "https://www.eventticketscenter.com/tab-benoit-phoenixville-12-16-2026/8199000/t"
+  },
+  {
+    "id": "discovered_heather_shaw_souljoels_20261002",
+    "type": "event",
+    "title": "Heather Shaw \u2013 Live Stand-Up Comedy at SoulJoel\u2019s",
+    "venue_info": {
+      "name": "SoulJoel\u2019s at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "October 2, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Today Show",
+        "Tamron Hall Show",
+        "Friday Night",
+        "Pottstown",
+        "Headline Show"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/heathershaw/"
+  },
+  {
+    "id": "discovered_arader_farm_pumpkin_fest_20261017",
+    "type": "event",
+    "title": "Pumpkin Fest at Arader Farm \u2013 October 17",
+    "venue_info": {
+      "name": "Arader Farm, 746 South Trappe Road, Collegeville",
+      "location": {
+        "lat": 40.195,
+        "lng": -75.474
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "time": "10:00 AM",
+      "vibes": [
+        "Pumpkin Picking",
+        "Tractor Rides",
+        "Corn Maze",
+        "Beer Tent",
+        "Live Music",
+        "Family Friendly",
+        "Working Farm",
+        "Outdoor",
+        "Collegeville"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.valleyforge.org/listing/arader-farm/21820/"
   }
 ]
