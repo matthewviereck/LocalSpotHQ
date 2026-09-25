@@ -23,32 +23,6 @@
     "action_link": "https://www.peopleslight.org/whats-on/20262027-season/topdogunderdog/"
   },
   {
-    "id": "discovered_town_tours_village_walks_the_20260924",
-    "type": "event",
-    "title": "Town Tours & Village Walks: The Mill at Anselma",
-    "venue_info": {
-      "name": "The Mill at Anselma, Chester Springs",
-      "location": {
-        "lat": 40.0836,
-        "lng": -75.6414
-      }
-    },
-    "raw_date_string": "Sep 24, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free",
-      "time": "5:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.chescoplanning.org/historic/towntours/"
-  },
-  {
     "id": "discovered_community_chapstick_20260925",
     "type": "event",
     "title": "Community Chapstick, Better Off Dead, Tight Spiral",
@@ -3100,5 +3074,31 @@
       "image": ""
     },
     "action_link": "https://longwoodgardens.org/events-performances/events/plantology-tap-botanical-infusions-0"
+  },
+  {
+    "id": "discovered_in_the_wake_of_brandywine_20261003",
+    "type": "event",
+    "title": "In the Wake of Brandywine: Colonial Life Living History Day",
+    "venue_info": {
+      "name": "Brandywine Battlefield Park, Chadds Ford",
+      "location": {
+        "lat": 39.8756,
+        "lng": -75.5883
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Outdoor",
+        "History"
+      ],
+      "price": "$7-$10",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywinebattlefield.org/events/"
   }
 ]
