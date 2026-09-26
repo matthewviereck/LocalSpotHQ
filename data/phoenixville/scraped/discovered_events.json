@@ -1,99 +1,5 @@
 [
   {
-    "id": "discovered_friends_of_brothers_colonial_20260925",
-    "type": "event",
-    "title": "Friends of the Brothers \u2013 A Celebration of the Allman Brothers Band",
-    "venue_info": {
-      "name": "The Colonial Theatre",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "September 25, 2026 8:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Allman Brothers",
-        "Southern Rock",
-        "Tribute Band",
-        "Classic Rock",
-        "Jam Band",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/live-music/friends-of-the-brothers-a-celebration-of-the-music-of-the-allman-brothers-band/"
-  },
-  {
-    "id": "discovered_philly_show_oaks_20260925",
-    "type": "event",
-    "title": "The Philly Show \u2013 Sports Card & Memorabilia Show",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "September 25-27, 2026 1:00 PM",
-    "attributes": {
-      "category": "Expo",
-      "vibes": [
-        "Sports Cards",
-        "Memorabilia",
-        "Allen Iverson",
-        "Julius Erving",
-        "Cooper DeJean",
-        "300+ Dealers",
-        "Collectors",
-        "Pok\u00e9mon Cards",
-        "Indoor",
-        "Oaks"
-      ],
-      "price": "$15 advance / $20 at door"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://phillyshow.com/"
-  },
-  {
-    "id": "discovered_intergem_jewelry_oaks_20260925",
-    "type": "event",
-    "title": "International Gem & Jewelry Show \u2013 Philadelphia",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center, Hall C, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "September 25-27, 2026",
-    "attributes": {
-      "category": "Expo",
-      "vibes": [
-        "Gems",
-        "Jewelry",
-        "Collectors",
-        "Artisan Jewelry",
-        "Minerals",
-        "Trade Show",
-        "Buy Sell Trade",
-        "Indoor",
-        "Oaks"
-      ],
-      "price": "$6 (save 25% online)"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.intergem.com/events/upcoming-shows/philadelphia-pa-jewelry-show-september-25-27-2026"
-  },
-  {
     "id": "discovered_farmers_market_20260926",
     "type": "event",
     "title": "Phoenixville Farmers Market \u2013 Saturday",
@@ -697,36 +603,6 @@
     "action_link": "https://givebutter.com/2026-firebird-festival"
   },
   {
-    "id": "discovered_zoo_snooze_20260925",
-    "type": "event",
-    "title": "Zoo Snooze Overnight Campout at Elmwood Park Zoo",
-    "venue_info": {
-      "name": "Elmwood Park Zoo, 1661 Harding Blvd, Norristown",
-      "location": {
-        "lat": 40.128,
-        "lng": -75.3413
-      }
-    },
-    "raw_date_string": "Sep 25, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Overnight",
-        "Campfire",
-        "Animal Show",
-        "Giraffe Feeding",
-        "Ages 4+",
-        "Dinner Included"
-      ],
-      "price": "$90 ($80 members)",
-      "time": "5:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://elmwoodparkzoo.org/zoo-snooze/"
-  },
-  {
     "id": "discovered_limerick_tricentennial_20260926",
     "type": "event",
     "title": "Limerick Township Tricentennial Celebration",
@@ -1082,35 +958,6 @@
       "image": ""
     },
     "action_link": "https://www.thegemspringcity.com/"
-  },
-  {
-    "id": "discovered_mary_scholz_gem_20260925",
-    "type": "event",
-    "title": "Mary Scholz with Tom Hampton \u2013 Live at The Gem",
-    "venue_info": {
-      "name": "The Gem Music Hall",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "September 25, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Americana",
-        "Folk",
-        "Singer-Songwriter",
-        "Live Music",
-        "Spring City",
-        "Friday Night Out"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/event-details/mary-scholz"
   },
   {
     "id": "discovered_alianzas_diversity_festival_20260926",
@@ -3447,5 +3294,156 @@
       "image": ""
     },
     "action_link": "https://www.valleyforge.org/listing/arader-farm/21820/"
+  },
+  {
+    "id": "discovered_rocky_horror_colonial_20261027",
+    "type": "event",
+    "title": "The Rocky Horror Picture Show with Shadow Cast",
+    "venue_info": {
+      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "October 27, 2026 7:30 PM",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Rocky Horror",
+        "Shadow Cast",
+        "Colonial Transylvanians",
+        "Halloween Season",
+        "Audience Participation",
+        "Cult Classic",
+        "Indoor",
+        "Annual Tradition"
+      ],
+      "price": "$18 + $2 fee"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://prod1.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=259622~7ba4fc69-69fd-432f-9fcc-cbe2478f74c7"
+  },
+  {
+    "id": "discovered_lights_camera_pottstown_20261009",
+    "type": "event",
+    "title": "Lights! Camera! Pottstown! 4th Annual Film Festival",
+    "venue_info": {
+      "name": "Rivet: Canteen & Assembly, 238 E High St, Pottstown",
+      "location": {
+        "lat": 40.2454,
+        "lng": -75.6489
+      }
+    },
+    "raw_date_string": "October 9-11, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Film Festival",
+        "Kate Flannery",
+        "The Office",
+        "Independent Film",
+        "Q&A",
+        "3-Day Event",
+        "Pottstown",
+        "Weekend"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/lights-camera-pottstown-4th-annual-film-festival-with-special-guest-tickets-1987914622148"
+  },
+  {
+    "id": "discovered_last_big_band_rivet_20261014",
+    "type": "event",
+    "title": "The Last Big Band – Jazz Orchestra Live at Rivet",
+    "venue_info": {
+      "name": "Rivet: Canteen & Assembly, 238 E High St, Pottstown",
+      "location": {
+        "lat": 40.2454,
+        "lng": -75.6489
+      }
+    },
+    "raw_date_string": "October 14, 2026 6:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Jazz",
+        "Big Band",
+        "Golden Era",
+        "Danceable",
+        "Live Orchestra",
+        "Dinner & Drinks",
+        "Pottstown",
+        "Wednesday Night"
+      ],
+      "price": "$10 advance"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/the-last-big-band-jazz-orchestra-live-at-rivet-tickets-1995856126401"
+  },
+  {
+    "id": "discovered_eric_dalessandro_souljoels_20261016",
+    "type": "event",
+    "title": "Eric D’Alessandro – Live Stand-Up Comedy at SoulJoel’s",
+    "venue_info": {
+      "name": "SoulJoel’s at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "October 16, 2026 8:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Friday Night",
+        "Pottstown",
+        "Headline Show"
+      ],
+      "price": "From $30"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/shop/tickets/ericdalessandro/"
+  },
+  {
+    "id": "discovered_die_laughing_halloween_rivet_20261031",
+    "type": "event",
+    "title": "Die Laughing Halloween Party at Rivet",
+    "venue_info": {
+      "name": "Rivet: Canteen & Assembly, 238 E High St, Pottstown",
+      "location": {
+        "lat": 40.2454,
+        "lng": -75.6489
+      }
+    },
+    "raw_date_string": "October 31, 2026 7:00 PM",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Halloween Party",
+        "Costumes",
+        "18+",
+        "Charity",
+        "Die Laughing",
+        "Comedy",
+        "Pottstown",
+        "Halloween Night"
+      ],
+      "price": "$10"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/die-laughing-halloween-party-tickets-1995193025047"
   }
 ]
