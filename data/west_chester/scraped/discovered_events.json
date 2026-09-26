@@ -23,32 +23,6 @@
     "action_link": "https://www.peopleslight.org/whats-on/20262027-season/topdogunderdog/"
   },
   {
-    "id": "discovered_community_chapstick_20260925",
-    "type": "event",
-    "title": "Community Chapstick, Better Off Dead, Tight Spiral",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Sep 25, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$10-$13",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/community-chapstick-better-off-dead-tight-spiral/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_alianzas_cultural_diversity_festival_20260926",
     "type": "event",
     "title": "Alianzas Cultural Diversity Festival",
