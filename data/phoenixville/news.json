@@ -1,5 +1,14 @@
 [
   {
+    "title": "Phoenixville lands nearly $1 million in federal money for firefighter staffing",
+    "category": "News",
+    "summary": "FEMA awarded the Borough of Phoenixville more than $974,000 through its SAFER program, which pays for firefighter personnel costs plus recruitment and retention. It was among the Mid-Atlantic awards announced Sept. 25.",
+    "date": "2026-09-25",
+    "loc": "Phoenixville Borough, Phoenixville",
+    "link": "https://www.fema.gov/press-release/20260925/fema-delivers-more-47-million-help-fire-departments-and-other-first",
+    "img": ""
+  },
+  {
     "title": "Mapping the license-plate cameras around Phoenixville",
     "category": "News",
     "summary": "Using volunteer-compiled DeFlock data, Patch located known automated license-plate readers nearby: one at Nutt Road and West Bridge Street in the borough, four at Kimberton and Conestoga roads in West Pikeland, and eight in Upper Providence, including the Station Avenue lot by Lowe's. No official count of installations has been published, so the real number is likely higher.",
@@ -78,15 +87,6 @@
     "date": "2026-09-08",
     "loc": "260 Schuylkill Road, East Pikeland",
     "link": "https://patch.com/pennsylvania/phoenixville/grand-opening-set-ocean-state-job-lot-phoenixville",
-    "img": ""
-  },
-  {
-    "title": "The Drift is serving seafood on Bridge Street",
-    "category": "Now Open",
-    "summary": "The Drift Seafood Kitchen & Raw Bar is up and running at 231 Bridge Street, marking Labor Day weekend as its first holiday stretch open. Hours run 4 to 10 p.m. Monday through Thursday, 11 a.m. to 11 p.m. Friday and Saturday, and 11 a.m. to 8 p.m. Sunday.",
-    "date": "2026-09-04",
-    "loc": "231 Bridge Street, Phoenixville",
-    "link": "https://thedriftseafood.com/",
     "img": ""
   }
 ]
