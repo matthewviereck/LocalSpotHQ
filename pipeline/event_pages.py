@@ -83,6 +83,20 @@ def _short_title(name, budget):
     return cut or name[:budget].strip()
 
 
+def _search_name(title, expansions):
+    """The event name as people search for it, for the <title> only.
+
+    Listings say "WCU Homecoming 2026"; searchers type "west chester university
+    homecoming 2026", and that query drew ~345 impressions for 0 clicks
+    (2026-09-27 reading). Area configs map abbreviations to what people type
+    (meta.title_expansions).
+    """
+    name = ' '.join(title.split())
+    for short, full in (expansions or {}).items():
+        name = re.sub(rf'\b{re.escape(short)}\b', full, name)
+    return name
+
+
 def _price_note(price):
     """'Free' / '$12' / '' from the messy free-text price field."""
     p = (price or '').strip()
@@ -192,9 +206,18 @@ def _event_page(ev, d, area_config, related=()):
     # The town is the highest-value token in a local search, but repeating it
     # when it is already in the name ("Phoenixville Punk Rock Flea Market")
     # just burns budget.
-    show_town = bool(town) and town.lower() not in title.lower()
-    tail = f" — {town}, {short_date}" if show_town else f" — {short_date}"
-    page_title = _short_title(title, max(24, TITLE_BUDGET - len(tail))) + tail
+    def _tail(name):
+        show_town = bool(town) and town.lower() not in name.lower()
+        return f" — {town}, {short_date}" if show_town else f" — {short_date}"
+
+    page_title = _short_title(title, max(24, TITLE_BUDGET - len(_tail(title)))) + _tail(title)
+    # The searched-for name ("West Chester University", not "WCU"), but only
+    # when it fits whole: trimmed, the town check above can be fooled by a
+    # town that sat in the part the trim dropped, and a cut name costs more
+    # than an abbreviation.
+    name = _search_name(title, area_config.get('meta', {}).get('title_expansions'))
+    if name != ' '.join(title.split()) and len(name + _tail(name)) <= TITLE_BUDGET:
+        page_title = name + _tail(name)
 
     # Lead the snippet with what a searcher actually wants to know - when,
     # where, how much - instead of the old boilerplate that read identically

@@ -73,5 +73,42 @@ class RelatedLinks(unittest.TestCase):
             self.assertIn('<h2 class="more">More in Collegeville</h2>', f.read())
 
 
+class SearchTitles(unittest.TestCase):
+    AREA = {'name': 'West Chester', 'meta': {'canonical_url': 'https://example.com/wc/',
+            'title_expansions': {'WCU': 'West Chester University'}}}
+
+    def _title(self, title, town='West Chester', d=date(2026, 9, 27)):
+        _, page = event_pages._event_page(_ev(title, 'West Chester University', town, d), d, self.AREA)
+        return page.split('<title>')[1].split('</title>')[0]
+
+    def test_abbreviation_expanded_and_town_not_repeated(self):
+        # "west chester university homecoming 2026": 345 impressions, 0 clicks on 9/27
+        self.assertEqual(self._title('WCU Homecoming 2026'),
+                         'West Chester University Homecoming 2026 — Sun Sep 27')
+
+    def test_whole_word_only(self):
+        self.assertIn('WCUX Open Mic', self._title('WCUX Open Mic'))
+
+    def test_expansion_dropped_when_it_would_force_a_cut(self):
+        long = 'WCU Theatre: Sacco and Vanzetti, A Tragedia'
+        self.assertTrue(self._title(long, town='').startswith(long))
+
+    def test_town_kept_when_the_trim_cuts_it_out_of_the_name(self):
+        # the expanded name holds "West Chester", but only in the part the trim drops
+        self.assertEqual(self._title("Sacco & Vanzetti: A Tragedia dell'Arte (WCU Theatre)",
+                                     d=date(2026, 11, 19)),
+                         'Sacco &amp; Vanzetti — West Chester, Thu Nov 19')
+
+    def test_h1_and_structured_data_keep_the_listing_name(self):
+        _, page = event_pages._event_page(_ev('WCU Homecoming 2026', 'West Chester University',
+                                              'West Chester', date(2026, 9, 27)), date(2026, 9, 27), self.AREA)
+        self.assertIn('"name": "WCU Homecoming 2026"', page)
+
+    def test_areas_without_expansions_unchanged(self):
+        d = date(2026, 9, 27)
+        _, page = event_pages._event_page(_ev('WCU Homecoming 2026', 'Campus', 'West Chester', d), d, AREA)
+        self.assertIn('<title>WCU Homecoming 2026 — West Chester, Sun Sep 27</title>', page)
+
+
 if __name__ == '__main__':
     unittest.main()
