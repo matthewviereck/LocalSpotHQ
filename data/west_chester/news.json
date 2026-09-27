@@ -1,5 +1,14 @@
 [
   {
+    "title": "WCU plans a three-day celebration of 100 years of campus jazz",
+    "category": "News",
+    "summary": "West Chester University marks the centennial of its Criterions Jazz Ensemble Nov. 6-8 with a free welcome concert, a free masterclass with vibraphonist Stefon Harris, a ticketed dance soiree and a centennial concert. Proceeds support a new endowment for the jazz program.",
+    "date": "2026-09-25",
+    "loc": "West Chester University, West Chester",
+    "link": "https://www.mychesco.com/a/education/colleges-universities/wcu/wcu-celebrates-a-century-of-jazz-with-three-days-of-music/",
+    "img": ""
+  },
+  {
     "title": "West Goshen drafts licensing rules for short-term rentals",
     "category": "Development",
     "summary": "Proposed rules would require short-term rental hosts to get an annual license and inspection, file floor plans and parking details, and keep a guest register, with one off-street space per bedroom and $250-a-day fines for violations. Supervisors plan to vote Oct. 20.",
@@ -27,21 +36,21 @@
     "img": ""
   },
   {
+    "title": "West Chester Co-op sets its grand-opening party for Oct. 2",
+    "category": "Now Open",
+    "summary": "The community-owned grocery at 204 W. Market St., open daily 8 a.m. to 8 p.m. since August, holds a ribbon cutting at 3:30 p.m. Friday, Oct. 2, followed by tastings, store tours and member sign-ups until 7 p.m.",
+    "date": "2026-09-24",
+    "loc": "204 W. Market Street, West Chester",
+    "link": "https://patch.com/pennsylvania/westchester/calendar/event/20261002/47e17c08-4eda-4cb7-9d69-09f33601a54a/co-op-grocery-store-grand-opening-celebration",
+    "img": ""
+  },
+  {
     "title": "WCU and Cheyney join a statewide push to bus students to college visits",
     "category": "News",
     "summary": "West Chester and Cheyney universities are part of the first outreach effort coordinated across all 10 State System schools, with the PASSHE Foundation covering transportation. The eastern Pennsylvania leg runs Nov. 2-10.",
     "date": "2026-09-24",
     "loc": "West Chester University, West Chester",
     "link": "https://www.mychesco.com/a/education/colleges-universities/wcu/cheyney-west-chester-join-statewide-college-access-push/",
-    "img": ""
-  },
-  {
-    "title": "QVC Group starts over in West Chester after shedding $5 billion in debt",
-    "category": "News",
-    "summary": "The Wilson Drive shopping network left Chapter 11 on Aug. 6 with its long-term debt cut from $6.6 billion to $1.3 billion, a new $600 million lending facility and a Nasdaq listing under QVCG. Former chief Mike George has returned as board chairman and interim CEO while the company searches for a permanent leader.",
-    "date": "2026-09-19",
-    "loc": "1200 Wilson Drive, West Chester",
-    "link": "https://vista.today/2026/09/qvc-group-bankruptcy-comeback/",
     "img": ""
   },
   {
@@ -78,15 +87,6 @@
     "date": "2026-09-16",
     "loc": "225 N. High Street, West Chester",
     "link": "https://mycchc.org/collison-brings-museum-leadership-and-curatorial-experience-to-the-role/",
-    "img": ""
-  },
-  {
-    "title": "West Chester starts enforcing its 35-gallon trash can limit after Sept. 30",
-    "category": "News",
-    "summary": "The borough's updated garbage ordinance caps curbside trash cans at 35 gallons, and Public Works says larger cans will stop being collected once a grace period ends Sept. 30, with fines possible after that. The borough says it has no approved alternative for households that need bigger containers.",
-    "date": "2026-09-11",
-    "loc": "West Chester Borough",
-    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-sept-11-2026",
     "img": ""
   }
 ]
