@@ -23,104 +23,6 @@
     "action_link": "https://www.peopleslight.org/whats-on/20262027-season/topdogunderdog/"
   },
   {
-    "id": "discovered_fall_arts_fest_at_kerr_20260927",
-    "type": "event",
-    "title": "Fall Arts Fest at Kerr Park",
-    "venue_info": {
-      "name": "Kerr Park, Downingtown",
-      "location": {
-        "lat": 40.0003,
-        "lng": -75.7035
-      }
-    },
-    "raw_date_string": "Sep 27, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "time": "12:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downingtown.org/Calendar.aspx?EID=1469"
-  },
-  {
-    "id": "discovered_kennett_flash_members_party_with_20260927",
-    "type": "event",
-    "title": "Kennett Flash Members' Party with Flint Hill",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Sep 27, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "time": "5:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/kennett-flash-members-party-w-flint-hill/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_peoples_light_oktoberfest_20260927",
-    "type": "event",
-    "title": "Oktoberfest at The Farmhouse",
-    "venue_info": {
-      "name": "People's Light, Malvern",
-      "location": {
-        "lat": 40.0445,
-        "lng": -75.5432
-      }
-    },
-    "raw_date_string": "Sep 27, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Live Music",
-        "Outdoor"
-      ],
-      "time": "12:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.peopleslight.org/whats-on/events/2026/oktoberfest-september-27/"
-  },
-  {
-    "id": "discovered_plein_air_kuerner_farm_20260927",
-    "type": "event",
-    "title": "Plein Air Day at Kuerner Farm",
-    "venue_info": {
-      "name": "Kuerner Farm, Chadds Ford",
-      "location": {
-        "lat": 39.866,
-        "lng": -75.601
-      }
-    },
-    "raw_date_string": "Sep 27, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/plein-air-day-kuerner-farm-7"
-  },
-  {
     "id": "discovered_children_s_read_aloud_program_20261001",
     "type": "event",
     "title": "Children's Read-Aloud Program",
@@ -2869,5 +2771,82 @@
       "image": ""
     },
     "action_link": "https://www.brandywinebattlefield.org/events/"
+  },
+  {
+    "id": "discovered_true_crime_on_trial_downingtown_20260929",
+    "type": "event",
+    "title": "True Crime on Trial (Chester County History Center)",
+    "venue_info": {
+      "name": "Victory Brewing Company, Downingtown",
+      "location": {
+        "lat": 40.0209,
+        "lng": -75.6937
+      }
+    },
+    "raw_date_string": "Sep 29, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "21+",
+        "History"
+      ],
+      "price": "$20",
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mycchc.org/calendar-events/true-crime-on-trial-downingtown-pa-3/2026-09-29/"
+  },
+  {
+    "id": "discovered_kennett_flash_mallet_mob_20261030",
+    "type": "event",
+    "title": "Mallet Mob: Kennett Flash Fundraiser",
+    "venue_info": {
+      "name": "Anson B. Nixon Park, Kennett Square",
+      "location": {
+        "lat": 39.8537,
+        "lng": -75.7108
+      }
+    },
+    "raw_date_string": "Oct 30, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Live Music"
+      ],
+      "price": "$75",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettflash.org/event/2026-mallet-mob/kennett-flash/kennett-square-pennsylvania/"
+  },
+  {
+    "id": "discovered_garrett_boys_kennett_flash_20261110",
+    "type": "event",
+    "title": "Garrett Boys",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.8468,
+        "lng": -75.7116
+      }
+    },
+    "raw_date_string": "Nov 10, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music"
+      ],
+      "price": "$25-$28",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettflash.org/event/garrett-boys/kennett-flash/kennett-square-pennsylvania/"
   }
 ]
