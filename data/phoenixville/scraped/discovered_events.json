@@ -1,94 +1,5 @@
 [
   {
-    "id": "discovered_pxv_inside_out_20260927",
-    "type": "event",
-    "title": "PXV Inside Out Music Series – Outdoor Street Performances",
-    "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "September 27, 2026 4:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Live Music",
-        "Street Performance",
-        "Community",
-        "Family Friendly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.phoenixvillefirst.org/pxvinsideoutmusicseries"
-  },
-  {
-    "id": "discovered_mm_irish_sessions_20260927",
-    "type": "event",
-    "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
-    "venue_info": {
-      "name": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
-      "location": {
-        "lat": 40.1317,
-        "lng": -75.5149
-      }
-    },
-    "raw_date_string": "September 27, 2026 4:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Irish Music",
-        "Traditional",
-        "Acoustic",
-        "Irish Pub",
-        "Sunday Afternoon"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thesession.org/sessions/2793"
-  },
-  {
-    "id": "discovered_prfm_rootdown_20260927",
-    "type": "event",
-    "title": "Phoenixville Punk Rock Flea Market – Monthly at Root Down Brewing",
-    "venue_info": {
-      "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "September 27, 2026 11:00 AM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Flea Market",
-        "Punk",
-        "Vintage",
-        "Local Vendors",
-        "DJ",
-        "Craft Beer",
-        "Downtown Phoenixville",
-        "Monthly"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.facebook.com/phoenixvillepunkrockfleamarket/"
-  },
-  {
     "id": "discovered_comedy_open_mic_20260928",
     "type": "event",
     "title": "B&C Comedy Open Mic Night at Great American Pub",
@@ -1343,33 +1254,6 @@
       "image": ""
     },
     "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=3428"
-  },
-  {
-    "id": "discovered_earth_song_showcase_gem_20260927",
-    "type": "event",
-    "title": "Earth Song Student Band Showcase at The Gem",
-    "venue_info": {
-      "name": "The Gem Music Hall, 66 N Main St, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "September 27, 2026 5:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Student Bands",
-        "Local Talent",
-        "All Ages",
-        "Spring City"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/event-details/earth-song-student-band-showcase"
   },
   {
     "id": "discovered_baron_von_fury_watertower_20261005",
@@ -3326,5 +3210,155 @@
       "image": ""
     },
     "action_link": "https://www.troublesendbrewing.com/calendar"
+  },
+  {
+    "id": "discovered_mjt_gem_spring_city_20261003",
+    "type": "event",
+    "title": "MJT – Live at The Gem Spring City",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "October 3, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Spring City",
+        "The Gem",
+        "Saturday Night",
+        "Local Talent"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/"
+  },
+  {
+    "id": "discovered_loft_n_company_gem_20261008",
+    "type": "event",
+    "title": "Loft 'n Company with Lackadaisical Lemon – Live at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "October 8, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Spring City",
+        "The Gem",
+        "Thursday Night",
+        "Local Bands"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/"
+  },
+  {
+    "id": "discovered_zach_alasha_comedy_gem_20261009",
+    "type": "event",
+    "title": "Zach Alasha & Friends – Stand-Up Comedy Special at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "October 9, 2026 7:00 PM",
+    "attributes": {
+      "category": "Comedy",
+      "vibes": [
+        "Stand-Up Comedy",
+        "Rising Comics",
+        "Spring City",
+        "The Gem",
+        "Friday Night"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/event-details/zach-alasha-friends-standup-comedy-special"
+  },
+  {
+    "id": "discovered_autumn_under_glass_camphill_20261009",
+    "type": "event",
+    "title": "Autumn Under the Glass – Greenhouse Fall Festival at Camphill Soltane",
+    "venue_info": {
+      "name": "Camphill Soltane, 224 Nantmeal Rd, Glenmoore",
+      "location": {
+        "lat": 40.1252,
+        "lng": -75.6203
+      }
+    },
+    "raw_date_string": "October 9, 2026 5:00 PM",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Greenhouse",
+        "Live Music",
+        "Artisan Market",
+        "Hot Air Balloon Glow",
+        "Tractor Rides",
+        "Food & Beer",
+        "Fire Pit",
+        "Charity",
+        "Glenmoore"
+      ],
+      "price": "$50"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://camphillsoltane.org/fallfestival"
+  },
+  {
+    "id": "discovered_sweet_lillies_gem_20261013",
+    "type": "event",
+    "title": "The Sweet Lillies with Paper Graves – Live at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "October 13, 2026 7:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Live Music",
+        "Folk",
+        "Acoustic",
+        "Guitar",
+        "Viola",
+        "Upright Bass",
+        "Vocal Harmonies",
+        "Spring City",
+        "The Gem",
+        "Tuesday Night"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/event-details/the-sweet-lillies-with-paper-graves"
   }
 ]
