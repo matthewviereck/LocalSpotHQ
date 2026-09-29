@@ -2848,5 +2848,57 @@
       "image": ""
     },
     "action_link": "https://kennettflash.org/event/garrett-boys/kennett-flash/kennett-square-pennsylvania/"
+  },
+  {
+    "id": "discovered_longwood_indigenous_peoples_day_20261012",
+    "type": "event",
+    "title": "Indigenous Peoples' Day at Longwood Gardens",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8719,
+        "lng": -75.675
+      }
+    },
+    "raw_date_string": "Oct 12, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Family"
+      ],
+      "price": "Free with gardens admission",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/indigenous-peoples-day"
+  },
+  {
+    "id": "discovered_malvern_cabin_oktoberfest_20261003",
+    "type": "event",
+    "title": "Malvern Cabin Oktoberfest",
+    "venue_info": {
+      "name": "Malvern Memorial Cabin, Malvern",
+      "location": {
+        "lat": 40.0335,
+        "lng": -75.516
+      }
+    },
+    "raw_date_string": "Oct 3, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Outdoor",
+        "Family"
+      ],
+      "price": "$10 advance / $15 door; under 18 free",
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/2026-malvern-cabin-oktoberfest-tickets-1998489383544"
   }
 ]
