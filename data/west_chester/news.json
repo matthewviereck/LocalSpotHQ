@@ -1,5 +1,32 @@
 [
   {
+    "title": "Steadicam inventor builds his Zeen mobility device in a West Chester factory",
+    "category": "News",
+    "summary": "Garrett Brown, who invented the Steadicam, and Exokinetics Inc. assemble the Zeen, a walker-wheelchair hybrid that lets users move between sitting and standing, at their West Chester facility. Each unit is customized, and the company says it has now built thousands.",
+    "date": "2026-09-30",
+    "loc": "West Chester",
+    "link": "https://vista.today/2026/09/zeen-mobility-device-west-chester/",
+    "img": ""
+  },
+  {
+    "title": "Barclay Friends earns a national seal for its memory care",
+    "category": "News",
+    "summary": "The West Chester senior living community received the National Council of Certified Dementia Practitioners' Memory Care Excellence Network seal for 2026. Staff there complete dementia-practitioner certification plus six hours of dementia training every year.",
+    "date": "2026-09-30",
+    "loc": "Barclay Friends, West Chester",
+    "link": "https://vista.today/2026/09/barclay-friends-earns-national-recognition-for-excellence-in-memory-care/",
+    "img": ""
+  },
+  {
+    "title": "Chester County's measles count climbs to 83 as officials push vaccination",
+    "category": "News",
+    "summary": "The state health department reports 18 new Chester County cases in the past two weeks, bringing the county's total this year to 83, third-highest in Pennsylvania. County officials urge residents to check their immunity; more than 5,300 MMR shots have been given at pop-up clinics.",
+    "date": "2026-09-29",
+    "loc": "Chester County",
+    "link": "https://patch.com/pennsylvania/westchester/measles-cases-near-1-000-pa-where-chester-county-stands",
+    "img": ""
+  },
+  {
     "title": "West Bradford Fire Company launches a drive for new volunteers",
     "category": "News",
     "summary": "The all-volunteer company, which answered 417 calls in 2025 across a 32-square-mile district, has opened a recruitment website and a \"Make the Choice. Be the Change.\" campaign. No experience is needed, training and gear are free, and roles range from apprentice firefighters age 16 and up to senior firefighters.",
@@ -63,15 +90,6 @@
     "img": ""
   },
   {
-    "title": "Borough signs off on West Chester University's campus master plan",
-    "category": "Development",
-    "summary": "Council approved the university's 800-page master plan with conditions after more than a year of negotiation over student housing, parking and public-realm changes. The plan sets the framework borough officials will measure future campus projects against.",
-    "date": "2026-09-18",
-    "loc": "West Chester University, West Chester",
-    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-sept-18-2026",
-    "img": ""
-  },
-  {
     "title": "Draft 2027 budget swaps the repealed stormwater fee for a tax increase",
     "category": "News",
     "summary": "Borough staff presented a 2027 budget Tuesday, Sept. 15 that raises property taxes to replace the roughly $1.2 million a year lost when the Stream Protection Fee was repealed. Borough Manager Sean Mettrick put the typical household's current tax-and-fee bill near $2,200, and the borough posted an online tool for comparing the old fee with the proposed tax.",
@@ -87,15 +105,6 @@
     "date": "2026-09-18",
     "loc": "676 Copeland School Road, East Bradford",
     "link": "https://www.mychesco.com/a/news/government/east-bradford-resets-vote-on-broad-township-code-changes/",
-    "img": ""
-  },
-  {
-    "title": "Chester County History Center names Kim Collison its next president",
-    "category": "News",
-    "summary": "The High Street institution's trustees picked Collison, most recently Curator of Exhibitions at Winterthur Museum, to lead it starting Monday, Sept. 21. She spent a decade at Winterthur and guided its 2023 Ann Lowe: American Couturier show, the largest display to date of the trailblazing Black designer's gowns.",
-    "date": "2026-09-16",
-    "loc": "225 N. High Street, West Chester",
-    "link": "https://mycchc.org/collison-brings-museum-leadership-and-curatorial-experience-to-the-role/",
     "img": ""
   }
 ]
