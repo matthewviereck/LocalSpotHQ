@@ -3823,5 +3823,65 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/live-music/rachael-vilray/"
+  },
+  {
+    "id": "discovered_troubles_end_karaoke_oct16_20261016",
+    "type": "event",
+    "title": "Live Band Karaoke at Troubles End Brewing – Third Friday",
+    "venue_info": {
+      "name": "Troubles End Brewing, 50 W Third Ave, Collegeville",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "October 16, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Live Band Karaoke",
+        "Collegeville",
+        "Brewery",
+        "Third Friday",
+        "Community",
+        "All Ages"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.troublesendbrewing.com/live-music-calendar"
+  },
+  {
+    "id": "discovered_spring_city_trunk_treat_20261023",
+    "type": "event",
+    "title": "Spring City Trunk or Treat",
+    "venue_info": {
+      "name": "Spring City Borough, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "October 23, 2026 5:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Halloween",
+        "Trunk or Treat",
+        "Family Friendly",
+        "Kids",
+        "Outdoor",
+        "Spring City"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.springcitypa.gov"
   }
 ]
