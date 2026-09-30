@@ -2773,32 +2773,6 @@
     "action_link": "https://www.brandywinebattlefield.org/events/"
   },
   {
-    "id": "discovered_true_crime_on_trial_downingtown_20260929",
-    "type": "event",
-    "title": "True Crime on Trial (Chester County History Center)",
-    "venue_info": {
-      "name": "Victory Brewing Company, Downingtown",
-      "location": {
-        "lat": 40.0209,
-        "lng": -75.6937
-      }
-    },
-    "raw_date_string": "Sep 29, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "21+",
-        "History"
-      ],
-      "price": "$20",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://mycchc.org/calendar-events/true-crime-on-trial-downingtown-pa-3/2026-09-29/"
-  },
-  {
     "id": "discovered_kennett_flash_mallet_mob_20261030",
     "type": "event",
     "title": "Mallet Mob: Kennett Flash Fundraiser",
