@@ -3883,5 +3883,205 @@
       "image": ""
     },
     "action_link": "https://www.springcitypa.gov"
+  },
+  {
+    "id": "discovered_intl_cheese_wine_festival_20261010",
+    "type": "event",
+    "title": "International Cheese & Wine Festival – Oaks",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "October 10–11, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Food & Drink",
+        "Wine",
+        "Cheese",
+        "Sampling",
+        "21+",
+        "Weekend"
+      ],
+      "price": "$47–$84"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/1979157240584"
+  },
+  {
+    "id": "discovered_fright_night_the_haunting_20261011",
+    "type": "event",
+    "title": "Fright Night Film: The Haunting (1963) at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "October 11, 2026",
+    "attributes": {
+      "category": "Film",
+      "vibes": [
+        "Horror",
+        "Classic Film",
+        "Halloween",
+        "Indoor",
+        "Historic Venue"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/"
+  },
+  {
+    "id": "discovered_fright_night_the_love_witch_20261015",
+    "type": "event",
+    "title": "Fright Night Film: The Love Witch (2016) at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "October 15, 2026",
+    "attributes": {
+      "category": "Film",
+      "vibes": [
+        "Horror",
+        "Technicolor",
+        "Halloween",
+        "Indoor",
+        "Unique"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/"
+  },
+  {
+    "id": "discovered_hocus_pocus_family_screening_20261016",
+    "type": "event",
+    "title": "Hocus Pocus – Halloween Family Screening at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "October 16, 2026",
+    "attributes": {
+      "category": "Film",
+      "vibes": [
+        "Family",
+        "Halloween",
+        "Classic Film",
+        "Indoor",
+        "Historic Venue"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/hocus-pocus-2"
+  },
+  {
+    "id": "discovered_hocus_pocus_ghouls_night_out_20261016",
+    "type": "event",
+    "title": "Hocus Pocus: Ghouls Night Out – Adult-Only Screening & Dance Party",
+    "venue_info": {
+      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "October 16, 2026",
+    "attributes": {
+      "category": "Film",
+      "vibes": [
+        "21+",
+        "Halloween",
+        "Dance Party",
+        "Costumes",
+        "Indoor",
+        "Night Out"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/hocus-pocus-ghouls-night-out-adult-only-screening-party-dance"
+  },
+  {
+    "id": "discovered_practical_magic_witchy_wednesday_20261021",
+    "type": "event",
+    "title": "Practical Magic (1998) – Witchy Wednesday at Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "October 21, 2026",
+    "attributes": {
+      "category": "Film",
+      "vibes": [
+        "Halloween",
+        "Witch",
+        "Classic Film",
+        "Indoor",
+        "Wednesday Night"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/practical-magic"
+  },
+  {
+    "id": "discovered_gett_girls_exploring_tech_20261024",
+    "type": "event",
+    "title": "GETT 2026 – Girls Exploring Tomorrow's Technology",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "October 24, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "STEM",
+        "Family",
+        "Girls",
+        "Education",
+        "Free",
+        "Hands-On",
+        "Saturday"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://happeningnext.com/event/girls-exploring-tomorrows-technology-2026-eid1ef0ktxm7d1a"
   }
 ]
