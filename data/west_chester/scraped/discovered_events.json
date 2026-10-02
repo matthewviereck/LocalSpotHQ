@@ -23,56 +23,6 @@
     "action_link": "https://www.peopleslight.org/whats-on/20262027-season/topdogunderdog/"
   },
   {
-    "id": "discovered_children_s_read_aloud_program_20261001",
-    "type": "event",
-    "title": "Children's Read-Aloud Program",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8688,
-        "lng": -75.5878
-      }
-    },
-    "raw_date_string": "Oct 1, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family Friendly",
-        "Indoor"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/childrens-read-aloud-program-5"
-  },
-  {
-    "id": "discovered_town_tours_village_walks_kennett_20261001",
-    "type": "event",
-    "title": "Town Tours & Village Walks: Kennett Square, A Hotbed of Social Reform",
-    "venue_info": {
-      "name": "Downtown Kennett Square, Kennett Square",
-      "location": {
-        "lat": 39.8465,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Oct 1, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free",
-      "time": "5:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.chescoplanning.org/historic/towntours/"
-  },
-  {
     "id": "discovered_a_little_night_of_music_20261002",
     "type": "event",
     "title": "A Little Night of Music",
