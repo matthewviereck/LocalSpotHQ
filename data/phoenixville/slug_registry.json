@@ -3,7 +3,7 @@
  "slugs": {
   "13th-comedy-class-graduation-show-at-souljoel-s": {
    "first_seen": "2026-08-21",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "14th Comedy Class Graduation Show – SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-19"
@@ -34,7 +34,7 @@
    "title": "2nd Annual Halloween Harvest Market at Reeves Park",
    "venue": "Reeves Park, 2nd Ave & Starr St, Phoenixville",
    "date": "2026-10-31",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "33rd-annual-al-laskey-memorial-auto-show": {
    "first_seen": "2026-07-25",
@@ -55,14 +55,14 @@
    "title": "3rd Annual Howl-O-Ween Dog Parade – Royersford",
    "venue": "Riverfront Park, Royersford",
    "date": "2026-10-24",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "40th-annual-phoenixville-run-super-hero-5k-10k": {
    "first_seen": "2026-09-09",
    "title": "40th Annual Phoenixville Run – Super Hero 5K & 10K",
    "venue": "Reeves Park, Phoenixville",
    "date": "2026-10-24",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "41st-annual-canal-day-at-lock-60-schuylkill-canal": {
    "first_seen": "2026-06-06",
@@ -83,7 +83,7 @@
    "title": "4th Annual Shop Small Business Saturday at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-28",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "63rd-annual-philadelphia-folk-festival-opening-day": {
    "first_seen": "2026-07-15",
@@ -98,14 +98,14 @@
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-10-24",
    "end": "2026-10-25",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "90s-night": {
    "first_seen": "2026-09-03",
    "title": "90s Night",
    "venue": "The Colonial Theatre",
    "date": "2026-11-13",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "9th-annual-blobfest-5k-10k-half-marathon": {
    "first_seen": "2026-06-16",
@@ -119,14 +119,14 @@
    "title": "A Charlie Brown Christmas with the Eric Mintel Quartet",
    "venue": "The Colonial Theatre",
    "date": "2026-11-28",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "a-court-of-splintered-harmony-midnight-release-party-at-colonial-theatre": {
    "first_seen": "2026-09-17",
    "title": "A Court of Splintered Harmony – Midnight Release Party at Colonial Theatre",
    "venue": "The Colonial Theatre – Bank Lobby",
    "date": "2026-10-26",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "a-crow-left-of-keywork-part-foo-incubus-coheed-foo-fighters-tribute": {
    "first_seen": "2026-07-06",
@@ -137,7 +137,7 @@
   },
   "a-night-with-spirit-psychic-medium-experience-at-souljoel-s": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "A Night with Spirit – Psychic Medium Experience at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook – Melody Room, Pottstown",
    "date": "2026-10-28"
@@ -154,7 +154,7 @@
    "title": "Adam Carolla – Live Stand-Up Comedy",
    "venue": "SoulJoel's at SunnyBrook, Pottstown",
    "date": "2026-10-09",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "adam-ferrara-live-stand-up-comedy": {
    "first_seen": "2026-08-12",
@@ -196,7 +196,21 @@
    "title": "WXPN WELCOMES & Allison Russell",
    "venue": "The Colonial Theatre",
    "date": "2026-10-28",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
+  },
+  "am-radio-60s-70s-tribute-band-at-souljoel-s-friday": {
+   "first_seen": "2026-10-02",
+   "title": "AM Radio – 60s & 70s Tribute Band at SoulJoel's (Friday)",
+   "venue": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
+   "date": "2026-10-30",
+   "last_seen": "2026-10-02"
+  },
+  "am-radio-60s-70s-tribute-band-halloween-night-at-souljoel-s": {
+   "first_seen": "2026-10-02",
+   "title": "AM Radio – 60s & 70s Tribute Band Halloween Night at SoulJoel's",
+   "venue": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
+   "date": "2026-10-31",
+   "last_seen": "2026-10-02"
   },
   "amber-wallin-comedy-debut-at-souljoel-s": {
    "first_seen": "2026-08-25",
@@ -210,7 +224,7 @@
    "title": "An Evening with Buena Vista Orchestra",
    "venue": "The Colonial Theatre",
    "date": "2026-10-07",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "an-evening-with-cliff-hillis-the-forward-thinkers": {
    "first_seen": "2026-08-29",
@@ -224,11 +238,11 @@
    "title": "ANA GASTEYER SUGAR & BOOZE HOLIDAY SPECTACULAR",
    "venue": "The Colonial Theatre",
    "date": "2026-12-03",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "animate-philadelphia-2026-anime-pop-culture-convention": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Animate! Philadelphia 2026 – Anime & Pop Culture Convention",
    "venue": "Greater Philadelphia Expo Center, Oaks",
    "date": "2026-10-02",
@@ -246,7 +260,7 @@
    "title": "Antique & Collector Fair – Fall 2026 Show",
    "venue": "Greater Philadelphia Expo Center, Halls D & E, Oaks",
    "date": "2026-10-16",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "end": "2026-10-17"
   },
   "art-house-cinema-sunday-at-colonial-theatre": {
@@ -261,21 +275,21 @@
    "title": "Asi Wind: AWE – Live Mentalist & Magic Show",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-24",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "autumn-nicholas-live-at-colonial-theatre": {
    "first_seen": "2026-09-10",
    "title": "Allison Russell with Autumn Nicholas",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-28",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "autumn-under-the-glass-greenhouse-fall-festival-at-camphill-soltane": {
    "first_seen": "2026-09-28",
    "title": "Autumn Under the Glass – Greenhouse Fall Festival at Camphill Soltane",
    "venue": "Camphill Soltane, 224 Nantmeal Rd, Glenmoore",
    "date": "2026-10-09",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "b-c-comedy-open-mic-at-great-american-pub": {
    "first_seen": "2026-08-22",
@@ -310,7 +324,7 @@
    "title": "Baron Von Fury, Moderate Rock & All The Living and The Dead – Live at Water Tower",
    "venue": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
    "date": "2026-10-05",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "be-kind-rewind-90s-cover-band-at-trouble-s-end-brewing": {
    "first_seen": "2026-06-25",
@@ -324,7 +338,7 @@
    "title": "Be Kind Rewind – Ultimate 90s Experience at Water Tower Live",
    "venue": "The Water Tower Live, 2200 W Dr, Oaks",
    "date": "2026-10-17",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "beadfest-2026-25th-anniversary": {
    "first_seen": "2026-07-20",
@@ -366,14 +380,14 @@
    "title": "Best of Pennsylvania’s Funniest 2026 – Comedy Showcase",
    "venue": "SoulJoel’s at SunnyBrook, Pottstown",
    "date": "2026-10-22",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "betterducks-with-opener-rodeo-day": {
    "first_seen": "2026-09-26",
    "title": "BETTERDUCKS WITH OPENER RODEO DAY",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2026-10-17",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "bha-pa-chapter-pint-night-at-root-down-brewing": {
    "first_seen": "2026-07-23",
@@ -387,7 +401,7 @@
    "title": "Billy Gardell – Live Stand-Up Comedy at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-21",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "bite-for-the-fight-benefitting-fight-on-makenna-foundation": {
    "first_seen": "2026-09-03",
@@ -402,7 +416,7 @@
    "venue": "The Colonial Theatre",
    "date": "2027-07-09",
    "end": "2027-07-11",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "blobfest-2026-cirque-du-blobfest": {
    "first_seen": "2026-06-04",
@@ -416,7 +430,7 @@
    "title": "Blobfest - 5K/10K/Half Marathon",
    "venue": "The Colonial Theatre & Downtown",
    "date": "2027-07-11",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "blobfest-afterparty-tribute-of-terror-horror-tribute-bands": {
    "first_seen": "2026-06-29",
@@ -430,21 +444,21 @@
    "title": "Blobfest - Opening Night",
    "venue": "The Colonial Theatre & Downtown",
    "date": "2027-07-09",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "blobfest-street-fair": {
    "first_seen": "2026-09-03",
    "title": "Blobfest - Street Fair",
    "venue": "The Colonial Theatre & Downtown",
    "date": "2027-07-10",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "boat-house-row-yacht-rock-experience": {
    "first_seen": "2026-09-03",
    "title": "Boat House Row – Yacht Rock Experience",
    "venue": "The Colonial Theatre",
    "date": "2026-11-27",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "bob-pantano-saturday-night-dance-party-live-at-souljoel-s": {
    "first_seen": "2026-07-21",
@@ -458,7 +472,7 @@
    "title": "Books, Brews & Tattoos – Session 2 at Twelve78 Brewing",
    "venue": "Twelve78 Brewing Co., 35 Bridge St, Phoenixville",
    "date": "2026-10-18",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "brad-upton-live-comedy-at-souljoel-s": {
    "first_seen": "2026-07-21",
@@ -472,7 +486,7 @@
    "title": "Breast Intentions with Missy Hall & Maureen Ferguson",
    "venue": "SoulJoel's at SunnyBrook, Pottstown",
    "date": "2026-10-08",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "brickfair-lego-fan-expo-philadelphia": {
    "first_seen": "2026-09-23",
@@ -480,14 +494,14 @@
    "venue": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
    "date": "2026-11-07",
    "end": "2026-11-08",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "broadway-at-the-colonial-theatre": {
    "first_seen": "2026-09-23",
    "title": "Broadway at the Colonial Theatre",
    "venue": "The Colonial Theatre",
    "date": "2026-11-21",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "broadway-at-the-colonial-theatre-stars-of-wicked-frozen-the-great-gatsby": {
    "first_seen": "2026-06-06",
@@ -515,14 +529,14 @@
    "title": "Celtic Christmas Experience – Live at SunnyBrook Ballroom",
    "venue": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
    "date": "2026-12-20",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "ceramics-national-exhibition": {
    "first_seen": "2026-09-05",
    "title": "Ceramics National",
    "venue": "Historic Yellow Springs, Chester Springs",
    "date": "2026-11-06",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "end": "2026-12-13"
   },
   "chester-county-pridefest-2026": {
@@ -607,28 +621,28 @@
    "title": "Claudio Simonetti's Goblin – Tenebre Live at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-21",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "clean-comedy-with-matt-jenkins-souljoel-s": {
    "first_seen": "2026-09-21",
    "title": "Clean Comedy with Matt Jenkins – SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-07",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "coco-family-film-screening-at-colonial-theatre": {
    "first_seen": "2026-09-13",
    "title": "Coco (2017) – Family Film Screening at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-03",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "colby-t-helms-the-virginia-creepers-with-red-tailed-rounders": {
    "first_seen": "2026-09-29",
    "title": "Colby T. Helms & The Virginia Creepers with Red Tailed Rounders",
    "venue": "The Gem Music Hall, 66 N Main St, Spring City",
    "date": "2026-10-22",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "cold-war-in-philly-flyers-vs-russia-1976-documentary-screening-q-a": {
    "first_seen": "2026-06-05",
@@ -677,14 +691,14 @@
    "title": "Comedy Fundraiser for Mostly Muttz Rescue at SoulJoel’s",
    "venue": "SoulJoel’s at SunnyBrook, Pottstown",
    "date": "2026-10-29",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "comedy-fundraiser-for-trappe-fire-company-with-julian-mccullough": {
    "first_seen": "2026-09-15",
    "title": "Comedy Fundraiser for Trappe Fire Company with Julian McCullough",
    "venue": "Trappe Fire Company #1, 20 W 5th Ave, Trappe",
    "date": "2026-10-17",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "comedy-fundraiser-pennhurst-legacy-project": {
    "first_seen": "2026-08-13",
@@ -712,7 +726,7 @@
    "title": "Countess LuAnn LOVE Tour – Cabaret at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-15",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "craft-cinema-the-craft-1994": {
    "first_seen": "2026-06-29",
@@ -733,7 +747,7 @@
    "title": "Craig Bickhardt Band – Live at Steel City Coffeehouse",
    "venue": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
    "date": "2026-11-21",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "crowd-pleasers-clue-1985-at-colonial-theatre": {
    "first_seen": "2026-06-29",
@@ -758,24 +772,31 @@
   },
   "deepspace90s": {
    "first_seen": "2026-06-11",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "DeepSpace90s",
    "venue": "Molly Maguire's Irish Pub",
    "date": "2026-10-23"
+  },
+  "dibbs-the-detonators-rockabilly-party-band-at-souljoel-s": {
+   "first_seen": "2026-10-02",
+   "title": "Dibbs & The Detonators – Rockabilly Party Band at SoulJoel's",
+   "venue": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
+   "date": "2026-10-04",
+   "last_seen": "2026-10-02"
   },
   "die-laughing-free-comedy-open-mic-at-rivet": {
    "first_seen": "2026-09-29",
    "title": "Die Laughing Free Comedy Open Mic at Rivet",
    "venue": "Rivet: Canteen & Assembly, 238 E High St, Pottstown",
    "date": "2026-10-12",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "die-laughing-halloween-party-at-rivet": {
    "first_seen": "2026-09-26",
    "title": "Die Laughing Halloween Party at Rivet",
    "venue": "Rivet: Canteen & Assembly, 238 E High St, Pottstown",
    "date": "2026-10-31",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "die-laughing-one-year-of-killing-it": {
    "first_seen": "2026-08-27",
@@ -789,7 +810,7 @@
    "title": "Die Laughing Presents: Pass the Cannoli – Comedy Night",
    "venue": "Hotel Fiesole, 4046 Skippack Pike, Skippack",
    "date": "2026-10-17",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "dinner-with-myself-with-radiant-gray-mulberry-hill-into-sunday": {
    "first_seen": "2026-08-24",
@@ -810,7 +831,7 @@
    "title": "DJ Gabagool's Spooky Karaoke Night at Water Tower Live",
    "venue": "Water Tower Live, Oaks",
    "date": "2026-10-16",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "dog-days-of-summer-skippack-village": {
    "first_seen": "2026-08-08",
@@ -818,6 +839,13 @@
    "title": "Dog Days of Summer – Skippack Village",
    "venue": "Skippack Village, Skippack Pike, Skippack",
    "date": "2026-08-23"
+  },
+  "dragon-run-for-courage-5k-1-mile-walk-royersford": {
+   "first_seen": "2026-10-02",
+   "title": "Dragon Run for Courage 5K / 1-Mile Walk – Royersford",
+   "venue": "Spring-Ford 9th Grade Center, 400 S Lewis Rd, Royersford",
+   "date": "2026-10-03",
+   "last_seen": "2026-10-02"
   },
   "dream-asia-festival-2026-asian-food-music-culture": {
    "first_seen": "2026-08-23",
@@ -839,7 +867,7 @@
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-10-09",
    "end": "2026-10-11",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "eagle-shows-gun-show-greater-philadelphia-expo-center": {
    "first_seen": "2026-07-08",
@@ -958,7 +986,7 @@
    "title": "East Pikeland Township Community Day",
    "venue": "Kimberton Community Park, 2202 Kimberton Rd, Phoenixville",
    "date": "2026-10-04",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "eastern-firearms-expo": {
    "first_seen": "2026-09-20",
@@ -966,11 +994,11 @@
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-10-16",
    "end": "2026-10-18",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "eli-lev": {
    "first_seen": "2026-06-11",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Eli Lev – Live at Steel City Coffeehouse",
    "venue": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
    "date": "2026-10-23"
@@ -1001,14 +1029,14 @@
    "title": "Eric D’Alessandro – Live Stand-Up Comedy at SoulJoel’s",
    "venue": "SoulJoel’s at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-10-16",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "exhumed-films-24-hour-horror-thon-at-colonial-theatre": {
    "first_seen": "2026-09-09",
    "title": "Exhumed Films 24-Hour Horror-thon at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-17",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "exhumed-films-attack-of-the-super-16mm-monster-thon": {
    "first_seen": "2026-06-29",
@@ -1071,21 +1099,21 @@
    "title": "First Friday - April",
    "venue": "Downtown Phoenixville",
    "date": "2027-04-02",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "first-friday-august": {
    "first_seen": "2026-09-03",
    "title": "First Friday - August",
    "venue": "Downtown Phoenixville",
    "date": "2027-08-06",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "first-friday-december": {
    "first_seen": "2026-09-03",
    "title": "First Friday - December",
    "venue": "Downtown Phoenixville",
    "date": "2026-12-04",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "first-friday-downtown-phoenixville": {
    "first_seen": "2026-06-04",
@@ -1106,42 +1134,42 @@
    "title": "First Friday - February",
    "venue": "Downtown Phoenixville",
    "date": "2027-02-05",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "first-friday-january": {
    "first_seen": "2026-09-03",
    "title": "First Friday - January",
    "venue": "Downtown Phoenixville",
    "date": "2027-01-01",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "first-friday-july": {
    "first_seen": "2026-09-03",
    "title": "First Friday - July",
    "venue": "Downtown Phoenixville",
    "date": "2027-07-02",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "first-friday-june": {
    "first_seen": "2026-09-03",
    "title": "First Friday - June",
    "venue": "Downtown Phoenixville",
    "date": "2027-06-04",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "first-friday-march": {
    "first_seen": "2026-09-03",
    "title": "First Friday - March",
    "venue": "Downtown Phoenixville",
    "date": "2027-03-05",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "first-friday-may": {
    "first_seen": "2026-09-03",
    "title": "First Friday - May",
    "venue": "Downtown Phoenixville",
    "date": "2027-05-07",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "first-friday-november": {
    "first_seen": "2026-09-03",
@@ -1155,14 +1183,14 @@
    "title": "First Friday - October",
    "venue": "Downtown Phoenixville",
    "date": "2027-10-01",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "first-friday-september": {
    "first_seen": "2026-09-03",
    "title": "First Friday - September",
    "venue": "Downtown Phoenixville",
    "date": "2027-09-03",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "float-friday-schuylkill-river-float-at-lock-60": {
    "first_seen": "2026-06-15",
@@ -1176,7 +1204,7 @@
    "title": "Flocktoberfest 2026 – Birds of Prey & Community Festival",
    "venue": "St. Peter's Episcopal Church, 121 Church St, Phoenixville",
    "date": "2026-10-10",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "flux-capacitor-third-thursday-residency-at-the-gem": {
    "first_seen": "2026-08-22",
@@ -1190,7 +1218,7 @@
    "title": "Fourth Sunday Acoustic Jam at Steel City Coffeehouse",
    "venue": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
    "date": "2026-10-25",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "francesca-serritella-lisa-scottoline-live-at-the-colonial-theatre": {
    "first_seen": "2026-07-28",
@@ -1264,7 +1292,7 @@
   },
   "free-music-open-mic-night-at-souljoel-s-gatsby-s-pub": {
    "first_seen": "2026-08-29",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Free Music Open Mic Night at SoulJoel’s – Gatsby’s Pub",
    "venue": "SoulJoel’s at SunnyBrook – Gatsby’s Pub, Pottstown",
    "date": "2026-10-06"
@@ -1295,42 +1323,42 @@
    "title": "Fright Night Double Feature: Rosemary's Baby + Carrie",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-09",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "fright-night-film-buffy-the-vampire-slayer": {
    "first_seen": "2026-09-08",
    "title": "Fright Night Film: Buffy the Vampire Slayer (1992)",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-08",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "fright-night-film-night-of-the-living-dead-16mm-screening": {
    "first_seen": "2026-09-08",
    "title": "Fright Night Film: Night of the Living Dead (1968) – 16mm Screening",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-07",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "fright-night-film-the-haunting-at-colonial-theatre": {
    "first_seen": "2026-10-01",
    "title": "Fright Night Film: The Haunting (1963) at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-11",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "fright-night-film-the-love-witch-at-colonial-theatre": {
    "first_seen": "2026-10-01",
    "title": "Fright Night Film: The Love Witch (2016) at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-15",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "full-hunter-s-moon-ramble": {
    "first_seen": "2026-09-12",
    "title": "Full Hunter's Moon Ramble",
    "venue": "Bryn Coed Preserve, Chester Springs",
    "date": "2026-10-26",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "gem-fest-2026-multi-venue-music-arts-festival": {
    "first_seen": "2026-08-02",
@@ -1344,7 +1372,7 @@
    "title": "GETT 2026 – Girls Exploring Tomorrow's Technology",
    "venue": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
    "date": "2026-10-24",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "girls-from-mars-swing-jazz-dinner-show": {
    "first_seen": "2026-06-28",
@@ -1365,11 +1393,11 @@
    "title": "GOBLIN: Playing their score LIVE to screening of Dario Argento’s TENEBRE",
    "venue": "The Colonial Theatre",
    "date": "2026-10-21",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "good-food-fest-local-farms-food-makers-at-kimberton-fairgrounds": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Good Food Fest – Local Farms & Food Makers at Kimberton Fairgrounds",
    "venue": "Kimberton Fairgrounds, 762 Pike Springs Rd, Phoenixville",
    "date": "2026-11-01"
@@ -1421,7 +1449,14 @@
    "title": "Halloween (1978) – Fright Night Film Screening",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-25",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
+  },
+  "halloween-themed-bingo-night-at-souljoel-s": {
+   "first_seen": "2026-10-02",
+   "title": "Halloween Themed Bingo Night at SoulJoel's",
+   "venue": "SoulJoel's at SunnyBrook – Gatsby's Pub, Pottstown",
+   "date": "2026-10-21",
+   "last_seen": "2026-10-02"
   },
   "hannah-nicole-maehrer-adversary-to-the-villain-author-event": {
    "first_seen": "2026-07-04",
@@ -1456,28 +1491,28 @@
    "title": "Haunts on High – 12th Annual Halloween Celebration",
    "venue": "Downtown High Street, 138 E High St, Pottstown",
    "date": "2026-10-17",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "hazy-cosmic-jive-a-night-of-bowie": {
    "first_seen": "2026-09-22",
    "title": "hazy cosmic jive: a night of bowie",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2026-10-03",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "heather-shaw-live-stand-up-comedy-at-souljoel-s": {
    "first_seen": "2026-09-25",
    "title": "Heather Shaw – Live Stand-Up Comedy at SoulJoel’s",
    "venue": "SoulJoel’s at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-10-02",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "high-noon-a-tribute-to-lynyrd-skynyrd-southern-rock": {
    "first_seen": "2026-09-03",
    "title": "High Noon: A Tribute to Lynyrd Skynyrd & Southern Rock",
    "venue": "The Colonial Theatre",
    "date": "2027-01-23",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "highway-run-journey-heart-pat-benatar-tribute-at-the-gem": {
    "first_seen": "2026-07-07",
@@ -1488,7 +1523,7 @@
   },
   "historic-trappe-harvest-fair": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Historic Trappe Harvest Fair",
    "venue": "Muhlenberg House & Speaker's House, W Main St, Trappe",
    "date": "2026-10-10"
@@ -1498,14 +1533,14 @@
    "title": "Historic Yellow Springs Fall Festival",
    "venue": "Historic Yellow Springs, Chester Springs",
    "date": "2026-10-11",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "history-on-the-rocks-haunted-phoenixville": {
    "first_seen": "2026-09-03",
    "title": "History on the Rocks: Haunted Phoenixville",
    "venue": "The Colonial Theatre",
    "date": "2026-10-08",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "history-on-the-rocks-the-phoenix-wheel": {
    "first_seen": "2026-05-31",
@@ -1526,14 +1561,14 @@
    "title": "Hocus Pocus: Ghouls Night Out – Adult-Only Screening & Dance Party",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-16",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "hocus-pocus-halloween-family-screening-at-colonial-theatre": {
    "first_seen": "2026-10-01",
    "title": "Hocus Pocus – Halloween Family Screening at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-16",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "hot-import-nights": {
    "first_seen": "2026-09-14",
@@ -1568,7 +1603,7 @@
    "title": "HUSH: An Immersive Speakeasy Experience",
    "venue": "The Colonial Theatre",
    "date": "2026-11-14",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "hysterical-the-funny-ladies-of-summerfest": {
    "first_seen": "2026-08-06",
@@ -1589,7 +1624,7 @@
    "title": "Indie Night: Destroy the Moon, Former North, Special Hug",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2026-10-02",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "international-cheese-and-wine-festival": {
    "first_seen": "2026-09-20",
@@ -1597,7 +1632,7 @@
    "venue": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
    "date": "2026-10-10",
    "end": "2026-10-11",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "international-gem-jewelry-show-philadelphia": {
    "first_seen": "2026-08-28",
@@ -1647,7 +1682,7 @@
    "title": "Jessica Lynn’s A Very Merry Classic Christmas",
    "venue": "The Colonial Theatre",
    "date": "2026-12-04",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "jmc-running-co-10th-annual-4-hour-relay-solo-ultra-challenge": {
    "first_seen": "2026-06-22",
@@ -1661,7 +1696,7 @@
    "title": "Joe DeRosa, Home for the Holidays 2: Lost in Phoenixville",
    "venue": "The Colonial Theatre",
    "date": "2026-12-19",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "joe-devito-live-stand-up-comedy": {
    "first_seen": "2026-07-30",
@@ -1682,7 +1717,7 @@
    "title": "Joe Matarese – Live Stand-Up Comedy at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, Pottstown",
    "date": "2026-10-03",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "john-cassidy-all-ages-magic-show": {
    "first_seen": "2026-08-13",
@@ -1696,7 +1731,7 @@
    "title": "JUDY COLLINS SWEET JUDY BLUE EYES: FAREWELL TOUR",
    "venue": "The Colonial Theatre",
    "date": "2026-11-20",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "just-another-day": {
    "first_seen": "2026-09-03",
@@ -1824,7 +1859,7 @@
    "venue": "Rivet: Canteen & Assembly, 238 E High St, Pottstown",
    "date": "2026-10-09",
    "end": "2026-10-11",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "limerick-township-summer-concert-school-of-rock-performers": {
    "first_seen": "2026-07-29",
@@ -1845,7 +1880,7 @@
    "title": "Limerick Uncorked – Wine, Beer & Food Festival",
    "venue": "Limerick Community Park, Limerick Center Rd, Linfield",
    "date": "2026-10-03",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "line-dancing-night-with-boot-scootin-becky-wxtu-92-5-at-sunnybrook": {
    "first_seen": "2026-08-21",
@@ -1873,7 +1908,7 @@
    "title": "Little Mania Wrestling – Mini Champions, Massive Thrills",
    "venue": "SoulJoel’s at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-10-17",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "little-shop-of-horrors-1986-director-s-cut-crowd-pleasers-screening": {
    "first_seen": "2026-07-14",
@@ -1915,14 +1950,14 @@
    "title": "Live Band Karaoke at Troubles End Brewing – First Friday",
    "venue": "Troubles End Brewing, 50 W Third Ave, Collegeville",
    "date": "2026-10-02",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "live-band-karaoke-at-troubles-end-brewing-third-friday": {
    "first_seen": "2026-09-30",
    "title": "Live Band Karaoke at Troubles End Brewing – Third Friday",
    "venue": "Troubles End Brewing, 50 W Third Ave, Collegeville",
    "date": "2026-10-16",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "live-music-at-the-water-tower-friday-night-show": {
    "first_seen": "2026-07-22",
@@ -1957,11 +1992,11 @@
    "title": "Loft 'n Company with Lackadaisical Lemon – Live at The Gem",
    "venue": "The Gem Music Hall, 66 N Main St, Spring City",
    "date": "2026-10-08",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "love-you-to-with-ethan-neal-beatles-tribute-alt-country-soundscape": {
    "first_seen": "2026-08-29",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Love You to with Ethan Neal: beatles tribute & Alt-country soundscape",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2027-09-26"
@@ -1999,7 +2034,7 @@
    "title": "Masood Boomgaard & Self-Help Singh – Comedy Debut at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-14",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "mavis-staples-live-in-concert": {
    "first_seen": "2026-06-24",
@@ -2027,14 +2062,14 @@
    "title": "Mike Rainey – Live Stand-Up Comedy",
    "venue": "SoulJoel's at SunnyBrook, Pottstown",
    "date": "2026-10-08",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "mjt-live-at-the-gem-spring-city": {
    "first_seen": "2026-09-28",
    "title": "MJT – Live at The Gem Spring City",
    "venue": "The Gem Music Hall, 66 N Main St, Spring City",
    "date": "2026-10-03",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "mojo-hotel-a-tribute-to-the-doors": {
    "first_seen": "2026-08-14",
@@ -2049,7 +2084,7 @@
    "venue": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
    "date": "2026-11-20",
    "end": "2026-11-22",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "montco-coffee-chocolate-festival-at-souljoel-s": {
    "first_seen": "2026-07-18",
@@ -2099,7 +2134,7 @@
    "venue": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
    "date": "2026-11-14",
    "end": "2026-11-15",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "native-plant-work-day-with-perkiomen-watershed-conservancy": {
    "first_seen": "2026-09-03",
@@ -2121,21 +2156,21 @@
    "title": "New Year's Eve at SunnyBrook Ballroom w/ The Uptown Band",
    "venue": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
    "date": "2026-12-31",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "nick-dipaolo-live-stand-up-comedy-at-souljoel-s": {
    "first_seen": "2026-09-23",
    "title": "Nick DiPaolo – Live Stand-Up Comedy at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-07",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "nicks-in-time-stevie-nicks-fleetwood-mac-tribute": {
    "first_seen": "2026-09-29",
    "title": "Nicks in Time – Stevie Nicks & Fleetwood Mac Tribute",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-04",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "night-of-the-leos-2026-multi-act-leo-season-celebration": {
    "first_seen": "2026-07-07",
@@ -2160,7 +2195,7 @@
   },
   "nosferatu-1922-with-live-theatre-organ-accompaniment": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Nosferatu (1922) with Live Theatre Organ Accompaniment",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-27"
@@ -2170,7 +2205,7 @@
    "title": "Oaks Gun Show at Greater Philadelphia Expo Center",
    "venue": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
    "date": "2026-10-16",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "end": "2026-10-18"
   },
   "oaks-gun-show-eagle-shows": {
@@ -2185,21 +2220,21 @@
    "title": "Oktoberruck – Phoenixville Fall Food Truck Event",
    "venue": "131 Bridge St (in front of Sedona Taphouse), Phoenixville",
    "date": "2026-10-05",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "orion-communities-presents-orion-communities-presents-music-for-everyone-vanessa": {
    "first_seen": "2026-09-03",
    "title": "Orion Communities Presents Orion Communities Presents Music For Everyone: Vanessa Collier",
    "venue": "The Colonial Theatre",
    "date": "2026-11-12",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "orlando-jones-live-stand-up-comedy-at-souljoel-s": {
    "first_seen": "2026-09-13",
    "title": "Orlando Jones – Live Stand-Up Comedy at SoulJoel’s",
    "venue": "SoulJoel’s at SunnyBrook, Pottstown",
    "date": "2026-10-17",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "out-in-the-world-a-benefit-concert-for-parzival-supports": {
    "first_seen": "2026-08-29",
@@ -2221,7 +2256,7 @@
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-10-24",
    "end": "2026-10-25",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "pa-one-call-safety-day": {
    "first_seen": "2026-09-06",
@@ -2251,12 +2286,20 @@
    "venue": "Paranormal Cirque Big Top, Oaks PA",
    "date": "2026-09-04"
   },
+  "pennhurst-asylum-haunted-attraction-october-season": {
+   "first_seen": "2026-10-02",
+   "title": "Pennhurst Asylum – Haunted Attraction (October Season)",
+   "venue": "Pennhurst Asylum, 601 N Church St, Spring City",
+   "date": "2026-10-02",
+   "end": "2026-11-01",
+   "last_seen": "2026-10-02"
+  },
   "pennsylvania-chocolate-coffee-festival": {
    "first_seen": "2026-09-13",
    "title": "Pennsylvania Chocolate & Coffee Festival 2026",
    "venue": "Greater Philadelphia Expo Center, Hall A, Oaks",
    "date": "2026-10-24",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "end": "2026-10-25"
   },
   "pennsylvania-national-quilt-extravaganza": {
@@ -2286,7 +2329,7 @@
    "title": "Perfect Strangers – Live at Water Tower Live, Oaks",
    "venue": "The Water Tower Live at Arnold’s Entertainment Center, Oaks",
    "date": "2026-10-30",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "pet-sounds-live-a-beach-boys-celebration": {
    "first_seen": "2026-08-19",
@@ -2300,7 +2343,7 @@
    "title": "PFS MAC Presents: The Edge Hill Rounders and CubiZm's Album Release Show - 10/10",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2026-10-10",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "philadelphia-oddities-curiosities-expo": {
    "first_seen": "2026-07-19",
@@ -2321,7 +2364,7 @@
    "title": "Phillies Themed Inclusive Dance Night at SoulJoel’s",
    "venue": "SoulJoel’s at SunnyBrook – SunnyBrook Ballroom, Pottstown",
    "date": "2026-10-09",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "philly-phavorites-expo": {
    "first_seen": "2026-06-24",
@@ -2349,21 +2392,21 @@
    "title": "Phoenix Chamber & The Colonial Present Phoenix Chamber: Concert III",
    "venue": "The Colonial Theatre",
    "date": "2027-03-16",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "phoenix-chamber-the-colonial-present-phoenix-chamber-concert-iv": {
    "first_seen": "2026-09-30",
    "title": "Phoenix Chamber & The Colonial Present Phoenix Chamber: Concert IV",
    "venue": "The Colonial Theatre",
    "date": "2027-05-18",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "phoenix-chamber-the-colonial-present-phoenix-chamber-music-concert-ii": {
    "first_seen": "2026-09-30",
    "title": "Phoenix Chamber & The Colonial Present Phoenix Chamber Music: Concert II",
    "venue": "The Colonial Theatre",
    "date": "2026-11-17",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "phoenixville-blues-festival": {
    "first_seen": "2026-06-01",
@@ -2412,18 +2455,18 @@
    "title": "Phoenixville Fall Fest & Trunk or Treat",
    "venue": "Phoenixville Recreation Center, 501 Franklin Ave, Phoenixville",
    "date": "2026-10-24",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "phoenixville-fall-food-truck-festival": {
    "first_seen": "2026-09-06",
    "title": "Phoenixville Fall Food Truck Festival 2026",
    "venue": "Bridge Street, Downtown Phoenixville",
    "date": "2026-10-03",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "phoenixville-farmers-market": {
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Phoenixville Farmers Market",
    "venue": "Under Gay Street Bridge",
    "date": "2026-10-03"
@@ -2437,7 +2480,7 @@
   },
   "phoenixville-firebird-festival-2026": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Phoenixville Firebird Festival 2026",
    "venue": "Downtown Phoenixville",
    "date": "2026-12-12"
@@ -2454,7 +2497,7 @@
    "title": "Phoenixville First Friday – Holiday Edition & Tree Lighting",
    "venue": "Downtown Phoenixville – Bridge & Main Streets",
    "date": "2026-12-04",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "phoenixville-first-friday-july": {
    "first_seen": "2026-06-21",
@@ -2468,11 +2511,11 @@
    "title": "Phoenixville First Friday – November",
    "venue": "Downtown Phoenixville – Bridge & Main Streets",
    "date": "2026-11-06",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "phoenixville-first-friday-october": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Phoenixville First Friday – October",
    "venue": "Downtown Phoenixville – Bridge & Main Streets",
    "date": "2026-10-02"
@@ -2503,7 +2546,7 @@
    "title": "Phoenixville Halloween Bash",
    "venue": "The Colonial Theatre",
    "date": "2026-10-31",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "phoenixville-independence-day-celebration-fireworks": {
    "first_seen": "2026-06-25",
@@ -2524,7 +2567,7 @@
    "title": "Phoenixville Poetry Night at Steel City Coffeehouse",
    "venue": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
    "date": "2026-10-06",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "phoenixville-punk-rock-flea-market-11-year-anniversary-super-sized-spectacular": {
    "first_seen": "2026-07-31",
@@ -2545,14 +2588,14 @@
    "title": "Phoenixville Punk Rock Flea Market – November at Root Down Brewing",
    "venue": "Root Down Brewing Co., 1 N Main St, Phoenixville",
    "date": "2026-11-29",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "phoenixville-punk-rock-flea-market-october-at-root-down-brewing": {
    "first_seen": "2026-09-17",
    "title": "Phoenixville Punk Rock Flea Market – October at Root Down Brewing",
    "venue": "Root Down Brewing Co., 1 N Main St, Phoenixville",
    "date": "2026-10-25",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "phoenixville-punk-rock-flea-market-prfm-at-root-down-brewing": {
    "first_seen": "2026-06-28",
@@ -2608,7 +2651,7 @@
    "title": "Porch Performance: Edgar Allan Poe at Pennypacker Mills",
    "venue": "Pennypacker Mills, 5 Haldeman Rd, Schwenksville",
    "date": "2026-10-03",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "porch-performance-montgomery-county-concert-band-at-pennypacker-mills": {
    "first_seen": "2026-08-03",
@@ -2622,11 +2665,11 @@
    "title": "Post Halloween Tribute of Terror – AC/DC & Rancid Tributes at Water Tower Live",
    "venue": "The Water Tower Live at Arnold's, Oaks",
    "date": "2026-11-21",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "pottstown-fall-fest-2026": {
    "first_seen": "2026-08-23",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Pottstown Fall Fest 2026",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-10-11"
@@ -2636,7 +2679,7 @@
    "title": "Practical Magic (1998) – Witchy Wednesday at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-21",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "prfm-afterparty-vacant-progress-f-o-d-animalha-s": {
    "first_seen": "2026-08-05",
@@ -2657,7 +2700,7 @@
    "title": "PTO Today Expo",
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-10-07",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "pub-trivia-night-at-stable-12-brewing": {
    "first_seen": "2026-07-15",
@@ -2671,29 +2714,28 @@
    "title": "Pumpkin Fest at Arader Farm",
    "venue": "Arader Farm, 746 South Trappe Road, Collegeville",
    "date": "2026-10-10",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "pumpkin-fest-at-arader-farm-october-17": {
    "first_seen": "2026-09-25",
    "title": "Pumpkin Fest at Arader Farm – October 17",
    "venue": "Arader Farm, 746 South Trappe Road, Collegeville",
    "date": "2026-10-17",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "pumpkinland-at-colonial-gardens-hayrides-mazes-pumpkin-picking": {
    "first_seen": "2026-09-17",
    "title": "Pumpkinland at Colonial Gardens – Hayrides, Mazes & Pumpkin Picking",
-   "venue": "Colonial Gardens, 745 Schuylkill Rd, Phoenixville",
-   "date": "2026-10-01",
-   "end": "2026-10-31",
-   "last_seen": "2026-10-01"
+   "venue": "Colonial Gardens, 3607 Pottstown Pike, Spring City",
+   "date": "2026-10-02",
+   "last_seen": "2026-10-02"
   },
   "pxv-inside-out-music-series-final-sunday-of-the-season": {
    "first_seen": "2026-09-04",
    "title": "PXV Inside Out Music Series – Final Sunday of the Season",
    "venue": "Downtown Phoenixville – Bridge & Main Streets",
    "date": "2026-10-04",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "pxv-inside-out-music-series-outdoor-street-performances": {
    "first_seen": "2026-07-14",
@@ -2707,14 +2749,14 @@
    "title": "Rachael & Vilray – Live at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-12-11",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "rael-a-genesis-and-peter-gabriel-experience": {
    "first_seen": "2026-09-03",
    "title": "RAEL – A Genesis and Peter Gabriel Experience",
    "venue": "The Colonial Theatre",
    "date": "2026-11-06",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "ravensgate-gallery-retro-group-show-opening-reception": {
    "first_seen": "2026-07-02",
@@ -2735,7 +2777,7 @@
    "title": "Reads & Co, The Colonial, and Here & Now Crafts Present A Court of Splintered Harmony by Sarah J. Maas: Midnight Release Party",
    "venue": "The Colonial Theatre",
    "date": "2026-10-26",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "real-diamond-band-a-tribute-to-neil-diamond": {
    "first_seen": "2026-08-14",
@@ -2847,7 +2889,7 @@
    "title": "Salsa & Bachata Night with Dance Lessons at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
    "date": "2026-10-10",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "salsa-bachata-night-with-dance-lessons-souljoel-s": {
    "first_seen": "2026-08-16",
@@ -2917,7 +2959,7 @@
    "title": "Science on Tap Phoenixville – Community Science Talk at Root Down",
    "venue": "Root Down Brewing Co., 1 N Main St, Phoenixville",
    "date": "2026-10-06",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "science-on-tap-phoenixville-monthly-community-science-talk": {
    "first_seen": "2026-07-07",
@@ -2938,7 +2980,7 @@
    "title": "Second Sundays Kids & Teens Open Mic at Steel City",
    "venue": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
    "date": "2026-10-11",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "senator-muth-veterans-expo": {
    "first_seen": "2026-09-03",
@@ -2966,7 +3008,7 @@
    "title": "Shelly Belly – Live Stand-Up Comedy at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-11",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "show-canceled-steel-city-comedy-night": {
    "first_seen": "2026-09-19",
@@ -2984,11 +3026,18 @@
   },
   "skippack-days-arts-crafts-festival": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Skippack Days Arts & Crafts Festival",
    "venue": "Skippack Village, 4010 Skippack Pike, Skippack",
    "date": "2026-10-03",
    "end": "2026-10-04"
+  },
+  "skippack-historical-society-fallfest": {
+   "first_seen": "2026-10-02",
+   "title": "Skippack Historical Society FallFest 2026",
+   "venue": "Skippack Farm Museum, 4109 Creamery Rd, Skippack",
+   "date": "2026-10-24",
+   "last_seen": "2026-10-02"
   },
   "skippack-township-kid-fest": {
    "first_seen": "2026-08-08",
@@ -3030,21 +3079,21 @@
    "title": "SONGWRITER NIGHT: ROB TAIT BAND, ANDREA NARDELLO & KATE MILLS",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2026-10-16",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "souljoel-s-alumni-allstars-comedy-show": {
    "first_seen": "2026-09-30",
    "title": "SoulJoel's Alumni Allstars Comedy Show",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-05",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "souljoel-s-comedy-showcase-katina-corrao-all-female-lineup": {
    "first_seen": "2026-09-17",
    "title": "SoulJoel's Comedy Showcase – Katina Corrao & All-Female Lineup",
    "venue": "SoulJoel's at SunnyBrook, Pottstown",
    "date": "2026-10-15",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "souljoel-s-got-talent-open-talent-competition": {
    "first_seen": "2026-08-06",
@@ -3058,7 +3107,7 @@
    "title": "Spirit of Phoenixville Halloween Parade & Trunk or Treat",
    "venue": "Bridge Street, Downtown Phoenixville",
    "date": "2026-10-24",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "splatterfest-xii-all-night-italian-horror-film-marathon-on-35mm": {
    "first_seen": "2026-07-16",
@@ -3079,28 +3128,28 @@
    "title": "Spring City Music & Market Festival",
    "venue": "Main Street, Spring City",
    "date": "2026-10-03",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "spring-city-saturday-open-studios-local-shops-live-music": {
    "first_seen": "2026-09-20",
    "title": "Spring City Saturday – Open Studios, Local Shops & Live Music",
    "venue": "Downtown Spring City Business District",
    "date": "2026-10-17",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "spring-city-trunk-or-treat": {
    "first_seen": "2026-09-30",
    "title": "Spring City Trunk or Treat",
    "venue": "Spring City Borough, Spring City",
    "date": "2026-10-23",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "start-making-sense-talking-heads-tribute": {
    "first_seen": "2026-09-24",
    "title": "Start Making Sense – Talking Heads Tribute",
    "venue": "The Colonial Theatre",
    "date": "2026-12-26",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "steel-city-comedy-night": {
    "first_seen": "2026-08-29",
@@ -3121,7 +3170,7 @@
    "title": "Steve Hofstetter – Live Stand-Up Comedy at SoulJoel’s",
    "venue": "SoulJoel’s at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-10-24",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "stewart-copeland-have-i-said-too-much-spoken-word-stories": {
    "first_seen": "2026-06-02",
@@ -3188,7 +3237,7 @@
   },
   "sunday-irish-traditional-music-session-at-molly-maguire-s": {
    "first_seen": "2026-07-15",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Sunday Irish Traditional Music Session at Molly Maguire's",
    "venue": "Molly Maguire's Irish Restaurant & Pub, Phoenixville",
    "date": "2026-10-04"
@@ -3198,7 +3247,7 @@
    "title": "Super Art Fight",
    "venue": "The Colonial Theatre",
    "date": "2026-10-03",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "super-sabbath-3-band-showcase-at-water-tower-live": {
    "first_seen": "2026-07-07",
@@ -3219,14 +3268,14 @@
    "title": "Tab Benoit w/ Bonerama Blues and Brass Winter Tour",
    "venue": "The Colonial Theatre",
    "date": "2026-12-16",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "tab-benoit-with-bonerama-soul-of-the-swamp-tour": {
    "first_seen": "2026-09-24",
    "title": "Tab Benoit with Bonerama – Soul of the Swamp Tour",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-12-16",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "tall-trees-music-and-arts-festival-2026": {
    "first_seen": "2026-08-27",
@@ -3247,7 +3296,7 @@
    "title": "TELL ME LIES a Celebration of Fleetwood Mac",
    "venue": "The Colonial Theatre",
    "date": "2027-01-15",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "tell-williams-live-stand-up-comedy": {
    "first_seen": "2026-07-29",
@@ -3269,7 +3318,7 @@
    "title": "The Bacon Brothers – Freestanding Tour",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-06",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "the-big-bounce-america-world-s-largest-bounce-house": {
    "first_seen": "2026-06-20",
@@ -3290,7 +3339,7 @@
    "title": "The Buena Vista Orchestra – Live Cuban Music",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-07",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "the-church-the-singles-1980-2025": {
    "first_seen": "2026-05-31",
@@ -3311,7 +3360,7 @@
    "title": "The Dead Band – Grateful Dead Tribute at Troubles End Brewing",
    "venue": "Troubles End Brewing, 50 W Third Ave, Collegeville",
    "date": "2026-10-10",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "the-dead-band-grateful-dead-tribute-live-at-stray-dog-tavern": {
    "first_seen": "2026-07-17",
@@ -3329,7 +3378,7 @@
   },
   "the-fabulous-greaseband-live-at-souljoel-s": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "The Fabulous Greaseband – Live at SoulJoel’s",
    "venue": "SoulJoel’s at SunnyBrook, Pottstown",
    "date": "2026-10-02"
@@ -3353,7 +3402,7 @@
    "title": "The Great Junk Hunt – Traveling Vintage Market",
    "venue": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
    "date": "2026-10-23",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "end": "2026-10-24"
   },
   "the-greatest-moments-in-philadelphia-sports-history-with-glen-macnow-ray-didinge": {
@@ -3361,21 +3410,21 @@
    "title": "The Greatest Moments in Philadelphia Sports History with Glen Macnow, Ray Didinger, & Joe Conklin",
    "venue": "The Colonial Theatre",
    "date": "2026-10-30",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "the-last-big-band-jazz-orchestra-live-at-rivet": {
    "first_seen": "2026-09-26",
    "title": "The Last Big Band – Jazz Orchestra Live at Rivet",
    "venue": "Rivet: Canteen & Assembly, 238 E High St, Pottstown",
    "date": "2026-10-14",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "the-lightning-thief-the-percy-jackson-musical-methacton-community-theater": {
    "first_seen": "2026-09-07",
    "title": "The Lightning Thief: The Percy Jackson Musical – Methacton Community Theater",
    "venue": "Community Music School, 775 W Main St, Trappe",
    "date": "2026-10-02",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "end": "2026-10-04"
   },
   "the-longest-johns": {
@@ -3383,7 +3432,7 @@
    "title": "The Longest Johns – Live at Colonial Theatre",
    "venue": "The Colonial Theatre",
    "date": "2026-11-07",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "the-man-behind-the-camera-vincent-cianni-archive-journal": {
    "first_seen": "2026-05-31",
@@ -3404,7 +3453,7 @@
    "title": "The National Franchise Show",
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-10-03",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "end": "2026-10-04"
   },
   "the-nightmare-before-christmas-family-film-screening": {
@@ -3412,14 +3461,14 @@
    "title": "The Nightmare Before Christmas – Family Film Screening",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-26",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "the-parlour-reading-series-haunted-halloween-shorts": {
    "first_seen": "2026-09-03",
    "title": "The Parlour Reading Series: Haunted Halloween Shorts",
    "venue": "The Colonial Theatre",
    "date": "2026-10-28",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "the-philadelphia-story-1940-classic-film-screening": {
    "first_seen": "2026-07-01",
@@ -3452,7 +3501,7 @@
   },
   "the-rocky-horror-picture-show-with-shadow-cast": {
    "first_seen": "2026-07-03",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "The Rocky Horror Picture Show with Shadow Cast",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-27"
@@ -3462,7 +3511,7 @@
    "title": "The Sixties Show – Live at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-20",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "the-soul-cruisers-live-at-souljoel-s": {
    "first_seen": "2026-07-30",
@@ -3476,7 +3525,7 @@
    "title": "The Sweet Lillies with Paper Graves – Live at The Gem",
    "venue": "The Gem Music Hall, 66 N Main St, Spring City",
    "date": "2026-10-13",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "the-two-johns-johnny-never-john-colgan-davis-at-steel-city": {
    "first_seen": "2026-06-28",
@@ -3487,7 +3536,7 @@
   },
   "the-wedding-funeral": {
    "first_seen": "2026-06-11",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "The Wedding Funeral – Live at Steel City Coffeehouse",
    "venue": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
    "date": "2026-10-24"
@@ -3504,7 +3553,7 @@
    "title": "The Wood Brothers with Tyler Ramsey – Live at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-12-09",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "this-is-spinal-tap-41st-anniversary-screening": {
    "first_seen": "2026-07-25",
@@ -3539,7 +3588,7 @@
    "title": "Town Tours & Village Walks Lecture: Historic Yellow Springs",
    "venue": "Historic Yellow Springs, Chester Springs",
    "date": "2026-10-15",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "town-tours-village-walks-the-mill-at-anselma": {
    "first_seen": "2026-09-10",
@@ -3567,7 +3616,7 @@
    "title": "True Tattoo Expo 2026 – Halloween Weekend at Expo Center Oaks",
    "venue": "Greater Philadelphia Expo Center, Hall D, Oaks",
    "date": "2026-10-30",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "end": "2026-11-01"
   },
   "tsavo-highway-with-pachyderm-live-at-the-gem": {
@@ -3625,7 +3674,7 @@
    "title": "Upstate – Live at The Gem Music Hall",
    "venue": "The Gem Music Hall, 66 N Main St, Spring City",
    "date": "2026-10-04",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "upt-community-fall-fest": {
    "first_seen": "2026-08-20",
@@ -3640,6 +3689,13 @@
    "title": "UPT Community Fall Festival",
    "venue": "Black Rock Park, 499 Hopwood Rd, Collegeville",
    "date": "2026-09-20"
+  },
+  "ursinus-college-wind-ensemble-halloween-spectacular": {
+   "first_seen": "2026-10-02",
+   "title": "Ursinus College Wind Ensemble: Halloween Spectacular",
+   "venue": "Berman Museum of Art, Ursinus College, Collegeville",
+   "date": "2026-10-30",
+   "last_seen": "2026-10-02"
   },
   "usa-table-tennis-pennsylvania-state-open-2026": {
    "first_seen": "2026-06-15",
@@ -3660,7 +3716,7 @@
    "title": "Veterans' Art Day",
    "venue": "Historic Yellow Springs, Chester Springs",
    "date": "2026-11-14",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "victoria-aveyard-live-tempest-book-launch-at-colonial-theatre": {
    "first_seen": "2026-08-12",
@@ -3674,7 +3730,7 @@
    "title": "Victorian Christmas Open House at Pennypacker Mills",
    "venue": "Pennypacker Mills, 5 Haldeman Rd, Schwenksville",
    "date": "2026-12-12",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "vinny-guadagnino-live-stand-up-comedy-debut-at-souljoel-s": {
    "first_seen": "2026-08-03",
@@ -3695,7 +3751,7 @@
    "title": "Watsky: x Infinity Tenth Anniversary Screening Tour",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-10-29",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "wicked-gluten-free-expo-greater-philadelphia": {
    "first_seen": "2026-06-19",
@@ -3713,7 +3769,7 @@
   },
   "winetober-fest-skippack-village-wine-food-festival": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "title": "Winetober Fest – Skippack Village Wine & Food Festival",
    "venue": "Skippack Village, 4038 Skippack Pike, Skippack",
    "date": "2026-10-10"
@@ -3751,21 +3807,21 @@
    "title": "Yellow Springs Holiday Stroll",
    "venue": "Historic Yellow Springs, Chester Springs",
    "date": "2026-12-13",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "zach-alasha-friends-stand-up-comedy-special-at-the-gem": {
    "first_seen": "2026-09-28",
    "title": "Zach Alasha & Friends – Stand-Up Comedy Special at The Gem",
    "venue": "The Gem Music Hall, 66 N Main St, Spring City",
    "date": "2026-10-09",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "zoey-the-iconic-live-at-the-gem-spring-city": {
    "first_seen": "2026-09-21",
    "title": "Zoey & the Iconic – Live at The Gem Spring City",
    "venue": "The Gem Music Hall, 66 N Main St, Spring City",
    "date": "2026-11-27",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-02"
   },
   "zoo-snooze-overnight-campout-at-elmwood-park-zoo": {
    "first_seen": "2026-09-03",
