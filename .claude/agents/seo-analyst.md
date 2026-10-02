@@ -293,6 +293,50 @@ still listed. No indexing requests made. Chrome note: another SEO agent was
 working wellbuiltliving.com in a neighbouring tab; every number above was read
 in an own tab with the localspothq property confirmed in the URL or selector.
 
+Reading of 2026-10-02, Sep 5 to Oct 2, 2026: 30 clicks, 3,150 impressions
+(shown as 3.15K), CTR 1%, position 10.0 (previous 28 days, Aug 8 to Sep 4: 32
+clicks, 3,110 impressions, CTR 1%, position 11.4). Oct 1 and 2 are still
+partial days. Last 7 days Sep 26 to Oct 2: 6 clicks, 427 impressions, CTR
+1.4%, position 8.6 (prior 7, Sep 19 to 25: 4 clicks, 794 impressions, CTR
+0.5%, position 9.1); the impression drop is mostly the homecoming/family-
+weekend queries fading and the partial days. Position 8.6 is the best 7-day
+average so far. Top queries by clicks: "west chester restaurant festival
+2026" 2 (311 impressions), "west chester food festival 2026" 2 (110), "west
+chester food truck festival 2026" 1 (59), "phoenixville blues festival 2026
+schedule" 1 (15), "west chester family weekend 2026" 1 (14), "bluebird
+distilling" 1 (6); "west chester homecoming 2026" 236 impressions for 0
+clicks, "west chester university homecoming 2026" 55 for 0, "west chester
+university family weekend 2026" 38 for 0, "up on the roof west chester 2026"
+29 for 0 (new); 247 queries in all. Top pages by clicks:
+`/phoenixville/guides/fall-phoenixville/` 8 (314 impressions, now the top
+page), the 45th-annual restaurant-and-food-truck festival page 6 (763),
+Montgomery County senior expo 2 (60), concert in the cupboard 2 (4),
+`wcu-family-weekend` 1 (195), paranormal cirque 1 (50), UPT community fall
+fest 1 (49), blues festival (Labor Day slug) 1 (48), `/phoenixville/` 1 (43),
+Stop Making Sense screening 1 (14); 257 pages. Phoenixville pages took 6 of
+the top 10 and 14 of the listed clicks; West Chester's clicks are the one
+festival page plus the family-weekend page. Indexing report still "Last
+update: 9/20/26", twelve days without a refresh, counts identical to Sep 23
+and Sep 27 (indexed 307 / not indexed 417: discovered-not-indexed 251, 404
+112, noindex 22, crawled-not-indexed 19, page with redirect 9, alternate
+canonical 2, 403 1, duplicate 1); not re-read in detail. Sitemaps: all 3
+Success; `/west-chester/sitemap.xml` 203 discovered pages (last read Sep
+27, unchanged), `/phoenixville/sitemap.xml` 207 (was 194, last read Sep 30),
+sitemap index `/sitemap.xml` 410 (was 397, last read Sep 28). GA4 (selector
+read LocalSpot HQ, URL p539486581), same window: 66 sessions (organic 31,
+direct 26, organic social 9) vs 60 prior (direct 29, organic 28, organic
+social 2, unassigned 1), engagement rate 65% (was 52%), 100 views (was
+105), 55 active users (was 43); 54 page rows. Organic is now the largest
+channel again; the Sep 21 to 27 direct surge (46 to 47) has rolled out of the
+window. Organic sessions (31) match Search Console clicks (30). Top pages by
+views: home 25, `/phoenixville/` 21, `/phoenixville/this-weekend/` 9, fall-
+phoenixville guide 8, restaurant festival page 5, laugh lounge October 3;
+`/_rangetest/index.html` (2) still listed and `/palettes.html` still appears
+in the chart legend. A stray `/guides/things-to-do-phoenixville/` path (2
+views, no town prefix) showed up. No indexing requests made. Chrome note:
+another SEO agent held a GA4 tab on property 531131523; this pass ran in its
+own tab and confirmed the localspothq property before each read.
+
 ## Report format
 
 Lead with what changed versus the baseline and versus the previous period,
