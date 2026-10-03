@@ -23,32 +23,6 @@
     "action_link": "https://www.peopleslight.org/whats-on/20262027-season/topdogunderdog/"
   },
   {
-    "id": "discovered_a_little_night_of_music_20261002",
-    "type": "event",
-    "title": "A Little Night of Music",
-    "venue_info": {
-      "name": "People's Light, Malvern",
-      "location": {
-        "lat": 40.0445,
-        "lng": -75.5432
-      }
-    },
-    "raw_date_string": "Oct 2, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Evening"
-      ],
-      "price": "",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.peopleslight.org/whats-on/a-little-night-of-music/"
-  },
-  {
     "id": "discovered_adult_trick_or_treat_at_20261002",
     "type": "event",
     "title": "Adult Trick or Treat at Chaddsford Winery",
@@ -73,57 +47,6 @@
       "image": ""
     },
     "action_link": "https://www.chaddsford.com/pages/adult-trick-or-treat-2026"
-  },
-  {
-    "id": "discovered_an_evening_with_lucy_kaplansky_20261002",
-    "type": "event",
-    "title": "An Evening With Lucy Kaplansky",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Oct 2, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$35-$38",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/an-evening-with-lucy-kaplansky/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_andrew_wyeth_the_masterworks_book_20261002",
-    "type": "event",
-    "title": "Andrew Wyeth: The Masterworks Book Talk & Signing",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8688,
-        "lng": -75.5878
-      }
-    },
-    "raw_date_string": "Oct 2, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor"
-      ],
-      "price": "$10-$35",
-      "time": "2:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/andrew-wyeth-masterworks-book-talk-signing"
   },
   {
     "id": "discovered_autumn_s_colors_at_longwood_20261002",
@@ -2849,5 +2772,31 @@
       "image": ""
     },
     "action_link": "https://malvernporchfestorg.wordpress.com/"
+  },
+  {
+    "id": "discovered_longwood_beer_garden_music_20261003",
+    "type": "event",
+    "title": "Live Music in the Beer Garden at Longwood Gardens",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8712,
+        "lng": -75.675
+      }
+    },
+    "raw_date_string": "Oct 3 - Nov 1, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Outdoor",
+        "Weekend"
+      ],
+      "price": "Free with Gardens admission",
+      "time": "5:00 PM - 7:45 PM (Fri-Sun)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/live-music-beer-garden"
   }
 ]
