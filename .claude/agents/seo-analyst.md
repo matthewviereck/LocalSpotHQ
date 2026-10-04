@@ -337,6 +337,47 @@ views, no town prefix) showed up. No indexing requests made. Chrome note:
 another SEO agent held a GA4 tab on property 531131523; this pass ran in its
 own tab and confirmed the localspothq property before each read.
 
+Reading of 2026-10-04, Sep 7 to Oct 4, 2026 (dates set in the URL): 28
+clicks, 2,950 impressions (shown as 2.95K), CTR 0.9%, position 10.2
+(previous 28 days, Aug 10 to Sep 6: 30 clicks, 2,860 impressions, CTR 1%,
+position 11.9). This window overlaps the Oct 2 read by 26 days and Oct 3 and
+4 are partial, so the small dips (30 to 28 clicks, 3,150 to 2,950
+impressions) are the window sliding past Sep 5 to 6, not a real decline. Last
+7 days Sep 28 to Oct 4: 7 clicks, 493 impressions, CTR 1.4%, position 10.3
+(prior 7, Sep 21 to 27: 4 clicks, 438 impressions, CTR 0.9%, position 8.6);
+clicks up modestly, position slipped. Top queries by clicks: "west chester
+restaurant festival 2026" 2 (298 impressions), "west chester food festival
+2026" 2 (105), "west chester food truck festival 2026" 1 (59), "west chester
+family weekend 2026" 1 (9), "bluebird distilling" 1 (6); "west chester
+homecoming 2026" 192 for 0, "up on the roof west chester 2026" 29 for 0,
+"phoenixville blues festival 2026" 24 for 0, "west chester pa things to do"
+23 for 0 (new generic query); 246 queries. Top pages by clicks: fall-
+phoenixville guide 7 (354), restaurant-and-food-truck festival page 6 (736),
+senior expo 2 (57), concert in the cupboard 2 (4), `wcu-family-weekend` 1
+(140), UPT fall fest 1 (47), `/phoenixville/` 1 (45), Parlour reading series
+Halloween shorts 1 (16, new), laugh lounge October 1 (13, new), paranormal
+cirque 1 (12); 257 pages. Indexing report still "Last update: 9/20/26",
+fourteen days without a refresh, counts identical (indexed 307 / not indexed
+417: discovered-not-indexed 251, 404 112, noindex 22, crawled-not-indexed 19,
+page with redirect 9, alternate canonical 2, 403 1, duplicate 1); Flip
+Tracker and VitalScheduler also still show Sep 20, so this is Google-side.
+Sitemaps: all 3 Success; `/west-chester/sitemap.xml` 189 discovered pages
+(was 203, last read Oct 2; past events dropping out),
+`/phoenixville/sitemap.xml` 207 (Sep 30, unchanged), sitemap index
+`/sitemap.xml` 396 (was 410, last read Oct 3). GA4 (URL p539486581, page
+paths LocalSpot's), same window: 69 sessions (organic 32, direct 27, organic
+social 9, unassigned 3) vs 57 prior (direct 28, organic 26, organic social 2,
+unassigned 1), engagement rate 58% (was 60%), 100 views (was 103), 56 active
+users (was 38); 52 page rows. Organic sessions (32) track Search Console
+clicks (28). Top pages by views: home 24, `/phoenixville/` 20, fall-
+phoenixville guide 14, `/phoenixville/this-weekend/` 6, restaurant festival
+page 5, laugh lounge October 3; `/_rangetest/index.html` (2) and the
+unprefixed `/guides/things-to-do-phoenixville/` (2) still listed,
+`/palettes.html` still in the chart legend. No indexing requests made.
+Chrome note: another SEO agent was working bettersleepproject.com in the
+same tab group; this pass ran in its own tab and the property was confirmed
+in the selector or URL before each read.
+
 ## Report format
 
 Lead with what changed versus the baseline and versus the previous period,
