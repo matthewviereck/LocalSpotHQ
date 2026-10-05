@@ -73,83 +73,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
   },
   {
-    "id": "discovered_unionville_community_fair_20261002",
-    "type": "event",
-    "title": "Unionville Community Fair",
-    "venue_info": {
-      "name": "Unionville Fairgrounds (Landhope Farms), Kennett Square",
-      "location": {
-        "lat": 39.8986,
-        "lng": -75.7372
-      }
-    },
-    "raw_date_string": "Oct 2 - 4, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "$5 parking per person or $10 per car",
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.ucfair.org/"
-  },
-  {
-    "id": "discovered_downingtown_fall_fest_20261004",
-    "type": "event",
-    "title": "Downingtown Fall Fest",
-    "venue_info": {
-      "name": "Green Street & E. Pennsylvania Ave, Downingtown",
-      "location": {
-        "lat": 40.0055,
-        "lng": -75.701
-      }
-    },
-    "raw_date_string": "Oct 4, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "time": "11:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downingtownfallfest.com/"
-  },
-  {
-    "id": "discovered_first_sunday_for_families_20261004",
-    "type": "event",
-    "title": "First Sunday for Families",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8688,
-        "lng": -75.5878
-      }
-    },
-    "raw_date_string": "Oct 4, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Free",
-        "Family Friendly"
-      ],
-      "price": "Free",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/first-sunday-families"
-  },
-  {
     "id": "discovered_serpentine-barrens-willisbrook_20261005",
     "type": "event",
     "title": "Serpentine Barrens Tour with Willistown Township",
@@ -2645,5 +2568,31 @@
       "image": ""
     },
     "action_link": "https://longwoodgardens.org/events-performances/events/live-music-beer-garden"
+  },
+  {
+    "id": "discovered_chesco_archives_tour_20261029",
+    "type": "event",
+    "title": "Behind-the-Scenes Tour: Chester County Archives",
+    "venue_info": {
+      "name": "Chester County Archives and Records Services, West Chester",
+      "location": {
+        "lat": 39.9437,
+        "lng": -75.5768
+      }
+    },
+    "raw_date_string": "Oct 29, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "History",
+        "Small Group"
+      ],
+      "price": "Pay as you wish",
+      "time": "12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2381974"
   }
 ]
