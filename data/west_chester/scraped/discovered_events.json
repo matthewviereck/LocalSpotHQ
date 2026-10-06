@@ -73,32 +73,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
   },
   {
-    "id": "discovered_serpentine-barrens-willisbrook_20261005",
-    "type": "event",
-    "title": "Serpentine Barrens Tour with Willistown Township",
-    "venue_info": {
-      "name": "Willisbrook Preserve, Malvern",
-      "location": {
-        "lat": 40.0234,
-        "lng": -75.5297
-      }
-    },
-    "raw_date_string": "Oct 5, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Free",
-        "Nature"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wp.natlands.org/event/serpentine-barrens-willisbrook-2026-1005/"
-  },
-  {
     "id": "discovered_baking_soda_rocket_day_20261008",
     "type": "event",
     "title": "Baking Soda Rocket Day",
@@ -2594,5 +2568,31 @@
       "image": ""
     },
     "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2381974"
+  },
+  {
+    "id": "discovered_brandywine_first_sunday_families_20261101",
+    "type": "event",
+    "title": "First Sunday for Families",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8696,
+        "lng": -75.5916
+      }
+    },
+    "raw_date_string": "Nov 1, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Family"
+      ],
+      "price": "Free",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/first-sunday-families-0"
   }
 ]
