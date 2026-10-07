@@ -378,6 +378,53 @@ Chrome note: another SEO agent was working bettersleepproject.com in the
 same tab group; this pass ran in its own tab and the property was confirmed
 in the selector or URL before each read.
 
+Reading of 2026-10-07. Indexing report refreshed, "Last update: 10/3/26"
+(first update since 9/20, property confirmed on screen as www.localspothq.com):
+indexed 322 (was 307, +15) / not indexed 462 (was 417, +45); 784 known pages
+(was 724). Breakdown: discovered-not-indexed 249 (was 251, flat for the first
+time), 404 116 (was 112), noindex 43 (was 22), alternate page with proper
+canonical 33 (was 2), page with redirect 11 (was 9), crawled-not-indexed 7
+(was 19), duplicate 2 (was 1), 403 1. Almost all of the not-indexed growth is
+site-side and looks intended: the 33 alternate-canonical URLs are
+`/<town>/promote/?event=...` links (first detected 9/15) correctly pointing at
+their canonical, and the 43 noindex URLs are event pages (dinner dancing at
+Manj, concert at Everhart Park, Bowie tribute, trivia at Side Bar, etc.;
+first detected 9/5), presumably past events noindexed on purpose; worth a
+spot check that none are upcoming. The Google-side backlog
+(discovered-not-indexed) stopped growing and crawled-not-indexed fell 19 to 7,
+which is the real good news in this refresh. Item keys found: `CAMYCCAC` =
+noindex, `CAMYGCAC` = alternate canonical. Performance, Sep 9 to Oct 6, 2026
+(data ends about Oct 4 to 6, last update 14.5 hours before the read): 26
+clicks, 2,820 impressions (shown as 2.82K), CTR 0.9%, position 10.1 (previous
+28 days, Aug 12 to Sep 8: 32 clicks, 3,070 impressions, CTR 1%, position 12).
+This window overlaps the Oct 4 read by 26 days, so 28 to 26 clicks and 2,950
+to 2,820 impressions is the window sliding off early September, not a
+decline. Last 7 days Sep 30 to Oct 6: 4 clicks, 511 impressions, CTR 0.8%,
+position 11.5 (prior 7: 6 / 502 / 1.2% / 8.1); last days partial. Top queries
+by clicks: "west chester restaurant festival 2026" 2 (289), "west chester food
+festival 2026" 2 (93), "west chester food truck festival 2026" 1 (59), "west
+chester family weekend 2026" 1 (7), "bluebird distilling" 1 (6); zero-click:
+"west chester homecoming 2026" 167, "up on the roof west chester 2026" 27,
+"phoenixville blues festival 2026" 25, "west chester pa things to do" 23,
+"west chester food truck festival" 22; 254 queries. Top pages by clicks:
+restaurant-and-food-truck festival 6 (697), fall-phoenixville guide 6 (388),
+senior expo 2 (49), concert in the cupboard 2 (5), `wcu-family-weekend` 1
+(90), UPT fall fest 1 (46), `/phoenixville/` 1 (45), Parlour Halloween shorts
+1 (24), laugh lounge October 1 (13), Rocky Horror 1 (4); 260 pages.
+Sitemaps: all 3 Success; `/west-chester/sitemap.xml` 189 (last read Oct 2),
+`/phoenixville/sitemap.xml` 209 (was 207, Oct 6), sitemap index 398 (Oct 3).
+GA4 (URL a318740723p539486581), same window: 70 sessions (organic 33, direct
+28, organic social 9) vs 61 prior (direct 31, organic 27, organic social 2,
+unassigned 1), engagement rate 54% (was 62%), 98 views (was 111), 57 active
+users (was 39); 53 page rows. Organic sessions (33) track Search Console
+clicks (26). Top pages by views: home 23, `/phoenixville/` 20, fall-
+phoenixville guide 14, `/phoenixville/this-weekend/` 5, restaurant festival 5,
+laugh lounge October 3; `/_rangetest/index.html` (2) and the unprefixed
+`/guides/things-to-do-phoenixville/` (2) still listed, `/palettes.html` in the
+chart legend. No indexing requests made. Chrome note: another SEO agent
+worked wellbuiltliving.com and GA4 p446745302/p531131523 in a neighbouring
+tab; this pass used its own tab and confirmed the property before each read.
+
 ## Report format
 
 Lead with what changed versus the baseline and versus the previous period,
