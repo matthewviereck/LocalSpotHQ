@@ -2544,32 +2544,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/live-music-beer-garden"
   },
   {
-    "id": "discovered_chesco_archives_tour_20261029",
-    "type": "event",
-    "title": "Behind-the-Scenes Tour: Chester County Archives",
-    "venue_info": {
-      "name": "Chester County Archives and Records Services, West Chester",
-      "location": {
-        "lat": 39.9437,
-        "lng": -75.5768
-      }
-    },
-    "raw_date_string": "Oct 29, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "History",
-        "Small Group"
-      ],
-      "price": "Pay as you wish",
-      "time": "12:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2381974"
-  },
-  {
     "id": "discovered_brandywine_first_sunday_families_20261101",
     "type": "event",
     "title": "First Sunday for Families",
@@ -2594,5 +2568,31 @@
       "image": ""
     },
     "action_link": "https://www.brandywine.org/museum/events/first-sunday-families-0"
+  },
+  {
+    "id": "discovered_medical_mayhem_cchc_20261107",
+    "type": "event",
+    "title": "Medical Mayhem! A Family Program",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family",
+        "Indoor"
+      ],
+      "price": "$9 adults; $7 ages 6-18; under 6 free",
+      "time": "11:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2437815"
   }
 ]
