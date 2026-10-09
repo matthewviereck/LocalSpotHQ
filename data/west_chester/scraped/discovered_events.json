@@ -73,106 +73,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
   },
   {
-    "id": "discovered_baking_soda_rocket_day_20261008",
-    "type": "event",
-    "title": "Baking Soda Rocket Day",
-    "venue_info": {
-      "name": "American Helicopter Museum, West Chester",
-      "location": {
-        "lat": 39.9976,
-        "lng": -75.5853
-      }
-    },
-    "raw_date_string": "Oct 8, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family Friendly"
-      ],
-      "price": "$13-$15",
-      "time": "11:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.helicoptermuseum.org/event-details/baking-soda-rocket-day-1"
-  },
-  {
-    "id": "discovered_children_s_read_aloud_program_20261008",
-    "type": "event",
-    "title": "Children's Read-Aloud Program",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8688,
-        "lng": -75.5878
-      }
-    },
-    "raw_date_string": "Oct 8, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family Friendly",
-        "Indoor"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/childrens-read-aloud-program-6"
-  },
-  {
-    "id": "discovered_the_2026_kennett_flash_jazz_20261008",
-    "type": "event",
-    "title": "The 2026 Kennett Flash Jazz Jam",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Oct 8, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/the-2026-kennett-flash-jazz-jam-7/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_town_tours_village_walks_adaptive_20261008",
-    "type": "event",
-    "title": "Town Tours & Village Walks: Adaptive Reuse in Coatesville",
-    "venue_info": {
-      "name": "215 Reeceville Road, Coatesville",
-      "location": {
-        "lat": 39.988,
-        "lng": -75.808
-      }
-    },
-    "raw_date_string": "Oct 8, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free",
-      "time": "4:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.chescoplanning.org/historic/towntours/"
-  },
-  {
     "id": "discovered_art-in-the-woods_20261010",
     "type": "event",
     "title": "Art in the Woods",
@@ -2594,5 +2494,58 @@
       "image": ""
     },
     "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2437815"
+  },
+  {
+    "id": "discovered_children_s_read_aloud_program_20261015",
+    "type": "event",
+    "title": "Children's Read-Aloud Program",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8688,
+        "lng": -75.5878
+      }
+    },
+    "raw_date_string": "Oct 15, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Indoor"
+      ],
+      "time": "10:30 AM",
+      "price": "$6 (free for members)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/childrens-read-aloud-program-7"
+  },
+  {
+    "id": "discovered_west_vincent_fall_fest_20261010",
+    "type": "event",
+    "title": "West Vincent Fall Fest 2026",
+    "venue_info": {
+      "name": "Opalanie Park, Chester Springs",
+      "location": {
+        "lat": 40.1158,
+        "lng": -75.645
+      }
+    },
+    "raw_date_string": "Oct 10, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly",
+        "Free"
+      ],
+      "price": "Free",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://westvincenttwp.org/?p=14450"
   }
 ]
