@@ -2547,5 +2547,265 @@
       "image": ""
     },
     "action_link": "https://westvincenttwp.org/?p=14450"
+  },
+  {
+    "id": "discovered_mushroom_cap_half_20261107",
+    "type": "event",
+    "title": "Mushroom Cap Half Marathon & FunGi 5 Miler",
+    "venue_info": {
+      "name": "Birch Street & Church Alley, Kennett Square",
+      "location": {
+        "lat": 39.8468,
+        "lng": -75.7116
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Outdoor",
+        "Race"
+      ],
+      "price": "$83.30 (5 miler) / $147.50 (half)",
+      "time": "8:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://raceroster.com/events/2026/139589/11th-mushroom-cap-half-marathon-and-fungi-5-miler"
+  },
+  {
+    "id": "discovered_chesco_turkey_trot_20261126",
+    "type": "event",
+    "title": "Chester County Turkey Trot 5K & 2K Walk",
+    "venue_info": {
+      "name": "Downingtown West High School, Downingtown",
+      "location": {
+        "lat": 40.0094,
+        "lng": -75.7136
+      }
+    },
+    "raw_date_string": "Nov 26, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Outdoor",
+        "Family Friendly",
+        "Charity"
+      ],
+      "price": "$35 (kids $20-$25)",
+      "time": "7:40 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://runsignup.com/Race/PA/Downingtown/ChesterCountyTurkeyTrot"
+  },
+  {
+    "id": "discovered_ralston_conkling_20261107",
+    "type": "event",
+    "title": "An Evening with Peter Ralston and Philip Conkling",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8706,
+        "lng": -75.5906
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Talk"
+      ],
+      "price": "$30 ($20 members)",
+      "time": "5:00 PM - 7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/evening-peter-ralston-and-philip-conkling"
+  },
+  {
+    "id": "discovered_hidden_treasures_talk_20261112",
+    "type": "event",
+    "title": "\"America's Hidden Treasures\" Book Talk & Signing",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8706,
+        "lng": -75.5906
+      }
+    },
+    "raw_date_string": "Nov 12, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Talk"
+      ],
+      "price": "$20 ($10 members)",
+      "time": "3:30 PM - 5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/americas-hidden-treasures-book-talk-signing"
+  },
+  {
+    "id": "discovered_sensory_railroad_20261119",
+    "type": "event",
+    "title": "Sensory-Friendly Evening: Brandywine Railroad",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8706,
+        "lng": -75.5906
+      }
+    },
+    "raw_date_string": "Nov 19, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Indoor",
+        "All Ages"
+      ],
+      "price": "Free",
+      "time": "5:00 PM - 7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-1"
+  },
+  {
+    "id": "discovered_plein_air_wyeth_20261031",
+    "type": "event",
+    "title": "Plein Air Painting Workshop at Andrew Wyeth Studio",
+    "venue_info": {
+      "name": "Andrew Wyeth Studio, Chadds Ford",
+      "location": {
+        "lat": 39.8706,
+        "lng": -75.5906
+      }
+    },
+    "raw_date_string": "Oct 31, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Workshop"
+      ],
+      "price": "$75 ($60 members)",
+      "time": "9:30 AM - 4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/plein-air-painting-workshop-randall-graham-andrew-wyeth-studio-2"
+  },
+  {
+    "id": "discovered_exton_record_riot_20261011",
+    "type": "event",
+    "title": "The Exton Record Riot",
+    "venue_info": {
+      "name": "Exton Hotel & Conference Center, Exton",
+      "location": {
+        "lat": 40.0392,
+        "lng": -75.6297
+      }
+    },
+    "raw_date_string": "Oct 11, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Indoor",
+        "Vinyl"
+      ],
+      "price": "$5 ($15 early entry)",
+      "time": "10:00 AM - 4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/vinyl-fun-10000-records-for-sale-the-exton-record-riot-sun-october-11th-tickets-1990205842249"
+  },
+  {
+    "id": "discovered_ksq_holiday_village_market_20261205",
+    "type": "event",
+    "title": "Kennett Square Holiday Village Market",
+    "venue_info": {
+      "name": "The Creamery of Kennett Square, Kennett Square",
+      "location": {
+        "lat": 39.8437,
+        "lng": -75.7138
+      }
+    },
+    "raw_date_string": "Dec 5 - 6, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Shopping",
+        "Family Friendly"
+      ],
+      "time": "11:00 AM - 5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettcollaborative.org/holidayvillagemarket/"
+  },
+  {
+    "id": "discovered_ksq_holiday_village_market_20261212",
+    "type": "event",
+    "title": "Kennett Square Holiday Village Market",
+    "venue_info": {
+      "name": "The Creamery of Kennett Square, Kennett Square",
+      "location": {
+        "lat": 39.8437,
+        "lng": -75.7138
+      }
+    },
+    "raw_date_string": "Dec 12 - 13, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Shopping",
+        "Family Friendly"
+      ],
+      "time": "11:00 AM - 5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettcollaborative.org/holidayvillagemarket/"
+  },
+  {
+    "id": "discovered_johnson_zilber_talk_20261114",
+    "type": "event",
+    "title": "Exhibition Conversation: Jennifer Johnson & Emily Zilber",
+    "venue_info": {
+      "name": "Wharton Esherick Museum, Malvern",
+      "location": {
+        "lat": 40.0548,
+        "lng": -75.4985
+      }
+    },
+    "raw_date_string": "Nov 14, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Talk"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mychesco.com/a/entertainment/arts-culture/wharton-esherick-museum-marks-studio-centennial-with-new-jennifer-johnson-exhibition/"
   }
 ]
