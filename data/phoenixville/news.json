@@ -1,5 +1,14 @@
 [
   {
+    "title": "Phantoms football strings together a second straight win; volleyball outlasts Kennett",
+    "category": "News",
+    "summary": "Phoenixville's football team picked up its second consecutive victory on Friday night, and the girls volleyball team went five sets to beat Kennett and move to 10-8. Both programs turn to Pottstown next week.",
+    "date": "2026-10-11",
+    "loc": "Phoenixville Area High School, Phoenixville",
+    "link": "https://patch.com/pennsylvania/phoenixville/patch-am-how-phoenixville-s-football-volleyball-teams-pow-nodx-20261011",
+    "img": ""
+  },
+  {
     "title": "Oaks-based SEI opens a Singapore hub as part of its 2030 growth plan",
     "category": "News",
     "summary": "SEI Investments, which keeps about 3,200 of its 5,000 employees on its campus beside Valley Forge National Historical Park, has launched an office in Singapore to serve Asia-Pacific clients. The move is part of the financial technology firm's goal of doubling revenue by 2030.",
@@ -24,6 +33,15 @@
     "date": "2026-10-08",
     "loc": "The Shoppes at Coventry, North Coventry",
     "link": "https://www.pottsmerc.com/2026/10/08/plan-for-data-center-in-coventry-mall-withdrawn/",
+    "img": ""
+  },
+  {
+    "title": "Pottstown council votes Oct. 13 on twin homes for the burned-out church lot",
+    "category": "Development",
+    "summary": "A developer wants to build three pairs of twin homes where Transfiguration Lutheran Church stood until a fire destroyed it nearly a year ago. Council members gave the renderings a cool reception at Wednesday's work session, with the look of the brick facades a sticking point.",
+    "date": "2026-10-08",
+    "loc": "Former Transfiguration Lutheran Church, Pottstown",
+    "link": "https://www.pottsmerc.com/2026/10/08/pottstown-council-to-vote-tuesday-on-latest-plan-for-church-site/",
     "img": ""
   },
   {
@@ -63,12 +81,12 @@
     "img": ""
   },
   {
-    "title": "Good Food Fest returns to Kimberton Fairgrounds Nov. 1",
-    "category": "News",
-    "summary": "The sixth annual festival runs 11 a.m. to 4 p.m. Sunday, Nov. 1, with a farmers market of 100-plus regional producers, cooking demos, a local beer-cider-spirits tasting room, food trucks, live music and farm animals. Admission is $10, and kids under 12 get in free.",
-    "date": "2026-09-30",
-    "loc": "762 Pike Springs Road, Phoenixville",
-    "link": "https://www.naturalcentralpa.com/2026/09/30/584200/celebrate-local-food-and-agriculture",
+    "title": "Sprouts Farmers Market opens on Ridge Pike in Limerick",
+    "category": "Now Open",
+    "summary": "The natural-and-organic grocer cut the ribbon on its third Montgomery County store at 6:45 a.m. Friday, Oct. 2, with doors opening at 7. It joins the growing cluster of retail along Route 422's Limerick corridor.",
+    "date": "2026-10-01",
+    "loc": "36 W. Ridge Pike, Limerick",
+    "link": "https://patch.com/pennsylvania/limerick/rapidly-expanding-grocery-chain-open-limerick",
     "img": ""
   }
 ]
