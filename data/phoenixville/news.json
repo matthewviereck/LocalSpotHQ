@@ -1,20 +1,29 @@
 [
   {
+    "title": "Limerick loses out on a 28-acre Keen Road parcel it hoped to preserve",
+    "category": "Development",
+    "summary": "Supervisors were set to vote on buying the light-industrial tract at 1 Keen Road, a target in the township's open space plan, but learned the owners had taken a competing offer. The board pre-authorized a $2.2 million purchase through Dec. 31 in case the other deal falls through.",
+    "date": "2026-10-12",
+    "loc": "1 Keen Road, Limerick",
+    "link": "https://www.pottsmerc.com/2026/10/12/limerick-misses-out-on-property-purchase/",
+    "img": ""
+  },
+  {
+    "title": "Pottstown library warns of a funding crisis as budget season opens",
+    "category": "News",
+    "summary": "The Pottstown Regional Public Library has raised enough to start fixing its elevator but says it cannot keep operating without larger contributions from the borough and the three Pottsgrove townships. Losing passport services earlier this year cut about $100,000 from its $900,000 budget.",
+    "date": "2026-10-12",
+    "loc": "Pottstown Regional Public Library, Pottstown",
+    "link": "https://www.pottsmerc.com/2026/10/12/pottstown-library-pushes-hard-for-increased-municipal-funding/",
+    "img": ""
+  },
+  {
     "title": "Phantoms football strings together a second straight win; volleyball outlasts Kennett",
     "category": "News",
     "summary": "Phoenixville's football team picked up its second consecutive victory on Friday night, and the girls volleyball team went five sets to beat Kennett and move to 10-8. Both programs turn to Pottstown next week.",
     "date": "2026-10-11",
     "loc": "Phoenixville Area High School, Phoenixville",
     "link": "https://patch.com/pennsylvania/phoenixville/patch-am-how-phoenixville-s-football-volleyball-teams-pow-nodx-20261011",
-    "img": ""
-  },
-  {
-    "title": "Oaks-based SEI opens a Singapore hub as part of its 2030 growth plan",
-    "category": "News",
-    "summary": "SEI Investments, which keeps about 3,200 of its 5,000 employees on its campus beside Valley Forge National Historical Park, has launched an office in Singapore to serve Asia-Pacific clients. The move is part of the financial technology firm's goal of doubling revenue by 2030.",
-    "date": "2026-10-09",
-    "loc": "SEI campus, Oaks",
-    "link": "https://montco.today/2026/10/sei-investments-singapore-oaks-expansion/",
     "img": ""
   },
   {
@@ -78,15 +87,6 @@
     "date": "2026-10-01",
     "loc": "472-478 Nutt Road, Phoenixville",
     "link": "https://phoenixville.org/m/newsflash/Home/Detail/322",
-    "img": ""
-  },
-  {
-    "title": "Sprouts Farmers Market opens on Ridge Pike in Limerick",
-    "category": "Now Open",
-    "summary": "The natural-and-organic grocer cut the ribbon on its third Montgomery County store at 6:45 a.m. Friday, Oct. 2, with doors opening at 7. It joins the growing cluster of retail along Route 422's Limerick corridor.",
-    "date": "2026-10-01",
-    "loc": "36 W. Ridge Pike, Limerick",
-    "link": "https://patch.com/pennsylvania/limerick/rapidly-expanding-grocery-chain-open-limerick",
     "img": ""
   }
 ]

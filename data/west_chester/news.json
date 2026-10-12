@@ -1,20 +1,38 @@
 [
   {
-    "title": "Westtown School standout Jessie Moses picks Washington from 34 offers",
-    "category": "News",
-    "summary": "The former Westtown guard, now a senior at IMG Academy, committed to the University of Washington after coming back from a torn ACL that cost her a season. She is ranked among the top guards in the country.",
-    "date": "2026-10-10",
-    "loc": "Westtown School, Westtown",
-    "link": "https://vista.today/2026/10/jessie-moses-westtown-commits-washington/",
+    "title": "Interior design studio opens a home decor shop at the Chadds Ford Barn Shops",
+    "category": "Now Open",
+    "summary": "The Shop at Punctuate Your Style has relocated to 1609 Baltimore Pike, Suite 400, selling home decor, gifts and seasonal pieces alongside owner Ashley Dowse's design practice. A grand opening with food, wine and live music runs Saturday, Oct. 17, from 10 a.m. to 5 p.m.",
+    "date": "2026-10-12",
+    "loc": "1609 Baltimore Pike, Chadds Ford",
+    "link": "https://vista.today/2026/10/the-shop-at-punctuate-your-style-chadds-ford/",
     "img": ""
   },
   {
-    "title": "Chester County Hospital's CEO and two West Chester advocates make Main Line Today's Power Women list",
+    "title": "About 100 West Brandywine residents push back on a 237-home Toll Brothers plan",
+    "category": "Development",
+    "summary": "The builder wants conditional-use approval for an age-restricted community on 116 acres between Hibernia and Manor roads, a site neighbors say is too far from a hospital and already surrounded by three other 55-plus projects. Three hearings are done and the township expects about three more before supervisors vote.",
+    "date": "2026-10-10",
+    "loc": "Hibernia Rd & Manor Rd, West Brandywine (near Coatesville)",
+    "link": "https://vista.today/2026/10/toll-brothers-west-brandywine/",
+    "img": ""
+  },
+  {
+    "title": "Health officials flag a Kennett Square CVS in the county's growing measles outbreak",
     "category": "News",
-    "summary": "Dr. Karen Pinsky, the first woman and first physician to run Penn Medicine Chester County Hospital, is among six county honorees on the 2026 list. Also named: West Chester native Amelia Rayburn-Pizzica of the Domestic Violence Center of Chester County and Melissa Yelito, whose West Chester firm helps parents navigate special education.",
+    "summary": "Anyone at the CVS at 870 Baltimore Pike on Sunday, Oct. 4, between 10:45 a.m. and 3 p.m. may have been exposed, along with two West Grove stores the same afternoon. Chester County has logged 83 confirmed cases, and Oxford High School closed Friday after a case in its school community.",
+    "date": "2026-10-10",
+    "loc": "870 Baltimore Pike, Kennett Square",
+    "link": "https://patch.com/pennsylvania/westchester/measles-exposure-possible-multiple-locations-chester-co",
+    "img": ""
+  },
+  {
+    "title": "West Chester Chili Cook-Off moves to Sunday, Oct. 18",
+    "category": "News",
+    "summary": "Organizers postponed the Gay Street cook-off from Oct. 11 to its rain date because of the remnants of Hurricane Isaias, and all tickets bought for the original date remain valid. The event runs noon to 4 p.m. with 27 chilis, more than 60 vendors and live bands.",
     "date": "2026-10-09",
-    "loc": "West Chester",
-    "link": "https://vista.today/2026/10/chester-county-power-women-2026/",
+    "loc": "Gay Street, West Chester",
+    "link": "https://www.westchesterchilicookoff.com/",
     "img": ""
   },
   {
@@ -45,21 +63,12 @@
     "img": ""
   },
   {
-    "title": "State sends $541,600 to build sports courts at Exton Park",
+    "title": "Westtown weighs selling the 1823 Darlington Inn, and preservationists want its facade protected first",
     "category": "Development",
-    "summary": "West Whiteland's grant is the larger of two Community Conservation Partnerships awards announced for Chester County parks this week, with East Whiteland getting $209,800 for the next phase of Bacton Hill Park.",
-    "date": "2026-10-09",
-    "loc": "Exton Park, West Whiteland",
-    "link": "https://www.mychesco.com/a/communities/pennsylvania-awards-751400-for-two-chester-county-parks/",
-    "img": ""
-  },
-  {
-    "title": "West Chester Area schools land 19th in the region in Niche's 2027 rankings",
-    "category": "News",
-    "summary": "Niche's new district rankings place the West Chester Area School District 19th in Greater Philadelphia and 498th nationally. Six Chester County districts made the region's top 25, led by Tredyffrin-Easttown at No. 1.",
+    "summary": "The township carved the serpentine-stone inn out of the Crebilly Farm purchase to save it from demolition, but says it has no municipal use for the building and has rezoned it commercial. Founders of the new Westtown-Brandywine Historical Society are asking for an exterior easement before any sale, modeled on Painter's Folly in Chadds Ford.",
     "date": "2026-10-08",
-    "loc": "West Chester Area School District",
-    "link": "https://vista.today/2026/10/chester-county-school-districts-niche-2027/",
+    "loc": "Routes 202 & 926, Westtown",
+    "link": "https://www.dailylocal.com/2026/10/08/is-westtowns-darlington-inn-on-the-auction-block/",
     "img": ""
   },
   {
@@ -78,15 +87,6 @@
     "date": "2026-10-07",
     "loc": "202 E. Lancaster Ave., Downingtown",
     "link": "https://www.inquirer.com/news/pennsylvania/chester-county-measles-brandywine-microplastics-st-peters-auction-20261007.html",
-    "img": ""
-  },
-  {
-    "title": "West Chester becomes Pennsylvania's newest Bird Town",
-    "category": "News",
-    "summary": "Bird Town Pennsylvania made the borough's designation official at a Borough Hall ceremony, crediting its pesticide-free parks and growing number of rain and pollinator gardens. Volunteers, two WCU professors and the borough's sustainability director led the push, and the borough plans bird-friendly landscaping next.",
-    "date": "2026-10-05",
-    "loc": "Borough Hall, West Chester",
-    "link": "https://vista.today/2026/10/west-chester-bird-town-pennsylvania/",
     "img": ""
   }
 ]
