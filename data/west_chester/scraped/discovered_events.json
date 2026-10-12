@@ -73,31 +73,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
   },
   {
-    "id": "discovered_historic_yellow_springs_fall_festival_20261011",
-    "type": "event",
-    "title": "Historic Yellow Springs Fall Festival",
-    "venue_info": {
-      "name": "Historic Yellow Springs, Chester Springs",
-      "location": {
-        "lat": 40.0871,
-        "lng": -75.6392
-      }
-    },
-    "raw_date_string": "Oct 11, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "time": "12:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://yellowsprings.org/events/historic-yellow-springs-fall-festival/"
-  },
-  {
     "id": "discovered_2026_joan_and_dick_stroud_20261013",
     "type": "event",
     "title": "2026 Joan and Dick Stroud Memorial Lecture",
@@ -2503,32 +2478,6 @@
     "action_link": "https://www.brandywine.org/museum/events/plein-air-painting-workshop-randall-graham-andrew-wyeth-studio-2"
   },
   {
-    "id": "discovered_exton_record_riot_20261011",
-    "type": "event",
-    "title": "The Exton Record Riot",
-    "venue_info": {
-      "name": "Exton Hotel & Conference Center, Exton",
-      "location": {
-        "lat": 40.0392,
-        "lng": -75.6297
-      }
-    },
-    "raw_date_string": "Oct 11, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Indoor",
-        "Vinyl"
-      ],
-      "price": "$5 ($15 early entry)",
-      "time": "10:00 AM - 4:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eventbrite.com/e/vinyl-fun-10000-records-for-sale-the-exton-record-riot-sun-october-11th-tickets-1990205842249"
-  },
-  {
     "id": "discovered_ksq_holiday_village_market_20261205",
     "type": "event",
     "title": "Kennett Square Holiday Village Market",
@@ -3129,5 +3078,803 @@
       "image": ""
     },
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-2"
+  },
+  {
+    "id": "discovered_wc_preservation_awards_20261015",
+    "type": "event",
+    "title": "2026 West Chester Preservation Awards",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9622,
+        "lng": -75.6049
+      }
+    },
+    "raw_date_string": "Oct 15, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Historic",
+        "Indoor"
+      ],
+      "price": "$75",
+      "time": "5:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcdf.org/preservation"
+  },
+  {
+    "id": "discovered_hibernia_mansion_mystery_20261016",
+    "type": "event",
+    "title": "Friends of Hibernia Mansion Mystery",
+    "venue_info": {
+      "name": "Hibernia County Park, Coatesville",
+      "location": {
+        "lat": 40.021,
+        "lng": -75.847
+      }
+    },
+    "raw_date_string": "Oct 16 - 17, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Outdoor",
+        "Historic",
+        "Halloween"
+      ],
+      "price": "$5 (tickets cash only)",
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.chesco.org/5443/Friends-of-Hibernia-Mansion-Mystery"
+  },
+  {
+    "id": "discovered_west_goshen_movie_moana_20261017",
+    "type": "event",
+    "title": "Fall Movie Series: Moana at West Goshen Community Park",
+    "venue_info": {
+      "name": "West Goshen Community Park, West Chester",
+      "location": {
+        "lat": 39.9846,
+        "lng": -75.5733
+      }
+    },
+    "raw_date_string": "Oct 17, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family-Friendly"
+      ],
+      "price": "Free",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.westgoshen.org/Calendar.aspx?EID=1827"
+  },
+  {
+    "id": "discovered_east_bradford_fall_festival_20261018",
+    "type": "event",
+    "title": "East Bradford Fall Festival",
+    "venue_info": {
+      "name": "East Bradford Park, West Chester",
+      "location": {
+        "lat": 39.9745,
+        "lng": -75.6498
+      }
+    },
+    "raw_date_string": "Oct 18, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family-Friendly"
+      ],
+      "price": "Free",
+      "time": "12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eastbradford.org/Calendar.aspx?EID=1570"
+  },
+  {
+    "id": "discovered_uwchlan_paoli_massacre_talk_20261018",
+    "type": "event",
+    "title": "America 250 Speaker Series: The Paoli Massacre",
+    "venue_info": {
+      "name": "Baird Park, Exton",
+      "location": {
+        "lat": 40.0529,
+        "lng": -75.6612
+      }
+    },
+    "raw_date_string": "Oct 18, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "Historic"
+      ],
+      "price": "Free",
+      "time": "2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.uwchlan.com/Calendar.aspx?EID=1918"
+  },
+  {
+    "id": "discovered_bmoa_read_aloud_20261022",
+    "type": "event",
+    "title": "Children's Read-Aloud Program",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8696,
+        "lng": -75.59
+      }
+    },
+    "raw_date_string": "Oct 22, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Indoor",
+        "Family-Friendly"
+      ],
+      "price": "$6 (free for members)",
+      "time": "10:30 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/childrens-read-aloud-program-8"
+  },
+  {
+    "id": "discovered_west_goshen_duffys_cut_20261022",
+    "type": "event",
+    "title": "The Tragic Story of the Duffy's Cut Railroad Workers Massacre",
+    "venue_info": {
+      "name": "West Goshen Township Building, West Chester",
+      "location": {
+        "lat": 39.9777,
+        "lng": -75.5752
+      }
+    },
+    "raw_date_string": "Oct 22, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Historic",
+        "Indoor"
+      ],
+      "price": "Free",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.westgoshen.org/Calendar.aspx?EID=1845"
+  },
+  {
+    "id": "discovered_dtown_brew_down_20261024",
+    "type": "event",
+    "title": "D-Town Brew Down",
+    "venue_info": {
+      "name": "Minquas Fire Company No. 2, Downingtown",
+      "location": {
+        "lat": 40.0061,
+        "lng": -75.699
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "21+",
+        "Beer",
+        "Fundraiser"
+      ],
+      "price": "Ticketed",
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downingtown.org/Calendar.aspx?EID=1467"
+  },
+  {
+    "id": "discovered_uwchlan_halloween_race_20261024",
+    "type": "event",
+    "title": "Uwchlan Halloween Race (5K Run & 1K Walk)",
+    "venue_info": {
+      "name": "Shamona Main Park, Exton",
+      "location": {
+        "lat": 40.0416,
+        "lng": -75.6793
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Halloween",
+        "Family-Friendly"
+      ],
+      "price": "Free",
+      "time": "3:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.uwchlan.com/Calendar.aspx?EID=1808"
+  },
+  {
+    "id": "discovered_upper_uwchlan_trunk_or_treat_20261024",
+    "type": "event",
+    "title": "Upper Uwchlan Trunk or Treat",
+    "venue_info": {
+      "name": "Pickering Valley Elementary, Chester Springs",
+      "location": {
+        "lat": 40.073,
+        "lng": -75.674
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Halloween",
+        "Family-Friendly"
+      ],
+      "price": "Free",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.upperuwchlan-pa.gov/Calendar.aspx?EID=2572"
+  },
+  {
+    "id": "discovered_east_bradford_solar_astronomy_20261024",
+    "type": "event",
+    "title": "Solar Astronomy at Starr Farm Park",
+    "venue_info": {
+      "name": "Starr Farm Park, Downingtown",
+      "location": {
+        "lat": 39.9918,
+        "lng": -75.674
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Educational"
+      ],
+      "price": "Free",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eastbradford.org/Calendar.aspx?EID=1571"
+  },
+  {
+    "id": "discovered_dtown_trick_or_treat_main_st_20261025",
+    "type": "event",
+    "title": "Trick or Treat on Main Street",
+    "venue_info": {
+      "name": "Downtown Downingtown, Downingtown",
+      "location": {
+        "lat": 40.0065,
+        "lng": -75.7033
+      }
+    },
+    "raw_date_string": "Oct 25, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Halloween",
+        "Family-Friendly"
+      ],
+      "price": "Free",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downingtown.org/Calendar.aspx?EID=1484"
+  },
+  {
+    "id": "discovered_west_goshen_harvest_festival_20261025",
+    "type": "event",
+    "title": "West Goshen Harvest Festival",
+    "venue_info": {
+      "name": "West Goshen Community Park, West Chester",
+      "location": {
+        "lat": 39.9846,
+        "lng": -75.5733
+      }
+    },
+    "raw_date_string": "Oct 25, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family-Friendly"
+      ],
+      "price": "Free for West Goshen residents",
+      "time": "2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.westgoshen.org/Calendar.aspx?EID=1807"
+  },
+  {
+    "id": "discovered_uwchlan_monsters_milkweeds_20261025",
+    "type": "event",
+    "title": "Monsters, Masks, and Milkweeds",
+    "venue_info": {
+      "name": "Baird Park, Exton",
+      "location": {
+        "lat": 40.0529,
+        "lng": -75.6612
+      }
+    },
+    "raw_date_string": "Oct 25, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Outdoor",
+        "Halloween",
+        "Nature"
+      ],
+      "price": "Free",
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.uwchlan.com/Calendar.aspx?EID=1751"
+  },
+  {
+    "id": "discovered_east_bradford_orienteering_20261025",
+    "type": "event",
+    "title": "Orienteering Score-O at Starr Farm Park",
+    "venue_info": {
+      "name": "Starr Farm Park, Downingtown",
+      "location": {
+        "lat": 39.9918,
+        "lng": -75.674
+      }
+    },
+    "raw_date_string": "Oct 25, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Free",
+        "Outdoor"
+      ],
+      "price": "Free",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eastbradford.org/Calendar.aspx?EID=1572"
+  },
+  {
+    "id": "discovered_ccchoral_chamber_wc_20261025",
+    "type": "event",
+    "title": "Chester County Choral Society Chamber Ensemble Concert",
+    "venue_info": {
+      "name": "First Presbyterian Church, West Chester",
+      "location": {
+        "lat": 39.9586,
+        "lng": -75.604
+      }
+    },
+    "raw_date_string": "Oct 25, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical"
+      ],
+      "price": "Ticketed",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://chescochoral.org/events"
+  },
+  {
+    "id": "discovered_bmoa_read_aloud_20261029",
+    "type": "event",
+    "title": "Children's Read-Aloud Program",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8696,
+        "lng": -75.59
+      }
+    },
+    "raw_date_string": "Oct 29, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Indoor",
+        "Family-Friendly"
+      ],
+      "price": "$6 (free for members)",
+      "time": "10:30 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/childrens-read-aloud-program-9"
+  },
+  {
+    "id": "discovered_cccg_fall_craft_fair_20261031",
+    "type": "event",
+    "title": "Chester County Craft Guild Fall Fine Craft Fair",
+    "venue_info": {
+      "name": "Chester County Art Association, West Chester",
+      "location": {
+        "lat": 39.9647,
+        "lng": -75.6145
+      }
+    },
+    "raw_date_string": "Oct 31 - Nov 1, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "Indoor",
+        "Shopping"
+      ],
+      "price": "Free",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://chestercountycraftguild.org/event/fall-fine-craft-fair/"
+  },
+  {
+    "id": "discovered_cccb_bach_to_the_future_20261101",
+    "type": "event",
+    "title": "Chester County Concert Band: Bach to the Future",
+    "venue_info": {
+      "name": "Fugett Middle School, West Chester",
+      "location": {
+        "lat": 39.9527,
+        "lng": -75.5668
+      }
+    },
+    "raw_date_string": "Nov 1, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Family-Friendly"
+      ],
+      "price": "Ticketed",
+      "time": "2:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://cccband.org/"
+  },
+  {
+    "id": "discovered_bmoa_plein_air_kuerner_20261106",
+    "type": "event",
+    "title": "Plein Air Day at Kuerner Farm",
+    "venue_info": {
+      "name": "Kuerner Farm, Chadds Ford",
+      "location": {
+        "lat": 39.8714,
+        "lng": -75.579
+      }
+    },
+    "raw_date_string": "Nov 6, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Workshop"
+      ],
+      "price": "$20 ($15 members)",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/plein-air-day-kuerner-farm-10"
+  },
+  {
+    "id": "discovered_bmoa_plein_air_kuerner_20261108",
+    "type": "event",
+    "title": "Plein Air Day at Kuerner Farm",
+    "venue_info": {
+      "name": "Kuerner Farm, Chadds Ford",
+      "location": {
+        "lat": 39.8714,
+        "lng": -75.579
+      }
+    },
+    "raw_date_string": "Nov 8, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Workshop"
+      ],
+      "price": "$20 ($15 members)",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/plein-air-day-kuerner-farm-11"
+  },
+  {
+    "id": "discovered_ccchoral_chamber_unionville_20261108",
+    "type": "event",
+    "title": "Chester County Choral Society Chamber Ensemble Concert",
+    "venue_info": {
+      "name": "St. Michael Lutheran Church, Unionville",
+      "location": {
+        "lat": 39.9005,
+        "lng": -75.736
+      }
+    },
+    "raw_date_string": "Nov 8, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical"
+      ],
+      "price": "Ticketed",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://chescochoral.org/events"
+  },
+  {
+    "id": "discovered_bvs_masterworks_1_20261115",
+    "type": "event",
+    "title": "Brandywine Valley Symphony: Masterworks I",
+    "venue_info": {
+      "name": "Mendenhall Inn, Chadds Ford",
+      "location": {
+        "lat": 39.8575,
+        "lng": -75.6355
+      }
+    },
+    "raw_date_string": "Nov 15, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical"
+      ],
+      "price": "Ticketed",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://bvsymphony.org/event/masterworks-1-concert/"
+  },
+  {
+    "id": "discovered_wcu_live_sharpe_family_singers_20261121",
+    "type": "event",
+    "title": "WCU Live!: The Sharpe Family Singers",
+    "venue_info": {
+      "name": "Emilie K. Asplundh Concert Hall, West Chester",
+      "location": {
+        "lat": 39.95,
+        "lng": -75.599
+      }
+    },
+    "raw_date_string": "Nov 21, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Family-Friendly"
+      ],
+      "price": "$25-$35",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/OCA/wcu-Live/"
+  },
+  {
+    "id": "discovered_wc_christmas_parade_tree_lighting_20261204",
+    "type": "event",
+    "title": "West Chester Christmas Parade & Tree Lighting",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Dec 4, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Holiday",
+        "Family-Friendly"
+      ],
+      "price": "Free",
+      "time": "6:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.greaterwestchester.com/lightsupchristmasparade.html"
+  },
+  {
+    "id": "discovered_hibernia_candlelight_tours_20261204",
+    "type": "event",
+    "title": "Hibernia Mansion Candlelight Tours: Sights + Sounds of the Holidays",
+    "venue_info": {
+      "name": "Hibernia County Park, Coatesville",
+      "location": {
+        "lat": 40.021,
+        "lng": -75.847
+      }
+    },
+    "raw_date_string": "Dec 4 - 6, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Historic",
+        "Holiday",
+        "Family-Friendly"
+      ],
+      "price": "$10 adults, $5 kids 6-10 (cash only)",
+      "time": "5:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.chesco.org/5454/Hibernia-Mansion-Candlelight-Tours"
+  },
+  {
+    "id": "discovered_cccg_holiday_craft_fair_20261205",
+    "type": "event",
+    "title": "Chester County Craft Guild Holiday Fine Craft Fair",
+    "venue_info": {
+      "name": "Ludwigs Corner Fire Hall, Chester Springs",
+      "location": {
+        "lat": 40.1033,
+        "lng": -75.7023
+      }
+    },
+    "raw_date_string": "Dec 5 - 6, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Shopping",
+        "Holiday"
+      ],
+      "price": "$5",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://chestercountycraftguild.org/event/2026-holiday-fine-craft-fair/"
+  },
+  {
+    "id": "discovered_bvs_historic_holiday_concert_20261206",
+    "type": "event",
+    "title": "Brandywine Valley Symphony: Historic Holiday Concert with BVS Brass Quintet",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9622,
+        "lng": -75.6049
+      }
+    },
+    "raw_date_string": "Dec 6, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Holiday",
+        "Family-Friendly"
+      ],
+      "price": "Ticketed",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://bvsymphony.org/event/historic-holiday-concert/"
+  },
+  {
+    "id": "discovered_ccchoral_winter_holiday_concert_20261212",
+    "type": "event",
+    "title": "Chester County Choral Society Winter Holiday Concert",
+    "venue_info": {
+      "name": "Church of the Good Samaritan, Paoli",
+      "location": {
+        "lat": 40.0416,
+        "lng": -75.4823
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Holiday",
+        "Classical"
+      ],
+      "price": "Ticketed",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://chescochoral.org/events"
+  },
+  {
+    "id": "discovered_brandywine_ballet_nutcracker_20261218",
+    "type": "event",
+    "title": "Brandywine Ballet: The Nutcracker",
+    "venue_info": {
+      "name": "Emilie K. Asplundh Concert Hall, West Chester",
+      "location": {
+        "lat": 39.95,
+        "lng": -75.599
+      }
+    },
+    "raw_date_string": "Dec 18 - 20, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Indoor",
+        "Holiday",
+        "Family-Friendly"
+      ],
+      "price": "Ticketed"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywineballet.org/2026-2027-performances"
   }
 ]
