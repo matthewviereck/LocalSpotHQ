@@ -2190,32 +2190,6 @@
     "action_link": "https://kennettflash.org/event/garrett-boys/kennett-flash/kennett-square-pennsylvania/"
   },
   {
-    "id": "discovered_longwood_indigenous_peoples_day_20261012",
-    "type": "event",
-    "title": "Indigenous Peoples' Day at Longwood Gardens",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8719,
-        "lng": -75.675
-      }
-    },
-    "raw_date_string": "Oct 12, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Family"
-      ],
-      "price": "Free with gardens admission",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/indigenous-peoples-day"
-  },
-  {
     "id": "discovered_longwood_beer_garden_music_20261003",
     "type": "event",
     "title": "Live Music in the Beer Garden at Longwood Gardens",
@@ -3876,5 +3850,80 @@
       "image": ""
     },
     "action_link": "https://www.brandywineballet.org/2026-2027-performances"
+  },
+  {
+    "id": "discovered_wcu_live_so_good_neil_diamond_20270213",
+    "type": "event",
+    "title": "WCU Live!: So Good - The Neil Diamond Experience",
+    "venue_info": {
+      "name": "Emilie K. Asplundh Concert Hall, West Chester",
+      "location": {
+        "lat": 39.9535,
+        "lng": -75.5985
+      }
+    },
+    "raw_date_string": "Feb 13, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Tribute"
+      ],
+      "price": "$25-$35",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/OCA/wcu-Live/"
+  },
+  {
+    "id": "discovered_wcu_live_tamagawa_taiko_20270407",
+    "type": "event",
+    "title": "WCU Live!: Tamagawa University Taiko Drumming & Dance Troupe",
+    "venue_info": {
+      "name": "Emilie K. Asplundh Concert Hall, West Chester",
+      "location": {
+        "lat": 39.9535,
+        "lng": -75.5985
+      }
+    },
+    "raw_date_string": "Apr 7, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Family Friendly"
+      ],
+      "price": "$18-$25",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/OCA/wcu-Live/"
+  },
+  {
+    "id": "discovered_ccl_holiday_craft_show_20261212",
+    "type": "event",
+    "title": "Chester County Library Holiday Craft Show",
+    "venue_info": {
+      "name": "Chester County Library, Exton",
+      "location": {
+        "lat": 40.0315,
+        "lng": -75.6285
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Shopping",
+        "Holiday"
+      ],
+      "time": "9:30 AM - 3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://chescolibraries.org/?p=467400"
   }
 ]
