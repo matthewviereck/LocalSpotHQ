@@ -1,5 +1,14 @@
 [
   {
+    "title": "Brandywine Valley Symphony makes its Carnegie Hall debut Oct. 18",
+    "category": "News",
+    "summary": "Founded in Kennett Square in 1940 and now Chester County's only all-professional orchestra, the symphony's chamber orchestra plays Weill Recital Hall as part of New York's Ukrainian Cultural Festival.",
+    "date": "2026-10-13",
+    "loc": "Kennett Square",
+    "link": "https://vista.today/2026/10/brandywine-valley-symphony-carnegie-hall-debut/",
+    "img": ""
+  },
+  {
     "title": "Interior design studio opens a home decor shop at the Chadds Ford Barn Shops",
     "category": "Now Open",
     "summary": "The Shop at Punctuate Your Style has relocated to 1609 Baltimore Pike, Suite 400, selling home decor, gifts and seasonal pieces alongside owner Ashley Dowse's design practice. A grand opening with food, wine and live music runs Saturday, Oct. 17, from 10 a.m. to 5 p.m.",
@@ -9,21 +18,39 @@
     "img": ""
   },
   {
+    "title": "$1.9 million gift permanently funds a Hillel staff post at West Chester University",
+    "category": "News",
+    "summary": "An anonymous family foundation, the same one that paid for WCU Hillel's first full-time hire in 2018, endowed a permanent staff position supporting Jewish student life on campus.",
+    "date": "2026-10-12",
+    "loc": "West Chester University, West Chester",
+    "link": "https://ejewishphilanthropy.com/anonymous-foundation-helps-endow-permanent-role-at-west-chester-university-hillel",
+    "img": ""
+  },
+  {
+    "title": "Coatesville cattle farmer and 4-H mentor enters the PA Livestock Hall of Fame",
+    "category": "News",
+    "summary": "Cheryl Fairbairn, who spent 44 years with Penn State Extension in Chester County and raises Angus at Lisnageer Farm, was inducted Oct. 1 - only the third woman inducted individually since 1972.",
+    "date": "2026-10-12",
+    "loc": "Lisnageer Farm, Coatesville",
+    "link": "https://vista.today/2026/10/cheryl-fairbairn-pennsylvania-livestock-hall-of-fame/",
+    "img": ""
+  },
+  {
+    "title": "Former Brandywine Hospital campus listed for lease as Legacy at Brandywine",
+    "category": "Development",
+    "summary": "Regal Builders is marketing nine spaces on the old hospital campus plus pad sites on the neighboring Fisherville Farm, part of a 115-acre mixed-use plan in Caln. No hospital operator, unit count or timeline has been announced.",
+    "date": "2026-10-11",
+    "loc": "Route 30, Caln Township (Coatesville)",
+    "link": "https://vista.today/2026/10/legacy-brandywine-town-center-redevelopment/",
+    "img": ""
+  },
+  {
     "title": "About 100 West Brandywine residents push back on a 237-home Toll Brothers plan",
     "category": "Development",
     "summary": "The builder wants conditional-use approval for an age-restricted community on 116 acres between Hibernia and Manor roads, a site neighbors say is too far from a hospital and already surrounded by three other 55-plus projects. Three hearings are done and the township expects about three more before supervisors vote.",
     "date": "2026-10-10",
     "loc": "Hibernia Rd & Manor Rd, West Brandywine (near Coatesville)",
     "link": "https://vista.today/2026/10/toll-brothers-west-brandywine/",
-    "img": ""
-  },
-  {
-    "title": "Health officials flag a Kennett Square CVS in the county's growing measles outbreak",
-    "category": "News",
-    "summary": "Anyone at the CVS at 870 Baltimore Pike on Sunday, Oct. 4, between 10:45 a.m. and 3 p.m. may have been exposed, along with two West Grove stores the same afternoon. Chester County has logged 83 confirmed cases, and Oxford High School closed Friday after a case in its school community.",
-    "date": "2026-10-10",
-    "loc": "870 Baltimore Pike, Kennett Square",
-    "link": "https://patch.com/pennsylvania/westchester/measles-exposure-possible-multiple-locations-chester-co",
     "img": ""
   },
   {
@@ -45,24 +72,6 @@
     "img": ""
   },
   {
-    "title": "The Wardrobe reopens in Malvern after losing its Exton Square Mall space",
-    "category": "Now Open",
-    "summary": "The nonprofit, which gives away free clothing and career coaching, held a ribbon cutting Thursday, Oct. 8, at the former Goodwill in Lincoln Court Shopping Center. Donations are accepted Tuesdays and Thursdays from noon to 4 p.m., and the group expects to serve a record 2,000 Chester County residents this year.",
-    "date": "2026-10-09",
-    "loc": "235 Lancaster Ave., Malvern",
-    "link": "https://www.mychesco.com/a/news/social-issues/the-wardrobe-expands-to-main-line-with-malvern-location/",
-    "img": ""
-  },
-  {
-    "title": "Century-old Hoffman's Mill dam comes out of the Brandywine in Chadds Ford",
-    "category": "News",
-    "summary": "The Brandywine Conservancy removed the breached low-head dam near the Route 1 bridge on Oct. 6, ending nearly six years of planning. The 2025 flood study flagged the remains as a debris trap, and the open channel now lets shad migrate and paddlers pass without a portage.",
-    "date": "2026-10-09",
-    "loc": "Brandywine Creek at Route 1, Chadds Ford",
-    "link": "https://www.mychesco.com/a/news/brandywine-dam-removal-targets-flooding-restores-fish-passage/",
-    "img": ""
-  },
-  {
     "title": "Westtown weighs selling the 1823 Darlington Inn, and preservationists want its facade protected first",
     "category": "Development",
     "summary": "The township carved the serpentine-stone inn out of the Crebilly Farm purchase to save it from demolition, but says it has no municipal use for the building and has rezoned it commercial. Founders of the new Westtown-Brandywine Historical Society are asking for an exterior easement before any sale, modeled on Painter's Folly in Chadds Ford.",
@@ -78,15 +87,6 @@
     "date": "2026-10-07",
     "loc": "204 W. Market St., West Chester",
     "link": "https://www.dailylocal.com/2026/10/07/west-chester-co-op-grocery-store-is-officially-open-for-business/",
-    "img": ""
-  },
-  {
-    "title": "Downingtown's mother. closes a week after its first birthday; Willowdale venue opens in Kennett Square",
-    "category": "Closed",
-    "summary": "The upscale Mexican restaurant at 202 E. Lancaster Ave. served its last meals Saturday, Oct. 10. Across the county, Jeffrey A. Miller Hospitality's Willowdale events venue is now open on the former Landhope Farms dairy property after a yearlong overhaul.",
-    "date": "2026-10-07",
-    "loc": "202 E. Lancaster Ave., Downingtown",
-    "link": "https://www.inquirer.com/news/pennsylvania/chester-county-measles-brandywine-microplastics-st-peters-auction-20261007.html",
     "img": ""
   }
 ]
