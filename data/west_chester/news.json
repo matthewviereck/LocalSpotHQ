@@ -1,5 +1,41 @@
 [
   {
+    "title": "Indoor pickleball chain behind Exton's Picklr club files for bankruptcy",
+    "category": "News",
+    "summary": "The Utah-based Picklr franchisor filed for Chapter 11 on Oct. 9, about two weeks after the operators of its Exton club filed their own petition. The company says all locations, Exton included, remain open while it reorganizes.",
+    "date": "2026-10-14",
+    "loc": "The Picklr, Exton",
+    "link": "https://vista.today/2026/10/the-picklr-exton-pickleball-bankruptcy/",
+    "img": ""
+  },
+  {
+    "title": "Borough Council weighs raising mayor and council pay to the state maximum, starting 2030",
+    "category": "News",
+    "summary": "An ordinance up for adoption Oct. 21 would set the mayor's and each council member's pay at $6,915 a year, the state maximum for a borough of West Chester's size. The raises would only apply to terms starting in 2030.",
+    "date": "2026-10-13",
+    "loc": "Borough Hall, 401 E. Gay St., West Chester",
+    "link": "https://www.mychesco.com/a/news/government/west-chester-proposes-higher-salaries-for-mayor-council/",
+    "img": ""
+  },
+  {
+    "title": "Developer asks for more time on its 329-apartment plan across from Borough Hall",
+    "category": "Development",
+    "summary": "The Michaels Organization wants an extension of the 2024 zoning relief for a seven-story apartment building at 5 N. Adams St. and seven neighboring parcels. The Zoning Hearing Board takes up the request Oct. 26.",
+    "date": "2026-10-13",
+    "loc": "5 N. Adams St., West Chester",
+    "link": "https://www.mychesco.com/a/news/government/west-chester-developer-seeks-extension-for-329-apartment-plan/",
+    "img": ""
+  },
+  {
+    "title": "Hoffman's Mill Dam is gone, and the Brandywine runs free through Chadds Ford",
+    "category": "Development",
+    "summary": "The Brandywine Conservancy finished removing the 1800s dam just upstream of the Route 1 bridge after six years of planning, easing a flood choke point and opening the creek to paddlers and migrating shad. An accessible boat launch is planned for 2027.",
+    "date": "2026-10-13",
+    "loc": "Brandywine Creek at Route 1, Chadds Ford",
+    "link": "https://vista.today/2026/10/hoffmans-mill-dam-removed-chadds-ford/",
+    "img": ""
+  },
+  {
     "title": "Brandywine Valley Symphony makes its Carnegie Hall debut Oct. 18",
     "category": "News",
     "summary": "Founded in Kennett Square in 1940 and now Chester County's only all-professional orchestra, the symphony's chamber orchestra plays Weill Recital Hall as part of New York's Ukrainian Cultural Festival.",
@@ -27,15 +63,6 @@
     "img": ""
   },
   {
-    "title": "Coatesville cattle farmer and 4-H mentor enters the PA Livestock Hall of Fame",
-    "category": "News",
-    "summary": "Cheryl Fairbairn, who spent 44 years with Penn State Extension in Chester County and raises Angus at Lisnageer Farm, was inducted Oct. 1 - only the third woman inducted individually since 1972.",
-    "date": "2026-10-12",
-    "loc": "Lisnageer Farm, Coatesville",
-    "link": "https://vista.today/2026/10/cheryl-fairbairn-pennsylvania-livestock-hall-of-fame/",
-    "img": ""
-  },
-  {
     "title": "Former Brandywine Hospital campus listed for lease as Legacy at Brandywine",
     "category": "Development",
     "summary": "Regal Builders is marketing nine spaces on the old hospital campus plus pad sites on the neighboring Fisherville Farm, part of a 115-acre mixed-use plan in Caln. No hospital operator, unit count or timeline has been announced.",
@@ -60,33 +87,6 @@
     "date": "2026-10-09",
     "loc": "Gay Street, West Chester",
     "link": "https://www.westchesterchilicookoff.com/",
-    "img": ""
-  },
-  {
-    "title": "West Goshen asks a court to raze the burned-out former Boston Market",
-    "category": "Development",
-    "summary": "The township has petitioned Chester County Court to appoint a conservator for 726 E. Gay St., which partially collapsed in a December 2024 fire and has racked up 54 open citations. The proposed plan demolishes the building and lists the lot for sale, with a hearing set for Nov. 2.",
-    "date": "2026-10-09",
-    "loc": "726 E. Gay St., West Goshen",
-    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-oct-9-2026",
-    "img": ""
-  },
-  {
-    "title": "Westtown weighs selling the 1823 Darlington Inn, and preservationists want its facade protected first",
-    "category": "Development",
-    "summary": "The township carved the serpentine-stone inn out of the Crebilly Farm purchase to save it from demolition, but says it has no municipal use for the building and has rezoned it commercial. Founders of the new Westtown-Brandywine Historical Society are asking for an exterior easement before any sale, modeled on Painter's Folly in Chadds Ford.",
-    "date": "2026-10-08",
-    "loc": "Routes 202 & 926, Westtown",
-    "link": "https://www.dailylocal.com/2026/10/08/is-westtowns-darlington-inn-on-the-auction-block/",
-    "img": ""
-  },
-  {
-    "title": "West Chester Co-op cuts the ribbon on the borough's first grocery store in decades",
-    "category": "Now Open",
-    "summary": "More than 100 member-owners turned out for the grand opening of the community-owned market on West Market Street, which had been in a soft launch since Aug. 20. The store is open to everyone, no membership required.",
-    "date": "2026-10-07",
-    "loc": "204 W. Market St., West Chester",
-    "link": "https://www.dailylocal.com/2026/10/07/west-chester-co-op-grocery-store-is-officially-open-for-business/",
     "img": ""
   }
 ]
