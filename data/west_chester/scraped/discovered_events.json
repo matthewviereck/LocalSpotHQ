@@ -73,56 +73,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
   },
   {
-    "id": "discovered_2026_joan_and_dick_stroud_20261013",
-    "type": "event",
-    "title": "2026 Joan and Dick Stroud Memorial Lecture",
-    "venue_info": {
-      "name": "Stroud Water Research Center, Avondale",
-      "location": {
-        "lat": 39.8256,
-        "lng": -75.783
-      }
-    },
-    "raw_date_string": "Oct 13, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free"
-      ],
-      "price": "Free",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://stroudcenter.org/event/2026-joan-and-dick-stroud-memorial-lecture/"
-  },
-  {
-    "id": "discovered_bird-walk-cheslen_20261013",
-    "type": "event",
-    "title": "Autumn Avian Adventures: Murmuration & Migrations",
-    "venue_info": {
-      "name": "ChesLen Preserve, Coatesville",
-      "location": {
-        "lat": 39.9151,
-        "lng": -75.7714
-      }
-    },
-    "raw_date_string": "Oct 13, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Nature"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wp.natlands.org/event/bird-walk-cheslen-2026-1013/"
-  },
-  {
     "id": "discovered_bright_star_wcu_theatre_20261015",
     "type": "event",
     "title": "Bright Star (WCU Theatre)",
@@ -3925,5 +3875,59 @@
       "image": ""
     },
     "action_link": "https://chescolibraries.org/?p=467400"
+  },
+  {
+    "id": "discovered_wc_halloween_parade_20261028",
+    "type": "event",
+    "title": "West Chester Halloween Parade",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Oct 28, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://west-chester.com/370/Events"
+  },
+  {
+    "id": "discovered_santa_at_the_square_20261205",
+    "type": "event",
+    "title": "Santa at the Square",
+    "venue_info": {
+      "name": "Marshall Square Park, West Chester",
+      "location": {
+        "lat": 39.964,
+        "lng": -75.601
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "4:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://west-chester.com/370/Events"
   }
 ]
