@@ -1840,39 +1840,6 @@
     "action_link": "https://thecolonialtheatre.com/events/"
   },
   {
-    "id": "discovered_sweet_lillies_gem_20261013",
-    "type": "event",
-    "title": "The Sweet Lillies with Paper Graves – Live at The Gem",
-    "venue_info": {
-      "name": "The Gem Music Hall, 66 N Main St, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "October 13, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Folk",
-        "Acoustic",
-        "Guitar",
-        "Viola",
-        "Upright Bass",
-        "Vocal Harmonies",
-        "Spring City",
-        "The Gem",
-        "Tuesday Night"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/event-details/the-sweet-lillies-with-paper-graves"
-  },
-  {
     "id": "discovered_haunts_on_high_pottstown_20261017",
     "type": "event",
     "title": "Haunts on High – 12th Annual Halloween Celebration",
