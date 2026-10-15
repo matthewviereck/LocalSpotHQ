@@ -1719,37 +1719,6 @@
     "action_link": "https://prod1.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=259622~7ba4fc69-69fd-432f-9fcc-cbe2478f74c7"
   },
   {
-    "id": "discovered_last_big_band_rivet_20261014",
-    "type": "event",
-    "title": "The Last Big Band – Jazz Orchestra Live at Rivet",
-    "venue_info": {
-      "name": "Rivet: Canteen & Assembly, 238 E High St, Pottstown",
-      "location": {
-        "lat": 40.2454,
-        "lng": -75.6489
-      }
-    },
-    "raw_date_string": "October 14, 2026 6:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Jazz",
-        "Big Band",
-        "Golden Era",
-        "Danceable",
-        "Live Orchestra",
-        "Dinner & Drinks",
-        "Pottstown",
-        "Wednesday Night"
-      ],
-      "price": "$10 advance"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eventbrite.com/e/the-last-big-band-jazz-orchestra-live-at-rivet-tickets-1995856126401"
-  },
-  {
     "id": "discovered_eric_dalessandro_souljoels_20261016",
     "type": "event",
     "title": "Eric D’Alessandro – Live Stand-Up Comedy at SoulJoel’s",
@@ -2991,36 +2960,6 @@
     "action_link": "https://www.collegevilledevelopment.org/halloween-parade-collegeville-borough/"
   },
   {
-    "id": "discovered_haunted_history_conroy_20261014",
-    "type": "event",
-    "title": "Haunted History with Ryan Conroy – Phoenixville Chamber",
-    "venue_info": {
-      "name": "710 S Main St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "October 14, 2026 6:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Local History",
-        "Ghost Stories",
-        "Walking Tour",
-        "Halloween Season",
-        "Chamber of Commerce",
-        "Evening",
-        "Phoenixville"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://givebutter.com/hauntedhistory26"
-  },
-  {
     "id": "discovered_dale_jones_souljoels_20261106",
     "type": "event",
     "title": "Dale Jones – Live Stand-Up Comedy at SoulJoel's",
@@ -3720,5 +3659,158 @@
       "image": ""
     },
     "action_link": "https://visitrivet.com/"
+  },
+  {
+    "id": "discovered_ymca_crafts_creations_20261101",
+    "type": "event",
+    "title": "Crafts & Creations Holiday Market at Phoenixville YMCA",
+    "venue_info": {
+      "name": "Phoenixville YMCA, 400 E Pothouse Rd, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "November 1, 2026 10:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Holiday Market",
+        "Local Vendors",
+        "Craft Show",
+        "Family Friendly",
+        "Phoenixville",
+        "Sunday"
+      ],
+      "price": "Free to attend"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.philaymca.org/events/local-crafts-creations-phoenixville-ymca"
+  },
+  {
+    "id": "discovered_phoenixville_bed_races_20261107",
+    "type": "event",
+    "title": "Phoenixville Bed Races – Annual Fundraiser for Good Samaritan Services",
+    "venue_info": {
+      "name": "Reeves Park, 2nd Ave, Phoenixville",
+      "location": {
+        "lat": 40.135,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "November 7, 2026 11:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Charity",
+        "Fundraiser",
+        "Family Friendly",
+        "Outdoor",
+        "Bed Race",
+        "Good Samaritan Services",
+        "Reeves Park",
+        "Annual Tradition"
+      ],
+      "price": "Free for spectators"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/phoenixville-bed-races-tickets-1999041879073"
+  },
+  {
+    "id": "discovered_gem_revue_anniversary_20261107",
+    "type": "event",
+    "title": "The Gem Revue – 2nd Anniversary Show",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.172,
+        "lng": -75.541
+      }
+    },
+    "raw_date_string": "November 7, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Anniversary",
+        "Speakeasy",
+        "Live Music",
+        "Spring City",
+        "Saturday Night",
+        "Celebration",
+        "The Gem"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/"
+  },
+  {
+    "id": "discovered_jtbc_gem_20261113",
+    "type": "event",
+    "title": "Jackson Taylor Blues Co. (JTBc) – Live at The Gem",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.172,
+        "lng": -75.541
+      }
+    },
+    "raw_date_string": "November 13, 2026 8:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Blues",
+        "Live Music",
+        "Spring City",
+        "The Gem",
+        "Friday Night",
+        "Speakeasy",
+        "Intimate Venue"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.thegemspringcity.com/"
+  },
+  {
+    "id": "discovered_not_just_rock_expo_20261127",
+    "type": "event",
+    "title": "Not Just Rock Expo 2026 – Record, CD & Music Memorabilia Show",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, Hall D, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Nov 27-28, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Vinyl Records",
+        "CDs",
+        "Music Memorabilia",
+        "Collectors",
+        "Indoor",
+        "Oaks",
+        "Thanksgiving Weekend",
+        "Weekend Show"
+      ],
+      "price": "$5 admission ($4 with printout)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://cantonfair.net/"
   }
 ]
