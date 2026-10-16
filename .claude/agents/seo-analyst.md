@@ -425,6 +425,55 @@ chart legend. No indexing requests made. Chrome note: another SEO agent
 worked wellbuiltliving.com and GA4 p446745302/p531131523 in a neighbouring
 tab; this pass used its own tab and confirmed the property before each read.
 
+Reading of 2026-10-15 (a 10/8 read, indexing dated 10/8 and performance Oct 5
+to 11, sits in the vault hub only: 7 clicks, 451 impressions, position 11.6;
+28d 26 clicks; 320 indexed / 470 not; noindex 52). Indexing report "Last
+update: 10/11/26", property confirmed as www.localspothq.com: indexed 322 (was
+320) / not indexed 451 (was 470). Breakdown: discovered-not-indexed 217 (was
+249 on 10/3, still falling), 404 117, noindex 56 (was 52), alternate canonical
+34, crawled-not-indexed 15 (was 7), page with redirect 9, duplicate 2, 403 1.
+Noindex drilldown (`CAMYCCAC`, all 56 rows read) checked against the slug
+registries: 46 are past events; 10 carry dates on or after Oct 15 (WCPL
+Halloween door tour 10/16, pop-up beer garden 10/17, Better Than Bacon 10/20,
+The Wedding Funeral 10/24, Chester County Archives 10/29, Concert in the
+Cupboard 11/14, Hot Ones wing contest 11/15, Laugh Lounge 11/19, Christkindlmarkt
+12/12, and the Ethan Neal Beatles tribute dated 2027-09-26, which looks like a
+date-parse error). Nine of those dropped out of the feed (last_seen Aug 28 to
+Oct 2), so `noindex, follow` is the intended "dropped future listing" stub.
+The Wedding Funeral is still listed (last_seen Oct 13) and the live page now
+serves `index, follow`; Google's noindex comes from its Sep 4 crawl and should
+clear on recrawl. Performance, last update 6 hours before the read. Last 7 days
+Oct 8 to 14: 7 clicks, 404 impressions, CTR 1.7%, position 12.5 (prior 7, Oct 1
+to 7: 4 / 586 / 0.7% / 12.7). Oct 12 to 14 are new days versus the 10/8 read,
+Oct 8 to 11 overlap it, and the last day or two are partial. No query in the
+7-day list shows a click (all 7 sit in anonymised queries); top impressions:
+"west chester pa things to do" 10, "west chester christmas parade 2026" 9
+(new), "phoenixville blues festival" 6, "rocky horror picture show
+phoenixville" 5, "phoenixville pumpkin patch" 5 (new); 71 queries. 7-day
+pages by clicks: fall-phoenixville guide 2 (134 impressions), Monster Mania
+Con 69 1, Gusten Rudolph Quintet 1, Trappe fire company comedy fundraiser 1,
+Chilling West Chester walking tour 1, `/phoenixville/` 1; `/west-chester/` 45
+impressions for 0 (was 86), hometown Christmas parade 14 (new); 91 pages. 28
+days Sep 17 to Oct 14: 26 clicks, 2.4K impressions (shown rounded), CTR 1.1%,
+position 10.2 (previous 28, Aug 20 to Sep 16: 31 / 3.4K / 0.9% / 12.1); the
+impression drop is the homecoming queries ageing out (31 vs 317). Top 28-day
+queries: "west chester restaurant festival 2026" 1 click (235 impressions),
+"west chester food truck festival 2026" 1 (59), "west chester food festival
+2026" 1 (33); 248 queries. Top 28-day pages: fall-phoenixville guide 9 (529),
+restaurant-and-food-truck festival 3 (510), senior expo 2 (18), then seven
+pages at 1 (Parlour Halloween shorts, Rocky Horror, Monster Mania, UPT fall
+fest, `/phoenixville/`, home, Gusten Rudolph); 260 pages. GA4 (URL
+a318740723p539486581), Oct 8 to 14: 19 sessions (organic search 9, direct 5,
+organic social 5) vs 19 prior (organic 9, direct 10, organic social 0),
+engagement rate 47% (was 21%). Organic social returned after a zero week.
+Sep 17 to Oct 14 pages: 97 views (was 126), 64 active users (was 41), 55 page
+rows; top `/phoenixville/` 23, home 22, fall-phoenixville guide 16,
+`/phoenixville/this-weekend/` 5, restaurant festival 3; the unprefixed
+`/guides/things-to-do-phoenixville/` (2) is still listed. Sitemaps not
+re-read. No indexing requests made. Chrome note: another agent worked
+bettersleepproject.com and wellbuiltliving.com in neighbouring tabs; this pass
+used its own tab and confirmed the property on screen before each number.
+
 ## Report format
 
 Lead with what changed versus the baseline and versus the previous period,
