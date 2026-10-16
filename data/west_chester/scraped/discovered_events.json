@@ -95,58 +95,6 @@
     "action_link": "https://www.wcupa.edu/arts-humanities/theatreDance/currentSeason.aspx"
   },
   {
-    "id": "discovered_fall_biergarten_at_historic_sugartown_20261015",
-    "type": "event",
-    "title": "Fall Biergarten at Historic Sugartown",
-    "venue_info": {
-      "name": "Historic Sugartown, Malvern",
-      "location": {
-        "lat": 40.0284,
-        "lng": -75.5344
-      }
-    },
-    "raw_date_string": "Oct 15, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Outdoor",
-        "Evening"
-      ],
-      "price": "",
-      "time": "4:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://historicsugartown.org/events/fall-biergarten/"
-  },
-  {
-    "id": "discovered_joseph_dawson_alumni_jazz_band_20261015",
-    "type": "event",
-    "title": "Joseph Dawson's Alumni Jazz Band",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Oct 15, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$25",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/joseph-dawsons-alumni-jazz-band/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_the_great_pumpkin_carve_20261015",
     "type": "event",
     "title": "The Great Pumpkin Carve",
@@ -171,57 +119,6 @@
       "image": ""
     },
     "action_link": "https://chaddsfordhistory.org/great-pumpkin-carve/"
-  },
-  {
-    "id": "discovered_third_thursdays_on_state_street_20261015",
-    "type": "event",
-    "title": "Third Thursdays on State Street",
-    "venue_info": {
-      "name": "State Street, Kennett Square",
-      "location": {
-        "lat": 39.8465,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Oct 15, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free",
-      "time": "5:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettcollaborative.org/event/third-thursdays/2026-10-15/"
-  },
-  {
-    "id": "discovered_town_tours_village_walks_lecture_20261015",
-    "type": "event",
-    "title": "Town Tours & Village Walks Lecture: Historic Yellow Springs",
-    "venue_info": {
-      "name": "Historic Yellow Springs, Chester Springs",
-      "location": {
-        "lat": 40.0871,
-        "lng": -75.6392
-      }
-    },
-    "raw_date_string": "Oct 15, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free"
-      ],
-      "price": "Free",
-      "time": "5:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://yellowsprings.org/events/town-tours-village-walks-lecture/"
   },
   {
     "id": "discovered_antje_duvekot_and_robby_hecht_20261016",
@@ -252,7 +149,7 @@
   {
     "id": "discovered_fountain_fest_weekend_20261016",
     "type": "event",
-    "title": "Fountain Fest Weekend",
+    "title": "Emerald City Weekend: Fountain Fest at Longwood Gardens",
     "venue_info": {
       "name": "Longwood Gardens, Kennett Square",
       "location": {
@@ -267,12 +164,13 @@
         "Outdoor",
         "Family Friendly"
       ],
-      "time": "5:00 PM"
+      "time": "5:00 PM - 9:00 PM",
+      "price": "Free with Gardens admission"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://longwoodgardens.org/events-performances/fountains/fountain-fest-weekends"
+    "action_link": "https://longwoodgardens.org/events-performances/events/emerald-city-weekend"
   },
   {
     "id": "discovered_sugartown-lantern-tours_20261016",
@@ -2063,32 +1961,6 @@
     "action_link": "https://wcrailroad.com/christmas-tree-train/"
   },
   {
-    "id": "discovered_plantology_on_tap_infusions_20261015",
-    "type": "event",
-    "title": "Plantology on Tap: Botanical Infusions",
-    "venue_info": {
-      "name": "The Creamery of Kennett Square, Kennett Square",
-      "location": {
-        "lat": 39.8467,
-        "lng": -75.7115
-      }
-    },
-    "raw_date_string": "Oct 15, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "21+",
-        "Hands-On"
-      ],
-      "price": "$29",
-      "time": "6:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/plantology-tap-botanical-infusions-0"
-  },
-  {
     "id": "discovered_kennett_flash_mallet_mob_20261030",
     "type": "event",
     "title": "Mallet Mob: Kennett Flash Fundraiser",
@@ -2216,32 +2088,6 @@
       "image": ""
     },
     "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2437815"
-  },
-  {
-    "id": "discovered_children_s_read_aloud_program_20261015",
-    "type": "event",
-    "title": "Children's Read-Aloud Program",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8688,
-        "lng": -75.5878
-      }
-    },
-    "raw_date_string": "Oct 15, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family Friendly",
-        "Indoor"
-      ],
-      "time": "10:30 AM",
-      "price": "$6 (free for members)"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/childrens-read-aloud-program-7"
   },
   {
     "id": "discovered_mushroom_cap_half_20261107",
@@ -3002,32 +2848,6 @@
       "image": ""
     },
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-2"
-  },
-  {
-    "id": "discovered_wc_preservation_awards_20261015",
-    "type": "event",
-    "title": "2026 West Chester Preservation Awards",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.9622,
-        "lng": -75.6049
-      }
-    },
-    "raw_date_string": "Oct 15, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Historic",
-        "Indoor"
-      ],
-      "price": "$75",
-      "time": "5:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcdf.org/preservation"
   },
   {
     "id": "discovered_hibernia_mansion_mystery_20261016",
@@ -3929,5 +3749,158 @@
       "image": ""
     },
     "action_link": "https://west-chester.com/370/Events"
+  },
+  {
+    "id": "discovered_longwood_spellbound_20261023",
+    "type": "event",
+    "title": "Spellbound Weekend: Fountain Fest at Longwood Gardens",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8719,
+        "lng": -75.6744
+      }
+    },
+    "raw_date_string": "Oct 23 - 25, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Date Night"
+      ],
+      "price": "Free with Gardens admission",
+      "time": "5:00 PM - 9:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/fountains/fountain-fest-weekends"
+  },
+  {
+    "id": "discovered_longwood_garden_railway_20261016",
+    "type": "event",
+    "title": "Garden Railway at Longwood Gardens",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8719,
+        "lng": -75.6744
+      }
+    },
+    "raw_date_string": "Oct 16 - Jan 10, 2027",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly"
+      ],
+      "price": "Free with Gardens admission"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/garden-railway"
+  },
+  {
+    "id": "discovered_ahm_astronomy_night_20261107",
+    "type": "event",
+    "title": "Family Astronomy Night",
+    "venue_info": {
+      "name": "American Helicopter Museum, West Chester",
+      "location": {
+        "lat": 39.9787,
+        "lng": -75.5843
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Educational"
+      ],
+      "price": "$15 adults, $14 children",
+      "time": "6:00 PM - 8:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.helicoptermuseum.org/event-details/amber-stuver-memorial-family-astronomy-night-1"
+  },
+  {
+    "id": "discovered_ahm_model_train_weekend_20261127",
+    "type": "event",
+    "title": "Model Train Weekend",
+    "venue_info": {
+      "name": "American Helicopter Museum, West Chester",
+      "location": {
+        "lat": 39.9787,
+        "lng": -75.5843
+      }
+    },
+    "raw_date_string": "Nov 27 - 29, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly"
+      ],
+      "price": "$15 adults, $14 seniors/children",
+      "time": "10:00 AM - 5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.helicoptermuseum.org/event-details/model-train-weekend-3"
+  },
+  {
+    "id": "discovered_ahm_santafest_20261212",
+    "type": "event",
+    "title": "SantaFest! Santa Arrives by Helicopter",
+    "venue_info": {
+      "name": "American Helicopter Museum, West Chester",
+      "location": {
+        "lat": 39.9787,
+        "lng": -75.5843
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Holiday"
+      ],
+      "price": "$15 adults, $14 children",
+      "time": "10:00 AM - 1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.helicoptermuseum.org/event-details/santafest-1"
+  },
+  {
+    "id": "discovered_cchc_wicked_walks_20261030",
+    "type": "event",
+    "title": "Wicked Walks and Crafty Talks: A Mischievous Night at the Museum",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9612,
+        "lng": -75.6062
+      }
+    },
+    "raw_date_string": "Oct 30, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family Friendly",
+        "Halloween"
+      ],
+      "price": "$10 adults, $8 children",
+      "time": "4:30 PM - 6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2470730"
   }
 ]
