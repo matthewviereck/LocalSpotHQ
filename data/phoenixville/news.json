@@ -1,5 +1,50 @@
 [
   {
+    "title": "Spring City Hotel restaurant reopens Sunday under new management",
+    "category": "Opening Soon",
+    "summary": "The Diable family has taken over the long-running restaurant at 88 N. Main St., with chef Tim Diable writing a new menu. A grand reopening is set for Sunday, Oct. 18 at 3 p.m., and the kitchen is still hiring.",
+    "date": "2026-10-16",
+    "loc": "88 N. Main St., Spring City",
+    "link": "https://vista.today/2026/10/spring-city-hotel-restaurant-grand-reopening/",
+    "img": ""
+  },
+  {
+    "title": "Pottstown's 2027 budget draft carries a tax hike of about 6%",
+    "category": "News",
+    "summary": "Borough staff showed council two versions of a $64.4 million budget: one with a 5.89% tax increase that holds library funding flat, and one at 6.42% that grants the library its full 20% request.",
+    "date": "2026-10-16",
+    "loc": "Borough Hall, Pottstown",
+    "link": "https://www.pottsmerc.com/2026/10/16/64-4-million-pottstown-budget-draft-sees-5-9-tax-hike-or-6-4/",
+    "img": ""
+  },
+  {
+    "title": "Pottstown council approves twin homes for the burned-out church lot",
+    "category": "Development",
+    "summary": "Council voted 5-2 to let a developer build three sets of twin homes where Transfiguration Lutheran Church burned last November, attaching 17 conditions that must be met before construction starts.",
+    "date": "2026-10-15",
+    "loc": "Former Transfiguration Lutheran Church site, Pottstown",
+    "link": "https://www.pottsmerc.com/2026/10/15/pottstown-council-oks-plans-for-homes-at-church-site/",
+    "img": ""
+  },
+  {
+    "title": "$1 million state grant kicks off an all-abilities playground at Sanatoga Park",
+    "category": "Development",
+    "summary": "Lower Pottsgrove broke ground on Adventure Grove, a $1.6 million inclusive playground that will replace the park's 23-year-old play equipment. Volunteers have been pushing for the project since 2019.",
+    "date": "2026-10-15",
+    "loc": "Sanatoga Park, Lower Pottsgrove (near Pottstown)",
+    "link": "https://www.pottsmerc.com/2026/10/15/1m-grant-will-help-fund-inclusive-playground-in-sanatoga-park/",
+    "img": ""
+  },
+  {
+    "title": "Phoenixville boys soccer finishes the regular season unbeaten",
+    "category": "News",
+    "summary": "The Phantoms beat Pottstown 10-2 to close out a 13-0-5 regular season, one of only three unbeaten teams in District 1-4A. They face Spring-Ford in the PAC semifinals on Oct. 20.",
+    "date": "2026-10-15",
+    "loc": "Phoenixville Area High School, Phoenixville",
+    "link": "https://www.pottsmerc.com/2026/10/15/high-school-roundup-oct-14-phoenixville-bsoc-completes-unbeaten-regular-season-ojr-tops-pv-to-clinch-pac-playoff-berth/",
+    "img": ""
+  },
+  {
     "title": "Chocolate & Coffee Festival returns to the Oaks expo center Oct. 24-25",
     "category": "News",
     "summary": "The third annual Pennsylvania Chocolate & Coffee Festival brings more than 150 vendors to the Greater Philadelphia Expo Center, with live coffee roasting, maker demos and a four-foot chocolate sculpture marking America's 250th.",
@@ -27,24 +72,6 @@
     "img": ""
   },
   {
-    "title": "Pottstown library warns of a funding crisis as budget season opens",
-    "category": "News",
-    "summary": "The Pottstown Regional Public Library has raised enough to start fixing its elevator but says it cannot keep operating without larger contributions from the borough and the three Pottsgrove townships. Losing passport services earlier this year cut about $100,000 from its $900,000 budget.",
-    "date": "2026-10-12",
-    "loc": "Pottstown Regional Public Library, Pottstown",
-    "link": "https://www.pottsmerc.com/2026/10/12/pottstown-library-pushes-hard-for-increased-municipal-funding/",
-    "img": ""
-  },
-  {
-    "title": "Phantoms football strings together a second straight win; volleyball outlasts Kennett",
-    "category": "News",
-    "summary": "Phoenixville's football team picked up its second consecutive victory on Friday night, and the girls volleyball team went five sets to beat Kennett and move to 10-8. Both programs turn to Pottstown next week.",
-    "date": "2026-10-11",
-    "loc": "Phoenixville Area High School, Phoenixville",
-    "link": "https://patch.com/pennsylvania/phoenixville/patch-am-how-phoenixville-s-football-volleyball-teams-pow-nodx-20261011",
-    "img": ""
-  },
-  {
     "title": "Phoenixville-raised Olympic rower takes over Penn women's rowing",
     "category": "News",
     "summary": "Tyler Nase, who grew up along the Schuylkill in Phoenixville and rowed for the U.S. at the 2016 Rio Games, is the new head coach of the University of Pennsylvania women's rowing program. He returns to Penn, where his coaching career began, after leading Cornell's lightweight men.",
@@ -54,39 +81,12 @@
     "img": ""
   },
   {
-    "title": "Pottstown council votes Oct. 13 on twin homes for the burned-out church lot",
-    "category": "Development",
-    "summary": "A developer wants to build three pairs of twin homes where Transfiguration Lutheran Church stood until a fire destroyed it nearly a year ago. Council members gave the renderings a cool reception at Wednesday's work session, with the look of the brick facades a sticking point.",
-    "date": "2026-10-08",
-    "loc": "Former Transfiguration Lutheran Church, Pottstown",
-    "link": "https://www.pottsmerc.com/2026/10/08/pottstown-council-to-vote-tuesday-on-latest-plan-for-church-site/",
-    "img": ""
-  },
-  {
     "title": "Whole Foods, L.L. Bean and Barnes & Noble headed to Upper Providence's District at Black Rock",
     "category": "Development",
     "summary": "A 148,000-square-foot retail center on the former Quest Diagnostics campus off South Collegeville Road is about 89% pre-leased as construction starts, with Toll Brothers adding 122 townhomes next door. Completion is targeted for late 2027.",
     "date": "2026-10-07",
     "loc": "1201 S. Collegeville Rd, Upper Providence (near Oaks)",
     "link": "https://montco.today/2026/10/toll-brothers-whole-foods-coming-to-upper-providence/",
-    "img": ""
-  },
-  {
-    "title": "Google deal will add 348 megawatts at the Limerick nuclear plant",
-    "category": "Development",
-    "summary": "Constellation's 20-year power-purchase agreement with Google funds turbine and control-system upgrades that raise the Limerick Clean Energy Center's output by 348 megawatts between 2028 and 2032. A union estimate puts the construction work at more than 2,500 local jobs.",
-    "date": "2026-10-06",
-    "loc": "Limerick Clean Energy Center, Limerick",
-    "link": "https://www.inquirer.com/business/energy/limerick-salem-data-center-nuclear-google-constellation-20261006.html",
-    "img": ""
-  },
-  {
-    "title": "Borough Council to vote Oct. 13 on reshuffling two downtown parking lots",
-    "category": "Development",
-    "summary": "A proposed ordinance would renumber the Wheatland Street lot as Lot 12, designate a Bridge Street lot as Lot 6, let Municipal Building permit holders use Lot 6, and move the Babe Ruth League's seasonal parking to Lot 12.",
-    "date": "2026-10-01",
-    "loc": "Bridge St & Wheatland St, Phoenixville",
-    "link": "https://www.mychesco.com/a/news/government/phoenixville-eyes-parking-lot-changes-ahead-of-oct-13-vote",
     "img": ""
   }
 ]
