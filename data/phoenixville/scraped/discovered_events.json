@@ -2,7 +2,7 @@
   {
     "id": "discovered_good_food_fest_kimberton_20261101",
     "type": "event",
-    "title": "Good Food Fest \u2013 Local Farms & Food Makers at Kimberton Fairgrounds",
+    "title": "Good Food Fest – Local Farms & Food Makers at Kimberton Fairgrounds",
     "venue_info": {
       "name": "Kimberton Fairgrounds, 762 Pike Springs Rd, Phoenixville",
       "location": {
@@ -64,7 +64,7 @@
   {
     "id": "discovered_eli_lev_steel_city_20261023",
     "type": "event",
-    "title": "Eli Lev \u2013 Live at Steel City Coffeehouse",
+    "title": "Eli Lev – Live at Steel City Coffeehouse",
     "venue_info": {
       "name": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
       "location": {
@@ -93,7 +93,7 @@
   {
     "id": "discovered_wedding_funeral_steel_city_20261024",
     "type": "event",
-    "title": "The Wedding Funeral \u2013 Live at Steel City Coffeehouse",
+    "title": "The Wedding Funeral – Live at Steel City Coffeehouse",
     "venue_info": {
       "name": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
       "location": {
@@ -151,7 +151,7 @@
   {
     "id": "discovered_great_junk_hunt_oaks_20261023",
     "type": "event",
-    "title": "The Great Junk Hunt \u2013 Traveling Vintage Market",
+    "title": "The Great Junk Hunt – Traveling Vintage Market",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
       "location": {
@@ -182,7 +182,7 @@
   {
     "id": "discovered_phoenixville_run_20261024",
     "type": "event",
-    "title": "40th Annual Phoenixville Run \u2013 Super Hero 5K & 10K",
+    "title": "40th Annual Phoenixville Run – Super Hero 5K & 10K",
     "venue_info": {
       "name": "Reeves Park, Phoenixville",
       "location": {
@@ -243,7 +243,7 @@
   {
     "id": "discovered_asi_wind_colonial_20261024",
     "type": "event",
-    "title": "Asi Wind: AWE \u2013 Live Mentalist & Magic Show",
+    "title": "Asi Wind: AWE – Live Mentalist & Magic Show",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -363,9 +363,9 @@
   {
     "id": "discovered_orlando_jones_souljoels_20261017",
     "type": "event",
-    "title": "Orlando Jones \u2013 Live Stand-Up Comedy at SoulJoel\u2019s",
+    "title": "Orlando Jones – Live Stand-Up Comedy at SoulJoel’s",
     "venue_info": {
-      "name": "SoulJoel\u2019s at SunnyBrook, Pottstown",
+      "name": "SoulJoel’s at SunnyBrook, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -393,9 +393,9 @@
   {
     "id": "discovered_best_pa_funniest_souljoels_20261022",
     "type": "event",
-    "title": "Best of Pennsylvania\u2019s Funniest 2026 \u2013 Comedy Showcase",
+    "title": "Best of Pennsylvania’s Funniest 2026 – Comedy Showcase",
     "venue_info": {
-      "name": "SoulJoel\u2019s at SunnyBrook, Pottstown",
+      "name": "SoulJoel’s at SunnyBrook, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -454,9 +454,9 @@
   {
     "id": "discovered_mostly_muttz_comedy_fundraiser_20261029",
     "type": "event",
-    "title": "Comedy Fundraiser for Mostly Muttz Rescue at SoulJoel\u2019s",
+    "title": "Comedy Fundraiser for Mostly Muttz Rescue at SoulJoel’s",
     "venue_info": {
-      "name": "SoulJoel\u2019s at SunnyBrook, Pottstown",
+      "name": "SoulJoel’s at SunnyBrook, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -483,9 +483,9 @@
   {
     "id": "discovered_perfect_strangers_watertower_20261030",
     "type": "event",
-    "title": "Perfect Strangers \u2013 Live at Water Tower Live, Oaks",
+    "title": "Perfect Strangers – Live at Water Tower Live, Oaks",
     "venue_info": {
-      "name": "The Water Tower Live at Arnold\u2019s Entertainment Center, Oaks",
+      "name": "The Water Tower Live at Arnold’s Entertainment Center, Oaks",
       "location": {
         "lat": 40.1325,
         "lng": -75.4699
@@ -513,7 +513,7 @@
   {
     "id": "discovered_true_tattoo_expo_oaks_20261030",
     "type": "event",
-    "title": "True Tattoo Expo 2026 \u2013 Halloween Weekend at Expo Center Oaks",
+    "title": "True Tattoo Expo 2026 – Halloween Weekend at Expo Center Oaks",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Hall D, Oaks",
       "location": {
@@ -521,7 +521,7 @@
         "lng": -75.4699
       }
     },
-    "raw_date_string": "Oct 30 \u2013 Nov 1, 2026",
+    "raw_date_string": "Oct 30 – Nov 1, 2026",
     "attributes": {
       "category": "Community Event",
       "vibes": [
@@ -545,9 +545,9 @@
   {
     "id": "discovered_first_friday_november_20261106",
     "type": "event",
-    "title": "Phoenixville First Friday \u2013 November",
+    "title": "Phoenixville First Friday – November",
     "venue_info": {
-      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -575,7 +575,7 @@
   {
     "id": "discovered_books_brews_tattoos_twelve78_20261018",
     "type": "event",
-    "title": "Books, Brews & Tattoos \u2013 Session 2 at Twelve78 Brewing",
+    "title": "Books, Brews & Tattoos – Session 2 at Twelve78 Brewing",
     "venue_info": {
       "name": "Twelve78 Brewing Co., 35 Bridge St, Phoenixville",
       "location": {
@@ -605,7 +605,7 @@
   {
     "id": "discovered_sixties_show_colonial_20261020",
     "type": "event",
-    "title": "The Sixties Show \u2013 Live at Colonial Theatre",
+    "title": "The Sixties Show – Live at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -627,7 +627,7 @@
         "Multi-Media",
         "Indoor"
       ],
-      "price": "$29.50 \u2013 $34.50"
+      "price": "$29.50 – $34.50"
     },
     "media": {
       "image": ""
@@ -637,7 +637,7 @@
   {
     "id": "discovered_die_laughing_cannoli_fiesole_20261017",
     "type": "event",
-    "title": "Die Laughing Presents: Pass the Cannoli \u2013 Comedy Night",
+    "title": "Die Laughing Presents: Pass the Cannoli – Comedy Night",
     "venue_info": {
       "name": "Hotel Fiesole, 4046 Skippack Pike, Skippack",
       "location": {
@@ -667,9 +667,9 @@
   {
     "id": "discovered_little_mania_wrestling_souljoels_20261017",
     "type": "event",
-    "title": "Little Mania Wrestling \u2013 Mini Champions, Massive Thrills",
+    "title": "Little Mania Wrestling – Mini Champions, Massive Thrills",
     "venue_info": {
-      "name": "SoulJoel\u2019s at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
+      "name": "SoulJoel’s at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -725,9 +725,9 @@
   {
     "id": "discovered_steve_hofstetter_souljoels_20261024",
     "type": "event",
-    "title": "Steve Hofstetter \u2013 Live Stand-Up Comedy at SoulJoel\u2019s",
+    "title": "Steve Hofstetter – Live Stand-Up Comedy at SoulJoel’s",
     "venue_info": {
-      "name": "SoulJoel\u2019s at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
+      "name": "SoulJoel’s at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -738,7 +738,7 @@
       "category": "Comedy",
       "vibes": [
         "Stand-Up Comedy",
-        "Debut at SoulJoel\u2019s",
+        "Debut at SoulJoel’s",
         "Saturday Night",
         "Pottstown",
         "Headline Show"
@@ -751,38 +751,9 @@
     "action_link": "https://souljoels.com/shop/tickets/stevehofstetter/"
   },
   {
-    "id": "discovered_gabagool_spooky_karaoke_20261016",
-    "type": "event",
-    "title": "DJ Gabagool's Spooky Karaoke Night at Water Tower Live",
-    "venue_info": {
-      "name": "Water Tower Live, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "October 16, 2026 6:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Karaoke",
-        "Halloween",
-        "Free",
-        "Sly Fox Beer",
-        "Oaks",
-        "Fun Night Out"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.watertowerlive.com/events"
-  },
-  {
     "id": "discovered_prfm_october_rootdown_20261025",
     "type": "event",
-    "title": "Phoenixville Punk Rock Flea Market \u2013 October at Root Down Brewing",
+    "title": "Phoenixville Punk Rock Flea Market – October at Root Down Brewing",
     "venue_info": {
       "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
       "location": {
@@ -811,9 +782,9 @@
   {
     "id": "discovered_acotar_midnight_release_20261026",
     "type": "event",
-    "title": "A Court of Splintered Harmony \u2013 Midnight Release Party at Colonial Theatre",
+    "title": "A Court of Splintered Harmony – Midnight Release Party at Colonial Theatre",
     "venue_info": {
-      "name": "The Colonial Theatre \u2013 Bank Lobby",
+      "name": "The Colonial Theatre – Bank Lobby",
       "location": {
         "lat": 40.132,
         "lng": -75.513
@@ -841,7 +812,7 @@
   {
     "id": "discovered_longest_johns_colonial_20261107",
     "type": "event",
-    "title": "The Longest Johns \u2013 Live at Colonial Theatre",
+    "title": "The Longest Johns – Live at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -870,7 +841,7 @@
   {
     "id": "discovered_howl_o_ween_royersford_20261024",
     "type": "event",
-    "title": "3rd Annual Howl-O-Ween Dog Parade \u2013 Royersford",
+    "title": "3rd Annual Howl-O-Ween Dog Parade – Royersford",
     "venue_info": {
       "name": "Riverfront Park, Royersford",
       "location": {
@@ -966,7 +937,7 @@
   {
     "id": "discovered_spring_city_saturday_20261017",
     "type": "event",
-    "title": "Spring City Saturday \u2013 Open Studios, Local Shops & Live Music",
+    "title": "Spring City Saturday – Open Studios, Local Shops & Live Music",
     "venue_info": {
       "name": "Downtown Spring City Business District",
       "location": {
@@ -1059,7 +1030,7 @@
   {
     "id": "discovered_clean_comedy_jenkins_souljoels_20261107",
     "type": "event",
-    "title": "Clean Comedy with Matt Jenkins \u2013 SoulJoel's",
+    "title": "Clean Comedy with Matt Jenkins – SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -1088,7 +1059,7 @@
   {
     "id": "discovered_masood_boomgaard_souljoels_20261114",
     "type": "event",
-    "title": "Masood Boomgaard & Self-Help Singh \u2013 Comedy Debut at SoulJoel's",
+    "title": "Masood Boomgaard & Self-Help Singh – Comedy Debut at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -1117,7 +1088,7 @@
   {
     "id": "discovered_billy_gardell_souljoels_20261121",
     "type": "event",
-    "title": "Billy Gardell \u2013 Live Stand-Up Comedy at SoulJoel's",
+    "title": "Billy Gardell – Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -1147,7 +1118,7 @@
   {
     "id": "discovered_prfm_november_rootdown_20261129",
     "type": "event",
-    "title": "Phoenixville Punk Rock Flea Market \u2013 November at Root Down Brewing",
+    "title": "Phoenixville Punk Rock Flea Market – November at Root Down Brewing",
     "venue_info": {
       "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
       "location": {
@@ -1207,7 +1178,7 @@
   {
     "id": "discovered_zoey_iconic_gem_20261127",
     "type": "event",
-    "title": "Zoey & the Iconic \u2013 Live at The Gem Spring City",
+    "title": "Zoey & the Iconic – Live at The Gem Spring City",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -1238,9 +1209,9 @@
   {
     "id": "discovered_first_friday_december_holiday_20261204",
     "type": "event",
-    "title": "Phoenixville First Friday \u2013 Holiday Edition & Tree Lighting",
+    "title": "Phoenixville First Friday – Holiday Edition & Tree Lighting",
     "venue_info": {
-      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
+      "name": "Downtown Phoenixville – Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -1269,9 +1240,9 @@
   {
     "id": "discovered_celtic_christmas_sunnybrook_20261220",
     "type": "event",
-    "title": "Celtic Christmas Experience \u2013 Live at SunnyBrook Ballroom",
+    "title": "Celtic Christmas Experience – Live at SunnyBrook Ballroom",
     "venue_info": {
-      "name": "SoulJoel's at SunnyBrook \u2013 SunnyBrook Ballroom, Pottstown",
+      "name": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -1302,7 +1273,7 @@
     "type": "event",
     "title": "New Year's Eve at SunnyBrook Ballroom w/ The Uptown Band",
     "venue_info": {
-      "name": "SoulJoel's at SunnyBrook \u2013 SunnyBrook Ballroom, Pottstown",
+      "name": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -1331,7 +1302,7 @@
   {
     "id": "discovered_be_kind_rewind_watertower_20261017",
     "type": "event",
-    "title": "Be Kind Rewind \u2013 Ultimate 90s Experience at Water Tower Live",
+    "title": "Be Kind Rewind – Ultimate 90s Experience at Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live, 2200 W Dr, Oaks",
       "location": {
@@ -1394,7 +1365,7 @@
   {
     "id": "discovered_nick_dipaolo_souljoels_20261107",
     "type": "event",
-    "title": "Nick DiPaolo \u2013 Live Stand-Up Comedy at SoulJoel's",
+    "title": "Nick DiPaolo – Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -1422,7 +1393,7 @@
   {
     "id": "discovered_brickfair_lego_expo_oaks_20261107",
     "type": "event",
-    "title": "BrickFair LEGO Fan Expo \u2013 Philadelphia",
+    "title": "BrickFair LEGO Fan Expo – Philadelphia",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
       "location": {
@@ -1443,7 +1414,7 @@
         "Weekend",
         "Oaks"
       ],
-      "price": "$17\u201319 (day of: $20)"
+      "price": "$17–19 (day of: $20)"
     },
     "media": {
       "image": ""
@@ -1453,7 +1424,7 @@
   {
     "id": "discovered_shelly_belly_souljoels_20261111",
     "type": "event",
-    "title": "Shelly Belly \u2013 Live Stand-Up Comedy at SoulJoel's",
+    "title": "Shelly Belly – Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -1480,7 +1451,7 @@
   {
     "id": "discovered_national_dog_show_oaks_20261114",
     "type": "event",
-    "title": "National Dog Show \u2013 Kennel Club of Philadelphia",
+    "title": "National Dog Show – Kennel Club of Philadelphia",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
       "location": {
@@ -1511,7 +1482,7 @@
   {
     "id": "discovered_comedy_graduation_souljoels_20261119",
     "type": "event",
-    "title": "14th Comedy Class Graduation Show \u2013 SoulJoel's",
+    "title": "14th Comedy Class Graduation Show – SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -1540,7 +1511,7 @@
   {
     "id": "discovered_wood_brothers_colonial_20261209",
     "type": "event",
-    "title": "The Wood Brothers with Tyler Ramsey \u2013 Live at Colonial Theatre",
+    "title": "The Wood Brothers with Tyler Ramsey – Live at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1570,7 +1541,7 @@
   {
     "id": "discovered_tab_benoit_bonerama_colonial_20261216",
     "type": "event",
-    "title": "Tab Benoit with Bonerama \u2013 Soul of the Swamp Tour",
+    "title": "Tab Benoit with Bonerama – Soul of the Swamp Tour",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1600,7 +1571,7 @@
   {
     "id": "discovered_arader_farm_pumpkin_fest_20261017",
     "type": "event",
-    "title": "Pumpkin Fest at Arader Farm \u2013 October 17",
+    "title": "Pumpkin Fest at Arader Farm – October 17",
     "venue_info": {
       "name": "Arader Farm, 746 South Trappe Road, Collegeville",
       "location": {
@@ -1662,33 +1633,6 @@
     "action_link": "https://prod1.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=259622~7ba4fc69-69fd-432f-9fcc-cbe2478f74c7"
   },
   {
-    "id": "discovered_eric_dalessandro_souljoels_20261016",
-    "type": "event",
-    "title": "Eric D\u2019Alessandro \u2013 Live Stand-Up Comedy at SoulJoel\u2019s",
-    "venue_info": {
-      "name": "SoulJoel\u2019s at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "October 16, 2026 8:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Friday Night",
-        "Pottstown",
-        "Headline Show"
-      ],
-      "price": "From $30"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/ericdalessandro/"
-  },
-  {
     "id": "discovered_die_laughing_halloween_rivet_20261031",
     "type": "event",
     "title": "Die Laughing Halloween Party at Rivet",
@@ -1722,7 +1666,7 @@
   {
     "id": "discovered_claudio_simonetti_goblin_colonial_20261021",
     "type": "event",
-    "title": "Claudio Simonetti's Goblin \u2013 Tenebre Live at Colonial Theatre",
+    "title": "Claudio Simonetti's Goblin – Tenebre Live at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1754,7 +1698,7 @@
   {
     "id": "discovered_haunts_on_high_pottstown_20261017",
     "type": "event",
-    "title": "Haunts on High \u2013 12th Annual Halloween Celebration",
+    "title": "Haunts on High – 12th Annual Halloween Celebration",
     "venue_info": {
       "name": "Downtown High Street, 138 E High St, Pottstown",
       "location": {
@@ -1814,7 +1758,7 @@
   {
     "id": "discovered_halloween_1978_colonial_20261025",
     "type": "event",
-    "title": "Halloween (1978) \u2013 Fright Night Film Screening",
+    "title": "Halloween (1978) – Fright Night Film Screening",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1875,7 +1819,7 @@
   {
     "id": "discovered_nightmare_before_christmas_colonial_20261026",
     "type": "event",
-    "title": "The Nightmare Before Christmas \u2013 Family Film Screening",
+    "title": "The Nightmare Before Christmas – Family Film Screening",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1936,9 +1880,9 @@
   {
     "id": "discovered_night_spirit_souljoels_20261028",
     "type": "event",
-    "title": "A Night with Spirit \u2013 Psychic Medium Experience at SoulJoel's",
+    "title": "A Night with Spirit – Psychic Medium Experience at SoulJoel's",
     "venue_info": {
-      "name": "SoulJoel's at SunnyBrook \u2013 Melody Room, Pottstown",
+      "name": "SoulJoel's at SunnyBrook – Melody Room, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -1965,7 +1909,7 @@
   {
     "id": "discovered_monster_mania_oaks_20261120",
     "type": "event",
-    "title": "Monster-Mania Con 69 \u2013 Horror Film & Memorabilia Convention",
+    "title": "Monster-Mania Con 69 – Horror Film & Memorabilia Convention",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
       "location": {
@@ -1998,7 +1942,7 @@
   {
     "id": "discovered_post_halloween_tribute_watertower_20261121",
     "type": "event",
-    "title": "Post Halloween Tribute of Terror \u2013 AC/DC & Rancid Tributes at Water Tower Live",
+    "title": "Post Halloween Tribute of Terror – AC/DC & Rancid Tributes at Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's, Oaks",
       "location": {
@@ -2030,7 +1974,7 @@
   {
     "id": "discovered_craig_bickhardt_steel_city_20261121",
     "type": "event",
-    "title": "Craig Bickhardt Band \u2013 Live at Steel City Coffeehouse",
+    "title": "Craig Bickhardt Band – Live at Steel City Coffeehouse",
     "venue_info": {
       "name": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
       "location": {
@@ -2059,7 +2003,7 @@
   {
     "id": "discovered_antique_collector_fair_oaks_20261016",
     "type": "event",
-    "title": "Antique & Collector Fair \u2013 Fall 2026 Show",
+    "title": "Antique & Collector Fair – Fall 2026 Show",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Halls D & E, Oaks",
       "location": {
@@ -2119,7 +2063,7 @@
   {
     "id": "discovered_judy_collins_farewell_colonial_20261120",
     "type": "event",
-    "title": "Judy Collins \u2013 Sweet Judy Blue Eyes: Farewell Tour",
+    "title": "Judy Collins – Sweet Judy Blue Eyes: Farewell Tour",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -2149,7 +2093,7 @@
   {
     "id": "discovered_rachael_vilray_colonial_20261211",
     "type": "event",
-    "title": "Rachael & Vilray \u2013 Live at Colonial Theatre",
+    "title": "Rachael & Vilray – Live at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -2175,36 +2119,6 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/live-music/rachael-vilray/"
-  },
-  {
-    "id": "discovered_troubles_end_karaoke_oct16_20261016",
-    "type": "event",
-    "title": "Live Band Karaoke at Troubles End Brewing \u2013 Third Friday",
-    "venue_info": {
-      "name": "Troubles End Brewing, 50 W Third Ave, Collegeville",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "October 16, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Live Band Karaoke",
-        "Collegeville",
-        "Brewery",
-        "Third Friday",
-        "Community",
-        "All Ages"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.troublesendbrewing.com/live-music-calendar"
   },
   {
     "id": "discovered_spring_city_trunk_treat_20261023",
@@ -2237,66 +2151,9 @@
     "action_link": "https://www.springcitypa.gov"
   },
   {
-    "id": "discovered_hocus_pocus_family_screening_20261016",
-    "type": "event",
-    "title": "Hocus Pocus \u2013 Halloween Family Screening at Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "October 16, 2026",
-    "attributes": {
-      "category": "Film",
-      "vibes": [
-        "Family",
-        "Halloween",
-        "Classic Film",
-        "Indoor",
-        "Historic Venue"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/hocus-pocus-2"
-  },
-  {
-    "id": "discovered_hocus_pocus_ghouls_night_out_20261016",
-    "type": "event",
-    "title": "Hocus Pocus: Ghouls Night Out \u2013 Adult-Only Screening & Dance Party",
-    "venue_info": {
-      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "October 16, 2026",
-    "attributes": {
-      "category": "Film",
-      "vibes": [
-        "21+",
-        "Halloween",
-        "Dance Party",
-        "Costumes",
-        "Indoor",
-        "Night Out"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/hocus-pocus-ghouls-night-out-adult-only-screening-party-dance"
-  },
-  {
     "id": "discovered_practical_magic_witchy_wednesday_20261021",
     "type": "event",
-    "title": "Practical Magic (1998) \u2013 Witchy Wednesday at Colonial Theatre",
+    "title": "Practical Magic (1998) – Witchy Wednesday at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -2324,7 +2181,7 @@
   {
     "id": "discovered_gett_girls_exploring_tech_20261024",
     "type": "event",
-    "title": "GETT 2026 \u2013 Girls Exploring Tomorrow's Technology",
+    "title": "GETT 2026 – Girls Exploring Tomorrow's Technology",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
       "location": {
@@ -2356,7 +2213,7 @@
     "type": "event",
     "title": "Halloween Themed Bingo Night at SoulJoel's",
     "venue_info": {
-      "name": "SoulJoel's at SunnyBrook \u2013 Gatsby's Pub, Pottstown",
+      "name": "SoulJoel's at SunnyBrook – Gatsby's Pub, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -2383,9 +2240,9 @@
   {
     "id": "discovered_am_radio_tribute_souljoels_20261031",
     "type": "event",
-    "title": "AM Radio \u2013 60s & 70s Tribute Band Halloween Night at SoulJoel's",
+    "title": "AM Radio – 60s & 70s Tribute Band Halloween Night at SoulJoel's",
     "venue_info": {
-      "name": "SoulJoel's at SunnyBrook \u2013 SunnyBrook Ballroom, Pottstown",
+      "name": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -2480,9 +2337,9 @@
   {
     "id": "discovered_am_radio_tribute_souljoels_20261030",
     "type": "event",
-    "title": "AM Radio \u2013 60s & 70s Tribute Band at SoulJoel's (Friday)",
+    "title": "AM Radio – 60s & 70s Tribute Band at SoulJoel's (Friday)",
     "venue_info": {
-      "name": "SoulJoel's at SunnyBrook \u2013 SunnyBrook Ballroom, Pottstown",
+      "name": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -2509,37 +2366,9 @@
     "action_link": "https://souljoels.com/upcoming-events/"
   },
   {
-    "id": "discovered_pawnshop_roses_gem_20261016",
-    "type": "event",
-    "title": "Pawnshop Roses with Love Me My Alien \u2013 Live at The Gem",
-    "venue_info": {
-      "name": "The Gem Music Hall, 66 N Main St, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "October 16, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Spring City",
-        "The Gem",
-        "Friday Night",
-        "Local Bands"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/"
-  },
-  {
     "id": "discovered_grateful_allman_gem_20261018",
     "type": "event",
-    "title": "Grateful Allman Band Experience \u2013 Live at The Gem",
+    "title": "Grateful Allman Band Experience – Live at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -2569,7 +2398,7 @@
   {
     "id": "discovered_grimjacks_gem_20261023",
     "type": "event",
-    "title": "The GrimJacks, Lady White Rat & The Jaspers \u2013 Live at The Gem",
+    "title": "The GrimJacks, Lady White Rat & The Jaspers – Live at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -2598,7 +2427,7 @@
   {
     "id": "discovered_bingo_unleashed_twelve78_20261101",
     "type": "event",
-    "title": "Bingo Unleashed \u2013 Canine Rescue Fundraiser at Twelve78 Brewing",
+    "title": "Bingo Unleashed – Canine Rescue Fundraiser at Twelve78 Brewing",
     "venue_info": {
       "name": "Twelve78 Brewing Co., 35 Bridge St, Phoenixville",
       "location": {
@@ -2629,7 +2458,7 @@
   {
     "id": "discovered_rael_genesis_colonial_20261106",
     "type": "event",
-    "title": "RAEL: A Genesis & Peter Gabriel Experience \u2013 Live at Colonial Theatre",
+    "title": "RAEL: A Genesis & Peter Gabriel Experience – Live at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -2659,7 +2488,7 @@
   {
     "id": "discovered_vanessa_collier_colonial_20261112",
     "type": "event",
-    "title": "Vanessa Collier \u2013 Music For Everyone Series at Colonial Theatre",
+    "title": "Vanessa Collier – Music For Everyone Series at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -2689,7 +2518,7 @@
   {
     "id": "discovered_90s_night_colonial_20261113",
     "type": "event",
-    "title": "90s Night with DJ Moshe \u2013 30th Anniversary Celebration at Colonial",
+    "title": "90s Night with DJ Moshe – 30th Anniversary Celebration at Colonial",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -2750,7 +2579,7 @@
   {
     "id": "discovered_boat_house_row_colonial_20261127",
     "type": "event",
-    "title": "Boat House Row \u2013 The Yacht Rock Experience at Colonial Theatre",
+    "title": "Boat House Row – The Yacht Rock Experience at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -2877,7 +2706,7 @@
   {
     "id": "discovered_dale_jones_souljoels_20261106",
     "type": "event",
-    "title": "Dale Jones \u2013 Live Stand-Up Comedy at SoulJoel's",
+    "title": "Dale Jones – Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -2904,7 +2733,7 @@
   {
     "id": "discovered_rocky_dale_davis_souljoels_20261120",
     "type": "event",
-    "title": "Rocky Dale Davis \u2013 Live Stand-Up Comedy at SoulJoel's",
+    "title": "Rocky Dale Davis – Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -2959,7 +2788,7 @@
   {
     "id": "discovered_eleanor_kerrigan_souljoels_20261128",
     "type": "event",
-    "title": "Eleanor Kerrigan \u2013 Live Stand-Up Comedy at SoulJoel's",
+    "title": "Eleanor Kerrigan – Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -2986,7 +2815,7 @@
   {
     "id": "discovered_circle_mirror_transformation_20261106",
     "type": "event",
-    "title": "Circle Mirror Transformation \u2013 Site Unseen Theatre at Phoenixville Rec Center",
+    "title": "Circle Mirror Transformation – Site Unseen Theatre at Phoenixville Rec Center",
     "venue_info": {
       "name": "Phoenixville Recreation Center, 501 Franklin Ave, Phoenixville",
       "location": {
@@ -3016,7 +2845,7 @@
   {
     "id": "discovered_circle_mirror_transformation_20261107",
     "type": "event",
-    "title": "Circle Mirror Transformation \u2013 Site Unseen Theatre at Phoenixville Rec Center (Matinee)",
+    "title": "Circle Mirror Transformation – Site Unseen Theatre at Phoenixville Rec Center (Matinee)",
     "venue_info": {
       "name": "Phoenixville Recreation Center, 501 Franklin Ave, Phoenixville",
       "location": {
@@ -3046,7 +2875,7 @@
   {
     "id": "discovered_richie_high_street_rockers_souljoels_20261101",
     "type": "event",
-    "title": "Richie and The High Street Rockers \u2013 Live at SoulJoel's",
+    "title": "Richie and The High Street Rockers – Live at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -3104,9 +2933,9 @@
   {
     "id": "discovered_beer_bagel_run_10mi_20261107",
     "type": "event",
-    "title": "Beer & Bagel Run \u2013 10-Mile Trail Run at Yeager\u2019s Farm",
+    "title": "Beer & Bagel Run – 10-Mile Trail Run at Yeager’s Farm",
     "venue_info": {
-      "name": "Yeager\u2019s Farm & Market, 1015 Pike Springs Rd, Phoenixville",
+      "name": "Yeager’s Farm & Market, 1015 Pike Springs Rd, Phoenixville",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -3135,9 +2964,9 @@
   {
     "id": "discovered_beer_bagel_run_4mi_20261108",
     "type": "event",
-    "title": "Beer & Bagel Run \u2013 4-Mile Trail Run at Yeager\u2019s Farm",
+    "title": "Beer & Bagel Run – 4-Mile Trail Run at Yeager’s Farm",
     "venue_info": {
-      "name": "Yeager\u2019s Farm & Market, 1015 Pike Springs Rd, Phoenixville",
+      "name": "Yeager’s Farm & Market, 1015 Pike Springs Rd, Phoenixville",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -3164,37 +2993,9 @@
     "action_link": "https://runsignup.com/Race/Info/PA/Phoenixville/BBPennsylvania"
   },
   {
-    "id": "discovered_bob_kelly_dance_souljoels_20261016",
-    "type": "event",
-    "title": "Bob Kelly Dance Party at SoulJoel's Gatsby's Pub",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook \u2013 Gatsby's Pub, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "October 16, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Dance Party",
-        "Comedian Host",
-        "Friday Night",
-        "Pottstown",
-        "SunnyBrook"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/upcoming-events/"
-  },
-  {
     "id": "discovered_mike_britt_chuck_nice_souljoels_20261023",
     "type": "event",
-    "title": "Mike Britt & Chuck Nice \u2013 Double Headliner Comedy at SoulJoel's",
+    "title": "Mike Britt & Chuck Nice – Double Headliner Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -3222,7 +3023,7 @@
   {
     "id": "discovered_love_you_to_beatles_gem_20261024",
     "type": "event",
-    "title": "Love You To (Beatles Tribute) with Group W Bench \u2013 Live at The Gem",
+    "title": "Love You To (Beatles Tribute) with Group W Bench – Live at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -3251,7 +3052,7 @@
   {
     "id": "discovered_dawn_wilbur_spirit_gem_20261027",
     "type": "event",
-    "title": "An Evening with Spirit \u2013 Dawn Wilbur, Psychic Medium at The Gem",
+    "title": "An Evening with Spirit – Dawn Wilbur, Psychic Medium at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -3280,7 +3081,7 @@
   {
     "id": "discovered_65north_pickers_gem_20261029",
     "type": "event",
-    "title": "65 North Pickers with The Dishonest Fiddlers \u2013 Live at The Gem",
+    "title": "65 North Pickers with The Dishonest Fiddlers – Live at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -3340,7 +3141,7 @@
   {
     "id": "discovered_kevin_hill_bowie_gem_20261030",
     "type": "event",
-    "title": "Kevin Hill and Secret Sound \u2013 David Bowie Tribute at The Gem",
+    "title": "Kevin Hill and Secret Sound – David Bowie Tribute at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -3370,7 +3171,7 @@
   {
     "id": "discovered_halloween_show_gem_20261031",
     "type": "event",
-    "title": "Halloween Show at The Gem \u2013 Trauma Response, Geode, Silverqueen",
+    "title": "Halloween Show at The Gem – Trauma Response, Geode, Silverqueen",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -3460,7 +3261,7 @@
   {
     "id": "discovered_old_school_crosseyed_mary_watertower_20261107",
     "type": "event",
-    "title": "Old School with Cross Eyed Mary \u2013 Live at Water Tower Live",
+    "title": "Old School with Cross Eyed Mary – Live at Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
       "location": {
@@ -3489,7 +3290,7 @@
   {
     "id": "discovered_murder_mystery_souljoels_20261111",
     "type": "event",
-    "title": "Once Bitten Twice Dead \u2013 Themed Murder Mystery Dinner at SoulJoel's",
+    "title": "Once Bitten Twice Dead – Themed Murder Mystery Dinner at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -3519,7 +3320,7 @@
   {
     "id": "discovered_die_laughing_thanksgiving_eve_rivet_20261125",
     "type": "event",
-    "title": "Die Laughing Open Mic \u2013 Thanksgiving Eve Edition at Rivet",
+    "title": "Die Laughing Open Mic – Thanksgiving Eve Edition at Rivet",
     "venue_info": {
       "name": "Rivet: Canteen & Assembly, 238 E High St, Pottstown",
       "location": {
@@ -3578,7 +3379,7 @@
   {
     "id": "discovered_phoenixville_bed_races_20261107",
     "type": "event",
-    "title": "Phoenixville Bed Races \u2013 Annual Fundraiser for Good Samaritan Services",
+    "title": "Phoenixville Bed Races – Annual Fundraiser for Good Samaritan Services",
     "venue_info": {
       "name": "Reeves Park, 2nd Ave, Phoenixville",
       "location": {
@@ -3610,7 +3411,7 @@
   {
     "id": "discovered_gem_revue_anniversary_20261107",
     "type": "event",
-    "title": "The Gem Revue \u2013 2nd Anniversary Show",
+    "title": "The Gem Revue – 2nd Anniversary Show",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -3640,7 +3441,7 @@
   {
     "id": "discovered_jtbc_gem_20261113",
     "type": "event",
-    "title": "Jackson Taylor Blues Co. (JTBc) \u2013 Live at The Gem",
+    "title": "Jackson Taylor Blues Co. (JTBc) – Live at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -3670,7 +3471,7 @@
   {
     "id": "discovered_not_just_rock_expo_20261127",
     "type": "event",
-    "title": "Not Just Rock Expo 2026 \u2013 Record, CD & Music Memorabilia Show",
+    "title": "Not Just Rock Expo 2026 – Record, CD & Music Memorabilia Show",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Hall D, Oaks",
       "location": {
@@ -3701,7 +3502,7 @@
   {
     "id": "discovered_forge_holiday_twas_night_20261120",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
