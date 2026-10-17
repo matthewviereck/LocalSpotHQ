@@ -1,5 +1,14 @@
 [
   {
+    "title": "Phoenixville football rallies late to win at Pottstown",
+    "category": "News",
+    "summary": "A fourth-quarter touchdown pass gave the Phantoms a 26-21 win Friday night, their third straight, evening their record at 4-4 and setting up a likely battle for second place in the PAC Frontier at Pottsgrove next week.",
+    "date": "2026-10-17",
+    "loc": "Pottstown High School, Pottstown",
+    "link": "https://www.pottsmerc.com/2026/10/17/high-school-roundup-oct-16-coopers-late-touchdown-delivers-phoenixville-thrilling-26-21-win-at-pottstown/",
+    "img": ""
+  },
+  {
     "title": "Spring City Hotel restaurant reopens Sunday under new management",
     "category": "Opening Soon",
     "summary": "The Diable family has taken over the long-running restaurant at 88 N. Main St., with chef Tim Diable writing a new menu. A grand reopening is set for Sunday, Oct. 18 at 3 p.m., and the kitchen is still hiring.",
@@ -15,6 +24,24 @@
     "date": "2026-10-16",
     "loc": "Borough Hall, Pottstown",
     "link": "https://www.pottsmerc.com/2026/10/16/64-4-million-pottstown-budget-draft-sees-5-9-tax-hike-or-6-4/",
+    "img": ""
+  },
+  {
+    "title": "Route 23 Wawa near Phoenixville sets an Oct. 22 grand opening",
+    "category": "Opening Soon",
+    "summary": "The long-debated 24-hour Wawa with 10 fuel pumps replaces the former Exxon at 799 Valley Forge Road in Schuylkill Township. Doors open at 8 a.m. Thursday, with free coffee through Oct. 25.",
+    "date": "2026-10-16",
+    "loc": "799 Valley Forge Rd., Schuylkill Township (Phoenixville)",
+    "link": "https://patch.com/pennsylvania/phoenixville/phoenixville-area-super-wawa-announces-opening-date",
+    "img": ""
+  },
+  {
+    "title": "Pottstown remembers Bill Krause, organizer of its July 4th parade",
+    "category": "News",
+    "summary": "The longtime Phillies Fire Company driver and former borough councilman died Oct. 12 at 90. He ran the July 4th committee for 28 years and founded the New Year's Day Polar Bear Plunge at Riverfront Park.",
+    "date": "2026-10-16",
+    "loc": "Pottstown",
+    "link": "https://www.pottsmerc.com/2026/10/16/bill-krause-longtime-pottstown-firefighter-and-volunteer-dies-at-90/",
     "img": ""
   },
   {
@@ -36,12 +63,12 @@
     "img": ""
   },
   {
-    "title": "Phoenixville boys soccer finishes the regular season unbeaten",
+    "title": "Neighbors raise money for a Phoenixville family displaced by fire",
     "category": "News",
-    "summary": "The Phantoms beat Pottstown 10-2 to close out a 13-0-5 regular season, one of only three unbeaten teams in District 1-4A. They face Spring-Ford in the PAC semifinals on Oct. 20.",
+    "summary": "A stove fire on Oct. 5 left an east-end apartment on Kenalcon Drive uninhabitable, and a GoFundMe is collecting help for the mother and daughter who lived there. The fire marshal believes the cause was accidental.",
     "date": "2026-10-15",
-    "loc": "Phoenixville Area High School, Phoenixville",
-    "link": "https://www.pottsmerc.com/2026/10/15/high-school-roundup-oct-14-phoenixville-bsoc-completes-unbeaten-regular-season-ojr-tops-pv-to-clinch-pac-playoff-berth/",
+    "loc": "Kenalcon Dr., Phoenixville",
+    "link": "https://patch.com/pennsylvania/phoenixville/after-phoenixville-family-loses-home-fire-community-rallies",
     "img": ""
   },
   {
@@ -51,33 +78,6 @@
     "date": "2026-10-13",
     "loc": "Greater Philadelphia Expo Center, Oaks",
     "link": "https://montco.today/2026/10/pennsylvania-chocolate-coffee-festival-oaks-2026/",
-    "img": ""
-  },
-  {
-    "title": "Cat rescuers ask Pottstown council for $5,000 in spay/neuter vouchers",
-    "category": "News",
-    "summary": "Volunteers told borough council at its Oct. 7 work session that the feral cat population is outpacing their trap-neuter-return work, and asked for a small budget line to give residents free spay/neuter vouchers, as Boyertown already does.",
-    "date": "2026-10-13",
-    "loc": "Borough Hall, Pottstown",
-    "link": "https://www.pottsmerc.com/2026/10/13/pottstown-council-asked-to-help-fund-feral-cat-management/",
-    "img": ""
-  },
-  {
-    "title": "Limerick loses out on a 28-acre Keen Road parcel it hoped to preserve",
-    "category": "Development",
-    "summary": "Supervisors were set to vote on buying the light-industrial tract at 1 Keen Road, a target in the township's open space plan, but learned the owners had taken a competing offer. The board pre-authorized a $2.2 million purchase through Dec. 31 in case the other deal falls through.",
-    "date": "2026-10-12",
-    "loc": "1 Keen Road, Limerick",
-    "link": "https://www.pottsmerc.com/2026/10/12/limerick-misses-out-on-property-purchase/",
-    "img": ""
-  },
-  {
-    "title": "Phoenixville-raised Olympic rower takes over Penn women's rowing",
-    "category": "News",
-    "summary": "Tyler Nase, who grew up along the Schuylkill in Phoenixville and rowed for the U.S. at the 2016 Rio Games, is the new head coach of the University of Pennsylvania women's rowing program. He returns to Penn, where his coaching career began, after leading Cornell's lightweight men.",
-    "date": "2026-10-08",
-    "loc": "Phoenixville",
-    "link": "https://vista.today/2026/10/tyler-nase-penn-womens-rowing-head-coach/",
     "img": ""
   },
   {
