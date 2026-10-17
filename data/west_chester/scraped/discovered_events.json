@@ -121,32 +121,6 @@
     "action_link": "https://chaddsfordhistory.org/great-pumpkin-carve/"
   },
   {
-    "id": "discovered_antje_duvekot_and_robby_hecht_20261016",
-    "type": "event",
-    "title": "Antje Duvekot and Robby Hecht",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Oct 16, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$22-$25",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/antje-duvekot-and-robby-hecht/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_fountain_fest_weekend_20261016",
     "type": "event",
     "title": "Emerald City Weekend: Fountain Fest at Longwood Gardens",
@@ -197,32 +171,6 @@
       "image": ""
     },
     "action_link": "https://historicsugartown.org/events/lantern-tours-3-2/2026-10-16/"
-  },
-  {
-    "id": "discovered_perennial_plant_conference_20261016",
-    "type": "event",
-    "title": "Perennial Plant Conference",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8703,
-        "lng": -75.6738
-      }
-    },
-    "raw_date_string": "Oct 16, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Indoor",
-        "Garden"
-      ],
-      "price": "",
-      "time": "9:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/perennial-plant-conference"
   },
   {
     "id": "discovered_sugartown-book-restoration_20261017",
@@ -457,7 +405,7 @@
   {
     "id": "discovered_trae_sheehan_with_clear_the_20261018",
     "type": "event",
-    "title": "Trae Sheehan with Clear The Benches and Jac Conner",
+    "title": "Trae Sheehan with Jac Conner",
     "venue_info": {
       "name": "The Kennett Flash, Kennett Square",
       "location": {
@@ -478,7 +426,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/event/trae-sheehan-with-clear-the-benches-and-jac-conner/kennett-flash/kennett-square-pennsylvania/"
+    "action_link": "https://kennettflash.org/event/trae-sheehan-with-jac-conner/kennett-flash/kennett-square-pennsylvania/"
   },
   {
     "id": "discovered_bird-walk-stroud_20261020",
@@ -1984,7 +1932,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettflash.org/event/2026-mallet-mob/kennett-flash/kennett-square-pennsylvania/"
+    "action_link": "https://kennettflash.org/event/2026-mallet-mob-meetup-individual-tickets/kennett-flash/kennett-square-pennsylvania/"
   },
   {
     "id": "discovered_garrett_boys_kennett_flash_20261110",
@@ -2665,32 +2613,6 @@
       "image": ""
     },
     "action_link": "https://historicsugartown.org/events/bookbinding-workshop-level-i/2027-01-23/"
-  },
-  {
-    "id": "discovered_plein_air_kuerner_20261016",
-    "type": "event",
-    "title": "Plein Air Day at Kuerner Farm",
-    "venue_info": {
-      "name": "Kuerner Farm, Chadds Ford",
-      "location": {
-        "lat": 39.8693,
-        "lng": -75.5939
-      }
-    },
-    "raw_date_string": "Oct 16, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Workshop"
-      ],
-      "price": "$15-$20",
-      "time": "9:30 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/plein-air-day-kuerner-farm-8"
   },
   {
     "id": "discovered_plein_air_kuerner_20261018",
