@@ -1,28 +1,5 @@
 [
   {
-    "id": "discovered_topdog_underdog_20260916",
-    "type": "event",
-    "title": "Topdog/Underdog",
-    "venue_info": {
-      "name": "People's Light, Malvern",
-      "location": {
-        "lat": 40.0445,
-        "lng": -75.5432
-      }
-    },
-    "raw_date_string": "Sep 16 - Oct 18, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Indoor"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.peopleslight.org/whats-on/20262027-season/topdogunderdog/"
-  },
-  {
     "id": "discovered_adult_trick_or_treat_at_20261002",
     "type": "event",
     "title": "Adult Trick or Treat at Chaddsford Winery",
@@ -71,132 +48,6 @@
       "image": ""
     },
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
-  },
-  {
-    "id": "discovered_bright_star_wcu_theatre_20261015",
-    "type": "event",
-    "title": "Bright Star (WCU Theatre)",
-    "venue_info": {
-      "name": "Madeleine Wing Adler Theatre, West Chester",
-      "location": {
-        "lat": 39.9481,
-        "lng": -75.6018
-      }
-    },
-    "raw_date_string": "Oct 15 - 18, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/arts-humanities/theatreDance/currentSeason.aspx"
-  },
-  {
-    "id": "discovered_fountain_fest_weekend_20261016",
-    "type": "event",
-    "title": "Emerald City Weekend: Fountain Fest at Longwood Gardens",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8703,
-        "lng": -75.6738
-      }
-    },
-    "raw_date_string": "Oct 16 - 18, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "time": "5:00 PM - 9:00 PM",
-      "price": "Free with Gardens admission"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/emerald-city-weekend"
-  },
-  {
-    "id": "discovered_ahmec_30th_anniversary_20261018",
-    "type": "event",
-    "title": "American Helicopter Museum 30th Anniversary Celebration",
-    "venue_info": {
-      "name": "American Helicopter Museum, West Chester",
-      "location": {
-        "lat": 39.9976,
-        "lng": -75.5853
-      }
-    },
-    "raw_date_string": "Oct 18, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free"
-      ],
-      "price": "Free with RSVP",
-      "time": "1:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.helicoptermuseum.org/event-details/ahmec-30th-anniversary-celebration-and-award-ceremony"
-  },
-  {
-    "id": "discovered_clover_market_20261018",
-    "type": "event",
-    "title": "Clover Market",
-    "venue_info": {
-      "name": "State Street, Kennett Square",
-      "location": {
-        "lat": 39.8465,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Oct 18, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Free",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettcollaborative.org/event/clover-market/2026-10-18/"
-  },
-  {
-    "id": "discovered_trae_sheehan_with_clear_the_20261018",
-    "type": "event",
-    "title": "Trae Sheehan with Jac Conner",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Oct 18, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$20-$23",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/trae-sheehan-with-jac-conner/kennett-flash/kennett-square-pennsylvania/"
   },
   {
     "id": "discovered_bird-walk-stroud_20261020",
@@ -2331,31 +2182,6 @@
     "action_link": "https://historicsugartown.org/events/bookbinding-workshop-level-i/2027-01-23/"
   },
   {
-    "id": "discovered_plein_air_kuerner_20261018",
-    "type": "event",
-    "title": "Plein Air Day at Kuerner Farm",
-    "venue_info": {
-      "name": "Kuerner Farm, Chadds Ford",
-      "location": {
-        "lat": 39.8693,
-        "lng": -75.5939
-      }
-    },
-    "raw_date_string": "Oct 18, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Workshop"
-      ],
-      "price": "$15-$20"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/plein-air-day-kuerner-farm-9"
-  },
-  {
     "id": "discovered_pa_hunt_cup_20261101",
     "type": "event",
     "title": "91st Running of the Pennsylvania Hunt Cup",
@@ -2380,32 +2206,6 @@
       "image": ""
     },
     "action_link": "https://pahuntcup.org/"
-  },
-  {
-    "id": "discovered_downingtown_book_sale_20261016",
-    "type": "event",
-    "title": "Downingtown Library Fall Book Sale",
-    "venue_info": {
-      "name": "Downingtown Library, Downingtown",
-      "location": {
-        "lat": 40.0066,
-        "lng": -75.7027
-      }
-    },
-    "raw_date_string": "Oct 16 - 18, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Indoor",
-        "Family-Friendly"
-      ],
-      "price": "Free admission",
-      "time": "4:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downingtown.org/Calendar.aspx?EID=1468"
   },
   {
     "id": "discovered_exton_bird_walk_20261024",
@@ -2486,59 +2286,6 @@
       "image": ""
     },
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-2"
-  },
-  {
-    "id": "discovered_east_bradford_fall_festival_20261018",
-    "type": "event",
-    "title": "East Bradford Fall Festival",
-    "venue_info": {
-      "name": "East Bradford Park, West Chester",
-      "location": {
-        "lat": 39.9745,
-        "lng": -75.6498
-      }
-    },
-    "raw_date_string": "Oct 18, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family-Friendly"
-      ],
-      "price": "Free",
-      "time": "12:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eastbradford.org/Calendar.aspx?EID=1570"
-  },
-  {
-    "id": "discovered_uwchlan_paoli_massacre_talk_20261018",
-    "type": "event",
-    "title": "America 250 Speaker Series: The Paoli Massacre",
-    "venue_info": {
-      "name": "Baird Park, Exton",
-      "location": {
-        "lat": 40.0529,
-        "lng": -75.6612
-      }
-    },
-    "raw_date_string": "Oct 18, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Free",
-        "Historic"
-      ],
-      "price": "Free",
-      "time": "2:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.uwchlan.com/Calendar.aspx?EID=1918"
   },
   {
     "id": "discovered_bmoa_read_aloud_20261022",
@@ -3358,7 +3105,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://longwoodgardens.org/events-performances/fountains/fountain-fest-weekends"
+    "action_link": "https://longwoodgardens.org/events-performances/events/spellbound-weekend"
   },
   {
     "id": "discovered_longwood_garden_railway_20261016",
