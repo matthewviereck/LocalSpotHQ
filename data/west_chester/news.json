@@ -1,11 +1,47 @@
 [
   {
-    "title": "WCU theatre students stage Steve Martin's 'Bright Star' this weekend",
+    "title": "West Chester's Centinel Spine files to go public on the NYSE",
     "category": "News",
-    "summary": "West Chester University's Department of Theatre & Dance is performing the bluegrass-flavored musical by Steve Martin and Edie Brickell in the Madeleine Wing Adler Theatre through Sunday, Oct. 18.",
-    "date": "2026-10-16",
-    "loc": "Madeleine Wing Adler Theatre, West Chester University",
-    "link": "https://vista.today/2026/10/wcu-theatre-broadway-musical-bright-star/",
+    "summary": "The artificial spinal disc maker filed with the SEC on Oct. 7 to list under the ticker CNTL, which would make it the region's first life sciences IPO since late 2024. The 138-employee company turned a profit in the first half of 2026.",
+    "date": "2026-10-19",
+    "loc": "West Chester",
+    "link": "https://vista.today/2026/10/centinel-spine-west-chester-ipo-nyse/",
+    "img": ""
+  },
+  {
+    "title": "WCU president reports progress on the campus Action Plan",
+    "category": "News",
+    "summary": "In her Oct. 15 fall address, President Laurie Bernotsky highlighted the new One Stop Student Service Center, which has served 500-plus students since opening this fall, and plans for a summer STEM math bridge and an alumni-owned business directory.",
+    "date": "2026-10-19",
+    "loc": "West Chester University, West Chester",
+    "link": "https://vista.today/2026/10/west-chester-university-action-plan-student-success/",
+    "img": ""
+  },
+  {
+    "title": "CCIU opens a new special-education campus in Great Valley Oct. 21",
+    "category": "Opening Soon",
+    "summary": "The Chester County Intermediate Unit's purpose-built Child and Career Development Center holds four special-education programs in 12 classrooms and serves students from more than two dozen school districts.",
+    "date": "2026-10-19",
+    "loc": "40 Moores Rd., Malvern",
+    "link": "https://www.mychesco.com/a/education/cciu/cciu-expands-special-education-access-with-new-malvern-campus/",
+    "img": ""
+  },
+  {
+    "title": "East Whiteland hires a PR firm as the data center fight continues",
+    "category": "Development",
+    "summary": "Supervisors approved a short-term contract with Ceisler Media at about $6,800 a month; officials cite a flood of information requests, while residents tie the hire to the proposed 1.5-million-square-foot data center.",
+    "date": "2026-10-19",
+    "loc": "East Whiteland Township, Malvern",
+    "link": "https://vista.today/2026/10/east-whiteland-township-pr-firm-data-center/",
+    "img": ""
+  },
+  {
+    "title": "A WCU student gives the Frederick Douglass Institute Lecture for the first time",
+    "category": "News",
+    "summary": "Senior Aiden Tilery, great-grandson of former mayor Clifford DeBaptiste, who endowed the lecture, speaks Oct. 20 at 3 p.m. in Philips Autograph Library. It is free and open to the public.",
+    "date": "2026-10-18",
+    "loc": "Philips Memorial Building, West Chester",
+    "link": "https://www.mychesco.com/a/education/colleges-universities/wcu/west-chester-university-selects-first-student-for-douglass-lecture/",
     "img": ""
   },
   {
@@ -51,42 +87,6 @@
     "date": "2026-10-15",
     "loc": "Baltimore Pike, Chadds Ford",
     "link": "https://www.delcotimes.com/2026/10/15/painters-folly-in-chadds-ford-going-to-auction-next-week/",
-    "img": ""
-  },
-  {
-    "title": "Indoor pickleball chain behind Exton's Picklr club files for bankruptcy",
-    "category": "News",
-    "summary": "The Utah-based Picklr franchisor filed for Chapter 11 on Oct. 9, about two weeks after the operators of its Exton club filed their own petition. The company says all locations, Exton included, remain open while it reorganizes.",
-    "date": "2026-10-14",
-    "loc": "The Picklr, Exton",
-    "link": "https://vista.today/2026/10/the-picklr-exton-pickleball-bankruptcy/",
-    "img": ""
-  },
-  {
-    "title": "Borough Council weighs raising mayor and council pay to the state maximum, starting 2030",
-    "category": "News",
-    "summary": "An ordinance up for adoption Oct. 21 would set the mayor's and each council member's pay at $6,915 a year, the state maximum for a borough of West Chester's size. The raises would only apply to terms starting in 2030.",
-    "date": "2026-10-13",
-    "loc": "Borough Hall, 401 E. Gay St., West Chester",
-    "link": "https://www.mychesco.com/a/news/government/west-chester-proposes-higher-salaries-for-mayor-council/",
-    "img": ""
-  },
-  {
-    "title": "Developer asks for more time on its 329-apartment plan across from Borough Hall",
-    "category": "Development",
-    "summary": "The Michaels Organization wants an extension of the 2024 zoning relief for a seven-story apartment building at 5 N. Adams St. and seven neighboring parcels. The Zoning Hearing Board takes up the request Oct. 26.",
-    "date": "2026-10-13",
-    "loc": "5 N. Adams St., West Chester",
-    "link": "https://www.mychesco.com/a/news/government/west-chester-developer-seeks-extension-for-329-apartment-plan/",
-    "img": ""
-  },
-  {
-    "title": "Hoffman's Mill Dam is gone, and the Brandywine runs free through Chadds Ford",
-    "category": "Development",
-    "summary": "The Brandywine Conservancy finished removing the 1800s dam just upstream of the Route 1 bridge after six years of planning, easing a flood choke point and opening the creek to paddlers and migrating shad. An accessible boat launch is planned for 2027.",
-    "date": "2026-10-13",
-    "loc": "Brandywine Creek at Route 1, Chadds Ford",
-    "link": "https://vista.today/2026/10/hoffmans-mill-dam-removed-chadds-ford/",
     "img": ""
   }
 ]
