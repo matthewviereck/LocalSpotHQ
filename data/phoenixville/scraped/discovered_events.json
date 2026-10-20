@@ -3228,5 +3228,36 @@
       "image": ""
     },
     "action_link": "https://cantonfair.net/event/21066-heritage-india-festival"
+  },
+  {
+    "id": "discovered_ana_gasteyer_sugar_booze_colonial_20261203",
+    "type": "event",
+    "title": "Ana Gasteyer: Sugar & Booze Holiday Spectacular",
+    "venue_info": {
+      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "December 3, 2026 8:00 PM",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Saturday Night Live Alum",
+        "Holiday Show",
+        "Broadway",
+        "Comedy",
+        "Holiday Music",
+        "Live Performance",
+        "Indoor",
+        "Phoenixville"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/events/live-theatre/ana-gasteyer-sugar-booze-holiday-spectacular/"
   }
 ]
