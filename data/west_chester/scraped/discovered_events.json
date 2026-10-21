@@ -50,82 +50,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
   },
   {
-    "id": "discovered_bird-walk-stroud_20261020",
-    "type": "event",
-    "title": "Autumn Avian Adventures: Murmuration & Migrations",
-    "venue_info": {
-      "name": "Stroud Preserve, West Chester",
-      "location": {
-        "lat": 39.9553,
-        "lng": -75.6486
-      }
-    },
-    "raw_date_string": "Oct 20, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Nature"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wp.natlands.org/event/bird-walk-stroud-2026-1020/"
-  },
-  {
-    "id": "discovered_bachelor_boys_band_wedding_band_showcase_20261020",
-    "type": "event",
-    "title": "Bachelor Boys Band: Wedding Band Showcase",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Oct 20, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Live Music"
-      ],
-      "price": "Free",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/bachelor-boys-band-wedding-band-showcase/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_stewards-hike-sadsbury_20261020",
-    "type": "event",
-    "title": "Stewards of Sadsbury Woods Hike",
-    "venue_info": {
-      "name": "Sadsbury Woods Preserve, Coatesville",
-      "location": {
-        "lat": 39.9925,
-        "lng": -75.8836
-      }
-    },
-    "raw_date_string": "Oct 20, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Nature"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wp.natlands.org/event/stewards-hike-sadsbury-2026-1020/"
-  },
-  {
     "id": "discovered_lantern_tours_at_historic_sugartown_20261023",
     "type": "event",
     "title": "Lantern Tours at Historic Sugartown",
@@ -3233,5 +3157,30 @@
       "image": ""
     },
     "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2470730"
+  },
+  {
+    "id": "discovered_longwood_chrysanthemum_festival_20261021",
+    "type": "event",
+    "title": "Chrysanthemum Festival at Longwood Gardens",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8712,
+        "lng": -75.6744
+      }
+    },
+    "raw_date_string": "Oct 21 - Nov 15, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Family-Friendly",
+        "Seasonal"
+      ],
+      "price": "Free with Gardens Admission"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/chrysanthemum-festival"
   }
 ]
