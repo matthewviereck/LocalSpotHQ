@@ -3182,5 +3182,30 @@
       "image": ""
     },
     "action_link": "https://longwoodgardens.org/events-performances/events/chrysanthemum-festival"
+  },
+  {
+    "id": "discovered_cc_archives_behind_scenes_20261029",
+    "type": "event",
+    "title": "Behind-the-Scenes at the Chester County Archives",
+    "venue_info": {
+      "name": "Chester County Archives and Records Services, West Chester",
+      "location": {
+        "lat": 39.9425,
+        "lng": -75.58
+      }
+    },
+    "raw_date_string": "Oct 29, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "History",
+        "Indoor"
+      ],
+      "time": "12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2381974"
   }
 ]
