@@ -1,5 +1,32 @@
 [
   {
+    "title": "Pottstown council asks residents about single-topic public workshops",
+    "category": "News",
+    "summary": "Borough council is gauging public interest in a six-month pilot of workshop-style sessions, each devoted to one pre-chosen topic, proposed by Councilman Raymond Rose as a way to hold more proactive conversations in public.",
+    "date": "2026-10-21",
+    "loc": "Borough Hall, Pottstown",
+    "link": "https://www.pottsmerc.com/2026/10/21/public-input-sought-on-single-topic-pottstown-council-workshops/",
+    "img": ""
+  },
+  {
+    "title": "SCI Phoenix opens lottery for youth and veteran deer hunts",
+    "category": "News",
+    "summary": "The state prison in Skippack will host controlled antlerless deer hunts on its grounds: a junior hunt for ages 12-16 on Dec. 30 and a veteran and first-responder hunt on Jan. 20, with spots awarded by lottery to licensed hunters holding WMU 5C tags.",
+    "date": "2026-10-20",
+    "loc": "SCI Phoenix, Skippack Township",
+    "link": "https://www.pottsmerc.com/2026/10/20/sci-phoenix-invites-youth-veterans-first-responders-to-deer-hunts/",
+    "img": ""
+  },
+  {
+    "title": "Route 23 Wawa near Phoenixville opens Thursday, Oct. 22",
+    "category": "Opening Soon",
+    "summary": "The 24-hour super Wawa at 799 Valley Forge Rd. in Schuylkill Township, replacing a former Exxon after nearly a decade of debate, opens at 8 a.m. Thursday with free coffee through Sunday and a first-responder hoagie-building contest for charity.",
+    "date": "2026-10-19",
+    "loc": "799 Valley Forge Rd., Schuylkill Township",
+    "link": "https://patch.com/pennsylvania/phoenixville/after-years-anticipation-new-route-23-wawa-nears-opening",
+    "img": ""
+  },
+  {
     "title": "Medal of Honor recipients to attend Valley Forge grove rededication Oct. 29",
     "category": "News",
     "summary": "Founding Forward will rededicate its 42-acre Medal of Honor Grove on its Valley Forge campus with new recipient plaques, four living recipients in attendance and a keynote by ABC's Martha Raddatz. The ceremony starts at 11 a.m. Thursday, Oct. 29.",
@@ -18,8 +45,8 @@
     "img": ""
   },
   {
-    "title": "Spring City Hotel restaurant reopens Sunday under new management",
-    "category": "Opening Soon",
+    "title": "Spring City Hotel restaurant set an Oct. 18 reopening under new management",
+    "category": "News",
     "summary": "The Diable family has taken over the long-running restaurant at 88 N. Main St., with chef Tim Diable writing a new menu. A grand reopening is set for Sunday, Oct. 18 at 3 p.m., and the kitchen is still hiring.",
     "date": "2026-10-16",
     "loc": "88 N. Main St., Spring City",
@@ -33,24 +60,6 @@
     "date": "2026-10-16",
     "loc": "Borough Hall, Pottstown",
     "link": "https://www.pottsmerc.com/2026/10/16/64-4-million-pottstown-budget-draft-sees-5-9-tax-hike-or-6-4/",
-    "img": ""
-  },
-  {
-    "title": "Route 23 Wawa near Phoenixville sets an Oct. 22 grand opening",
-    "category": "Opening Soon",
-    "summary": "The long-debated 24-hour Wawa with 10 fuel pumps replaces the former Exxon at 799 Valley Forge Road in Schuylkill Township. Doors open at 8 a.m. Thursday, with free coffee through Oct. 25.",
-    "date": "2026-10-16",
-    "loc": "799 Valley Forge Rd., Schuylkill Township (Phoenixville)",
-    "link": "https://patch.com/pennsylvania/phoenixville/phoenixville-area-super-wawa-announces-opening-date",
-    "img": ""
-  },
-  {
-    "title": "Pottstown council approves twin homes for the burned-out church lot",
-    "category": "Development",
-    "summary": "Council voted 5-2 to let a developer build three sets of twin homes where Transfiguration Lutheran Church burned last November, attaching 17 conditions that must be met before construction starts.",
-    "date": "2026-10-15",
-    "loc": "Former Transfiguration Lutheran Church site, Pottstown",
-    "link": "https://www.pottsmerc.com/2026/10/15/pottstown-council-oks-plans-for-homes-at-church-site/",
     "img": ""
   },
   {
@@ -78,15 +87,6 @@
     "date": "2026-10-13",
     "loc": "Greater Philadelphia Expo Center, Oaks",
     "link": "https://montco.today/2026/10/pennsylvania-chocolate-coffee-festival-oaks-2026/",
-    "img": ""
-  },
-  {
-    "title": "Whole Foods, L.L. Bean and Barnes & Noble headed to Upper Providence's District at Black Rock",
-    "category": "Development",
-    "summary": "A 148,000-square-foot retail center on the former Quest Diagnostics campus off South Collegeville Road is about 89% pre-leased as construction starts, with Toll Brothers adding 122 townhomes next door. Completion is targeted for late 2027.",
-    "date": "2026-10-07",
-    "loc": "1201 S. Collegeville Rd, Upper Providence (near Oaks)",
-    "link": "https://montco.today/2026/10/toll-brothers-whole-foods-coming-to-upper-providence/",
     "img": ""
   }
 ]
