@@ -1,5 +1,50 @@
 [
   {
+    "title": "West Pikeland votes to sell SALT Performing Arts' home",
+    "category": "Development",
+    "summary": "Supervisors voted 3-2 to put the township building at 1645 Art School Rd. up for bid to help fund a new police facility, a year after the youth theater company finished about $400,000 in renovations there. Bidders could keep SALT's lease or ask to end it.",
+    "date": "2026-10-22",
+    "loc": "1645 Art School Rd., Chester Springs",
+    "link": "https://vista.today/2026/10/salt-performing-arts-west-pikeland-building/",
+    "img": ""
+  },
+  {
+    "title": "Chester County Hospital opens an outpatient lactation center",
+    "category": "Now Open",
+    "summary": "Penn Medicine Chester County Hospital has opened a center where new parents can book one-on-one sessions with lactation consultants after they go home with their baby.",
+    "date": "2026-10-22",
+    "loc": "Chester County Hospital, West Chester",
+    "link": "https://vista.today/2026/10/chester-county-hospital-outpatient-lactation-center/",
+    "img": ""
+  },
+  {
+    "title": "Stove & Tap wins People's Choice at the rescheduled Chili Cook-Off",
+    "category": "News",
+    "summary": "Thousands turned out downtown on Oct. 18 for the weather-delayed F4 Chili Cook-Off, where Ryan's Pub took the restaurant title and about 800 pounds of leftover chili went to local nonprofits.",
+    "date": "2026-10-21",
+    "loc": "Downtown West Chester",
+    "link": "https://www.dailylocal.com/2026/10/21/f4-west-chester-chili-cook-off-attracts-thousands/",
+    "img": ""
+  },
+  {
+    "title": "West Chester Refillery Station opens on East Street Road",
+    "category": "Now Open",
+    "summary": "A refill shop selling household staples in bulk for customers' own containers has opened at 54 E. Street Rd., per the Inquirer's Chester County roundup.",
+    "date": "2026-10-21",
+    "loc": "54 E. Street Rd., West Chester",
+    "link": "https://www.inquirer.com/news/pennsylvania/measles-chester-county-schools-salt-performing-arts-20261021.html",
+    "img": ""
+  },
+  {
+    "title": "Downingtown schools superintendent to step down after next year",
+    "category": "News",
+    "summary": "Downingtown Area School District Superintendent Robert O'Donnell, in the job since July 2022, told the school board he will leave at the end of the 2026-27 school year.",
+    "date": "2026-10-21",
+    "loc": "Downingtown Area School District, Downingtown",
+    "link": "https://www.inquirer.com/news/pennsylvania/measles-chester-county-schools-salt-performing-arts-20261021.html",
+    "img": ""
+  },
+  {
     "title": "West Chester Christmas Parade recruits walking marshals for the first time",
     "category": "News",
     "summary": "The Greater West Chester Chamber is adding about 30 marshals who will march inside the Dec. 4 parade alongside floats and bands, on top of the usual 70 sidewalk volunteers. The parade and tree lighting open six weekends of downtown holiday lights.",
@@ -18,6 +63,15 @@
     "img": ""
   },
   {
+    "title": "Turks Head Wines adds a restaurant to its West Chester tasting room",
+    "category": "Now Open",
+    "summary": "The California-focused winery at 120 N. Church St. began serving food this month and brought on chef Dave McDonald, formerly of Helm BYOB.",
+    "date": "2026-10-20",
+    "loc": "120 N. Church St., West Chester",
+    "link": "https://www.inquirer.com/food/turks-head-wines-winery-restaurant-california-west-chester-20261020.html",
+    "img": ""
+  },
+  {
     "title": "West Chester's Centinel Spine files to go public on the NYSE",
     "category": "News",
     "summary": "The artificial spinal disc maker filed with the SEC on Oct. 7 to list under the ticker CNTL, which would make it the region's first life sciences IPO since late 2024. The 138-employee company turned a profit in the first half of 2026.",
@@ -27,66 +81,12 @@
     "img": ""
   },
   {
-    "title": "WCU president reports progress on the campus Action Plan",
-    "category": "News",
-    "summary": "In her Oct. 15 fall address, President Laurie Bernotsky highlighted the new One Stop Student Service Center, which has served 500-plus students since opening this fall, and plans for a summer STEM math bridge and an alumni-owned business directory.",
-    "date": "2026-10-19",
-    "loc": "West Chester University, West Chester",
-    "link": "https://vista.today/2026/10/west-chester-university-action-plan-student-success/",
-    "img": ""
-  },
-  {
-    "title": "CCIU opens a new special-education campus in Great Valley Oct. 21",
-    "category": "Opening Soon",
-    "summary": "The Chester County Intermediate Unit's purpose-built Child and Career Development Center holds four special-education programs in 12 classrooms and serves students from more than two dozen school districts.",
-    "date": "2026-10-19",
-    "loc": "40 Moores Rd., Malvern",
-    "link": "https://www.mychesco.com/a/education/cciu/cciu-expands-special-education-access-with-new-malvern-campus/",
-    "img": ""
-  },
-  {
-    "title": "East Whiteland hires a PR firm as the data center fight continues",
-    "category": "Development",
-    "summary": "Supervisors approved a short-term contract with Ceisler Media at about $6,800 a month; officials cite a flood of information requests, while residents tie the hire to the proposed 1.5-million-square-foot data center.",
-    "date": "2026-10-19",
-    "loc": "East Whiteland Township, Malvern",
-    "link": "https://vista.today/2026/10/east-whiteland-township-pr-firm-data-center/",
-    "img": ""
-  },
-  {
     "title": "Residents and Adrian Martinez finish 70 feet of murals at Pinckney Hill Commons",
     "category": "News",
     "summary": "A two-year collaboration led by the Downingtown painter, with dozens of residents and children adding brushwork and handprints, produced three indoor murals at the 51-unit affordable housing community on the Melton Center grounds.",
     "date": "2026-10-19",
     "loc": "Pinckney Hill Commons, West Chester",
     "link": "https://www.dailylocal.com/2026/10/19/new-collaborative-murals-featured-at-pinckney-hill-commons/",
-    "img": ""
-  },
-  {
-    "title": "Malvern takes up a borough-wide zoning rewrite",
-    "category": "Development",
-    "summary": "Borough Council scheduled a public hearing for Oct. 20 on a full replacement of Malvern's zoning ordinance and map, which would create eight residential districts, two Town Center districts and new open-space and redevelopment zones, with a possible vote the same night.",
-    "date": "2026-10-19",
-    "loc": "Borough Hall, Malvern",
-    "link": "https://www.mychesco.com/a/news/government/malvern-weighs-boroughwide-zoning-overhaul-ahead-of-vote/",
-    "img": ""
-  },
-  {
-    "title": "West Goshen zoning rewrite could open the old Boston Market site to housing",
-    "category": "Development",
-    "summary": "The proposed rewrite would move the 1.1-acre E. Gay St. property into a new Mixed Use Corridor district allowing apartments and mixed-use buildings by right. Supervisors are expected to take it up Oct. 20.",
-    "date": "2026-10-16",
-    "loc": "726 E. Gay St., West Goshen",
-    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-oct-14-2026",
-    "img": ""
-  },
-  {
-    "title": "Chadds Ford's historic Painter's Folly goes to auction Oct. 22",
-    "category": "Development",
-    "summary": "The township is selling the 1857 Italianate house beside Brandywine Battlefield, once home to Howard Pyle's summer art school, after finding ADA upgrades too costly. Conservation and facade easements will protect it under any new owner.",
-    "date": "2026-10-15",
-    "loc": "Baltimore Pike, Chadds Ford",
-    "link": "https://www.delcotimes.com/2026/10/15/painters-folly-in-chadds-ford-going-to-auction-next-week/",
     "img": ""
   }
 ]
