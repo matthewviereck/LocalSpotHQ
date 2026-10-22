@@ -3207,5 +3207,58 @@
       "image": ""
     },
     "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2381974"
+  },
+  {
+    "id": "discovered_ksq_candy_trail_20261025",
+    "type": "event",
+    "title": "KSQ Candy Trail",
+    "venue_info": {
+      "name": "State Street, Kennett Square",
+      "location": {
+        "lat": 39.8468,
+        "lng": -75.7116
+      }
+    },
+    "raw_date_string": "Oct 25, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family"
+      ],
+      "price": "Free",
+      "time": "2:00 PM - 4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettcollaborative.org/event/candy-trail/"
+  },
+  {
+    "id": "discovered_plagues_pestilence_tour_20261105",
+    "type": "event",
+    "title": "Plagues & Pestilence: A Walking Tour",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9614,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Nov 5, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "History"
+      ],
+      "price": "$16",
+      "time": "5:30 PM - 7:15 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2332403"
   }
 ]
