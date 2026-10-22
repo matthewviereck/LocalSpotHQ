@@ -474,6 +474,37 @@ re-read. No indexing requests made. Chrome note: another agent worked
 bettersleepproject.com and wellbuiltliving.com in neighbouring tabs; this pass
 used its own tab and confirmed the property on screen before each number.
 
+Reading of 2026-10-21. Indexing report still "Last update: 10/11/26" and
+identical to the 10/15 read (indexed 322 / not indexed 451; discovered-not-
+indexed 217, 404 117, noindex 56, alternate canonical 34, crawled-not-indexed
+15, redirect 9, duplicate 2, 403 1); not re-derived. Performance (last update
+5 hours before the read, property selector read www.localspothq.com). Last 7
+days Oct 14 to 20: 7 clicks, 826 impressions, CTR 0.8%, position 11.7 (prior
+7, Oct 7 to 13: 8 / 396 / 2% / 12). Impressions doubled on event pages: "west
+chester christmas parade 2026" 59 (was 3), "hibernia mansion mystery" 54 (new),
+"west chester christmas parade" 27; no query shows a click; 85 queries. 7-day
+pages: Friends of Hibernia Mansion mystery 3 clicks (134 impressions, new),
+fall-phoenixville guide 2 (137), Monster Mania Con 1, Bob Kelly dance party at
+Gatsby's 1; hometown Christmas parade 0 clicks for 118 impressions (was 3),
+`/west-chester/` 0 for 55, punk rock flea market 0 for 27, Halloween parade 0
+for 23. 28 days Sep 23 to Oct 20: 25 clicks, 2.31K impressions, CTR 1.1%,
+position 11.0 (previous 28, Aug 26 to Sep 22: 29 / 3.62K / 0.8% / 11.1); the
+drop is the restaurant festival (738 to 57) and homecoming ageing out. 28-day
+pages: fall-phoenixville guide 11 (582), Hibernia 3 (134), then restaurant
+festival, Monster Mania, Parlour Halloween shorts, Rocky Horror at 1. This 28-
+day window overlaps the 10/15 read's Sep 17 to Oct 14 window by 22 days. GA4
+(URL a318740723p539486581): Oct 14 to 20, 22 sessions (organic 10, direct 8,
+organic social 3, AI assistant 1, first ever) vs 19 (organic 11, direct 3,
+social 5), engagement 64% (was 53%). Organic social 3 sessions is the only
+trace of the Friday 10/17 Facebook post; source detail not read. 28 days: 74
+sessions (organic 35, direct 21, organic social 17, AI 1) vs 78 (direct 47,
+organic 28, social 2), engagement 54% (was 68%). Organic sessions (35) track
+Search Console clicks (25) loosely. Pages report and sitemaps not read. No
+indexing requests made. Note: the "2027-09-26" in the 10/15 entry is the Ethan
+Neal Beatles tribute event date (a date-parse error), not a reading date.
+Chrome note: another agent worked wellbuiltliving.com and fliptrackerapp.com in
+neighbouring tabs; this pass used its own tab.
+
 ## Report format
 
 Lead with what changed versus the baseline and versus the previous period,
