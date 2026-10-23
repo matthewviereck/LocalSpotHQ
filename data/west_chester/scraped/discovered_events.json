@@ -831,7 +831,7 @@
     "media": {
       "image": ""
     },
-    "action_link": "https://kennettcollaborative.org/initiatives/events/holiday-light-parade/"
+    "action_link": "https://kennettcollaborative.org/event/holiday-light-parade/2026-11-21/"
   },
   {
     "id": "discovered_santa_s_express_20261121",
@@ -1898,32 +1898,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/genius-flowers-author-talk"
   },
   {
-    "id": "discovered_kf_singer_songwriter_20261022",
-    "type": "event",
-    "title": "Joe Trainor, J.D. Webb & Michael Hahn: Singer/Songwriter Night",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8463,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Oct 22, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Intimate"
-      ],
-      "price": "$20-$23",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/joe-trainor-j-d-webb-michael-hahn-singer-songwriter-night/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_kf_ant_ang_halloween_20261030",
     "type": "event",
     "title": "The Ant and Ang Band: Halloween Bash",
@@ -2210,58 +2184,6 @@
       "image": ""
     },
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-2"
-  },
-  {
-    "id": "discovered_bmoa_read_aloud_20261022",
-    "type": "event",
-    "title": "Children's Read-Aloud Program",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8696,
-        "lng": -75.59
-      }
-    },
-    "raw_date_string": "Oct 22, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Indoor",
-        "Family-Friendly"
-      ],
-      "price": "$6 (free for members)",
-      "time": "10:30 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/childrens-read-aloud-program-8"
-  },
-  {
-    "id": "discovered_west_goshen_duffys_cut_20261022",
-    "type": "event",
-    "title": "The Tragic Story of the Duffy's Cut Railroad Workers Massacre",
-    "venue_info": {
-      "name": "West Goshen Township Building, West Chester",
-      "location": {
-        "lat": 39.9777,
-        "lng": -75.5752
-      }
-    },
-    "raw_date_string": "Oct 22, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Historic",
-        "Indoor"
-      ],
-      "price": "Free",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.westgoshen.org/Calendar.aspx?EID=1845"
   },
   {
     "id": "discovered_dtown_brew_down_20261024",
@@ -3260,5 +3182,294 @@
       "image": ""
     },
     "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2332403"
+  },
+  {
+    "id": "discovered_clover_holiday_market_20261121",
+    "type": "event",
+    "title": "Clover Market Indoor Holiday Market",
+    "venue_info": {
+      "name": "Westtown School Athletic Center, West Chester",
+      "location": {
+        "lat": 39.9316,
+        "lng": -75.5565
+      }
+    },
+    "raw_date_string": "Nov 21 - 22, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Shopping",
+        "Indoor"
+      ],
+      "price": "Free",
+      "time": "10:00 AM - 4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mychesco.com/a/communities/kennett-square/clover-market-brings-nearly-100-vendors-to-kennett-square/"
+  },
+  {
+    "id": "discovered_hys_fall_festival_20261101",
+    "type": "event",
+    "title": "Historic Yellow Springs Fall Festival",
+    "venue_info": {
+      "name": "Historic Yellow Springs, Chester Springs",
+      "location": {
+        "lat": 40.0938,
+        "lng": -75.6337
+      }
+    },
+    "raw_date_string": "Nov 1, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family"
+      ],
+      "price": "Free",
+      "time": "12:00 PM - 4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://yellowsprings.org/events/historic-yellow-springs-fall-festival/"
+  },
+  {
+    "id": "discovered_women_edge_democracy_20261102",
+    "type": "event",
+    "title": "Women on the Edge of Democracy: Play Readings & Discussion",
+    "venue_info": {
+      "name": "People's Light, Malvern",
+      "location": {
+        "lat": 40.0397,
+        "lng": -75.5379
+      }
+    },
+    "raw_date_string": "Nov 2, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Free",
+        "Indoor"
+      ],
+      "price": "Free with RSVP",
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://peopleslight.org/whats-on/events/2026/women-on-the-edge-of-democracy/"
+  },
+  {
+    "id": "discovered_wcu_jazz_welcome_concert_20261106",
+    "type": "event",
+    "title": "100 Years of Jazz: Criterions & Statesmen Welcome Concert",
+    "venue_info": {
+      "name": "Emilie K. Asplundh Concert Hall, West Chester",
+      "location": {
+        "lat": 39.9525,
+        "lng": -75.599
+      }
+    },
+    "raw_date_string": "Nov 6, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor"
+      ],
+      "price": "",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/music/criterions/100-years-of-jazz/default.aspx"
+  },
+  {
+    "id": "discovered_wcu_jazz_centennial_20261108",
+    "type": "event",
+    "title": "100 Years of Jazz Celebration featuring Stefon Harris",
+    "venue_info": {
+      "name": "Emilie K. Asplundh Concert Hall, West Chester",
+      "location": {
+        "lat": 39.9525,
+        "lng": -75.599
+      }
+    },
+    "raw_date_string": "Nov 8, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Ticketed"
+      ],
+      "price": "",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/music/criterions/100-years-of-jazz/default.aspx"
+  },
+  {
+    "id": "discovered_snow_ready_uwchlan_20261121",
+    "type": "event",
+    "title": "Snow-Ready Uwchlan: Winter Kickoff on Ice",
+    "venue_info": {
+      "name": "Power Play Rinks, Exton",
+      "location": {
+        "lat": 40.0345,
+        "lng": -75.6545
+      }
+    },
+    "raw_date_string": "Nov 21, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Family",
+        "Indoor"
+      ],
+      "price": "Free",
+      "time": "12:30 PM - 4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.uwchlan.com/Calendar.aspx?EID=1804"
+  },
+  {
+    "id": "discovered_wcu_mbb_home_opener_20261110",
+    "type": "event",
+    "title": "WCU Men's Basketball Home Opener vs. St. Thomas Aquinas",
+    "venue_info": {
+      "name": "Hollinger Field House, West Chester",
+      "location": {
+        "lat": 39.95,
+        "lng": -75.6025
+      }
+    },
+    "raw_date_string": "Nov 10, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Indoor"
+      ],
+      "price": "",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wcupagoldenrams.com/sports/mens-basketball/schedule/2026-27"
+  },
+  {
+    "id": "discovered_dance_for_her_20261025",
+    "type": "event",
+    "title": "Dance for HER Benefit Concert",
+    "venue_info": {
+      "name": "Emilie K. Asplundh Concert Hall, West Chester",
+      "location": {
+        "lat": 39.9525,
+        "lng": -75.599
+      }
+    },
+    "raw_date_string": "Oct 25, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Indoor",
+        "Fundraiser"
+      ],
+      "price": "",
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/communications/newsroom/2026/10.02Dance.aspx"
+  },
+  {
+    "id": "discovered_jingle_run_20261205",
+    "type": "event",
+    "title": "Jingle Run 5K & Family Walk",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9598,
+        "lng": -75.6046
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Sports",
+      "vibes": [
+        "Outdoor",
+        "Family",
+        "Fundraiser"
+      ],
+      "price": "$40",
+      "time": "9:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://runsignup.com/Race/PA/WestChester/jinglecarecenterfoundationrun2026"
+  },
+  {
+    "id": "discovered_goose_creek_getdown_20261107",
+    "type": "event",
+    "title": "The Goose Creek Get-Down",
+    "venue_info": {
+      "name": "Unitarian Congregation of West Chester, West Chester",
+      "location": {
+        "lat": 39.9545,
+        "lng": -75.6
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Fundraiser"
+      ],
+      "price": "$30",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.goosecreekalliance.org/events/the-goose-creek-get-down-2026-1"
+  },
+  {
+    "id": "discovered_umc_fall_bazaar_20261024",
+    "type": "event",
+    "title": "Fall Bazaar and Bake Sale",
+    "venue_info": {
+      "name": "United Methodist Church of West Chester, West Chester",
+      "location": {
+        "lat": 39.959,
+        "lng": -75.604
+      }
+    },
+    "raw_date_string": "Oct 24, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Shopping",
+        "Indoor"
+      ],
+      "price": "Free",
+      "time": "9:00 AM - 3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "http://www.umcwc.org/fall-bazaar"
   }
 ]
