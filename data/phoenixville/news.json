@@ -1,20 +1,20 @@
 [
   {
+    "title": "Route 23 Wawa is open in Schuylkill Township",
+    "category": "Now Open",
+    "summary": "The 24-hour super Wawa at 799 Valley Forge Rd., on the former Exxon site, opened Thursday, Oct. 22 with about 35 full- and part-time jobs. Any-size hot coffee is free through Sunday, Oct. 25.",
+    "date": "2026-10-23",
+    "loc": "799 Valley Forge Rd., Schuylkill Township",
+    "link": "https://vista.today/2026/10/new-route-23-wawa-phoenixville/",
+    "img": ""
+  },
+  {
     "title": "Pottstown Area Amateur Radio Club marks 50 years in Limerick",
     "category": "News",
     "summary": "The ham radio club, which grew out of a 1970s repeater team that met in a Pottstown High classroom, is celebrating its 50th anniversary with talks, licensing exams and weekly on-air nets.",
     "date": "2026-10-22",
     "loc": "Limerick",
     "link": "https://montco.today/2026/10/pottstown-area-amateur-radio-club-50-years-limerick/",
-    "img": ""
-  },
-  {
-    "title": "Pottstown council asks residents about single-topic public workshops",
-    "category": "News",
-    "summary": "Borough council is gauging public interest in a six-month pilot of workshop-style sessions, each devoted to one pre-chosen topic, proposed by Councilman Raymond Rose as a way to hold more proactive conversations in public.",
-    "date": "2026-10-21",
-    "loc": "Borough Hall, Pottstown",
-    "link": "https://www.pottsmerc.com/2026/10/21/public-input-sought-on-single-topic-pottstown-council-workshops/",
     "img": ""
   },
   {
@@ -42,15 +42,6 @@
     "date": "2026-10-20",
     "loc": "SCI Phoenix, Skippack Township",
     "link": "https://www.pottsmerc.com/2026/10/20/sci-phoenix-invites-youth-veterans-first-responders-to-deer-hunts/",
-    "img": ""
-  },
-  {
-    "title": "Route 23 Wawa near Phoenixville opens Thursday, Oct. 22",
-    "category": "Opening Soon",
-    "summary": "The 24-hour super Wawa at 799 Valley Forge Rd. in Schuylkill Township, replacing a former Exxon after nearly a decade of debate, opens at 8 a.m. Thursday with free coffee through Sunday and a first-responder hoagie-building contest for charity.",
-    "date": "2026-10-19",
-    "loc": "799 Valley Forge Rd., Schuylkill Township",
-    "link": "https://patch.com/pennsylvania/phoenixville/after-years-anticipation-new-route-23-wawa-nears-opening",
     "img": ""
   },
   {
@@ -87,6 +78,15 @@
     "date": "2026-10-13",
     "loc": "Greater Philadelphia Expo Center, Oaks",
     "link": "https://montco.today/2026/10/pennsylvania-chocolate-coffee-festival-oaks-2026/",
+    "img": ""
+  },
+  {
+    "title": "District at Black Rock: Whole Foods, Shake Shack and 122 townhomes planned at Route 422 and 29",
+    "category": "Development",
+    "summary": "MSC Philly's 17-acre project at 1201 Collegeville Rd. in Upper Providence will pair Toll Brothers townhomes with retail including Whole Foods, Barnes & Noble, L.L.Bean, Sephora, J.Crew and Burton's Bar & Grille. Stores are expected to start opening in late 2027.",
+    "date": "2026-10-07",
+    "loc": "1201 Collegeville Rd., Upper Providence Township",
+    "link": "https://patch.com/pennsylvania/limerick/massive-new-development-along-route-422-opening-date-known-tenants",
     "img": ""
   }
 ]
