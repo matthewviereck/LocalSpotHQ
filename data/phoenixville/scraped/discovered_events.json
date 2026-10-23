@@ -454,38 +454,6 @@
     "action_link": "https://www.phoenixvillefirst.org/first-fridays"
   },
   {
-    "id": "discovered_sixties_show_colonial_20261020",
-    "type": "event",
-    "title": "The Sixties Show \u2013 Live at Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "October 20, 2026 8:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "60s Music",
-        "Beatles",
-        "Rolling Stones",
-        "The Doors",
-        "The Who",
-        "Tribute",
-        "Classic Rock",
-        "Multi-Media",
-        "Indoor"
-      ],
-      "price": "$29.50 \u2013 $34.50"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/live-music/the-sixties-show/"
-  },
-  {
     "id": "discovered_steve_hofstetter_souljoels_20261024",
     "type": "event",
     "title": "Steve Hofstetter \u2013 Live Stand-Up Comedy at SoulJoel\u2019s",
@@ -1332,38 +1300,6 @@
     "action_link": "https://www.eventbrite.com/e/die-laughing-halloween-party-tickets-1995193025047"
   },
   {
-    "id": "discovered_claudio_simonetti_goblin_colonial_20261021",
-    "type": "event",
-    "title": "Claudio Simonetti's Goblin \u2013 Tenebre Live at Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "October 21, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Horror",
-        "Prog Rock",
-        "Film Score",
-        "Dario Argento",
-        "Tenebre",
-        "Goblin",
-        "Classic Horror",
-        "Unique",
-        "Phoenixville"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/"
-  },
-  {
     "id": "discovered_halloween_1978_colonial_20261025",
     "type": "event",
     "title": "Halloween (1978) \u2013 Fright Night Film Screening",
@@ -1727,34 +1663,6 @@
     "action_link": "https://www.springcitypa.gov"
   },
   {
-    "id": "discovered_practical_magic_witchy_wednesday_20261021",
-    "type": "event",
-    "title": "Practical Magic (1998) \u2013 Witchy Wednesday at Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "October 21, 2026",
-    "attributes": {
-      "category": "Film",
-      "vibes": [
-        "Halloween",
-        "Witch",
-        "Classic Film",
-        "Indoor",
-        "Wednesday Night"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/practical-magic"
-  },
-  {
     "id": "discovered_gett_girls_exploring_tech_20261024",
     "type": "event",
     "title": "GETT 2026 \u2013 Girls Exploring Tomorrow's Technology",
@@ -1783,35 +1691,6 @@
       "image": ""
     },
     "action_link": "https://happeningnext.com/event/girls-exploring-tomorrows-technology-2026-eid1ef0ktxm7d1a"
-  },
-  {
-    "id": "discovered_halloween_bingo_souljoels_20261021",
-    "type": "event",
-    "title": "Halloween Themed Bingo Night at SoulJoel's",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook \u2013 Gatsby's Pub, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "October 21, 2026 7:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Halloween",
-        "Bingo",
-        "Themed Night",
-        "Wednesday Night Out",
-        "Pottstown",
-        "Prizes"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/upcoming-events/"
   },
   {
     "id": "discovered_am_radio_tribute_souljoels_20261031",
@@ -2183,38 +2062,6 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/live-music/eric-mintel-quartet/"
-  },
-  {
-    "id": "discovered_zombie_run_pxv_20261021",
-    "type": "event",
-    "title": "Phoenixville Zombie Run 5K",
-    "venue_info": {
-      "name": "Under the Gay Street Bridge, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "October 21, 2026 9:00 AM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Zombie Run",
-        "Flag Football",
-        "Halloween Theme",
-        "Costumes",
-        "5K",
-        "Kids 800m Race",
-        "Family Friendly",
-        "Outdoor",
-        "Phoenixville"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://runsignup.com/Race/PA/Phoenixville/Zombies"
   },
   {
     "id": "discovered_collegeville_halloween_parade_20261028",
@@ -3229,5 +3076,34 @@
       "image": ""
     },
     "action_link": "https://www.tickpick.com/buy-line-dancing-tickets-souljoels-at-sunnybrook-11-3-26-6pm/7975316/"
+  },
+  {
+    "id": "discovered_romeo_delight_souljoels_20261106",
+    "type": "event",
+    "title": "Romeo Delight \u2013 The Ultimate Van Halen Experience at SoulJoel's",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook \u2013 SunnyBrook Ballroom, 50 SunnyBrook Rd, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "November 6, 2026 8:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Van Halen Tribute",
+        "Rock",
+        "High Energy",
+        "SunnyBrook Ballroom",
+        "Friday Night",
+        "Pottstown"
+      ],
+      "price": "$20 GA / $30 Preferred (advance)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://souljoels.com/upcoming-events/"
   }
 ]
