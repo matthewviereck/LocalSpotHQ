@@ -77,58 +77,6 @@
     "action_link": "https://historicsugartown.org/events/lantern-tours-3-2/2026-10-23/"
   },
   {
-    "id": "discovered_rocky_horror_picture_show_screening_20261023",
-    "type": "event",
-    "title": "Rocky Horror Picture Show: Screening & Live Show",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Oct 23, 2026",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$20-$23",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/rocky-horror-formal-dress/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_symphony_of_horror_illuminated_fountain_20261023",
-    "type": "event",
-    "title": "Symphony of Horror: Illuminated Fountain Performance",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8703,
-        "lng": -75.6738
-      }
-    },
-    "raw_date_string": "Oct 23, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Halloween"
-      ],
-      "price": "$22",
-      "time": "8:15 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/symphony-horror"
-  },
-  {
     "id": "discovered_2026_halloween_jam_20261024",
     "type": "event",
     "title": "2026 Halloween Jam",
@@ -3471,5 +3419,532 @@
       "image": ""
     },
     "action_link": "http://www.umcwc.org/fall-bazaar"
+  },
+  {
+    "id": "discovered_barley_i_bet_your_life_20261030",
+    "type": "event",
+    "title": "I Bet Your Life (Barley Sheaf Players)",
+    "venue_info": {
+      "name": "The Barley Sheaf Players, Lionville (Exton)",
+      "location": {
+        "lat": 40.0486,
+        "lng": -75.6481
+      }
+    },
+    "raw_date_string": "Oct 30 - Nov 14, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Community Theater",
+        "Indoor"
+      ],
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.barleysheaf.org/i-bet-your-life"
+  },
+  {
+    "id": "discovered_barley_best_christmas_pageant_20261204",
+    "type": "event",
+    "title": "The Best Christmas Pageant Ever (Barley Sheaf Players)",
+    "venue_info": {
+      "name": "The Barley Sheaf Players, Lionville (Exton)",
+      "location": {
+        "lat": 40.0486,
+        "lng": -75.6481
+      }
+    },
+    "raw_date_string": "Dec 4 - 13, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Holiday",
+        "Kids & Family"
+      ],
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.barleysheaf.org/the-best-christmas-pageant-ever"
+  },
+  {
+    "id": "discovered_barley_scorpions_nest_20270115",
+    "type": "event",
+    "title": "Out of the Scorpion's Nest (Barley Sheaf Players)",
+    "venue_info": {
+      "name": "The Barley Sheaf Players, Lionville (Exton)",
+      "location": {
+        "lat": 40.0486,
+        "lng": -75.6481
+      }
+    },
+    "raw_date_string": "Jan 15 - 23, 2027",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Community Theater",
+        "Indoor"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.barleysheaf.org/out-of-the-scorpions-nest"
+  },
+  {
+    "id": "discovered_barley_one_act_festival_20270130",
+    "type": "event",
+    "title": "Barley Sheaf One-Act Festival",
+    "venue_info": {
+      "name": "The Barley Sheaf Players, Lionville (Exton)",
+      "location": {
+        "lat": 40.0486,
+        "lng": -75.6481
+      }
+    },
+    "raw_date_string": "Jan 30, 2027",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Community Theater",
+        "Indoor"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.barleysheaf.org/oneactfestival-2027"
+  },
+  {
+    "id": "discovered_midnight_in_the_square_20261231",
+    "type": "event",
+    "title": "Midnight in the Square: New Year's Eve Mushroom Drop",
+    "venue_info": {
+      "name": "State Street, Kennett Square",
+      "location": {
+        "lat": 39.8465,
+        "lng": -75.7116
+      }
+    },
+    "raw_date_string": "Dec 31, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Live Music",
+        "Family Friendly"
+      ],
+      "price": "Free (non-perishable food donation)",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://midnightinthesquare.com/"
+  },
+  {
+    "id": "discovered_downingtown_tree_lighting_20261128",
+    "type": "event",
+    "title": "Downingtown Christmas Tree Lighting Ceremony",
+    "venue_info": {
+      "name": "Kerr Park, Downingtown",
+      "location": {
+        "lat": 40.0063,
+        "lng": -75.7017
+      }
+    },
+    "raw_date_string": "Nov 28, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Holiday",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "5:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downingtown.org/Calendar.aspx?EID=1476"
+  },
+  {
+    "id": "discovered_downingtown_log_house_santa_20261205",
+    "type": "event",
+    "title": "Log House Santa at Kerr Park",
+    "venue_info": {
+      "name": "Kerr Park, Downingtown",
+      "location": {
+        "lat": 40.0063,
+        "lng": -75.7017
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Holiday",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downingtown.org/Calendar.aspx?EID=1485"
+  },
+  {
+    "id": "discovered_downingtown_christmas_parade_20261212",
+    "type": "event",
+    "title": "Downingtown Good Neighbor Christmas Parade",
+    "venue_info": {
+      "name": "Kerr Park, Downingtown",
+      "location": {
+        "lat": 40.0063,
+        "lng": -75.7017
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Holiday",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downingtown.org/Calendar.aspx?EID=1477"
+  },
+  {
+    "id": "discovered_malvern_history_center_holidays_20261219",
+    "type": "event",
+    "title": "History Center: Holidays Open House",
+    "venue_info": {
+      "name": "Malvern History Center, Malvern",
+      "location": {
+        "lat": 40.0366,
+        "lng": -75.5145
+      }
+    },
+    "raw_date_string": "Dec 19, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "Holiday",
+        "Indoor"
+      ],
+      "time": "2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.malvern.org/Calendar.aspx?EID=578"
+  },
+  {
+    "id": "discovered_wwt_holiday_craft_fair_20261107",
+    "type": "event",
+    "title": "West Whiteland Holiday Craft Fair",
+    "venue_info": {
+      "name": "Church Farm School Founders Pavilion, Exton",
+      "location": {
+        "lat": 40.0238,
+        "lng": -75.6593
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Shopping",
+        "Holiday"
+      ],
+      "price": "Free",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.westwhiteland.org/Calendar.aspx?EID=1845"
+  },
+  {
+    "id": "discovered_exton_tree_lighting_20261203",
+    "type": "event",
+    "title": "West Whiteland Township Tree Lighting",
+    "venue_info": {
+      "name": "West Whiteland Township Building, Exton",
+      "location": {
+        "lat": 40.0278,
+        "lng": -75.6283
+      }
+    },
+    "raw_date_string": "Dec 3, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Holiday",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "5:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.westwhiteland.org/Calendar.aspx?EID=1846"
+  },
+  {
+    "id": "discovered_uwchlan_historical_open_house_20261101",
+    "type": "event",
+    "title": "Uwchlan Township Historical Commission Open House Tour",
+    "venue_info": {
+      "name": "Cadwalader House & Moore Schoolhouse, Exton",
+      "location": {
+        "lat": 40.05,
+        "lng": -75.6455
+      }
+    },
+    "raw_date_string": "Nov 1, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "History",
+        "Family Friendly"
+      ],
+      "time": "2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.uwchlan.com/Calendar.aspx?EID=1741"
+  },
+  {
+    "id": "discovered_brandywine_railroad_holidays_20261114",
+    "type": "event",
+    "title": "Holidays at Brandywine: The Brandywine Railroad",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.869,
+        "lng": -75.592
+      }
+    },
+    "raw_date_string": "Nov 14 - Jan 10, 2027",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Indoor",
+        "Family Friendly"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://brandywine.org/trains"
+  },
+  {
+    "id": "discovered_beaver_moon_walk_ashbridge_20261119",
+    "type": "event",
+    "title": "Beaver Moon Walk at Ashbridge Preserve",
+    "venue_info": {
+      "name": "Ashbridge Preserve, West Chester",
+      "location": {
+        "lat": 39.9825,
+        "lng": -75.553
+      }
+    },
+    "raw_date_string": "Nov 19, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Nature",
+        "Family Friendly"
+      ],
+      "time": "5:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://secure.qgiv.com/for/2026communitypublicprograms/event/beavermoonhike11192026/?occurrence=2026-11-19"
+  },
+  {
+    "id": "discovered_wild_wreath_workshop_rushton_20261205",
+    "type": "event",
+    "title": "Wild Wreath Workshop at Rushton Conservation Center",
+    "venue_info": {
+      "name": "Rushton Conservation Center, Newtown Square",
+      "location": {
+        "lat": 39.987,
+        "lng": -75.466
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Holiday",
+        "Workshop",
+        "Nature"
+      ],
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://wctrust.org/events/the-healing-harvest-fire-cider-workshop-3-3/?occurrence=2026-12-05"
+  },
+  {
+    "id": "discovered_wc_veterans_day_parade_20261108",
+    "type": "event",
+    "title": "West Chester Veterans Day Parade",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 8, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.downtownwestchester.com/event/west-chester-veterans-day-parade-2026/"
+  },
+  {
+    "id": "discovered_diwali_potluck_ccl_20261115",
+    "type": "event",
+    "title": "Diwali Potluck at Chester County Library",
+    "venue_info": {
+      "name": "Chester County Library, Exton",
+      "location": {
+        "lat": 40.029,
+        "lng": -75.628
+      }
+    },
+    "raw_date_string": "Nov 15, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Food",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "1:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://ccls.libcal.com/event/17162969"
+  },
+  {
+    "id": "discovered_radical_shift_talk_ccl_20261104",
+    "type": "event",
+    "title": "A Radical Shift: Pennsylvania's State Constitution of 1776 (Author Talk)",
+    "venue_info": {
+      "name": "Chester County Library, Exton",
+      "location": {
+        "lat": 40.029,
+        "lng": -75.628
+      }
+    },
+    "raw_date_string": "Nov 4, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "History",
+        "Indoor"
+      ],
+      "price": "Free",
+      "time": "6:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://ccls.libcal.com/event/17776097"
+  },
+  {
+    "id": "discovered_concert_in_the_cupboard_20261114",
+    "type": "event",
+    "title": "Concert in the Cupboard: Carry On (ACTnow Benefit)",
+    "venue_info": {
+      "name": "10 W. Barnard Street, West Chester",
+      "location": {
+        "lat": 39.9583,
+        "lng": -75.606
+      }
+    },
+    "raw_date_string": "Nov 14, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Benefit",
+        "Indoor",
+        "Food"
+      ],
+      "price": "$50",
+      "time": "6:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.assistingnow.org/cupboardconcert/"
+  },
+  {
+    "id": "discovered_holiday_pops_immaculata_20261211",
+    "type": "event",
+    "title": "Chesco Pops: Holiday Pops",
+    "venue_info": {
+      "name": "Immaculata University Alumnae Hall, Malvern",
+      "location": {
+        "lat": 40.0343,
+        "lng": -75.557
+      }
+    },
+    "raw_date_string": "Dec 11, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Holiday",
+        "Indoor",
+        "Family Friendly"
+      ],
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://chescopops.org/tickets-performances/"
   }
 ]
