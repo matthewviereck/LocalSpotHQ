@@ -1,20 +1,29 @@
 [
   {
+    "title": "CCIU opens a 15-classroom special education campus in Malvern",
+    "category": "Now Open",
+    "summary": "The Chester County Intermediate Unit cut the ribbon Oct. 21 on its Child and Career Development Center Great Valley Campus at 40 Moores Rd., which houses four special education programs serving students from 31 school districts. The agency says the site took more than two years of planning and shortens travel for many families.",
+    "date": "2026-10-25",
+    "loc": "40 Moores Rd., Malvern",
+    "link": "https://www.mychesco.com/a/education/cciu/cciu-opens-malvern-campus-to-expand-special-education-access/",
+    "img": ""
+  },
+  {
+    "title": "WCU marks 100 years of jazz with a three-day celebration Nov. 6-8",
+    "category": "News",
+    "summary": "West Chester University is honoring its Criterions Jazz Ensemble, rooted in the 1920s, with a free welcome concert Friday, Nov. 6, a free masterclass with vibraphonist Stefon Harris, a $100 dance soiree Saturday and a ticketed anniversary concert Sunday featuring new works by Bob Mintzer and Orrin Evans. The university is also raising money for a permanent jazz endowment.",
+    "date": "2026-10-24",
+    "loc": "West Chester University, West Chester",
+    "link": "https://www.mychesco.com/a/education/colleges-universities/wcu/west-chester-university-celebrates-100-years-of-jazz/",
+    "img": ""
+  },
+  {
     "title": "West Pikeland calls an Oct. 26 special meeting to rethink the SALT building sale",
     "category": "Development",
     "summary": "A week after voting 3-2 to put the township-owned cultural center at 1645 Art School Rd. up for sale, supervisors will meet again Monday, Oct. 26 at 7 p.m. to discuss options for the property. SALT Performing Arts, which has put about $400,000 into the building, holds a license that a buyer could end on 30 days' notice.",
     "date": "2026-10-23",
     "loc": "1645 Art School Rd., Chester Springs",
     "link": "https://www.mychesco.com/a/news/government/west-pikeland-reopens-debate-over-salt-theater-property-sale/",
-    "img": ""
-  },
-  {
-    "title": "Square Roots Collective buys Kennett Square's 1903 trolley barn",
-    "category": "Development",
-    "summary": "The nonprofit behind The Creamery, Artelo and Opus paid $2.3 million for the Brewers Row building at 225-229 Birch St., home to Braeloch Brewing and Chaikhana Chai. The group has not said what it plans for the property, which sits between its existing projects.",
-    "date": "2026-10-23",
-    "loc": "225-229 Birch St., Kennett Square",
-    "link": "https://vista.today/2026/10/square-roots-collective-buys-brewers-row/",
     "img": ""
   },
   {
@@ -27,15 +36,6 @@
     "img": ""
   },
   {
-    "title": "Rain-soaked Great Pumpkin Carve still lit 85 giant pumpkins in Chadds Ford",
-    "category": "News",
-    "summary": "Friday's washout cancelled a night of the Chadds Ford Historical Society's sole fundraiser, but carvers still finished 85 pumpkins of about 250 pounds each for the lit display behind the visitor center. The tradition began with the Wyeths at the Chadds Ford Inn in the early 1970s.",
-    "date": "2026-10-23",
-    "loc": "Chadds Ford Historical Society, Chadds Ford",
-    "link": "https://www.dailylocal.com/2026/10/23/the-great-pumpkin-carve-features-a-variety-of-heavy-hitters-including-250-pouders/",
-    "img": ""
-  },
-  {
     "title": "Chester County Hospital opens an outpatient lactation center",
     "category": "Now Open",
     "summary": "Penn Medicine Chester County Hospital has opened a center where new parents can book one-on-one sessions with lactation consultants after they go home with their baby.",
@@ -45,30 +45,12 @@
     "img": ""
   },
   {
-    "title": "Andy Dinniman hands Chester County a trove of historic papers",
+    "title": "Christmas Parade recruits 30 first-time walking marshals for Dec. 4",
     "category": "News",
-    "summary": "The retired state senator and former county commissioner presented decades of collected documents and artwork to the commissioners at their Oct. 21 meeting on West Market Street, and urged the county to keep investing in open space ahead of its 2027 budget.",
-    "date": "2026-10-22",
-    "loc": "313 W. Market St., West Chester",
-    "link": "https://www.dailylocal.com/2026/10/22/andrew-dinniman-retired-state-senator-presents-chester-county-commissioners-with-historic-documents/",
-    "img": ""
-  },
-  {
-    "title": "Friends Association wins $250,000 for eviction prevention",
-    "category": "News",
-    "summary": "A state Community and Economic Assistance Program grant, announced by Rep. Chris Pielli, will fund the West Chester nonprofit's Eviction Prevention Case Resolution program, which offers free legal help, landlord mediation and rental assistance to households facing eviction.",
-    "date": "2026-10-22",
-    "loc": "Friends Association, West Chester",
-    "link": "https://www.mychesco.com/a/news/social-issues/chester-county-eviction-prevention-program-gets-250000-grant/",
-    "img": ""
-  },
-  {
-    "title": "Stove & Tap wins People's Choice at the rescheduled Chili Cook-Off",
-    "category": "News",
-    "summary": "Thousands turned out downtown on Oct. 18 for the weather-delayed F4 Chili Cook-Off, where Ryan's Pub took the restaurant title and about 800 pounds of leftover chili went to local nonprofits.",
+    "summary": "The Greater West Chester Chamber of Commerce wants about 30 volunteers to walk alongside floats and bands and help judge entries at the Dec. 4 parade, which follows the 6:30 p.m. courthouse tree lighting. Marshals get a red hat and a yellow vest, and sign-ups run through the Chamber's parade page.",
     "date": "2026-10-21",
     "loc": "Downtown West Chester",
-    "link": "https://www.dailylocal.com/2026/10/21/f4-west-chester-chili-cook-off-attracts-thousands/",
+    "link": "https://www.mychesco.com/a/lifestyle/holidays/santa-needs-helpers-for-west-chesters-christmas-parade/",
     "img": ""
   },
   {
@@ -87,6 +69,24 @@
     "date": "2026-10-20",
     "loc": "120 N. Church St., West Chester",
     "link": "https://www.inquirer.com/food/turks-head-wines-winery-restaurant-california-west-chester-20261020.html",
+    "img": ""
+  },
+  {
+    "title": "Pinckney Hill Commons unveils 70 feet of resident-painted murals",
+    "category": "News",
+    "summary": "Downingtown artist Adrian Martinez spent two years working with dozens of residents, many of them children, on three indoor murals of Albert Einstein, Benicio Del Toro and Cynthia Erivo at the 51-unit affordable housing complex. Mayor Lillian DeBaptiste gave Martinez a Key to the Borough at the unveiling.",
+    "date": "2026-10-19",
+    "loc": "Pinckney Hill Commons, West Chester",
+    "link": "https://www.dailylocal.com/2026/10/19/new-collaborative-murals-featured-at-pinckney-hill-commons/",
+    "img": ""
+  },
+  {
+    "title": "West Chester's Centinel Spine files for a $100 million IPO",
+    "category": "News",
+    "summary": "The maker of prodisc cervical and lumbar disc replacement implants plans to list on the NYSE as CNTL, with Morgan Stanley and Goldman Sachs leading the offering. It reported $85.2 million in revenue for the first half of 2026, up 42% from a year earlier.",
+    "date": "2026-10-08",
+    "loc": "West Chester",
+    "link": "https://www.orthoworld.com/centinel-spine-files-for-100-million-ipo/",
     "img": ""
   }
 ]

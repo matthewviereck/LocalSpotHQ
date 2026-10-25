@@ -1,5 +1,32 @@
 [
   {
+    "title": "Wharton Esherick Museum opens its 2027 juried woodworking show to entries",
+    "category": "News",
+    "summary": "The museum's 33rd annual juried exhibition takes the theme \"Design for Living\" and is open to artists in any discipline whose work includes wood. Entries close Jan. 10, 2027, with finalists chosen by blind review of submitted photos.",
+    "date": "2026-10-25",
+    "loc": "Wharton Esherick Museum, Malvern",
+    "link": "https://www.mychesco.com/a/entertainment/arts-culture/wharton-esherick-museum-opens-2027-woodworking-competition/",
+    "img": ""
+  },
+  {
+    "title": "Barbara Cohen receives county's Lifetime Achievement Citizen Planner Award",
+    "category": "News",
+    "summary": "Chester County 2020 and the county Planning Commission honored Cohen for her work restoring the Foundry Building and the Colonial Theatre and launching the Phoenixville Mural Project and Renaissance Park. She was first chosen for the award in 2020, but the Oct. 15 ceremony was the first held since the pandemic.",
+    "date": "2026-10-24",
+    "loc": "Phoenixville",
+    "link": "https://www.dailylocal.com/2026/10/24/chester-county-presents-2026-citizen-planner-awards/",
+    "img": ""
+  },
+  {
+    "title": "Chester County's Whole Home Repairs program closes Dec. 31",
+    "category": "News",
+    "summary": "The county says its $2.9 million pandemic-relief repair program, which fixed nearly 200 homes for low- and moderate-income owners since 2023, ends when the federal money expires. Homeowners can still turn to the four nonprofits that did the work, including Good Works and Habitat for Humanity of Chester County.",
+    "date": "2026-10-24",
+    "loc": "Chester County",
+    "link": "https://www.mychesco.com/a/news/social-issues/social-services/chester-county-home-repair-program-to-end-after-200-repairs/",
+    "img": ""
+  },
+  {
     "title": "Ten Owen J. Roberts seniors named National Merit Commended Scholars",
     "category": "News",
     "summary": "OJR High School says 10 members of its senior class earned Commended Scholar status in the 2027 National Merit Scholarship Program, placing them in the top 5% of the roughly 1.2 million juniors who took last fall's PSAT.",
@@ -20,19 +47,10 @@
   {
     "title": "Route 23 Wawa is open in Schuylkill Township",
     "category": "Now Open",
-    "summary": "The 24-hour super Wawa at 799 Valley Forge Rd., on the former Exxon site, opened Thursday, Oct. 22 with about 35 full- and part-time jobs. Any-size hot coffee is free through Sunday, Oct. 25.",
+    "summary": "The 24-hour super Wawa at 799 Valley Forge Rd., on the former Exxon site, opened Thursday, Oct. 22 with about 35 full- and part-time jobs after years of planning and delays.",
     "date": "2026-10-23",
     "loc": "799 Valley Forge Rd., Schuylkill Township",
     "link": "https://vista.today/2026/10/new-route-23-wawa-phoenixville/",
-    "img": ""
-  },
-  {
-    "title": "Pottstown Area Amateur Radio Club marks 50 years in Limerick",
-    "category": "News",
-    "summary": "The ham radio club, which grew out of a 1970s repeater team that met in a Pottstown High classroom, is celebrating its 50th anniversary with talks, licensing exams and weekly on-air nets.",
-    "date": "2026-10-22",
-    "loc": "Limerick",
-    "link": "https://montco.today/2026/10/pottstown-area-amateur-radio-club-50-years-limerick/",
     "img": ""
   },
   {
@@ -54,12 +72,12 @@
     "img": ""
   },
   {
-    "title": "SCI Phoenix opens lottery for youth and veteran deer hunts",
-    "category": "News",
-    "summary": "The state prison in Skippack will host controlled antlerless deer hunts on its grounds: a junior hunt for ages 12-16 on Dec. 30 and a veteran and first-responder hunt on Jan. 20, with spots awarded by lottery to licensed hunters holding WMU 5C tags.",
-    "date": "2026-10-20",
-    "loc": "SCI Phoenix, Skippack Township",
-    "link": "https://www.pottsmerc.com/2026/10/20/sci-phoenix-invites-youth-veterans-first-responders-to-deer-hunts/",
+    "title": "45-townhouse plan for Mont Clare heads to Upper Providence planners Nov. 4",
+    "category": "Development",
+    "summary": "HT 140 Whitaker LLC's preliminary plan for 45 townhouses at 140 Whitaker Ave., filed in April, is on the township planning commission's Nov. 4 agenda after appearing before the supervisors on Oct. 19. No decision has been recorded yet.",
+    "date": "2026-10-17",
+    "loc": "140 Whitaker Ave., Mont Clare",
+    "link": "https://www.thelandnotice.com/sample/montgomery/",
     "img": ""
   },
   {
@@ -69,24 +87,6 @@
     "date": "2026-10-17",
     "loc": "1601 Valley Forge Rd., Valley Forge",
     "link": "https://montco.today/2026/10/medal-honor-grove-rededication-valley-forge/",
-    "img": ""
-  },
-  {
-    "title": "Spring City Hotel restaurant set an Oct. 18 reopening under new management",
-    "category": "News",
-    "summary": "The Diable family has taken over the long-running restaurant at 88 N. Main St., with chef Tim Diable writing a new menu. A grand reopening is set for Sunday, Oct. 18 at 3 p.m., and the kitchen is still hiring.",
-    "date": "2026-10-16",
-    "loc": "88 N. Main St., Spring City",
-    "link": "https://vista.today/2026/10/spring-city-hotel-restaurant-grand-reopening/",
-    "img": ""
-  },
-  {
-    "title": "Chocolate & Coffee Festival returns to the Oaks expo center Oct. 24-25",
-    "category": "News",
-    "summary": "The third annual Pennsylvania Chocolate & Coffee Festival brings more than 150 vendors to the Greater Philadelphia Expo Center, with live coffee roasting, maker demos and a four-foot chocolate sculpture marking America's 250th.",
-    "date": "2026-10-13",
-    "loc": "Greater Philadelphia Expo Center, Oaks",
-    "link": "https://montco.today/2026/10/pennsylvania-chocolate-coffee-festival-oaks-2026/",
     "img": ""
   }
 ]
