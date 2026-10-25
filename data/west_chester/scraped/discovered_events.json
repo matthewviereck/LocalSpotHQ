@@ -50,110 +50,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
   },
   {
-    "id": "discovered_lantern_tours_at_historic_sugartown_20261023",
-    "type": "event",
-    "title": "Lantern Tours at Historic Sugartown",
-    "venue_info": {
-      "name": "Historic Sugartown, Malvern",
-      "location": {
-        "lat": 40.0284,
-        "lng": -75.5344
-      }
-    },
-    "raw_date_string": "Oct 23 - 24, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Evening",
-        "Local History"
-      ],
-      "price": "",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://historicsugartown.org/events/lantern-tours-3-2/2026-10-23/"
-  },
-  {
-    "id": "discovered_2026_halloween_jam_20261024",
-    "type": "event",
-    "title": "2026 Halloween Jam",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Oct 24, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$15-$18",
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/2026-halloween-jam/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_haunted_helicopters_20261024",
-    "type": "event",
-    "title": "Haunted Helicopters",
-    "venue_info": {
-      "name": "American Helicopter Museum, West Chester",
-      "location": {
-        "lat": 39.9976,
-        "lng": -75.5853
-      }
-    },
-    "raw_date_string": "Oct 24, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family Friendly",
-        "Halloween"
-      ],
-      "price": "$15",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.helicoptermuseum.org/event-details/haunted-helicopters-2"
-  },
-  {
-    "id": "discovered_meet_us_at_the_mums_20261024",
-    "type": "event",
-    "title": "Meet Us at the Mums",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8703,
-        "lng": -75.6738
-      }
-    },
-    "raw_date_string": "Oct 24, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Outdoor"
-      ],
-      "price": "Included with admission",
-      "time": "1:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/science-series"
-  },
-  {
     "id": "discovered_full-moon-bryncoed_20261026",
     "type": "event",
     "title": "Full Hunter's Moon Ramble",
@@ -1765,34 +1661,6 @@
     "action_link": "https://www.mychesco.com/a/entertainment/arts-culture/wharton-esherick-museum-marks-studio-centennial-with-new-jennifer-johnson-exhibition/"
   },
   {
-    "id": "discovered_malvern_monstermash_20261024",
-    "type": "event",
-    "title": "MonsterMash Halloween Celebration",
-    "venue_info": {
-      "name": "Burke Park, Malvern",
-      "location": {
-        "lat": 40.0349,
-        "lng": -75.5146
-      }
-    },
-    "raw_date_string": "Oct 24, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family-Friendly",
-        "Halloween"
-      ],
-      "price": "Free",
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.malvern.org/Calendar.aspx?EID=574"
-  },
-  {
     "id": "discovered_malvern_christmas_on_king_20261128",
     "type": "event",
     "title": "Christmas on King",
@@ -2054,33 +1922,6 @@
     "action_link": "https://pahuntcup.org/"
   },
   {
-    "id": "discovered_exton_bird_walk_20261024",
-    "type": "event",
-    "title": "Beginner Friendly Bird Walk at Exton Park",
-    "venue_info": {
-      "name": "Pennypacker Trailhead (Exton Park), Exton",
-      "location": {
-        "lat": 40.0352,
-        "lng": -75.6195
-      }
-    },
-    "raw_date_string": "Oct 24, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family-Friendly"
-      ],
-      "price": "Free",
-      "time": "9:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.westwhiteland.org/Calendar.aspx?EID=1977"
-  },
-  {
     "id": "discovered_stroud_birds_buffers_20261117",
     "type": "event",
     "title": "Singing From Tree Tubes: Birds, Buffers, and Habitats",
@@ -2132,115 +1973,6 @@
       "image": ""
     },
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-2"
-  },
-  {
-    "id": "discovered_dtown_brew_down_20261024",
-    "type": "event",
-    "title": "D-Town Brew Down",
-    "venue_info": {
-      "name": "Minquas Fire Company No. 2, Downingtown",
-      "location": {
-        "lat": 40.0061,
-        "lng": -75.699
-      }
-    },
-    "raw_date_string": "Oct 24, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "21+",
-        "Beer",
-        "Fundraiser"
-      ],
-      "price": "Ticketed",
-      "time": "1:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downingtown.org/Calendar.aspx?EID=1467"
-  },
-  {
-    "id": "discovered_uwchlan_halloween_race_20261024",
-    "type": "event",
-    "title": "Uwchlan Halloween Race (5K Run & 1K Walk)",
-    "venue_info": {
-      "name": "Shamona Main Park, Exton",
-      "location": {
-        "lat": 40.0416,
-        "lng": -75.6793
-      }
-    },
-    "raw_date_string": "Oct 24, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Halloween",
-        "Family-Friendly"
-      ],
-      "price": "Free",
-      "time": "3:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.uwchlan.com/Calendar.aspx?EID=1808"
-  },
-  {
-    "id": "discovered_upper_uwchlan_trunk_or_treat_20261024",
-    "type": "event",
-    "title": "Upper Uwchlan Trunk or Treat",
-    "venue_info": {
-      "name": "Pickering Valley Elementary, Chester Springs",
-      "location": {
-        "lat": 40.073,
-        "lng": -75.674
-      }
-    },
-    "raw_date_string": "Oct 24, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Free",
-        "Halloween",
-        "Family-Friendly"
-      ],
-      "price": "Free",
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.upperuwchlan-pa.gov/Calendar.aspx?EID=2572"
-  },
-  {
-    "id": "discovered_east_bradford_solar_astronomy_20261024",
-    "type": "event",
-    "title": "Solar Astronomy at Starr Farm Park",
-    "venue_info": {
-      "name": "Starr Farm Park, Downingtown",
-      "location": {
-        "lat": 39.9918,
-        "lng": -75.674
-      }
-    },
-    "raw_date_string": "Oct 24, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Educational"
-      ],
-      "price": "Free",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eastbradford.org/Calendar.aspx?EID=1571"
   },
   {
     "id": "discovered_dtown_trick_or_treat_main_st_20261025",
@@ -3394,33 +3126,6 @@
     "action_link": "https://www.goosecreekalliance.org/events/the-goose-creek-get-down-2026-1"
   },
   {
-    "id": "discovered_umc_fall_bazaar_20261024",
-    "type": "event",
-    "title": "Fall Bazaar and Bake Sale",
-    "venue_info": {
-      "name": "United Methodist Church of West Chester, West Chester",
-      "location": {
-        "lat": 39.959,
-        "lng": -75.604
-      }
-    },
-    "raw_date_string": "Oct 24, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Shopping",
-        "Indoor"
-      ],
-      "price": "Free",
-      "time": "9:00 AM - 3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "http://www.umcwc.org/fall-bazaar"
-  },
-  {
     "id": "discovered_barley_i_bet_your_life_20261030",
     "type": "event",
     "title": "I Bet Your Life (Barley Sheaf Players)",
@@ -3946,5 +3651,581 @@
       "image": ""
     },
     "action_link": "https://chescopops.org/tickets-performances/"
+  },
+  {
+    "id": "discovered_yuletide_at_winterthur_20261121",
+    "type": "event",
+    "title": "Yuletide at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Nov 21 - Jan 3, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Holiday",
+        "Family Friendly",
+        "Indoor"
+      ],
+      "price": "Included with admission",
+      "time": "10:00 AM - 5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/yuletide-at-winterthur-6/2026-11-21/"
+  },
+  {
+    "id": "discovered_winter_wonder_longwood_20270122",
+    "type": "event",
+    "title": "Winter Wonder at Longwood Gardens",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Jan 22 - Mar 21, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Family Friendly",
+        "Gardens"
+      ],
+      "price": "Timed admission ticket",
+      "time": "10:00 AM - 5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/winter-wonder"
+  },
+  {
+    "id": "discovered_little_women_peoples_light_20270210",
+    "type": "event",
+    "title": "Louisa May Alcott's Little Women",
+    "venue_info": {
+      "name": "People's Light, Malvern",
+      "location": {
+        "lat": 40.0445,
+        "lng": -75.5432
+      }
+    },
+    "raw_date_string": "Feb 10 - Mar 21, 2027",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "World Premiere",
+        "Indoor"
+      ],
+      "price": "$30+"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.peopleslight.org/whats-on/20262027-season/little-women/"
+  },
+  {
+    "id": "discovered_wcu_bacchae_20270225",
+    "type": "event",
+    "title": "Bacchae (WCU Theatre)",
+    "venue_info": {
+      "name": "E.O. Bull Center for the Arts, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Feb 25 - 28, 2027",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Student Theatre",
+        "Indoor"
+      ],
+      "price": "$20",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/arts-humanities/theatreDance/currentSeason.aspx"
+  },
+  {
+    "id": "discovered_wcu_student_one_acts_20270319",
+    "type": "event",
+    "title": "Student Written One Acts (WCU Theatre)",
+    "venue_info": {
+      "name": "J.P. Adler Studio Theatre, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Mar 19 - 21, 2027",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Student Theatre",
+        "Indoor"
+      ],
+      "price": "$5",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/arts-humanities/theatreDance/currentSeason.aspx"
+  },
+  {
+    "id": "discovered_wcu_everybody_20270408",
+    "type": "event",
+    "title": "Everybody (WCU Theatre)",
+    "venue_info": {
+      "name": "J.P. Adler Studio Theatre, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Apr 8 - 11, 2027",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Student Theatre",
+        "Indoor"
+      ],
+      "price": "$20",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/arts-humanities/theatreDance/currentSeason.aspx"
+  },
+  {
+    "id": "discovered_wcu_spring_dance_concert_20270422",
+    "type": "event",
+    "title": "WCU Spring Dance Concert",
+    "venue_info": {
+      "name": "Madeleine Wing Adler Theatre, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Apr 22 - 24, 2027",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Dance",
+        "Indoor"
+      ],
+      "price": "$20",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/arts-humanities/theatreDance/currentSeason.aspx"
+  },
+  {
+    "id": "discovered_brandywine_ballet_beauty_beast_20270515",
+    "type": "event",
+    "title": "Brandywine Ballet: Beauty and the Beast",
+    "venue_info": {
+      "name": "Emilie K. Asplundh Concert Hall, West Chester",
+      "location": {
+        "lat": 39.95,
+        "lng": -75.599
+      }
+    },
+    "raw_date_string": "May 15 - 16, 2027",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Dance",
+        "Family Friendly"
+      ],
+      "price": "Ticketed"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywineballet.org/2026-2027-performances"
+  },
+  {
+    "id": "discovered_plein_air_inside_out_20270106",
+    "type": "event",
+    "title": "Plein Air Inside Out",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8693,
+        "lng": -75.5933
+      }
+    },
+    "raw_date_string": "Jan 6, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Workshop",
+        "Indoor"
+      ],
+      "price": "$20 ($10 members)",
+      "time": "9:30 AM - 2:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/plein-air-inside-out-6"
+  },
+  {
+    "id": "discovered_plein_air_inside_out_20270218",
+    "type": "event",
+    "title": "Plein Air Inside Out",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8693,
+        "lng": -75.5933
+      }
+    },
+    "raw_date_string": "Feb 18, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Workshop",
+        "Indoor"
+      ],
+      "price": "$20 ($10 members)",
+      "time": "9:30 AM - 2:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/plein-air-inside-out-7"
+  },
+  {
+    "id": "discovered_bvs_family_concert_20270220",
+    "type": "event",
+    "title": "Brandywine Valley Symphony: Family Concert with BVS Woodwind Quintet",
+    "venue_info": {
+      "name": "Kennett Library, Kennett Square",
+      "location": {
+        "lat": 39.846,
+        "lng": -75.7069
+      }
+    },
+    "raw_date_string": "Feb 20, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Family Friendly",
+        "Classical"
+      ],
+      "price": "Ticketed",
+      "time": "2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://bvsymphony.org/event/family-concert-2026/"
+  },
+  {
+    "id": "discovered_bvs_masterworks_2_20270314",
+    "type": "event",
+    "title": "Brandywine Valley Symphony: Masterworks II",
+    "venue_info": {
+      "name": "Madeleine Wing Adler Theatre, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Mar 14, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Classical",
+        "Indoor"
+      ],
+      "price": "Ticketed",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://bvsymphony.org/event/masterworks-2-concert/"
+  },
+  {
+    "id": "discovered_kennett_winterfest_20270227",
+    "type": "event",
+    "title": "Kennett Winterfest XV",
+    "venue_info": {
+      "name": "600 S. Broad Street, Kennett Square",
+      "location": {
+        "lat": 39.839,
+        "lng": -75.712
+      }
+    },
+    "raw_date_string": "Feb 27, 2027",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Beer",
+        "Outdoor",
+        "21+"
+      ],
+      "price": "Ticketed"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettbrewfest.com/winterfest"
+  },
+  {
+    "id": "discovered_light_up_upper_uwchlan_20261128",
+    "type": "event",
+    "title": "Light Up Upper Uwchlan: 10th Annual Township Tree Lighting",
+    "venue_info": {
+      "name": "Upland Farm Park, Chester Springs",
+      "location": {
+        "lat": 40.0858,
+        "lng": -75.6666
+      }
+    },
+    "raw_date_string": "Nov 28, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Holiday",
+        "Family Friendly",
+        "Outdoor"
+      ],
+      "price": "Free",
+      "time": "4:00 PM - 6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.upperuwchlan-pa.gov/Calendar.aspx?EID=2574"
+  },
+  {
+    "id": "discovered_chesco_history_night_upland_20261110",
+    "type": "event",
+    "title": "A Night of Learning about Chester County History",
+    "venue_info": {
+      "name": "Upland Farm Park, Chester Springs",
+      "location": {
+        "lat": 40.0858,
+        "lng": -75.6666
+      }
+    },
+    "raw_date_string": "Nov 10, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "Talk",
+        "History"
+      ],
+      "price": "Free",
+      "time": "6:30 PM - 7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.upperuwchlan-pa.gov/Calendar.aspx?EID=2597"
+  },
+  {
+    "id": "discovered_thomas_maguire_talk_20261112",
+    "type": "event",
+    "title": "Revolutionary War Talk with Historian Thomas Maguire",
+    "venue_info": {
+      "name": "West Goshen Township Building, West Chester",
+      "location": {
+        "lat": 39.9757,
+        "lng": -75.576
+      }
+    },
+    "raw_date_string": "Nov 12, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Talk",
+        "History"
+      ],
+      "price": "Free",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.westgoshen.org/Calendar.aspx?EID=1752"
+  },
+  {
+    "id": "discovered_book_restoration_workshop_20270130",
+    "type": "event",
+    "title": "Book Restoration Workshop",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Jan 30, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Workshop",
+        "Indoor"
+      ],
+      "price": "Ticketed",
+      "time": "9:00 AM - 3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/book-restoration-workshop-2/2027-01-30/"
+  },
+  {
+    "id": "discovered_book_sewing_workshop_20270206",
+    "type": "event",
+    "title": "Book Sewing Workshop",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Feb 6, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Workshop",
+        "Indoor"
+      ],
+      "price": "Ticketed",
+      "time": "9:00 AM - 3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/book-sewing-workshop/2027-02-06/"
+  },
+  {
+    "id": "discovered_advanced_book_restoration_20270213",
+    "type": "event",
+    "title": "Advanced Book Restoration Workshop",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Feb 13, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Workshop",
+        "Indoor"
+      ],
+      "price": "Ticketed",
+      "time": "9:00 AM - 3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/advanced-book-restoration-workshop/2027-02-13/"
+  },
+  {
+    "id": "discovered_bookbinding_workshop_level_i_20270220",
+    "type": "event",
+    "title": "Bookbinding Workshop Level I",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Feb 20, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Workshop",
+        "Indoor"
+      ],
+      "price": "Ticketed",
+      "time": "9:00 AM - 3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/bookbinding-workshop-level-i/2027-02-20/"
+  },
+  {
+    "id": "discovered_rev_speaker_series_mayer_20270220",
+    "type": "event",
+    "title": "250th Revolutionary Speaker Series: Dr. Holly Mayer",
+    "venue_info": {
+      "name": "Brandywine Battlefield Park, Chadds Ford",
+      "location": {
+        "lat": 39.8737,
+        "lng": -75.5836
+      }
+    },
+    "raw_date_string": "Feb 20, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Talk",
+        "History"
+      ],
+      "price": "Ticketed",
+      "time": "12:00 PM - 1:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywinebattlefield.org/events/"
+  },
+  {
+    "id": "discovered_celebrating_life_with_art_20261101",
+    "type": "event",
+    "title": "Celebrating Life with Art",
+    "venue_info": {
+      "name": "Church of the Loving Shepherd, West Chester",
+      "location": {
+        "lat": 39.938,
+        "lng": -75.608
+      }
+    },
+    "raw_date_string": "Nov 1, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Fundraiser",
+        "All Ages",
+        "Auction"
+      ],
+      "price": "Free (donations)",
+      "time": "1:00 PM - 4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eventbrite.com/e/celebrating-life-with-art-registration-1997337137144"
   }
 ]
