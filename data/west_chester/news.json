@@ -1,5 +1,14 @@
 [
   {
+    "title": "Malvern adopts its first full zoning rewrite since 2003",
+    "category": "Development",
+    "summary": "Borough Council approved the new zoning code and map on Oct. 20 over objections from residents and business owners, many of them worried about a new Green Redevelopment District that could allow buildings up to five stories along parts of the Pennsylvania Avenue corridor. The rewrite also permits accessory dwelling units and loosens use rules for downtown businesses.",
+    "date": "2026-10-25",
+    "loc": "Pennsylvania Ave. corridor, Malvern",
+    "link": "https://www.mychesco.com/a/news/government/malvern-adopts-zoning-overhaul-despite-redevelopment-opposition/",
+    "img": ""
+  },
+  {
     "title": "CCIU opens a 15-classroom special education campus in Malvern",
     "category": "Now Open",
     "summary": "The Chester County Intermediate Unit cut the ribbon Oct. 21 on its Child and Career Development Center Great Valley Campus at 40 Moores Rd., which houses four special education programs serving students from 31 school districts. The agency says the site took more than two years of planning and shortens travel for many families.",
@@ -15,6 +24,33 @@
     "date": "2026-10-24",
     "loc": "West Chester University, West Chester",
     "link": "https://www.mychesco.com/a/education/colleges-universities/wcu/west-chester-university-celebrates-100-years-of-jazz/",
+    "img": ""
+  },
+  {
+    "title": "West Goshen pulls apartments from its residential zoning rewrite",
+    "category": "Development",
+    "summary": "After pushback from residents, supervisors agreed on Oct. 20 to drop multifamily buildings as a permitted use in all three residential districts and to require a conditional-use hearing for twins and townhomes. They also told staff to plan sewer and trash increases that would add about $100 a year per household in 2027.",
+    "date": "2026-10-23",
+    "loc": "West Goshen Township",
+    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-oct-23-2026",
+    "img": ""
+  },
+  {
+    "title": "West Chester Public Library asks West Goshen and the borough for more money",
+    "category": "News",
+    "summary": "The library wants West Goshen's yearly contribution to rise from $30,000 to $46,080 in 2027 and keep climbing through 2029, plus help with a roof replacement from both the township and the borough. Neither made a commitment yet.",
+    "date": "2026-10-23",
+    "loc": "West Chester Public Library, West Chester",
+    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-oct-23-2026",
+    "img": ""
+  },
+  {
+    "title": "Demolition permit filed for West Goshen's Forsythe Farm",
+    "category": "Development",
+    "summary": "The court-appointed conservator of the 200-plus-year-old farmhouse has applied to tear it down after a judge cited safety concerns. Save Forsythe Farm is still pressing township supervisors to look for alternatives.",
+    "date": "2026-10-23",
+    "loc": "Forsythe Farm, West Goshen",
+    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-oct-23-2026",
     "img": ""
   },
   {
@@ -45,48 +81,12 @@
     "img": ""
   },
   {
-    "title": "Christmas Parade recruits 30 first-time walking marshals for Dec. 4",
-    "category": "News",
-    "summary": "The Greater West Chester Chamber of Commerce wants about 30 volunteers to walk alongside floats and bands and help judge entries at the Dec. 4 parade, which follows the 6:30 p.m. courthouse tree lighting. Marshals get a red hat and a yellow vest, and sign-ups run through the Chamber's parade page.",
-    "date": "2026-10-21",
-    "loc": "Downtown West Chester",
-    "link": "https://www.mychesco.com/a/lifestyle/holidays/santa-needs-helpers-for-west-chesters-christmas-parade/",
-    "img": ""
-  },
-  {
     "title": "West Chester Refillery Station opens on East Street Road",
     "category": "Now Open",
     "summary": "A refill shop selling household staples in bulk for customers' own containers has opened at 54 E. Street Rd., per the Inquirer's Chester County roundup.",
     "date": "2026-10-21",
     "loc": "54 E. Street Rd., West Chester",
     "link": "https://www.inquirer.com/news/pennsylvania/measles-chester-county-schools-salt-performing-arts-20261021.html",
-    "img": ""
-  },
-  {
-    "title": "Turks Head Wines adds a restaurant to its West Chester tasting room",
-    "category": "Now Open",
-    "summary": "The California-focused winery at 120 N. Church St. began serving food this month and brought on chef Dave McDonald, formerly of Helm BYOB.",
-    "date": "2026-10-20",
-    "loc": "120 N. Church St., West Chester",
-    "link": "https://www.inquirer.com/food/turks-head-wines-winery-restaurant-california-west-chester-20261020.html",
-    "img": ""
-  },
-  {
-    "title": "Pinckney Hill Commons unveils 70 feet of resident-painted murals",
-    "category": "News",
-    "summary": "Downingtown artist Adrian Martinez spent two years working with dozens of residents, many of them children, on three indoor murals of Albert Einstein, Benicio Del Toro and Cynthia Erivo at the 51-unit affordable housing complex. Mayor Lillian DeBaptiste gave Martinez a Key to the Borough at the unveiling.",
-    "date": "2026-10-19",
-    "loc": "Pinckney Hill Commons, West Chester",
-    "link": "https://www.dailylocal.com/2026/10/19/new-collaborative-murals-featured-at-pinckney-hill-commons/",
-    "img": ""
-  },
-  {
-    "title": "West Chester's Centinel Spine files for a $100 million IPO",
-    "category": "News",
-    "summary": "The maker of prodisc cervical and lumbar disc replacement implants plans to list on the NYSE as CNTL, with Morgan Stanley and Goldman Sachs leading the offering. It reported $85.2 million in revenue for the first half of 2026, up 42% from a year earlier.",
-    "date": "2026-10-08",
-    "loc": "West Chester",
-    "link": "https://www.orthoworld.com/centinel-spine-files-for-100-million-ipo/",
     "img": ""
   }
 ]
