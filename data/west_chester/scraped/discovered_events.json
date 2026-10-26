@@ -1688,32 +1688,6 @@
     "action_link": "https://www.malvern.org/Calendar.aspx?EID=576"
   },
   {
-    "id": "discovered_longwood_genius_flowers_20261025",
-    "type": "event",
-    "title": "The Genius of Flowers: Author Talk with Jill Brooke",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8711,
-        "lng": -75.6744
-      }
-    },
-    "raw_date_string": "Oct 25, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Free",
-        "Talk"
-      ],
-      "price": "Free with registration",
-      "time": "1:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/genius-flowers-author-talk"
-  },
-  {
     "id": "discovered_kf_ant_ang_halloween_20261030",
     "type": "event",
     "title": "The Ant and Ang Band: Halloween Bash",
@@ -1973,139 +1947,6 @@
       "image": ""
     },
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-2"
-  },
-  {
-    "id": "discovered_dtown_trick_or_treat_main_st_20261025",
-    "type": "event",
-    "title": "Trick or Treat on Main Street",
-    "venue_info": {
-      "name": "Downtown Downingtown, Downingtown",
-      "location": {
-        "lat": 40.0065,
-        "lng": -75.7033
-      }
-    },
-    "raw_date_string": "Oct 25, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Free",
-        "Halloween",
-        "Family-Friendly"
-      ],
-      "price": "Free",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downingtown.org/Calendar.aspx?EID=1484"
-  },
-  {
-    "id": "discovered_west_goshen_harvest_festival_20261025",
-    "type": "event",
-    "title": "West Goshen Harvest Festival",
-    "venue_info": {
-      "name": "West Goshen Community Park, West Chester",
-      "location": {
-        "lat": 39.9846,
-        "lng": -75.5733
-      }
-    },
-    "raw_date_string": "Oct 25, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family-Friendly"
-      ],
-      "price": "Free for West Goshen residents",
-      "time": "2:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.westgoshen.org/Calendar.aspx?EID=1807"
-  },
-  {
-    "id": "discovered_uwchlan_monsters_milkweeds_20261025",
-    "type": "event",
-    "title": "Monsters, Masks, and Milkweeds",
-    "venue_info": {
-      "name": "Baird Park, Exton",
-      "location": {
-        "lat": 40.0529,
-        "lng": -75.6612
-      }
-    },
-    "raw_date_string": "Oct 25, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Outdoor",
-        "Halloween",
-        "Nature"
-      ],
-      "price": "Free",
-      "time": "1:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.uwchlan.com/Calendar.aspx?EID=1751"
-  },
-  {
-    "id": "discovered_east_bradford_orienteering_20261025",
-    "type": "event",
-    "title": "Orienteering Score-O at Starr Farm Park",
-    "venue_info": {
-      "name": "Starr Farm Park, Downingtown",
-      "location": {
-        "lat": 39.9918,
-        "lng": -75.674
-      }
-    },
-    "raw_date_string": "Oct 25, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ],
-      "price": "Free",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eastbradford.org/Calendar.aspx?EID=1572"
-  },
-  {
-    "id": "discovered_ccchoral_chamber_wc_20261025",
-    "type": "event",
-    "title": "Chester County Choral Society Chamber Ensemble Concert",
-    "venue_info": {
-      "name": "First Presbyterian Church, West Chester",
-      "location": {
-        "lat": 39.9586,
-        "lng": -75.604
-      }
-    },
-    "raw_date_string": "Oct 25, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Classical"
-      ],
-      "price": "Ticketed",
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://chescochoral.org/events"
   },
   {
     "id": "discovered_bmoa_read_aloud_20261029",
@@ -2608,32 +2449,6 @@
     "action_link": "https://west-chester.com/370/Events"
   },
   {
-    "id": "discovered_longwood_spellbound_20261023",
-    "type": "event",
-    "title": "Spellbound Weekend: Fountain Fest at Longwood Gardens",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8719,
-        "lng": -75.6744
-      }
-    },
-    "raw_date_string": "Oct 23 - 25, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Date Night"
-      ],
-      "price": "Free with Gardens admission",
-      "time": "5:00 PM - 9:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/spellbound-weekend"
-  },
-  {
     "id": "discovered_longwood_garden_railway_20261016",
     "type": "event",
     "title": "Garden Railway at Longwood Gardens",
@@ -2809,33 +2624,6 @@
       "image": ""
     },
     "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2381974"
-  },
-  {
-    "id": "discovered_ksq_candy_trail_20261025",
-    "type": "event",
-    "title": "KSQ Candy Trail",
-    "venue_info": {
-      "name": "State Street, Kennett Square",
-      "location": {
-        "lat": 39.8468,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Oct 25, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family"
-      ],
-      "price": "Free",
-      "time": "2:00 PM - 4:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettcollaborative.org/event/candy-trail/"
   },
   {
     "id": "discovered_plagues_pestilence_tour_20261105",
@@ -3045,32 +2833,6 @@
       "image": ""
     },
     "action_link": "https://wcupagoldenrams.com/sports/mens-basketball/schedule/2026-27"
-  },
-  {
-    "id": "discovered_dance_for_her_20261025",
-    "type": "event",
-    "title": "Dance for HER Benefit Concert",
-    "venue_info": {
-      "name": "Emilie K. Asplundh Concert Hall, West Chester",
-      "location": {
-        "lat": 39.9525,
-        "lng": -75.599
-      }
-    },
-    "raw_date_string": "Oct 25, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Indoor",
-        "Fundraiser"
-      ],
-      "price": "",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/communications/newsroom/2026/10.02Dance.aspx"
   },
   {
     "id": "discovered_jingle_run_20261205",
@@ -4227,5 +3989,29 @@
       "image": ""
     },
     "action_link": "https://www.eventbrite.com/e/celebrating-life-with-art-registration-1997337137144"
+  },
+  {
+    "id": "discovered_from_seed_to_blossom_20270308",
+    "type": "event",
+    "title": "From Seed to Blossom: Supporting Queer and Trans Youth",
+    "venue_info": {
+      "name": "People's Light, Malvern",
+      "location": {
+        "lat": 40.0445,
+        "lng": -75.5432
+      }
+    },
+    "raw_date_string": "Mar 8, 2027",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Community"
+      ],
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.peopleslight.org/whats-on/events/2026/from-seed-to-blossom/"
   }
 ]
