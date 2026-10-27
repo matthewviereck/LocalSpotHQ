@@ -1,5 +1,32 @@
 [
   {
+    "title": "Brandywine Museum's $30 million floodproofing work nears completion",
+    "category": "Development",
+    "summary": "Five years after Hurricane Ida flooded Brandywine Creek to a record 21 feet, the Chadds Ford museum has sealed off about 12,000 square feet of its lower levels and rerouted its systems behind flood barriers. Crews also took out the upstream Hoffman's Mill Dam this month to ease the creek's flow.",
+    "date": "2026-10-27",
+    "loc": "Brandywine Museum of Art, Chadds Ford",
+    "link": "https://vista.today/2026/10/brandywine-museum-floodproofing-project/",
+    "img": ""
+  },
+  {
+    "title": "Two West Chester firms make the Philadelphia Business Journal's Fast 50",
+    "category": "News",
+    "summary": "Ad-tech company Fullthrottle.ai ranked No. 25 and Green Lawn Fertilizing/Green Pest Solutions No. 36 on the region's fastest-growing-companies list. Malvern's Innovative Aerosystems and Neuronetics both landed in the top 10.",
+    "date": "2026-10-26",
+    "loc": "West Chester",
+    "link": "https://vista.today/2026/10/chester-county-fast-50-rankings-oct/",
+    "img": ""
+  },
+  {
+    "title": "Chester Springs teen builds a free accessibility guide for families facing ALS",
+    "category": "News",
+    "summary": "Downingtown East senior Tejas Karusala created MND Access after his grandmother's ALS diagnosis, rating more than 1,600 places, about 900 of them in the Chester County area, on factors like wheelchair access, door weight, noise and lighting.",
+    "date": "2026-10-26",
+    "loc": "Chester Springs",
+    "link": "https://www.mychesco.com/a/news/social-issues/disabled-issues-disabilities/downingtown-teen-turns-family-struggle-into-a-national-mission/",
+    "img": ""
+  },
+  {
     "title": "Malvern adopts its first full zoning rewrite since 2003",
     "category": "Development",
     "summary": "Borough Council approved the new zoning code and map on Oct. 20 over objections from residents and business owners, many of them worried about a new Green Redevelopment District that could allow buildings up to five stories along parts of the Pennsylvania Avenue corridor. The rewrite also permits accessory dwelling units and loosens use rules for downtown businesses.",
@@ -60,33 +87,6 @@
     "date": "2026-10-23",
     "loc": "1645 Art School Rd., Chester Springs",
     "link": "https://www.mychesco.com/a/news/government/west-pikeland-reopens-debate-over-salt-theater-property-sale/",
-    "img": ""
-  },
-  {
-    "title": "A readers' retreat built around West Chester's bookstores is set for Nov. 20-22",
-    "category": "News",
-    "summary": "Novelist JB Harris is bringing the first Future Famous Authors Bookish Retreat to the borough, with visits to Baldwin's Book Barn, Bookmarks and Leaves and Lore, an author panel dinner and rooms at the Book House Hotel and Hotel Indigo. It is aimed at readers, not aspiring writers.",
-    "date": "2026-10-23",
-    "loc": "Downtown West Chester",
-    "link": "https://www.mychesco.com/a/news/business/books/book-lovers-invited-to-west-chester-for-unique-literary-retreat/",
-    "img": ""
-  },
-  {
-    "title": "Chester County Hospital opens an outpatient lactation center",
-    "category": "Now Open",
-    "summary": "Penn Medicine Chester County Hospital has opened a center where new parents can book one-on-one sessions with lactation consultants after they go home with their baby.",
-    "date": "2026-10-22",
-    "loc": "Chester County Hospital, West Chester",
-    "link": "https://vista.today/2026/10/chester-county-hospital-outpatient-lactation-center/",
-    "img": ""
-  },
-  {
-    "title": "West Chester Refillery Station opens on East Street Road",
-    "category": "Now Open",
-    "summary": "A refill shop selling household staples in bulk for customers' own containers has opened at 54 E. Street Rd., per the Inquirer's Chester County roundup.",
-    "date": "2026-10-21",
-    "loc": "54 E. Street Rd., West Chester",
-    "link": "https://www.inquirer.com/news/pennsylvania/measles-chester-county-schools-salt-performing-arts-20261021.html",
     "img": ""
   }
 ]
