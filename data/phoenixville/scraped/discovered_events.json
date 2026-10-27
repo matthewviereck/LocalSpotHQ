@@ -274,36 +274,6 @@
     "action_link": "https://www.phoenixvillefirst.org/first-fridays"
   },
   {
-    "id": "discovered_acotar_midnight_release_20261026",
-    "type": "event",
-    "title": "A Court of Splintered Harmony – Midnight Release Party at Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre – Bank Lobby",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "October 26, 2026 10:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Book Release",
-        "ACOTAR",
-        "Sarah J. Maas",
-        "Trivia",
-        "Prizes",
-        "Midnight Party",
-        "Bookish"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eventbrite.com/e/a-court-of-splintered-harmony-by-sarah-j-maas-midnight-release-party-tickets-1997795745855"
-  },
-  {
     "id": "discovered_longest_johns_colonial_20261107",
     "type": "event",
     "title": "The Longest Johns – Live at Colonial Theatre",
@@ -934,36 +904,6 @@
       "image": ""
     },
     "action_link": "https://www.eventbrite.com/e/die-laughing-halloween-party-tickets-1995193025047"
-  },
-  {
-    "id": "discovered_nightmare_before_christmas_colonial_20261026",
-    "type": "event",
-    "title": "The Nightmare Before Christmas – Family Film Screening",
-    "venue_info": {
-      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "October 26, 2026",
-    "attributes": {
-      "category": "Family",
-      "vibes": [
-        "Tim Burton",
-        "Family Film",
-        "Halloween Season",
-        "Animation",
-        "Classic Cinema",
-        "Indoor",
-        "Monday Night"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/the-nightmare-before-christmas-2/"
   },
   {
     "id": "discovered_nosferatu_organ_colonial_20261027",
@@ -2525,6 +2465,198 @@
         "Community Theater",
         "Phoenixville",
         "Indoor"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.forgetheatre.org/"
+  },
+  {
+    "id": "discovered_forge_twas_night_20261204",
+    "type": "event",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "venue_info": {
+      "name": "Forge Theatre, 241 First Avenue, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "December 4, 2026 7:30 PM",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Holiday",
+        "Family Friendly",
+        "Ken Ludwig",
+        "A Charlie Brown Christmas",
+        "Live Theatre",
+        "Community Theater",
+        "Phoenixville",
+        "Indoor",
+        "Friday Night"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.forgetheatre.org/"
+  },
+  {
+    "id": "discovered_forge_twas_night_20261205",
+    "type": "event",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "venue_info": {
+      "name": "Forge Theatre, 241 First Avenue, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "December 5, 2026 7:30 PM",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Holiday",
+        "Family Friendly",
+        "Ken Ludwig",
+        "A Charlie Brown Christmas",
+        "Live Theatre",
+        "Community Theater",
+        "Phoenixville",
+        "Indoor",
+        "Saturday Night"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.forgetheatre.org/"
+  },
+  {
+    "id": "discovered_forge_twas_night_20261206",
+    "type": "event",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre (Matinee)",
+    "venue_info": {
+      "name": "Forge Theatre, 241 First Avenue, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "December 6, 2026 2:00 PM",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Holiday",
+        "Family Friendly",
+        "Ken Ludwig",
+        "A Charlie Brown Christmas",
+        "Live Theatre",
+        "Community Theater",
+        "Phoenixville",
+        "Indoor",
+        "Sunday Matinee"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.forgetheatre.org/"
+  },
+  {
+    "id": "discovered_forge_twas_night_20261211",
+    "type": "event",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "venue_info": {
+      "name": "Forge Theatre, 241 First Avenue, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "December 11, 2026 7:30 PM",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Holiday",
+        "Family Friendly",
+        "Ken Ludwig",
+        "A Charlie Brown Christmas",
+        "Live Theatre",
+        "Community Theater",
+        "Phoenixville",
+        "Indoor",
+        "Friday Night"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.forgetheatre.org/"
+  },
+  {
+    "id": "discovered_forge_twas_night_20261212",
+    "type": "event",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "venue_info": {
+      "name": "Forge Theatre, 241 First Avenue, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "December 12, 2026 7:30 PM",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Holiday",
+        "Family Friendly",
+        "Ken Ludwig",
+        "A Charlie Brown Christmas",
+        "Live Theatre",
+        "Community Theater",
+        "Phoenixville",
+        "Indoor",
+        "Saturday Night"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.forgetheatre.org/"
+  },
+  {
+    "id": "discovered_forge_twas_night_20261213",
+    "type": "event",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre (Matinee)",
+    "venue_info": {
+      "name": "Forge Theatre, 241 First Avenue, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "December 13, 2026 2:00 PM",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Holiday",
+        "Family Friendly",
+        "Ken Ludwig",
+        "A Charlie Brown Christmas",
+        "Live Theatre",
+        "Community Theater",
+        "Phoenixville",
+        "Indoor",
+        "Sunday Matinee"
       ],
       "price": "Check Link"
     },
