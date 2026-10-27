@@ -50,32 +50,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
   },
   {
-    "id": "discovered_full-moon-bryncoed_20261026",
-    "type": "event",
-    "title": "Full Hunter's Moon Ramble",
-    "venue_info": {
-      "name": "Bryn Coed Preserve, Chester Springs",
-      "location": {
-        "lat": 40.0906,
-        "lng": -75.6539
-      }
-    },
-    "raw_date_string": "Oct 26, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Evening",
-        "Nature"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wp.natlands.org/event/full-moon-bryncoed-2026-1026/"
-  },
-  {
     "id": "discovered_flight_nights_fright_night_20261028",
     "type": "event",
     "title": "Flight Nights: Fright Night",
