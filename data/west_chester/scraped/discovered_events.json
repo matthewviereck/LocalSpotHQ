@@ -3987,5 +3987,31 @@
       "image": ""
     },
     "action_link": "https://www.peopleslight.org/whats-on/events/2026/from-seed-to-blossom/"
+  },
+  {
+    "id": "discovered_true_crime_on_trial_20261117",
+    "type": "event",
+    "title": "True Crime on Trial: Chester County History Center at Victory Brewing",
+    "venue_info": {
+      "name": "Victory Brewing Company, Downingtown",
+      "location": {
+        "lat": 40.0137,
+        "lng": -75.687
+      }
+    },
+    "raw_date_string": "Nov 17, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "21+",
+        "History"
+      ],
+      "price": "$20",
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2247000"
   }
 ]
