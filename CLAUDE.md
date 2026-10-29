@@ -169,6 +169,31 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   page (`SIGNUP_HTML` in `event_pages.py`). Keep it there: event pages are
   where organic search lands.
 
+## The weekend case (Phoenixville)
+
+- A small whodunit a week at `/phoenixville/weekend-case/` (the live case,
+  then the archive) and `/phoenixville/weekend-case/case-<n>/` (every case,
+  for good). `pipeline/cases.py` renders it from `data/phoenixville/cases.json`.
+- **A case goes live on its `publish` date, a Thursday**, at the 6:15 AM
+  build, ahead of the 7:50 AM Facebook post task. A case dated ahead is never
+  written into the build, because its answer ships inside the page (base64,
+  an anti-spoiler, not a secret; the repo is public anyway). Before the first
+  date the index is a noindex teaser and nothing links to it.
+- **New cases come from the Daily Dunnit generator**
+  (`C:\Users\matth\Documents\Daily Dunnit`, setting `phoenixville`): it makes
+  the grid and clues (one answer, no guessing, no clue that puts a named
+  person at the answer's place) and writes `logic` next to each clue's text.
+  A person writes the scene (about 150 words), teaser and reveal. Never edit
+  a clue's text without its `logic`: `tests/test_case_pages.py` brute-forces
+  every case in the file to exactly one answer and gates the build.
+- **Setting rule:** real public places only (parks, trails, the Gay Street
+  bridge, Lock 60), invented people, and no real business is ever the scene
+  of a theft or mix-up. No dashes, no LLC or personal name in reader text.
+- **Counting solvers:** GA4 events `case_start`, `case_solve` (seconds,
+  wrong) and `case_reveal`, all with `case_number`, sent only from the
+  production hostname so local test plays never count. Signups from the case
+  carry source `weekend-case:phoenixville` (routes to Phoenixville).
+
 ## Vault: log meaningful work without being asked
 
 This repo's hub note is:

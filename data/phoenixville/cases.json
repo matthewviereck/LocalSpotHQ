@@ -1,0 +1,966 @@
+[
+  {
+    "number": 1,
+    "slug": "case-1",
+    "publish": "2026-11-05",
+    "title": "The scarecrow went for a walk",
+    "teaser": "Dolores's porch scarecrow turned up on the Gay Street bridge, facing the river. Work out who was there.",
+    "scene": [
+      "Dolores has had a scarecrow on her porch since the first of October. Flannel shirt, straw hat, a face she painted herself and will not let anyone call creepy.",
+      "This morning the porch was empty.",
+      "The scarecrow turned up a little later on the Gay Street bridge, propped against the railing and facing the river, like it had paid for the view. Nothing was damaged. The hat was on straight. Somebody had even tucked the flannel in.",
+      "Dolores is not upset, exactly. She would just like to know. Frank, next door, says he heard nothing, which Dolores says is what Frank always hears. Gus says Biscuit was home all night, which nobody asked.",
+      "Five neighbors were out early, each at a different spot, at a different hour, carrying a different thing. One of them was at the Gay Street bridge."
+    ],
+    "question": "Who was at the Gay Street bridge?",
+    "suspects": [
+      {
+        "id": "frank",
+        "name": "Frank"
+      },
+      {
+        "id": "ruthie",
+        "name": "Ruthie"
+      },
+      {
+        "id": "walt",
+        "name": "Walt"
+      },
+      {
+        "id": "imani",
+        "name": "Imani"
+      },
+      {
+        "id": "gus",
+        "name": "Gus"
+      }
+    ],
+    "categories": [
+      {
+        "id": "place",
+        "label": "Where",
+        "question": "Where was each of them?",
+        "ordered": false,
+        "values": [
+          "the French Creek trail",
+          "Reeves Park",
+          "Lock 60",
+          "the trailhead",
+          "the Gay Street bridge"
+        ],
+        "short": [
+          "French Creek",
+          "Reeves Park",
+          "Lock 60",
+          "Trailhead",
+          "Gay St bridge"
+        ]
+      },
+      {
+        "id": "time",
+        "label": "When",
+        "question": "When was each of them out?",
+        "ordered": true,
+        "values": [
+          "seven",
+          "eight",
+          "nine",
+          "ten",
+          "eleven"
+        ],
+        "short": [
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ]
+      },
+      {
+        "id": "item",
+        "label": "Carrying",
+        "question": "What was each of them carrying?",
+        "ordered": false,
+        "values": [
+          "a pie dish",
+          "a camera",
+          "a tote bag",
+          "a folding chair",
+          "a thermos"
+        ],
+        "short": [
+          "pie dish",
+          "camera",
+          "tote bag",
+          "folding chair",
+          "thermos"
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "text": "Gus: \"Frank was out earlier than Imani. Don't ask me how I know. Small town.\"",
+        "logic": {
+          "type": "before",
+          "s1": "frank",
+          "s2": "imani",
+          "c": "time"
+        }
+      },
+      {
+        "text": "Frank: \"Whoever was at Lock 60 was out at ten. You can look that up.\"",
+        "logic": {
+          "type": "link",
+          "c1": "place",
+          "v1": "Lock 60",
+          "c2": "time",
+          "v2": "ten"
+        }
+      },
+      {
+        "text": "Dolores: \"Gus was out earlier than Walt. Somebody on this block has to keep track, and it isn't Frank.\"",
+        "logic": {
+          "type": "before",
+          "s1": "gus",
+          "s2": "walt",
+          "c": "time"
+        }
+      },
+      {
+        "text": "Walt, tapping two lines with one finger: \"Whoever was out at seven had a thermos.\"",
+        "logic": {
+          "type": "link",
+          "c1": "time",
+          "v1": "seven",
+          "c2": "item",
+          "v2": "a thermos"
+        }
+      },
+      {
+        "text": "\"Here's what I know for sure,\" Ruthie says. \"Whoever was at Reeves Park was out at nine.\"",
+        "logic": {
+          "type": "link",
+          "c1": "place",
+          "v1": "Reeves Park",
+          "c2": "time",
+          "v2": "nine"
+        }
+      },
+      {
+        "text": "Imani: \"Whoever was out at eleven had a tote bag. It's in the field notes.\"",
+        "logic": {
+          "type": "link",
+          "c1": "time",
+          "v1": "eleven",
+          "c2": "item",
+          "v2": "a tote bag"
+        }
+      },
+      {
+        "text": "Ruthie, lowering her voice: \"Whoever was at Lock 60 had a camera. I'm not naming names.\"",
+        "logic": {
+          "type": "link",
+          "c1": "place",
+          "v1": "Lock 60",
+          "c2": "item",
+          "v2": "a camera"
+        }
+      },
+      {
+        "text": "Dolores: \"Walt was out at seven, or at eight, hon. One or the other.\"",
+        "logic": {
+          "type": "either",
+          "s": "walt",
+          "c": "time",
+          "v1": "seven",
+          "v2": "eight"
+        }
+      },
+      {
+        "text": "Frank: \"Ruthie was at the trailhead or at the French Creek trail. I'm not going to pretend I know which.\"",
+        "logic": {
+          "type": "either",
+          "s": "ruthie",
+          "c": "place",
+          "v1": "the trailhead",
+          "v2": "the French Creek trail"
+        }
+      },
+      {
+        "text": "Gus shrugs: \"Frank had a pie dish or had a camera.\"",
+        "logic": {
+          "type": "either",
+          "s": "frank",
+          "c": "item",
+          "v1": "a pie dish",
+          "v2": "a camera"
+        }
+      },
+      {
+        "text": "Walt lines up two entries: \"Whoever was at the trailhead had a thermos.\"",
+        "logic": {
+          "type": "link",
+          "c1": "place",
+          "v1": "the trailhead",
+          "c2": "item",
+          "v2": "a thermos"
+        }
+      }
+    ],
+    "solution": {
+      "place": {
+        "frank": "Reeves Park",
+        "ruthie": "the French Creek trail",
+        "walt": "the Gay Street bridge",
+        "imani": "Lock 60",
+        "gus": "the trailhead"
+      },
+      "time": {
+        "frank": "nine",
+        "ruthie": "eleven",
+        "walt": "eight",
+        "imani": "ten",
+        "gus": "seven"
+      },
+      "item": {
+        "frank": "a pie dish",
+        "ruthie": "a tote bag",
+        "walt": "a folding chair",
+        "imani": "a camera",
+        "gus": "a thermos"
+      }
+    },
+    "culprit": "walt",
+    "reveal": [
+      "Walt. He was on the Gay Street bridge at eight with a folding chair, and the chair was for the scarecrow. His reasoning: it had spent six weeks on a porch looking at a hedge, and it deserved to see the river once before the season ended.",
+      "Dolores has decided this is sweet. Frank has decided it is theft. They are both still talking about it, which is the most they have agreed on since 1996."
+    ],
+    "source": "Daily Dunnit generator, setting phoenixville, seed phx-2026-11-05, difficulty 3, incident scarecrow"
+  },
+  {
+    "number": 2,
+    "slug": "case-2",
+    "publish": "2026-11-12",
+    "title": "The heron count went missing",
+    "teaser": "The morning's bird count vanished off a bench at Black Rock Sanctuary. Work out who was there.",
+    "scene": [
+      "Saturday is count day at Black Rock Sanctuary. A few birders walk the wetland paths at first light, write down every heron, duck and kingfisher, and leave the tally on a clipboard on a bench so the next shift can add to it.",
+      "This Saturday the next shift found the bench. No clipboard.",
+      "Nobody thinks it was stolen, exactly. Nobody steals a bird count. But it is gone, and the birding club's president has already used the word \"unacceptable\" twice. Ruthie is offering a free coffee to anyone with information, which has produced a great deal of information.",
+      "Biscuit has been mentioned. Biscuit is always mentioned.",
+      "Five people were out early, each at a different spot, at a different hour, carrying a different thing. One of them was at Black Rock."
+    ],
+    "question": "Who was at Black Rock Sanctuary?",
+    "suspects": [
+      {
+        "id": "ruthie",
+        "name": "Ruthie"
+      },
+      {
+        "id": "walt",
+        "name": "Walt"
+      },
+      {
+        "id": "biscuit",
+        "name": "Biscuit"
+      },
+      {
+        "id": "gus",
+        "name": "Gus"
+      },
+      {
+        "id": "imani",
+        "name": "Imani"
+      }
+    ],
+    "categories": [
+      {
+        "id": "place",
+        "label": "Where",
+        "question": "Where was each of them?",
+        "ordered": false,
+        "values": [
+          "the trailhead",
+          "the Gay Street bridge",
+          "Lock 60",
+          "Black Rock Sanctuary",
+          "Reeves Park"
+        ],
+        "short": [
+          "Trailhead",
+          "Gay St bridge",
+          "Lock 60",
+          "Black Rock",
+          "Reeves Park"
+        ]
+      },
+      {
+        "id": "time",
+        "label": "When",
+        "question": "When was each of them out?",
+        "ordered": true,
+        "values": [
+          "seven",
+          "eight",
+          "nine",
+          "ten",
+          "eleven"
+        ],
+        "short": [
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ]
+      },
+      {
+        "id": "item",
+        "label": "Carrying",
+        "question": "What was each of them carrying?",
+        "ordered": false,
+        "values": [
+          "a bike pump",
+          "a tote bag",
+          "a thermos",
+          "a folding chair",
+          "a camera"
+        ],
+        "short": [
+          "bike pump",
+          "tote bag",
+          "thermos",
+          "folding chair",
+          "camera"
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "text": "Gus: \"Biscuit was out at eleven, or at ten. One of those. I was elbow deep in a derailleur.\"",
+        "logic": {
+          "type": "either",
+          "s": "biscuit",
+          "c": "time",
+          "v1": "eleven",
+          "v2": "ten"
+        }
+      },
+      {
+        "text": "Ruthie: \"Imani had a folding chair, or had a tote bag. My sources split down the middle.\"",
+        "logic": {
+          "type": "either",
+          "s": "imani",
+          "c": "item",
+          "v1": "a folding chair",
+          "v2": "a tote bag"
+        }
+      },
+      {
+        "text": "Frank: \"Whoever was at the trailhead had a camera. You can look that up.\"",
+        "logic": {
+          "type": "link",
+          "c1": "place",
+          "v1": "the trailhead",
+          "c2": "item",
+          "v2": "a camera"
+        }
+      },
+      {
+        "text": "Imani, flipping a page: \"Walt was out at ten, or at eight. My notes stop being useful right there.\"",
+        "logic": {
+          "type": "either",
+          "s": "walt",
+          "c": "time",
+          "v1": "ten",
+          "v2": "eight"
+        }
+      },
+      {
+        "text": "Dolores: \"Ruthie was at Lock 60, or at the trailhead. I had my reading glasses on, not my walking ones.\"",
+        "logic": {
+          "type": "either",
+          "s": "ruthie",
+          "c": "place",
+          "v1": "Lock 60",
+          "v2": "the trailhead"
+        }
+      },
+      {
+        "text": "Walt lines up two entries: \"Whoever was out at nine had a thermos.\"",
+        "logic": {
+          "type": "link",
+          "c1": "time",
+          "v1": "nine",
+          "c2": "item",
+          "v2": "a thermos"
+        }
+      },
+      {
+        "text": "Frank, grudgingly: \"Whoever was out at seven had a bike pump. Dolores and I agree on that, which makes twice now.\"",
+        "logic": {
+          "type": "link",
+          "c1": "time",
+          "v1": "seven",
+          "c2": "item",
+          "v2": "a bike pump"
+        }
+      },
+      {
+        "text": "Ruthie, lowering her voice: \"Whoever was at the Gay Street bridge was out at ten. I'm not naming names.\"",
+        "logic": {
+          "type": "link",
+          "c1": "place",
+          "v1": "the Gay Street bridge",
+          "c2": "time",
+          "v2": "ten"
+        }
+      },
+      {
+        "text": "Walt, tapping two lines with one finger: \"Whoever was at Reeves Park was out at seven.\"",
+        "logic": {
+          "type": "link",
+          "c1": "place",
+          "v1": "Reeves Park",
+          "c2": "time",
+          "v2": "seven"
+        }
+      },
+      {
+        "text": "Gus shrugs: \"Imani was out at eight or at seven.\"",
+        "logic": {
+          "type": "either",
+          "s": "imani",
+          "c": "time",
+          "v1": "eight",
+          "v2": "seven"
+        }
+      },
+      {
+        "text": "Dolores: \"Imani had a bike pump, or had a folding chair, hon. One or the other.\"",
+        "logic": {
+          "type": "either",
+          "s": "imani",
+          "c": "item",
+          "v1": "a bike pump",
+          "v2": "a folding chair"
+        }
+      }
+    ],
+    "solution": {
+      "place": {
+        "ruthie": "Lock 60",
+        "walt": "the Gay Street bridge",
+        "biscuit": "the trailhead",
+        "gus": "Reeves Park",
+        "imani": "Black Rock Sanctuary"
+      },
+      "time": {
+        "ruthie": "nine",
+        "walt": "ten",
+        "biscuit": "eleven",
+        "gus": "seven",
+        "imani": "eight"
+      },
+      "item": {
+        "ruthie": "a thermos",
+        "walt": "a tote bag",
+        "biscuit": "a camera",
+        "gus": "a bike pump",
+        "imani": "a folding chair"
+      }
+    },
+    "culprit": "imani",
+    "reveal": [
+      "Imani. She was at Black Rock at eight with a folding chair and a strong opinion. The clipboard said eleven great blue herons. Imani had counted four, so she took the sheet home to check it against her own notes before anyone could send it in. It was four. She would like that noted.",
+      "Biscuit, for the record, was at the trailhead at eleven with a camera, and nobody has explained that either."
+    ],
+    "source": "Daily Dunnit generator, setting phoenixville, seed phx-2026-11-12, difficulty 3, incident count-sheet"
+  },
+  {
+    "number": 3,
+    "slug": "case-3",
+    "publish": "2026-11-19",
+    "title": "The soup walked off",
+    "teaser": "A thermos of homemade soup walked off the fence at Lock 60. Work out who was there.",
+    "scene": [
+      "Lock 60 sits across the river in Mont Clare, the only working lock left on the Schuylkill Canal, and on a cold Saturday it is a fine place to drink soup out of a thermos.",
+      "That was the plan, anyway. A woman from the next street over set her green thermos on the fence by the lock (minestrone, homemade, still hot) and walked the towpath for twenty minutes. When she came back, the fence was bare.",
+      "She is not angry. She is hungry. She has started describing the soup to anyone who will stand still. Walt has offered to check his notebook. Ruthie has offered a coffee to whoever finds it.",
+      "Five people were out that morning, each at a different spot, at a different hour, carrying a different thing. One of them was at Lock 60."
+    ],
+    "question": "Who was at Lock 60?",
+    "suspects": [
+      {
+        "id": "ruthie",
+        "name": "Ruthie"
+      },
+      {
+        "id": "imani",
+        "name": "Imani"
+      },
+      {
+        "id": "gus",
+        "name": "Gus"
+      },
+      {
+        "id": "frank",
+        "name": "Frank"
+      },
+      {
+        "id": "dolores",
+        "name": "Dolores"
+      }
+    ],
+    "categories": [
+      {
+        "id": "place",
+        "label": "Where",
+        "question": "Where was each of them?",
+        "ordered": false,
+        "values": [
+          "the French Creek trail",
+          "the Gay Street bridge",
+          "Lock 60",
+          "Reeves Park",
+          "the trailhead"
+        ],
+        "short": [
+          "French Creek",
+          "Gay St bridge",
+          "Lock 60",
+          "Reeves Park",
+          "Trailhead"
+        ]
+      },
+      {
+        "id": "time",
+        "label": "When",
+        "question": "When was each of them out?",
+        "ordered": true,
+        "values": [
+          "seven",
+          "eight",
+          "nine",
+          "ten",
+          "eleven"
+        ],
+        "short": [
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ]
+      },
+      {
+        "id": "item",
+        "label": "Carrying",
+        "question": "What was each of them carrying?",
+        "ordered": false,
+        "values": [
+          "a camera",
+          "a tote bag",
+          "a bike pump",
+          "a pie dish",
+          "a thermos"
+        ],
+        "short": [
+          "camera",
+          "tote bag",
+          "bike pump",
+          "pie dish",
+          "thermos"
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "text": "Dolores: \"Whoever had a thermos was not out at ten. I'd have told Frank, and I didn't.\"",
+        "logic": {
+          "type": "neglink",
+          "c1": "item",
+          "v1": "a thermos",
+          "c2": "time",
+          "v2": "ten"
+        }
+      },
+      {
+        "text": "Gus, carefully: \"Whoever had a bike pump was not at Lock 60. That I'm sure of.\"",
+        "logic": {
+          "type": "neglink",
+          "c1": "item",
+          "v1": "a bike pump",
+          "c2": "place",
+          "v2": "Lock 60"
+        }
+      },
+      {
+        "text": "Frank: \"Gus was at Reeves Park or at the Gay Street bridge. I'm not going to pretend I know which.\"",
+        "logic": {
+          "type": "either",
+          "s": "gus",
+          "c": "place",
+          "v1": "Reeves Park",
+          "v2": "the Gay Street bridge"
+        }
+      },
+      {
+        "text": "Imani: \"Ruthie was out earlier than Dolores. I log people the same way I log herons. In order.\"",
+        "logic": {
+          "type": "before",
+          "s1": "ruthie",
+          "s2": "dolores",
+          "c": "time"
+        }
+      },
+      {
+        "text": "Walt, tapping two lines with one finger: \"Whoever was out at eleven had a camera.\"",
+        "logic": {
+          "type": "link",
+          "c1": "time",
+          "v1": "eleven",
+          "c2": "item",
+          "v2": "a camera"
+        }
+      },
+      {
+        "text": "Ruthie: \"Gus was out at eleven, or at eight. Half the line said one, half said the other.\"",
+        "logic": {
+          "type": "either",
+          "s": "gus",
+          "c": "time",
+          "v1": "eleven",
+          "v2": "eight"
+        }
+      },
+      {
+        "text": "Gus, spinning a pedal: \"Whoever was at the trailhead had a camera.\"",
+        "logic": {
+          "type": "link",
+          "c1": "place",
+          "v1": "the trailhead",
+          "c2": "item",
+          "v2": "a camera"
+        }
+      },
+      {
+        "text": "Ruthie, wiping the counter: \"Frank had a tote bag or had a bike pump. Two stories going around, and one of them's right.\"",
+        "logic": {
+          "type": "either",
+          "s": "frank",
+          "c": "item",
+          "v1": "a tote bag",
+          "v2": "a bike pump"
+        }
+      },
+      {
+        "text": "Frank, grudgingly: \"Whoever was out at nine had a bike pump. Dolores and I agree on that, which makes twice now.\"",
+        "logic": {
+          "type": "link",
+          "c1": "time",
+          "v1": "nine",
+          "c2": "item",
+          "v2": "a bike pump"
+        }
+      },
+      {
+        "text": "Walt lines up two entries: \"Whoever was out at seven had a tote bag.\"",
+        "logic": {
+          "type": "link",
+          "c1": "time",
+          "v1": "seven",
+          "c2": "item",
+          "v2": "a tote bag"
+        }
+      },
+      {
+        "text": "Dolores: \"Imani was out at seven, or at eight, hon. One or the other.\"",
+        "logic": {
+          "type": "either",
+          "s": "imani",
+          "c": "time",
+          "v1": "seven",
+          "v2": "eight"
+        }
+      },
+      {
+        "text": "Gus, squinting: \"Imani was at the trailhead, or at the Gay Street bridge. I'd bet my good wrench on one of them.\"",
+        "logic": {
+          "type": "either",
+          "s": "imani",
+          "c": "place",
+          "v1": "the trailhead",
+          "v2": "the Gay Street bridge"
+        }
+      }
+    ],
+    "solution": {
+      "place": {
+        "ruthie": "Lock 60",
+        "imani": "the Gay Street bridge",
+        "gus": "Reeves Park",
+        "frank": "the French Creek trail",
+        "dolores": "the trailhead"
+      },
+      "time": {
+        "ruthie": "ten",
+        "imani": "seven",
+        "gus": "eight",
+        "frank": "nine",
+        "dolores": "eleven"
+      },
+      "item": {
+        "ruthie": "a pie dish",
+        "imani": "a tote bag",
+        "gus": "a thermos",
+        "frank": "a bike pump",
+        "dolores": "a camera"
+      }
+    },
+    "culprit": "ruthie",
+    "reveal": [
+      "Ruthie. She was at Lock 60 at ten with a pie dish in one hand, saw a green thermos on the fence and picked it up, because she owns four green thermoses and they all look like that. She found out at lunch, one sip in.",
+      "The rest of the minestrone has gone home with a coffee on the house, and Ruthie has asked that the matter be considered closed."
+    ],
+    "source": "Daily Dunnit generator, setting phoenixville, seed phx-2026-11-19, difficulty 3, incident thermos-swap"
+  },
+  {
+    "number": 4,
+    "slug": "case-4",
+    "publish": "2026-11-26",
+    "title": "The potluck pie is gone",
+    "teaser": "The potluck pie left Reeves Park before the potluck got there. Work out who was there.",
+    "scene": [
+      "Every year on the Saturday after Thanksgiving, the block carries its leftovers to a picnic table in Reeves Park and calls it a potluck. Nobody organizes it. It just happens.",
+      "This year somebody brought the pie early. A whole pumpkin pie, from scratch, left on the table under a dish towel to hold the spot. When the rest of the block arrived with their turkey sandwiches and their cold stuffing, the towel was still there. The pie was not.",
+      "There are theories. Most of them involve Biscuit, who has a record. Gus says Biscuit was with him all morning, then says most of the morning, then stops talking.",
+      "Five neighbors were out that morning, each at a different spot, at a different hour, carrying a different thing. One of them was at Reeves Park."
+    ],
+    "question": "Who was at Reeves Park?",
+    "suspects": [
+      {
+        "id": "dolores",
+        "name": "Dolores"
+      },
+      {
+        "id": "frank",
+        "name": "Frank"
+      },
+      {
+        "id": "walt",
+        "name": "Walt"
+      },
+      {
+        "id": "biscuit",
+        "name": "Biscuit"
+      },
+      {
+        "id": "gus",
+        "name": "Gus"
+      }
+    ],
+    "categories": [
+      {
+        "id": "place",
+        "label": "Where",
+        "question": "Where was each of them?",
+        "ordered": false,
+        "values": [
+          "Reeves Park",
+          "the French Creek trail",
+          "Black Rock Sanctuary",
+          "the trailhead",
+          "the Gay Street bridge"
+        ],
+        "short": [
+          "Reeves Park",
+          "French Creek",
+          "Black Rock",
+          "Trailhead",
+          "Gay St bridge"
+        ]
+      },
+      {
+        "id": "time",
+        "label": "When",
+        "question": "When was each of them out?",
+        "ordered": true,
+        "values": [
+          "seven",
+          "eight",
+          "nine",
+          "ten",
+          "eleven"
+        ],
+        "short": [
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ]
+      },
+      {
+        "id": "item",
+        "label": "Carrying",
+        "question": "What was each of them carrying?",
+        "ordered": false,
+        "values": [
+          "a tote bag",
+          "a bike pump",
+          "a camera",
+          "a leash",
+          "a pie dish"
+        ],
+        "short": [
+          "tote bag",
+          "bike pump",
+          "camera",
+          "leash",
+          "pie dish"
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "text": "Gus: \"Frank was out earlier than Dolores. Don't ask me how I know. Small town.\"",
+        "logic": {
+          "type": "before",
+          "s1": "frank",
+          "s2": "dolores",
+          "c": "time"
+        }
+      },
+      {
+        "text": "Dolores: \"Whoever was at the Gay Street bridge was out at nine. I heard it from the woman who heard it first.\"",
+        "logic": {
+          "type": "link",
+          "c1": "place",
+          "v1": "the Gay Street bridge",
+          "c2": "time",
+          "v2": "nine"
+        }
+      },
+      {
+        "text": "Frank, grudgingly: \"Whoever was out at nine had a pie dish. Dolores and I agree on that, which makes twice now.\"",
+        "logic": {
+          "type": "link",
+          "c1": "time",
+          "v1": "nine",
+          "c2": "item",
+          "v2": "a pie dish"
+        }
+      },
+      {
+        "text": "Walt's notebook, two lines apart: Whoever was at the French Creek trail had a leash.",
+        "logic": {
+          "type": "link",
+          "c1": "place",
+          "v1": "the French Creek trail",
+          "c2": "item",
+          "v2": "a leash"
+        }
+      },
+      {
+        "text": "\"Here's what I know for sure,\" Ruthie says. \"Whoever was at Black Rock Sanctuary was out at ten.\"",
+        "logic": {
+          "type": "link",
+          "c1": "place",
+          "v1": "Black Rock Sanctuary",
+          "c2": "time",
+          "v2": "ten"
+        }
+      },
+      {
+        "text": "Imani: \"Whoever was at Black Rock Sanctuary had a bike pump. It's in the field notes.\"",
+        "logic": {
+          "type": "link",
+          "c1": "place",
+          "v1": "Black Rock Sanctuary",
+          "c2": "item",
+          "v2": "a bike pump"
+        }
+      },
+      {
+        "text": "Walt: \"Dolores had a tote bag or had a pie dish. I wrote down both and crossed out neither.\"",
+        "logic": {
+          "type": "either",
+          "s": "dolores",
+          "c": "item",
+          "v1": "a tote bag",
+          "v2": "a pie dish"
+        }
+      },
+      {
+        "text": "Ruthie, wiping the counter: \"Gus was at the trailhead or at the Gay Street bridge. Two stories going around, and one of them's right.\"",
+        "logic": {
+          "type": "either",
+          "s": "gus",
+          "c": "place",
+          "v1": "the trailhead",
+          "v2": "the Gay Street bridge"
+        }
+      },
+      {
+        "text": "Dolores: \"Biscuit was at the trailhead, or at the Gay Street bridge, hon. One or the other.\"",
+        "logic": {
+          "type": "either",
+          "s": "biscuit",
+          "c": "place",
+          "v1": "the trailhead",
+          "v2": "the Gay Street bridge"
+        }
+      },
+      {
+        "text": "Gus shrugs: \"Biscuit had a pie dish or had a leash.\"",
+        "logic": {
+          "type": "either",
+          "s": "biscuit",
+          "c": "item",
+          "v1": "a pie dish",
+          "v2": "a leash"
+        }
+      },
+      {
+        "text": "Imani allows two possibilities: Walt was out at eleven, or at eight.",
+        "logic": {
+          "type": "either",
+          "s": "walt",
+          "c": "time",
+          "v1": "eleven",
+          "v2": "eight"
+        }
+      }
+    ],
+    "solution": {
+      "place": {
+        "dolores": "Reeves Park",
+        "frank": "Black Rock Sanctuary",
+        "walt": "the French Creek trail",
+        "biscuit": "the Gay Street bridge",
+        "gus": "the trailhead"
+      },
+      "time": {
+        "dolores": "eleven",
+        "frank": "ten",
+        "walt": "eight",
+        "biscuit": "nine",
+        "gus": "seven"
+      },
+      "item": {
+        "dolores": "a tote bag",
+        "frank": "a bike pump",
+        "walt": "a leash",
+        "biscuit": "a pie dish",
+        "gus": "a camera"
+      }
+    },
+    "culprit": "dolores",
+    "reveal": [
+      "Dolores. She was at Reeves Park at eleven with a tote bag, saw a squirrel taking a close interest in the pie, and took it home for safekeeping. She meant to bring it right back. Then she sat down.",
+      "The pie is fine and will be served Sunday. Biscuit, for once, is innocent, although he was seen on the Gay Street bridge at nine with a pie dish, and Gus would rather not say whose."
+    ],
+    "source": "Daily Dunnit generator, setting phoenixville, seed phx-2026-11-26, difficulty 3, incident potluck-pie"
+  }
+]

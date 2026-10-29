@@ -55,7 +55,19 @@ def weekend_events(events, today=None):
     return friday, sunday, picked
 
 
-def generate_this_weekend_page(events_file, output_dir, area_config):
+def _case_note(cases_file, base_url):
+    """One line pointing at the weekend case while one is live. It sits after
+    the event list so the Thursday post task, which reads this page's events
+    by day, never mistakes it for an event."""
+    from pipeline.cases import live_case
+    case = live_case(cases_file)
+    if not case:
+        return ''
+    return (f'<p>&#128270; <a href="{base_url}/weekend-case/">The weekend case: '
+            f'{html.escape(case["title"])}</a>. A small mystery set around town, about ten minutes.</p>\n')
+
+
+def generate_this_weekend_page(events_file, output_dir, area_config, cases_file=None):
     with open(events_file, 'r', encoding='utf-8') as f:
         events = json.load(f)
 
@@ -169,7 +181,7 @@ color:var(--ink-faint);font-size:13px}}
 <p class="sub">{range_label} &middot; {len(picked)} events &middot; updated daily</p>
 {os.linesep.join(sections)}
 <a class="cta" href="{base_url}/">See all {html.escape(area_name)} events &rarr;</a>
-<p><a href="{base_url}/events.ics">&#128197; Subscribe to the {html.escape(area_name)} events calendar</a></p>
+{_case_note(cases_file, base_url)}<p><a href="{base_url}/events.ics">&#128197; Subscribe to the {html.escape(area_name)} events calendar</a></p>
 <footer>LocalSpot HQ &middot; generated {datetime.now().strftime('%Y-%m-%d')}</footer>
 </body>
 </html>
