@@ -1,5 +1,59 @@
 [
   {
+    "title": "Evening Halloween Parade draws more than a thousand downtown",
+    "category": "News",
+    "summary": "Wednesday's 7 p.m. parade, moved back from last year's afternoon slot, ran about 40 minutes behind the police color guard, with marching bands including WCU's Golden Rams playing \"Thriller\" and packed outdoor dining along the route.",
+    "date": "2026-10-29",
+    "loc": "Downtown West Chester",
+    "link": "https://www.dailylocal.com/2026/10/29/costumes-galore-at-west-chester-halloween-parade/",
+    "img": ""
+  },
+  {
+    "title": "West Pikeland puts the SALT Performing Arts building sale on hold",
+    "category": "News",
+    "summary": "Supervisors voted unanimously Oct. 26 to reverse last week's decision to sell the township building the theater has renovated and occupied since 2014, while they get legal advice on requiring any buyer to honor SALT's license. SALT is also exploring an acquisition with Historic Yellow Springs.",
+    "date": "2026-10-29",
+    "loc": "1645 Art School Road, Chester Springs",
+    "link": "https://vista.today/2026/10/west-pikeland-pauses-sale-salt-performing-arts/",
+    "img": ""
+  },
+  {
+    "title": "Hatfield bacon family's developer buys Downingtown's Mill Town Square",
+    "category": "Development",
+    "summary": "Clemens Development paid $22.4 million for the 104,000-square-foot shopping center anchored by Planet Fitness and Kimberton Whole Foods, ending a 24-year ownership by Tripoint Properties.",
+    "date": "2026-10-29",
+    "loc": "150 E. Pennsylvania Ave., Downingtown",
+    "link": "https://vista.today/2026/10/clemens-development-buys-mill-town-square/",
+    "img": ""
+  },
+  {
+    "title": "Westtown star Jordyn Palmer commits to South Carolina",
+    "category": "News",
+    "summary": "The five-star senior, a three-time Gatorade Pennsylvania Player of the Year, chose Dawn Staley's Gamecocks over more than 20 programs including UCLA and Penn State.",
+    "date": "2026-10-28",
+    "loc": "Westtown School, West Chester",
+    "link": "https://vista.today/2026/10/jordyn-palmer-commits-south-carolina/",
+    "img": ""
+  },
+  {
+    "title": "Sitara Indian Cuisine opens on Lancaster Avenue in Malvern",
+    "category": "Now Open",
+    "summary": "The new restaurant serves tandoor and tiffin-style dishes along with Indo-Chinese noodle and rice plates.",
+    "date": "2026-10-28",
+    "loc": "630 Lancaster Ave., Malvern",
+    "link": "https://www.inquirer.com/news/pennsylvania/community-development-pushback-salt-pa-midterm-election-20261028.html",
+    "img": ""
+  },
+  {
+    "title": "Boutique On Thirty closing in Downingtown",
+    "category": "Closed",
+    "summary": "The Downingtown boutique is shutting down roughly a year after it opened.",
+    "date": "2026-10-28",
+    "loc": "Downingtown",
+    "link": "https://www.inquirer.com/news/pennsylvania/community-development-pushback-salt-pa-midterm-election-20261028.html",
+    "img": ""
+  },
+  {
     "title": "Brandywine Museum's $30 million floodproofing work nears completion",
     "category": "Development",
     "summary": "Five years after Hurricane Ida flooded Brandywine Creek to a record 21 feet, the Chadds Ford museum has sealed off about 12,000 square feet of its lower levels and rerouted its systems behind flood barriers. Crews also took out the upstream Hoffman's Mill Dam this month to ease the creek's flow.",
@@ -18,15 +72,6 @@
     "img": ""
   },
   {
-    "title": "Two West Chester firms make the Philadelphia Business Journal's Fast 50",
-    "category": "News",
-    "summary": "Ad-tech company Fullthrottle.ai ranked No. 25 and Green Lawn Fertilizing/Green Pest Solutions No. 36 on the region's fastest-growing-companies list. Malvern's Innovative Aerosystems and Neuronetics both landed in the top 10.",
-    "date": "2026-10-26",
-    "loc": "West Chester",
-    "link": "https://vista.today/2026/10/chester-county-fast-50-rankings-oct/",
-    "img": ""
-  },
-  {
     "title": "Malvern adopts its first full zoning rewrite since 2003",
     "category": "Development",
     "summary": "Borough Council approved the new zoning code and map on Oct. 20 over objections from residents and business owners, many of them worried about a new Green Redevelopment District that could allow buildings up to five stories along parts of the Pennsylvania Avenue corridor. The rewrite also permits accessory dwelling units and loosens use rules for downtown businesses.",
@@ -36,57 +81,12 @@
     "img": ""
   },
   {
-    "title": "CCIU opens a 15-classroom special education campus in Malvern",
-    "category": "Now Open",
-    "summary": "The Chester County Intermediate Unit cut the ribbon Oct. 21 on its Child and Career Development Center Great Valley Campus at 40 Moores Rd., which houses four special education programs serving students from 31 school districts. The agency says the site took more than two years of planning and shortens travel for many families.",
-    "date": "2026-10-25",
-    "loc": "40 Moores Rd., Malvern",
-    "link": "https://www.mychesco.com/a/education/cciu/cciu-opens-malvern-campus-to-expand-special-education-access/",
-    "img": ""
-  },
-  {
     "title": "WCU marks 100 years of jazz with a three-day celebration Nov. 6-8",
     "category": "News",
     "summary": "West Chester University is honoring its Criterions Jazz Ensemble, rooted in the 1920s, with a free welcome concert Friday, Nov. 6, a free masterclass with vibraphonist Stefon Harris, a $100 dance soiree Saturday and a ticketed anniversary concert Sunday featuring new works by Bob Mintzer and Orrin Evans. The university is also raising money for a permanent jazz endowment.",
     "date": "2026-10-24",
     "loc": "West Chester University, West Chester",
     "link": "https://www.mychesco.com/a/education/colleges-universities/wcu/west-chester-university-celebrates-100-years-of-jazz/",
-    "img": ""
-  },
-  {
-    "title": "West Goshen pulls apartments from its residential zoning rewrite",
-    "category": "Development",
-    "summary": "After pushback from residents, supervisors agreed on Oct. 20 to drop multifamily buildings as a permitted use in all three residential districts and to require a conditional-use hearing for twins and townhomes. They also told staff to plan sewer and trash increases that would add about $100 a year per household in 2027.",
-    "date": "2026-10-23",
-    "loc": "West Goshen Township",
-    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-oct-23-2026",
-    "img": ""
-  },
-  {
-    "title": "West Chester Public Library asks West Goshen and the borough for more money",
-    "category": "News",
-    "summary": "The library wants West Goshen's yearly contribution to rise from $30,000 to $46,080 in 2027 and keep climbing through 2029, plus help with a roof replacement from both the township and the borough. Neither made a commitment yet.",
-    "date": "2026-10-23",
-    "loc": "West Chester Public Library, West Chester",
-    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-oct-23-2026",
-    "img": ""
-  },
-  {
-    "title": "Demolition permit filed for West Goshen's Forsythe Farm",
-    "category": "Development",
-    "summary": "The court-appointed conservator of the 200-plus-year-old farmhouse has applied to tear it down after a judge cited safety concerns. Save Forsythe Farm is still pressing township supervisors to look for alternatives.",
-    "date": "2026-10-23",
-    "loc": "Forsythe Farm, West Goshen",
-    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-oct-23-2026",
-    "img": ""
-  },
-  {
-    "title": "West Chester Christmas Parade recruits its first walking marshals",
-    "category": "News",
-    "summary": "The Greater West Chester Chamber of Commerce is looking for about 30 volunteers to walk the Dec. 4 parade route, help with crowds and judge entries during the Lights Up holiday weekends.",
-    "date": "2026-10-22",
-    "loc": "Downtown West Chester",
-    "link": "https://patch.com/pennsylvania/westchester/greater-west-chester-chamber-commerce-seeks-first-ever-walking-marshals-nodx",
     "img": ""
   }
 ]

@@ -1,5 +1,41 @@
 [
   {
+    "title": "Chicken Salad Chick sets Nov. 18 opening at Providence Town Center",
+    "category": "Opening Soon",
+    "summary": "The Southern fast-casual chain's first Philadelphia-area restaurant takes the former Z!Eats space and will seat 55, with free chicken salad for a year promised to the first 100 guests. The local franchise group plans six locations across Montgomery and Chester counties.",
+    "date": "2026-10-29",
+    "loc": "500 Broad St., Providence Town Center, Collegeville",
+    "link": "https://montco.today/2026/10/chicken-salad-chick-collegeville-opening/",
+    "img": ""
+  },
+  {
+    "title": "Split Spring-Ford board approves $12 million for school renovations",
+    "category": "News",
+    "summary": "A 5-3 vote Monday cleared borrowing for work at six elementary schools, including Oaks Elementary, as part of the district's $103 million capital plan. The dissenters tied their no votes to concerns over a proposed employees-only health center in Upper Providence.",
+    "date": "2026-10-29",
+    "loc": "Spring-Ford Area School District, Royersford",
+    "link": "https://www.pottsmerc.com/2026/10/29/rift-forms-over-spring-ford-health-care-center-plan/",
+    "img": ""
+  },
+  {
+    "title": "Schuylkill Township calls Nov. 4 meeting on municipal complex expansion",
+    "category": "Development",
+    "summary": "Supervisors will meet at 6 p.m. to consider renovating and expanding the township's administration, police and public works facilities, backed by $1.15 million in state grants. Designs are being drawn for both a full and a reduced-scope version.",
+    "date": "2026-10-28",
+    "loc": "111 Valley Park Road, Schuylkill Township",
+    "link": "https://www.mychesco.com/a/news/government/schuylkill-township-sets-meeting-on-municipal-complex-expansion/",
+    "img": ""
+  },
+  {
+    "title": "Owen J. Roberts board fills vacant seat with Danielle Ryan",
+    "category": "News",
+    "summary": "The school board unanimously appointed the North Coventry attorney, chosen from 10 applicants, to serve through December 2027 in place of a member who resigned in September.",
+    "date": "2026-10-28",
+    "loc": "Owen J. Roberts School District",
+    "link": "https://www.dailylocal.com/2026/10/28/ojr-school-board-appoints-ryan-to-fill-vacant-seat/",
+    "img": ""
+  },
+  {
     "title": "Colonial Theatre sets its holiday season of concerts, comedy and classic films",
     "category": "News",
     "summary": "The Bridge Street theater's November-December slate includes Broadway at the Colonial on Nov. 21, Ana Gasteyer's holiday show Dec. 3, the locally cast Phoenixville Christmas Spectacular Dec. 5-6 and comic Joe DeRosa Dec. 19. Screenings run from Elf over Thanksgiving weekend through Die Hard on Dec. 23.",
@@ -36,15 +72,6 @@
     "img": ""
   },
   {
-    "title": "Ten Owen J. Roberts seniors named National Merit Commended Scholars",
-    "category": "News",
-    "summary": "OJR High School says 10 members of its senior class earned Commended Scholar status in the 2027 National Merit Scholarship Program, placing them in the top 5% of the roughly 1.2 million juniors who took last fall's PSAT.",
-    "date": "2026-10-23",
-    "loc": "Owen J. Roberts High School, Pottstown",
-    "link": "https://www.mychesco.com/a/education/school-districts/owen-j-roberts/owen-j-roberts-high-school-honors-10-national-merit-scholars/",
-    "img": ""
-  },
-  {
     "title": "Flashlight cemetery tour returns to Washington Memorial Chapel Oct. 30",
     "category": "News",
     "summary": "Washington Memorial Heritage and the King of Prussia Historical Society run their annual Grave Tales at Valley Forge on Friday, Oct. 30, with docent-led walks starting at 5 p.m. The stops include a Flight 93 passenger, a Titanic survivor and Alex Scott of lemonade-stand fame, with cider and cookies afterward.",
@@ -60,33 +87,6 @@
     "date": "2026-10-23",
     "loc": "799 Valley Forge Rd., Schuylkill Township",
     "link": "https://vista.today/2026/10/new-route-23-wawa-phoenixville/",
-    "img": ""
-  },
-  {
-    "title": "Phoenixville Fire Department to hire five full-time firefighters with FEMA grant",
-    "category": "News",
-    "summary": "The borough says its $974,561 federal SAFER award, matched with borough money, will pay for five new full-time firefighters. Phoenixville was one of only six Pennsylvania departments to win a SAFER grant this cycle.",
-    "date": "2026-10-21",
-    "loc": "Phoenixville Fire Department, Phoenixville",
-    "link": "https://www.pottsmerc.com/2026/10/21/phoenixville-fire-department-awarded-nearly-1-million-fema-grant/",
-    "img": ""
-  },
-  {
-    "title": "Baithak Indian Cuisine opens in Spring City",
-    "category": "Now Open",
-    "summary": "A new Indian restaurant, Baithak, has opened on the riverfront at 10 Riverside Dr., according to the Inquirer's Chester County roundup.",
-    "date": "2026-10-21",
-    "loc": "10 Riverside Dr., Spring City",
-    "link": "https://www.inquirer.com/news/pennsylvania/measles-chester-county-schools-salt-performing-arts-20261021.html",
-    "img": ""
-  },
-  {
-    "title": "45-townhouse plan for Mont Clare heads to Upper Providence planners Nov. 4",
-    "category": "Development",
-    "summary": "HT 140 Whitaker LLC's preliminary plan for 45 townhouses at 140 Whitaker Ave., filed in April, is on the township planning commission's Nov. 4 agenda after appearing before the supervisors on Oct. 19. No decision has been recorded yet.",
-    "date": "2026-10-17",
-    "loc": "140 Whitaker Ave., Mont Clare",
-    "link": "https://www.thelandnotice.com/sample/montgomery/",
     "img": ""
   }
 ]
