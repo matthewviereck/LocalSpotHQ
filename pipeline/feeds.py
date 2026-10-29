@@ -64,7 +64,7 @@ def _case_note(cases_file, base_url):
     if not case:
         return ''
     return (f'<p>&#128270; <a href="{base_url}/weekend-case/">The weekend case: '
-            f'{html.escape(case["title"])}</a>. A small mystery set around town, about ten minutes.</p>\n')
+            f'{html.escape(case["title"])}</a>. {html.escape(case["teaser"])} About ten minutes.</p>\n')
 
 
 def generate_this_weekend_page(events_file, output_dir, area_config, cases_file=None):

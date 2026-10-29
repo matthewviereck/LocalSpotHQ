@@ -190,6 +190,22 @@ class Pages(unittest.TestCase):
         self.assertIsNone(cases.live_case(os.path.join(self.tmp, 'nope.json')))
         self.assertEqual(cases.generate_case_pages(os.path.join(self.tmp, 'nope.json'), self.tmp, AREA), [])
 
+    def test_weekend_page_note_carries_the_live_case(self):
+        from unittest import mock
+        from pipeline import feeds
+
+        class Nov(date):
+            @classmethod
+            def today(cls):
+                return date(2026, 11, 6)
+
+        with mock.patch.object(cases, 'date', Nov):
+            note = feeds._case_note(self.data, 'https://example.com/testville')
+        self.assertIn('href="https://example.com/testville/weekend-case/"', note)
+        self.assertIn('First &lt;case&gt;', note)
+        self.assertIn('Teaser one.', note)                     # the post task drafts its line from this
+        self.assertEqual(feeds._case_note(os.path.join(self.tmp, 'nope.json'), 'x'), '')
+
     def test_sitemap_lists_the_index_only_once_a_case_is_live(self):
         event_pages.generate_area_sitemap(self.tmp, AREA, [], case_slugs=[])
         self.assertNotIn('weekend-case', self.read('sitemap.xml'))
