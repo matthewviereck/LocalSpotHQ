@@ -27,6 +27,7 @@ from pipeline.event_pages import generate_event_pages, generate_area_sitemap
 from pipeline.slugs import REGISTRY_FILE, SlugRegistry, assign_slugs, emit_retired
 from pipeline.guides import generate_guide_pages
 from pipeline.plans import generate_plan_pages
+from pipeline.cases import generate_case_pages
 from pipeline.community import emit_community
 
 
@@ -170,7 +171,8 @@ def run_area(area_id):
         area_config=config,
         news_file=os.path.join(data_dir, 'news.json'),
         guides_file=os.path.join(data_dir, 'guides.json'),
-        town_file=os.path.join(data_dir, 'town.json')
+        town_file=os.path.join(data_dir, 'town.json'),
+        cases_file=os.path.join(data_dir, 'cases.json')
     )
 
     # Step 6: Post-process (remove landing page, add autoload)
@@ -184,7 +186,8 @@ def run_area(area_id):
 
     # Step 7: SEO/subscription artifacts
     print(f"\n--- Step 7: This Weekend page + ICS feed ---")
-    generate_this_weekend_page(formatted_output, output_dir, config)
+    generate_this_weekend_page(formatted_output, output_dir, config,
+                               cases_file=os.path.join(data_dir, 'cases.json'))
     generate_ics(formatted_output, output_dir, config)
 
     # Step 8: PWA assets (manifest, service worker, icons)
@@ -196,7 +199,8 @@ def run_area(area_id):
     event_slugs = generate_event_pages(formatted_output, output_dir, config)
     guide_slugs = generate_guide_pages(os.path.join(data_dir, 'guides.json'), output_dir, config)
     plan_slugs = generate_plan_pages(os.path.join(data_dir, static['plans']), output_dir, config)
-    generate_area_sitemap(output_dir, config, event_slugs, guide_slugs, plan_slugs)
+    case_slugs = generate_case_pages(os.path.join(data_dir, 'cases.json'), output_dir, config)
+    generate_area_sitemap(output_dir, config, event_slugs, guide_slugs, plan_slugs, case_slugs)
 
     # Step 9a: Every slug that was ever published but isn't in this build
     # gets a 301, a stub or a 410 (output/<area>/.htaccess + stub pages).

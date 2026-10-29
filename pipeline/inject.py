@@ -35,6 +35,14 @@ def _build_area_links(area_config):
     return '\n            '.join(links)
 
 
+def _build_case_link(cases_file):
+    """Footer link to the weekend case, only while one is live."""
+    from pipeline.cases import live_case
+    if not live_case(cases_file):
+        return ''
+    return '<a href="weekend-case/">The weekend case</a>'
+
+
 def _build_guides_link(guides):
     """Footer entry point for guides — they were only reachable via Discover."""
     if not guides:
@@ -132,7 +140,7 @@ def _build_structured_data(area_config, events):
 
 def inject_all_data(events_file, dining_file, outings_file, plans_file,
                     template_file, output_file, area_config=None, news_file=None,
-                    guides_file=None, town_file=None):
+                    guides_file=None, town_file=None, cases_file=None):
     """
     Inject events, dining, outings, curated plans, and area news into the
     HTML template. Optionally substitutes area placeholders from area_config.
@@ -184,6 +192,7 @@ def inject_all_data(events_file, dining_file, outings_file, plans_file,
             '{{STRUCTURED_DATA}}': structured_data,
             '{{AREA_LINKS}}': _build_area_links(area_config),
             '{{GUIDES_LINK}}': _build_guides_link(guides),
+            '{{CASE_LINK}}': _build_case_link(cases_file),
         }
         for placeholder, value in replacements.items():
             if placeholder in html:

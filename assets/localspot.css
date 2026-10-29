@@ -23,6 +23,7 @@
   --surface-sunk: #dfe9f7;
   --chrome:       #ffffff;   /* top bar + tab bar stay pure white */
   --ink:          #0f1a2b;
+  --ink-strong:   #000000;   /* hover on ink-filled buttons */
   --ink-soft:     #44546b;
   --ink-faint:    #75839a;
   --rule:         #d7e3f2;
@@ -60,6 +61,7 @@
     --surface-sunk: #1f2b3d;
     --chrome:       #111a28;
     --ink:          #e8edf4;
+    --ink-strong:   #ffffff;
     --ink-soft:     #a6b4c8;
     --ink-faint:    #78869a;
     --rule:         #2a3648;
@@ -82,6 +84,7 @@
   --surface-sunk: #1f2b3d;
   --chrome:     #111a28;
   --ink:      #e8edf4;
+  --ink-strong: #ffffff;
   --ink-soft:   #a6b4c8;
   --ink-faint:  #78869a;
   --rule:     #2a3648;
@@ -295,7 +298,7 @@ h3 { font-size: 17px; letter-spacing: -.01em; }
   border-color: var(--ink);
   color: var(--paper);
 }
-.btn-primary:hover { background: #000; }
+.btn-primary:hover { background: var(--ink-strong); }
 .btn-now {
   background: var(--now);
   border-color: var(--now);

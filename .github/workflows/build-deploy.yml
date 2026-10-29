@@ -52,7 +52,7 @@ jobs:
       - name: Test URL-stability rules
         # pipeline/slugs.py decides which event URLs live, redirect or die;
         # a regression there 404s ranked pages, so it gates the build.
-        run: python -m unittest tests.test_slugs tests.test_dedupe tests.test_event_pages tests.test_date_ranges tests.test_verify_discovered tests.test_plan_pages
+        run: python -m unittest tests.test_slugs tests.test_dedupe tests.test_event_pages tests.test_date_ranges tests.test_verify_discovered tests.test_plan_pages tests.test_case_pages
 
       - name: Build Phoenixville
         run: python pipeline/run.py --area phoenixville
@@ -88,7 +88,8 @@ jobs:
           # Every generated page must carry the GA tag, or analytics goes blind
           # on exactly the pages organic search lands on.
           for p in output/phoenixville/this-weekend/index.html \
-                   output/phoenixville/guides/index.html; do
+                   output/phoenixville/guides/index.html \
+                   output/phoenixville/weekend-case/index.html; do
             grep -q 'G-FXMDYPK8KZ' "$p" || { echo "GA tag missing from $p"; exit 1; }
           done
           # Refuse to ship a gutted build (e.g. every scraper failed and the
