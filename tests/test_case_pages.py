@@ -75,7 +75,8 @@ class TheData(unittest.TestCase):
     def test_reader_text_house_rules(self):
         for c in self.cases:
             text = _reader_text(c)
-            self.assertIsNone(re.search(r'[–—]| - ', text), f"case {c['number']} has a dash")
+            # no dash of any kind, compound hyphens included
+            self.assertIsNone(re.search(r'[-–—]', text), f"case {c['number']} has a dash")
             self.assertNotIn('viereck', text.lower())
             self.assertNotIn('daily dunnit', text.lower())
 
@@ -160,6 +161,15 @@ class Pages(unittest.TestCase):
         self.assertIn('case_solve', page)
         self.assertIn('index, follow', page)
         self.assertIn('og:image" content="https://example.com/og.png"', page)
+
+    def test_grid_controls_from_the_playtest(self):
+        cases.generate_case_pages(self.data, self.tmp, AREA, today=date(2026, 11, 5))
+        page = self.read('weekend-case', 'index.html')
+        self.assertIn('id="clear"', page)                     # one way back from a tangled grid
+        self.assertIn('tabindex="0"', page)                   # cells reachable by keyboard
+        self.assertIn('e.key !== "Enter" && e.key !== " "', page)
+        self.assertIn('st.wrong >= 2 && !st.done', page)      # give up survives a reload
+        self.assertIn('wireGiveUp(); run(); }', page)         # the clock starts on load
 
     def test_the_answer_is_not_in_plain_text(self):
         cases.generate_case_pages(self.data, self.tmp, AREA, today=date(2026, 11, 5))

@@ -153,6 +153,8 @@ table.grid td.name{text-align:left;font-weight:700;padding-left:8px;font-size:14
 table.grid td.cell{height:40px;font-size:19px;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent}
 table.grid td.cell.no{color:var(--ink-faint)}
 table.grid td.cell.yes{color:var(--good);background:var(--good-wash);font-weight:700}
+table.grid td.cell:focus-visible{outline:2px solid var(--now);outline-offset:-2px}
+.gridfoot{margin:6px 0 0;text-align:right}
 ol.clues{padding-left:24px;margin:0;font-size:16px;line-height:1.5}
 ol.clues li{margin:0 0 10px;cursor:pointer}
 ol.clues li.done{color:var(--ink-faint);text-decoration:line-through}
@@ -252,24 +254,34 @@ function track(name, extra){
 }
 
 var st = load(KEY) || {marks:{}, struck:[], wrong:0, guesses:"", done:null, started:false, secs:0};
+st.auto = st.auto || {};   // cell -> the ✓ that crossed it out for you
 var cat = C.categories[0].id, t0 = null, timerId = null;
+var grid = document.getElementById("grid");
 
 var howto = document.getElementById("howto");
 if (!load("wc:howto")) howto.hidden = false;
 document.getElementById("howto-ok").onclick = function(){ howto.hidden = true; save("wc:howto", 1); };
 document.getElementById("howto-open").onclick = function(){ howto.hidden = false; howto.scrollIntoView({behavior:"smooth"}); };
 
+// The clock runs from load while the page is in view, so someone who works it
+// out on paper and only names a suspect still gets a real time. case_start
+// waits for a first tap, so it counts people who played, not page views.
 function secs(){ return st.secs + (t0 ? Math.floor((Date.now() - t0) / 1000) : 0); }
 function clock(s){ return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); }
 function tick(){ document.getElementById("timer").textContent = clock(secs()); }
-function start(){
-  if (st.done || t0) return;
+function run(){
+  if (st.done || t0 || document.hidden) return;
   t0 = Date.now();
   timerId = setInterval(tick, 500);
+}
+function pause(){ if (t0){ st.secs = secs(); t0 = null; clearInterval(timerId); save(KEY, st); } tick(); }
+function engage(){
+  run();
   if (!st.started){ st.started = true; save(KEY, st); track("case_start", {}); }
 }
-function stop(){ if (t0){ st.secs = secs(); t0 = null; clearInterval(timerId); } tick(); }
-window.addEventListener("pagehide", function(){ if (t0){ st.secs = secs(); t0 = Date.now(); save(KEY, st); } });
+document.addEventListener("visibilitychange", function(){ if (document.hidden) pause(); else run(); });
+window.addEventListener("pagehide", pause);
+window.addEventListener("pageshow", run);
 
 var tabs = document.getElementById("tabs");
 C.categories.forEach(function(c){
@@ -289,32 +301,60 @@ function render(){
     h += '<tr><td class="name">' + esc(s.name) + "</td>" + c.values.map(function(v, i){
       var k = cat + "|" + s.id + "|" + i, m = st.marks[k] || "";
       var label = s.name + ", " + c.values[i] + ": " + (m === "yes" ? "yes" : m === "no" ? "no" : "blank");
-      return '<td class="cell ' + m + '" data-k="' + k + '" role="button" aria-label="' + label + '">' + (m === "yes" ? "&#10003;" : m === "no" ? "&#10007;" : "") + "</td>";
+      return '<td class="cell ' + m + '" data-k="' + k + '" role="button" tabindex="0" aria-label="' + label + '">' + (m === "yes" ? "&#10003;" : m === "no" ? "&#10007;" : "") + "</td>";
     }).join("") + "</tr>";
   });
-  document.getElementById("grid").innerHTML = h;
+  grid.innerHTML = h;
 }
 
-// Tap cycles blank, no, yes. A yes crosses out the rest of its row and column.
-document.getElementById("grid").addEventListener("click", function(e){
-  var td = e.target.closest("td.cell"); if (!td) return;
-  start();
-  var k = td.dataset.k, m = st.marks[k] || "";
+// Tap cycles blank, no, yes. A yes crosses out the blanks left in its row and
+// column; clearing that yes takes those crosses back off. A cross you tap
+// yourself is yours from then on.
+function fill(kk, from){ if (kk !== from && !st.marks[kk]){ st.marks[kk] = "no"; st.auto[kk] = from; } }
+function unfill(from){
+  for (var kk in st.auto) if (st.auto[kk] === from){ if (st.marks[kk] === "no") delete st.marks[kk]; delete st.auto[kk]; }
+}
+function tap(k){
+  engage();
+  var m = st.marks[k] || "";
   var next = m === "" ? "no" : m === "no" ? "yes" : "";
+  delete st.auto[k];
+  if (m === "yes") unfill(k);
   if (next) st.marks[k] = next; else delete st.marks[k];
   if (next === "yes"){
     var p = k.split("|"), c = C.categories.filter(function(x){ return x.id === p[0]; })[0];
-    C.suspects.forEach(function(s){ var kk = p[0] + "|" + s.id + "|" + p[2]; if (s.id !== p[1] && !st.marks[kk]) st.marks[kk] = "no"; });
-    c.values.forEach(function(v, i){ var kk = p[0] + "|" + p[1] + "|" + i; if (String(i) !== p[2] && !st.marks[kk]) st.marks[kk] = "no"; });
+    C.suspects.forEach(function(s){ fill(p[0] + "|" + s.id + "|" + p[2], k); });
+    c.values.forEach(function(v, i){ fill(p[0] + "|" + p[1] + "|" + i, k); });
   }
   save(KEY, st); render();
+}
+grid.addEventListener("click", function(e){ var td = e.target.closest("td.cell"); if (td) tap(td.dataset.k); });
+grid.addEventListener("keydown", function(e){
+  var td = e.target.closest("td.cell");
+  if (!td || (e.key !== "Enter" && e.key !== " ")) return;
+  e.preventDefault();
+  var k = td.dataset.k;
+  tap(k);
+  grid.querySelector('td[data-k="' + k + '"]').focus();
 });
+
+// Two taps to wipe every tab, so a stray tap never costs anyone their notes.
+var clearBtn = document.getElementById("clear"), clearTimer = null;
+clearBtn.onclick = function(){
+  if (!clearTimer){
+    clearBtn.textContent = "Tap again to clear every mark";
+    clearTimer = setTimeout(function(){ clearTimer = null; clearBtn.textContent = "Clear grid"; }, 3000);
+    return;
+  }
+  clearTimeout(clearTimer); clearTimer = null; clearBtn.textContent = "Clear grid";
+  st.marks = {}; st.auto = {}; save(KEY, st); render();
+};
 
 var clues = document.querySelectorAll("#clues li");
 [].forEach.call(clues, function(li, i){
   if (st.struck.indexOf(i) >= 0) li.classList.add("done");
   li.onclick = function(){
-    start();
+    engage();
     li.classList.toggle("done");
     st.struck = [].map.call(clues, function(x, j){ return x.classList.contains("done") ? j : -1; }).filter(function(j){ return j >= 0; });
     save(KEY, st);
@@ -345,13 +385,24 @@ function showAnswer(a, solved){
   };
 }
 
+// After two wrong names the answer is on offer, and stays on offer after a reload.
+function giveUp(){ return st.wrong >= 2 && !st.done ? '<p><button type="button" class="linkish" id="giveup">Show me the answer</button></p>' : ""; }
+function wireGiveUp(){
+  var g = document.getElementById("giveup");
+  if (g) g.onclick = function(){
+    pause(); st.done = {solved: false, secs: secs()}; save(KEY, st);
+    track("case_reveal", {wrong: st.wrong});
+    showAnswer(answer(), false);
+  };
+}
+
 var sel = document.getElementById("who");
 document.getElementById("accuse").onclick = function(){
   if (!sel.value || st.done) return;
-  start();
+  engage();
   var a = answer(), r = document.getElementById("result");
   if (sel.value === a.culprit){
-    stop();
+    pause();
     st.guesses += "🟩";
     st.done = {solved: true, secs: secs()};
     save(KEY, st);
@@ -360,19 +411,14 @@ document.getElementById("accuse").onclick = function(){
   } else {
     st.wrong++; st.guesses += "🟥"; save(KEY, st);
     var name = sel.options[sel.selectedIndex].text;
-    r.innerHTML = "<p>Not " + esc(name) + ". " + esc(name) + " can account for the morning, and is a little hurt you asked. Back to the grid.</p>" +
-      (st.wrong >= 2 ? '<p><button type="button" class="linkish" id="giveup">Show me the answer</button></p>' : "");
-    var g = document.getElementById("giveup");
-    if (g) g.onclick = function(){
-      stop(); st.done = {solved: false, secs: secs()}; save(KEY, st);
-      track("case_reveal", {wrong: st.wrong});
-      showAnswer(answer(), false);
-    };
+    r.innerHTML = "<p>Not " + esc(name) + ". " + esc(name) + " can account for the morning, and is a little hurt you asked. Back to the grid.</p>" + giveUp();
+    wireGiveUp();
   }
 };
 
 render(); tick();
 if (st.done) showAnswer(answer(), st.done.solved);
+else { document.getElementById("result").innerHTML = giveUp(); wireGiveUp(); run(); }
 })();
 </script>"""
 
@@ -412,7 +458,7 @@ def _case_body(case, area_config, others, live):
 <div class="card card-pad howto" id="howto" hidden>
 <p class="eyebrow">How to play</p>
 <ul>
-<li>{n} people were out. Each was at a different place, at a different hour, carrying a different thing. Nobody shares.</li>
+<li>{n} suspects were out. Each was at a different place, at a different hour, carrying a different thing. Nobody shares.</li>
 <li>Read what the neighbors say. Every statement is true, and together they are enough. No guessing needed.</li>
 <li>Use the grid for notes: tap a square once for &#10007;, twice for &#10003;, a third time to clear. The tabs switch between {dims}.</li>
 <li>Tap a statement to cross it off once you have used it.</li>
@@ -430,6 +476,7 @@ def _case_body(case, area_config, others, live):
 <div class="tabs" id="tabs" role="tablist"></div>
 <p class="meta" id="grid-q"></p>
 <div class="gridwrap"><table class="grid" id="grid"></table></div>
+<p class="gridfoot"><button type="button" class="linkish" id="clear">Clear grid</button></p>
 <noscript><p class="meta">The notes grid needs JavaScript. The statements below are all you need.</p></noscript>
 
 <h2>What the neighbors say</h2>

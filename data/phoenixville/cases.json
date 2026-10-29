@@ -9,7 +9,7 @@
       "Dolores has had a scarecrow on her porch since the first of October. Flannel shirt, straw hat, a face she painted herself and will not let anyone call creepy.",
       "This morning the porch was empty.",
       "The scarecrow turned up a little later on the Gay Street bridge, propped against the railing and facing the river, like it had paid for the view. Nothing was damaged. The hat was on straight. Somebody had even tucked the flannel in.",
-      "Dolores is not upset, exactly. She would just like to know. Frank, next door, says he heard nothing, which Dolores says is what Frank always hears. Gus says Biscuit was home all night, which nobody asked.",
+      "Dolores is not upset, exactly. She would just like to know. Frank, next door, says he heard nothing, which Dolores says is what Frank always hears. Gus says Biscuit, his beagle, was home all night, which nobody asked.",
       "Five neighbors were out early, each at a different spot, at a different hour, carrying a different thing. One of them was at the Gay Street bridge."
     ],
     "question": "Who was at the Gay Street bridge?",
@@ -42,17 +42,17 @@
         "question": "Where was each of them?",
         "ordered": false,
         "values": [
-          "the French Creek trail",
+          "the French Creek Trail",
           "Reeves Park",
           "Lock 60",
-          "the trailhead",
+          "the Schuylkill River Trail",
           "the Gay Street bridge"
         ],
         "short": [
           "French Creek",
           "Reeves Park",
           "Lock 60",
-          "Trailhead",
+          "River Trail",
           "Gay St bridge"
         ]
       },
@@ -127,7 +127,7 @@
         }
       },
       {
-        "text": "Walt, tapping two lines with one finger: \"Whoever was out at seven had a thermos.\"",
+        "text": "Walt, tapping two lines in his notebook: \"Whoever was out at seven had a thermos.\"",
         "logic": {
           "type": "link",
           "c1": "time",
@@ -147,7 +147,7 @@
         }
       },
       {
-        "text": "Imani: \"Whoever was out at eleven had a tote bag. It's in the field notes.\"",
+        "text": "Imani: \"Whoever was out at eleven had a tote bag. It's in my field notes.\"",
         "logic": {
           "type": "link",
           "c1": "time",
@@ -177,13 +177,13 @@
         }
       },
       {
-        "text": "Frank: \"Ruthie was at the trailhead or at the French Creek trail. I'm not going to pretend I know which.\"",
+        "text": "Frank: \"Ruthie was at the Schuylkill River Trail or at the French Creek Trail. I'm not going to pretend I know which.\"",
         "logic": {
           "type": "either",
           "s": "ruthie",
           "c": "place",
-          "v1": "the trailhead",
-          "v2": "the French Creek trail"
+          "v1": "the Schuylkill River Trail",
+          "v2": "the French Creek Trail"
         }
       },
       {
@@ -197,11 +197,11 @@
         }
       },
       {
-        "text": "Walt lines up two entries: \"Whoever was at the trailhead had a thermos.\"",
+        "text": "Walt, checking his notebook: \"Whoever was at the Schuylkill River Trail had a thermos.\"",
         "logic": {
           "type": "link",
           "c1": "place",
-          "v1": "the trailhead",
+          "v1": "the Schuylkill River Trail",
           "c2": "item",
           "v2": "a thermos"
         }
@@ -210,10 +210,10 @@
     "solution": {
       "place": {
         "frank": "Reeves Park",
-        "ruthie": "the French Creek trail",
+        "ruthie": "the French Creek Trail",
         "walt": "the Gay Street bridge",
         "imani": "Lock 60",
-        "gus": "the trailhead"
+        "gus": "the Schuylkill River Trail"
       },
       "time": {
         "frank": "nine",
@@ -232,7 +232,7 @@
     },
     "culprit": "walt",
     "reveal": [
-      "Walt. He was on the Gay Street bridge at eight with a folding chair, and the chair was for the scarecrow. His reasoning: it had spent six weeks on a porch looking at a hedge, and it deserved to see the river once before the season ended.",
+      "Walt. He was on the Gay Street bridge at eight with a folding chair under one arm and the scarecrow under the other. He propped it against the railing, tucked in the flannel and sat with it a while. His reasoning: it had spent five weeks on a porch looking at a hedge, and it deserved to see the river once before the season ended.",
       "Dolores has decided this is sweet. Frank has decided it is theft. They are both still talking about it, which is the most they have agreed on since 1996."
     ],
     "source": "Daily Dunnit generator, setting phoenixville, seed phx-2026-11-05, difficulty 3, incident scarecrow"
@@ -245,10 +245,10 @@
     "teaser": "The morning's bird count vanished off a bench at Black Rock Sanctuary. Work out who was there.",
     "scene": [
       "Saturday is count day at Black Rock Sanctuary. A few birders walk the wetland paths at first light, write down every heron, duck and kingfisher, and leave the tally on a clipboard on a bench so the next shift can add to it.",
-      "This Saturday the next shift found the bench. No clipboard.",
+      "Last Saturday the next shift found the bench. No clipboard.",
       "Nobody thinks it was stolen, exactly. Nobody steals a bird count. But it is gone, and the birding club's president has already used the word \"unacceptable\" twice. Ruthie is offering a free coffee to anyone with information, which has produced a great deal of information.",
-      "Biscuit has been mentioned. Biscuit is always mentioned.",
-      "Five people were out early, each at a different spot, at a different hour, carrying a different thing. One of them was at Black Rock."
+      "Biscuit, Gus's beagle, has been mentioned. Biscuit is always mentioned.",
+      "Five regulars were out early, each at a different spot, at a different hour, carrying a different thing. One of them was at Black Rock."
     ],
     "question": "Who was at Black Rock Sanctuary?",
     "suspects": [
@@ -280,14 +280,14 @@
         "question": "Where was each of them?",
         "ordered": false,
         "values": [
-          "the trailhead",
+          "the Schuylkill River Trail",
           "the Gay Street bridge",
           "Lock 60",
           "Black Rock Sanctuary",
           "Reeves Park"
         ],
         "short": [
-          "Trailhead",
+          "River Trail",
           "Gay St bridge",
           "Lock 60",
           "Black Rock",
@@ -357,11 +357,11 @@
         }
       },
       {
-        "text": "Frank: \"Whoever was at the trailhead had a camera. You can look that up.\"",
+        "text": "Frank: \"Whoever was at the Schuylkill River Trail had a camera. You can look that up.\"",
         "logic": {
           "type": "link",
           "c1": "place",
-          "v1": "the trailhead",
+          "v1": "the Schuylkill River Trail",
           "c2": "item",
           "v2": "a camera"
         }
@@ -377,17 +377,17 @@
         }
       },
       {
-        "text": "Dolores: \"Ruthie was at Lock 60, or at the trailhead. I had my reading glasses on, not my walking ones.\"",
+        "text": "Dolores: \"Ruthie was at Lock 60, or at the Schuylkill River Trail. I had my reading glasses on, not my walking ones.\"",
         "logic": {
           "type": "either",
           "s": "ruthie",
           "c": "place",
           "v1": "Lock 60",
-          "v2": "the trailhead"
+          "v2": "the Schuylkill River Trail"
         }
       },
       {
-        "text": "Walt lines up two entries: \"Whoever was out at nine had a thermos.\"",
+        "text": "Walt, checking his notebook: \"Whoever was out at nine had a thermos.\"",
         "logic": {
           "type": "link",
           "c1": "time",
@@ -397,7 +397,7 @@
         }
       },
       {
-        "text": "Frank, grudgingly: \"Whoever was out at seven had a bike pump. Dolores and I agree on that, which makes twice now.\"",
+        "text": "Frank, grudgingly: \"Whoever was out at seven had a bike pump. Dolores and I agree on that, so mark the calendar.\"",
         "logic": {
           "type": "link",
           "c1": "time",
@@ -417,7 +417,7 @@
         }
       },
       {
-        "text": "Walt, tapping two lines with one finger: \"Whoever was at Reeves Park was out at seven.\"",
+        "text": "Walt, tapping two lines in his notebook: \"Whoever was at Reeves Park was out at seven.\"",
         "logic": {
           "type": "link",
           "c1": "place",
@@ -451,7 +451,7 @@
       "place": {
         "ruthie": "Lock 60",
         "walt": "the Gay Street bridge",
-        "biscuit": "the trailhead",
+        "biscuit": "the Schuylkill River Trail",
         "gus": "Reeves Park",
         "imani": "Black Rock Sanctuary"
       },
@@ -472,8 +472,8 @@
     },
     "culprit": "imani",
     "reveal": [
-      "Imani. She was at Black Rock at eight with a folding chair and a strong opinion. The clipboard said eleven great blue herons. Imani had counted four, so she took the sheet home to check it against her own notes before anyone could send it in. It was four. She would like that noted.",
-      "Biscuit, for the record, was at the trailhead at eleven with a camera, and nobody has explained that either."
+      "Imani. She was at Black Rock at eight with a folding chair and a strong opinion. The clipboard said eleven great blue herons. Imani had counted four, so she took the clipboard home to check it against her own notes before anyone could send it in. It was four. She would like that noted.",
+      "Biscuit, for the record, was on the Schuylkill River Trail at eleven with a camera, and nobody has explained that either."
     ],
     "source": "Daily Dunnit generator, setting phoenixville, seed phx-2026-11-12, difficulty 3, incident count-sheet"
   },
@@ -519,18 +519,18 @@
         "question": "Where was each of them?",
         "ordered": false,
         "values": [
-          "the French Creek trail",
+          "the French Creek Trail",
           "the Gay Street bridge",
           "Lock 60",
           "Reeves Park",
-          "the trailhead"
+          "the Schuylkill River Trail"
         ],
         "short": [
           "French Creek",
           "Gay St bridge",
           "Lock 60",
           "Reeves Park",
-          "Trailhead"
+          "River Trail"
         ]
       },
       {
@@ -615,7 +615,7 @@
         }
       },
       {
-        "text": "Walt, tapping two lines with one finger: \"Whoever was out at eleven had a camera.\"",
+        "text": "Walt, tapping two lines in his notebook: \"Whoever was out at eleven had a camera.\"",
         "logic": {
           "type": "link",
           "c1": "time",
@@ -625,7 +625,7 @@
         }
       },
       {
-        "text": "Ruthie: \"Gus was out at eleven, or at eight. Half the line said one, half said the other.\"",
+        "text": "Ruthie: \"Gus was out at eleven, or at eight. Half my coffee line said one, half said the other.\"",
         "logic": {
           "type": "either",
           "s": "gus",
@@ -635,17 +635,17 @@
         }
       },
       {
-        "text": "Gus, spinning a pedal: \"Whoever was at the trailhead had a camera.\"",
+        "text": "Gus, spinning a bike pedal: \"Whoever was at the Schuylkill River Trail had a camera.\"",
         "logic": {
           "type": "link",
           "c1": "place",
-          "v1": "the trailhead",
+          "v1": "the Schuylkill River Trail",
           "c2": "item",
           "v2": "a camera"
         }
       },
       {
-        "text": "Ruthie, wiping the counter: \"Frank had a tote bag or had a bike pump. Two stories going around, and one of them's right.\"",
+        "text": "Ruthie, wiping down the coffee cart: \"Frank had a tote bag or had a bike pump. Two stories going around, and one of them's right.\"",
         "logic": {
           "type": "either",
           "s": "frank",
@@ -655,7 +655,7 @@
         }
       },
       {
-        "text": "Frank, grudgingly: \"Whoever was out at nine had a bike pump. Dolores and I agree on that, which makes twice now.\"",
+        "text": "Frank, grudgingly: \"Whoever was out at nine had a bike pump. Dolores and I agree on that, so mark the calendar.\"",
         "logic": {
           "type": "link",
           "c1": "time",
@@ -665,7 +665,7 @@
         }
       },
       {
-        "text": "Walt lines up two entries: \"Whoever was out at seven had a tote bag.\"",
+        "text": "Walt, checking his notebook: \"Whoever was out at seven had a tote bag.\"",
         "logic": {
           "type": "link",
           "c1": "time",
@@ -685,12 +685,12 @@
         }
       },
       {
-        "text": "Gus, squinting: \"Imani was at the trailhead, or at the Gay Street bridge. I'd bet my good wrench on one of them.\"",
+        "text": "Gus, squinting: \"Imani was at the Schuylkill River Trail, or at the Gay Street bridge. I'd bet my good wrench on one of them.\"",
         "logic": {
           "type": "either",
           "s": "imani",
           "c": "place",
-          "v1": "the trailhead",
+          "v1": "the Schuylkill River Trail",
           "v2": "the Gay Street bridge"
         }
       }
@@ -700,8 +700,8 @@
         "ruthie": "Lock 60",
         "imani": "the Gay Street bridge",
         "gus": "Reeves Park",
-        "frank": "the French Creek trail",
-        "dolores": "the trailhead"
+        "frank": "the French Creek Trail",
+        "dolores": "the Schuylkill River Trail"
       },
       "time": {
         "ruthie": "ten",
@@ -732,10 +732,10 @@
     "title": "The potluck pie is gone",
     "teaser": "The potluck pie left Reeves Park before the potluck got there. Work out who was there.",
     "scene": [
-      "Every year on the Saturday after Thanksgiving, the block carries its leftovers to a picnic table in Reeves Park and calls it a potluck. Nobody organizes it. It just happens.",
-      "This year somebody brought the pie early. A whole pumpkin pie, from scratch, left on the table under a dish towel to hold the spot. When the rest of the block arrived with their turkey sandwiches and their cold stuffing, the towel was still there. The pie was not.",
-      "There are theories. Most of them involve Biscuit, who has a record. Gus says Biscuit was with him all morning, then says most of the morning, then stops talking.",
-      "Five neighbors were out that morning, each at a different spot, at a different hour, carrying a different thing. One of them was at Reeves Park."
+      "Every year on the Saturday before Thanksgiving, the block carries a dish each to a picnic table in Reeves Park and calls it a potluck. Nobody organizes it. It just happens.",
+      "This year somebody brought the pie early. A whole pumpkin pie, from scratch, left on the table under a dish towel to hold the spot. When the rest of the block arrived with their casseroles and their bags of rolls, the towel was still there. The pie was not.",
+      "There are theories. Most of them involve Biscuit, Gus's beagle, who has a record. Gus says Biscuit was with him all morning, then says most of the morning, then stops talking.",
+      "Five regulars were out that morning, each at a different spot, at a different hour, carrying a different thing. One of them was at Reeves Park."
     ],
     "question": "Who was at Reeves Park?",
     "suspects": [
@@ -768,16 +768,16 @@
         "ordered": false,
         "values": [
           "Reeves Park",
-          "the French Creek trail",
+          "the French Creek Trail",
           "Black Rock Sanctuary",
-          "the trailhead",
+          "the Schuylkill River Trail",
           "the Gay Street bridge"
         ],
         "short": [
           "Reeves Park",
           "French Creek",
           "Black Rock",
-          "Trailhead",
+          "River Trail",
           "Gay St bridge"
         ]
       },
@@ -843,7 +843,7 @@
         }
       },
       {
-        "text": "Frank, grudgingly: \"Whoever was out at nine had a pie dish. Dolores and I agree on that, which makes twice now.\"",
+        "text": "Frank, grudgingly: \"Whoever was out at nine had a pie dish. Dolores and I agree on that, so mark the calendar.\"",
         "logic": {
           "type": "link",
           "c1": "time",
@@ -853,11 +853,11 @@
         }
       },
       {
-        "text": "Walt's notebook, two lines apart: Whoever was at the French Creek trail had a leash.",
+        "text": "Walt's notebook, two lines apart: Whoever was at the French Creek Trail had a leash.",
         "logic": {
           "type": "link",
           "c1": "place",
-          "v1": "the French Creek trail",
+          "v1": "the French Creek Trail",
           "c2": "item",
           "v2": "a leash"
         }
@@ -873,7 +873,7 @@
         }
       },
       {
-        "text": "Imani: \"Whoever was at Black Rock Sanctuary had a bike pump. It's in the field notes.\"",
+        "text": "Imani: \"Whoever was at Black Rock Sanctuary had a bike pump. It's in my field notes.\"",
         "logic": {
           "type": "link",
           "c1": "place",
@@ -893,22 +893,22 @@
         }
       },
       {
-        "text": "Ruthie, wiping the counter: \"Gus was at the trailhead or at the Gay Street bridge. Two stories going around, and one of them's right.\"",
+        "text": "Ruthie, wiping down the coffee cart: \"Gus was at the Schuylkill River Trail or at the Gay Street bridge. Two stories going around, and one of them's right.\"",
         "logic": {
           "type": "either",
           "s": "gus",
           "c": "place",
-          "v1": "the trailhead",
+          "v1": "the Schuylkill River Trail",
           "v2": "the Gay Street bridge"
         }
       },
       {
-        "text": "Dolores: \"Biscuit was at the trailhead, or at the Gay Street bridge, hon. One or the other.\"",
+        "text": "Dolores: \"Biscuit was at the Schuylkill River Trail, or at the Gay Street bridge, hon. One or the other.\"",
         "logic": {
           "type": "either",
           "s": "biscuit",
           "c": "place",
-          "v1": "the trailhead",
+          "v1": "the Schuylkill River Trail",
           "v2": "the Gay Street bridge"
         }
       },
@@ -937,9 +937,9 @@
       "place": {
         "dolores": "Reeves Park",
         "frank": "Black Rock Sanctuary",
-        "walt": "the French Creek trail",
+        "walt": "the French Creek Trail",
         "biscuit": "the Gay Street bridge",
-        "gus": "the trailhead"
+        "gus": "the Schuylkill River Trail"
       },
       "time": {
         "dolores": "eleven",
@@ -959,7 +959,7 @@
     "culprit": "dolores",
     "reveal": [
       "Dolores. She was at Reeves Park at eleven with a tote bag, saw a squirrel taking a close interest in the pie, and took it home for safekeeping. She meant to bring it right back. Then she sat down.",
-      "The pie is fine and will be served Sunday. Biscuit, for once, is innocent, although he was seen on the Gay Street bridge at nine with a pie dish, and Gus would rather not say whose."
+      "The pie was fine, and the block ate it Sunday on Dolores's porch. Biscuit, for once, is innocent, although he was seen on the Gay Street bridge at nine with a pie dish, and Gus would rather not say whose."
     ],
     "source": "Daily Dunnit generator, setting phoenixville, seed phx-2026-11-26, difficulty 3, incident potluck-pie"
   }
