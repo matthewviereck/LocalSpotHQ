@@ -50,32 +50,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
   },
   {
-    "id": "discovered_flight_nights_fright_night_20261028",
-    "type": "event",
-    "title": "Flight Nights: Fright Night",
-    "venue_info": {
-      "name": "People's Light, Malvern",
-      "location": {
-        "lat": 40.0445,
-        "lng": -75.5432
-      }
-    },
-    "raw_date_string": "Oct 28, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Evening",
-        "Halloween"
-      ],
-      "price": "",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.peopleslight.org/whats-on/flight-nights/"
-  },
-  {
     "id": "discovered_wild_hymns_paper_graves_20261029",
     "type": "event",
     "title": "The Wild Hymns with Paper Graves",
@@ -2369,33 +2343,6 @@
     "action_link": "https://chescolibraries.org/?p=467400"
   },
   {
-    "id": "discovered_wc_halloween_parade_20261028",
-    "type": "event",
-    "title": "West Chester Halloween Parade",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Oct 28, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Free",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://west-chester.com/370/Events"
-  },
-  {
     "id": "discovered_santa_at_the_square_20261205",
     "type": "event",
     "title": "Santa at the Square",
@@ -4013,5 +3960,106 @@
       "image": ""
     },
     "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2247000"
+  },
+  {
+    "id": "discovered_polar_express_pajama_night_20261202",
+    "type": "event",
+    "title": "\"The Polar Express\" Read-Aloud Pajama Night",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8696,
+        "lng": -75.5928
+      }
+    },
+    "raw_date_string": "Dec 2, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family",
+        "Holiday"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/polar-express-read-aloud-pajama-night-5"
+  },
+  {
+    "id": "discovered_polar_express_pajama_night_20261211",
+    "type": "event",
+    "title": "\"The Polar Express\" Read-Aloud Pajama Night",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8696,
+        "lng": -75.5928
+      }
+    },
+    "raw_date_string": "Dec 11, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Family",
+        "Holiday"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/polar-express-read-aloud-pajama-night-4"
+  },
+  {
+    "id": "discovered_plantology_on_tap_christmas_20261119",
+    "type": "event",
+    "title": "Plantology on Tap: A Longwood Christmas",
+    "venue_info": {
+      "name": "The Creamery of Kennett Square, Kennett Square",
+      "location": {
+        "lat": 39.8475,
+        "lng": -75.7085
+      }
+    },
+    "raw_date_string": "Nov 19, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Lecture",
+        "21+"
+      ],
+      "price": "$29",
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/plantology-tap-longwood-christmas-0"
+  },
+  {
+    "id": "discovered_longwood_final_fountain_weekends_20261030",
+    "type": "event",
+    "title": "Final Fountain Weekends: Illuminated Fountain Performances",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8714,
+        "lng": -75.6744
+      }
+    },
+    "raw_date_string": "Oct 30 - Nov 1, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Evening"
+      ],
+      "price": ""
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/illuminated-fountain-performances"
   }
 ]
