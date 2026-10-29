@@ -188,7 +188,14 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   every case in the file to exactly one answer and gates the build.
 - **Setting rule:** real public places only (parks, trails, the Gay Street
   bridge, Lock 60), invented people, and no real business is ever the scene
-  of a theft or mix-up. No dashes, no LLC or personal name in reader text.
+  of a theft or mix-up. No dashes of any kind (compound hyphens included), no
+  LLC or personal name in reader text.
+- **Copy check before a case ships** (from the 10/29 blind playtest): each
+  case stands alone, so anything a clue leans on is named in that case
+  (Walt's notebook, Ruthie's coffee cart, Biscuit being Gus's beagle); dates
+  read right on the Thursday it goes up ("last Saturday", never an event
+  after the publish date); the reveal agrees with the scene; no two places
+  that sound like one spot.
 - **Counting solvers:** GA4 events `case_start`, `case_solve` (seconds,
   wrong) and `case_reveal`, all with `case_number`, sent only from the
   production hostname so local test plays never count. Signups from the case
