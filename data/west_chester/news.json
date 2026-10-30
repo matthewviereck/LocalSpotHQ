@@ -1,5 +1,23 @@
 [
   {
+    "title": "Firefighters free a 3-year-old from a septic pipe in West Goshen",
+    "category": "News",
+    "summary": "West Chester Fire Department and West Goshen police crews pulled a young boy out of a narrow septic access pipe on Snyder Avenue Tuesday evening after about 25 minutes. He was taken to a hospital and did not appear to be hurt.",
+    "date": "2026-10-30",
+    "loc": "Snyder Avenue, West Goshen",
+    "link": "https://vista.today/2026/10/west-goshen-boy-rescued-septic-pipe/",
+    "img": ""
+  },
+  {
+    "title": "Kennett schools roll out live bus tracking for families",
+    "category": "News",
+    "summary": "Kennett Consolidated School District launched the free Stopfinder app this week, letting parents see bus locations on a map and set arrival alerts for stops and schools. Registration invitations went out to families starting Oct. 26.",
+    "date": "2026-10-30",
+    "loc": "Kennett Consolidated School District, Kennett Square",
+    "link": "https://www.mychesco.com/a/education/school-districts/kennett-sd/kennett-schools-add-real-time-bus-tracking-for-families/",
+    "img": ""
+  },
+  {
     "title": "Evening Halloween Parade draws more than a thousand downtown",
     "category": "News",
     "summary": "Wednesday's 7 p.m. parade, moved back from last year's afternoon slot, ran about 40 minutes behind the police color guard, with marching bands including WCU's Golden Rams playing \"Thriller\" and packed outdoor dining along the route.",
@@ -24,6 +42,15 @@
     "date": "2026-10-29",
     "loc": "150 E. Pennsylvania Ave., Downingtown",
     "link": "https://vista.today/2026/10/clemens-development-buys-mill-town-square/",
+    "img": ""
+  },
+  {
+    "title": "State EV grant funds on-street chargers in West Chester",
+    "category": "Development",
+    "summary": "PennDOT's new $37 million NEVI award round pays for 23 on-street Level 2 charging ports shared by West Chester, Phoenixville and Malvern. A separate $550,600 grant adds four DC fast chargers at the Let's Go Mart in West Chester.",
+    "date": "2026-10-28",
+    "loc": "Downtown West Chester",
+    "link": "https://pennwatch.org/penndot-to-spend-37-million-to-fund-more-than-500-ev-charging-ports-in-southeastern-pennsylvania",
     "img": ""
   },
   {
@@ -60,33 +87,6 @@
     "date": "2026-10-27",
     "loc": "Brandywine Museum of Art, Chadds Ford",
     "link": "https://vista.today/2026/10/brandywine-museum-floodproofing-project/",
-    "img": ""
-  },
-  {
-    "title": "Chester County History Center opens a Revolutionary War exhibition",
-    "category": "News",
-    "summary": "\"Whose Revolution? Choice and Consequence\" looks at how county residents who backed and resisted the Revolution lived through the war, drawing on 1770s artifacts and manuscripts from the center's collection. It runs through September 2027, ahead of the Battle of Brandywine's 250th anniversary.",
-    "date": "2026-10-27",
-    "loc": "Chester County History Center, West Chester",
-    "link": "https://www.dailylocal.com/2026/10/27/revolutionary-war-exhibition-debut-at-history-center/",
-    "img": ""
-  },
-  {
-    "title": "Malvern adopts its first full zoning rewrite since 2003",
-    "category": "Development",
-    "summary": "Borough Council approved the new zoning code and map on Oct. 20 over objections from residents and business owners, many of them worried about a new Green Redevelopment District that could allow buildings up to five stories along parts of the Pennsylvania Avenue corridor. The rewrite also permits accessory dwelling units and loosens use rules for downtown businesses.",
-    "date": "2026-10-25",
-    "loc": "Pennsylvania Ave. corridor, Malvern",
-    "link": "https://www.mychesco.com/a/news/government/malvern-adopts-zoning-overhaul-despite-redevelopment-opposition/",
-    "img": ""
-  },
-  {
-    "title": "WCU marks 100 years of jazz with a three-day celebration Nov. 6-8",
-    "category": "News",
-    "summary": "West Chester University is honoring its Criterions Jazz Ensemble, rooted in the 1920s, with a free welcome concert Friday, Nov. 6, a free masterclass with vibraphonist Stefon Harris, a $100 dance soiree Saturday and a ticketed anniversary concert Sunday featuring new works by Bob Mintzer and Orrin Evans. The university is also raising money for a permanent jazz endowment.",
-    "date": "2026-10-24",
-    "loc": "West Chester University, West Chester",
-    "link": "https://www.mychesco.com/a/education/colleges-universities/wcu/west-chester-university-celebrates-100-years-of-jazz/",
     "img": ""
   }
 ]
