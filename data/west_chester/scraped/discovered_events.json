@@ -50,32 +50,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
   },
   {
-    "id": "discovered_wild_hymns_paper_graves_20261029",
-    "type": "event",
-    "title": "The Wild Hymns with Paper Graves",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Oct 29, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$20-$23",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/the-wild-hymns-with-special-guests-paper-graves/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_one_alternative_fundraiser_for_if_20261104",
     "type": "event",
     "title": "One Alternative: Fundraiser for If Not For Music",
@@ -1897,32 +1871,6 @@
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-2"
   },
   {
-    "id": "discovered_bmoa_read_aloud_20261029",
-    "type": "event",
-    "title": "Children's Read-Aloud Program",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8696,
-        "lng": -75.59
-      }
-    },
-    "raw_date_string": "Oct 29, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Indoor",
-        "Family-Friendly"
-      ],
-      "price": "$6 (free for members)",
-      "time": "10:30 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/childrens-read-aloud-program-9"
-  },
-  {
     "id": "discovered_cccg_fall_craft_fair_20261031",
     "type": "event",
     "title": "Chester County Craft Guild Fall Fine Craft Fair",
@@ -2520,31 +2468,6 @@
       "image": ""
     },
     "action_link": "https://longwoodgardens.org/events-performances/events/chrysanthemum-festival"
-  },
-  {
-    "id": "discovered_cc_archives_behind_scenes_20261029",
-    "type": "event",
-    "title": "Behind-the-Scenes at the Chester County Archives",
-    "venue_info": {
-      "name": "Chester County Archives and Records Services, West Chester",
-      "location": {
-        "lat": 39.9425,
-        "lng": -75.58
-      }
-    },
-    "raw_date_string": "Oct 29, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "History",
-        "Indoor"
-      ],
-      "time": "12:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2381974"
   },
   {
     "id": "discovered_plagues_pestilence_tour_20261105",
@@ -4061,5 +3984,31 @@
       "image": ""
     },
     "action_link": "https://longwoodgardens.org/events-performances/events/illuminated-fountain-performances"
+  },
+  {
+    "id": "discovered_kid_charlemagne_steely_dan_20270123",
+    "type": "event",
+    "title": "Kid Charlemagne: Tribute to Steely Dan",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.847,
+        "lng": -75.713
+      }
+    },
+    "raw_date_string": "Jan 23, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Tribute",
+        "BYOB"
+      ],
+      "price": "$33-$38",
+      "time": "8:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettflash.org/event/kid-charlemagne-tribute-to-steely-dan/kennett-flash/kennett-square-pennsylvania/"
   }
 ]
