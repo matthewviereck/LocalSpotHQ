@@ -1220,32 +1220,6 @@
     "action_link": "https://wcrailroad.com/christmas-tree-train/"
   },
   {
-    "id": "discovered_kennett_flash_mallet_mob_20261030",
-    "type": "event",
-    "title": "Mallet Mob: Kennett Flash Fundraiser",
-    "venue_info": {
-      "name": "Anson B. Nixon Park, Kennett Square",
-      "location": {
-        "lat": 39.8537,
-        "lng": -75.7108
-      }
-    },
-    "raw_date_string": "Oct 30, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Live Music"
-      ],
-      "price": "$75",
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/2026-mallet-mob-meetup-individual-tickets-foursomes/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_garrett_boys_kennett_flash_20261110",
     "type": "event",
     "title": "Garrett Boys",
@@ -1608,32 +1582,6 @@
       "image": ""
     },
     "action_link": "https://www.malvern.org/Calendar.aspx?EID=576"
-  },
-  {
-    "id": "discovered_kf_ant_ang_halloween_20261030",
-    "type": "event",
-    "title": "The Ant and Ang Band: Halloween Bash",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8463,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Oct 30, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Halloween"
-      ],
-      "price": "$10-$13",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/the-ant-and-ang-band-halloween-bash/kennett-flash/kennett-square-pennsylvania/"
   },
   {
     "id": "discovered_kf_superunknown_20261121",
@@ -2417,32 +2365,6 @@
       "image": ""
     },
     "action_link": "https://www.helicoptermuseum.org/event-details/santafest-1"
-  },
-  {
-    "id": "discovered_cchc_wicked_walks_20261030",
-    "type": "event",
-    "title": "Wicked Walks and Crafty Talks: A Mischievous Night at the Museum",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.9612,
-        "lng": -75.6062
-      }
-    },
-    "raw_date_string": "Oct 30, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family Friendly",
-        "Halloween"
-      ],
-      "price": "$10 adults, $8 children",
-      "time": "4:30 PM - 6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2470730"
   },
   {
     "id": "discovered_longwood_chrysanthemum_festival_20261021",
