@@ -123,68 +123,6 @@
     "action_link": "https://www.phoenixville.org/Calendar.aspx?EID=3428"
   },
   {
-    "id": "discovered_perfect_strangers_watertower_20261030",
-    "type": "event",
-    "title": "Perfect Strangers \u2013 Live at Water Tower Live, Oaks",
-    "venue_info": {
-      "name": "The Water Tower Live at Arnold\u2019s Entertainment Center, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "October 30, 2026 8:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Party Band",
-        "Live Music",
-        "High Energy",
-        "Dancing",
-        "Halloween Weekend",
-        "Oaks",
-        "Friday Night"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://events.ticketleap.com/tickets/arnoldsatthefactory/the-water-tower-live-at-arnolds-entertainment-center-in-oaks-presents-perfect-strangers"
-  },
-  {
-    "id": "discovered_true_tattoo_expo_oaks_20261030",
-    "type": "event",
-    "title": "True Tattoo Expo 2026 \u2013 Halloween Weekend at Expo Center Oaks",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center, Hall D, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "Oct 30 \u2013 Nov 1, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Tattoo Art",
-        "80+ Artists",
-        "Live Competitions",
-        "Face Painting",
-        "Permanent Jewelry",
-        "Halloween Weekend",
-        "Indoor",
-        "Oaks",
-        "Vendors"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://truetattooexpo.com/"
-  },
-  {
     "id": "discovered_first_friday_november_20261106",
     "type": "event",
     "title": "Phoenixville First Friday \u2013 November",
@@ -998,70 +936,6 @@
     "action_link": "https://souljoels.com/upcoming-events/"
   },
   {
-    "id": "discovered_ursinus_wind_ensemble_halloween_20261030",
-    "type": "event",
-    "title": "Ursinus College Wind Ensemble: Halloween Spectacular",
-    "venue_info": {
-      "name": "Berman Museum of Art, Ursinus College, Collegeville",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "October 30, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Halloween",
-        "Classical Music",
-        "Night on Bald Mountain",
-        "Harry Potter",
-        "Nightmare Before Christmas",
-        "Costumes Welcome",
-        "Family Friendly",
-        "Collegeville",
-        "Indoor"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://ursinusgrizzly.com/?p=67019"
-  },
-  {
-    "id": "discovered_am_radio_tribute_souljoels_20261030",
-    "type": "event",
-    "title": "AM Radio \u2013 60s & 70s Tribute Band at SoulJoel's (Friday)",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook \u2013 SunnyBrook Ballroom, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "October 30, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "60s Music",
-        "70s Music",
-        "Tribute Band",
-        "The Turtles",
-        "Three Dog Night",
-        "Halloween Weekend",
-        "SunnyBrook Ballroom",
-        "Pottstown"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/upcoming-events/"
-  },
-  {
     "id": "discovered_bingo_unleashed_twelve78_20261101",
     "type": "event",
     "title": "Bingo Unleashed \u2013 Canine Rescue Fundraiser at Twelve78 Brewing",
@@ -1563,66 +1437,6 @@
       "image": ""
     },
     "action_link": "https://runsignup.com/Race/Info/PA/Phoenixville/BBPennsylvania"
-  },
-  {
-    "id": "discovered_kitty_rotten_halloween_watertower_20261030",
-    "type": "event",
-    "title": "Kitty Rotten All Halloween Eve Bash at Water Tower Live",
-    "venue_info": {
-      "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "October 30, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Halloween",
-        "Local Bands",
-        "Live Music",
-        "Bonsai Children",
-        "Super Sabbath",
-        "Oaks",
-        "Friday Night"
-      ],
-      "price": "$8 advance / $10 door"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.watertowerlive.com/"
-  },
-  {
-    "id": "discovered_kevin_hill_bowie_gem_20261030",
-    "type": "event",
-    "title": "Kevin Hill and Secret Sound \u2013 David Bowie Tribute at The Gem",
-    "venue_info": {
-      "name": "The Gem Music Hall, 66 N Main St, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "October 30, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "David Bowie",
-        "Tribute",
-        "Classic Rock",
-        "Halloween Weekend",
-        "Live Music",
-        "Spring City",
-        "Friday Night"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.thegemspringcity.com/"
   },
   {
     "id": "discovered_halloween_show_gem_20261031",
@@ -2454,5 +2268,71 @@
       "image": ""
     },
     "action_link": "https://www.cirquemusica.com/"
+  },
+  {
+    "id": "discovered_exhumed_films_terror_telethon_colonial_20261122",
+    "type": "event",
+    "title": "Exhumed Films Presents Terror Tele-Thon on 16mm – Colonial Theatre",
+    "venue_info": {
+      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.132,
+        "lng": -75.513
+      }
+    },
+    "raw_date_string": "November 22, 2026",
+    "attributes": {
+      "category": "Festival",
+      "time": "2:00 PM",
+      "vibes": [
+        "Horror Films",
+        "16mm",
+        "Exhumed Films",
+        "Mystery Lineup",
+        "Film Marathon",
+        "Cult Classic",
+        "Indoor",
+        "Afternoon"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thecolonialtheatre.com/films/exhumed-films/exhumed-films-presents-terror-tele-thon-on-16mm/"
+  },
+  {
+    "id": "discovered_rugged_indy_trail_festival_20261115",
+    "type": "event",
+    "title": "The Rugged Indy 2026 – Trail Race Festival at Independence Park",
+    "venue_info": {
+      "name": "Independence Park, East Vincent Township, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "November 15, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Trail Run",
+        "4-Mile",
+        "8-Mile",
+        "3-Hour Race",
+        "6-Hour Race",
+        "2-Mile Walk",
+        "Live Music",
+        "Food Trucks",
+        "Outdoor",
+        "Spring City",
+        "East Vincent Parks"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.letsdothis.com/us/e/the-rugged-indy-2026-231218"
   }
 ]
