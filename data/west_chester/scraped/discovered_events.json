@@ -1455,32 +1455,6 @@
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-1"
   },
   {
-    "id": "discovered_plein_air_wyeth_20261031",
-    "type": "event",
-    "title": "Plein Air Painting Workshop at Andrew Wyeth Studio",
-    "venue_info": {
-      "name": "Andrew Wyeth Studio, Chadds Ford",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.5906
-      }
-    },
-    "raw_date_string": "Oct 31, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Workshop"
-      ],
-      "price": "$75 ($60 members)",
-      "time": "9:30 AM - 4:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/plein-air-painting-workshop-randall-graham-andrew-wyeth-studio-2"
-  },
-  {
     "id": "discovered_ksq_holiday_village_market_20261205",
     "type": "event",
     "title": "Kennett Square Holiday Village Market",
@@ -3932,5 +3906,30 @@
       "image": ""
     },
     "action_link": "https://kennettflash.org/event/kid-charlemagne-tribute-to-steely-dan/kennett-flash/kennett-square-pennsylvania/"
+  },
+  {
+    "id": "discovered_chilling_west_chester_tour_20261104",
+    "type": "event",
+    "title": "Chilling West Chester Walking Tour",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9614,
+        "lng": -75.6063
+      }
+    },
+    "raw_date_string": "Nov 4, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "Spooky"
+      ],
+      "price": "$20"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2332458"
   }
 ]
