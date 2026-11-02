@@ -1,36 +1,5 @@
 [
   {
-    "id": "discovered_good_food_fest_kimberton_20261101",
-    "type": "event",
-    "title": "Good Food Fest – Local Farms & Food Makers at Kimberton Fairgrounds",
-    "venue_info": {
-      "name": "Kimberton Fairgrounds, 762 Pike Springs Rd, Phoenixville",
-      "location": {
-        "lat": 40.1339,
-        "lng": -75.5703
-      }
-    },
-    "raw_date_string": "Nov 1, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "time": "11:00 AM",
-      "vibes": [
-        "Local Farms",
-        "Food Vendors",
-        "Rain or Shine",
-        "Family Friendly",
-        "Kimberton",
-        "Craft Beverages",
-        "Fall"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://events.ticketleap.com/events/goodfoodfest/event-tickets-good-food-fest-2026"
-  },
-  {
     "id": "discovered_firebird_festival_20261212",
     "type": "event",
     "title": "Phoenixville Firebird Festival 2026",
@@ -563,7 +532,7 @@
         "Wednesday Night",
         "Pottstown"
       ],
-      "price": "0 GA / 0 Preferred"
+      "price": "Free"
     },
     "media": {
       "image": ""
@@ -811,37 +780,6 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/live-music/rachael-vilray/"
-  },
-  {
-    "id": "discovered_bingo_unleashed_twelve78_20261101",
-    "type": "event",
-    "title": "Bingo Unleashed – Canine Rescue Fundraiser at Twelve78 Brewing",
-    "venue_info": {
-      "name": "Twelve78 Brewing Co., 35 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "November 1, 2026 3:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Bingo",
-        "Dog Rescue",
-        "Fundraiser",
-        "Costumes Encouraged",
-        "Craft Beer",
-        "Prizes",
-        "Sunday Afternoon",
-        "Downtown Phoenixville"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.twelve78brewing.com/event-calendar/"
   },
   {
     "id": "discovered_rael_genesis_colonial_20261106",
@@ -1196,35 +1134,6 @@
     "action_link": "https://sites.google.com/view/circlemirror/home"
   },
   {
-    "id": "discovered_richie_high_street_rockers_souljoels_20261101",
-    "type": "event",
-    "title": "Richie and The High Street Rockers – Live at SoulJoel's",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "November 1, 2026 3:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music",
-        "Rock",
-        "Party Band",
-        "Sunday Afternoon",
-        "SunnyBrook Ballroom",
-        "Pottstown"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/upcoming-events/"
-  },
-  {
     "id": "discovered_national_candy_day_bingo_souljoels_20261104",
     "type": "event",
     "title": "National Candy Day Bingo Night at SoulJoel's",
@@ -1256,9 +1165,9 @@
   {
     "id": "discovered_beer_bagel_run_10mi_20261107",
     "type": "event",
-    "title": "Beer & Bagel Run – 10-Mile Trail Run at Yeager’s Farm",
+    "title": "Beer & Bagel Run – 10-Mile Trail Run at Yeager's Farm",
     "venue_info": {
-      "name": "Yeager’s Farm & Market, 1015 Pike Springs Rd, Phoenixville",
+      "name": "Yeager's Farm & Market, 1015 Pike Springs Rd, Phoenixville",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -1287,9 +1196,9 @@
   {
     "id": "discovered_beer_bagel_run_4mi_20261108",
     "type": "event",
-    "title": "Beer & Bagel Run – 4-Mile Trail Run at Yeager’s Farm",
+    "title": "Beer & Bagel Run – 4-Mile Trail Run at Yeager's Farm",
     "venue_info": {
-      "name": "Yeager’s Farm & Market, 1015 Pike Springs Rd, Phoenixville",
+      "name": "Yeager's Farm & Market, 1015 Pike Springs Rd, Phoenixville",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -1314,36 +1223,6 @@
       "image": ""
     },
     "action_link": "https://runsignup.com/Race/Info/PA/Phoenixville/BBPennsylvania"
-  },
-  {
-    "id": "discovered_first_sundays_bluegrass_steel_city_20261101",
-    "type": "event",
-    "title": "First Sundays True Bluegrass Jam at Steel City Coffeehouse",
-    "venue_info": {
-      "name": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1305,
-        "lng": -75.5148
-      }
-    },
-    "raw_date_string": "November 1, 2026 1:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Bluegrass",
-        "Open Jam",
-        "Monthly Series",
-        "All Welcome",
-        "Sunday Afternoon",
-        "Downtown Phoenixville"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.steelcityphx.com/product/first-sundays-true-bluegrass-jam/144"
   },
   {
     "id": "discovered_poetry_night_steel_city_20261103",
@@ -1462,36 +1341,6 @@
       "image": ""
     },
     "action_link": "https://visitrivet.com/"
-  },
-  {
-    "id": "discovered_ymca_crafts_creations_20261101",
-    "type": "event",
-    "title": "Crafts & Creations Holiday Market at Phoenixville YMCA",
-    "venue_info": {
-      "name": "Phoenixville YMCA, 400 E Pothouse Rd, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "November 1, 2026 10:00 AM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Holiday Market",
-        "Local Vendors",
-        "Craft Show",
-        "Family Friendly",
-        "Phoenixville",
-        "Sunday"
-      ],
-      "price": "Free to attend"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.philaymca.org/events/local-crafts-creations-phoenixville-ymca"
   },
   {
     "id": "discovered_phoenixville_bed_races_20261107",
@@ -2209,5 +2058,38 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/comedy-at-the-colonial/joe-derosa-home-for-the-holidays-2-lost-in-phoenixville/"
+  },
+  {
+    "id": "discovered_philly_show_sports_cards_oaks_20261211",
+    "type": "event",
+    "title": "The Philly Show – Sports Card & Memorabilia Show",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Dec 11-13, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "time": "Fri 1–8 PM / Sat–Sun 9:30 AM",
+      "vibes": [
+        "Sports Cards",
+        "Memorabilia",
+        "Autographs",
+        "Mike Tyson",
+        "Steve Carlton",
+        "Collectors",
+        "Indoor",
+        "Oaks",
+        "Weekend"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://cantonfair.net/event/46177-the-philly-show-sports-card-memorabilia-show"
   }
 ]
