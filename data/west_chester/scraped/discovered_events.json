@@ -2262,32 +2262,6 @@
     "action_link": "https://www.mychesco.com/a/communities/kennett-square/clover-market-brings-nearly-100-vendors-to-kennett-square/"
   },
   {
-    "id": "discovered_women_edge_democracy_20261102",
-    "type": "event",
-    "title": "Women on the Edge of Democracy: Play Readings & Discussion",
-    "venue_info": {
-      "name": "People's Light, Malvern",
-      "location": {
-        "lat": 40.0397,
-        "lng": -75.5379
-      }
-    },
-    "raw_date_string": "Nov 2, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Free",
-        "Indoor"
-      ],
-      "price": "Free with RSVP",
-      "time": "5:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://peopleslight.org/whats-on/events/2026/women-on-the-edge-of-democracy/"
-  },
-  {
     "id": "discovered_wcu_jazz_welcome_concert_20261106",
     "type": "event",
     "title": "100 Years of Jazz: Criterions & Statesmen Welcome Concert",
