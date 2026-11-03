@@ -1,31 +1,5 @@
 [
   {
-    "id": "discovered_adult_trick_or_treat_at_20261002",
-    "type": "event",
-    "title": "Adult Trick or Treat at Chaddsford Winery",
-    "venue_info": {
-      "name": "Chaddsford Winery, Chadds Ford",
-      "location": {
-        "lat": 39.871,
-        "lng": -75.595
-      }
-    },
-    "raw_date_string": "Oct 2 - Nov 1, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "21+",
-        "Outdoor",
-        "Halloween"
-      ],
-      "price": "$45"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.chaddsford.com/pages/adult-trick-or-treat-2026"
-  },
-  {
     "id": "discovered_autumn_s_colors_at_longwood_20261002",
     "type": "event",
     "title": "Autumn's Colors at Longwood Gardens",
@@ -1245,58 +1219,6 @@
     "action_link": "https://kennettflash.org/event/garrett-boys/kennett-flash/kennett-square-pennsylvania/"
   },
   {
-    "id": "discovered_longwood_beer_garden_music_20261003",
-    "type": "event",
-    "title": "Live Music in the Beer Garden at Longwood Gardens",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8712,
-        "lng": -75.675
-      }
-    },
-    "raw_date_string": "Oct 3 - Nov 1, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Outdoor",
-        "Weekend"
-      ],
-      "price": "Free with Gardens admission",
-      "time": "5:00 PM - 7:45 PM (Fri-Sun)"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/live-music-beer-garden"
-  },
-  {
-    "id": "discovered_brandywine_first_sunday_families_20261101",
-    "type": "event",
-    "title": "First Sunday for Families",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8696,
-        "lng": -75.5916
-      }
-    },
-    "raw_date_string": "Nov 1, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Free",
-        "Family"
-      ],
-      "price": "Free",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/first-sunday-families-0"
-  },
-  {
     "id": "discovered_medical_mayhem_cchc_20261107",
     "type": "event",
     "title": "Medical Mayhem! A Family Program",
@@ -1714,32 +1636,6 @@
     "action_link": "https://historicsugartown.org/events/bookbinding-workshop-level-i/2027-01-23/"
   },
   {
-    "id": "discovered_pa_hunt_cup_20261101",
-    "type": "event",
-    "title": "91st Running of the Pennsylvania Hunt Cup",
-    "venue_info": {
-      "name": "Pennsylvania Hunt Cup Course, Unionville",
-      "location": {
-        "lat": 39.8817,
-        "lng": -75.7319
-      }
-    },
-    "raw_date_string": "Nov 1, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Outdoor",
-        "Tailgate",
-        "Horse Racing"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://pahuntcup.org/"
-  },
-  {
     "id": "discovered_stroud_birds_buffers_20261117",
     "type": "event",
     "title": "Singing From Tree Tubes: Birds, Buffers, and Habitats",
@@ -1791,59 +1687,6 @@
       "image": ""
     },
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-2"
-  },
-  {
-    "id": "discovered_cccg_fall_craft_fair_20261031",
-    "type": "event",
-    "title": "Chester County Craft Guild Fall Fine Craft Fair",
-    "venue_info": {
-      "name": "Chester County Art Association, West Chester",
-      "location": {
-        "lat": 39.9647,
-        "lng": -75.6145
-      }
-    },
-    "raw_date_string": "Oct 31 - Nov 1, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Free",
-        "Indoor",
-        "Shopping"
-      ],
-      "price": "Free",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://chestercountycraftguild.org/event/fall-fine-craft-fair/"
-  },
-  {
-    "id": "discovered_cccb_bach_to_the_future_20261101",
-    "type": "event",
-    "title": "Chester County Concert Band: Bach to the Future",
-    "venue_info": {
-      "name": "Fugett Middle School, West Chester",
-      "location": {
-        "lat": 39.9527,
-        "lng": -75.5668
-      }
-    },
-    "raw_date_string": "Nov 1, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Family-Friendly"
-      ],
-      "price": "Ticketed",
-      "time": "2:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://cccband.org/"
   },
   {
     "id": "discovered_bmoa_plein_air_kuerner_20261106",
@@ -2419,33 +2262,6 @@
     "action_link": "https://www.mychesco.com/a/communities/kennett-square/clover-market-brings-nearly-100-vendors-to-kennett-square/"
   },
   {
-    "id": "discovered_hys_fall_festival_20261101",
-    "type": "event",
-    "title": "Historic Yellow Springs Fall Festival",
-    "venue_info": {
-      "name": "Historic Yellow Springs, Chester Springs",
-      "location": {
-        "lat": 40.0938,
-        "lng": -75.6337
-      }
-    },
-    "raw_date_string": "Nov 1, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family"
-      ],
-      "price": "Free",
-      "time": "12:00 PM - 4:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://yellowsprings.org/events/historic-yellow-springs-fall-festival/"
-  },
-  {
     "id": "discovered_women_edge_democracy_20261102",
     "type": "event",
     "title": "Women on the Edge of Democracy: Play Readings & Discussion",
@@ -2916,32 +2732,6 @@
       "image": ""
     },
     "action_link": "https://www.westwhiteland.org/Calendar.aspx?EID=1846"
-  },
-  {
-    "id": "discovered_uwchlan_historical_open_house_20261101",
-    "type": "event",
-    "title": "Uwchlan Township Historical Commission Open House Tour",
-    "venue_info": {
-      "name": "Cadwalader House & Moore Schoolhouse, Exton",
-      "location": {
-        "lat": 40.05,
-        "lng": -75.6455
-      }
-    },
-    "raw_date_string": "Nov 1, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Free",
-        "History",
-        "Family Friendly"
-      ],
-      "time": "2:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.uwchlan.com/Calendar.aspx?EID=1741"
   },
   {
     "id": "discovered_brandywine_railroad_holidays_20261114",
@@ -3704,33 +3494,6 @@
     "action_link": "https://www.brandywinebattlefield.org/events/"
   },
   {
-    "id": "discovered_celebrating_life_with_art_20261101",
-    "type": "event",
-    "title": "Celebrating Life with Art",
-    "venue_info": {
-      "name": "Church of the Loving Shepherd, West Chester",
-      "location": {
-        "lat": 39.938,
-        "lng": -75.608
-      }
-    },
-    "raw_date_string": "Nov 1, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Fundraiser",
-        "All Ages",
-        "Auction"
-      ],
-      "price": "Free (donations)",
-      "time": "1:00 PM - 4:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eventbrite.com/e/celebrating-life-with-art-registration-1997337137144"
-  },
-  {
     "id": "discovered_from_seed_to_blossom_20270308",
     "type": "event",
     "title": "From Seed to Blossom: Supporting Queer and Trans Youth",
@@ -3857,31 +3620,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/plantology-tap-longwood-christmas-0"
   },
   {
-    "id": "discovered_longwood_final_fountain_weekends_20261030",
-    "type": "event",
-    "title": "Final Fountain Weekends: Illuminated Fountain Performances",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8714,
-        "lng": -75.6744
-      }
-    },
-    "raw_date_string": "Oct 30 - Nov 1, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Evening"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/illuminated-fountain-performances"
-  },
-  {
     "id": "discovered_kid_charlemagne_steely_dan_20270123",
     "type": "event",
     "title": "Kid Charlemagne: Tribute to Steely Dan",
@@ -3931,5 +3669,30 @@
       "image": ""
     },
     "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2332458"
+  },
+  {
+    "id": "discovered_oaklands_cemetery_tour_20261108",
+    "type": "event",
+    "title": "Historic Oaklands Cemetery Walking Tour",
+    "venue_info": {
+      "name": "Oaklands Cemetery, West Chester",
+      "location": {
+        "lat": 39.9773,
+        "lng": -75.61
+      }
+    },
+    "raw_date_string": "Nov 8, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "History"
+      ],
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2477906"
   }
 ]
