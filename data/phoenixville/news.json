@@ -1,5 +1,23 @@
 [
   {
+    "title": "Jefferson set to absorb Pottstown Medical Specialists",
+    "category": "News",
+    "summary": "With no rival bids by the Oct. 22 deadline, the bankrupt physician group's sale to Thomas Jefferson University went before a federal judge, with closing targeted for Jan. 1, 2027. The practice has offices in Pottstown, Collegeville and Royersford, and patients see no immediate changes.",
+    "date": "2026-11-02",
+    "loc": "Pottstown, Collegeville and Royersford",
+    "link": "https://montco.today/2026/11/jefferson-pottstown-medical-specialists-sale-patients/",
+    "img": ""
+  },
+  {
+    "title": "Main Street funeral home fire ruled not suspicious",
+    "category": "News",
+    "summary": "Fire officials say the Oct. 30 blaze on the third floor of Devlin-Gatcha Funeral Home was not suspicious. Crews spent about two and a half hours on scene and no one was hurt; the county fire marshal is still investigating.",
+    "date": "2026-11-02",
+    "loc": "500 block of Main St., Phoenixville",
+    "link": "https://patch.com/pennsylvania/phoenixville/fire-funeral-home-phoenixville-not-suspicious-nature-authorities-say",
+    "img": ""
+  },
+  {
     "title": "Phoenixville schools steer families to food help during SNAP disruption",
     "category": "News",
     "summary": "The Phoenixville Area School District issued a food-security notice pointing affected households to free school breakfast, meal-aid applications, the PACS pantry and Ann's Heart. Its Phoenixville Phamily Fund with Ann's Heart can also cover emergency food and shelter needs.",
@@ -54,15 +72,6 @@
     "img": ""
   },
   {
-    "title": "PennDOT grant brings on-street EV chargers to Phoenixville",
-    "category": "Development",
-    "summary": "A $37 million round of federal NEVI money for southeastern Pennsylvania includes $482,991 for Voltpost to install 23 on-street Level 2 charging ports split among Phoenixville, West Chester and Malvern. East Vincent Township also won $97,600 for four ports at its township building near Spring City.",
-    "date": "2026-10-28",
-    "loc": "Downtown Phoenixville and East Vincent Township",
-    "link": "https://pennwatch.org/penndot-to-spend-37-million-to-fund-more-than-500-ev-charging-ports-in-southeastern-pennsylvania",
-    "img": ""
-  },
-  {
     "title": "Mainline ReChic resale shop heading to Philadelphia Premium Outlets",
     "category": "Opening Soon",
     "summary": "Malvern entrepreneur Ashley Ralligh is moving her online secondhand handbag and fashion business into a storefront at the outlets in Limerick. She plans to open next month, before Thanksgiving and in time for Black Friday.",
@@ -78,15 +87,6 @@
     "date": "2026-10-28",
     "loc": "111 Valley Park Road, Schuylkill Township",
     "link": "https://www.mychesco.com/a/news/government/schuylkill-township-sets-meeting-on-municipal-complex-expansion/",
-    "img": ""
-  },
-  {
-    "title": "Colonial Theatre sets its holiday season of concerts, comedy and classic films",
-    "category": "News",
-    "summary": "The Bridge Street theater's November-December slate includes Broadway at the Colonial on Nov. 21, Ana Gasteyer's holiday show Dec. 3, the locally cast Phoenixville Christmas Spectacular Dec. 5-6 and comic Joe DeRosa Dec. 19. Screenings run from Elf over Thanksgiving weekend through Die Hard on Dec. 23.",
-    "date": "2026-10-27",
-    "loc": "227 Bridge St., Phoenixville",
-    "link": "https://www.mychesco.com/a/entertainment/colonial-theatre-expands-holiday-lineup-with-broadway-comedy/",
     "img": ""
   }
 ]

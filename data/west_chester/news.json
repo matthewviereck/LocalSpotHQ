@@ -1,5 +1,41 @@
 [
   {
+    "title": "West Goshen supervisors take up data center rules Nov. 5",
+    "category": "Development",
+    "summary": "Supervisors meet Thursday, Nov. 5, at 6 p.m. to settle changes to the township's first full zoning rewrite since 1972, including data center rules, a revised Mixed-Use Corridor District and zoning map updates.",
+    "date": "2026-11-02",
+    "loc": "West Goshen Township Building, 1025 Paoli Pike, West Chester",
+    "link": "https://www.mychesco.com/a/communities/west-goshen/west-goshen-revisits-data-center-rules-in-zoning-overhaul/",
+    "img": ""
+  },
+  {
+    "title": "Victorian carolers will stroll downtown on holiday weekends",
+    "category": "News",
+    "summary": "Downtown West Chester's costumed Borough Balladeer Carolers return for eight free Friday and Saturday performances from Nov. 27 through Dec. 19, roaming the shopping district rather than singing at one spot.",
+    "date": "2026-11-02",
+    "loc": "Downtown West Chester",
+    "link": "https://www.mychesco.com/a/entertainment/music/victorian-carolers-bring-holiday-cheer-to-downtown-west-chester/",
+    "img": ""
+  },
+  {
+    "title": "Christmas on King returns to Malvern Nov. 28",
+    "category": "News",
+    "summary": "The Malvern Business & Professional Association's free festival fills King Street with music, food trucks and visits from Santa from noon to 4 p.m., then moves to Burke Park for performances and the tree lighting.",
+    "date": "2026-11-02",
+    "loc": "King Street and Burke Park, Malvern",
+    "link": "https://www.mychesco.com/a/entertainment/family-fun/christmas-on-king-brings-holiday-magic-to-malvern/",
+    "img": ""
+  },
+  {
+    "title": "West Chester Railroad's Santa's Express runs Nov. 21 to Dec. 20",
+    "category": "News",
+    "summary": "The holiday train makes a 75-minute round trip from Market Street Station to Glen Mills on select dates, with Santa visiting each car and a Table Car option with live music. Rides often sell out, so advance booking is advised.",
+    "date": "2026-11-01",
+    "loc": "Market Street Station, West Chester",
+    "link": "https://www.mychesco.com/a/entertainment/family-fun/santas-express-brings-holiday-magic-to-west-chester-railroad/",
+    "img": ""
+  },
+  {
     "title": "Turnpike's widened stretch near Downingtown opens with six lanes",
     "category": "Development",
     "summary": "The Pennsylvania Turnpike now carries three lanes each way between mileposts 312 and 316 around the Downingtown Interchange, finishing a $214 million rebuild that began in May 2023. The work also replaced three bridges and added wider shoulders and noise walls.",
@@ -51,42 +87,6 @@
     "date": "2026-10-30",
     "loc": "Lawrence Drive, West Chester",
     "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-oct-30-2026",
-    "img": ""
-  },
-  {
-    "title": "Evening Halloween Parade draws more than a thousand downtown",
-    "category": "News",
-    "summary": "Wednesday's 7 p.m. parade, moved back from last year's afternoon slot, ran about 40 minutes behind the police color guard, with marching bands including WCU's Golden Rams playing \"Thriller\" and packed outdoor dining along the route.",
-    "date": "2026-10-29",
-    "loc": "Downtown West Chester",
-    "link": "https://www.dailylocal.com/2026/10/29/costumes-galore-at-west-chester-halloween-parade/",
-    "img": ""
-  },
-  {
-    "title": "West Pikeland puts the SALT Performing Arts building sale on hold",
-    "category": "News",
-    "summary": "Supervisors voted unanimously Oct. 26 to reverse last week's decision to sell the township building the theater has renovated and occupied since 2014, while they get legal advice on requiring any buyer to honor SALT's license. SALT is also exploring an acquisition with Historic Yellow Springs.",
-    "date": "2026-10-29",
-    "loc": "1645 Art School Road, Chester Springs",
-    "link": "https://vista.today/2026/10/west-pikeland-pauses-sale-salt-performing-arts/",
-    "img": ""
-  },
-  {
-    "title": "Hatfield bacon family's developer buys Downingtown's Mill Town Square",
-    "category": "Development",
-    "summary": "Clemens Development paid $22.4 million for the 104,000-square-foot shopping center anchored by Planet Fitness and Kimberton Whole Foods, ending a 24-year ownership by Tripoint Properties.",
-    "date": "2026-10-29",
-    "loc": "150 E. Pennsylvania Ave., Downingtown",
-    "link": "https://vista.today/2026/10/clemens-development-buys-mill-town-square/",
-    "img": ""
-  },
-  {
-    "title": "Boutique On Thirty closing in Downingtown",
-    "category": "Closed",
-    "summary": "The Downingtown boutique is shutting down roughly a year after it opened.",
-    "date": "2026-10-28",
-    "loc": "Downingtown",
-    "link": "https://www.inquirer.com/news/pennsylvania/community-development-pushback-salt-pa-midterm-election-20261028.html",
     "img": ""
   }
 ]
