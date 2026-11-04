@@ -1225,36 +1225,6 @@
     "action_link": "https://runsignup.com/Race/Info/PA/Phoenixville/BBPennsylvania"
   },
   {
-    "id": "discovered_poetry_night_steel_city_20261103",
-    "type": "event",
-    "title": "Phoenixville Poetry Night at Steel City Coffeehouse",
-    "venue_info": {
-      "name": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1305,
-        "lng": -75.5148
-      }
-    },
-    "raw_date_string": "November 3, 2026 7:00 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Poetry",
-        "Open Mic",
-        "Monthly Series",
-        "Tuesday Night",
-        "Spoken Word",
-        "Downtown Phoenixville"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.steelcityphx.com/product/phoenixville-poetry-night/7N247SDAR2H5BEGOO3CZLWOP"
-  },
-  {
     "id": "discovered_old_school_crosseyed_mary_watertower_20261107",
     "type": "event",
     "title": "Old School with Cross Eyed Mary – Live at Water Tower Live",
@@ -1587,35 +1557,6 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/live-theatre/ana-gasteyer-sugar-booze-holiday-spectacular/"
-  },
-  {
-    "id": "discovered_line_dancing_souljoels_20261103",
-    "type": "event",
-    "title": "Line Dancing Night at SoulJoel's",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "November 3, 2026 6:30 PM",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Line Dancing",
-        "Social Dancing",
-        "All Levels Welcome",
-        "Tuesday Night",
-        "Pottstown",
-        "Monthly Series"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.tickpick.com/buy-line-dancing-tickets-souljoels-at-sunnybrook-11-3-26-6pm/7975316/"
   },
   {
     "id": "discovered_romeo_delight_souljoels_20261106",
@@ -2091,5 +2032,37 @@
       "image": ""
     },
     "action_link": "https://cantonfair.net/event/46177-the-philly-show-sports-card-memorabilia-show"
+  },
+  {
+    "id": "discovered_german_christmas_market_franklin_commons_20261121",
+    "type": "event",
+    "title": "German Christmas Market (Weihnachtsmarkt) at Franklin Commons",
+    "venue_info": {
+      "name": "Franklin Commons, 400 Franklin Ave, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "November 21, 2026 12:00 PM",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "German Market",
+        "Holiday",
+        "Family Friendly",
+        "Local Vendors",
+        "Outdoor",
+        "Fundraiser",
+        "MainLineFreunde",
+        "Rain or Shine",
+        "Phoenixville"
+      ],
+      "price": "$5 (21+), Free (under 21)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mainlinefreunde.org/weihnachtsmarkt/"
   }
 ]
