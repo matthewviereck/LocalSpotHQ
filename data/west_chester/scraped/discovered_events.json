@@ -3668,5 +3668,513 @@
       "image": ""
     },
     "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2477906"
+  },
+  {
+    "id": "discovered_immaculata_symphony_fall_conce_20261107",
+    "type": "event",
+    "title": "Immaculata Symphony Fall Concert: American Symphonies",
+    "venue_info": {
+      "name": "Immaculata University Alumnae Hall, Malvern",
+      "location": {
+        "lat": 40.0343,
+        "lng": -75.557
+      }
+    },
+    "raw_date_string": "Nov 7, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical"
+      ],
+      "price": "See site",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://immaculatasymphony.org/event/fall-concert-american-symphonies/"
+  },
+  {
+    "id": "discovered_immaculata_symphony_christmas_20261206",
+    "type": "event",
+    "title": "Immaculata Symphony Christmas Concert",
+    "venue_info": {
+      "name": "Immaculata University Alumnae Hall, Malvern",
+      "location": {
+        "lat": 40.0343,
+        "lng": -75.557
+      }
+    },
+    "raw_date_string": "Dec 6, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Holiday",
+        "Family-Friendly"
+      ],
+      "price": "$10",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://immaculatasymphony.org/event/christmas-concert-3/"
+  },
+  {
+    "id": "discovered_immaculata_symphony_youth_conc_20270221",
+    "type": "event",
+    "title": "Immaculata Symphony Youth Concert: Film Music Favorites",
+    "venue_info": {
+      "name": "Immaculata University Alumnae Hall, Malvern",
+      "location": {
+        "lat": 40.0343,
+        "lng": -75.557
+      }
+    },
+    "raw_date_string": "Feb 21, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Family-Friendly"
+      ],
+      "price": "See site",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://immaculatasymphony.org/event/youth-concert-film-music-favorites/"
+  },
+  {
+    "id": "discovered_immaculata_symphony_spring_con_20270410",
+    "type": "event",
+    "title": "Immaculata Symphony Spring Concert: Epic Inspirations",
+    "venue_info": {
+      "name": "Immaculata University Alumnae Hall, Malvern",
+      "location": {
+        "lat": 40.0343,
+        "lng": -75.557
+      }
+    },
+    "raw_date_string": "Apr 10, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical"
+      ],
+      "price": "See site",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://immaculatasymphony.org/event/spring-concert-epic-inspirations/"
+  },
+  {
+    "id": "discovered_immaculata_symphony_concerto_c_20270501",
+    "type": "event",
+    "title": "Immaculata Symphony Concerto Concert",
+    "venue_info": {
+      "name": "Immaculata University Alumnae Hall, Malvern",
+      "location": {
+        "lat": 40.0343,
+        "lng": -75.557
+      }
+    },
+    "raw_date_string": "May 1, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical"
+      ],
+      "price": "See site",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://immaculatasymphony.org/event/concerto-concert-3/"
+  },
+  {
+    "id": "discovered_hearth_songs_at_people_s_light_20261209",
+    "type": "event",
+    "title": "Hearth Songs at People's Light",
+    "venue_info": {
+      "name": "People's Light, Malvern",
+      "location": {
+        "lat": 40.0445,
+        "lng": -75.5432
+      }
+    },
+    "raw_date_string": "Dec 9 - 20, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Indoor",
+        "Holiday",
+        "Music"
+      ],
+      "price": "See site"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://peopleslight.org/whats-on/20262027-season/hearth-songs/"
+  },
+  {
+    "id": "discovered_santa_brunch_at_the_farmhouse_20261213",
+    "type": "event",
+    "title": "Santa Brunch at The Farmhouse at People's Light",
+    "venue_info": {
+      "name": "The Farmhouse at People's Light, Malvern",
+      "location": {
+        "lat": 40.0445,
+        "lng": -75.5432
+      }
+    },
+    "raw_date_string": "Dec 13, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Holiday",
+        "Family-Friendly",
+        "Indoor"
+      ],
+      "price": "$45 adults, $20 kids",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.farmhousepeopleslight.com/santabrunch"
+  },
+  {
+    "id": "discovered_breakfast_with_the_trains_20261121",
+    "type": "event",
+    "title": "Breakfast with the Trains",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8693,
+        "lng": -75.5933
+      }
+    },
+    "raw_date_string": "Nov 21, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Indoor",
+        "Holiday",
+        "Family-Friendly"
+      ],
+      "price": "$35 ($25 members)",
+      "time": "8:30 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/breakfast-trains-4"
+  },
+  {
+    "id": "discovered_breakfast_with_the_trains_20261129",
+    "type": "event",
+    "title": "Breakfast with the Trains",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8693,
+        "lng": -75.5933
+      }
+    },
+    "raw_date_string": "Nov 29, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Indoor",
+        "Holiday",
+        "Family-Friendly"
+      ],
+      "price": "$35 ($25 members)",
+      "time": "8:30 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/breakfast-trains-5"
+  },
+  {
+    "id": "discovered_breakfast_with_the_trains_20261212",
+    "type": "event",
+    "title": "Breakfast with the Trains",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8693,
+        "lng": -75.5933
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Indoor",
+        "Holiday",
+        "Family-Friendly"
+      ],
+      "price": "$35 ($25 members)",
+      "time": "8:30 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/breakfast-trains-6"
+  },
+  {
+    "id": "discovered_breakfast_with_the_trains_20261213",
+    "type": "event",
+    "title": "Breakfast with the Trains",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8693,
+        "lng": -75.5933
+      }
+    },
+    "raw_date_string": "Dec 13, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Indoor",
+        "Holiday",
+        "Family-Friendly"
+      ],
+      "price": "$35 ($25 members)",
+      "time": "8:30 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/breakfast-trains-7"
+  },
+  {
+    "id": "discovered_winterthur_holiday_market_20261121",
+    "type": "event",
+    "title": "Winterthur Holiday Market",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Nov 21, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Holiday",
+        "Shopping",
+        "Outdoor"
+      ],
+      "price": "$33 adults",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/holiday-market-2/"
+  },
+  {
+    "id": "discovered_a_christmas_carol_at_winterthu_20261204",
+    "type": "event",
+    "title": "A Christmas Carol at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Dec 4 - 6, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Holiday",
+        "Indoor",
+        "Family-Friendly"
+      ],
+      "price": "$25 performance only",
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/a-christmas-carol/"
+  },
+  {
+    "id": "discovered_chester_county_ballet_the_nutc_20261128",
+    "type": "event",
+    "title": "Chester County Ballet: The Nutcracker",
+    "venue_info": {
+      "name": "Villa Maria Academy, Malvern",
+      "location": {
+        "lat": 40.039,
+        "lng": -75.527
+      }
+    },
+    "raw_date_string": "Nov 28 - 29, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Holiday",
+        "Indoor",
+        "Family-Friendly",
+        "Dance"
+      ],
+      "price": "$18-$40",
+      "time": "12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mychesco.com/a/entertainment/arts-culture/chester-county-ballet-brings-the-nutcracker-to-malvern/"
+  },
+  {
+    "id": "discovered_craft_mercantile_holiday_marke_20261120",
+    "type": "event",
+    "title": "Craft & Mercantile Holiday Market at Eagleview",
+    "venue_info": {
+      "name": "Eagleview Town Center, Exton",
+      "location": {
+        "lat": 40.0616,
+        "lng": -75.6706
+      }
+    },
+    "raw_date_string": "Nov 20, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Outdoor",
+        "Shopping",
+        "Live Music",
+        "Free"
+      ],
+      "price": "Free",
+      "time": "4:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eagleviewtowncenter.com/upcoming-events/craft-mercantile-fall-market-se3xy"
+  },
+  {
+    "id": "discovered_thanksgiving_farmers_market_at_20261124",
+    "type": "event",
+    "title": "Thanksgiving Farmers Market at Eagleview",
+    "venue_info": {
+      "name": "Eagleview Town Center, Exton",
+      "location": {
+        "lat": 40.0616,
+        "lng": -75.6706
+      }
+    },
+    "raw_date_string": "Nov 24, 2026",
+    "attributes": {
+      "category": "Farmers Market",
+      "vibes": [
+        "Outdoor",
+        "Food",
+        "Free"
+      ],
+      "price": "Free",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.eagleviewtowncenter.com/upcoming-events/thanksgiving-farmers-market-2"
+  },
+  {
+    "id": "discovered_bookbinding_workshop_level_i_20270313",
+    "type": "event",
+    "title": "Bookbinding Workshop Level I",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Mar 13, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Workshop"
+      ],
+      "price": "$175",
+      "time": "9:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/bookbinding-workshop-level-i/2027-03-13/"
+  },
+  {
+    "id": "discovered_gold_tooling_workshop_20270320",
+    "type": "event",
+    "title": "Gold Tooling Workshop",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Mar 20, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Workshop"
+      ],
+      "price": "$100",
+      "time": "9:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/gold-tooling-workshop/2027-03-20/"
+  },
+  {
+    "id": "discovered_camping_with_the_continentals_20270515",
+    "type": "event",
+    "title": "Camping with the Continentals: Revolutionary War Encampment",
+    "venue_info": {
+      "name": "Brandywine Battlefield Park, Chadds Ford",
+      "location": {
+        "lat": 39.8737,
+        "lng": -75.5836
+      }
+    },
+    "raw_date_string": "May 15 - 16, 2027",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "History",
+        "Family-Friendly"
+      ],
+      "price": "$10 adults, $7 kids",
+      "time": "10:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywinebattlefield.org/events/"
   }
 ]
