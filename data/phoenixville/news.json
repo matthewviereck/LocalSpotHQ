@@ -9,15 +9,6 @@
     "img": ""
   },
   {
-    "title": "North Adams Street bridge near Pottstown closes Nov. 9 for replacement",
-    "category": "Development",
-    "summary": "Lower Pottsgrove will close the North Adams Street bridge over Sprogel's Run, between Mervine Street and Buchert Road, starting Nov. 9 for a full replacement. Residents keep access to their homes via Woodland Drive or Buchert Road, and trash and mail service continue.",
-    "date": "2026-11-03",
-    "loc": "N. Adams St., Lower Pottsgrove (Pottstown)",
-    "link": "https://www.pottsmerc.com/2026/11/03/north-adams-street-bridge-to-close-for-replacement-in-lower-pottsgrove/",
-    "img": ""
-  },
-  {
     "title": "Jefferson set to absorb Pottstown Medical Specialists",
     "category": "News",
     "summary": "With no rival bids by the Oct. 22 deadline, the bankrupt physician group's sale to Thomas Jefferson University went before a federal judge, with closing targeted for Jan. 1, 2027. The practice has offices in Pottstown, Collegeville and Royersford, and patients see no immediate changes.",
@@ -33,6 +24,24 @@
     "date": "2026-11-02",
     "loc": "500 block of Main St., Phoenixville",
     "link": "https://patch.com/pennsylvania/phoenixville/fire-funeral-home-phoenixville-not-suspicious-nature-authorities-say",
+    "img": ""
+  },
+  {
+    "title": "Avlos joins Main Line Today Restaurant Week through Nov. 14",
+    "category": "News",
+    "summary": "Phoenixville's Avlos Greek Cuisine is among nearly 40 restaurants serving three- and four-course prix-fixe menus for the magazine's two-week promotion, which runs Nov. 1-14. Lunch menus run $25 to $35 and dinners $30 to $55, before tax, tip and drinks.",
+    "date": "2026-11-02",
+    "loc": "Avlos Greek Cuisine, Phoenixville",
+    "link": "https://patch.com/pennsylvania/te/main-line-restaurant-week-returns-dozens-eateries-have-special-deals",
+    "img": ""
+  },
+  {
+    "title": "Chester County Food Bank opens Saturday food drives Nov. 14 and 21",
+    "category": "News",
+    "summary": "The food bank will accept nonperishable donations and cash gifts at its Exton warehouse from 9 a.m. to noon on two November Saturdays. It says it is spending about $100,000 more a month on food than a year ago for the same quantity.",
+    "date": "2026-11-02",
+    "loc": "Chester County Food Bank, Exton",
+    "link": "https://vista.today/2026/11/chester-county-food-drives-november-2026/",
     "img": ""
   },
   {
@@ -54,6 +63,15 @@
     "img": ""
   },
   {
+    "title": "Route 23 safety rebuild through Phoenixville wraps up",
+    "category": "Development",
+    "summary": "PennDOT says major construction is finished on its $2.5 million project covering 11 signalized intersections on Nutt Road, Schuylkill Road and Valley Forge Road in the borough, East Pikeland and Schuylkill Township. The work added a left-turn lane at Township Line Road and reconfigured the Nutt Road and Bridge Street intersection; brief single-lane closures continue for finishing touches.",
+    "date": "2026-10-30",
+    "loc": "Route 23 (Nutt Road / Schuylkill Road), Phoenixville",
+    "link": "https://www.pottsmerc.com/2026/10/30/route-23-safety-improvements-completed-in-chester-county/",
+    "img": ""
+  },
+  {
     "title": "Chicken Salad Chick sets Nov. 18 opening at Providence Town Center",
     "category": "Opening Soon",
     "summary": "The Southern fast-casual chain's first Philadelphia-area restaurant takes the former Z!Eats space and will seat 55, with free chicken salad for a year promised to the first 100 guests. The local franchise group plans six locations across Montgomery and Chester counties.",
@@ -63,30 +81,12 @@
     "img": ""
   },
   {
-    "title": "Split Spring-Ford board approves $12 million for school renovations",
-    "category": "News",
-    "summary": "A 5-3 vote Monday cleared borrowing for work at six elementary schools, including Oaks Elementary, as part of the district's $103 million capital plan. The dissenters tied their no votes to concerns over a proposed employees-only health center in Upper Providence.",
-    "date": "2026-10-29",
-    "loc": "Spring-Ford Area School District, Royersford",
-    "link": "https://www.pottsmerc.com/2026/10/29/rift-forms-over-spring-ford-health-care-center-plan/",
-    "img": ""
-  },
-  {
     "title": "Mainline ReChic resale shop heading to Philadelphia Premium Outlets",
     "category": "Opening Soon",
     "summary": "Malvern entrepreneur Ashley Ralligh is moving her online secondhand handbag and fashion business into a storefront at the outlets in Limerick. She plans to open next month, before Thanksgiving and in time for Black Friday.",
     "date": "2026-10-28",
     "loc": "Philadelphia Premium Outlets, Limerick",
     "link": "https://6abc.com/post/secondhand-boom-helps-malvern-entrepreneur-ashley-ralligh-turn-online-resale-business-mainline-rechic-storefront/19991029",
-    "img": ""
-  },
-  {
-    "title": "Schuylkill Township calls Nov. 4 meeting on municipal complex expansion",
-    "category": "Development",
-    "summary": "Supervisors will meet at 6 p.m. to consider renovating and expanding the township's administration, police and public works facilities, backed by $1.15 million in state grants. Designs are being drawn for both a full and a reduced-scope version.",
-    "date": "2026-10-28",
-    "loc": "111 Valley Park Road, Schuylkill Township",
-    "link": "https://www.mychesco.com/a/news/government/schuylkill-township-sets-meeting-on-municipal-complex-expansion/",
     "img": ""
   }
 ]
