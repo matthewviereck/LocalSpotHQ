@@ -1,11 +1,20 @@
 [
   {
-    "title": "Hankin Invitational raises record $420,000 for Handi-Crafters",
+    "title": "Veterans Day Parade steps off downtown Sunday, Nov. 8",
     "category": "News",
-    "summary": "The 40th Hankin Invitational golf outing at Whitford Country Club in Exton drew more than 220 players and 95 sponsors and set a fundraising record. Proceeds support Handi-Crafters' job training and employment programs for adults with disabilities.",
+    "summary": "The borough's annual parade honoring area veterans starts at 2 p.m. and follows Gay, Church and High streets through the downtown. It is free to watch.",
+    "date": "2026-11-04",
+    "loc": "Gay, Church and High streets, West Chester",
+    "link": "https://www.inquirer.com/news/pennsylvania/willowdale-events-kennett-square-salt-pa-theater-bid-20261104.html",
+    "img": ""
+  },
+  {
+    "title": "Tree Commission launches a self-guided Tree Trail through the borough",
+    "category": "News",
+    "summary": "The West Chester Tree Trail is a walking tour of 11 notable trees or tree groups chosen to show off the borough's canopy, its history and its variety, timed for fall color. The tour takes an hour or two; pamphlets are at Borough Hall or on the borough website.",
     "date": "2026-11-03",
-    "loc": "Whitford Country Club, Exton",
-    "link": "https://vista.today/2026/11/hankin-invitational-celebrates-40-years-handi-crafters/",
+    "loc": "Borough Hall, 401 E. Gay St., West Chester",
+    "link": "https://www.west-chester.com/m/newsflash/Home/Detail/681",
     "img": ""
   },
   {
@@ -15,6 +24,15 @@
     "date": "2026-11-03",
     "loc": "Market Street Station, West Chester",
     "link": "https://www.mychesco.com/a/lifestyle/holidays/west-chester-railroads-christmas-tree-train-returns-for-the-holidays/",
+    "img": ""
+  },
+  {
+    "title": "Borough seeks volunteers for seven boards, applications due Dec. 4",
+    "category": "News",
+    "summary": "Borough Council is taking resumes for seats on the rail service committee, Historical Commission, Human Relations Commission, Library Board, Recreation Commission, Transportation Advisory Committee and Tree Commission. Applicants email a resume to the borough by Dec. 4 and will be scheduled for interviews.",
+    "date": "2026-11-02",
+    "loc": "Borough Hall, 401 E. Gay St., West Chester",
+    "link": "https://www.west-chester.com/m/newsflash/Home/Detail/680",
     "img": ""
   },
   {
@@ -45,15 +63,6 @@
     "img": ""
   },
   {
-    "title": "Christmas on King returns to Malvern Nov. 28",
-    "category": "News",
-    "summary": "The Malvern Business & Professional Association's free festival fills King Street with music, food trucks and visits from Santa from noon to 4 p.m., then moves to Burke Park for performances and the tree lighting.",
-    "date": "2026-11-02",
-    "loc": "King Street and Burke Park, Malvern",
-    "link": "https://www.mychesco.com/a/entertainment/family-fun/christmas-on-king-brings-holiday-magic-to-malvern/",
-    "img": ""
-  },
-  {
     "title": "WCU student and East grad delivers the Frederick Douglass lecture",
     "category": "News",
     "summary": "Aiden Tilery, a West Chester East graduate, gave the seventh annual Dr. Clifford E. DeBaptiste Frederick Douglass lecture at the university's Philips Autograph Library to about 100 people. He drew a line from Douglass to his great-grandfather, the former borough mayor, now 102, on education as the path to freedom.",
@@ -72,21 +81,12 @@
     "img": ""
   },
   {
-    "title": "Turnpike's widened stretch near Downingtown opens with six lanes",
+    "title": "State grant funds on-street EV chargers in West Chester",
     "category": "Development",
-    "summary": "The Pennsylvania Turnpike now carries three lanes each way between mileposts 312 and 316 around the Downingtown Interchange, finishing a $214 million rebuild that began in May 2023. The work also replaced three bridges and added wider shoulders and noise walls.",
-    "date": "2026-10-31",
-    "loc": "Pennsylvania Turnpike, Downingtown Interchange",
-    "link": "https://www.mychesco.com/a/news/pa-turnpike-opens-six-lanes-after-214-million-widening/",
-    "img": ""
-  },
-  {
-    "title": "CVIM offers free dental care to uninsured veterans Nov. 10",
-    "category": "News",
-    "summary": "Community Volunteers in Medicine is holding its annual Give Veterans a Smile Day at its West Chester health center on Lawrence Drive for area veterans without dental insurance. Appointments are required and fill quickly; call 610-836-5990 ext. 125.",
-    "date": "2026-10-30",
-    "loc": "Lawrence Drive, West Chester",
-    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-oct-30-2026",
+    "summary": "PennDOT's $37 million round of federal charging awards for southeastern Pennsylvania includes $482,991 to Voltpost for 23 Level 2 on-street ports spread across West Chester, Phoenixville and Malvern, plus eight fast chargers at the Paoli Wawa. Exact locations, pricing and timing have not been announced.",
+    "date": "2026-10-28",
+    "loc": "West Chester",
+    "link": "https://www.pa.gov/agencies/penndot/news-and-media/newsroom/statewide/2026/shapiro-administration-invests--37-million-in-ev-chargers-in-sou",
     "img": ""
   }
 ]
