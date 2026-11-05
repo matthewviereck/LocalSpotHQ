@@ -24,54 +24,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
   },
   {
-    "id": "discovered_one_alternative_fundraiser_for_if_20261104",
-    "type": "event",
-    "title": "One Alternative: Fundraiser for If Not For Music",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Nov 4, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$13-$23",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/one-alternative-fundraiser-show-for-if-not-for-music/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_the_water_s_edge_gala_20261105",
-    "type": "event",
-    "title": "The Water's Edge Gala",
-    "venue_info": {
-      "name": "Stroud Water Research Center, Avondale",
-      "location": {
-        "lat": 39.8256,
-        "lng": -75.783
-      }
-    },
-    "raw_date_string": "Nov 5, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [],
-      "time": "6:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://stroudcenter.org/event/waters-edge-2026/"
-  },
-  {
     "id": "discovered_an_evening_with_marty_o_20261106",
     "type": "event",
     "title": "An Evening With Marty O'Reilly",
@@ -2209,32 +2161,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/chrysanthemum-festival"
   },
   {
-    "id": "discovered_plagues_pestilence_tour_20261105",
-    "type": "event",
-    "title": "Plagues & Pestilence: A Walking Tour",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.9614,
-        "lng": -75.6047
-      }
-    },
-    "raw_date_string": "Nov 5, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "History"
-      ],
-      "price": "$16",
-      "time": "5:30 PM - 7:15 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2332403"
-  },
-  {
     "id": "discovered_clover_holiday_market_20261121",
     "type": "event",
     "title": "Clover Market Indoor Holiday Market",
@@ -2837,33 +2763,6 @@
       "image": ""
     },
     "action_link": "https://ccls.libcal.com/event/17162969"
-  },
-  {
-    "id": "discovered_radical_shift_talk_ccl_20261104",
-    "type": "event",
-    "title": "A Radical Shift: Pennsylvania's State Constitution of 1776 (Author Talk)",
-    "venue_info": {
-      "name": "Chester County Library, Exton",
-      "location": {
-        "lat": 40.029,
-        "lng": -75.628
-      }
-    },
-    "raw_date_string": "Nov 4, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Free",
-        "History",
-        "Indoor"
-      ],
-      "price": "Free",
-      "time": "6:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://ccls.libcal.com/event/17776097"
   },
   {
     "id": "discovered_concert_in_the_cupboard_20261114",
@@ -3620,31 +3519,6 @@
     "action_link": "https://kennettflash.org/event/kid-charlemagne-tribute-to-steely-dan/kennett-flash/kennett-square-pennsylvania/"
   },
   {
-    "id": "discovered_chilling_west_chester_tour_20261104",
-    "type": "event",
-    "title": "Chilling West Chester Walking Tour",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.9614,
-        "lng": -75.6063
-      }
-    },
-    "raw_date_string": "Nov 4, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Spooky"
-      ],
-      "price": "$20"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2332458"
-  },
-  {
     "id": "discovered_oaklands_cemetery_tour_20261108",
     "type": "event",
     "title": "Historic Oaklands Cemetery Walking Tour",
@@ -4176,5 +4050,552 @@
       "image": ""
     },
     "action_link": "https://www.brandywinebattlefield.org/events/"
+  },
+  {
+    "id": "discovered_delaware_antiques_show_20261106",
+    "type": "event",
+    "title": "Delaware Antiques Show",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Nov 6 - 8, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "Shopping"
+      ],
+      "price": "Ticketed"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/delaware-antiques-show-2/"
+  },
+  {
+    "id": "discovered_winterthur_holiday_nights_20261127",
+    "type": "event",
+    "title": "Holiday Nights at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Nov 27 - 28, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Evening"
+      ],
+      "price": "Ticketed",
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/holiday-nights-5/"
+  },
+  {
+    "id": "discovered_winterthur_holiday_nights_20261204",
+    "type": "event",
+    "title": "Holiday Nights at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Dec 4 - 5, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Evening"
+      ],
+      "price": "Ticketed",
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/holiday-nights-8/"
+  },
+  {
+    "id": "discovered_longwood_nye_20261231",
+    "type": "event",
+    "title": "New Year's Eve at Longwood Gardens",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Dec 31, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Holiday",
+        "Evening"
+      ],
+      "price": "Free with Gardens admission",
+      "time": "12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/new-years-eve"
+  },
+  {
+    "id": "discovered_longwood_thomas_ospital_20270120",
+    "type": "event",
+    "title": "Organist Thomas Ospital in Concert",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Jan 20, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical"
+      ],
+      "price": "Ticketed",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/thomas-ospital"
+  },
+  {
+    "id": "discovered_longwood_doppelflote_20270131",
+    "type": "event",
+    "title": "Doppelflöte: Flute & Organ Duo",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Jan 31, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical"
+      ],
+      "price": "Free with Gardens admission",
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/doppelflote"
+  },
+  {
+    "id": "discovered_longwood_rudy_lucente_20270207",
+    "type": "event",
+    "title": "Organist Rudy Lucente in Concert",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Feb 7, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical"
+      ],
+      "price": "Free with Gardens admission",
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/rudy-lucente"
+  },
+  {
+    "id": "discovered_longwood_mesa_zelek_20270218",
+    "type": "event",
+    "title": "Tommy Mesa & Gregory Zelek: Cello and Organ",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Feb 18, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical"
+      ],
+      "price": "Ticketed",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/tommy-mesa-and-gregory-zelek"
+  },
+  {
+    "id": "discovered_longwood_isabella_wu_20270314",
+    "type": "event",
+    "title": "Organist Isabella Isza Wu in Concert",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Mar 14, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical"
+      ],
+      "price": "Free with Gardens admission",
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/isabella-isza-wu"
+  },
+  {
+    "id": "discovered_longwood_curtis_recital_20270321",
+    "type": "event",
+    "title": "Curtis Student Recital at Longwood",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Mar 21, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical"
+      ],
+      "price": "Free with Gardens admission",
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/events/curtis-student-recitals"
+  },
+  {
+    "id": "discovered_kf_open_mic_butch_zito_20261213",
+    "type": "event",
+    "title": "The Legendary Kennett Flash Open Mic Night",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.847,
+        "lng": -75.713
+      }
+    },
+    "raw_date_string": "Dec 13, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Community"
+      ],
+      "price": "Free",
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettflash.org/event/the-legendary-kennett-flash-open-mic-night-hosted-by-butch-zito/kennett-flash/kennett-square-pennsylvania/"
+  },
+  {
+    "id": "discovered_kf_hoppin_john_mardi_gras_20270130",
+    "type": "event",
+    "title": "The Hoppin' John Orchestra Mardi Gras Show",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.847,
+        "lng": -75.713
+      }
+    },
+    "raw_date_string": "Jan 30, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Party"
+      ],
+      "price": "$25-$33",
+      "time": "8:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettflash.org/event/the-hoppin-john-orchestra-mardi-gras-show-3/kennett-flash/kennett-square-pennsylvania/"
+  },
+  {
+    "id": "discovered_ccl_origins_lenape_20261117",
+    "type": "event",
+    "title": "Origins: The Lenape, William Penn, and the Colonists",
+    "venue_info": {
+      "name": "Chester County Library, Exton",
+      "location": {
+        "lat": 40.0315,
+        "lng": -75.6285
+      }
+    },
+    "raw_date_string": "Nov 17, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "History",
+        "Free"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://ccls.libcal.com/event/17297752"
+  },
+  {
+    "id": "discovered_wcu_holiday_program_105_20261205",
+    "type": "event",
+    "title": "WCU 105th Annual Holiday Program",
+    "venue_info": {
+      "name": "Emilie K. Asplundh Concert Hall, West Chester",
+      "location": {
+        "lat": 39.95,
+        "lng": -75.599
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Holiday"
+      ],
+      "price": "$13.50",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1402589741"
+  },
+  {
+    "id": "discovered_wcu_harpfest_20261115",
+    "type": "event",
+    "title": "WCU HarpFest",
+    "venue_info": {
+      "name": "Madeleine Wing Adler Theatre, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Nov 15, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Free"
+      ],
+      "price": "Free",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1398229313"
+  },
+  {
+    "id": "discovered_wc_photos_santa_concert_20261212",
+    "type": "event",
+    "title": "Photos with Santa & Free Holiday Concert",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Free"
+      ],
+      "price": "Free",
+      "time": "2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.greaterwestchester.com/lightsupchristmasparade.html"
+  },
+  {
+    "id": "discovered_bb_eve_of_battle_20270515",
+    "type": "event",
+    "title": "The Eve of the Battle Dinner at Washington's Headquarters",
+    "venue_info": {
+      "name": "Brandywine Battlefield Park, Chadds Ford",
+      "location": {
+        "lat": 39.8737,
+        "lng": -75.5836
+      }
+    },
+    "raw_date_string": "May 15, 2027",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "History",
+        "Evening"
+      ],
+      "price": "Ticketed",
+      "time": "4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywinebattlefield.org/events/"
+  },
+  {
+    "id": "discovered_cccb_holiday_concert_20261212",
+    "type": "event",
+    "title": "Chester County Concert Band Free Holiday Concert",
+    "venue_info": {
+      "name": "Fugett Middle School, West Chester",
+      "location": {
+        "lat": 39.9741,
+        "lng": -75.5783
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Holiday",
+        "Free"
+      ],
+      "price": "Free",
+      "time": "2:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.cccband.org/schedules.html"
+  },
+  {
+    "id": "discovered_winterthur_holiday_nights_20261211",
+    "type": "event",
+    "title": "Holiday Nights at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Dec 11 - 12, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Evening"
+      ],
+      "price": "Ticketed",
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/holiday-nights-5/"
+  },
+  {
+    "id": "discovered_winterthur_holiday_nights_20261218",
+    "type": "event",
+    "title": "Holiday Nights at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Dec 18 - 19, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Evening"
+      ],
+      "price": "Ticketed",
+      "time": "5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/holiday-nights-5/"
+  },
+  {
+    "id": "discovered_wcu_dali_quartet_20261203",
+    "type": "event",
+    "title": "Dalí Quartet Faculty Recital at WCU",
+    "venue_info": {
+      "name": "Philips Autograph Library, West Chester",
+      "location": {
+        "lat": 39.95,
+        "lng": -75.599
+      }
+    },
+    "raw_date_string": "Dec 3, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Classical",
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1402361290"
   }
 ]
