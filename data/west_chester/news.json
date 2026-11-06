@@ -1,11 +1,29 @@
 [
   {
+    "title": "History Center lights up for a monthlong Season of Lights starting Dec. 2",
+    "category": "News",
+    "summary": "The Chester County History Center fills its galleries with illuminated displays and decorated trees from Dec. 2 through Jan. 2, open Wednesday through Saturday, 10 a.m. to 4 p.m., and closed Dec. 25 and Jan. 1. The exhibit is included with regular admission: $10 adults, $7 seniors, $5 children and students.",
+    "date": "2026-11-04",
+    "loc": "Chester County History Center, 225 N. High St., West Chester",
+    "link": "https://www.mychesco.com/a/entertainment/family-fun/season-of-lights-celebrates-holiday-traditions-in-west-chester/",
+    "img": ""
+  },
+  {
     "title": "Veterans Day Parade steps off downtown Sunday, Nov. 8",
     "category": "News",
     "summary": "The borough's annual parade honoring area veterans starts at 2 p.m. and follows Gay, Church and High streets through the downtown. It is free to watch.",
     "date": "2026-11-04",
     "loc": "Gay, Church and High streets, West Chester",
     "link": "https://www.inquirer.com/news/pennsylvania/willowdale-events-kennett-square-salt-pa-theater-bid-20261104.html",
+    "img": ""
+  },
+  {
+    "title": "Fall community clean-up meets at Rustin Park on Sunday, Nov. 8",
+    "category": "News",
+    "summary": "Residents, local groups and West Chester University students gather at the shed in Rustin Park at 10 a.m. for a borough-wide tidy-up, and the borough says all hands are welcome. Registration is through the link on the borough's news page.",
+    "date": "2026-11-03",
+    "loc": "Rustin Park, West Chester",
+    "link": "https://www.west-chester.com/m/newsflash/Home/Detail/682",
     "img": ""
   },
   {
@@ -45,15 +63,6 @@
     "img": ""
   },
   {
-    "title": "West Goshen supervisors take up data center rules Nov. 5",
-    "category": "Development",
-    "summary": "Supervisors meet Thursday, Nov. 5, at 6 p.m. to settle changes to the township's first full zoning rewrite since 1972, including data center rules, a revised Mixed-Use Corridor District and zoning map updates.",
-    "date": "2026-11-02",
-    "loc": "West Goshen Township Building, 1025 Paoli Pike, West Chester",
-    "link": "https://www.mychesco.com/a/communities/west-goshen/west-goshen-revisits-data-center-rules-in-zoning-overhaul/",
-    "img": ""
-  },
-  {
     "title": "Victorian carolers will stroll downtown on holiday weekends",
     "category": "News",
     "summary": "Downtown West Chester's costumed Borough Balladeer Carolers return for eight free Friday and Saturday performances from Nov. 27 through Dec. 19, roaming the shopping district rather than singing at one spot.",
@@ -72,21 +81,12 @@
     "img": ""
   },
   {
-    "title": "West Chester Railroad's Santa's Express runs Nov. 21 to Dec. 20",
+    "title": "WCU marks 100 years of jazz with a three-day celebration Nov. 6-8",
     "category": "News",
-    "summary": "The holiday train makes a 75-minute round trip from Market Street Station to Glen Mills on select dates, with Santa visiting each car and a Table Car option with live music. Rides often sell out, so advance booking is advised.",
-    "date": "2026-11-01",
-    "loc": "Market Street Station, West Chester",
-    "link": "https://www.mychesco.com/a/entertainment/family-fun/santas-express-brings-holiday-magic-to-west-chester-railroad/",
-    "img": ""
-  },
-  {
-    "title": "State grant funds on-street EV chargers in West Chester",
-    "category": "Development",
-    "summary": "PennDOT's $37 million round of federal charging awards for southeastern Pennsylvania includes $482,991 to Voltpost for 23 Level 2 on-street ports spread across West Chester, Phoenixville and Malvern, plus eight fast chargers at the Paoli Wawa. Exact locations, pricing and timing have not been announced.",
-    "date": "2026-10-28",
-    "loc": "West Chester",
-    "link": "https://www.pa.gov/agencies/penndot/news-and-media/newsroom/statewide/2026/shapiro-administration-invests--37-million-in-ev-chargers-in-sou",
+    "summary": "The university honors its Criterions Jazz Ensemble, rooted in the 1920s, with a free welcome concert Friday at 7:30 p.m. in Asplundh Hall, a free masterclass with vibraphonist Stefon Harris Saturday at 2 p.m., a $100 dinner-dance Saturday night and a ticketed anniversary concert Sunday at 3 p.m. New pieces by Bob Mintzer and Orrin Evans premiere, and the WCU Foundation is raising money for a permanent jazz endowment.",
+    "date": "2026-10-24",
+    "loc": "Asplundh Concert Hall, West Chester University",
+    "link": "https://www.mychesco.com/a/education/colleges-universities/wcu/west-chester-university-celebrates-100-years-of-jazz/",
     "img": ""
   }
 ]
