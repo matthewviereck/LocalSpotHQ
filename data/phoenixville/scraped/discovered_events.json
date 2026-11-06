@@ -2,9 +2,9 @@
   {
     "id": "discovered_first_friday_november_20261106",
     "type": "event",
-    "title": "Phoenixville First Friday – November",
+    "title": "Phoenixville First Friday \u2013 November",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -32,7 +32,7 @@
   {
     "id": "discovered_longest_johns_colonial_20261107",
     "type": "event",
-    "title": "The Longest Johns – Live at Colonial Theatre",
+    "title": "The Longest Johns \u2013 Live at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -61,7 +61,7 @@
   {
     "id": "discovered_clean_comedy_jenkins_souljoels_20261107",
     "type": "event",
-    "title": "Clean Comedy with Matt Jenkins – SoulJoel's",
+    "title": "Clean Comedy with Matt Jenkins \u2013 SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -90,7 +90,7 @@
   {
     "id": "discovered_masood_boomgaard_souljoels_20261114",
     "type": "event",
-    "title": "Masood Boomgaard & Self-Help Singh – Comedy Debut at SoulJoel's",
+    "title": "Masood Boomgaard & Self-Help Singh \u2013 Comedy Debut at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -119,7 +119,7 @@
   {
     "id": "discovered_billy_gardell_souljoels_20261121",
     "type": "event",
-    "title": "Billy Gardell – Live Stand-Up Comedy at SoulJoel's",
+    "title": "Billy Gardell \u2013 Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -149,7 +149,7 @@
   {
     "id": "discovered_prfm_november_rootdown_20261129",
     "type": "event",
-    "title": "Phoenixville Punk Rock Flea Market – November at Root Down Brewing",
+    "title": "Phoenixville Punk Rock Flea Market \u2013 November at Root Down Brewing",
     "venue_info": {
       "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
       "location": {
@@ -209,7 +209,7 @@
   {
     "id": "discovered_zoey_iconic_gem_20261127",
     "type": "event",
-    "title": "Zoey & the Iconic – Live at The Gem Spring City",
+    "title": "Zoey & the Iconic \u2013 Live at The Gem Spring City",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -240,9 +240,9 @@
   {
     "id": "discovered_first_friday_december_holiday_20261204",
     "type": "event",
-    "title": "Phoenixville First Friday – Holiday Edition & Tree Lighting",
+    "title": "Phoenixville First Friday \u2013 Holiday Edition & Tree Lighting",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -271,9 +271,9 @@
   {
     "id": "discovered_celtic_christmas_sunnybrook_20261220",
     "type": "event",
-    "title": "Celtic Christmas Experience – Live at SunnyBrook Ballroom",
+    "title": "Celtic Christmas Experience \u2013 Live at SunnyBrook Ballroom",
     "venue_info": {
-      "name": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
+      "name": "SoulJoel's at SunnyBrook \u2013 SunnyBrook Ballroom, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -304,7 +304,7 @@
     "type": "event",
     "title": "New Year's Eve at SunnyBrook Ballroom w/ The Uptown Band",
     "venue_info": {
-      "name": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
+      "name": "SoulJoel's at SunnyBrook \u2013 SunnyBrook Ballroom, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -333,7 +333,7 @@
   {
     "id": "discovered_nick_dipaolo_souljoels_20261107",
     "type": "event",
-    "title": "Nick DiPaolo – Live Stand-Up Comedy at SoulJoel's",
+    "title": "Nick DiPaolo \u2013 Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -361,7 +361,7 @@
   {
     "id": "discovered_brickfair_lego_expo_oaks_20261107",
     "type": "event",
-    "title": "BrickFair LEGO Fan Expo – Philadelphia",
+    "title": "BrickFair LEGO Fan Expo \u2013 Philadelphia",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
       "location": {
@@ -382,7 +382,7 @@
         "Weekend",
         "Oaks"
       ],
-      "price": "$17–19 (day of: $20)"
+      "price": "$17\u201319 (day of: $20)"
     },
     "media": {
       "image": ""
@@ -392,7 +392,7 @@
   {
     "id": "discovered_shelly_belly_souljoels_20261111",
     "type": "event",
-    "title": "Shelly Belly – Live Stand-Up Comedy at SoulJoel's",
+    "title": "Shelly Belly \u2013 Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -419,7 +419,7 @@
   {
     "id": "discovered_national_dog_show_oaks_20261114",
     "type": "event",
-    "title": "National Dog Show – Kennel Club of Philadelphia",
+    "title": "National Dog Show \u2013 Kennel Club of Philadelphia",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
       "location": {
@@ -450,7 +450,7 @@
   {
     "id": "discovered_comedy_graduation_souljoels_20261119",
     "type": "event",
-    "title": "14th Comedy Class Graduation Show – SoulJoel's",
+    "title": "14th Comedy Class Graduation Show \u2013 SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -479,7 +479,7 @@
   {
     "id": "discovered_wood_brothers_colonial_20261209",
     "type": "event",
-    "title": "The Wood Brothers with Tyler Ramsey – Live at Colonial Theatre",
+    "title": "The Wood Brothers with Tyler Ramsey \u2013 Live at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -509,7 +509,7 @@
   {
     "id": "discovered_tab_benoit_bonerama_colonial_20261216",
     "type": "event",
-    "title": "Tab Benoit with Bonerama – Soul of the Swamp Tour",
+    "title": "Tab Benoit with Bonerama \u2013 Soul of the Swamp Tour",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -539,7 +539,7 @@
   {
     "id": "discovered_monster_mania_oaks_20261120",
     "type": "event",
-    "title": "Monster-Mania Con 69 – Horror Film & Memorabilia Convention",
+    "title": "Monster-Mania Con 69 \u2013 Horror Film & Memorabilia Convention",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
       "location": {
@@ -572,7 +572,7 @@
   {
     "id": "discovered_post_halloween_tribute_watertower_20261121",
     "type": "event",
-    "title": "Post Halloween Tribute of Terror – AC/DC & Rancid Tributes at Water Tower Live",
+    "title": "Post Halloween Tribute of Terror \u2013 AC/DC & Rancid Tributes at Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's, Oaks",
       "location": {
@@ -604,7 +604,7 @@
   {
     "id": "discovered_craig_bickhardt_steel_city_20261121",
     "type": "event",
-    "title": "Craig Bickhardt Band – Live at Steel City Coffeehouse",
+    "title": "Craig Bickhardt Band \u2013 Live at Steel City Coffeehouse",
     "venue_info": {
       "name": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
       "location": {
@@ -631,37 +631,9 @@
     "action_link": "https://www.steelcityphx.com/concerts-and-events"
   },
   {
-    "id": "discovered_souljoels_alumni_allstars_20261105",
-    "type": "event",
-    "title": "SoulJoel's Alumni Allstars Comedy Show",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "November 5, 2026 7:30 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Alumni Showcase",
-        "Local Comedians",
-        "Thursday Night",
-        "Pottstown"
-      ],
-      "price": "$10 GA / $20 Preferred"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/souljoelalumniallstars/"
-  },
-  {
     "id": "discovered_judy_collins_farewell_colonial_20261120",
     "type": "event",
-    "title": "Judy Collins – Sweet Judy Blue Eyes: Farewell Tour",
+    "title": "Judy Collins \u2013 Sweet Judy Blue Eyes: Farewell Tour",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -691,7 +663,7 @@
   {
     "id": "discovered_rachael_vilray_colonial_20261211",
     "type": "event",
-    "title": "Rachael & Vilray – Live at Colonial Theatre",
+    "title": "Rachael & Vilray \u2013 Live at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -721,7 +693,7 @@
   {
     "id": "discovered_rael_genesis_colonial_20261106",
     "type": "event",
-    "title": "RAEL: A Genesis & Peter Gabriel Experience – Live at Colonial Theatre",
+    "title": "RAEL: A Genesis & Peter Gabriel Experience \u2013 Live at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -751,7 +723,7 @@
   {
     "id": "discovered_vanessa_collier_colonial_20261112",
     "type": "event",
-    "title": "Vanessa Collier – Music For Everyone Series at Colonial Theatre",
+    "title": "Vanessa Collier \u2013 Music For Everyone Series at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -781,7 +753,7 @@
   {
     "id": "discovered_90s_night_colonial_20261113",
     "type": "event",
-    "title": "90s Night with DJ Moshe – 30th Anniversary Celebration at Colonial",
+    "title": "90s Night with DJ Moshe \u2013 30th Anniversary Celebration at Colonial",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -842,7 +814,7 @@
   {
     "id": "discovered_boat_house_row_colonial_20261127",
     "type": "event",
-    "title": "Boat House Row – The Yacht Rock Experience at Colonial Theatre",
+    "title": "Boat House Row \u2013 The Yacht Rock Experience at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -904,7 +876,7 @@
   {
     "id": "discovered_dale_jones_souljoels_20261106",
     "type": "event",
-    "title": "Dale Jones – Live Stand-Up Comedy at SoulJoel's",
+    "title": "Dale Jones \u2013 Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -931,7 +903,7 @@
   {
     "id": "discovered_rocky_dale_davis_souljoels_20261120",
     "type": "event",
-    "title": "Rocky Dale Davis – Live Stand-Up Comedy at SoulJoel's",
+    "title": "Rocky Dale Davis \u2013 Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -986,7 +958,7 @@
   {
     "id": "discovered_eleanor_kerrigan_souljoels_20261128",
     "type": "event",
-    "title": "Eleanor Kerrigan – Live Stand-Up Comedy at SoulJoel's",
+    "title": "Eleanor Kerrigan \u2013 Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -1013,7 +985,7 @@
   {
     "id": "discovered_circle_mirror_transformation_20261106",
     "type": "event",
-    "title": "Circle Mirror Transformation – Site Unseen Theatre at Phoenixville Rec Center",
+    "title": "Circle Mirror Transformation \u2013 Site Unseen Theatre at Phoenixville Rec Center",
     "venue_info": {
       "name": "Phoenixville Recreation Center, 501 Franklin Ave, Phoenixville",
       "location": {
@@ -1043,7 +1015,7 @@
   {
     "id": "discovered_circle_mirror_transformation_20261107",
     "type": "event",
-    "title": "Circle Mirror Transformation – Site Unseen Theatre at Phoenixville Rec Center (Matinee)",
+    "title": "Circle Mirror Transformation \u2013 Site Unseen Theatre at Phoenixville Rec Center (Matinee)",
     "venue_info": {
       "name": "Phoenixville Recreation Center, 501 Franklin Ave, Phoenixville",
       "location": {
@@ -1073,7 +1045,7 @@
   {
     "id": "discovered_murder_mystery_souljoels_20261111",
     "type": "event",
-    "title": "Once Bitten Twice Dead – Themed Murder Mystery Dinner at SoulJoel's",
+    "title": "Once Bitten Twice Dead \u2013 Themed Murder Mystery Dinner at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -1103,7 +1075,7 @@
   {
     "id": "discovered_die_laughing_thanksgiving_eve_rivet_20261125",
     "type": "event",
-    "title": "Die Laughing Open Mic – Thanksgiving Eve Edition at Rivet",
+    "title": "Die Laughing Open Mic \u2013 Thanksgiving Eve Edition at Rivet",
     "venue_info": {
       "name": "Rivet: Canteen & Assembly, 238 E High St, Pottstown",
       "location": {
@@ -1132,7 +1104,7 @@
   {
     "id": "discovered_phoenixville_bed_races_20261107",
     "type": "event",
-    "title": "Phoenixville Bed Races – Annual Fundraiser for Good Samaritan Services",
+    "title": "Phoenixville Bed Races \u2013 Annual Fundraiser for Good Samaritan Services",
     "venue_info": {
       "name": "Reeves Park, 2nd Ave, Phoenixville",
       "location": {
@@ -1164,7 +1136,7 @@
   {
     "id": "discovered_gem_revue_anniversary_20261107",
     "type": "event",
-    "title": "The Gem Revue – 2nd Anniversary Show",
+    "title": "The Gem Revue \u2013 2nd Anniversary Show",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -1194,7 +1166,7 @@
   {
     "id": "discovered_jtbc_gem_20261113",
     "type": "event",
-    "title": "Jackson Taylor Blues Co. (JTBc) – Live at The Gem",
+    "title": "Jackson Taylor Blues Co. (JTBc) \u2013 Live at The Gem",
     "venue_info": {
       "name": "The Gem Music Hall, 66 N Main St, Spring City",
       "location": {
@@ -1224,7 +1196,7 @@
   {
     "id": "discovered_not_just_rock_expo_20261127",
     "type": "event",
-    "title": "Not Just Rock Expo 2026 – Record, CD & Music Memorabilia Show",
+    "title": "Not Just Rock Expo 2026 \u2013 Record, CD & Music Memorabilia Show",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, Hall D, Oaks",
       "location": {
@@ -1255,7 +1227,7 @@
   {
     "id": "discovered_forge_holiday_twas_night_20261120",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -1318,7 +1290,7 @@
   {
     "id": "discovered_lil_mo_mozzarella_souljoels_20261113",
     "type": "event",
-    "title": "Lil Mo Mozzarella – Stand-Up Comedy at SoulJoel's",
+    "title": "Lil Mo Mozzarella \u2013 Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -1378,9 +1350,9 @@
   {
     "id": "discovered_romeo_delight_souljoels_20261106",
     "type": "event",
-    "title": "Romeo Delight – The Ultimate Van Halen Experience at SoulJoel's",
+    "title": "Romeo Delight \u2013 The Ultimate Van Halen Experience at SoulJoel's",
     "venue_info": {
-      "name": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, 50 SunnyBrook Rd, Pottstown",
+      "name": "SoulJoel's at SunnyBrook \u2013 SunnyBrook Ballroom, 50 SunnyBrook Rd, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -1407,7 +1379,7 @@
   {
     "id": "discovered_forge_holiday_twas_night_20261121",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre (Saturday)",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre (Saturday)",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -1438,7 +1410,7 @@
   {
     "id": "discovered_forge_twas_night_20261204",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -1470,7 +1442,7 @@
   {
     "id": "discovered_forge_twas_night_20261205",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -1502,7 +1474,7 @@
   {
     "id": "discovered_forge_twas_night_20261206",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre (Matinee)",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre (Matinee)",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -1534,7 +1506,7 @@
   {
     "id": "discovered_forge_twas_night_20261211",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -1566,7 +1538,7 @@
   {
     "id": "discovered_forge_twas_night_20261212",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -1598,7 +1570,7 @@
   {
     "id": "discovered_forge_twas_night_20261213",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre (Matinee)",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre (Matinee)",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -1630,7 +1602,7 @@
   {
     "id": "discovered_broadway_at_colonial_20261121",
     "type": "event",
-    "title": "Broadway at the Colonial – Roscioli, Gotay & Pimentel",
+    "title": "Broadway at the Colonial \u2013 Roscioli, Gotay & Pimentel",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1693,7 +1665,7 @@
   {
     "id": "discovered_exhumed_films_terror_telethon_colonial_20261122",
     "type": "event",
-    "title": "Exhumed Films Presents Terror Tele-Thon on 16mm – Colonial Theatre",
+    "title": "Exhumed Films Presents Terror Tele-Thon on 16mm \u2013 Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1725,7 +1697,7 @@
   {
     "id": "discovered_rugged_indy_trail_festival_20261115",
     "type": "event",
-    "title": "The Rugged Indy 2026 – Trail Race Festival at Independence Park",
+    "title": "The Rugged Indy 2026 \u2013 Trail Race Festival at Independence Park",
     "venue_info": {
       "name": "Independence Park, East Vincent Township, Spring City",
       "location": {
@@ -1791,7 +1763,7 @@
   {
     "id": "discovered_joe_derosa_home_holidays2_colonial_20261219",
     "type": "event",
-    "title": "Joe DeRosa: Home for the Holidays 2 – Lost in Phoenixville",
+    "title": "Joe DeRosa: Home for the Holidays 2 \u2013 Lost in Phoenixville",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1820,7 +1792,7 @@
   {
     "id": "discovered_philly_show_sports_cards_oaks_20261211",
     "type": "event",
-    "title": "The Philly Show – Sports Card & Memorabilia Show",
+    "title": "The Philly Show \u2013 Sports Card & Memorabilia Show",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
       "location": {
@@ -1831,7 +1803,7 @@
     "raw_date_string": "Dec 11-13, 2026",
     "attributes": {
       "category": "Community Event",
-      "time": "Fri 1–8 PM / Sat–Sun 9:30 AM",
+      "time": "Fri 1\u20138 PM / Sat\u2013Sun 9:30 AM",
       "vibes": [
         "Sports Cards",
         "Memorabilia",
@@ -1948,7 +1920,7 @@
   {
     "id": "discovered_beer_bagel_run_10mi_20261107",
     "type": "event",
-    "title": "Beer & Bagel Run – 10-Mile Trail Run at Yeager's Farm",
+    "title": "Beer & Bagel Run \u2013 10-Mile Trail Run at Yeager's Farm",
     "venue_info": {
       "name": "Yeager's Farm & Market, 1015 Pike Springs Rd, Phoenixville",
       "location": {
@@ -1979,7 +1951,7 @@
   {
     "id": "discovered_beer_bagel_run_4mi_20261108",
     "type": "event",
-    "title": "Beer & Bagel Run – 4-Mile Trail Run at Yeager's Farm",
+    "title": "Beer & Bagel Run \u2013 4-Mile Trail Run at Yeager's Farm",
     "venue_info": {
       "name": "Yeager's Farm & Market, 1015 Pike Springs Rd, Phoenixville",
       "location": {
@@ -2010,7 +1982,7 @@
   {
     "id": "discovered_old_school_crosseyed_mary_watertower_20261107",
     "type": "event",
-    "title": "Old School with Cross Eyed Mary – Live at Water Tower Live",
+    "title": "Old School with Cross Eyed Mary \u2013 Live at Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live at Arnold's Entertainment Center, Oaks",
       "location": {
@@ -2039,7 +2011,7 @@
   {
     "id": "discovered_mct_pippin_shannondell_20261107",
     "type": "event",
-    "title": "MCT Presents PIPPIN – Methacton Community Theatre",
+    "title": "MCT Presents PIPPIN \u2013 Methacton Community Theatre",
     "venue_info": {
       "name": "Shannondell Performing Arts Theater, 1 Shannondell Dr, Audubon",
       "location": {
@@ -2069,7 +2041,7 @@
   {
     "id": "discovered_mct_pippin_shannondell_relaxed_20261108",
     "type": "event",
-    "title": "MCT Presents PIPPIN – Relaxed Matinee (Methacton Community Theatre)",
+    "title": "MCT Presents PIPPIN \u2013 Relaxed Matinee (Methacton Community Theatre)",
     "venue_info": {
       "name": "Shannondell Performing Arts Theater, 1 Shannondell Dr, Audubon",
       "location": {
@@ -2098,7 +2070,7 @@
   {
     "id": "discovered_mct_pippin_shannondell_20261113",
     "type": "event",
-    "title": "MCT Presents PIPPIN – Friday Evening (Methacton Community Theatre)",
+    "title": "MCT Presents PIPPIN \u2013 Friday Evening (Methacton Community Theatre)",
     "venue_info": {
       "name": "Shannondell Performing Arts Theater, 1 Shannondell Dr, Audubon",
       "location": {
@@ -2127,7 +2099,7 @@
   {
     "id": "discovered_mct_pippin_shannondell_20261114",
     "type": "event",
-    "title": "MCT Presents PIPPIN – Closing Weekend (Methacton Community Theatre)",
+    "title": "MCT Presents PIPPIN \u2013 Closing Weekend (Methacton Community Theatre)",
     "venue_info": {
       "name": "Shannondell Performing Arts Theater, 1 Shannondell Dr, Audubon",
       "location": {
@@ -2157,7 +2129,7 @@
   {
     "id": "discovered_mct_pippin_shannondell_asl_20261115",
     "type": "event",
-    "title": "MCT Presents PIPPIN – ASL-Interpreted Matinee (Methacton Community Theatre)",
+    "title": "MCT Presents PIPPIN \u2013 ASL-Interpreted Matinee (Methacton Community Theatre)",
     "venue_info": {
       "name": "Shannondell Performing Arts Theater, 1 Shannondell Dr, Audubon",
       "location": {
