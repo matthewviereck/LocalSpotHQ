@@ -89,7 +89,8 @@ jobs:
           # on exactly the pages organic search lands on.
           for p in output/phoenixville/this-weekend/index.html \
                    output/phoenixville/guides/index.html \
-                   output/phoenixville/weekend-case/index.html; do
+                   output/phoenixville/weekend-case/index.html \
+                   output/west_chester/guides/index.html; do
             grep -q 'G-FXMDYPK8KZ' "$p" || { echo "GA tag missing from $p"; exit 1; }
           done
           # Refuse to ship a gutted build (e.g. every scraper failed and the
