@@ -4597,5 +4597,527 @@
       "image": ""
     },
     "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1402361290"
+  },
+  {
+    "id": "discovered_wcu_opera_cabildo_20261113",
+    "type": "event",
+    "title": "WCU Opera Theatre: Cabildo",
+    "venue_info": {
+      "name": "Emilie K. Asplundh Concert Hall, West Chester",
+      "location": {
+        "lat": 39.95,
+        "lng": -75.599
+      }
+    },
+    "raw_date_string": "Nov 13 - 14, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Opera"
+      ],
+      "price": "$8.25; free for WCU students and staff",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1397818684"
+  },
+  {
+    "id": "discovered_wcu_vocal_latin_jazz_20261119",
+    "type": "event",
+    "title": "WCU Vocal Jazz & Latin Jazz Ensembles Concert",
+    "venue_info": {
+      "name": "Madeleine Wing Adler Theatre, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Nov 19, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1399153027"
+  },
+  {
+    "id": "discovered_wcu_symphony_prokofiev_20261121",
+    "type": "event",
+    "title": "WCU Symphony Orchestra: A Portrait of Prokofiev",
+    "venue_info": {
+      "name": "Madeleine Wing Adler Theatre, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Nov 21, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Free",
+        "Classical"
+      ],
+      "price": "Free",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1399360781"
+  },
+  {
+    "id": "discovered_wcu_wind_symphony_concert_band_20261122",
+    "type": "event",
+    "title": "WCU Wind Symphony & Concert Band: Dance Atlas",
+    "venue_info": {
+      "name": "Madeleine Wing Adler Theatre, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Nov 22, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Free"
+      ],
+      "price": "Free",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1399475180"
+  },
+  {
+    "id": "discovered_wcu_statesmen_steel_band_20261130",
+    "type": "event",
+    "title": "WCU Statesmen & Steel Band: A Tribute to Sonny Rollins",
+    "venue_info": {
+      "name": "Madeleine Wing Adler Theatre, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Nov 30, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Free",
+        "Jazz"
+      ],
+      "price": "Free",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1401586933"
+  },
+  {
+    "id": "discovered_wcu_wind_ensemble_20261206",
+    "type": "event",
+    "title": "WCU Wind Ensemble Concert: Midwest Clinic Preview",
+    "venue_info": {
+      "name": "Madeleine Wing Adler Theatre, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Dec 6, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Free"
+      ],
+      "price": "Free",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1402829872"
+  },
+  {
+    "id": "discovered_cchc_season_of_lights_20261202",
+    "type": "event",
+    "title": "Season of Lights at the Chester County History Center",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Dec 2 - Jan 2, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Holiday",
+        "Family Friendly",
+        "Indoor"
+      ],
+      "price": "$10 adults; $7 seniors; $5 children and students",
+      "time": "10:00 AM - 4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mycchc.org/calendar-events/season-of-lights-copy/"
+  },
+  {
+    "id": "discovered_cchc_walking_tour_revolutionary_wc_20261114",
+    "type": "event",
+    "title": "Walking Tour: Revolutionary West Chester",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Nov 14, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "History"
+      ],
+      "price": "$16",
+      "time": "11:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mycchc.org/calendar-events/walking-tour-revolutionary-west-chester/2026-11-14/"
+  },
+  {
+    "id": "discovered_cchc_exhibition_tour_whose_revolution_20261118",
+    "type": "event",
+    "title": "Exhibition Tour: Whose Revolution?",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Nov 18, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "History"
+      ],
+      "price": "$16 adults; $5 students",
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mycchc.org/calendar-events/exhibition-tour-whose-revolution/2026-11-18/"
+  },
+  {
+    "id": "discovered_salt_newsies_20261120",
+    "type": "event",
+    "title": "SALT Performing Arts: Disney's Newsies",
+    "venue_info": {
+      "name": "SALT Performing Arts, Chester Springs",
+      "location": {
+        "lat": 40.0871,
+        "lng": -75.6392
+      }
+    },
+    "raw_date_string": "Nov 20 - Dec 13, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Indoor",
+        "Family Friendly",
+        "Musical"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mychesco.com/a/entertainment/arts-culture/salt-brings-disneys-newsies-to-chester-springs-for-the-holidays/"
+  },
+  {
+    "id": "discovered_beans_story_slam_grand_slam_20261112",
+    "type": "event",
+    "title": "The Beans Story Slam: 2026 Grand Slam",
+    "venue_info": {
+      "name": "United Methodist Church of West Chester, West Chester",
+      "location": {
+        "lat": 39.9588,
+        "lng": -75.6057
+      }
+    },
+    "raw_date_string": "Nov 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Indoor",
+        "Storytelling"
+      ],
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mychesco.com/a/entertainment/west-chesters-best-storytellers-face-off-in-grand-slam-showdown/"
+  },
+  {
+    "id": "discovered_sugartown_holiday_craft_market_20261205",
+    "type": "event",
+    "title": "Historic Sugartown Holiday Craft Market",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0284,
+        "lng": -75.5344
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Holiday",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "$10 adults; children free",
+      "time": "12:00 PM - 4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/holiday-craft-market-2025-2/"
+  },
+  {
+    "id": "discovered_santa_on_the_firetruck_20261128",
+    "type": "event",
+    "title": "Santa on the Firetruck",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Nov 28, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Holiday"
+      ],
+      "price": "Free",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.greaterwestchester.com/santafiretruck.html"
+  },
+  {
+    "id": "discovered_santa_on_the_firetruck_20261205",
+    "type": "event",
+    "title": "Santa on the Firetruck",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Holiday"
+      ],
+      "price": "Free",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.greaterwestchester.com/santafiretruck.html"
+  },
+  {
+    "id": "discovered_santa_on_the_firetruck_20261219",
+    "type": "event",
+    "title": "Santa on the Firetruck",
+    "venue_info": {
+      "name": "Downtown West Chester, West Chester",
+      "location": {
+        "lat": 39.9601,
+        "lng": -75.6055
+      }
+    },
+    "raw_date_string": "Dec 19, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Holiday"
+      ],
+      "price": "Free",
+      "time": "3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.greaterwestchester.com/santafiretruck.html"
+  },
+  {
+    "id": "discovered_wreaths_across_america_paoli_20261219",
+    "type": "event",
+    "title": "Wreaths Across America at Paoli Memorial Grounds",
+    "venue_info": {
+      "name": "Paoli Memorial Grounds, Malvern",
+      "location": {
+        "lat": 40.0409,
+        "lng": -75.5213
+      }
+    },
+    "raw_date_string": "Dec 19, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Outdoor",
+        "Free"
+      ],
+      "price": "Free",
+      "time": "11:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.malvern.org/Calendar.aspx?EID=644"
+  },
+  {
+    "id": "discovered_plein_air_inside_out_20270319",
+    "type": "event",
+    "title": "Plein Air Inside Out",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8693,
+        "lng": -75.5933
+      }
+    },
+    "raw_date_string": "Mar 19, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Workshop",
+        "Indoor"
+      ],
+      "price": "$20 ($10 members)",
+      "time": "9:30 AM - 2:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/plein-air-inside-out-8"
+  },
+  {
+    "id": "discovered_flight_nights_canceled_flights_20270217",
+    "type": "event",
+    "title": "Flight Nights: Canceled Flights",
+    "venue_info": {
+      "name": "People's Light, Malvern",
+      "location": {
+        "lat": 40.0445,
+        "lng": -75.5432
+      }
+    },
+    "raw_date_string": "Feb 17, 2027",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Evening"
+      ],
+      "price": "$40",
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://tickets.peopleslight.org/106840/106847"
+  },
+  {
+    "id": "discovered_bvs_mothers_day_family_concert_20270508",
+    "type": "event",
+    "title": "Brandywine Valley Symphony: Mother's Day Family Concert",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "May 8, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Family Friendly",
+        "Classical"
+      ],
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://bvsymphony.org/event/mothers-day-family-concert/"
+  },
+  {
+    "id": "discovered_bvs_masterworks_iii_20270612",
+    "type": "event",
+    "title": "Brandywine Valley Symphony: Masterworks III at Longwood",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Jun 12, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Outdoor",
+        "Classical"
+      ],
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://bvsymphony.org/event/masterworks-3-concert/"
   }
 ]
