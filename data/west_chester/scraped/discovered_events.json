@@ -24,32 +24,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
   },
   {
-    "id": "discovered_an_evening_with_marty_o_20261106",
-    "type": "event",
-    "title": "An Evening With Marty O'Reilly",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Nov 6, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$20-$23",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/an-evening-with-marty-oreilly/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_ceramics_national_20261106",
     "type": "event",
     "title": "Ceramics National",
@@ -1641,32 +1615,6 @@
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-2"
   },
   {
-    "id": "discovered_bmoa_plein_air_kuerner_20261106",
-    "type": "event",
-    "title": "Plein Air Day at Kuerner Farm",
-    "venue_info": {
-      "name": "Kuerner Farm, Chadds Ford",
-      "location": {
-        "lat": 39.8714,
-        "lng": -75.579
-      }
-    },
-    "raw_date_string": "Nov 6, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Workshop"
-      ],
-      "price": "$20 ($15 members)",
-      "time": "9:30 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/plein-air-day-kuerner-farm-10"
-  },
-  {
     "id": "discovered_bmoa_plein_air_kuerner_20261108",
     "type": "event",
     "title": "Plein Air Day at Kuerner Farm",
@@ -2186,31 +2134,6 @@
       "image": ""
     },
     "action_link": "https://www.mychesco.com/a/communities/kennett-square/clover-market-brings-nearly-100-vendors-to-kennett-square/"
-  },
-  {
-    "id": "discovered_wcu_jazz_welcome_concert_20261106",
-    "type": "event",
-    "title": "100 Years of Jazz: Criterions & Statesmen Welcome Concert",
-    "venue_info": {
-      "name": "Emilie K. Asplundh Concert Hall, West Chester",
-      "location": {
-        "lat": 39.9525,
-        "lng": -75.599
-      }
-    },
-    "raw_date_string": "Nov 6, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor"
-      ],
-      "price": "",
-      "time": "7:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/music/criterions/100-years-of-jazz/default.aspx"
   },
   {
     "id": "discovered_wcu_jazz_centennial_20261108",
@@ -5119,5 +5042,323 @@
       "image": ""
     },
     "action_link": "https://bvsymphony.org/event/masterworks-3-concert/"
+  },
+  {
+    "id": "discovered_wcpl_holiday_home_tour_20261205",
+    "type": "event",
+    "title": "West Chester Public Library Holiday Home Tour",
+    "venue_info": {
+      "name": "West Chester Public Library, West Chester",
+      "location": {
+        "lat": 39.964,
+        "lng": -75.603
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Holiday",
+        "Historic",
+        "Tour"
+      ],
+      "price": "$45 advance, $55 day of",
+      "time": "10:00 AM - 3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcpubliclibrary.org/holidayhometour"
+  },
+  {
+    "id": "discovered_too_many_detectives_immaculata_20261113",
+    "type": "event",
+    "title": "Too Many Detectives at the Murder Mansion (Immaculata Cue & Curtain)",
+    "venue_info": {
+      "name": "Immaculata University Alumnae Hall, Malvern",
+      "location": {
+        "lat": 40.0343,
+        "lng": -75.557
+      }
+    },
+    "raw_date_string": "Nov 13 - 15, 2026",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Comedy",
+        "Mystery",
+        "Student Theater"
+      ],
+      "price": "$10 ($5 students)",
+      "time": "7:00 PM Fri & Sat, 2:00 PM Sat & Sun"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.immaculata.edu/event/too-many-detectives-at-the-murder-mansion/2026-11-13/"
+  },
+  {
+    "id": "discovered_immaculata_carol_night_20261204",
+    "type": "event",
+    "title": "The 105th Celebration of Carol Night at Immaculata",
+    "venue_info": {
+      "name": "Immaculata University Rotunda (Villa Maria Hall), Malvern",
+      "location": {
+        "lat": 40.0343,
+        "lng": -75.557
+      }
+    },
+    "raw_date_string": "Dec 4, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Holiday",
+        "Choral"
+      ],
+      "price": "Free",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.immaculata.edu/event/the-105th-celebration-of-carol-night/"
+  },
+  {
+    "id": "discovered_brc_pictures_with_santa_20261205",
+    "type": "event",
+    "title": "Pictures with Santa and His Animals",
+    "venue_info": {
+      "name": "Myrick Conservation Center (Brandywine Red Clay Alliance), West Chester",
+      "location": {
+        "lat": 39.9056,
+        "lng": -75.6823
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Outdoor",
+        "Animals"
+      ],
+      "price": "$10 members / $20 non-members",
+      "time": "12:00 PM - 2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://brandywineredclay.org/event/pictures-with-santa-and-his-animals/"
+  },
+  {
+    "id": "discovered_esherick_winter_solstice_20261221",
+    "type": "event",
+    "title": "Winter Solstice at the Studio: Gathering Stories of Esherick",
+    "venue_info": {
+      "name": "Wharton Esherick Museum, Malvern",
+      "location": {
+        "lat": 40.0548,
+        "lng": -75.4985
+      }
+    },
+    "raw_date_string": "Dec 21, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Tour",
+        "Historic",
+        "Storytelling"
+      ],
+      "price": "$30 ($25 members)",
+      "time": "10:00 AM or 1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://whartonesherickmuseum.org/event/winter-solstice-at-the-studio/"
+  },
+  {
+    "id": "discovered_longwood_conte_ennis_20270407",
+    "type": "event",
+    "title": "Peter Richard Conte & Andrew Ennis: Organ and Trumpet at Longwood",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Apr 7, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Classical",
+        "Organ",
+        "Ticketed"
+      ],
+      "price": "Ticketed",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/music-performances-theater"
+  },
+  {
+    "id": "discovered_longwood_aaron_patterson_20270411",
+    "type": "event",
+    "title": "Organist Aaron Patterson in Concert",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Apr 11, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Classical",
+        "Organ"
+      ],
+      "price": "Free with Gardens admission",
+      "time": "1:00 PM & 3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/music-performances-theater"
+  },
+  {
+    "id": "discovered_longwood_curtis_recital_20270418",
+    "type": "event",
+    "title": "Curtis Student Recital at Longwood",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Apr 18, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Classical",
+        "Chamber Music"
+      ],
+      "price": "Free with Gardens admission",
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/music-performances-theater"
+  },
+  {
+    "id": "discovered_longwood_international_organ_day_20270424",
+    "type": "event",
+    "title": "International Organ Day at Longwood Gardens",
+    "venue_info": {
+      "name": "Longwood Gardens, Kennett Square",
+      "location": {
+        "lat": 39.8703,
+        "lng": -75.6738
+      }
+    },
+    "raw_date_string": "Apr 24, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Organ",
+        "Family Friendly"
+      ],
+      "price": "Free with Gardens admission",
+      "time": "11:30 AM & 1:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://longwoodgardens.org/events-performances/music-performances-theater"
+  },
+  {
+    "id": "discovered_jenkins_forest_music_concert_20261108",
+    "type": "event",
+    "title": "Views of the Forest Through the Lens of Music: Violin & Cello Concert",
+    "venue_info": {
+      "name": "Jenkins Arboretum & Gardens, Devon",
+      "location": {
+        "lat": 40.0498,
+        "lng": -75.4536
+      }
+    },
+    "raw_date_string": "Nov 8, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Classical",
+        "Garden"
+      ],
+      "price": "$35 ($30 members)",
+      "time": "2:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.jenkinsarboretum.org/event/views-of-the-forest-through-the-lens-of-music-concert-3/"
+  },
+  {
+    "id": "discovered_cchc_walking_tour_revolutionary_wc_20261121",
+    "type": "event",
+    "title": "Walking Tour: Revolutionary West Chester",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Nov 21, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "History"
+      ],
+      "price": "$16",
+      "time": "11:00 AM - 12:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mycchc.org/calendar-events/walking-tour-revolutionary-west-chester/2026-11-21/"
+  },
+  {
+    "id": "discovered_cchc_exhibition_tour_whose_revolution_20261219",
+    "type": "event",
+    "title": "Exhibition Tour: Whose Revolution?",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Dec 19, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Indoor",
+        "History"
+      ],
+      "price": "$16 adults; $5 students",
+      "time": "11:00 AM - 12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mycchc.org/calendar-events/exhibition-tour-whose-revolution/2026-12-19/"
   }
 ]
