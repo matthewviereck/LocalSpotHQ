@@ -1,5 +1,23 @@
 [
   {
+    "title": "Whole Foods, L.L. Bean and 122 Toll townhomes fill out the District at Black Rock",
+    "category": "Development",
+    "summary": "The mixed-use project rising on the old Quest Diagnostics campus at 1201 S. Collegeville Road is 89 percent pre-leased as construction starts, with Whole Foods, L.L. Bean and Barnes & Noble anchoring more than 148,000 square feet of retail alongside J. Crew, Sephora and Shake Shack. Toll Brothers bought an adjacent 7.3 acres for 122 townhomes, and the center is slated to finish in late 2027.",
+    "date": "2026-11-07",
+    "loc": "1201 S. Collegeville Road, Upper Providence Township",
+    "link": "https://montco.today/2026/11/toll-brothers-whole-foods-coming-to-upper-providence/",
+    "img": ""
+  },
+  {
+    "title": "Phoenixville Hospital lost $10 million while parent Tower Health turned its first profit",
+    "category": "News",
+    "summary": "Audited results for the year ended June 30 show Tower Health earning an $8.5 million operating profit on $2.07 billion in revenue, its first since forming in 2017, but Phoenixville Hospital, its last acute-care hospital in Chester County, lost $10 million. Reading Hospital carried the system while Pottstown Hospital and the physician group posted deeper losses.",
+    "date": "2026-11-06",
+    "loc": "140 Nutt Road, Phoenixville",
+    "link": "https://www.mychesco.com/a/news/business/tower-health-turns-profit-as-phoenixville-hospital-loses-10m/",
+    "img": ""
+  },
+  {
     "title": "Borough orders gasoline cleanup under the Rita's lot on Nutt Road",
     "category": "Development",
     "summary": "Leaking underground tanks from the property's gas station days left gasoline in the groundwater at 472 and 478 Nutt Road, now home to Rita's Water Ice. The borough has told owner Three Six Properties to file a remedial investigation report and cleanup plan with the state DEP; work dates have not been set.",
@@ -63,30 +81,12 @@
     "img": ""
   },
   {
-    "title": "Bed Races roll down Third Avenue at Reeves Park on Saturday, Nov. 7",
-    "category": "News",
-    "summary": "Teams push decorated beds on wheels from 11 a.m. to 2 p.m., with a $1-a-vote Best Bed Theme contest until noon and the racing heats starting at noon. The day raises money for Ann's Heart and Good Samaritan Services, with food from local eateries, kids' crafts and face painting alongside the course.",
-    "date": "2026-10-30",
-    "loc": "Third Avenue at Reeves Park, Phoenixville",
-    "link": "https://www.pxvbedraces.org/event-info",
-    "img": ""
-  },
-  {
     "title": "Chicken Salad Chick sets Nov. 18 opening at Providence Town Center",
     "category": "Opening Soon",
     "summary": "The Southern fast-casual chain's first Philadelphia-area restaurant takes the former Z!Eats space and will seat 55, with free chicken salad for a year promised to the first 100 guests. The local franchise group plans six locations across Montgomery and Chester counties.",
     "date": "2026-10-29",
     "loc": "500 Broad St., Providence Town Center, Collegeville",
     "link": "https://montco.today/2026/10/chicken-salad-chick-collegeville-opening/",
-    "img": ""
-  },
-  {
-    "title": "Super Wawa on Route 23 opens on the former Exxon site",
-    "category": "Now Open",
-    "summary": "The long-awaited store at 799 Valley Forge Road in Schuylkill Township, just over the borough line, opened Oct. 22 with 10 gas pumps and a 24-hour convenience store. Traffic was the neighbors' main worry, and a Sheetz was approved for the former Royal Bank site nearby at nearly the same time.",
-    "date": "2026-10-19",
-    "loc": "799 Valley Forge Road, Schuylkill Township",
-    "link": "https://patch.com/pennsylvania/phoenixville/after-years-anticipation-new-route-23-wawa-nears-opening",
     "img": ""
   }
 ]
