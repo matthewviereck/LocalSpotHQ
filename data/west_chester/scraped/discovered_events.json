@@ -50,128 +50,6 @@
     "action_link": "https://yellowsprings.org/events/ceramics-national/"
   },
   {
-    "id": "discovered_wcu_fall_dance_concert_20261106",
-    "type": "event",
-    "title": "WCU Fall Dance Concert",
-    "venue_info": {
-      "name": "Madeleine Wing Adler Theatre, West Chester",
-      "location": {
-        "lat": 39.9481,
-        "lng": -75.6018
-      }
-    },
-    "raw_date_string": "Nov 6 - 7, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/arts-humanities/theatreDance/currentSeason.aspx"
-  },
-  {
-    "id": "discovered_flag_retirement_ceremony_20261107",
-    "type": "event",
-    "title": "Flag Retirement Ceremony",
-    "venue_info": {
-      "name": "Brandywine Battlefield Park, Chadds Ford",
-      "location": {
-        "lat": 39.8737,
-        "lng": -75.5836
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywinebattlefield.org/events/"
-  },
-  {
-    "id": "discovered_sugartown-gold-tooling_20261107",
-    "type": "event",
-    "title": "Gold Tooling Workshop",
-    "venue_info": {
-      "name": "Historic Sugartown, Malvern",
-      "location": {
-        "lat": 40.0284,
-        "lng": -75.5344
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "Hands On"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://historicsugartown.org/events/gold-tooling-workshop/2026-11-07/"
-  },
-  {
-    "id": "discovered_love_you_to_a_tribute_20261107",
-    "type": "event",
-    "title": "Love You To: A Tribute to The Beatles",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$30-$33",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/love-you-to-a-tribute-to-the-beatles-2/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_wcu_football_vs_shippensburg_20261107",
-    "type": "event",
-    "title": "WCU Football vs. Shippensburg",
-    "venue_info": {
-      "name": "Farrell Stadium, West Chester",
-      "location": {
-        "lat": 39.9469,
-        "lng": -75.5983
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "time": "2:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wcupagoldenrams.com/sports/football/schedule/2026"
-  },
-  {
     "id": "discovered_joe_deninzon_stratospheerius_with_jane_20261108",
     "type": "event",
     "title": "Joe Deninzon & Stratospheerius with Jane Getter Premonition",
@@ -1145,58 +1023,6 @@
     "action_link": "https://kennettflash.org/event/garrett-boys/kennett-flash/kennett-square-pennsylvania/"
   },
   {
-    "id": "discovered_medical_mayhem_cchc_20261107",
-    "type": "event",
-    "title": "Medical Mayhem! A Family Program",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.9619,
-        "lng": -75.6047
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family",
-        "Indoor"
-      ],
-      "price": "$9 adults; $7 ages 6-18; under 6 free",
-      "time": "11:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2437815"
-  },
-  {
-    "id": "discovered_mushroom_cap_half_20261107",
-    "type": "event",
-    "title": "Mushroom Cap Half Marathon & FunGi 5 Miler",
-    "venue_info": {
-      "name": "Birch Street & Church Alley, Kennett Square",
-      "location": {
-        "lat": 39.8468,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Outdoor",
-        "Race"
-      ],
-      "price": "$83.30 (5 miler) / $147.50 (half)",
-      "time": "8:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://raceroster.com/events/2026/139589/11th-mushroom-cap-half-marathon-and-fungi-5-miler"
-  },
-  {
     "id": "discovered_chesco_turkey_trot_20261126",
     "type": "event",
     "title": "Chester County Turkey Trot 5K & 2K Walk",
@@ -1222,32 +1048,6 @@
       "image": ""
     },
     "action_link": "https://runsignup.com/Race/PA/Downingtown/ChesterCountyTurkeyTrot"
-  },
-  {
-    "id": "discovered_ralston_conkling_20261107",
-    "type": "event",
-    "title": "An Evening with Peter Ralston and Philip Conkling",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.5906
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "Talk"
-      ],
-      "price": "$30 ($20 members)",
-      "time": "5:00 PM - 7:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/evening-peter-ralston-and-philip-conkling"
   },
   {
     "id": "discovered_hidden_treasures_talk_20261112",
@@ -1482,32 +1282,6 @@
       "image": ""
     },
     "action_link": "https://kennettflash.org/event/tarkus-a-tribute-to-emerson-lake-and-palmer-2/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_sugartown_shindig_20261107",
-    "type": "event",
-    "title": "Historic Sugartown Shindig",
-    "venue_info": {
-      "name": "Historic Sugartown, Malvern",
-      "location": {
-        "lat": 40.0423,
-        "lng": -75.5425
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Fundraiser",
-        "Live Music"
-      ],
-      "price": "$125",
-      "time": "4:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://historicsugartown.org/events/historic-sugartown-shindig/"
   },
   {
     "id": "discovered_sugartown_marbling_20270109",
@@ -2007,32 +1781,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/events/garden-railway"
   },
   {
-    "id": "discovered_ahm_astronomy_night_20261107",
-    "type": "event",
-    "title": "Family Astronomy Night",
-    "venue_info": {
-      "name": "American Helicopter Museum, West Chester",
-      "location": {
-        "lat": 39.9787,
-        "lng": -75.5843
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family Friendly",
-        "Educational"
-      ],
-      "price": "$15 adults, $14 children",
-      "time": "6:00 PM - 8:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.helicoptermuseum.org/event-details/amber-stuver-memorial-family-astronomy-night-1"
-  },
-  {
     "id": "discovered_ahm_model_train_weekend_20261127",
     "type": "event",
     "title": "Model Train Weekend",
@@ -2239,32 +1987,6 @@
       "image": ""
     },
     "action_link": "https://runsignup.com/Race/PA/WestChester/jinglecarecenterfoundationrun2026"
-  },
-  {
-    "id": "discovered_goose_creek_getdown_20261107",
-    "type": "event",
-    "title": "The Goose Creek Get-Down",
-    "venue_info": {
-      "name": "Unitarian Congregation of West Chester, West Chester",
-      "location": {
-        "lat": 39.9545,
-        "lng": -75.6
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Fundraiser"
-      ],
-      "price": "$30",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.goosecreekalliance.org/events/the-goose-creek-get-down-2026-1"
   },
   {
     "id": "discovered_barley_i_bet_your_life_20261030",
@@ -2500,33 +2222,6 @@
       "image": ""
     },
     "action_link": "https://www.malvern.org/Calendar.aspx?EID=578"
-  },
-  {
-    "id": "discovered_wwt_holiday_craft_fair_20261107",
-    "type": "event",
-    "title": "West Whiteland Holiday Craft Fair",
-    "venue_info": {
-      "name": "Church Farm School Founders Pavilion, Exton",
-      "location": {
-        "lat": 40.0238,
-        "lng": -75.6593
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Shopping",
-        "Holiday"
-      ],
-      "price": "Free",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.westwhiteland.org/Calendar.aspx?EID=1845"
   },
   {
     "id": "discovered_exton_tree_lighting_20261203",
@@ -3465,32 +3160,6 @@
       "image": ""
     },
     "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2477906"
-  },
-  {
-    "id": "discovered_immaculata_symphony_fall_conce_20261107",
-    "type": "event",
-    "title": "Immaculata Symphony Fall Concert: American Symphonies",
-    "venue_info": {
-      "name": "Immaculata University Alumnae Hall, Malvern",
-      "location": {
-        "lat": 40.0343,
-        "lng": -75.557
-      }
-    },
-    "raw_date_string": "Nov 7, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Classical"
-      ],
-      "price": "See site",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://immaculatasymphony.org/event/fall-concert-american-symphonies/"
   },
   {
     "id": "discovered_immaculata_symphony_christmas_20261206",
@@ -5360,5 +5029,111 @@
       "image": ""
     },
     "action_link": "https://mycchc.org/calendar-events/exhibition-tour-whose-revolution/2026-12-19/"
+  },
+  {
+    "id": "discovered_wcu_brass_ensembles_concert_20261123",
+    "type": "event",
+    "title": "WCU Brass Ensembles Concert: A Veterans Tribute",
+    "venue_info": {
+      "name": "Madeleine Wing Adler Theatre, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Nov 23, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Indoor",
+        "Patriotic"
+      ],
+      "price": "Free",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1465552568"
+  },
+  {
+    "id": "discovered_wcu_percussion_ensemble_concert_20261124",
+    "type": "event",
+    "title": "WCU Percussion Ensemble Concert",
+    "venue_info": {
+      "name": "Madeleine Wing Adler Theatre, West Chester",
+      "location": {
+        "lat": 39.9481,
+        "lng": -75.6018
+      }
+    },
+    "raw_date_string": "Nov 24, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Free",
+        "Indoor"
+      ],
+      "price": "Free",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1399997019"
+  },
+  {
+    "id": "discovered_arc_holiday_fun_fest_20261205",
+    "type": "event",
+    "title": "The Arc of Chester County Holiday Fun Fest",
+    "venue_info": {
+      "name": "The Arc of Chester County, West Chester",
+      "location": {
+        "lat": 39.9815,
+        "lng": -75.5668
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Inclusive",
+        "Indoor"
+      ],
+      "price": "$8 kids / $12 adults / $40 family",
+      "time": "9:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mychesco.com/a/entertainment/family-fun/the-arc-of-chester-county-brings-inclusive-holiday-fun-to-chester-county/"
+  },
+  {
+    "id": "discovered_bryn_mawr_rehab_art_exhibition_20261108",
+    "type": "event",
+    "title": "Bryn Mawr Rehab Art Ability Exhibition and Sale",
+    "venue_info": {
+      "name": "Bryn Mawr Rehab Hospital, Malvern",
+      "location": {
+        "lat": 40.0221,
+        "lng": -75.5559
+      }
+    },
+    "raw_date_string": "Nov 8 - Jan 31, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "Indoor",
+        "Exhibition"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://countylinesmagazine.com/event/bryn-mawr-rehabs-annual-exhibition-and-sale/"
   }
 ]
