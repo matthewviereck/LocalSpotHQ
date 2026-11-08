@@ -3,7 +3,7 @@
  "slugs": {
   "13th-comedy-class-graduation-show-at-souljoel-s": {
    "first_seen": "2026-08-21",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "title": "14th Comedy Class Graduation Show – SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-19"
@@ -83,7 +83,7 @@
    "title": "4th annual friendsgiving with the mighty manatees!",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2026-11-28",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "4th-annual-phoenixville-car-show": {
    "first_seen": "2026-08-10",
@@ -97,7 +97,7 @@
    "title": "4th Annual Shop Small Business Saturday at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-28",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "63rd-annual-philadelphia-folk-festival-opening-day": {
    "first_seen": "2026-07-15",
@@ -126,7 +126,7 @@
    "title": "90s Night",
    "venue": "The Colonial Theatre",
    "date": "2026-11-13",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "9th-annual-blobfest-5k-10k-half-marathon": {
    "first_seen": "2026-06-16",
@@ -140,7 +140,7 @@
    "title": "A Charlie Brown Christmas with the Eric Mintel Quartet",
    "venue": "The Colonial Theatre",
    "date": "2026-11-28",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "a-court-of-splintered-harmony-midnight-release-party-at-colonial-theatre": {
    "first_seen": "2026-09-17",
@@ -190,6 +190,14 @@
    "title": "Adam Hunter – Live Stand-Up Comedy",
    "venue": "SoulJoel's at SunnyBrook, Pottstown",
    "date": "2026-09-19"
+  },
+  "aerials-gymnastics-liberty-cup": {
+   "first_seen": "2026-11-08",
+   "title": "Aerials Gymnastics Liberty Cup",
+   "venue": "Greater Philadelphia Expo Center",
+   "date": "2026-12-04",
+   "end": "2026-12-06",
+   "last_seen": "2026-11-08"
   },
   "aj-croce-presents-croce-plays-croce-live-at-colonial": {
    "first_seen": "2026-07-04",
@@ -244,8 +252,8 @@
    "first_seen": "2026-10-19",
    "title": "Ambient Opera & Pau D'Arco",
    "venue": "Steel City Coffeehouse & Brewery",
-   "date": "2026-11-07",
-   "last_seen": "2026-11-07"
+   "date": "2027-11-07",
+   "last_seen": "2026-11-08"
   },
   "american-guitar-show": {
    "first_seen": "2026-10-25",
@@ -253,7 +261,7 @@
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-11-07",
    "end": "2026-11-08",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "americana-indian-jewelry-and-art-sale": {
    "first_seen": "2026-10-27",
@@ -289,7 +297,7 @@
    "title": "ANA GASTEYER SUGAR & BOOZE HOLIDAY SPECTACULAR",
    "venue": "The Colonial Theatre",
    "date": "2026-12-03",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "animate-philadelphia-2026-anime-pop-culture-convention": {
    "first_seen": "2026-09-02",
@@ -311,7 +319,7 @@
    "title": "Anthony Green – East Coast Winters ’26 at Colonial Theatre",
    "venue": "The Colonial Theatre",
    "date": "2026-12-17",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "antique-and-collector-fair": {
    "first_seen": "2026-09-20",
@@ -333,7 +341,7 @@
    "title": "Asi Wind",
    "venue": "The Colonial Theatre",
    "date": "2027-04-09",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "autumn-nicholas-live-at-colonial-theatre": {
    "first_seen": "2026-09-10",
@@ -438,7 +446,7 @@
    "title": "Beer & Bagel Run – 4-Mile Trail Run at Yeager's Farm",
    "venue": "Yeager's Farm & Market, 1015 Pike Springs Rd, Phoenixville",
    "date": "2026-11-08",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "bella-rayne-band-with-crickets-and-cicadas-live-at-the-gem": {
    "first_seen": "2026-07-14",
@@ -459,7 +467,7 @@
    "title": "Better than bacon: A night of improv comedy",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2026-12-05",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "betterducks-with-opener-rodeo-day": {
    "first_seen": "2026-09-26",
@@ -480,7 +488,7 @@
    "title": "Billy Gardell – Live Stand-Up Comedy at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-21",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "bingo-unleashed-canine-rescue-fundraiser-at-twelve78-brewing": {
    "first_seen": "2026-10-03",
@@ -502,7 +510,7 @@
    "venue": "The Colonial Theatre",
    "date": "2027-07-09",
    "end": "2027-07-11",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "blobfest-2026-cirque-du-blobfest": {
    "first_seen": "2026-06-04",
@@ -516,7 +524,7 @@
    "title": "Blobfest - 5K/10K/Half Marathon",
    "venue": "The Colonial Theatre & Downtown",
    "date": "2027-07-11",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "blobfest-afterparty-tribute-of-terror-horror-tribute-bands": {
    "first_seen": "2026-06-29",
@@ -530,28 +538,28 @@
    "title": "Blobfest - Opening Night",
    "venue": "The Colonial Theatre & Downtown",
    "date": "2027-07-09",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "blobfest-street-fair": {
    "first_seen": "2026-09-03",
    "title": "Blobfest - Street Fair",
    "venue": "The Colonial Theatre & Downtown",
    "date": "2027-07-10",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "blue-christmas-a-benefit-for-ann-s-heart": {
    "first_seen": "2026-11-04",
    "title": "Blue Christmas 2026: a benefit for ann's heart",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2026-12-11",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "boat-house-row-yacht-rock-experience": {
    "first_seen": "2026-09-03",
    "title": "Boat House Row – Yacht Rock Experience",
    "venue": "The Colonial Theatre",
    "date": "2026-11-27",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "bob-kelly-dance-party-at-souljoel-s-gatsby-s-pub": {
    "first_seen": "2026-10-12",
@@ -590,25 +598,25 @@
   },
   "brickfair-lego-fan-expo-philadelphia": {
    "first_seen": "2026-09-23",
-   "title": "BrickFair LEGO Fan Expo – Philadelphia",
-   "venue": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
+   "title": "BrickFair LEGO Fan Expo",
+   "venue": "Greater Philadelphia Expo Center",
    "date": "2026-11-07",
    "end": "2026-11-08",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "broadway-at-the-colonial-roscioli-gotay-pimentel": {
    "first_seen": "2026-10-30",
    "title": "Broadway at the Colonial – Roscioli, Gotay & Pimentel",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-11-21",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "broadway-at-the-colonial-theatre": {
    "first_seen": "2026-09-23",
    "title": "Broadway at the Colonial Theatre",
    "venue": "The Colonial Theatre",
    "date": "2026-11-21",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "broadway-at-the-colonial-theatre-stars-of-wicked-frozen-the-great-gatsby": {
    "first_seen": "2026-06-06",
@@ -636,14 +644,14 @@
    "title": "Celtic Christmas Experience – Live at SunnyBrook Ballroom",
    "venue": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
    "date": "2026-12-20",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "ceramics-national-exhibition": {
    "first_seen": "2026-09-05",
    "title": "Ceramics National",
    "venue": "Historic Yellow Springs, Chester Springs",
    "date": "2026-11-06",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "end": "2026-12-13"
   },
   "chester-county-choral-society-winter-holiday-concert": {
@@ -651,7 +659,7 @@
    "title": "Chester County Choral Society Winter Holiday Concert",
    "venue": "Church of the Good Samaritan, Paoli",
    "date": "2026-12-12",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "chester-county-pridefest-2026": {
    "first_seen": "2026-06-04",
@@ -673,6 +681,13 @@
    "title": "Chinaberry Lane w/ Just Todd – Live at The Gem",
    "venue": "The Gem Music Hall, Spring City",
    "date": "2026-07-18"
+  },
+  "christmas-vacation-themed-bingo-night-at-souljoel-s": {
+   "first_seen": "2026-11-08",
+   "title": "Christmas Vacation Themed Bingo Night at SoulJoel's",
+   "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
+   "date": "2026-12-02",
+   "last_seen": "2026-11-08"
   },
   "circle-mirror-transformation-site-unseen-theatre-at-phoenixville-rec-center": {
    "first_seen": "2026-10-08",
@@ -742,7 +757,7 @@
    "title": "Cirque Musica Holiday Wonderland",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-11-22",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "classic-films-screening-at-colonial-theatre-august-22": {
    "first_seen": "2026-07-24",
@@ -777,7 +792,7 @@
    "title": "Codes of Honor: A Seminar on Michael Mann’s HEAT",
    "venue": "The Colonial Theatre",
    "date": "2026-11-08",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "colby-t-helms-the-virginia-creepers-with-red-tailed-rounders": {
    "first_seen": "2026-09-29",
@@ -798,7 +813,7 @@
    "title": "Colin Hay",
    "venue": "The Colonial Theatre",
    "date": "2027-02-06",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "collegeville-colossal-yard-sale": {
    "first_seen": "2026-08-07",
@@ -917,14 +932,14 @@
    "title": "Craig Bickhardt Band – Live at Steel City Coffeehouse",
    "venue": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
    "date": "2026-11-21",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "craig-bickhardt-featuring-kyle-swartzwelder-nate-gonzalez-tommy-geddes": {
    "first_seen": "2026-10-12",
    "title": "Craig Bickhardt featuring Kyle Swartzwelder, Nate Gonzalez & Tommy Geddes",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2026-11-21",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "crowd-pleasers-clue-1985-at-colonial-theatre": {
    "first_seen": "2026-06-29",
@@ -956,7 +971,7 @@
   },
   "deepspace90s": {
    "first_seen": "2026-06-11",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "title": "DeepSpace90s",
    "venue": "Molly Maguire's Irish Pub",
    "date": "2026-12-18"
@@ -967,7 +982,7 @@
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-11-18",
    "end": "2026-11-19",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "dibbs-the-detonators-rockabilly-party-band-at-souljoel-s": {
    "first_seen": "2026-10-02",
@@ -1002,7 +1017,7 @@
    "title": "Die Laughing Open Mic – Thanksgiving Eve Edition at Rivet",
    "venue": "Rivet: Canteen & Assembly, 238 E High St, Pottstown",
    "date": "2026-11-25",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "die-laughing-presents-pass-the-cannoli-comedy-night": {
    "first_seen": "2026-09-15",
@@ -1023,7 +1038,7 @@
    "title": "DJ Gabagool’s Holiday Karaoke – The Water Tower Live",
    "venue": "The Water Tower Live",
    "date": "2026-12-11",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "dj-gabagool-s-patriotic-karaoke-night-at-water-tower-live": {
    "first_seen": "2026-06-23",
@@ -1185,7 +1200,7 @@
    "title": "East Coast Reptile Super Expo",
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-11-21",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "east-coast-reptile-super-expo-greater-philadelphia": {
    "first_seen": "2026-06-23",
@@ -1214,7 +1229,14 @@
    "title": "Eleanor Kerrigan – Live Stand-Up Comedy at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-28",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
+  },
+  "elf-themed-bingo-night-at-souljoel-s": {
+   "first_seen": "2026-11-08",
+   "title": "Elf Themed Bingo Night at SoulJoel's",
+   "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
+   "date": "2026-12-16",
+   "last_seen": "2026-11-08"
   },
   "eli-lev": {
    "first_seen": "2026-06-11",
@@ -1249,7 +1271,7 @@
    "title": "Emmaline Be My Valentine Tour",
    "venue": "The Colonial Theatre",
    "date": "2027-02-13",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "endless-summer-5k-music-brews": {
    "first_seen": "2026-08-14",
@@ -1270,14 +1292,14 @@
    "title": "Eric Mintel Quartet: A Charlie Brown Jazz Holiday Show",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-11-28",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "exhibition-conversation-jennifer-johnson-emily-zilber": {
    "first_seen": "2026-10-10",
    "title": "Exhibition Conversation: Jennifer Johnson & Emily Zilber",
    "venue": "Wharton Esherick Museum, Malvern",
    "date": "2026-11-14",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "exhumed-films-24-hour-horror-thon-at-colonial-theatre": {
    "first_seen": "2026-09-09",
@@ -1312,7 +1334,7 @@
    "title": "Exhumed Films Presents Terror Tele-Thon on 16mm – Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-11-22",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "f-te-en-blanc-pottstown-2026-all-white-outdoor-dinner-party": {
    "first_seen": "2026-08-15",
@@ -1355,28 +1377,28 @@
    "venue": "The Colonial Theatre",
    "date": "2026-12-05",
    "end": "2026-12-06",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-friday-april": {
    "first_seen": "2026-09-03",
    "title": "First Friday - April",
    "venue": "Downtown Phoenixville",
    "date": "2027-04-02",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-friday-august": {
    "first_seen": "2026-09-03",
    "title": "First Friday - August",
    "venue": "Downtown Phoenixville",
    "date": "2027-08-06",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-friday-december": {
    "first_seen": "2026-09-03",
    "title": "First Friday - December",
    "venue": "Downtown Phoenixville",
    "date": "2026-12-04",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-friday-downtown-phoenixville": {
    "first_seen": "2026-06-04",
@@ -1397,63 +1419,63 @@
    "title": "First Friday - February",
    "venue": "Downtown Phoenixville",
    "date": "2027-02-05",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-friday-january": {
    "first_seen": "2026-09-03",
    "title": "First Friday - January",
    "venue": "Downtown Phoenixville",
    "date": "2027-01-01",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-friday-july": {
    "first_seen": "2026-09-03",
    "title": "First Friday - July",
    "venue": "Downtown Phoenixville",
    "date": "2027-07-02",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-friday-june": {
    "first_seen": "2026-09-03",
    "title": "First Friday - June",
    "venue": "Downtown Phoenixville",
    "date": "2027-06-04",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-friday-march": {
    "first_seen": "2026-09-03",
    "title": "First Friday - March",
    "venue": "Downtown Phoenixville",
    "date": "2027-03-05",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-friday-may": {
    "first_seen": "2026-09-03",
    "title": "First Friday - May",
    "venue": "Downtown Phoenixville",
    "date": "2027-05-07",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-friday-november": {
    "first_seen": "2026-09-03",
    "title": "First Friday - November",
    "venue": "Downtown Phoenixville",
    "date": "2027-11-05",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-friday-october": {
    "first_seen": "2026-10-01",
    "title": "First Friday - October",
    "venue": "Downtown Phoenixville",
    "date": "2027-10-01",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-friday-september": {
    "first_seen": "2026-09-03",
    "title": "First Friday - September",
    "venue": "Downtown Phoenixville",
    "date": "2027-09-03",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "first-sundays-true-bluegrass-jam-at-steel-city-coffeehouse": {
    "first_seen": "2026-10-12",
@@ -1635,7 +1657,7 @@
    "title": "Gaelic Storm – A Night At PJ Murphy’s",
    "venue": "The Colonial Theatre",
    "date": "2027-03-26",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "gem-fest-2026-multi-venue-music-arts-festival": {
    "first_seen": "2026-08-02",
@@ -1650,14 +1672,14 @@
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-11-07",
    "end": "2026-11-08",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "german-christmas-market-weihnachtsmarkt-at-franklin-commons": {
    "first_seen": "2026-11-04",
    "title": "German Christmas Market (Weihnachtsmarkt) at Franklin Commons",
    "venue": "Franklin Commons, 400 Franklin Ave, Phoenixville",
    "date": "2026-11-21",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "girls-exploring-tomorrow-s-technology-gett": {
    "first_seen": "2026-09-30",
@@ -1848,7 +1870,7 @@
    "title": "High Noon: A Tribute to Lynyrd Skynyrd & Southern Rock",
    "venue": "The Colonial Theatre",
    "date": "2027-01-23",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "highway-run-journey-heart-pat-benatar-tribute-at-the-gem": {
    "first_seen": "2026-07-07",
@@ -1906,6 +1928,13 @@
    "date": "2026-10-16",
    "last_seen": "2026-10-16"
   },
+  "honest-2-betsy-the-frosty-tinsled-nutcrackeres": {
+   "first_seen": "2026-11-08",
+   "title": "Honest 2 Betsy: The Frosty Tinsled Nutcrackeres",
+   "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
+   "date": "2026-12-18",
+   "last_seen": "2026-11-08"
+  },
   "hot-import-nights": {
    "first_seen": "2026-09-14",
    "title": "Hot Import Nights",
@@ -1939,7 +1968,7 @@
    "title": "HUSH: An Immersive Speakeasy Experience",
    "venue": "The Colonial Theatre",
    "date": "2026-11-14",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "hysterical-the-funny-ladies-of-summerfest": {
    "first_seen": "2026-08-06",
@@ -1990,14 +2019,14 @@
    "title": "It’s A Wonderful Life: The Radio Play",
    "venue": "The Colonial Theatre",
    "date": "2026-12-10",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "jackson-taylor-blues-co-jtbc-live-at-the-gem": {
    "first_seen": "2026-10-15",
    "title": "Jackson Taylor Blues Co. (JTBc) – Live at The Gem",
    "venue": "The Gem Music Hall, 66 N Main St, Spring City",
    "date": "2026-11-13",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "jam-pan-live-jam-band-night-at-the-gem": {
    "first_seen": "2026-08-06",
@@ -2032,7 +2061,7 @@
    "title": "Jessica Lynn’s A Very Merry Classic Christmas",
    "venue": "The Colonial Theatre",
    "date": "2026-12-04",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "jmc-running-co-10th-annual-4-hour-relay-solo-ultra-challenge": {
    "first_seen": "2026-06-22",
@@ -2046,7 +2075,7 @@
    "title": "Joe DeRosa, Home for the Holidays 2: Lost in Phoenixville",
    "venue": "The Colonial Theatre",
    "date": "2026-12-19",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "joe-devito-live-stand-up-comedy": {
    "first_seen": "2026-07-30",
@@ -2081,7 +2110,7 @@
    "title": "JUDY COLLINS SWEET JUDY BLUE EYES: FAREWELL TOUR",
    "venue": "The Colonial Theatre",
    "date": "2026-11-20",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "jug-hollow-with-special-guest-tracy-colletto": {
    "first_seen": "2026-10-12",
@@ -2238,7 +2267,7 @@
    "title": "Lil Mo Mozzarella – Stand-Up Comedy at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-13",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "limerick-township-summer-concert-school-of-rock-performers": {
    "first_seen": "2026-07-29",
@@ -2441,7 +2470,7 @@
    "title": "Masood Boomgaard & Self-Help Singh – Comedy Debut at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-14",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "mavis-staples-live-in-concert": {
    "first_seen": "2026-06-24",
@@ -2455,21 +2484,21 @@
    "title": "MCT Presents PIPPIN – ASL-Interpreted Matinee (Methacton Community Theatre)",
    "venue": "Shannondell Performing Arts Theater, 1 Shannondell Dr, Audubon",
    "date": "2026-11-15",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "mct-presents-pippin-closing-weekend-methacton-community-theatre": {
    "first_seen": "2026-11-05",
    "title": "MCT Presents PIPPIN – Closing Weekend (Methacton Community Theatre)",
    "venue": "Shannondell Performing Arts Theater, 1 Shannondell Dr, Audubon",
    "date": "2026-11-14",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "mct-presents-pippin-friday-evening-methacton-community-theatre": {
    "first_seen": "2026-11-05",
    "title": "MCT Presents PIPPIN – Friday Evening (Methacton Community Theatre)",
    "venue": "Shannondell Performing Arts Theater, 1 Shannondell Dr, Audubon",
    "date": "2026-11-13",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "mct-presents-pippin-methacton-community-theatre": {
    "first_seen": "2026-11-05",
@@ -2483,7 +2512,7 @@
    "title": "MCT Presents PIPPIN – Relaxed Matinee (Methacton Community Theatre)",
    "venue": "Shannondell Performing Arts Theater, 1 Shannondell Dr, Audubon",
    "date": "2026-11-08",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "michael-winslow-man-of-10-000-sound-effects-live-at-souljoel-s": {
    "first_seen": "2026-07-21",
@@ -2533,7 +2562,7 @@
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-11-20",
    "end": "2026-11-22",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "montco-coffee-chocolate-festival-at-souljoel-s": {
    "first_seen": "2026-07-18",
@@ -2590,7 +2619,7 @@
    "venue": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
    "date": "2026-11-14",
    "end": "2026-11-15",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "native-plant-work-day-with-perkiomen-watershed-conservancy": {
    "first_seen": "2026-09-03",
@@ -2612,21 +2641,21 @@
    "title": "Never The Less – Arnold’s New Year’s Eve Party at Water Tower Live",
    "venue": "The Water Tower Live",
    "date": "2026-12-31",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "new-year-s-eve-at-sunnybrook-ballroom-w-the-uptown-band": {
    "first_seen": "2026-09-21",
    "title": "New Year's Eve at SunnyBrook Ballroom w/ The Uptown Band",
    "venue": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
    "date": "2026-12-31",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "new-year-s-eve-in-wonderland": {
    "first_seen": "2026-11-02",
    "title": "New Year’s Eve in Wonderland",
    "venue": "The Colonial Theatre",
    "date": "2026-12-31",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "nick-dipaolo-live-stand-up-comedy-at-souljoel-s": {
    "first_seen": "2026-09-23",
@@ -2676,7 +2705,14 @@
    "venue": "Greater Philadelphia Expo Center, Hall D, Oaks",
    "date": "2026-11-27",
    "end": "2026-11-28",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
+  },
+  "oaks-christmas-market": {
+   "first_seen": "2026-11-08",
+   "title": "Oaks Christmas Market",
+   "venue": "Greater Philadelphia Expo Center",
+   "date": "2026-12-05",
+   "last_seen": "2026-11-08"
   },
   "oaks-gun-show-at-greater-philadelphia-expo-center": {
    "first_seen": "2026-09-10",
@@ -2712,14 +2748,14 @@
    "title": "Once Bitten Twice Dead – Themed Murder Mystery Dinner at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-11",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "orion-communities-presents-orion-communities-presents-music-for-everyone-vanessa": {
    "first_seen": "2026-09-03",
    "title": "Orion Communities Presents Orion Communities Presents Music For Everyone: Vanessa Collier",
    "venue": "The Colonial Theatre",
    "date": "2026-11-12",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "orlando-jones-live-stand-up-comedy-at-souljoel-s": {
    "first_seen": "2026-09-13",
@@ -2849,7 +2885,7 @@
    "title": "PFS mac presents: the john byrne band & phillygrass",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2026-12-12",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "philadelphia-oddities-curiosities-expo": {
    "first_seen": "2026-07-19",
@@ -2877,7 +2913,7 @@
    "title": "Philly Buildings Engineering and Facility Maintenance Show",
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-11-18",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "philly-phavorites-expo": {
    "first_seen": "2026-06-24",
@@ -2905,21 +2941,21 @@
    "title": "Phoenix Chamber & The Colonial Present Phoenix Chamber: Concert III",
    "venue": "The Colonial Theatre",
    "date": "2027-03-16",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "phoenix-chamber-the-colonial-present-phoenix-chamber-concert-iv": {
    "first_seen": "2026-09-30",
    "title": "Phoenix Chamber & The Colonial Present Phoenix Chamber: Concert IV",
    "venue": "The Colonial Theatre",
    "date": "2027-05-18",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "phoenix-chamber-the-colonial-present-phoenix-chamber-music-concert-ii": {
    "first_seen": "2026-09-30",
    "title": "Phoenix Chamber & The Colonial Present Phoenix Chamber Music: Concert II",
    "venue": "The Colonial Theatre",
    "date": "2026-11-17",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "phoenixville-bed-races-annual-fundraiser-for-good-samaritan-services": {
    "first_seen": "2026-10-15",
@@ -2986,10 +3022,10 @@
   },
   "phoenixville-farmers-market": {
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "title": "Phoenixville Farmers Market",
    "venue": "Under Gay Street Bridge",
-   "date": "2026-11-07"
+   "date": "2026-11-14"
   },
   "phoenixville-farmers-market-saturday": {
    "first_seen": "2026-07-15",
@@ -3000,7 +3036,7 @@
   },
   "phoenixville-firebird-festival-2026": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "title": "Phoenixville Firebird Festival 2026",
    "venue": "Downtown Phoenixville",
    "date": "2026-12-12"
@@ -3017,7 +3053,7 @@
    "title": "Phoenixville First Friday – Holiday Edition & Tree Lighting",
    "venue": "Downtown Phoenixville – Bridge & Main Streets",
    "date": "2026-12-04",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "phoenixville-first-friday-july": {
    "first_seen": "2026-06-21",
@@ -3108,7 +3144,7 @@
    "title": "Phoenixville Punk Rock Flea Market – November at Root Down Brewing",
    "venue": "Root Down Brewing Co., 1 N Main St, Phoenixville",
    "date": "2026-11-29",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "phoenixville-punk-rock-flea-market-october-at-root-down-brewing": {
    "first_seen": "2026-09-17",
@@ -3199,7 +3235,7 @@
    "title": "Post Halloween Tribute of Terror – AC/DC & Rancid Tributes at Water Tower Live",
    "venue": "The Water Tower Live at Arnold's, Oaks",
    "date": "2026-11-21",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "pottstown-fall-fest-2026": {
    "first_seen": "2026-08-23",
@@ -3283,7 +3319,7 @@
    "title": "Rachael & Vilray – Live at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-12-11",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "rael-a-genesis-and-peter-gabriel-experience": {
    "first_seen": "2026-09-03",
@@ -3409,7 +3445,7 @@
    "title": "Rocky Dale Davis – Live Stand-Up Comedy at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-20",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "romeo-delight-the-ultimate-van-halen-experience-at-souljoel-s": {
    "first_seen": "2026-10-21",
@@ -3459,7 +3495,7 @@
    "venue": "SALT Performing Arts, Chester Springs",
    "date": "2026-11-20",
    "end": "2026-12-13",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "sanatoga-park-summer-concert-livewire": {
    "first_seen": "2026-07-18",
@@ -3571,7 +3607,7 @@
    "title": "Shelly Belly – Live Stand-Up Comedy at SoulJoel's",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-11",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "show-canceled-steel-city-comedy-night": {
    "first_seen": "2026-09-19",
@@ -3649,7 +3685,7 @@
    "title": "SOLAS SHAMROCK CITY Tell God & The Devil Tour 2027",
    "venue": "The Colonial Theatre",
    "date": "2027-03-13",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "songwriter-night-rob-tait-band-andrea-nardello-kate-mills": {
    "first_seen": "2026-09-11",
@@ -3705,7 +3741,7 @@
    "title": "Spring City Christmas Tree Lighting",
    "venue": "Spring City Public Library, 245 Broad St, Spring City",
    "date": "2026-12-05",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "spring-city-music-market-festival": {
    "first_seen": "2026-09-07",
@@ -3733,11 +3769,11 @@
    "title": "Start Making Sense – Talking Heads Tribute",
    "venue": "The Colonial Theatre",
    "date": "2026-12-26",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "steel-city-comedy-night": {
    "first_seen": "2026-08-29",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "title": "Comedy Night @ steel city",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2027-11-06"
@@ -3852,14 +3888,14 @@
    "title": "Tab Benoit w/ Bonerama Blues and Brass Winter Tour",
    "venue": "The Colonial Theatre",
    "date": "2026-12-16",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "tab-benoit-with-bonerama-soul-of-the-swamp-tour": {
    "first_seen": "2026-09-24",
    "title": "Tab Benoit with Bonerama – Soul of the Swamp Tour",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-12-16",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "tall-trees-music-and-arts-festival-2026": {
    "first_seen": "2026-08-27",
@@ -3880,7 +3916,7 @@
    "title": "TELL ME LIES a Celebration of Fleetwood Mac",
    "venue": "The Colonial Theatre",
    "date": "2027-01-15",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "tell-williams-live-stand-up-comedy": {
    "first_seen": "2026-07-29",
@@ -3909,14 +3945,14 @@
    "title": "The beatles vs. the rolling stones: A Pacs benefit show",
    "venue": "Steel City Coffeehouse & Brewery",
    "date": "2026-11-20",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "the-best-christmas-rock-show-ever-sly-fox-water-tower-live": {
    "first_seen": "2026-11-07",
    "title": "The Best Christmas Rock Show Ever – Sly Fox & Water Tower Live",
    "venue": "The Water Tower Live",
    "date": "2026-12-19",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "the-big-bounce-america-world-s-largest-bounce-house": {
    "first_seen": "2026-06-20",
@@ -3979,7 +4015,7 @@
    "title": "The Essential Elvis Tribute Band with Jeff Krick",
    "venue": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
    "date": "2026-11-21",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "the-fabulous-greaseband-live-at-souljoel-s": {
    "first_seen": "2026-09-02",
@@ -4098,7 +4134,7 @@
   },
   "the-philly-show-sports-card-memorabilia-show": {
    "first_seen": "2026-08-26",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "title": "The Philly Show – Sports Card & Memorabilia Show",
    "venue": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
    "date": "2026-12-11",
@@ -4130,7 +4166,7 @@
    "title": "The Rugged Indy 2026 – Trail Race Festival at Independence Park",
    "venue": "Independence Park, East Vincent Township, Spring City",
    "date": "2026-11-15",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "the-sixties-show-live-at-colonial-theatre": {
    "first_seen": "2026-09-14",
@@ -4173,7 +4209,7 @@
    "venue": "Greater Philadelphia Expo Center",
    "date": "2026-12-02",
    "end": "2026-12-06",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "the-wizard-of-oz-crowd-pleaser-screening": {
    "first_seen": "2026-06-02",
@@ -4187,7 +4223,7 @@
    "title": "The Wood Brothers with Tyler Ramsey – Live at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-12-09",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "this-is-spinal-tap-41st-anniversary-screening": {
    "first_seen": "2026-07-25",
@@ -4279,21 +4315,21 @@
    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
    "venue": "Forge Theatre, 241 First Avenue, Phoenixville",
    "date": "2026-11-20",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "twas-the-night-before-christmas-a-charlie-brown-christmas-forge-theatre-matinee": {
    "first_seen": "2026-10-27",
    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre (Matinee)",
    "venue": "Forge Theatre, 241 First Avenue, Phoenixville",
    "date": "2026-12-06",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "twas-the-night-before-christmas-a-charlie-brown-christmas-forge-theatre-saturday": {
    "first_seen": "2026-10-26",
    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre (Saturday)",
    "venue": "Forge Theatre, 241 First Avenue, Phoenixville",
    "date": "2026-11-21",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "twelve-monkeys-1995-semiquincentennial-series-at-colonial": {
    "first_seen": "2026-07-04",
@@ -4379,14 +4415,14 @@
    "title": "Vanessa Collier – Music For Everyone Series at Colonial Theatre",
    "venue": "The Colonial Theatre, 227 Bridge St, Phoenixville",
    "date": "2026-11-12",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "veterans-art-day": {
    "first_seen": "2026-09-05",
    "title": "Veterans' Art Day",
    "venue": "Historic Yellow Springs, Chester Springs",
    "date": "2026-11-14",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "victoria-aveyard-live-tempest-book-launch-at-colonial-theatre": {
    "first_seen": "2026-08-12",
@@ -4400,14 +4436,14 @@
    "title": "Victorian Christmas Open House at Pennypacker Mills",
    "venue": "Pennypacker Mills, 5 Haldeman Rd, Schwenksville",
    "date": "2026-12-12",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "views-of-the-forest-through-the-lens-of-music-violin-cello-concert": {
    "first_seen": "2026-11-07",
    "title": "Views of the Forest Through the Lens of Music: Violin & Cello Concert",
    "venue": "Jenkins Arboretum & Gardens, Devon",
    "date": "2026-11-08",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "vinny-guadagnino-live-stand-up-comedy-debut-at-souljoel-s": {
    "first_seen": "2026-08-03",
@@ -4470,7 +4506,7 @@
    "title": "Winter Solstice at the Studio: Gathering Stories of Esherick",
    "venue": "Wharton Esherick Museum, Malvern",
    "date": "2026-12-21",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "wuffjam-annual-dog-friendly-festival-at-reeves-park": {
    "first_seen": "2026-08-21",
@@ -4498,7 +4534,7 @@
    "title": "Yellow Springs Holiday Stroll",
    "venue": "Historic Yellow Springs, Chester Springs",
    "date": "2026-12-13",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "zach-alasha-friends-stand-up-comedy-special-at-the-gem": {
    "first_seen": "2026-09-28",
@@ -4512,7 +4548,7 @@
    "title": "Zoey & the Iconic – Live at The Gem Spring City",
    "venue": "The Gem Music Hall, 66 N Main St, Spring City",
    "date": "2026-11-27",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "zoo-snooze-overnight-campout-at-elmwood-park-zoo": {
    "first_seen": "2026-09-03",
