@@ -50,32 +50,6 @@
     "action_link": "https://yellowsprings.org/events/ceramics-national/"
   },
   {
-    "id": "discovered_joe_deninzon_stratospheerius_with_jane_20261108",
-    "type": "event",
-    "title": "Joe Deninzon & Stratospheerius with Jane Getter Premonition",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Nov 8, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$30-$33",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/joe-deninzon-stratospheerius-with-jane-getter-premonition/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_the_2026_kennett_flash_jazz_20261112",
     "type": "event",
     "title": "The 2026 Kennett Flash Jazz Jam",
@@ -1389,58 +1363,6 @@
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-2"
   },
   {
-    "id": "discovered_bmoa_plein_air_kuerner_20261108",
-    "type": "event",
-    "title": "Plein Air Day at Kuerner Farm",
-    "venue_info": {
-      "name": "Kuerner Farm, Chadds Ford",
-      "location": {
-        "lat": 39.8714,
-        "lng": -75.579
-      }
-    },
-    "raw_date_string": "Nov 8, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "Workshop"
-      ],
-      "price": "$20 ($15 members)",
-      "time": "9:30 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/plein-air-day-kuerner-farm-11"
-  },
-  {
-    "id": "discovered_ccchoral_chamber_unionville_20261108",
-    "type": "event",
-    "title": "Chester County Choral Society Chamber Ensemble Concert",
-    "venue_info": {
-      "name": "St. Michael Lutheran Church, Unionville",
-      "location": {
-        "lat": 39.9005,
-        "lng": -75.736
-      }
-    },
-    "raw_date_string": "Nov 8, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Classical"
-      ],
-      "price": "Ticketed",
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://chescochoral.org/events"
-  },
-  {
     "id": "discovered_bvs_masterworks_1_20261115",
     "type": "event",
     "title": "Brandywine Valley Symphony: Masterworks I",
@@ -1884,32 +1806,6 @@
     "action_link": "https://www.mychesco.com/a/communities/kennett-square/clover-market-brings-nearly-100-vendors-to-kennett-square/"
   },
   {
-    "id": "discovered_wcu_jazz_centennial_20261108",
-    "type": "event",
-    "title": "100 Years of Jazz Celebration featuring Stefon Harris",
-    "venue_info": {
-      "name": "Emilie K. Asplundh Concert Hall, West Chester",
-      "location": {
-        "lat": 39.9525,
-        "lng": -75.599
-      }
-    },
-    "raw_date_string": "Nov 8, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Ticketed"
-      ],
-      "price": "",
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/music/criterions/100-years-of-jazz/default.aspx"
-  },
-  {
     "id": "discovered_snow_ready_uwchlan_20261121",
     "type": "event",
     "title": "Snow-Ready Uwchlan: Winter Kickoff on Ice",
@@ -2327,33 +2223,6 @@
       "image": ""
     },
     "action_link": "https://wctrust.org/events/the-healing-harvest-fire-cider-workshop-3-3/?occurrence=2026-12-05"
-  },
-  {
-    "id": "discovered_wc_veterans_day_parade_20261108",
-    "type": "event",
-    "title": "West Chester Veterans Day Parade",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Nov 8, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Free",
-      "time": "2:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.downtownwestchester.com/event/west-chester-veterans-day-parade-2026/"
   },
   {
     "id": "discovered_diwali_potluck_ccl_20261115",
@@ -3137,31 +3006,6 @@
     "action_link": "https://kennettflash.org/event/kid-charlemagne-tribute-to-steely-dan/kennett-flash/kennett-square-pennsylvania/"
   },
   {
-    "id": "discovered_oaklands_cemetery_tour_20261108",
-    "type": "event",
-    "title": "Historic Oaklands Cemetery Walking Tour",
-    "venue_info": {
-      "name": "Oaklands Cemetery, West Chester",
-      "location": {
-        "lat": 39.9773,
-        "lng": -75.61
-      }
-    },
-    "raw_date_string": "Nov 8, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "History"
-      ],
-      "time": "1:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2477906"
-  },
-  {
     "id": "discovered_immaculata_symphony_christmas_20261206",
     "type": "event",
     "title": "Immaculata Symphony Christmas Concert",
@@ -3642,31 +3486,6 @@
       "image": ""
     },
     "action_link": "https://www.brandywinebattlefield.org/events/"
-  },
-  {
-    "id": "discovered_delaware_antiques_show_20261106",
-    "type": "event",
-    "title": "Delaware Antiques Show",
-    "venue_info": {
-      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
-      "location": {
-        "lat": 39.8061,
-        "lng": -75.5983
-      }
-    },
-    "raw_date_string": "Nov 6 - 8, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "Shopping"
-      ],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.winterthur.org/calendar/delaware-antiques-show-2/"
   },
   {
     "id": "discovered_winterthur_holiday_nights_20261127",
@@ -4953,32 +4772,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/music-performances-theater"
   },
   {
-    "id": "discovered_jenkins_forest_music_concert_20261108",
-    "type": "event",
-    "title": "Views of the Forest Through the Lens of Music: Violin & Cello Concert",
-    "venue_info": {
-      "name": "Jenkins Arboretum & Gardens, Devon",
-      "location": {
-        "lat": 40.0498,
-        "lng": -75.4536
-      }
-    },
-    "raw_date_string": "Nov 8, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Classical",
-        "Garden"
-      ],
-      "price": "$35 ($30 members)",
-      "time": "2:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.jenkinsarboretum.org/event/views-of-the-forest-through-the-lens-of-music-concert-3/"
-  },
-  {
     "id": "discovered_cchc_walking_tour_revolutionary_wc_20261121",
     "type": "event",
     "title": "Walking Tour: Revolutionary West Chester",
@@ -5135,5 +4928,32 @@
       "image": ""
     },
     "action_link": "https://countylinesmagazine.com/event/bryn-mawr-rehabs-annual-exhibition-and-sale/"
+  },
+  {
+    "id": "discovered_nina_camps_heather_mae_20270117",
+    "type": "event",
+    "title": "Nina Camps & Heather Mae",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.847,
+        "lng": -75.713
+      }
+    },
+    "raw_date_string": "Jan 17, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "All Ages",
+        "Americana",
+        "BYOB"
+      ],
+      "price": "$25 - $28",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettflash.org/event/nina-camps-heather-mae/kennett-flash/kennett-square-pennsylvania/"
   }
 ]
