@@ -1,5 +1,41 @@
 [
   {
+    "title": "Veterans Day parade ends with the courthouse lit green",
+    "category": "News",
+    "summary": "American Legion Post 134's parade wound through the borough Sunday afternoon and finished with speeches before about 250 people at the Historic Courthouse. Vietnam veteran Jim Oram launched Operation Green Light there, handing out green bulbs for residents to display at home as a sign that veterans are welcome.",
+    "date": "2026-11-10",
+    "loc": "Historic Chester County Courthouse, High and Market streets, West Chester",
+    "link": "https://www.dailylocal.com/2026/11/10/hundreds-attend-veterans-day-parade-in-west-chester/",
+    "img": ""
+  },
+  {
+    "title": "Uwchlan supervisors reject 492-home plan for Lionville Station Road farmland",
+    "category": "Development",
+    "summary": "The board voted unanimously Nov. 4 to deny Rockwell Development Group's rezoning request and plan for an age-restricted neighborhood on 237 acres owned by the Downingtown Area School District, citing density, traffic and the cost to taxpayers. Rockwell says it expects to return within 60 days with a plan that fits the current zoning.",
+    "date": "2026-11-10",
+    "loc": "Lionville Station Road, Uwchlan Township",
+    "link": "https://vista.today/2026/11/uwchlan-rejects-lionville-station-road/",
+    "img": ""
+  },
+  {
+    "title": "Downingtown STEM Academy named a Pennsylvania Blue Ribbon School",
+    "category": "News",
+    "summary": "The state Department of Education picked the academy as one of 12 schools statewide for its 2026 Blue Ribbon list, which weighs academic achievement and improvement, school culture and special education supports. The International Baccalaureate high school opened in 2011 and enrolls about 950 students; Lionville Elementary earned the same honor in the program's first year.",
+    "date": "2026-11-10",
+    "loc": "Downingtown STEM Academy, Downingtown",
+    "link": "https://www.dailylocal.com/2026/11/10/downingtown-stem-academy-named-a-2026-pennsylvania-blue-ribbon-school/",
+    "img": ""
+  },
+  {
+    "title": "Retired Seabee spends his days repairing headstones at Oaklands Cemetery",
+    "category": "News",
+    "summary": "Ed Dougherty, 65, who served in the Navy from 1979 to 1985, cleans, resets and repairs grave markers at the historic cemetery and replaces tattered flags on veterans' graves, including about 30 in the soldiers' lot. He began walking the grounds to rebuild his strength after a double lung transplant.",
+    "date": "2026-11-09",
+    "loc": "Oaklands Cemetery, West Chester",
+    "link": "https://www.dailylocal.com/2026/11/09/veteran-seabee-ed-dougherty-now-serves-to-repair-damaged-headstones-at-oaklands-historical-cemetery/",
+    "img": ""
+  },
+  {
     "title": "West Pikeland votes to sell SALT Performing Arts' home, leaving the theater's future open",
     "category": "News",
     "summary": "Township supervisors voted 3-2 on Nov. 2 to put the municipal building at 1645 Art School Road, where the Chester Springs theater has worked for more than a decade, up for bid to help pay for a new municipal and police building on Kimberton Road that closes Nov. 13. SALT recently spent $400,000 on the space under a 10-year licensing deal, but the bid terms do not require a buyer to honor it.",
@@ -9,39 +45,12 @@
     "img": ""
   },
   {
-    "title": "Chester County keeps its Triple-A rating from all three agencies",
+    "title": "Library's Holiday Home Tour opens seven decorated houses Dec. 5",
     "category": "News",
-    "summary": "S&P Global, Fitch and Moody's each reaffirmed the county's top credit rating with a stable outlook, keeping it the only Pennsylvania county rated Triple-A across the board and in the top 2 percent of counties nationally. The agencies pointed to reserves above 10 percent of spending and conservative budgeting; the rating lowers borrowing costs on capital projects.",
+    "summary": "The 15th annual self-guided tour runs Saturday, Dec. 5, from 10 a.m. to 3 p.m., with seven private homes and three other stops dressed for the season. All proceeds go to the West Chester Public Library.",
     "date": "2026-11-08",
-    "loc": "Chester County Government Services Center, 601 Westtown Road, West Chester",
-    "link": "https://www.mychesco.com/a/news/government/chester-county-retains-triple-a-ratings-from-three-agencies/",
-    "img": ""
-  },
-  {
-    "title": "Veterans supply drive turns nonprofit, celebrates with Dec. 11 concert at the History Center",
-    "category": "News",
-    "summary": "The Drumroll Please Project, started seven years ago by percussion teacher Anthony Cracchiolo to collect supplies for veterans at the Coatesville VA, is now a registered Pennsylvania charity and marks it with a launch party and benefit concert from 7:30 to 11 p.m. Friday, Dec. 11, at 225 N. High St. Tickets are $20 in advance or $30 at the door, toward a $15,000 goal for clothing, hygiene supplies, food and rideshare cards.",
-    "date": "2026-11-07",
-    "loc": "Chester County History Center, 225 N. High St., West Chester",
-    "link": "https://www.mychesco.com/a/news/social-issues/veteran-issues/west-chester-concert-to-help-coatesville-veterans-in-need/",
-    "img": ""
-  },
-  {
-    "title": "Turnpike opens six lanes through the Downingtown stretch after three years of work",
-    "category": "Development",
-    "summary": "The $214 million rebuild between mileposts 312 and 316 replaced four lanes with three in each direction, 12-foot lanes, wider shoulders and median, three new mainline bridges and 28 stormwater basins. Work began in May 2023 and was paid for with toll revenue as part of the Turnpike's statewide total reconstruction program.",
-    "date": "2026-11-07",
-    "loc": "Pennsylvania Turnpike, Downingtown Interchange",
-    "link": "https://vista.today/2026/11/pa-turnpike-six-lanes-downingtown-interchange/",
-    "img": ""
-  },
-  {
-    "title": "Malvern voters shrink Borough Council to five seats; East Whiteland grows its board",
-    "category": "News",
-    "summary": "In Tuesday's election Malvern residents approved cutting Borough Council from seven members to five, while next door East Whiteland voted 64 percent in favor of expanding its Board of Supervisors from three to five after a resident petition drive sparked by a 1.5 million-square-foot data center. Tredyffrin voters also approved updates to their home rule charter.",
-    "date": "2026-11-07",
-    "loc": "Malvern Borough Hall, 1 E. First Ave., Malvern",
-    "link": "https://vista.today/2026/11/east-whiteland-board-of-supervisors-expansion/",
+    "loc": "West Chester Public Library, 415 N. Church St., West Chester",
+    "link": "https://www.mychesco.com/a/education/ccls/west-chester-holiday-home-tour-opens-doors-for-a-good-cause/",
     "img": ""
   },
   {
@@ -78,15 +87,6 @@
     "date": "2026-11-06",
     "loc": "54 E. Street Road, West Chester",
     "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-nov-6-2026",
-    "img": ""
-  },
-  {
-    "title": "History Center lights up for a monthlong Season of Lights starting Dec. 2",
-    "category": "News",
-    "summary": "The Chester County History Center fills its galleries with illuminated displays and decorated trees from Dec. 2 through Jan. 2, open Wednesday through Saturday, 10 a.m. to 4 p.m., and closed Dec. 25 and Jan. 1. The exhibit is included with regular admission: $10 adults, $7 seniors, $5 children and students.",
-    "date": "2026-11-04",
-    "loc": "Chester County History Center, 225 N. High St., West Chester",
-    "link": "https://www.mychesco.com/a/entertainment/family-fun/season-of-lights-celebrates-holiday-traditions-in-west-chester/",
     "img": ""
   }
 ]
