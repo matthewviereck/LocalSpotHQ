@@ -4955,5 +4955,31 @@
       "image": ""
     },
     "action_link": "https://kennettflash.org/event/nina-camps-heather-mae/kennett-flash/kennett-square-pennsylvania/"
+  },
+  {
+    "id": "discovered_brandywine_singers_vivaldi_gloria_20261205",
+    "type": "event",
+    "title": "The Brandywine Singers: Vivaldi Gloria and Other Holiday Favorites",
+    "venue_info": {
+      "name": "Church of the Holy Trinity, West Chester",
+      "location": {
+        "lat": 39.9573,
+        "lng": -75.6037
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Holiday",
+        "Classical"
+      ],
+      "price": "$25",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mychesco.com/a/entertainment/music/brandywine-singers-bring-vivaldis-gloria-to-west-chester/"
   }
 ]
