@@ -1973,5 +1973,164 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/colonial-events/the-phoenixville-christmas-spectacular-3"
+  },
+  {
+    "id": "discovered_oaks_christmas_market_20261205",
+    "type": "event",
+    "title": "Oaks Christmas Market – 3rd Annual Holiday Gift Show",
+    "venue_info": {
+      "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
+      "location": {
+        "lat": 40.1325,
+        "lng": -75.4699
+      }
+    },
+    "raw_date_string": "Dec 5-6, 2026",
+    "attributes": {
+      "category": "Festival",
+      "time": "Sat 9 AM–6 PM / Sun 9 AM–3 PM",
+      "vibes": [
+        "Holiday Market",
+        "Craft Fair",
+        "Gift Shopping",
+        "100+ Vendors",
+        "Free Admission",
+        "Family Friendly",
+        "Indoor",
+        "Oaks",
+        "Weekend"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.whitmoyerevents.com/oaks-christmas-market/"
+  },
+  {
+    "id": "discovered_christmas_at_historic_trappe_20261120",
+    "type": "event",
+    "title": "Christmas at Historic Trappe – Pennsylvania German Holiday Season",
+    "venue_info": {
+      "name": "Historic Trappe, 301 W Main St, Trappe",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "November 20, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "time": "Fri & Sat 10 AM–4 PM / Sun 12–4 PM",
+      "vibes": [
+        "Historic Site",
+        "Pennsylvania German",
+        "Holiday Tours",
+        "Gift Shop",
+        "Family Friendly",
+        "Weekend",
+        "Trappe",
+        "Annual"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historictrappe.org/events/"
+  },
+  {
+    "id": "discovered_dead_band_gem_20261205",
+    "type": "event",
+    "title": "Dead Band – Grateful Dead Tribute at The Gem Music Hall",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "December 5, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "time": "7:00 PM",
+      "vibes": [
+        "Grateful Dead Tribute",
+        "Jam Band",
+        "Live Music",
+        "Spring City",
+        "The Gem",
+        "Speakeasy",
+        "Saturday Night"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.bandsintown.com/e/107668355"
+  },
+  {
+    "id": "discovered_ursinus_sounds_season_20261204",
+    "type": "event",
+    "title": "Ursinus College: Wind & String Ensembles – Sounds of the Season",
+    "venue_info": {
+      "name": "Lenfest Theater, Ursinus College, Collegeville",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "December 4, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "time": "7:30 PM",
+      "vibes": [
+        "Classical Music",
+        "Holiday Concert",
+        "Free",
+        "Wind Ensemble",
+        "String Ensemble",
+        "College Performance",
+        "Collegeville",
+        "Friday Night"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://ursinus.edu/academics/music/"
+  },
+  {
+    "id": "discovered_ursinus_jazz_ensemble_20261205",
+    "type": "event",
+    "title": "Ursinus College Jazz Ensemble Concert",
+    "venue_info": {
+      "name": "Lenfest Theater, Ursinus College, Collegeville",
+      "location": {
+        "lat": 40.1853,
+        "lng": -75.4527
+      }
+    },
+    "raw_date_string": "December 5, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "time": "7:30 PM",
+      "vibes": [
+        "Jazz",
+        "Big Band",
+        "Free",
+        "College Performance",
+        "Holiday Concert",
+        "Collegeville",
+        "Saturday Night"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://ursinus.edu/academics/music/"
   }
 ]
