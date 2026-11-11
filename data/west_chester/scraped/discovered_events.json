@@ -972,31 +972,6 @@
     "action_link": "https://wcrailroad.com/christmas-tree-train/"
   },
   {
-    "id": "discovered_garrett_boys_kennett_flash_20261110",
-    "type": "event",
-    "title": "Garrett Boys",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8468,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Nov 10, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Live Music"
-      ],
-      "price": "$25-$28",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/garrett-boys/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_chesco_turkey_trot_20261126",
     "type": "event",
     "title": "Chester County Turkey Trot 5K & 2K Walk",
@@ -1833,31 +1808,6 @@
     "action_link": "https://www.uwchlan.com/Calendar.aspx?EID=1804"
   },
   {
-    "id": "discovered_wcu_mbb_home_opener_20261110",
-    "type": "event",
-    "title": "WCU Men's Basketball Home Opener vs. St. Thomas Aquinas",
-    "venue_info": {
-      "name": "Hollinger Field House, West Chester",
-      "location": {
-        "lat": 39.95,
-        "lng": -75.6025
-      }
-    },
-    "raw_date_string": "Nov 10, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Indoor"
-      ],
-      "price": "",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wcupagoldenrams.com/sports/mens-basketball/schedule/2026-27"
-  },
-  {
     "id": "discovered_jingle_run_20261205",
     "type": "event",
     "title": "Jingle Run 5K & Family Walk",
@@ -2669,33 +2619,6 @@
       "image": ""
     },
     "action_link": "https://www.upperuwchlan-pa.gov/Calendar.aspx?EID=2574"
-  },
-  {
-    "id": "discovered_chesco_history_night_upland_20261110",
-    "type": "event",
-    "title": "A Night of Learning about Chester County History",
-    "venue_info": {
-      "name": "Upland Farm Park, Chester Springs",
-      "location": {
-        "lat": 40.0858,
-        "lng": -75.6666
-      }
-    },
-    "raw_date_string": "Nov 10, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Free",
-        "Talk",
-        "History"
-      ],
-      "price": "Free",
-      "time": "6:30 PM - 7:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.upperuwchlan-pa.gov/Calendar.aspx?EID=2597"
   },
   {
     "id": "discovered_thomas_maguire_talk_20261112",
@@ -4981,5 +4904,138 @@
       "image": ""
     },
     "action_link": "https://www.mychesco.com/a/entertainment/music/brandywine-singers-bring-vivaldis-gloria-to-west-chester/"
+  },
+  {
+    "id": "discovered_drumroll_please_launch_party_20261211",
+    "type": "event",
+    "title": "Drumroll Please Project Launch Party: Benefit Concert for Coatesville VA Veterans",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Dec 11, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "Benefit"
+      ],
+      "price": "$20 advance / $30 door",
+      "time": "7:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.drumrollpleaseproject.org/launch"
+  },
+  {
+    "id": "discovered_cchc_holiday_history_stroll_20261205",
+    "type": "event",
+    "title": "Holiday History Stroll",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "History",
+        "Holiday"
+      ],
+      "price": "$20",
+      "time": "11:00 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mycchc.org/calendar-events/holiday-history-stroll/2026-12-05/1/"
+  },
+  {
+    "id": "discovered_cchc_holiday_history_stroll_20261206",
+    "type": "event",
+    "title": "Holiday History Stroll",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Dec 6, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "History",
+        "Holiday"
+      ],
+      "price": "$20",
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mycchc.org/calendar-events/holiday-history-stroll/2026-12-06/"
+  },
+  {
+    "id": "discovered_cchc_holiday_history_stroll_20261213",
+    "type": "event",
+    "title": "Holiday History Stroll",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Dec 13, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Outdoor",
+        "History",
+        "Holiday"
+      ],
+      "price": "$20",
+      "time": "1:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mycchc.org/calendar-events/holiday-history-stroll/2026-12-13/"
+  },
+  {
+    "id": "discovered_frank_viele_rees_shad_20270221",
+    "type": "event",
+    "title": "Frank Viele with Special Guest Rees Shad",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.847,
+        "lng": -75.713
+      }
+    },
+    "raw_date_string": "Feb 21, 2027",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Indoor",
+        "All Ages"
+      ],
+      "price": "$20-$23",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettflash.org/event/frank-viele-with-special-guest-rees-shad/kennett-flash/kennett-square-pennsylvania/"
   }
 ]
