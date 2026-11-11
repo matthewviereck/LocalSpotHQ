@@ -319,7 +319,7 @@
         "Student Showcase",
         "Graduation Show",
         "Local Comedians",
-        "Wednesday Night",
+        "Thursday Night",
         "Pottstown"
       ],
       "price": "Free"
@@ -2132,5 +2132,35 @@
       "image": ""
     },
     "action_link": "https://ursinus.edu/academics/music/"
+  },
+  {
+    "id": "discovered_elf_themed_bingo_souljoels_20261217",
+    "type": "event",
+    "title": "Elf Themed Bingo Night at SoulJoel's – Thursday Showing",
+    "venue_info": {
+      "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
+      "location": {
+        "lat": 40.2451,
+        "lng": -75.6496
+      }
+    },
+    "raw_date_string": "December 17, 2026 7:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Elf Movie",
+        "Bingo",
+        "Holiday Fun",
+        "Thursday Night",
+        "Pottstown",
+        "Interactive",
+        "Holiday Movie Night"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.tickpick.com/buy-elf-themed-bingo-tickets-souljoels-at-sunnybrook-12-17-26-7pm/8094993/"
   }
 ]
