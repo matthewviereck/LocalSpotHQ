@@ -1,5 +1,41 @@
 [
   {
+    "title": "Spring-Ford marching band wins its first national championship",
+    "category": "News",
+    "summary": "The 82-member Golden Rams Marching Band took the USBands Group III Open Class national title at MetLife Stadium on Saturday, Nov. 7, scoring a season-high 94.25 and earning the Best Music caption. It is the first national championship in school history and follows a state title earlier this fall.",
+    "date": "2026-11-11",
+    "loc": "Spring-Ford Area High School, Royersford",
+    "link": "https://www.pottsmerc.com/2026/11/11/spring-ford-marching-band-wins-1st-national-title/",
+    "img": ""
+  },
+  {
+    "title": "Ursinus lands $500,000 federal grant for student mental health",
+    "category": "News",
+    "summary": "A four-year suicide prevention grant from the federal Substance Abuse and Mental Health Services Administration will pay for a full-time student well-being specialist, a 24-hour support service and a scholarship fund covering off-campus therapy and rides to appointments. The college is calling the effort the SAFE Initiative.",
+    "date": "2026-11-11",
+    "loc": "Ursinus College, 601 E. Main St., Collegeville",
+    "link": "https://vista.today/2026/11/ursinus-college-federal-grant-mental-health-support/",
+    "img": ""
+  },
+  {
+    "title": "Historical society opens an exhibit on 22 years of the Firebird Festival",
+    "category": "News",
+    "summary": "The new show at the Historical Society of the Phoenixville Area museum traces the festival from its 2004 start with design models, videos, fired clay birds and memorabilia, including the 2014 year when vandals burned the bird early and volunteers rebuilt it in days. This year's Firebird Festival is Dec. 12 at Reservoir Park.",
+    "date": "2026-11-10",
+    "loc": "204 Church St., Phoenixville",
+    "link": "https://www.pottsmerc.com/2026/11/10/historical-society-of-phoenixville-hosts-phoenixville-firebird-festival-exhibit/",
+    "img": ""
+  },
+  {
+    "title": "Costumed teams push beds down Third Avenue for two homeless shelters",
+    "category": "News",
+    "summary": "The ninth annual Phoenixville Bed Races sent five-person teams, four pushers and a helmeted rider, down Third Avenue at Reeves Park and back over the weekend, with prizes for fastest bed, best theme and most money raised. Proceeds go to Ann's Heart and Good Samaritan Services toward a $20,000 goal, and donations are still open.",
+    "date": "2026-11-10",
+    "loc": "Reeves Park, Third Avenue, Phoenixville",
+    "link": "https://www.pottsmerc.com/2026/11/10/teams-compete-for-a-good-cause-at-2026-phoenixville-bed-races/",
+    "img": ""
+  },
+  {
     "title": "Kolka steps down after 12 seasons as Owen J. Roberts football coach",
     "category": "News",
     "summary": "Rich Kolka resigned after the Wildcats' season ended last Friday, leaving with an 82-49 record, the best winning percentage of any head coach in school history, and the program's first two District 1 playoff wins in 2024 and 2025. He plans to stay on as coach of OJR's girls' flag football team.",
@@ -18,15 +54,6 @@
     "img": ""
   },
   {
-    "title": "Spring City mill artists pair holiday art festival with a food drive for PACS",
-    "category": "News",
-    "summary": "More than 20 artists open four floors of studios in the renovated 1896 knitting mill at 20 E. Bridge St. on Saturday and Sunday, Nov. 21-22, from 11 a.m. to 4 p.m., with free admission and parking. Visitors can drop nonperishable groceries in the lobby for Phoenixville Area Community Services, and painter Merrill Weber is giving all of her matted print sales to the food pantry.",
-    "date": "2026-11-09",
-    "loc": "Spring City Mill Studios, 20 E. Bridge St., Spring City",
-    "link": "https://www.mychesco.com/a/entertainment/arts-culture/spring-city-art-festival-combines-holiday-shopping-with-food-drive/",
-    "img": ""
-  },
-  {
     "title": "Volunteer orchestra gives a flute and piano concerto its world premiere Nov. 22",
     "category": "News",
     "summary": "The Providence Chamber Orchestra will debut Nina Siniakova's As We Were Gazing at the Stars at 4 p.m. Sunday, Nov. 22, at St. John's Lutheran Church, with the composer at the piano and Belgian flutist Berten D'Hollander. Works by Lyadov and Dvorak fill out the program; admission is free, with a suggested $10 donation.",
@@ -36,39 +63,12 @@
     "img": ""
   },
   {
-    "title": "Inquirer columnist brings his new Rocky book to Ursinus on Nov. 19",
-    "category": "News",
-    "summary": "Mike Sielski will talk about Going the Distance, his account of how Sylvester Stallone's long-shot script became Philadelphia's defining film, from 6 to 7:30 p.m. Thursday, Nov. 19, in Schellhase Commons Room 105 on the Ursinus campus. The event, hosted by the college's Sport & Humanity Hub, is free and open to the public, with copies for sale and signing.",
-    "date": "2026-11-09",
-    "loc": "Ursinus College, 601 E. Main St., Collegeville",
-    "link": "https://montco.today/2026/11/mike-sielski-to-discuss-rocky-book-at-ursinus/",
-    "img": ""
-  },
-  {
     "title": "Whole Foods, L.L. Bean and 122 Toll townhomes fill out the District at Black Rock",
     "category": "Development",
     "summary": "The mixed-use project rising on the old Quest Diagnostics campus at 1201 S. Collegeville Road is 89 percent pre-leased as construction starts, with Whole Foods, L.L. Bean and Barnes & Noble anchoring more than 148,000 square feet of retail alongside J. Crew, Sephora and Shake Shack. Toll Brothers bought an adjacent 7.3 acres for 122 townhomes, and the center is slated to finish in late 2027.",
     "date": "2026-11-07",
     "loc": "1201 S. Collegeville Road, Upper Providence Township",
     "link": "https://montco.today/2026/11/toll-brothers-whole-foods-coming-to-upper-providence/",
-    "img": ""
-  },
-  {
-    "title": "Luxury resale boutique aims to open at the Premium Outlets before Thanksgiving",
-    "category": "Opening Soon",
-    "summary": "Mainline ReChic, which Malvern entrepreneur Ashley Ralligh started in 2025 selling Coach bags on Poshmark before adding a flea-market booth, is moving into a storefront at Philadelphia Premium Outlets with designer and vintage pieces at lower prices. She hopes to have the doors open in time for Black Friday weekend.",
-    "date": "2026-11-07",
-    "loc": "Philadelphia Premium Outlets, 18 W. Lightcap Road, Limerick Township",
-    "link": "https://vista.today/2026/11/mainline-rechic-luxury-resale/",
-    "img": ""
-  },
-  {
-    "title": "Phoenixville Hospital lost $10 million while parent Tower Health turned its first profit",
-    "category": "News",
-    "summary": "Audited results for the year ended June 30 show Tower Health earning an $8.5 million operating profit on $2.07 billion in revenue, its first since forming in 2017, but Phoenixville Hospital, its last acute-care hospital in Chester County, lost $10 million. Reading Hospital carried the system while Pottstown Hospital and the physician group posted deeper losses.",
-    "date": "2026-11-06",
-    "loc": "140 Nutt Road, Phoenixville",
-    "link": "https://www.mychesco.com/a/news/business/tower-health-turns-profit-as-phoenixville-hospital-loses-10m/",
     "img": ""
   },
   {
