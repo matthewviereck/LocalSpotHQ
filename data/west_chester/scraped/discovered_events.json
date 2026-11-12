@@ -5037,5 +5037,83 @@
       "image": ""
     },
     "action_link": "https://kennettflash.org/event/frank-viele-with-special-guest-rees-shad/kennett-flash/kennett-square-pennsylvania/"
+  },
+  {
+    "id": "discovered_winterthur_candlelight_concert_20261212",
+    "type": "event",
+    "title": "Candlelight Concert with OperaDelaware at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Holiday",
+        "Indoor"
+      ],
+      "price": "$38-$40; members $34-$36; students $18-$20; children $14-$16",
+      "time": "6:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/candlelight-concert-2/"
+  },
+  {
+    "id": "discovered_winterthur_brunch_with_santa_20261212",
+    "type": "event",
+    "title": "Brunch with Santa at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Dec 12 - 13, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Family"
+      ],
+      "price": "$70; members $55; children 3-12 $25",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/brunch-with-santa-15/"
+  },
+  {
+    "id": "discovered_winterthur_brunch_with_santa_20261219",
+    "type": "event",
+    "title": "Brunch with Santa at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Dec 19 - 20, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Family"
+      ],
+      "price": "$70; members $55; children 3-12 $25",
+      "time": "9:30 AM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/brunch-with-santa-17/"
   }
 ]
