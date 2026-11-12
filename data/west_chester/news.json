@@ -1,5 +1,32 @@
 [
   {
+    "title": "Six holiday weekends start Nov. 27 with store discounts and free street parking",
+    "category": "News",
+    "summary": "The Greater West Chester Chamber of Commerce expects about 40,000 visitors for its downtown holiday campaign, which opens Black Friday with many of the roughly 180 shops and restaurants offering 20 to 30 percent off and other promotions. On-street parking is free Nov. 27 through 29, and the program runs through New Year's Day.",
+    "date": "2026-11-12",
+    "loc": "Downtown West Chester",
+    "link": "https://www.mychesco.com/a/communities/west-chester/west-chester-offers-holiday-discounts-to-draw-40000-visitors/",
+    "img": ""
+  },
+  {
+    "title": "Friends group pays for a new brick sidewalk along Marshall Square Park",
+    "category": "Development",
+    "summary": "A block-long red brick walk now runs along North Franklin Street from East Biddle Street to the fountain at Marshall Street, linking an existing crosswalk that had led nowhere. The Friends of Marshall Square Park covered the full cost with no borough money and also rebuilt two older brick walks with salvaged pavers.",
+    "date": "2026-11-11",
+    "loc": "Marshall Square Park, N. Franklin St., West Chester",
+    "link": "https://www.dailylocal.com/2026/11/11/new-red-brick-sidewalk-installed-in-marshall-square-park-in-west-chester/",
+    "img": ""
+  },
+  {
+    "title": "Golden Valley Farms Coffee marks 40 years with a Coffee Fest on Nov. 28",
+    "category": "News",
+    "summary": "The family-run West Goshen roaster, which has sold certified organic coffee since 2010, celebrates on Small Business Saturday at the Artisan Exchange with free mini cold brews and hot chocolate, local vendors and tours of the roasting room.",
+    "date": "2026-11-11",
+    "loc": "Artisan Exchange, 208 Carter Drive, West Goshen",
+    "link": "https://www.dailylocal.com/2026/11/11/golden-valley-farms-coffee-celebrates-40-years-of-steady-growth/",
+    "img": ""
+  },
+  {
     "title": "Greek-style coffee shop opens on West Gay Street; 7 Brew drive-thru follows Monday",
     "category": "Now Open",
     "summary": "Brewing Love has opened at 145 W. Gay St., pouring freddos, the iced coffee popular in Greece, along with iced matcha and pastries. Drive-thru chain 7 Brew is set to open at 829 Paoli Pike on Monday, Nov. 16.",
@@ -54,48 +81,12 @@
     "img": ""
   },
   {
-    "title": "Uwchlan supervisors reject 492-home plan for Lionville Station Road farmland",
-    "category": "Development",
-    "summary": "The board voted unanimously Nov. 4 to deny Rockwell Development Group's rezoning request and plan for an age-restricted neighborhood on 237 acres owned by the Downingtown Area School District, citing density, traffic and the cost to taxpayers. Rockwell says it expects to return within 60 days with a plan that fits the current zoning.",
-    "date": "2026-11-10",
-    "loc": "Lionville Station Road, Uwchlan Township",
-    "link": "https://vista.today/2026/11/uwchlan-rejects-lionville-station-road/",
-    "img": ""
-  },
-  {
-    "title": "Downingtown STEM Academy named a Pennsylvania Blue Ribbon School",
-    "category": "News",
-    "summary": "The state Department of Education picked the academy as one of 12 schools statewide for its 2026 Blue Ribbon list, which weighs academic achievement and improvement, school culture and special education supports. The International Baccalaureate high school opened in 2011 and enrolls about 950 students; Lionville Elementary earned the same honor in the program's first year.",
-    "date": "2026-11-10",
-    "loc": "Downingtown STEM Academy, Downingtown",
-    "link": "https://www.dailylocal.com/2026/11/10/downingtown-stem-academy-named-a-2026-pennsylvania-blue-ribbon-school/",
-    "img": ""
-  },
-  {
     "title": "Retired Seabee spends his days repairing headstones at Oaklands Cemetery",
     "category": "News",
     "summary": "Ed Dougherty, 65, who served in the Navy from 1979 to 1985, cleans, resets and repairs grave markers at the historic cemetery and replaces tattered flags on veterans' graves, including about 30 in the soldiers' lot. He began walking the grounds to rebuild his strength after a double lung transplant.",
     "date": "2026-11-09",
     "loc": "Oaklands Cemetery, West Chester",
     "link": "https://www.dailylocal.com/2026/11/09/veteran-seabee-ed-dougherty-now-serves-to-repair-damaged-headstones-at-oaklands-historical-cemetery/",
-    "img": ""
-  },
-  {
-    "title": "Library's Holiday Home Tour opens seven decorated houses Dec. 5",
-    "category": "News",
-    "summary": "The 15th annual self-guided tour runs Saturday, Dec. 5, from 10 a.m. to 3 p.m., with seven private homes and three other stops dressed for the season. All proceeds go to the West Chester Public Library.",
-    "date": "2026-11-08",
-    "loc": "West Chester Public Library, 415 N. Church St., West Chester",
-    "link": "https://www.mychesco.com/a/education/ccls/west-chester-holiday-home-tour-opens-doors-for-a-good-cause/",
-    "img": ""
-  },
-  {
-    "title": "Hometown Christmas Parade returns Dec. 4 with more marching bands",
-    "category": "News",
-    "summary": "The Greater West Chester Chamber of Commerce's free parade runs Friday, Dec. 4, rain or shine, starting with the tree lighting at 6:30 p.m. and the procession at 7. This year's lineup adds marching bands by popular demand, works in an America250 tribute and ends with Santa.",
-    "date": "2026-11-06",
-    "loc": "Downtown West Chester",
-    "link": "https://www.mychesco.com/a/communities/west-chester/west-chester-christmas-parade-returns-with-more-bands-and-holiday-magic/",
     "img": ""
   }
 ]
