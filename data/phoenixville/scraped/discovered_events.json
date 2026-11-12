@@ -243,33 +243,6 @@
     "action_link": "https://souljoels.com/shop/tickets/theuptownbandnye/"
   },
   {
-    "id": "discovered_shelly_belly_souljoels_20261111",
-    "type": "event",
-    "title": "Shelly Belly – Live Stand-Up Comedy at SoulJoel's",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "November 11, 2026 7:30 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Wednesday Night",
-        "Headline Show",
-        "Pottstown"
-      ],
-      "price": "$10"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/shellybelly/"
-  },
-  {
     "id": "discovered_national_dog_show_oaks_20261114",
     "type": "event",
     "title": "National Dog Show – Kennel Club of Philadelphia",
@@ -777,36 +750,6 @@
       "image": ""
     },
     "action_link": "https://www.tickpick.com/buy-eleanor-kerrigan-tickets-souljoels-at-sunnybrook-11-28-26-7pm/8084379/"
-  },
-  {
-    "id": "discovered_murder_mystery_souljoels_20261111",
-    "type": "event",
-    "title": "Once Bitten Twice Dead – Themed Murder Mystery Dinner at SoulJoel's",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "November 11, 2026 6:00 PM",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Murder Mystery",
-        "Dinner Theater",
-        "Interactive",
-        "Halloween Theme",
-        "Immersive",
-        "Wednesday Night",
-        "Pottstown"
-      ],
-      "price": "From $125"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.tickpick.com/buy-once-bitten-twice-dead-themed-murder-mystery-dinner-tickets-souljoels-at-sunnybrook-11-11-26-6pm/8094999/"
   },
   {
     "id": "discovered_die_laughing_thanksgiving_eve_rivet_20261125",
@@ -2162,5 +2105,38 @@
       "image": ""
     },
     "action_link": "https://www.tickpick.com/buy-elf-themed-bingo-tickets-souljoels-at-sunnybrook-12-17-26-7pm/8094993/"
+  },
+  {
+    "id": "discovered_spring_city_mill_holiday_art_fest_20261121",
+    "type": "event",
+    "title": "Spring City Mill Studios Annual Holiday Art Festival",
+    "venue_info": {
+      "name": "Spring City Mill Studios, 20 E Bridge St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "Nov 21-22, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "time": "11:00 AM – 4:00 PM",
+      "vibes": [
+        "Art Festival",
+        "Local Artists",
+        "Holiday Shopping",
+        "Open Studios",
+        "Free Admission",
+        "Food Drive",
+        "PACS",
+        "Spring City",
+        "Weekend"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://springcitymillstudios.com"
   }
 ]
