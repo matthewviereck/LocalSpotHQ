@@ -50,31 +50,6 @@
     "action_link": "https://yellowsprings.org/events/ceramics-national/"
   },
   {
-    "id": "discovered_the_2026_kennett_flash_jazz_20261112",
-    "type": "event",
-    "title": "The 2026 Kennett Flash Jazz Jam",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Nov 12, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/the-2026-kennett-flash-jazz-jam-8/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_silver_sonic_up24_impolite_society_20261113",
     "type": "event",
     "title": "Silver Sonic, UP24, Impolite Society",
@@ -997,32 +972,6 @@
       "image": ""
     },
     "action_link": "https://runsignup.com/Race/PA/Downingtown/ChesterCountyTurkeyTrot"
-  },
-  {
-    "id": "discovered_hidden_treasures_talk_20261112",
-    "type": "event",
-    "title": "\"America's Hidden Treasures\" Book Talk & Signing",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.5906
-      }
-    },
-    "raw_date_string": "Nov 12, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "Talk"
-      ],
-      "price": "$20 ($10 members)",
-      "time": "3:30 PM - 5:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/americas-hidden-treasures-book-talk-signing"
   },
   {
     "id": "discovered_sensory_railroad_20261119",
@@ -2621,32 +2570,6 @@
     "action_link": "https://www.upperuwchlan-pa.gov/Calendar.aspx?EID=2574"
   },
   {
-    "id": "discovered_thomas_maguire_talk_20261112",
-    "type": "event",
-    "title": "Revolutionary War Talk with Historian Thomas Maguire",
-    "venue_info": {
-      "name": "West Goshen Township Building, West Chester",
-      "location": {
-        "lat": 39.9757,
-        "lng": -75.576
-      }
-    },
-    "raw_date_string": "Nov 12, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Talk",
-        "History"
-      ],
-      "price": "Free",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.westgoshen.org/Calendar.aspx?EID=1752"
-  },
-  {
     "id": "discovered_book_restoration_workshop_20270130",
     "type": "event",
     "title": "Book Restoration Workshop",
@@ -4195,31 +4118,6 @@
     "action_link": "https://www.mychesco.com/a/entertainment/arts-culture/salt-brings-disneys-newsies-to-chester-springs-for-the-holidays/"
   },
   {
-    "id": "discovered_beans_story_slam_grand_slam_20261112",
-    "type": "event",
-    "title": "The Beans Story Slam: 2026 Grand Slam",
-    "venue_info": {
-      "name": "United Methodist Church of West Chester, West Chester",
-      "location": {
-        "lat": 39.9588,
-        "lng": -75.6057
-      }
-    },
-    "raw_date_string": "Nov 12, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Indoor",
-        "Storytelling"
-      ],
-      "time": "7:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.mychesco.com/a/entertainment/west-chesters-best-storytellers-face-off-in-grand-slam-showdown/"
-  },
-  {
     "id": "discovered_sugartown_holiday_craft_market_20261205",
     "type": "event",
     "title": "Historic Sugartown Holiday Craft Market",
@@ -5115,5 +5013,31 @@
       "image": ""
     },
     "action_link": "https://www.winterthur.org/calendar/brunch-with-santa-17/"
+  },
+  {
+    "id": "discovered_jenkins_wreath_workshop_20261205",
+    "type": "event",
+    "title": "Holiday Greens Wreath Workshop at Jenkins Arboretum",
+    "venue_info": {
+      "name": "Jenkins Arboretum & Garden, Devon",
+      "location": {
+        "lat": 40.0597,
+        "lng": -75.4358
+      }
+    },
+    "raw_date_string": "Dec 5 - 6, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Workshop",
+        "Holiday"
+      ],
+      "price": "$65 ($55 members)",
+      "time": "10:00 AM - 12:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mychesco.com/a/lifestyle/holidays/create-your-own-holiday-wreath-at-jenkins-arboretum-in-devon/"
   }
 ]
