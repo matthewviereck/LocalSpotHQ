@@ -517,36 +517,6 @@
     "action_link": "https://thecolonialtheatre.com/events/live-music/rachael-vilray/"
   },
   {
-    "id": "discovered_vanessa_collier_colonial_20261112",
-    "type": "event",
-    "title": "Vanessa Collier – Music For Everyone Series at Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "November 12, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Blues",
-        "Soul",
-        "Singer-Songwriter",
-        "Saxophone",
-        "Live Music",
-        "Indoor",
-        "Thursday Night"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/live-music/vanessa-collier/"
-  },
-  {
     "id": "discovered_90s_night_colonial_20261113",
     "type": "event",
     "title": "90s Night with DJ Moshe – 30th Anniversary Celebration at Colonial",
@@ -2138,5 +2108,95 @@
       "image": ""
     },
     "action_link": "https://springcitymillstudios.com"
+  },
+  {
+    "id": "discovered_circle_mirror_phx_rec_20261114",
+    "type": "event",
+    "title": "Circle Mirror Transformation – Site Unseen Theatre at Phoenixville Rec Center",
+    "venue_info": {
+      "name": "Phoenixville Recreation Center, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "November 14, 2026 2:00 PM",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Site-Specific Theater",
+        "Annie Baker",
+        "Immersive",
+        "Local Company",
+        "Saturday Matinee",
+        "Community Theater",
+        "Phoenixville"
+      ],
+      "price": "$25"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://theatrephiladelphia.org/whats-on-stage/circle-mirror-transformation"
+  },
+  {
+    "id": "discovered_circle_mirror_phx_rec_20261120",
+    "type": "event",
+    "title": "Circle Mirror Transformation – Site Unseen Theatre at Phoenixville Rec Center",
+    "venue_info": {
+      "name": "Phoenixville Recreation Center, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "November 20, 2026 7:30 PM",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Site-Specific Theater",
+        "Annie Baker",
+        "Immersive",
+        "Local Company",
+        "Friday Night",
+        "Community Theater",
+        "Phoenixville"
+      ],
+      "price": "$25"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://theatrephiladelphia.org/whats-on-stage/circle-mirror-transformation"
+  },
+  {
+    "id": "discovered_circle_mirror_phx_rec_20261121",
+    "type": "event",
+    "title": "Circle Mirror Transformation – Site Unseen Theatre at Phoenixville Rec Center",
+    "venue_info": {
+      "name": "Phoenixville Recreation Center, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "November 21, 2026 2:00 PM",
+    "attributes": {
+      "category": "Theater",
+      "vibes": [
+        "Site-Specific Theater",
+        "Annie Baker",
+        "Immersive",
+        "Local Company",
+        "Saturday Matinee",
+        "Community Theater",
+        "Phoenixville"
+      ],
+      "price": "$25"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://theatrephiladelphia.org/whats-on-stage/circle-mirror-transformation"
   }
 ]
