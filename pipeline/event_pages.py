@@ -387,7 +387,8 @@ def generate_event_pages(events_file, output_dir, area_config):
     return pages
 
 
-def generate_area_sitemap(output_dir, area_config, event_slugs, guide_slugs=(), plan_slugs=(), case_slugs=()):
+def generate_area_sitemap(output_dir, area_config, event_slugs, guide_slugs=(), plan_slugs=(), case_slugs=(),
+                          camps_live=False):
     base_url = area_config['meta']['canonical_url'].rstrip('/')
     today = date.today().isoformat()
 
@@ -404,6 +405,8 @@ def generate_area_sitemap(output_dir, area_config, event_slugs, guide_slugs=(), 
     if case_slugs:  # the index is a teaser (noindex) until the first case is live
         entries.append(url(f"{base_url}/weekend-case/", 'weekly', '0.7'))
         entries.extend(url(f"{base_url}/weekend-case/{slug}/", 'monthly', '0.5') for slug in case_slugs)
+    if camps_live:  # the camp planner is noindex until its data file says live
+        entries.append(url(f"{base_url}/camps/", 'weekly', '0.8'))
     entries.extend(url(f"{base_url}/events/{slug}/", 'weekly', '0.6') for slug in event_slugs)
 
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
