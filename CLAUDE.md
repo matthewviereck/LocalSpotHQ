@@ -217,9 +217,16 @@ A town may set `dining_group` to share a neighbor's restaurant pool
 - **Not in search until `"live": true`** in the data file: until then the
   page is noindex, left out of the sitemap and linked from nowhere, so a
   merge never publishes a half filled page. Going live is Matthew's call.
-- **Clicks out are counted for the camps** (GA4 `camp_click` with `camp_id`,
-  `camp_pick` per week ticked), from the production hostname only. Reporting
-  by `camp_id` needs it registered as a custom dimension in GA4.
+- **Clicks out are counted for the camps** (GA4 `camp_click` with `camp_id`),
+  only when the data says live and on the production hostname. Picks are
+  never sent anywhere, and the page says so; don't add a pick event without
+  changing that line. Reporting by `camp_id` needs it registered as a custom
+  dimension in GA4.
+- **The planner logic is plain JS in `LOGIC_JS`** (restoring saved picks,
+  totals, overlaps, minimum weeks, filters, local dates) and runs under Node
+  in `tests/test_camp_pages.py`; keep DOM code out of it. Saved picks are ISO
+  Mondays and are re-checked against the camp's weeks on every load, so a
+  camp that changes its schedule can't leave a ghost week behind.
 
 ## Vault: log meaningful work without being asked
 
