@@ -50,32 +50,6 @@
     "action_link": "https://yellowsprings.org/events/ceramics-national/"
   },
   {
-    "id": "discovered_silver_sonic_up24_impolite_society_20261113",
-    "type": "event",
-    "title": "Silver Sonic, UP24, Impolite Society",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Nov 13, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$15-$18",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/silver-sonic-up24-impolite-society/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_250th_revolutionary_speaker_series_don_20261114",
     "type": "event",
     "title": "250th Revolutionary Speaker Series: Don N. Hagist",
@@ -5039,5 +5013,83 @@
       "image": ""
     },
     "action_link": "https://www.mychesco.com/a/lifestyle/holidays/create-your-own-holiday-wreath-at-jenkins-arboretum-in-devon/"
+  },
+  {
+    "id": "discovered_kennett_menorah_lighting_20261210",
+    "type": "event",
+    "title": "Kennett Square Menorah Lighting",
+    "venue_info": {
+      "name": "Downtown Kennett Square, Kennett Square",
+      "location": {
+        "lat": 39.8465,
+        "lng": -75.7116
+      }
+    },
+    "raw_date_string": "Dec 10, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Holiday"
+      ],
+      "time": "4:30 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mychesco.com/a/entertainment/family-fun/kennett-squares-holiday-season-holds-a-few-new-surprises/"
+  },
+  {
+    "id": "discovered_winterthur_eco_friendly_holidays_20261210",
+    "type": "event",
+    "title": "Rooted in Wellness: Eco-Friendly Holidays at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Dec 10, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Holiday",
+        "Workshop"
+      ],
+      "time": "6:00 PM",
+      "price": "$35; $25 members"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/rooted-in-wellness-eco-friendly-holidays/"
+  },
+  {
+    "id": "discovered_winterthur_cider_cheese_tasting_20261211",
+    "type": "event",
+    "title": "The Perfect Pair: A Cider and Cheese Tasting at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Dec 11, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Holiday",
+        "21+"
+      ],
+      "time": "6:00 PM",
+      "price": "$52"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/the-perfect-pair-a-cider-and-cheese-tasting/"
   }
 ]
