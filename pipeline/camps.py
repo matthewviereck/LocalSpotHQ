@@ -48,7 +48,10 @@ def grid_weeks(data):
 
 def camp_weeks(camp, data):
     """(indexes on the grid, weeks outside it). Last season's Mondays move to
-    the same week of summer this season: +364 days keeps the weekday."""
+    the same week of summer this season: +364 days keeps the weekday. A camp
+    with no dates posted (weeks_year null) has no weeks."""
+    if camp.get('weeks_year') is None:
+        return [], 0
     season = int(data['season'])
     shift = timedelta(days=364 * (season - int(camp['weeks_year'])))
     grid = grid_weeks(data)
@@ -64,6 +67,8 @@ def camp_weeks(camp, data):
 
 
 def basis(camp, data):
+    if camp.get('weeks_year') is None:
+        return 'none'
     if int(camp['weeks_year']) == int(data['season']):
         return 'posted' if camp.get('year_printed', True) else 'noyear'
     return 'last'
@@ -96,11 +101,16 @@ def validate(data):
         if cid in seen:
             cp.append('duplicate id')
         seen.add(cid)
-        for field in ('name', 'town', 'ages', 'day', 'hours', 'price', 'signup',
-                      'link', 'source', 'checked', 'weeks', 'weeks_year'):
+        dated = c.get('weeks_year') is not None
+        required = ['name', 'town', 'ages', 'hours', 'price', 'signup', 'link', 'source', 'checked']
+        if dated:
+            required += ['day', 'weeks']
+        elif c.get('weeks'):
+            cp.append('weeks given but weeks_year is null')
+        for field in required:
             if c.get(field) in (None, '', []):
                 cp.append(f'missing {field}')
-        if c.get('day') not in DAY_LABEL:
+        if c.get('day') not in DAY_LABEL and (dated or c.get('day') is not None):
             cp.append('day must be full, half or both')
         for url_field in ('link', 'source'):
             if not str(c.get(url_field, '')).startswith('https://'):
@@ -131,7 +141,7 @@ def validate(data):
             v = c.get(name)
             if v is not None and not _is_number(v):
                 cp.append(f'{name} must be a number or null')
-        if not cp and not camp_weeks(c, data)[0]:
+        if not cp and dated and not camp_weeks(c, data)[0]:
             cp.append('no week falls on the grid')
         problems.extend(f'{cid}: {p}' for p in cp)
     return problems
@@ -154,6 +164,7 @@ def _card(camp, data, grid):
         'posted': ('posted', f"{data['season']} dates posted"),
         'noyear': ('posted', f"{data['season']} dates (no year on the page)"),
         'last': ('last', f"{camp['weeks_year']} schedule; {data['season']} not posted yet"),
+        'none': ('last', 'No dates posted yet'),
     }[b]
     weeks = []
     for i, d in enumerate(grid):
@@ -163,6 +174,9 @@ def _card(camp, data, grid):
                          f'aria-label="Week of {label}: add">{label}</button>')
         else:
             weeks.append(f'<span class="wk none" aria-hidden="true">{label}</span>')
+    weeks_html = (f'<div class="weeks" role="group" aria-label="Weeks {e(camp["name"])} runs">{"".join(weeks)}</div>'
+                  if on else '')
+    day_tag = f'<span class="tag">{e(DAY_LABEL[camp["day"]])}</span>' if camp.get('day') in DAY_LABEL else ''
     extra = (f'<p class="extra">Also runs {off} week{"s" if off != 1 else ""} outside this grid.</p>'
              if off else '')
     rules = []
@@ -174,7 +188,7 @@ def _card(camp, data, grid):
     featured = '<span class="tag feat">Featured</span>' if camp.get('featured') else ''
     note = f'<p class="note">{e(camp["note"])}</p>' if camp.get('note') else ''
     return f"""<article class="camp" id="camp-{e(camp['id'])}" data-id="{e(camp['id'])}">
-  <div class="tags">{featured}<span class="tag {status[0]}">{e(status[1])}</span><span class="tag">{e(DAY_LABEL[camp['day']])}</span></div>
+  <div class="tags">{featured}<span class="tag {status[0]}">{e(status[1])}</span>{day_tag}</div>
   <h2><a href="{e(camp['link'])}" data-out="link" target="_blank" rel="noopener">{e(camp['name'])}</a></h2>
   <p class="where">{e(camp['town'])} &middot; {camp['miles']} mi &middot; {e(camp.get('place', ''))}</p>
   <dl>
@@ -185,7 +199,7 @@ def _card(camp, data, grid):
     <dt>Sign up</dt><dd>{e(camp['signup'])}</dd>
   </dl>
   {note}
-  <div class="weeks" role="group" aria-label="Weeks {e(camp['name'])} runs">{''.join(weeks)}</div>
+  {weeks_html}
   {extra}{rule_html}
   <p class="src">Checked {_long(camp['checked'])} &middot; <a href="{e(camp['source'])}" data-out="source" target="_blank" rel="noopener">source</a> &middot; run by {e(camp.get('organizer', camp['name']))}</p>
 </article>"""
@@ -277,6 +291,7 @@ button.wk[aria-pressed="true"]{background:var(--now);color:var(--paper)}
 .key i{display:inline-block;width:18px;height:12px;border-radius:3px;border:1.5px solid var(--now)}
 .key i.d{border-style:dashed}
 .key i.p{background:var(--now)}
+h2.section{font-size:20px;margin:28px 0 4px;line-height:1.25}
 .empty{padding:24px;text-align:center;color:var(--ink-soft);background:var(--surface);border-radius:var(--radius-lg)}
 footer{margin-top:32px;padding-top:16px;border-top:1px solid var(--rule);color:var(--ink-soft);font-size:13px}
 footer a{color:var(--ink-soft)}
@@ -286,7 +301,7 @@ button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(
   body{max-width:none;padding:0;font-size:12px;background:#fff!important;color:#000!important}
   body *{color:#000!important;background:transparent!important}
   .plan{position:static;border:0}
-  .filters,.bar,.key,.lede,.small,.crumb,footer,.extra,.note,.strip,.noprint{display:none!important}
+  .filters,.bar,.key,.lede,.small,.crumb,footer,.extra,.note,.strip,.noprint,.nodates{display:none!important}
   .camp{break-inside:avoid;border:1px solid #999;padding:10px;margin:0 0 8px}
   .camp:not(.picked){display:none!important}
   .camp.picked[hidden]{display:block!important}
@@ -384,7 +399,7 @@ function matches(c, f){
   var age = f.age ? +f.age : null, max = f.max ? +f.max : null;
   if (age != null && ((c.amin != null && age < c.amin) || (c.amax != null && age > c.amax))) return false;
   if (f.town && c.town !== f.town) return false;
-  if (f.day && c.day !== f.day && c.day !== "both") return false;
+  if (f.day && c.day && c.day !== f.day && c.day !== "both") return false;
   if (max != null) { var p = priceFor(c, f.day); if (p != null && p > max) return false; }
   if (f.week != null && c.weeks.indexOf(f.week) < 0) return false;
   return true;
@@ -480,6 +495,8 @@ function draw(){
   shown.textContent = n + " of " + cards.length + " camps" +
     (f.max && unpricedShown ? " (" + unpricedShown + " with no price posted)" : "");
   empty.hidden = n > 0;
+  var nodates = document.getElementById("nodates");
+  if (nodates) nodates.hidden = !nodates.querySelector(".camp:not([hidden])");
   weekNote.hidden = f.week == null;
   if (f.week != null) text("weeklabel", D.weeks[f.week].label);
 }
@@ -536,7 +553,15 @@ def _page(data, area_config):
                     for d in grid)
     ages = ''.join(f'<option value="{a}">{a}</option>' for a in range(3, 16))
     town_opts = ''.join(f'<option value="{e(t)}">{e(t)}</option>' for t in towns)
-    cards = '\n'.join(_card(c, data, grid) for c in camps)
+    cards = '\n'.join(_card(c, data, grid) for c in camps if basis(c, data) != 'none')
+    undated = [c for c in camps if basis(c, data) == 'none']
+    nodates = ''
+    if undated:
+        nodates = (f'<section id="nodates" class="nodates" aria-labelledby="nodates-h">\n'
+                   f'<h2 class="section" id="nodates-h">Also near {e(area_name)}: no {season} dates posted yet</h2>\n'
+                   f'<p class="small">These camps don\'t post their weeks online, or haven\'t yet. Call them or check '
+                   f'their pages; we add their weeks to the planner when they post.</p>\n'
+                   + '\n'.join(_card(c, data, grid) for c in undated) + '\n</section>')
     client = json.dumps(client_data(data), ensure_ascii=False).replace('</', '<\\/')
     script = _SCRIPT.replace('__LOGIC__', LOGIC_JS).replace('__DATA__', client)
     last_day = grid[-1] + timedelta(days=4)
@@ -602,6 +627,7 @@ def _page(data, area_config):
 
 {cards}
 <p class="empty" id="empty" hidden>No camp matches those filters. Try another age, town or price.</p>
+{nodates}
 
 <footer>LocalSpot HQ &middot; camp details checked {_long(data['updated'])} &middot; <a href="{base_url}/">Everything happening in {e(area_name)} &rarr;</a></footer>
 {script}

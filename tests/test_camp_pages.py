@@ -188,6 +188,19 @@ class Page(unittest.TestCase):
         self.assertFalse(camps.generate_camp_pages(os.path.join(self.tmp, 'none.json'), self.tmp, AREA))
         self.assertFalse(os.path.exists(os.path.join(self.tmp, 'camps')))
 
+    def test_camps_with_no_dates_get_their_own_section(self):
+        undated = dict(CAMP, id='undated', name='Undated Camp', weeks_year=None, weeks=[], day=None)
+        d = dict(DATA, camps=[CAMP, undated])
+        self.assertEqual(camps.validate(d), [])
+        _, page = self.build(d)
+        section = page.split('id="nodates"', 1)[1]
+        self.assertIn('Undated Camp', section)
+        self.assertNotIn('Camp &lt;Test&gt;', section)
+        self.assertIn('No dates posted yet', section)
+        self.assertNotIn('class="weeks"', section.split('</section>', 1)[0])
+        bad = dict(undated, weeks=['2026-06-15'])
+        self.assertTrue(camps.validate(dict(DATA, camps=[bad])))
+
 
 # The planner's logic, run in Node against a small fixture. Each check names
 # the review finding it guards (stale picks, overlaps, minimum weeks, dates).
