@@ -28,6 +28,7 @@ from pipeline.slugs import REGISTRY_FILE, SlugRegistry, assign_slugs, emit_retir
 from pipeline.guides import generate_guide_pages
 from pipeline.plans import generate_plan_pages
 from pipeline.cases import generate_case_pages
+from pipeline.camps import generate_camp_pages
 from pipeline.community import emit_community
 
 
@@ -200,7 +201,9 @@ def run_area(area_id):
     guide_slugs = generate_guide_pages(os.path.join(data_dir, 'guides.json'), output_dir, config)
     plan_slugs = generate_plan_pages(os.path.join(data_dir, static['plans']), output_dir, config)
     case_slugs = generate_case_pages(os.path.join(data_dir, 'cases.json'), output_dir, config)
-    generate_area_sitemap(output_dir, config, event_slugs, guide_slugs, plan_slugs, case_slugs)
+    camps_live = generate_camp_pages(os.path.join(data_dir, 'camps.json'), output_dir, config)
+    generate_area_sitemap(output_dir, config, event_slugs, guide_slugs, plan_slugs, case_slugs,
+                          camps_live=camps_live)
 
     # Step 9a: Every slug that was ever published but isn't in this build
     # gets a 301, a stub or a 410 (output/<area>/.htaccess + stub pages).

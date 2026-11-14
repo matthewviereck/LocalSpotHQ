@@ -201,6 +201,26 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   production hostname so local test plays never count. Signups from the case
   carry source `weekend-case:phoenixville` (routes to Phoenixville).
 
+## Summer camp week planner (Phoenixville)
+
+- `/phoenixville/camps/`, rendered by `pipeline/camps.py` from
+  `data/phoenixville/camps.json`. Parents tick the weeks they want; picks stay
+  in localStorage (no accounts, nothing about a child leaves the browser).
+- **Hand checked data.** Every camp carries `source` (the page read) and
+  `checked` (the date). `validate()` gates the build: Monday weeks, https
+  links, no missing fields. Never add a fact without its source; the
+  research sheet lives untracked in `camps/` in the main checkout.
+- **Last season's weeks stand in until a camp posts.** `weeks_year: 2026`
+  rows move to the 2027 grid at +364 days (Monday stays Monday) and draw
+  dashed. Yearless dates that only fit the new season get
+  `year_printed: false`; confirm them before calling them posted.
+- **Not in search until `"live": true`** in the data file: until then the
+  page is noindex, left out of the sitemap and linked from nowhere, so a
+  merge never publishes a half filled page. Going live is Matthew's call.
+- **Clicks out are counted for the camps** (GA4 `camp_click` with `camp_id`,
+  `camp_pick` per week ticked), from the production hostname only. Reporting
+  by `camp_id` needs it registered as a custom dimension in GA4.
+
 ## Vault: log meaningful work without being asked
 
 This repo's hub note is:
