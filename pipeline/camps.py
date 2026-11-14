@@ -403,8 +403,13 @@ function draw(){
   b.addEventListener("click", function(){ st.f.week = st.f.week === i ? null : i; save(); draw(); });
 });
 document.getElementById("clearweek").addEventListener("click", function(){ st.f.week = null; save(); draw(); });
-document.getElementById("clearall").addEventListener("click", function(){
-  if (!Object.keys(st.picks).length || confirm("Clear every week you picked?")) { st.picks = {}; save(); draw(); }
+// Two taps, no browser dialog: the first arms the button for a few seconds.
+var clearBtn = document.getElementById("clearall"), armed = null;
+clearBtn.addEventListener("click", function(){
+  if (!Object.keys(st.picks).length) return;
+  if (armed) { clearTimeout(armed); armed = null; clearBtn.textContent = "Clear picks"; st.picks = {}; save(); draw(); return; }
+  clearBtn.textContent = "Tap again to clear all";
+  armed = setTimeout(function(){ armed = null; clearBtn.textContent = "Clear picks"; }, 4000);
 });
 document.getElementById("print").addEventListener("click", function(){ window.print(); });
 cards.forEach(function(el){
