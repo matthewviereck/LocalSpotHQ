@@ -50,130 +50,6 @@
     "action_link": "https://yellowsprings.org/events/ceramics-national/"
   },
   {
-    "id": "discovered_250th_revolutionary_speaker_series_don_20261114",
-    "type": "event",
-    "title": "250th Revolutionary Speaker Series: Don N. Hagist",
-    "venue_info": {
-      "name": "Brandywine Battlefield Park, Chadds Ford",
-      "location": {
-        "lat": 39.8737,
-        "lng": -75.5836
-      }
-    },
-    "raw_date_string": "Nov 14, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor"
-      ],
-      "time": "12:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywinebattlefield.org/events/"
-  },
-  {
-    "id": "discovered_sunset-yoga-cheslen_20261114",
-    "type": "event",
-    "title": "Gentle Sunset Yoga",
-    "venue_info": {
-      "name": "ChesLen Preserve, Coatesville",
-      "location": {
-        "lat": 39.9151,
-        "lng": -75.7714
-      }
-    },
-    "raw_date_string": "Nov 14, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Evening"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wp.natlands.org/event/sunset-yoga-cheslen-2026-1114/"
-  },
-  {
-    "id": "discovered_pints-family-cheslen_20261114",
-    "type": "event",
-    "title": "Pints & Connect: Family Edition",
-    "venue_info": {
-      "name": "ChesLen Preserve, Coatesville",
-      "location": {
-        "lat": 39.9151,
-        "lng": -75.7714
-      }
-    },
-    "raw_date_string": "Nov 14, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wp.natlands.org/event/pints-family-cheslen-2026-1114/"
-  },
-  {
-    "id": "discovered_pints-cheslen_20261114",
-    "type": "event",
-    "title": "Pints on the Preserve",
-    "venue_info": {
-      "name": "ChesLen Preserve, Coatesville",
-      "location": {
-        "lat": 39.9151,
-        "lng": -75.7714
-      }
-    },
-    "raw_date_string": "Nov 14, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Outdoor",
-        "Craft Beer",
-        "Family Friendly"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wp.natlands.org/event/pints-cheslen-2026-1114/"
-  },
-  {
-    "id": "discovered_veterans_art_day_20261114",
-    "type": "event",
-    "title": "Veterans' Art Day",
-    "venue_info": {
-      "name": "Historic Yellow Springs, Chester Springs",
-      "location": {
-        "lat": 40.0871,
-        "lng": -75.6392
-      }
-    },
-    "raw_date_string": "Nov 14, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Free"
-      ],
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://yellowsprings.org/events/veterans-art-day/"
-  },
-  {
     "id": "discovered_the_legendary_kennett_flash_open_20261115",
     "type": "event",
     "title": "The Legendary Kennett Flash Open Mic Night",
@@ -1027,30 +903,6 @@
     "action_link": "https://kennettcollaborative.org/holidayvillagemarket/"
   },
   {
-    "id": "discovered_johnson_zilber_talk_20261114",
-    "type": "event",
-    "title": "Exhibition Conversation: Jennifer Johnson & Emily Zilber",
-    "venue_info": {
-      "name": "Wharton Esherick Museum, Malvern",
-      "location": {
-        "lat": 40.0548,
-        "lng": -75.4985
-      }
-    },
-    "raw_date_string": "Nov 14, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "Talk"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.mychesco.com/a/entertainment/arts-culture/wharton-esherick-museum-marks-studio-centennial-with-new-jennifer-johnson-exhibition/"
-  },
-  {
     "id": "discovered_malvern_christmas_on_king_20261128",
     "type": "event",
     "title": "Christmas on King",
@@ -1413,7 +1265,7 @@
         "Holiday",
         "Family-Friendly"
       ],
-      "price": "Ticketed",
+      "price": "$36",
       "time": "3:00 PM"
     },
     "media": {
@@ -1758,31 +1610,6 @@
     "action_link": "https://runsignup.com/Race/PA/WestChester/jinglecarecenterfoundationrun2026"
   },
   {
-    "id": "discovered_barley_i_bet_your_life_20261030",
-    "type": "event",
-    "title": "I Bet Your Life (Barley Sheaf Players)",
-    "venue_info": {
-      "name": "The Barley Sheaf Players, Lionville (Exton)",
-      "location": {
-        "lat": 40.0486,
-        "lng": -75.6481
-      }
-    },
-    "raw_date_string": "Oct 30 - Nov 14, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Community Theater",
-        "Indoor"
-      ],
-      "time": "7:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.barleysheaf.org/i-bet-your-life"
-  },
-  {
     "id": "discovered_barley_best_christmas_pageant_20261204",
     "type": "event",
     "title": "The Best Christmas Pageant Ever (Barley Sheaf Players)",
@@ -2123,33 +1950,6 @@
       "image": ""
     },
     "action_link": "https://ccls.libcal.com/event/17162969"
-  },
-  {
-    "id": "discovered_concert_in_the_cupboard_20261114",
-    "type": "event",
-    "title": "Concert in the Cupboard: Carry On (ACTnow Benefit)",
-    "venue_info": {
-      "name": "10 W. Barnard Street, West Chester",
-      "location": {
-        "lat": 39.9583,
-        "lng": -75.606
-      }
-    },
-    "raw_date_string": "Nov 14, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Benefit",
-        "Indoor",
-        "Food"
-      ],
-      "price": "$50",
-      "time": "6:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.assistingnow.org/cupboardconcert/"
   },
   {
     "id": "discovered_holiday_pops_immaculata_20261211",
@@ -3830,32 +3630,6 @@
     "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1402361290"
   },
   {
-    "id": "discovered_wcu_opera_cabildo_20261113",
-    "type": "event",
-    "title": "WCU Opera Theatre: Cabildo",
-    "venue_info": {
-      "name": "Emilie K. Asplundh Concert Hall, West Chester",
-      "location": {
-        "lat": 39.95,
-        "lng": -75.599
-      }
-    },
-    "raw_date_string": "Nov 13 - 14, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Opera"
-      ],
-      "price": "$8.25; free for WCU students and staff",
-      "time": "7:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1397818684"
-  },
-  {
     "id": "discovered_wcu_vocal_latin_jazz_20261119",
     "type": "event",
     "title": "WCU Vocal Jazz & Latin Jazz Ensembles Concert",
@@ -4013,32 +3787,6 @@
       "image": ""
     },
     "action_link": "https://mycchc.org/calendar-events/season-of-lights-copy/"
-  },
-  {
-    "id": "discovered_cchc_walking_tour_revolutionary_wc_20261114",
-    "type": "event",
-    "title": "Walking Tour: Revolutionary West Chester",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.9619,
-        "lng": -75.6047
-      }
-    },
-    "raw_date_string": "Nov 14, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "History"
-      ],
-      "price": "$16",
-      "time": "11:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://mycchc.org/calendar-events/walking-tour-revolutionary-west-chester/2026-11-14/"
   },
   {
     "id": "discovered_cchc_exhibition_tour_whose_revolution_20261118",
@@ -5091,5 +4839,163 @@
       "image": ""
     },
     "action_link": "https://www.winterthur.org/calendar/the-perfect-pair-a-cider-and-cheese-tasting/"
+  },
+  {
+    "id": "discovered_pints_cheslen_20261121",
+    "type": "event",
+    "title": "Pints on the Preserve",
+    "venue_info": {
+      "name": "ChesLen Preserve, Coatesville",
+      "location": {
+        "lat": 39.9151,
+        "lng": -75.7714
+      }
+    },
+    "raw_date_string": "Nov 21, 2026",
+    "attributes": {
+      "category": "Food & Drink",
+      "vibes": [
+        "Outdoor",
+        "Craft Beer",
+        "Family Friendly"
+      ],
+      "time": "1:00 PM - 5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.natlands.org/event/newdatepints-cheslen-2026-1121/"
+  },
+  {
+    "id": "discovered_pints_family_cheslen_20261121",
+    "type": "event",
+    "title": "Pints & Connect: Family Edition",
+    "venue_info": {
+      "name": "ChesLen Preserve, Coatesville",
+      "location": {
+        "lat": 39.9151,
+        "lng": -75.7714
+      }
+    },
+    "raw_date_string": "Nov 21, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Family Friendly"
+      ],
+      "price": "Free (registration requested)",
+      "time": "1:00 PM - 3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.natlands.org/event/newdatepintsfamily-cheslen-2026-1121/"
+  },
+  {
+    "id": "discovered_ksq_small_business_saturday_20261128",
+    "type": "event",
+    "title": "Small Business Saturday in Kennett Square",
+    "venue_info": {
+      "name": "State Street, Kennett Square",
+      "location": {
+        "lat": 39.8465,
+        "lng": -75.7116
+      }
+    },
+    "raw_date_string": "Nov 28, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "vibes": [
+        "Shopping",
+        "Holiday"
+      ]
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettcollaborative.org/event/small-business-saturday/"
+  },
+  {
+    "id": "discovered_apricity_holiday_market_20261213",
+    "type": "event",
+    "title": "Apricity Gardens Holiday Market",
+    "venue_info": {
+      "name": "Apricity Gardens, Glenmoore",
+      "location": {
+        "lat": 40.1065,
+        "lng": -75.703
+      }
+    },
+    "raw_date_string": "Dec 13, 2026",
+    "attributes": {
+      "category": "Festival",
+      "vibes": [
+        "Free",
+        "Shopping",
+        "Holiday",
+        "Family Friendly"
+      ],
+      "price": "Free",
+      "time": "11:00 AM - 3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mychesco.com/a/entertainment/family-fun/apricity-gardens-to-host-free-holiday-market-featuring-local-artisans-santa-and-family-fun/"
+  },
+  {
+    "id": "discovered_winterthur_toy_train_display_20261219",
+    "type": "event",
+    "title": "Toy Train Display at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Dec 19 - 20, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Indoor",
+        "Family Friendly",
+        "Holiday"
+      ],
+      "price": "Included with admission",
+      "time": "10:00 AM - 5:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/model-train-display-2/"
+  },
+  {
+    "id": "discovered_winterthur_secret_inspiration_book_20270102",
+    "type": "event",
+    "title": "Secret Inspiration Book Workshop at Winterthur",
+    "venue_info": {
+      "name": "Winterthur Museum, Garden & Library, Winterthur",
+      "location": {
+        "lat": 39.8061,
+        "lng": -75.5983
+      }
+    },
+    "raw_date_string": "Jan 2, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Workshop",
+        "Indoor"
+      ],
+      "price": "$35",
+      "time": "5:00 PM - 7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.winterthur.org/calendar/secret-inspiration-book/"
   }
 ]
