@@ -82,6 +82,25 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   runs after deploy and fails the workflow when an active scraper has no
   upcoming events. Retire a dead scraper from the area config rather than
   leaving it to fail — the check is only honest if the config is.
+- **Published calendars beat discovery** (2026-11-14): `scrapers/calendar_feeds.py`
+  reads the calendars places already publish (iCal, Squarespace `?format=json`,
+  the Elfsight calendar widget, FooEvents) - one `scrapers` entry per feed in
+  the area config, settings under `options.feed`, output listed in
+  `merge_sources`. Adding a venue that has one is a config entry, not code.
+  Weekly programs are dropped with `max_repeats` (a storytime every Tuesday
+  buries the weekend's one-offs). The 2026-11-14 survey of ~50 Phoenixville
+  publishers is in the vault hub; government CivicPlus calendars turned out to
+  be meetings only, and Valley Forge Tourism's list sits behind a session
+  token, so neither is read.
+- **Cross-source duplicates:** `merge.py` stamps each event with its source
+  file (`_source`). `transform.fuzzy_dedupe` then also merges two copies from
+  DIFFERENT files on the same day in the same town when their naming words
+  agree ("Billy Gardell - Live Stand-Up Comedy at SoulJoel's" = "Comedian
+  Billy Gardell returns to SoulJoel's"); one source is never merged with
+  itself, and a festival run never with one night of it. Each merge is printed
+  as "same event, two sources" in the build log, so check that list when you
+  add a feed. When two copies tie on time, the place's own copy beats
+  discovery's (`merge._is_direct`): discovery has listed a 7 PM show at 8 PM.
 - Bandsintown is a dead source (403 bot wall for any plain HTTP client).
   `scrapers/molly_maguires.py` is retired for this reason; AI discovery covers
   that venue instead.

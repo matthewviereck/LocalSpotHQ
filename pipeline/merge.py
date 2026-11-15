@@ -25,8 +25,18 @@ def _richness(event):
         re.search(r'\d{1,2}(:\d{2})?\s*[ap]\.?m\.?',
                   str(event.get('raw_date_string', '')), re.IGNORECASE))
     # Series identity first — see transform._richness for why losing it hurts.
-    return (bool(attrs.get('series')), has_time, bool(attrs.get('price')),
-            has_img, bool(event.get('action_link')))
+    # A venue's own listing beats discovery's once both carry a time.
+    return (bool(attrs.get('series')), has_time, _is_direct(event.get('_source')),
+            bool(attrs.get('price')), has_img, bool(event.get('action_link')))
+
+
+DISCOVERY_FILE = 'discovered_events.json'
+
+
+def _is_direct(source):
+    """Did this copy come from the place's own data (a scraper, a published
+    calendar, the recurring config) rather than from AI discovery?"""
+    return bool(source) and source != DISCOVERY_FILE
 
 
 def dedupe_events(events):
@@ -60,6 +70,13 @@ def merge_events(source_files, output_file, area_config=None):
                 with open(filepath, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                     print(f"   OK Loaded {len(data)} events from {os.path.basename(filepath)}")
+                    # Which file an event came from. transform.fuzzy_dedupe
+                    # only applies its looser name match ACROSS sources: two
+                    # feeds describing one show is a duplicate, while one
+                    # feed listing two similar titles on a day is two events.
+                    for event in data:
+                        if isinstance(event, dict):
+                            event.setdefault('_source', os.path.basename(filepath))
                     master_list.extend(data)
             except Exception as e:
                 print(f"   ! Error reading {filepath}: {e}")

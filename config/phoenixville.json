@@ -44,6 +44,105 @@
       "module": "scrapers.steel_city",
       "function": "scrape_steel_city",
       "output_file": "scraped/steel_city_events.json"
+    },
+    {
+      "module": "scrapers.calendar_feeds",
+      "function": "scrape_feed",
+      "output_file": "scraped/feed_phoenixville_first.json",
+      "options": {"feed": {
+        "id": "phoenixville_first",
+        "format": "elfsight",
+        "url": "https://www.phoenixvillefirst.org/",
+        "widget": "b352482a-152e-46fe-8111-dc45afe22097",
+        "link": "https://www.phoenixvillefirst.org/",
+        "venue": {"name": "Downtown Phoenixville", "lat": 40.1304, "lng": -75.5155},
+        "title_fixes": {"Phoenixivlle": "Phoenixville"},
+        "vibes": ["Downtown"],
+        "may_be_empty": true
+      }}
+    },
+    {
+      "module": "scrapers.calendar_feeds",
+      "function": "scrape_feed",
+      "output_file": "scraped/feed_phoenixville_library.json",
+      "options": {"feed": {
+        "id": "phoenixville_library",
+        "format": "ics",
+        "url": "https://ccls.libcal.com/ical_subscribe.php?src=p&cid=13416",
+        "link": "https://ccls.libcal.com/calendar/Phoenixville/?cid=13416",
+        "venue": {"name": "Phoenixville Public Library, 183 Second Ave, Phoenixville", "lat": 40.1336, "lng": -75.5193},
+        "require_location": "library|harrop room|community education room|carnegie room",
+        "exclude_categories": ["Library Closed", "Virtual", "ESL"],
+        "exclude_title": "private event|closed|closing early|\\besl\\b|appointment|tutor|one[- ]on[- ]one|office hours|mobile office|medicare|open enrollment|tax (?:help|prep|aide)|board meeting|\\bvirtual\\b",
+        "max_repeats": 3,
+        "category_map": {"preschool|school age|family|0-2|young adult|literacy": "Kids & Family"},
+        "vibes": ["Library", "Free"]
+      }}
+    },
+    {
+      "module": "scrapers.calendar_feeds",
+      "function": "scrape_feed",
+      "output_file": "scraped/feed_spring_city_library.json",
+      "options": {"feed": {
+        "id": "spring_city_library",
+        "format": "ics",
+        "url": "https://ccls.libcal.com/ical_subscribe.php?src=p&cid=13417",
+        "link": "https://ccls.libcal.com/calendar?cid=13417",
+        "venue": {"name": "Spring City Public Library, 245 Broad St, Spring City", "lat": 40.1762, "lng": -75.5474},
+        "require_location": "spring city library",
+        "exclude_categories": ["Library Closed", "Virtual"],
+        "exclude_title": "private event|closed|closing|\\besl\\b|appointment|tutor|one[- ]on[- ]one|office hours|mobile office|medicare|open enrollment|board meeting|\\bvirtual\\b",
+        "max_repeats": 3,
+        "category_map": {"preschool|school age|family|0-2|young adult|literacy": "Kids & Family"},
+        "vibes": ["Library", "Free"]
+      }}
+    },
+    {
+      "module": "scrapers.calendar_feeds",
+      "function": "scrape_feed",
+      "output_file": "scraped/feed_ursinus.json",
+      "options": {"feed": {
+        "id": "ursinus",
+        "format": "ics",
+        "url": "https://www.ursinus.edu/live/ical/events/max/400",
+        "link": "https://www.ursinus.edu/calendar",
+        "venue": {"name": "Ursinus College, Collegeville", "lat": 40.1918, "lng": -75.4566},
+        "venue_template": "{room}, Ursinus College, Collegeville",
+        "strip_location": "^Collegeville,\\s*PA,?\\s*",
+        "include_categories": ["Community Events", "Performances", "Exhibitions", "Speakers"],
+        "exclude_categories": ["For Faculty or Staff", "Athletics", "Admission Events"],
+        "exclude_title": "^APEX|informational interview|open house",
+        "vibes": ["College"]
+      }}
+    },
+    {
+      "module": "scrapers.calendar_feeds",
+      "function": "scrape_feed",
+      "output_file": "scraped/feed_water_tower_live.json",
+      "options": {"feed": {
+        "id": "water_tower_live",
+        "format": "squarespace",
+        "url": "https://www.watertowerlive.com/events",
+        "link": "https://www.watertowerlive.com/events",
+        "venue": {"name": "The Water Tower Live at Arnold's, Oaks", "lat": 40.1325, "lng": -75.4699},
+        "category": "Live Music",
+        "vibes": ["Live Music"]
+      }}
+    },
+    {
+      "module": "scrapers.calendar_feeds",
+      "function": "scrape_feed",
+      "output_file": "scraped/feed_souljoels.json",
+      "options": {"feed": {
+        "id": "souljoels",
+        "format": "fooevents",
+        "url": "https://souljoels.com/calendar/",
+        "link": "https://souljoels.com/upcoming-events/",
+        "venue": {"name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown", "lat": 40.2451, "lng": -75.6496},
+        "require_location": "pottstown|sunnybrook",
+        "exclude_title": "^[A-Z][A-Za-z. ]+, [A-Z]{2}:|soul club|gift card|membership",
+        "max_repeats": 3
+      }}
     }
   ],
   "recurring_events": {
@@ -60,6 +159,12 @@
     "scraped/oaks_events.json",
     "scraped/steel_city_events.json",
     "scraped/molly_maguires_events.json",
+    "scraped/feed_phoenixville_first.json",
+    "scraped/feed_phoenixville_library.json",
+    "scraped/feed_spring_city_library.json",
+    "scraped/feed_ursinus.json",
+    "scraped/feed_water_tower_live.json",
+    "scraped/feed_souljoels.json",
     "scraped/discovered_events.json",
     "recurring_events.json"
   ],
