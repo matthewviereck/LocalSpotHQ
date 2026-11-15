@@ -1,5 +1,23 @@
 [
   {
+    "title": "Bishop Shanahan field hockey reaches the state semifinals",
+    "category": "News",
+    "summary": "The Eagles beat Gwynedd Mercy 2-1 Saturday in a PIAA Class 2A quarterfinal, with third- and fourth-quarter goals from Libby Leith and Silvana Riccardo and 10 saves from goalie Aly Civera. Shanahan, 17-6-1, plays defending state champion Palmyra on Tuesday.",
+    "date": "2026-11-15",
+    "loc": "Bishop Shanahan High School, Downingtown",
+    "link": "https://www.dailylocal.com/2026/11/15/hs-field-hockey-second-half-goals-power-bishop-shanahan/",
+    "img": ""
+  },
+  {
+    "title": "Downingtown East edges Coatesville to stay unbeaten in district football",
+    "category": "News",
+    "summary": "The top-seeded Cougars won their District 1 6A quarterfinal 30-27 Friday as junior Juelz Chiron-Robinson ran for 256 yards, including touchdowns of 74 and 77 yards. East, 11-0, hosts Spring-Ford in the semifinals in what is coach Mike Matta's final season.",
+    "date": "2026-11-14",
+    "loc": "Kottmeyer Stadium, Downingtown",
+    "link": "https://www.dailylocal.com/2026/11/14/hs-football-downingtown-east-thwarts-coatesville-behind-chiron-robinson/",
+    "img": ""
+  },
+  {
     "title": "Great Valley football stays unbeaten and reaches its first 5A district semifinal",
     "category": "News",
     "summary": "The third-seeded Patriots held off Unionville 20-17 Friday night, sealed by a Cooper Callahan interception with six seconds left, to move to 12-0. It is the school's first trip to the District 1 5A semifinals; they play at Springfield (Delco) on Friday, Nov. 20, at 7 p.m.",
@@ -9,21 +27,21 @@
     "img": ""
   },
   {
+    "title": "Goshen Fire Company's $8.5 million station rebuild nears federal funding step",
+    "category": "Development",
+    "summary": "Chester County plans to request release of $850,000 in federal money around Nov. 17 for rebuilding Station 54, a 1951 firehouse that would grow by nearly 39 percent with a new two-story building. Comments on the environmental review are due Nov. 16, and construction is expected to start in January 2027 and wrap up by May 2028.",
+    "date": "2026-11-13",
+    "loc": "1320 Park Ave., East Goshen Township",
+    "link": "https://www.mychesco.com/a/news/government/goshen-fire-station-nears-850000-federal-funding-decision/",
+    "img": ""
+  },
+  {
     "title": "County wants residents' input on its climate plan at a Nov. 19 open house",
     "category": "News",
     "summary": "The Chester County Planning Commission is updating the countywide Climate Action Plan and will hold a public meeting from 6 to 8 p.m. Thursday, Nov. 19, with open-house sessions around a 6:45 p.m. presentation that can also be watched on Zoom. Online comments open the same day.",
     "date": "2026-11-13",
     "loc": "Government Services Center, 601 Westtown Road, West Goshen",
     "link": "https://www.mychesco.com/a/news/government/chester-county-seeks-public-input-on-climate-policy-update/",
-    "img": ""
-  },
-  {
-    "title": "West Goshen approves a trial food-scrap composting drop-off for residents",
-    "category": "News",
-    "summary": "Supervisors voted unanimously Nov. 5 for a three-month pilot that puts two lockable 64-gallon bins at the township municipal complex, with a private composting company collecting weekly and reporting the pounds gathered. The trial costs $1,435 in total and could start as early as February 2027, depending on permitting.",
-    "date": "2026-11-13",
-    "loc": "West Goshen Township municipal complex",
-    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-nov-13-2026",
     "img": ""
   },
   {
@@ -69,24 +87,6 @@
     "date": "2026-11-11",
     "loc": "145 W. Gay St., West Chester",
     "link": "https://www.inquirer.com/news/pennsylvania/lionville-station-road-development-salt-performing-arts-20261111.html",
-    "img": ""
-  },
-  {
-    "title": "Museum and heritage center proposed beside Paoli Battlefield goes to Malvern council",
-    "category": "Development",
-    "summary": "Paoli Memorial Grounds will ask Malvern Borough Council on Tuesday, Nov. 17, to approve a museum and heritage center at 404 Monument Ave., next to the Revolutionary War battlefield.",
-    "date": "2026-11-11",
-    "loc": "404 Monument Ave., Malvern",
-    "link": "https://www.inquirer.com/news/pennsylvania/lionville-station-road-development-salt-performing-arts-20261111.html",
-    "img": ""
-  },
-  {
-    "title": "SALT supporters launch $2 million drive to buy the theater's building",
-    "category": "News",
-    "summary": "After West Pikeland supervisors put the municipal building at 1645 Art School Road up for bid, three members of the Chester Springs theater community started a fundraiser so SALT Performing Arts can buy its home before bidding closes in early December. It has passed $60,000, and a donor is matching gifts up to $50,000.",
-    "date": "2026-11-10",
-    "loc": "1645 Art School Road, Chester Springs",
-    "link": "https://www.inquirer.com/news/pennsylvania/salt-performing-arts-west-pikeland-20261110.html",
     "img": ""
   }
 ]
