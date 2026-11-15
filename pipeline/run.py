@@ -129,7 +129,9 @@ def run_area(area_id):
             mod = importlib.import_module(scraper_cfg['module'])
             func = getattr(mod, scraper_cfg['function'])
             output_file = os.path.join(data_dir, scraper_cfg['output_file'])
-            func(output_file=output_file)
+            # `options` carries per-source settings, e.g. which published
+            # calendar a scrapers.calendar_feeds entry reads.
+            func(output_file=output_file, **scraper_cfg.get('options', {}))
         except Exception as e:
             print(f"   ! Scraper {scraper_cfg['module']} failed: {e}")
             # Continue — merge will use cached data if available

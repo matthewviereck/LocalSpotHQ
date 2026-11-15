@@ -163,9 +163,16 @@ def _richness(event):
     Market - Saturday"), and if one of those wins the dedupe it takes the
     series key with it, so the app can no longer fold the run into one row.
     Then time and price, which are what the reader decides on, then image/link.
+
+    Between the time and the price: a copy from the place's own data beats
+    discovery's. Discovery writes its own titles and has listed a 7 PM show
+    at 8 PM; the venue's calendar is the source of truth. Time still comes
+    first, so a Colonial listing with no time keeps losing to the
+    discovery copy that has one.
     """
     return (bool(event.get('series')),
-            bool(event.get('time')), bool(event.get('price')),
+            bool(event.get('time')), _is_direct(event.get('_src')),
+            bool(event.get('price')),
             'placehold.co' not in event.get('img', ''), bool(event.get('link')))
 
 
@@ -259,6 +266,7 @@ def get_smart_label(event_date):
 
 
 from pipeline.slugs import venue_key  # noqa: E402  (no cycle: slugs imports only analytics)
+from pipeline.merge import _is_direct  # noqa: E402  (no cycle: merge imports only geo)
 
 _TITLE_STOPWORDS = {'the', 'a', 'an', 'at', 'of', 'in', 'on', 'with', 'and', 'for', 'to'}
 
@@ -272,6 +280,63 @@ def _title_tokens(title):
     t = re.sub(r'\b\d+(?:st|nd|rd|th)\b', ' ', t)
     words = re.findall(r'[a-z0-9]+', t)
     return frozenset(w for w in words if w not in _TITLE_STOPWORDS)
+
+
+# Words that say what KIND of event a listing is rather than WHICH one. Two
+# sources describe one show in their own words ("Billy Gardell - Live
+# Stand-Up Comedy at SoulJoel's" / "Comedian Billy Gardell returns to
+# SoulJoel's"); what they share is the name, so the name is what the
+# cross-source rule compares.
+_GENERIC_TOKENS = frozenset('''
+    live show shows concert concerts comedy comedian comedians comic stand up
+    standup music musical band night nights evening presents present presented
+    featuring feat ft w tribute tributes annual holiday holidays christmas xmas
+    market festival fest event events party special debut debuts returns return
+    returning headlines headliner performance performances performs tour edition
+    tickets ticket inside hosted host free family kids day weekend celebration
+    january february march april may june july august september october november
+    december jan feb mar apr jun jul aug sep sept oct nov dec pa
+    new year years eve thanksgiving halloween easter valentine valentines
+    themed theme by from
+'''.split())
+
+
+def _distinctive_tokens(tokens, loc, town):
+    """A title's naming words: not generic, not the venue's, not the town's."""
+    venue = _title_tokens(re.split(r',|\(', str(loc or ''))[0])
+    place = _title_tokens(town or '')
+    return {t for t in tokens
+            if len(t) > 1 and t not in _GENERIC_TOKENS and t not in venue and t not in place}
+
+
+def _same_listing_across_sources(a, b, a_tokens, b_tokens):
+    """Two sources' copies of one event, worded differently.
+
+    Same day (the caller groups by date) and same town, from different
+    source files, and the naming words agree: three shared ("circle mirror
+    transformation"), or two that cover 60% of the shorter name ("billy
+    gardell"), or the shorter title's only naming word, if it is a real word,
+    appears in the other ("Firebird"). One source is never merged
+    with itself: SoulJoel's "Free Music Open Mic" and "Comedy Open Mic" on
+    the same night are two events.
+    """
+    if not a.get('_src') or not b.get('_src') or a['_src'] == b['_src']:
+        return False
+    if not a.get('town') or a.get('town') != b.get('town'):
+        return False
+    # A festival's run and one night of it ("BLOBFEST" over three days vs
+    # "Blobfest - Opening Night") share their name and are both worth a row.
+    if (a.get('end_iso') or '') != (b.get('end_iso') or ''):
+        return False
+    da = _distinctive_tokens(a_tokens, a.get('loc'), a.get('town'))
+    db = _distinctive_tokens(b_tokens, b.get('loc'), b.get('town'))
+    if not da or not db:
+        return False
+    shared = da & db
+    shortest = min(len(da), len(db))
+    if len(shared) >= 3 or (len(shared) >= 2 and len(shared) >= 0.6 * shortest):
+        return True
+    return shortest == 1 and len(shared) == 1 and len(next(iter(shared))) >= 5
 
 
 def fuzzy_dedupe(events):
@@ -295,7 +360,12 @@ def fuzzy_dedupe(events):
     is exactly what the same event from two sources looks like. Known cost:
     one show under two venue names ("Paranormal Cirque" at the Expo Center
     vs "...Specter - Horror Circus" at "Paranormal Cirque Big Top") now
-    lists twice. A duplicate row beats a vanished event."""
+    lists twice. A duplicate row beats a vanished event.
+
+    Copies from two different source files get one more chance to match on
+    their naming words (_same_listing_across_sources), because a venue's own
+    calendar and discovery word the same show differently often enough that
+    the token rules above miss it."""
     by_date = {}
     for ev in events:
         by_date.setdefault(ev['_sort_date'], []).append(ev)
@@ -315,10 +385,20 @@ def fuzzy_dedupe(events):
                 small, large = (tokens, entry[0]) if len(tokens) <= len(entry[0]) else (entry[0], tokens)
                 overlap = len(small & large) / len(small) if small else 0
                 similar = (len(small) >= 2 and overlap == 1.0) or (len(small) >= 4 and overlap >= 0.85)
-                close = (len(small) / len(large) >= 0.75 if large else False) \
-                    or venue_key(ev.get('loc')) == venue_key(entry[1].get('loc'))
-                if similar and close:
+                same_venue = venue_key(ev.get('loc')) == venue_key(entry[1].get('loc'))
+                close = (len(small) / len(large) >= 0.75 if large else False) or same_venue
+                # Two towns' "Christmas Tree Lighting" on one night are two
+                # events; only the same venue placed in two towns is one.
+                if ev.get('town') and entry[1].get('town') and ev['town'] != entry[1]['town'] \
+                        and not same_venue:
+                    close = False
+                cross = not (similar and close) and _same_listing_across_sources(
+                    ev, entry[1], tokens, entry[0])
+                if (similar and close) or cross:
                     removed += 1
+                    if cross:
+                        print(f"   ~ same event, two sources: {ev['title'][:50]!r} "
+                              f"= {entry[1]['title'][:50]!r}")
                     if richness > entry[2]:
                         entry[0], entry[1], entry[2] = tokens, ev, richness
                     merged = True
@@ -396,7 +476,9 @@ def transform_events(input_file, output_file):
                 # registry read it too.
                 "end_iso": end_datetime.date().isoformat() if end_datetime else "",
                 "ongoing": ongoing,
-                "_sort_date": event_datetime.timestamp() if event_datetime else 9999999999
+                "_sort_date": event_datetime.timestamp() if event_datetime else 9999999999,
+                # Source file, for fuzzy_dedupe only; dropped before writing.
+                "_src": event.get("_source", ""),
             }
 
             transformed_events.append(transformed)
@@ -423,6 +505,8 @@ def transform_events(input_file, output_file):
     transformed_events = [best[k][0] for k in order]
 
     transformed_events = fuzzy_dedupe(transformed_events)
+    for ev in transformed_events:
+        ev.pop('_src', None)
 
     # Sort by date. Keep _sort_date in the serialized output so downstream consumers
     # (e.g. inject.py building Event JSON-LD) can derive an ISO startDate without

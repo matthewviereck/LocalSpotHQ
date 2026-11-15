@@ -72,7 +72,14 @@ def main():
         for scraper in cfg.get('scrapers', []):
             out = os.path.join(data_dir, scraper['output_file'])
             future, note = _future_count(out)
-            name = scraper['module'].replace('scrapers.', '')
+            # Every published-calendar feed shares one module; name it by feed.
+            feed = (scraper.get('options') or {}).get('feed') or {}
+            name = feed.get('id') or scraper['module'].replace('scrapers.', '')
+            if not future and feed.get('may_be_empty'):
+                # A seasonal calendar between seasons: report, don't fail.
+                note += ', may be empty between seasons'
+                rows.append((area_id, name, future, note))
+                continue
             rows.append((area_id, name, future, note))
             if not future:
                 dark.append(f'{area_id}/{name}')
