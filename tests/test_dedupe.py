@@ -94,6 +94,13 @@ class CrossSourceDedupe(unittest.TestCase):
                  loc='Downtown Phoenixville', town='Phoenixville')
         self.assertEqual(len(transform.fuzzy_dedupe([a, b])), 1)
 
+    def test_santa_is_not_a_name(self):
+        a = _src('Santa at the Square', 'downtown_wc_events.json',
+                 loc='Market Square, West Chester', town='West Chester')
+        b = _src("Santa's Express 2026", 'discovered_events.json',
+                 loc='West Chester Railroad, West Chester', town='West Chester')
+        self.assertEqual(len(transform.fuzzy_dedupe([a, b])), 2)
+
     def test_one_source_never_merges_with_itself(self):
         a = _src("Free Music Open Mic hosted inside Gatsby's Pub", 'feed_souljoels.json', time='7pm')
         b = _src("Comedy Open Mic at SoulJoel's", 'feed_souljoels.json', time='7pm')

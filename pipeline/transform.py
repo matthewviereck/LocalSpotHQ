@@ -296,7 +296,7 @@ _GENERIC_TOKENS = frozenset('''
     tickets ticket inside hosted host free family kids day weekend celebration
     january february march april may june july august september october november
     december jan feb mar apr jun jul aug sep sept oct nov dec pa
-    new year years eve thanksgiving halloween easter valentine valentines
+    new year years eve thanksgiving halloween easter valentine valentines santa claus
     themed theme by from
 '''.split())
 
@@ -315,8 +315,8 @@ def _same_listing_across_sources(a, b, a_tokens, b_tokens):
     Same day (the caller groups by date) and same town, from different
     source files, and the naming words agree: three shared ("circle mirror
     transformation"), or two that cover 60% of the shorter name ("billy
-    gardell"), or the shorter title's only naming word, if it is a real word,
-    appears in the other ("Firebird"). One source is never merged
+    gardell"), or the shorter title's only naming word, if it is a long one,
+    appears in the other ("Christkindlmarkt"). One source is never merged
     with itself: SoulJoel's "Free Music Open Mic" and "Comedy Open Mic" on
     the same night are two events.
     """
@@ -336,7 +336,7 @@ def _same_listing_across_sources(a, b, a_tokens, b_tokens):
     shortest = min(len(da), len(db))
     if len(shared) >= 3 or (len(shared) >= 2 and len(shared) >= 0.6 * shortest):
         return True
-    return shortest == 1 and len(shared) == 1 and len(next(iter(shared))) >= 5
+    return shortest == 1 and len(shared) == 1 and len(next(iter(shared))) >= 7
 
 
 def fuzzy_dedupe(events):
