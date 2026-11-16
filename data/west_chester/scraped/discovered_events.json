@@ -1,29 +1,5 @@
 [
   {
-    "id": "discovered_autumn_s_colors_at_longwood_20261002",
-    "type": "event",
-    "title": "Autumn's Colors at Longwood Gardens",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8703,
-        "lng": -75.6738
-      }
-    },
-    "raw_date_string": "Oct 2 - Nov 15, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly"
-      ]
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/autumns-colors_1"
-  },
-  {
     "id": "discovered_ceramics_national_20261106",
     "type": "event",
     "title": "Ceramics National",
@@ -48,31 +24,6 @@
       "image": ""
     },
     "action_link": "https://yellowsprings.org/events/ceramics-national/"
-  },
-  {
-    "id": "discovered_the_legendary_kennett_flash_open_20261115",
-    "type": "event",
-    "title": "The Legendary Kennett Flash Open Mic Night",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Nov 15, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/the-legendary-kennett-flash-open-mic-night-hosted-by-antar-goodwin/kennett-flash/kennett-square-pennsylvania/"
   },
   {
     "id": "discovered_brandywine_holiday_critter_sale_20261119",
@@ -488,32 +439,6 @@
       "image": ""
     },
     "action_link": "https://kennettflash.org/event/bruce-klauber-swings-frank-sinatra/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_ccaa-christkindlmarkt_20261212",
-    "type": "event",
-    "title": "Christkindlmarkt at CCAA",
-    "venue_info": {
-      "name": "Chester County Art Association, West Chester",
-      "location": {
-        "lat": 39.9639,
-        "lng": -75.6134
-      }
-    },
-    "raw_date_string": "Dec 12, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Holiday",
-        "Family Friendly",
-        "Artisan Vendors"
-      ],
-      "price": ""
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.chestercountyarts.org/christkindlmarkt.html"
   },
   {
     "id": "discovered_santa_s_express_20261212",
@@ -1113,32 +1038,6 @@
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-2"
   },
   {
-    "id": "discovered_bvs_masterworks_1_20261115",
-    "type": "event",
-    "title": "Brandywine Valley Symphony: Masterworks I",
-    "venue_info": {
-      "name": "Mendenhall Inn, Chadds Ford",
-      "location": {
-        "lat": 39.8575,
-        "lng": -75.6355
-      }
-    },
-    "raw_date_string": "Nov 15, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Classical"
-      ],
-      "price": "Ticketed",
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://bvsymphony.org/event/masterworks-1-concert/"
-  },
-  {
     "id": "discovered_wcu_live_sharpe_family_singers_20261121",
     "type": "event",
     "title": "WCU Live!: The Sharpe Family Singers",
@@ -1163,34 +1062,6 @@
       "image": ""
     },
     "action_link": "https://www.wcupa.edu/OCA/wcu-Live/"
-  },
-  {
-    "id": "discovered_wc_christmas_parade_tree_lighting_20261204",
-    "type": "event",
-    "title": "West Chester Christmas Parade & Tree Lighting",
-    "venue_info": {
-      "name": "Downtown West Chester, West Chester",
-      "location": {
-        "lat": 39.9601,
-        "lng": -75.6055
-      }
-    },
-    "raw_date_string": "Dec 4, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Holiday",
-        "Family-Friendly"
-      ],
-      "price": "Free",
-      "time": "6:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.greaterwestchester.com/lightsupchristmasparade.html"
   },
   {
     "id": "discovered_hibernia_candlelight_tours_20261204",
@@ -1402,33 +1273,6 @@
     "action_link": "https://chescolibraries.org/?p=467400"
   },
   {
-    "id": "discovered_santa_at_the_square_20261205",
-    "type": "event",
-    "title": "Santa at the Square",
-    "venue_info": {
-      "name": "Marshall Square Park, West Chester",
-      "location": {
-        "lat": 39.964,
-        "lng": -75.601
-      }
-    },
-    "raw_date_string": "Dec 5, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Free",
-      "time": "4:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://west-chester.com/370/Events"
-  },
-  {
     "id": "discovered_longwood_garden_railway_20261016",
     "type": "event",
     "title": "Garden Railway at Longwood Gardens",
@@ -1502,31 +1346,6 @@
       "image": ""
     },
     "action_link": "https://www.helicoptermuseum.org/event-details/santafest-1"
-  },
-  {
-    "id": "discovered_longwood_chrysanthemum_festival_20261021",
-    "type": "event",
-    "title": "Chrysanthemum Festival at Longwood Gardens",
-    "venue_info": {
-      "name": "Longwood Gardens, Kennett Square",
-      "location": {
-        "lat": 39.8712,
-        "lng": -75.6744
-      }
-    },
-    "raw_date_string": "Oct 21 - Nov 15, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Family-Friendly",
-        "Seasonal"
-      ],
-      "price": "Free with Gardens Admission"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/chrysanthemum-festival"
   },
   {
     "id": "discovered_clover_holiday_market_20261121",
@@ -1923,33 +1742,6 @@
       "image": ""
     },
     "action_link": "https://wctrust.org/events/the-healing-harvest-fire-cider-workshop-3-3/?occurrence=2026-12-05"
-  },
-  {
-    "id": "discovered_diwali_potluck_ccl_20261115",
-    "type": "event",
-    "title": "Diwali Potluck at Chester County Library",
-    "venue_info": {
-      "name": "Chester County Library, Exton",
-      "location": {
-        "lat": 40.029,
-        "lng": -75.628
-      }
-    },
-    "raw_date_string": "Nov 15, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Food",
-        "Family Friendly"
-      ],
-      "price": "Free",
-      "time": "1:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://ccls.libcal.com/event/17162969"
   },
   {
     "id": "discovered_holiday_pops_immaculata_20261211",
@@ -3446,32 +3238,6 @@
     "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1402589741"
   },
   {
-    "id": "discovered_wcu_harpfest_20261115",
-    "type": "event",
-    "title": "WCU HarpFest",
-    "venue_info": {
-      "name": "Madeleine Wing Adler Theatre, West Chester",
-      "location": {
-        "lat": 39.9481,
-        "lng": -75.6018
-      }
-    },
-    "raw_date_string": "Nov 15, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Free"
-      ],
-      "price": "Free",
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1398229313"
-  },
-  {
     "id": "discovered_wc_photos_santa_concert_20261212",
     "type": "event",
     "title": "Photos with Santa & Free Holiday Concert",
@@ -4100,33 +3866,6 @@
       "image": ""
     },
     "action_link": "https://www.wcpubliclibrary.org/holidayhometour"
-  },
-  {
-    "id": "discovered_too_many_detectives_immaculata_20261113",
-    "type": "event",
-    "title": "Too Many Detectives at the Murder Mansion (Immaculata Cue & Curtain)",
-    "venue_info": {
-      "name": "Immaculata University Alumnae Hall, Malvern",
-      "location": {
-        "lat": 40.0343,
-        "lng": -75.557
-      }
-    },
-    "raw_date_string": "Nov 13 - 15, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Comedy",
-        "Mystery",
-        "Student Theater"
-      ],
-      "price": "$10 ($5 students)",
-      "time": "7:00 PM Fri & Sat, 2:00 PM Sat & Sun"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.immaculata.edu/event/too-many-detectives-at-the-murder-mansion/2026-11-13/"
   },
   {
     "id": "discovered_immaculata_carol_night_20261204",
@@ -4997,5 +4736,58 @@
       "image": ""
     },
     "action_link": "https://www.winterthur.org/calendar/secret-inspiration-book/"
+  },
+  {
+    "id": "discovered_unionville_art_gala_20261120",
+    "type": "event",
+    "title": "50th Annual Unionville High School Art Gala",
+    "venue_info": {
+      "name": "Unionville High School, Kennett Square",
+      "location": {
+        "lat": 39.8947,
+        "lng": -75.7187
+      }
+    },
+    "raw_date_string": "Nov 20 - 21, 2026",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Free",
+        "Art",
+        "Shopping"
+      ],
+      "price": "Free",
+      "time": "Fri 6:00 PM - 9:00 PM, Sat 10:00 AM - 4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.unionvilleartgala.com/"
+  },
+  {
+    "id": "discovered_natures_aglow_luminary_stroll_20261211",
+    "type": "event",
+    "title": "Nature's Aglow Luminary Holiday Stroll",
+    "venue_info": {
+      "name": "Springton Manor Farm, Glenmoore",
+      "location": {
+        "lat": 40.0703,
+        "lng": -75.7778
+      }
+    },
+    "raw_date_string": "Dec 11, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Free",
+        "Outdoor",
+        "Holiday"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mychesco.com/a/entertainment/family-fun/hundreds-of-lights-will-transform-springton-manor-farm/"
   }
 ]
