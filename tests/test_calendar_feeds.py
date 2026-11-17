@@ -259,6 +259,59 @@ class OtherFormats(unittest.TestCase):
         self.assertIn('Pottstown', item['location'])
         self.assertEqual(cf.parse_fooevents('<html>no calendar</html>'), [])
 
+    def test_wix(self):
+        # Trimmed from The Barn Yard's events page, 2026-11-16.
+        import json
+        place = {'name': 'The Barn Yard', 'type': 0,
+                 'address': '305 2nd Ave, Collegeville, PA 19426, USA',
+                 'coordinates': {'lat': 40.1809018, 'lng': -75.4542249}}
+
+        def event(eid, title, start, end, slug, **extra):
+            return dict({'id': eid, 'title': title, 'slug': slug, 'status': 0, 'location': place,
+                         'scheduling': {'config': {'scheduleTbd': False, 'startDate': start,
+                                                   'endDate': end, 'timeZoneId': 'America/New_York'}},
+                         'mainImage': {'url': 'https://static.wixstatic.com/media/x.png'},
+                         'categories': []}, **extra)
+
+        events = [
+            event('a', 'Santa Visit &amp; Indoor Petting Zoo!', '2026-12-13T15:00:00.000Z',
+                  '2026-12-13T17:00:00.000Z', 'santa-visit-indoor-petting-zoo'),
+            event('b', 'Frosty Comes to Town!', '2026-12-27T21:30:00.000Z',
+                  '2026-12-27T23:30:00.000Z', 'frosty-comes-to-town-3', status=3),
+            event('c', 'Storytime on Zoom', '2026-12-02T15:00:00.000Z', None, 'zoom',
+                  location={'type': 1}),
+        ]
+        warmup = {'appsWarmupData': {'app': {'widget': {'events': {
+            'events': events, 'hasMore': False}}}},
+            'copy': {'events': events[:1]}}  # the same event twice is read once
+        page = ('<html><script type="application/json" id="wix-warmup-data">'
+                + json.dumps(warmup) + '</script></html>')
+
+        items = cf.parse_wix(page, 'https://www.barnyard4kids.com')
+        self.assertEqual(len(items), 3)
+        santa, frosty, online = items
+        self.assertEqual(santa['title'], 'Santa Visit & Indoor Petting Zoo!')
+        self.assertEqual(santa['start'], datetime(2026, 12, 13, 10, 0))  # 15:00 UTC, EST
+        self.assertEqual(santa['end'], datetime(2026, 12, 13, 12, 0))
+        self.assertEqual(santa['location'], 'The Barn Yard, 305 2nd Ave, Collegeville, PA 19426')
+        self.assertEqual(santa['link'],
+                         'https://www.barnyard4kids.com/event-details/santa-visit-indoor-petting-zoo')
+        self.assertEqual(frosty['status'], 'CANCELLED')
+        self.assertEqual(online['location'], 'Online')
+
+        feed = {'id': 'barn_yard', 'format': 'wix', 'url': 'https://www.barnyard4kids.com/events',
+                'venue': {'name': 'The Barn Yard, 305 2nd Ave, Collegeville', 'lat': 40.181, 'lng': -75.454},
+                'category': 'Kids & Family'}
+        built, dropped, outside = cf.build_events(items, feed, today=TODAY)
+        self.assertEqual((len(built), dropped, outside), (1, 2, 0))  # cancelled and online dropped
+        [ev] = built
+        self.assertEqual(ev['venue_info']['name'], 'The Barn Yard, 305 2nd Ave, Collegeville')
+        self.assertAlmostEqual(ev['venue_info']['location']['lat'], 40.1809018)
+        self.assertEqual(ev['attributes']['time'], '10 AM')
+        self.assertEqual(ev['attributes']['category'], 'Kids & Family')
+        self.assertEqual(ev['raw_date_string'], 'Dec 13, 2026')
+        self.assertEqual(cf.parse_wix('<html>no events</html>'), [])
+
 
 class FeedConfig(unittest.TestCase):
     def test_every_configured_feed_is_complete(self):
@@ -272,7 +325,7 @@ class FeedConfig(unittest.TestCase):
             feed = s['options']['feed']
             for key in ('id', 'format', 'url', 'venue'):
                 self.assertIn(key, feed, feed.get('id'))
-            self.assertIn(feed['format'], ('ics', 'squarespace', 'elfsight', 'fooevents'))
+            self.assertIn(feed['format'], ('ics', 'squarespace', 'elfsight', 'fooevents', 'wix'))
             self.assertIn(s['output_file'], cfg['merge_sources'], feed['id'])
             for pattern in (feed.get('exclude_title'), feed.get('require_location')):
                 if pattern:

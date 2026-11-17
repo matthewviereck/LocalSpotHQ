@@ -84,7 +84,8 @@ A town may set `dining_group` to share a neighbor's restaurant pool
   leaving it to fail — the check is only honest if the config is.
 - **Published calendars beat discovery** (2026-11-14): `scrapers/calendar_feeds.py`
   reads the calendars places already publish (iCal, Squarespace `?format=json`,
-  the Elfsight calendar widget, FooEvents) - one `scrapers` entry per feed in
+  the Elfsight calendar widget, FooEvents, and since 2026-11-16 Wix Events
+  pages, which many small local sites use) - one `scrapers` entry per feed in
   the area config, settings under `options.feed`, output listed in
   `merge_sources`. Adding a venue that has one is a config entry, not code.
   Weekly programs are dropped with `max_repeats` (a storytime every Tuesday

@@ -143,6 +143,23 @@
         "exclude_title": "^[A-Z][A-Za-z. ]+, [A-Z]{2}:|soul club|gift card|membership",
         "max_repeats": 3
       }}
+    },
+    {
+      "module": "scrapers.calendar_feeds",
+      "function": "scrape_feed",
+      "output_file": "scraped/feed_barn_yard.json",
+      "options": {"feed": {
+        "id": "barn_yard",
+        "format": "wix",
+        "url": "https://www.barnyard4kids.com/events",
+        "link": "https://www.barnyard4kids.com/events",
+        "venue": {"name": "The Barn Yard, 305 2nd Ave, Collegeville", "lat": 40.1809, "lng": -75.4542},
+        "require_location": "collegeville|barn yard",
+        "exclude_title": "birthday|private|gift card",
+        "max_repeats": 3,
+        "category": "Kids & Family",
+        "may_be_empty": true
+      }}
     }
   ],
   "recurring_events": {
@@ -165,6 +182,7 @@
     "scraped/feed_ursinus.json",
     "scraped/feed_water_tower_live.json",
     "scraped/feed_souljoels.json",
+    "scraped/feed_barn_yard.json",
     "scraped/discovered_events.json",
     "recurring_events.json"
   ],
