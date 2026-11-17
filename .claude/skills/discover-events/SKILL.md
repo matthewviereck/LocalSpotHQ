@@ -31,8 +31,9 @@ Since 2026-11-14 these Phoenixville area calendars are read directly too
 so leave them out as well: **Phoenixville First's events calendar** (First
 Fridays, Firebird, the holiday markets, shopping nights, menorah lighting),
 the **Phoenixville and Spring City libraries** (CCLS LibCal), **Ursinus
-College** concerts and public events, **Water Tower Live** in Oaks, and
-**SoulJoel's at SunnyBrook** in Pottstown. A one-off event a venue posts only
+College** concerts and public events, **Water Tower Live** in Oaks,
+**SoulJoel's at SunnyBrook** in Pottstown, and (since 2026-11-16) **The Barn
+Yard** in Collegeville (kids' holiday events, its Wix calendar). A one-off event a venue posts only
 on its Facebook page is still yours.
 
 The reason is **wasted effort, not broken output**. The pipeline dedupes three
@@ -86,7 +87,7 @@ Search beyond this list. It is a floor, not a ceiling.
   September 2026 found 81 events and only 8 survived the overlap check
   (Longwood, the Mushroom Festival, the Helicopter Museum). That is a success,
   not a shortfall. Phoenixville is the larger share, though less so since its
-  six published calendars are read directly (see above).
+  published calendars are read directly (see above).
 - Quality over volume — one real festival beats ten bar trivia nights. Never
   add a marginal event to hit a number.
 - Prefer events with broad appeal. Skip recurring pub programming (quizzo,

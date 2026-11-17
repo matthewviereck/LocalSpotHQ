@@ -4,7 +4,7 @@ A direct feed beats AI discovery for any place that has one: it lists every
 event with a real date and start time, every build, instead of whatever a web
 search happens to surface that day. The 2026-11-14 survey of about fifty
 Phoenixville area publishers (vault: LocalSpotHQ hub) found four formats worth
-reading, all handled here:
+reading, and a fifth (Wix) came on 2026-11-16, all handled here:
 
   ics          iCalendar subscribe feeds. LibCal (the county library system)
                and LiveWhale (Ursinus) expand every occurrence themselves.
@@ -13,6 +13,9 @@ reading, all handled here:
                the full event list (Phoenixville First's calendar).
   fooevents    The FooEvents calendar a WooCommerce site prints into its page
                as JSON (SoulJoel's).
+  wix          A Wix Events page: the event list rides in the page's
+               "wix-warmup-data" JSON (The Barn Yard, Collegeville). Many
+               small local sites are Wix, so one reader covers them all.
 
 Each feed is one entry in an area config's `scrapers` list, with its settings
 under `options.feed`, so every feed gets its own output file, its own
@@ -334,6 +337,85 @@ def parse_fooevents(page):
     return items
 
 
+_WIX_DATA = re.compile(r'<script[^>]*id="wix-warmup-data"[^>]*>(.*?)</script>', re.S)
+_WIX_CANCELED = 3   # Wix event status: 0 scheduled, 1 started, 2 ended, 3 canceled
+_WIX_ONLINE = 1     # Wix location type: 0 venue, 1 online
+
+
+def _wix_utc(value):
+    try:
+        return eastern_from_utc(datetime.strptime(str(value)[:19], '%Y-%m-%dT%H:%M:%S'))
+    except ValueError:
+        return None
+
+
+def parse_wix(page, base_url=''):
+    """Events of a Wix Events list, from the JSON a Wix page carries in its
+    "wix-warmup-data" script. The events sit a few levels down (appsWarmupData,
+    then the app, then the widget), so any dict shaped like an event is taken,
+    once per id. Times are UTC ISO stamps. A widget that pages its list says
+    hasMore; only the first page is read and the log says so."""
+    m = _WIX_DATA.search(page)
+    if not m:
+        return []
+    try:
+        data = json.loads(m.group(1))
+    except ValueError:
+        return []
+
+    found, more = [], False
+
+    def walk(node):
+        nonlocal more
+        if isinstance(node, dict):
+            if 'scheduling' in node and 'title' in node and 'slug' in node:
+                found.append(node)
+                return
+            if node.get('hasMore') is True:
+                more = True
+            for value in node.values():
+                walk(value)
+        elif isinstance(node, list):
+            for value in node:
+                walk(value)
+
+    walk(data)
+    items, seen = [], set()
+    for ev in found:
+        if ev.get('id') in seen:
+            continue
+        seen.add(ev.get('id'))
+        config = (ev.get('scheduling') or {}).get('config') or {}
+        if config.get('scheduleTbd'):
+            continue
+        start = _wix_utc(config.get('startDate'))
+        if not start:
+            continue
+        end = _wix_utc(config.get('endDate')) if config.get('endDate') else None
+        loc = ev.get('location') or {}
+        if loc.get('type') == _WIX_ONLINE:
+            location = 'Online'
+        else:
+            address = re.sub(r',\s*(?:USA|United States)$', '', _clean(loc.get('address')))
+            location = ', '.join(p for p in (_clean(loc.get('name')), address) if p)
+        coords = loc.get('coordinates') or {}
+        items.append({
+            'title': _clean(ev.get('title')),
+            'start': start, 'end': end, 'all_day': False,
+            'location': location,
+            'location_coords': ((coords.get('lat'), coords.get('lng'))
+                                if coords.get('lat') is not None else None),
+            'categories': [c.get('name', '') for c in ev.get('categories') or []
+                           if isinstance(c, dict)],
+            'link': (base_url.rstrip('/') + '/event-details/' + ev['slug']) if ev.get('slug') else '',
+            'image': (ev.get('mainImage') or {}).get('url') or '',
+            'status': 'CANCELLED' if ev.get('status') == _WIX_CANCELED else '',
+        })
+    if more:
+        print("   (the Wix list has more pages; only the first was read)")
+    return items
+
+
 # --------------------------------------------------------------------------
 # Filtering and shaping
 # --------------------------------------------------------------------------
@@ -376,7 +458,7 @@ def _venue(item, feed, towns):
         room = re.sub(feed.get('strip_location') or r'^$', '', location).strip(' ,')
         if room:
             name = feed['venue_template'].format(room=room)
-    elif (feed['format'] in ('squarespace', 'elfsight') and location
+    elif (feed['format'] in ('squarespace', 'elfsight', 'wix') and location
           and not _VAGUE_PLACE.search(location)):
         # These feeds name a place per event; a street address that names a
         # roster town gives its coordinates, and one naming another town
@@ -526,6 +608,9 @@ def fetch_items(feed):
         return parse_elfsight(response.json(), feed['widget'])
     if fmt == 'fooevents':
         return parse_fooevents(response.text)
+    if fmt == 'wix':
+        base = re.match(r'https?://[^/]+', feed['url']).group(0)
+        return parse_wix(response.text, base)
     raise ValueError(f"unknown feed format {fmt!r}")
 
 
