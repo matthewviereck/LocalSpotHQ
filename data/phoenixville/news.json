@@ -18,6 +18,33 @@
     "img": ""
   },
   {
+    "title": "Phoenixville Hospital earns an A for patient safety after years of C grades",
+    "category": "News",
+    "summary": "The Leapfrog Group's fall ratings gave the Tower Health hospital its top grade, ending a run of eight straight C's dating to 2022. It scored best on error-prevention practices and on avoiding falls and blood clots, with weaker marks for post-surgery kidney injury and some infections.",
+    "date": "2026-11-18",
+    "loc": "Phoenixville Hospital, Phoenixville",
+    "link": "https://patch.com/pennsylvania/phoenixville/after-years-poor-marks-phoenixville-hospital-receives-patient-safety",
+    "img": ""
+  },
+  {
+    "title": "Kitchen and Canvas opens cooking and art classes in Collegeville",
+    "category": "Now Open",
+    "summary": "The new studio in the Marketplace at Collegeville opened Nov. 13 with workshops in pasta making, sushi, sourdough, holiday baking and paint-and-sip, plus camps and group events. It is open 9 a.m. to 5 p.m. daily, with bookings taken online.",
+    "date": "2026-11-18",
+    "loc": "201 2nd Ave., Collegeville",
+    "link": "https://patch.com/pennsylvania/lowerprovidence/new-collegeville-culinary-arts-business-teaches-pasta-making-sushi-more",
+    "img": ""
+  },
+  {
+    "title": "Chicken Salad Chick opens in Collegeville",
+    "category": "Now Open",
+    "summary": "The Southern fast-casual chain's first Montgomery County restaurant held its grand opening Nov. 18, giving the first 100 guests free chicken salad for a year. It is open seven days a week, 10:30 a.m. to 8:30 p.m.",
+    "date": "2026-11-18",
+    "loc": "500 Broad St., Providence Town Center, Collegeville",
+    "link": "https://www.franchising.com/news/20261113_chicken_salad_chick_continues_pennsylvania_expansion_opening_second_restaur.html",
+    "img": ""
+  },
+  {
     "title": "La Patrona closes its Bridge Street restaurant Nov. 22",
     "category": "Closed",
     "summary": "The Mexican restaurant and tequila bar ends five years downtown with a final service on Sunday, Nov. 22. The owners say they are looking for a new location and hope to reopen, possibly in a different format.",
@@ -63,15 +90,6 @@
     "img": ""
   },
   {
-    "title": "Route 422 bridge demolition will close Sanatoga Road for three weeks",
-    "category": "Development",
-    "summary": "PennDOT crews will remove the middle sections of the westbound Route 422 bridge over Porter and Sanatoga roads, closing Sanatoga Road around the clock between High Street and Linfield Road from Nov. 30 to Dec. 21. Porter Road gets daytime lane closures through Dec. 13, and the left lane of 422 closes overnight Dec. 1 through 3 as part of the $83.6 million rebuild of 2.1 miles of highway.",
-    "date": "2026-11-13",
-    "loc": "Route 422 at Sanatoga Road, Lower Pottsgrove and North Coventry",
-    "link": "https://patch.com/pennsylvania/pottstown/bridge-demolition-route-422-what-know",
-    "img": ""
-  },
-  {
     "title": "Judge lets neighbors join the fight over the Pennhurst data center",
     "category": "Development",
     "summary": "A Chester County judge ruled Nov. 10 that the owners of an adjoining 130-acre farm and the group East Vincent Advocacy may help defend the township's rejection of a hyperscale data center on about 125 acres of the former Pennhurst property. Supervisors unanimously denied the plan in May, and it stays denied while the developer's appeal proceeds.",
@@ -87,15 +105,6 @@
     "date": "2026-11-11",
     "loc": "Colonial Theatre, 227 Bridge St., Phoenixville",
     "link": "https://patch.com/pennsylvania/phoenixville/women-s-center-montgomery-county-host-screening-documentary-where-fear",
-    "img": ""
-  },
-  {
-    "title": "Chicken Salad Chick sets Nov. 18 opening at Providence Town Center",
-    "category": "Opening Soon",
-    "summary": "The Southern fast-casual chain's first Philadelphia-area restaurant takes the former Z!Eats space and will seat 55, with free chicken salad for a year promised to the first 100 guests. The local franchise group plans six locations across Montgomery and Chester counties.",
-    "date": "2026-10-29",
-    "loc": "500 Broad St., Providence Town Center, Collegeville",
-    "link": "https://montco.today/2026/10/chicken-salad-chick-collegeville-opening/",
     "img": ""
   }
 ]
