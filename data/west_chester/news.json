@@ -1,20 +1,56 @@
 [
   {
-    "title": "Henderson boys soccer and both Downingtown girls teams reach the state semifinals",
+    "title": "Villa Maria field hockey and Downingtown West girls soccer reach state finals",
     "category": "News",
-    "summary": "Henderson beat North Allegheny 2-1 Saturday and plays Seneca Valley on Tuesday in the PIAA 4A boys bracket, while Downingtown East and Downingtown West won their girls quarterfinals and now meet each other for a place in the Nov. 21 final. In field hockey, Villa Maria faces unbeaten Emmaus and Bishop Shanahan plays Palmyra, both on Tuesday.",
-    "date": "2026-11-16",
-    "loc": "West Chester, Downingtown and Malvern",
-    "link": "https://www.mychesco.com/a/sports/high-school/chester-county-teams-advance-in-piaa-state-playoffs/",
+    "summary": "Villa Maria beat Emmaus 2-1 on a goal with 31 seconds left in double overtime and plays Parkland for the 3A field hockey title Saturday. Downingtown West blanked Downingtown East 1-0 at West Chester East and faces Central Bucks East in Saturday's 4A girls soccer final in Pittsburgh.",
+    "date": "2026-11-18",
+    "loc": "Malvern and Downingtown",
+    "link": "https://www.dailylocal.com/2026/11/18/hs-girls-soccer-downingtown-west-reaches-state-final-by-blanking-east/",
     "img": ""
   },
   {
-    "title": "Willistown gets $195,000 to modernize the West Chester Pike signal at Delchester Road",
+    "title": "Spring House at Brandywine apartments sell for $66.3 million",
     "category": "Development",
-    "summary": "PennDOT announced the grant Nov. 13 from its red-light enforcement program, which is funded by fines from Philadelphia intersections and needs no local match. It was the only Chester County award among 33 projects statewide.",
+    "summary": "Invesco bought the 212-unit complex on Reisling Lane off Route 202 from Coastal Ridge Real Estate, about $312,500 a unit and 72 percent more than Coastal Ridge paid in 2019. The deal is the latest in a run of large apartment sales and loans across the county.",
+    "date": "2026-11-18",
+    "loc": "Reisling Lane off Route 202, West Chester",
+    "link": "https://vista.today/2026/11/spring-house-brandywine-west-chester-sold/",
+    "img": ""
+  },
+  {
+    "title": "Unionville-Chadds Ford moves its $164 million Patton Middle School replacement to design",
+    "category": "Development",
+    "summary": "The school board voted 7-0 on Nov. 16 to advance the new two-story building into its next design phase. Work would start with tennis courts and parking in 2029, with the school itself built from 2032 and finished by May 2034, pending East Marlborough approval.",
+    "date": "2026-11-18",
+    "loc": "Patton Middle School, East Marlborough Township",
+    "link": "https://www.mychesco.com/a/education/school-districts/unionville-chadds-ford-sd/unionville-chadds-ford-advances-164-million-school-project/",
+    "img": ""
+  },
+  {
+    "title": "Judge clears Exton Square Mall redevelopment; West Whiteland plans to appeal",
+    "category": "Development",
+    "summary": "A Chester County judge on Nov. 13 overturned the township's 2025 rejection of Abrams Realty's plan to replace most of the mall with homes, shops and offices, keeping Boscov's. Supervisors say they will appeal, while the developer prepares for demolition.",
+    "date": "2026-11-17",
+    "loc": "Routes 30 and 100, Exton",
+    "link": "https://www.mychesco.com/a/news/government/west-whiteland-to-appeal-exton-square-mall-redevelopment-ruling/",
+    "img": ""
+  },
+  {
+    "title": "West Chester Area Senior Center asks county to keep all six centers funded",
+    "category": "News",
+    "summary": "A staff member of the borough's senior center urged the county commissioners Tuesday to help find a funding plan that keeps every senior center open. The county's aging office says it has paid for more than 106,000 meals so far this year.",
+    "date": "2026-11-17",
+    "loc": "West Chester",
+    "link": "https://www.dailylocal.com/2026/11/17/advocate-calls-on-chester-county-to-sustain-all-6-senior-centers/",
+    "img": ""
+  },
+  {
+    "title": "Christkindlmarkt brings 100-plus vendors to Gay Street Dec. 12",
+    "category": "News",
+    "summary": "The seventh annual outdoor holiday market fills Gay and Church streets from 11 a.m. to 6 p.m. on Saturday, Dec. 12, with handmade gifts, carolers and music. Santa visits M&T Bank on High Street from 2 to 4 p.m.",
     "date": "2026-11-16",
-    "loc": "West Chester Pike at Delchester Road, Willistown Township",
-    "link": "https://www.mychesco.com/a/news/government/willistown-secures-195000-for-west-chester-pike-signal-upgrade/",
+    "loc": "Gay and Church streets, West Chester",
+    "link": "https://www.mychesco.com/a/communities/west-chester/west-chester-christkindlmarkt-brings-100-vendors-to-gay-street/",
     "img": ""
   },
   {
@@ -27,15 +63,6 @@
     "img": ""
   },
   {
-    "title": "Goshen Fire Company's $8.5 million station rebuild nears federal funding step",
-    "category": "Development",
-    "summary": "Chester County plans to request release of $850,000 in federal money around Nov. 17 for rebuilding Station 54, a 1951 firehouse that would grow by nearly 39 percent with a new two-story building. Comments on the environmental review are due Nov. 16, and construction is expected to start in January 2027 and wrap up by May 2028.",
-    "date": "2026-11-13",
-    "loc": "1320 Park Ave., East Goshen Township",
-    "link": "https://www.mychesco.com/a/news/government/goshen-fire-station-nears-850000-federal-funding-decision/",
-    "img": ""
-  },
-  {
     "title": "County wants residents' input on its climate plan at a Nov. 19 open house",
     "category": "News",
     "summary": "The Chester County Planning Commission is updating the countywide Climate Action Plan and will hold a public meeting from 6 to 8 p.m. Thursday, Nov. 19, with open-house sessions around a 6:45 p.m. presentation that can also be watched on Zoom. Online comments open the same day.",
@@ -45,39 +72,12 @@
     "img": ""
   },
   {
-    "title": "Ten West Chester Area seniors named National Merit semifinalists",
-    "category": "News",
-    "summary": "Seven students from Henderson, two from Rustin and one from East earned the distinction, which goes to roughly the top one percent of high school seniors in each state. Separately, Peirce Middle School teacher Michael Dumas received the state's middle school Technology and Engineering Teacher Excellence Award.",
-    "date": "2026-11-13",
-    "loc": "West Chester Area School District",
-    "link": "https://hellowestchester-newsletter.beehiiv.com/p/west-chester-weekly-news-roundup-nov-13-2026",
-    "img": ""
-  },
-  {
-    "title": "Patrick O'Donnell, former county commissioner and longtime borough lawyer, dies at 78",
-    "category": "News",
-    "summary": "O'Donnell, who died Nov. 11, won a Chester County commissioner's seat in 1979 as one of the county's few elected Democrats and practiced law in West Chester for 50 years, much of it in land use and municipal work. He also spent about 25 years on the board of Good Fellowship Ambulance.",
-    "date": "2026-11-13",
-    "loc": "West Chester",
-    "link": "https://www.dailylocal.com/2026/11/13/former-chester-county-commissioner-patrick-odonnell-dies-at-78/",
-    "img": ""
-  },
-  {
     "title": "Six holiday weekends start Nov. 27 with store discounts and free street parking",
     "category": "News",
     "summary": "The Greater West Chester Chamber of Commerce expects about 40,000 visitors for its downtown holiday campaign, which opens Black Friday with many of the roughly 180 shops and restaurants offering 20 to 30 percent off and other promotions. On-street parking is free Nov. 27 through 29, and the program runs through New Year's Day.",
     "date": "2026-11-12",
     "loc": "Downtown West Chester",
     "link": "https://www.mychesco.com/a/communities/west-chester/west-chester-offers-holiday-discounts-to-draw-40000-visitors/",
-    "img": ""
-  },
-  {
-    "title": "Golden Valley Farms Coffee marks 40 years with a Coffee Fest on Nov. 28",
-    "category": "News",
-    "summary": "The family-run West Goshen roaster, which has sold certified organic coffee since 2010, celebrates on Small Business Saturday at the Artisan Exchange with free mini cold brews and hot chocolate, local vendors and tours of the roasting room.",
-    "date": "2026-11-11",
-    "loc": "Artisan Exchange, 208 Carter Drive, West Goshen",
-    "link": "https://www.dailylocal.com/2026/11/11/golden-valley-farms-coffee-celebrates-40-years-of-steady-growth/",
     "img": ""
   },
   {
