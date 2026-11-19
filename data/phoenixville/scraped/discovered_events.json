@@ -2016,5 +2016,37 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/films/cult-cinema/die-hard/"
+  },
+  {
+    "id": "discovered_great_american_pub_xmas_bazaar_20261212",
+    "type": "event",
+    "title": "Great American Pub Christmas Bazaar with Santa",
+    "venue_info": {
+      "name": "Great American Pub, 148 Bridge St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "December 12, 2026",
+    "attributes": {
+      "category": "Community Event",
+      "time": "12:00 PM",
+      "vibes": [
+        "Free",
+        "Holiday",
+        "Local Artists",
+        "Holiday Shopping",
+        "Santa Visit",
+        "Food & Drinks",
+        "Phoenixville",
+        "Downtown Bridge Street"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://thegreatamericanpub.com/phoenixville"
   }
 ]
