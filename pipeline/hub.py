@@ -25,6 +25,7 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, PROJECT_ROOT)
 
 from pipeline.analytics import GA_SNIPPET
+from pipeline.brand import SITE_NAME, website
 from pipeline.geo import derive_tagline
 
 SITE_URL = 'https://www.localspothq.com/'
@@ -101,6 +102,7 @@ def _town_section(block, today):
                 <h2>{_html.escape(name)}</h2>
                 <a class="more" href="/{slug}/">Everything in {_html.escape(name)} &rarr;</a>
             </div>
+            <p class="meta town-weekend"><a href="/{slug}/this-weekend/">Things to do in {_html.escape(name)} this weekend &rarr;</a></p>
             {f'<p class="meta town-tagline">{tagline}</p>' if tagline else ''}
             <div class="card card-pad">{rows}</div>
             <p class="townlinks">{' &middot; '.join(links)}</p>
@@ -119,8 +121,7 @@ def render_hub(blocks, today=None):
     options = ''.join(f'<option value="{_html.escape(b["name"])}">{_html.escape(b["name"])}</option>' for b in blocks)
     towns_strip = ' &middot; '.join(f'<a href="/{b["slug"]}/">{_html.escape(b["name"])}</a>' for b in blocks)
     sections = ''.join(_town_section(b, today) for b in blocks)
-    json_ld = {"@context": "https://schema.org", "@type": "WebSite", "name": "LocalSpot",
-               "url": SITE_URL, "description": description}
+    json_ld = {**website(), "description": description}
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -133,6 +134,7 @@ def render_hub(blocks, today=None):
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{SITE_URL}">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="{SITE_NAME}">
 <meta property="og:url" content="{SITE_URL}">
 <meta property="og:title" content="{_html.escape(title)}">
 <meta property="og:description" content="{_html.escape(description)}">
@@ -217,7 +219,7 @@ footer a {{ color: var(--ink-soft); }}
         <a href="/submit.html">Submit an event</a>
         <a href="mailto:{CONTACT}">{CONTACT}</a>
     </div>
-    <p class="meta">LocalSpot HQ &middot; Viereck Group LLC &middot; updated {today.isoformat()}</p>
+    <p class="meta">{SITE_NAME} &middot; Viereck Group LLC &middot; updated {today.isoformat()}</p>
 </footer>
 
 <script>

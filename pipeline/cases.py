@@ -190,7 +190,7 @@ def _head(title, description, canonical, area_name, depth, robots='index, follow
 <meta name="robots" content="{robots}">
 <link rel="canonical" href="{canonical}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="LocalSpot {html.escape(area_name)}">
+<meta property="og:site_name" content="LocalSpot">
 <meta property="og:url" content="{canonical}">
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(description)}">

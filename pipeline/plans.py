@@ -113,7 +113,7 @@ def _head(title, description, canonical, area_name, og_type, depth, extra_meta='
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="{canonical}">
 <meta property="og:type" content="{og_type}">
-<meta property="og:site_name" content="LocalSpot {html.escape(area_name)}">
+<meta property="og:site_name" content="LocalSpot">
 <meta property="og:url" content="{canonical}">
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(description)}">
@@ -165,8 +165,8 @@ def _plan_page(plan, area_config):
         "datePublished": published,
         "dateModified": updated,
         "image": [og_image] if og_image else [],
-        "author": {"@type": "Organization", "name": "LocalSpot HQ", "url": "https://www.localspothq.com/"},
-        "publisher": {"@type": "Organization", "name": "LocalSpot HQ"},
+        "author": {"@type": "Organization", "name": "LocalSpot", "url": "https://www.localspothq.com/"},
+        "publisher": {"@type": "Organization", "name": "LocalSpot", "url": "https://www.localspothq.com/"},
         "mainEntityOfPage": canonical
     }, {
         "@context": "https://schema.org",
@@ -211,7 +211,7 @@ def _plan_page(plan, area_config):
 {tips_html}
 <p class="meta">Hours, prices and showtimes change. Check the venue before you go, and if something here is wrong, <a href="{base_url}/#community">tell us</a>.</p>
 </article>
-<footer>LocalSpot HQ &middot; <a href="../">All plans</a> &middot; <a href="{base_url}/">Everything happening in {html.escape(area_name)} &rarr;</a></footer>
+<footer>LocalSpot &middot; <a href="../">All plans</a> &middot; <a href="{base_url}/">Everything happening in {html.escape(area_name)} &rarr;</a></footer>
 </body>
 </html>
 """
@@ -244,7 +244,7 @@ def _plans_index(plans, area_config):
 <article>
 {chr(10).join(groups)}
 </article>
-<footer>LocalSpot HQ &middot; <a href="{base_url}/">Everything happening in {html.escape(area_name)} &rarr;</a></footer>
+<footer>LocalSpot &middot; <a href="{base_url}/">Everything happening in {html.escape(area_name)} &rarr;</a></footer>
 </body>
 </html>
 """

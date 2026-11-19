@@ -343,7 +343,7 @@ color:var(--ink-faint);font-size:13px}}
 {related_html}
 <p class="hubs"><a href="{base_url}/">All {html.escape(area_name)} events</a> &middot; <a href="{base_url}/this-weekend/">This weekend in {html.escape(area_name)}</a> &middot; <a href="{base_url}/promote/?event={slug}">Promote this event</a></p>
 {_signup_block(area_config)}
-<footer>LocalSpot HQ &middot; updated {date.today().isoformat()}</footer>
+<footer>LocalSpot &middot; updated {date.today().isoformat()}</footer>
 </body>
 </html>
 """

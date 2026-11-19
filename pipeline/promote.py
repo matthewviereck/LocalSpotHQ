@@ -157,7 +157,7 @@ color:var(--ink-faint);font-size:13px}}
 </ul>
 {contact_html}
 
-<footer>LocalSpot HQ &middot; <a href="{base_url}/">Everything happening in {html.escape(area_name)} &rarr;</a></footer>
+<footer>LocalSpot &middot; <a href="{base_url}/">Everything happening in {html.escape(area_name)} &rarr;</a></footer>
 
 <script>
 (function () {{
