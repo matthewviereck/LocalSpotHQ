@@ -3476,32 +3476,6 @@
     "action_link": "https://mycchc.org/calendar-events/season-of-lights-copy/"
   },
   {
-    "id": "discovered_cchc_exhibition_tour_whose_revolution_20261118",
-    "type": "event",
-    "title": "Exhibition Tour: Whose Revolution?",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.9619,
-        "lng": -75.6047
-      }
-    },
-    "raw_date_string": "Nov 18, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "History"
-      ],
-      "price": "$16 adults; $5 students",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://mycchc.org/calendar-events/exhibition-tour-whose-revolution/2026-11-18/"
-  },
-  {
     "id": "discovered_salt_newsies_20261120",
     "type": "event",
     "title": "SALT Performing Arts: Disney's Newsies",
