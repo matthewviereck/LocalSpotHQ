@@ -577,7 +577,7 @@ def _page(data, area_config):
 <meta name="robots" content="{robots}">
 <link rel="canonical" href="{canonical}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="LocalSpot {e(area_name)}">
+<meta property="og:site_name" content="LocalSpot">
 <meta property="og:url" content="{canonical}">
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(description)}">
@@ -629,7 +629,7 @@ def _page(data, area_config):
 <p class="empty" id="empty" hidden>No camp matches those filters. Try another age, town or price.</p>
 {nodates}
 
-<footer>LocalSpot HQ &middot; camp details checked {_long(data['updated'])} &middot; <a href="{base_url}/">Everything happening in {e(area_name)} &rarr;</a></footer>
+<footer>LocalSpot &middot; camp details checked {_long(data['updated'])} &middot; <a href="{base_url}/">Everything happening in {e(area_name)} &rarr;</a></footer>
 {script}
 </body>
 </html>

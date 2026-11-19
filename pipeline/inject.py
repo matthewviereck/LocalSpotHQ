@@ -3,6 +3,7 @@ import re
 import os
 from datetime import datetime, timezone
 
+from pipeline.brand import SITE_NAME, SITE_URL
 from pipeline.geo import derive_tagline
 
 
@@ -70,8 +71,8 @@ def _build_structured_data(area_config, events):
         "url": canonical_url,
         "isPartOf": {
             "@type": "WebSite",
-            "name": "LocalSpot HQ",
-            "url": "https://www.localspothq.com"
+            "name": SITE_NAME,
+            "url": SITE_URL
         },
         "about": {
             "@type": "Place",

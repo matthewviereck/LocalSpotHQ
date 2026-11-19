@@ -74,7 +74,7 @@ jobs:
           test -s output/west_chester/index.html
           test -s output/index.html
           test -s output/localspot.css
-          python -m unittest tests.test_hub
+          python -m unittest tests.test_hub tests.test_brand
           grep -q 'id="signup-form"' output/index.html
           test -s output/sitemap.xml
           test -s output/robots.txt

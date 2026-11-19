@@ -332,7 +332,7 @@ color:var(--ink-faint);font-size:13px}}
 <p>Many local events come back around each year — when this one is announced again, it will be listed here.</p>
 <p><a class="cta" href="{base_url}/this-weekend/">What's on this weekend in {html.escape(area_name)} &rarr;</a></p>
 <p><a href="{base_url}/#events">All upcoming {html.escape(area_name)} events</a></p>
-<footer>LocalSpot HQ &middot; updated {date.today().isoformat()}</footer>
+<footer>LocalSpot &middot; updated {date.today().isoformat()}</footer>
 </body>
 </html>
 """
@@ -374,7 +374,7 @@ color:var(--ink-faint);font-size:13px}}
 <p>Many local events come back around each year — when this one is announced again, it will be listed here.</p>
 <p><a class="cta" href="{base_url}/this-weekend/">What's on this weekend in {html.escape(area_name)} &rarr;</a></p>
 <p><a href="{base_url}/#events">All upcoming {html.escape(area_name)} events</a></p>
-<footer>LocalSpot HQ &middot; updated {date.today().isoformat()}</footer>
+<footer>LocalSpot &middot; updated {date.today().isoformat()}</footer>
 </body>
 </html>
 """

@@ -57,8 +57,8 @@ def _guide_page(guide, area_config):
         "datePublished": published,
         "dateModified": updated,
         "image": [img] if img else [],
-        "author": {"@type": "Organization", "name": "LocalSpot HQ", "url": "https://www.localspothq.com/"},
-        "publisher": {"@type": "Organization", "name": "LocalSpot HQ"},
+        "author": {"@type": "Organization", "name": "LocalSpot", "url": "https://www.localspothq.com/"},
+        "publisher": {"@type": "Organization", "name": "LocalSpot", "url": "https://www.localspothq.com/"},
         "mainEntityOfPage": canonical
     }, {
         "@context": "https://schema.org",
@@ -85,7 +85,7 @@ def _guide_page(guide, area_config):
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="{canonical}">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="LocalSpot {html.escape(area_name)}">
+<meta property="og:site_name" content="LocalSpot">
 <meta property="article:published_time" content="{published}">
 <meta property="article:modified_time" content="{updated}">
 <meta property="og:url" content="{canonical}">
@@ -128,7 +128,7 @@ color:var(--ink-faint);font-size:13px}}
 {f'<img class="hero" src="{html.escape(hero_src)}" alt="{html.escape(title)}" referrerpolicy="no-referrer">' if img else ''}
 {credit_html}
 {sections_html}
-<footer>LocalSpot HQ &middot; <a href="{base_url}/">Everything happening in {html.escape(area_name)} &rarr;</a></footer>
+<footer>LocalSpot &middot; <a href="{base_url}/">Everything happening in {html.escape(area_name)} &rarr;</a></footer>
 </body>
 </html>
 """
@@ -191,7 +191,7 @@ color:var(--ink-faint);font-size:13px}}
 <ul>
 {cards}
 </ul>
-<footer>LocalSpot HQ &middot; <a href="{base_url}/">Everything happening in {html.escape(area_name)} &rarr;</a></footer>
+<footer>LocalSpot &middot; <a href="{base_url}/">Everything happening in {html.escape(area_name)} &rarr;</a></footer>
 </body>
 </html>
 """
