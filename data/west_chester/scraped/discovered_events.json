@@ -985,33 +985,6 @@
     "action_link": "https://historicsugartown.org/events/bookbinding-workshop-level-i/2027-01-23/"
   },
   {
-    "id": "discovered_stroud_birds_buffers_20261117",
-    "type": "event",
-    "title": "Singing From Tree Tubes: Birds, Buffers, and Habitats",
-    "venue_info": {
-      "name": "Stroud Water Research Center, Avondale",
-      "location": {
-        "lat": 39.8594,
-        "lng": -75.7828
-      }
-    },
-    "raw_date_string": "Nov 17, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Free",
-        "Talk",
-        "Science"
-      ],
-      "price": "Free",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://stroudcenter.org/event/birds-buffers-and-habitats/"
-  },
-  {
     "id": "discovered_bmoa_sensory_railroad_20270108",
     "type": "event",
     "title": "Sensory-Friendly Evening: Brandywine Railroad",
@@ -2290,32 +2263,6 @@
     "action_link": "https://www.peopleslight.org/whats-on/events/2026/from-seed-to-blossom/"
   },
   {
-    "id": "discovered_true_crime_on_trial_20261117",
-    "type": "event",
-    "title": "True Crime on Trial: Chester County History Center at Victory Brewing",
-    "venue_info": {
-      "name": "Victory Brewing Company, Downingtown",
-      "location": {
-        "lat": 40.0137,
-        "lng": -75.687
-      }
-    },
-    "raw_date_string": "Nov 17, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "21+",
-        "History"
-      ],
-      "price": "$20",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.tickettailor.com/events/chestercountyhistorycenter/2247000"
-  },
-  {
     "id": "discovered_polar_express_pajama_night_20261202",
     "type": "event",
     "title": "\"The Polar Express\" Read-Aloud Pajama Night",
@@ -3184,32 +3131,6 @@
       "image": ""
     },
     "action_link": "https://kennettflash.org/event/the-hoppin-john-orchestra-mardi-gras-show-3/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
-    "id": "discovered_ccl_origins_lenape_20261117",
-    "type": "event",
-    "title": "Origins: The Lenape, William Penn, and the Colonists",
-    "venue_info": {
-      "name": "Chester County Library, Exton",
-      "location": {
-        "lat": 40.0315,
-        "lng": -75.6285
-      }
-    },
-    "raw_date_string": "Nov 17, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "History",
-        "Free"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://ccls.libcal.com/event/17297752"
   },
   {
     "id": "discovered_wcu_holiday_program_105_20261205",
