@@ -749,33 +749,6 @@
     "action_link": "https://runsignup.com/Race/PA/Downingtown/ChesterCountyTurkeyTrot"
   },
   {
-    "id": "discovered_sensory_railroad_20261119",
-    "type": "event",
-    "title": "Sensory-Friendly Evening: Brandywine Railroad",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8706,
-        "lng": -75.5906
-      }
-    },
-    "raw_date_string": "Nov 19, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Free",
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "Free",
-      "time": "5:00 PM - 7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-1"
-  },
-  {
     "id": "discovered_ksq_holiday_village_market_20261205",
     "type": "event",
     "title": "Kennett Square Holiday Village Market",
@@ -1665,32 +1638,6 @@
     "action_link": "https://brandywine.org/trains"
   },
   {
-    "id": "discovered_beaver_moon_walk_ashbridge_20261119",
-    "type": "event",
-    "title": "Beaver Moon Walk at Ashbridge Preserve",
-    "venue_info": {
-      "name": "Ashbridge Preserve, West Chester",
-      "location": {
-        "lat": 39.9825,
-        "lng": -75.553
-      }
-    },
-    "raw_date_string": "Nov 19, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Outdoor",
-        "Nature",
-        "Family Friendly"
-      ],
-      "time": "5:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://secure.qgiv.com/for/2026communitypublicprograms/event/beavermoonhike11192026/?occurrence=2026-11-19"
-  },
-  {
     "id": "discovered_wild_wreath_workshop_rushton_20261205",
     "type": "event",
     "title": "Wild Wreath Workshop at Rushton Conservation Center",
@@ -2311,32 +2258,6 @@
       "image": ""
     },
     "action_link": "https://www.brandywine.org/museum/events/polar-express-read-aloud-pajama-night-4"
-  },
-  {
-    "id": "discovered_plantology_on_tap_christmas_20261119",
-    "type": "event",
-    "title": "Plantology on Tap: A Longwood Christmas",
-    "venue_info": {
-      "name": "The Creamery of Kennett Square, Kennett Square",
-      "location": {
-        "lat": 39.8475,
-        "lng": -75.7085
-      }
-    },
-    "raw_date_string": "Nov 19, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Lecture",
-        "21+"
-      ],
-      "price": "$29",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://longwoodgardens.org/events-performances/events/plantology-tap-longwood-christmas-0"
   },
   {
     "id": "discovered_kid_charlemagne_steely_dan_20270123",
@@ -3315,32 +3236,6 @@
       "image": ""
     },
     "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1402361290"
-  },
-  {
-    "id": "discovered_wcu_vocal_latin_jazz_20261119",
-    "type": "event",
-    "title": "WCU Vocal Jazz & Latin Jazz Ensembles Concert",
-    "venue_info": {
-      "name": "Madeleine Wing Adler Theatre, West Chester",
-      "location": {
-        "lat": 39.9481,
-        "lng": -75.6018
-      }
-    },
-    "raw_date_string": "Nov 19, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Free"
-      ],
-      "price": "Free",
-      "time": "7:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1399153027"
   },
   {
     "id": "discovered_wcu_symphony_prokofiev_20261121",
