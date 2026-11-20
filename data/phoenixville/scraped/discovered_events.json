@@ -214,35 +214,6 @@
     "action_link": "https://souljoels.com/shop/tickets/theuptownbandnye/"
   },
   {
-    "id": "discovered_comedy_graduation_souljoels_20261119",
-    "type": "event",
-    "title": "14th Comedy Class Graduation Show \u2013 SoulJoel's",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "November 19, 2026 7:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Student Showcase",
-        "Graduation Show",
-        "Local Comedians",
-        "Thursday Night",
-        "Pottstown"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/shop/tickets/14thgradshow/"
-  },
-  {
     "id": "discovered_wood_brothers_colonial_20261209",
     "type": "event",
     "title": "The Wood Brothers with Tyler Ramsey \u2013 Live at Colonial Theatre",
@@ -2048,5 +2019,67 @@
       "image": ""
     },
     "action_link": "https://thegreatamericanpub.com/phoenixville"
+  },
+  {
+    "id": "discovered_historic_trappe_candlelight_sat_20261205",
+    "type": "event",
+    "title": "Historic Trappe Candlelight Tour – Evening at the Muhlenberg House",
+    "venue_info": {
+      "name": "Muhlenberg House, Historic Trappe, 201 W Main St, Trappe",
+      "location": {
+        "lat": 40.1976,
+        "lng": -75.4779
+      }
+    },
+    "raw_date_string": "December 5, 2026 3:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "time": "3:00 PM – 9:00 PM",
+      "vibes": [
+        "Historic Site",
+        "Candlelight Tour",
+        "Pennsylvania German",
+        "Holiday",
+        "Trappe",
+        "Evening Event",
+        "Annual"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historictrappe.org/events/"
+  },
+  {
+    "id": "discovered_historic_trappe_candlelight_sun_20261206",
+    "type": "event",
+    "title": "Historic Trappe Candlelight Tour – Sunday Afternoon at the Muhlenberg House",
+    "venue_info": {
+      "name": "Muhlenberg House, Historic Trappe, 201 W Main St, Trappe",
+      "location": {
+        "lat": 40.1976,
+        "lng": -75.4779
+      }
+    },
+    "raw_date_string": "December 6, 2026 12:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "time": "12:00 PM – 4:00 PM",
+      "vibes": [
+        "Historic Site",
+        "Candlelight Tour",
+        "Pennsylvania German",
+        "Holiday",
+        "Trappe",
+        "Sunday Afternoon",
+        "Annual"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historictrappe.org/events/"
   }
 ]
