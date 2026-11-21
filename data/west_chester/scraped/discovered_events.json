@@ -75,32 +75,6 @@
     "action_link": "https://www.wcupa.edu/arts-humanities/theatreDance/currentSeason.aspx"
   },
   {
-    "id": "discovered_abbie_gardner_with_sean_kiely_20261120",
-    "type": "event",
-    "title": "Abbie Gardner with Sean Kiely",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Nov 20, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$25-$28",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/abbie-gardner-with-special-guest-sean-kiely/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_kennett_holiday_light_parade_20261121",
     "type": "event",
     "title": "Kennett Holiday Light Parade",
@@ -249,7 +223,7 @@
         "Indoor",
         "All Ages"
       ],
-      "price": "$20-$23",
+      "price": "$20-$28",
       "time": "7:00 PM"
     },
     "media": {
@@ -380,7 +354,7 @@
         "Live Music",
         "Holiday"
       ],
-      "price": "$30 - $35",
+      "price": "$30-$35",
       "time": "7:00 PM"
     },
     "media": {
@@ -2277,7 +2251,7 @@
         "Tribute",
         "BYOB"
       ],
-      "price": "$33-$38",
+      "price": "$35-$38",
       "time": "8:00 PM"
     },
     "media": {
@@ -2632,34 +2606,6 @@
       "image": ""
     },
     "action_link": "https://www.mychesco.com/a/entertainment/arts-culture/chester-county-ballet-brings-the-nutcracker-to-malvern/"
-  },
-  {
-    "id": "discovered_craft_mercantile_holiday_marke_20261120",
-    "type": "event",
-    "title": "Craft & Mercantile Holiday Market at Eagleview",
-    "venue_info": {
-      "name": "Eagleview Town Center, Exton",
-      "location": {
-        "lat": 40.0616,
-        "lng": -75.6706
-      }
-    },
-    "raw_date_string": "Nov 20, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Outdoor",
-        "Shopping",
-        "Live Music",
-        "Free"
-      ],
-      "price": "Free",
-      "time": "4:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eagleviewtowncenter.com/upcoming-events/craft-mercantile-fall-market-se3xy"
   },
   {
     "id": "discovered_thanksgiving_farmers_market_at_20261124",
@@ -4020,7 +3966,7 @@
         "Americana",
         "BYOB"
       ],
-      "price": "$25 - $28",
+      "price": "$25-$28",
       "time": "7:00 PM"
     },
     "media": {
@@ -4579,5 +4525,31 @@
       "image": ""
     },
     "action_link": "https://www.mychesco.com/a/entertainment/family-fun/hundreds-of-lights-will-transform-springton-manor-farm/"
+  },
+  {
+    "id": "discovered_kennett_flash_encore_20261204",
+    "type": "event",
+    "title": "The Kennett Flash Encore 2026 (Fundraiser)",
+    "venue_info": {
+      "name": "The Kennett Flash, Kennett Square",
+      "location": {
+        "lat": 39.847,
+        "lng": -75.713
+      }
+    },
+    "raw_date_string": "Dec 4, 2026",
+    "attributes": {
+      "category": "Live Music",
+      "vibes": [
+        "Fundraiser",
+        "Indoor"
+      ],
+      "price": "$52.50-$102.50",
+      "time": "7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://kennettflash.org/event/the-kennett-flash-encore-2026/kennett-flash/kennett-square-pennsylvania/"
   }
 ]
