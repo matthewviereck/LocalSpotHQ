@@ -1,5 +1,41 @@
 [
   {
+    "title": "West Chester Borough Council advances a 12.6% property tax increase",
+    "category": "News",
+    "summary": "Council voted 4-3 to move the 2027 increase forward, which works out to roughly $178 more a year on a $174,600 assessment. Officials point to rising emergency medical costs and shifting stormwater costs into the general fund; a final vote is set for Dec. 16.",
+    "date": "2026-11-21",
+    "loc": "West Chester Borough",
+    "link": "https://patch.com/pennsylvania/westchester/patch-am-west-chester-advances-12-6-percent-property-tax-incre-nodx",
+    "img": ""
+  },
+  {
+    "title": "Kimberton Whole Foods plans a Downingtown market",
+    "category": "Development",
+    "summary": "The local grocer is planning a new store at Route 322 and Boot Road, with an opening targeted for fall 2028.",
+    "date": "2026-11-20",
+    "loc": "Route 322 and Boot Road, Downingtown",
+    "link": "https://patch.com/pennsylvania/phoenixville/kimberton-whole-foods-plans-open-new-location",
+    "img": ""
+  },
+  {
+    "title": "WCU holiday concert adds a second show Dec. 5",
+    "category": "News",
+    "summary": "The Wells School of Music's 105th annual holiday program now runs twice on Saturday, Dec. 5, at 3 and 7:30 p.m. in Asplundh Concert Hall. Tickets are $13.50 and the school suggests buying ahead.",
+    "date": "2026-11-19",
+    "loc": "Asplundh Concert Hall, 700 S. High St., West Chester",
+    "link": "https://www.mychesco.com/a/education/colleges-universities/wcu/west-chester-universitys-holiday-concert-adds-second-show/",
+    "img": ""
+  },
+  {
+    "title": "WCU's doctoral psychology program wins federal scholarship money at 10 years",
+    "category": "News",
+    "summary": "A federal HRSA grant of nearly $650,000 a year for five years will fund $30,300 scholarships for up to 20 PsyD students as the program marks its tenth anniversary.",
+    "date": "2026-11-19",
+    "loc": "West Chester University, West Chester",
+    "link": "https://www.wcupa.edu/communications/newsroom/2026/11.19PsyD.aspx",
+    "img": ""
+  },
+  {
     "title": "Chester County proposes a 5.29% property tax increase for 2027",
     "category": "News",
     "summary": "Commissioners introduced a preliminary $782.2 million budget on Nov. 18 that would add about $27.30 a year per $100,000 of assessed value, after last year's budget held the rate flat. The final vote is set for Dec. 16 at 10 a.m. at the county building on West Market Street.",
@@ -96,15 +132,6 @@
     "date": "2026-11-12",
     "loc": "Downtown West Chester",
     "link": "https://www.mychesco.com/a/communities/west-chester/west-chester-offers-holiday-discounts-to-draw-40000-visitors/",
-    "img": ""
-  },
-  {
-    "title": "Greek-style coffee shop opens on West Gay Street; 7 Brew drive-thru follows Monday",
-    "category": "Now Open",
-    "summary": "Brewing Love has opened at 145 W. Gay St., pouring freddos, the iced coffee popular in Greece, along with iced matcha and pastries. Drive-thru chain 7 Brew is set to open at 829 Paoli Pike on Monday, Nov. 16.",
-    "date": "2026-11-11",
-    "loc": "145 W. Gay St., West Chester",
-    "link": "https://www.inquirer.com/news/pennsylvania/lionville-station-road-development-salt-performing-arts-20261111.html",
     "img": ""
   }
 ]
