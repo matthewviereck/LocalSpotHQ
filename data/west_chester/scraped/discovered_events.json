@@ -75,33 +75,6 @@
     "action_link": "https://www.wcupa.edu/arts-humanities/theatreDance/currentSeason.aspx"
   },
   {
-    "id": "discovered_kennett_holiday_light_parade_20261121",
-    "type": "event",
-    "title": "Kennett Holiday Light Parade",
-    "venue_info": {
-      "name": "State Street, Kennett Square",
-      "location": {
-        "lat": 39.8465,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Nov 21, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Holiday"
-      ],
-      "price": "Free",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettcollaborative.org/event/holiday-light-parade/2026-11-21/"
-  },
-  {
     "id": "discovered_santa_s_express_20261121",
     "type": "event",
     "title": "Santa's Express",
@@ -802,32 +775,6 @@
     "action_link": "https://www.malvern.org/Calendar.aspx?EID=576"
   },
   {
-    "id": "discovered_kf_superunknown_20261121",
-    "type": "event",
-    "title": "Superunknown (Acoustic): Solo Tribute to Chris Cornell",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.8463,
-        "lng": -75.7116
-      }
-    },
-    "raw_date_string": "Nov 21, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Tribute"
-      ],
-      "price": "$23-$28",
-      "time": "8:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/superunknown-acoustic-solo-tribute-to-chris-cornell-2/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_kf_raymond_amish_comic_20261128",
     "type": "event",
     "title": "Raymond the Amish Comic: No More Landlords Tour",
@@ -956,32 +903,6 @@
       "image": ""
     },
     "action_link": "https://www.brandywine.org/museum/events/sensory-friendly-evening-brandywine-railroad-2"
-  },
-  {
-    "id": "discovered_wcu_live_sharpe_family_singers_20261121",
-    "type": "event",
-    "title": "WCU Live!: The Sharpe Family Singers",
-    "venue_info": {
-      "name": "Emilie K. Asplundh Concert Hall, West Chester",
-      "location": {
-        "lat": 39.95,
-        "lng": -75.599
-      }
-    },
-    "raw_date_string": "Nov 21, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Family-Friendly"
-      ],
-      "price": "$25-$35",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/OCA/wcu-Live/"
   },
   {
     "id": "discovered_hibernia_candlelight_tours_20261204",
@@ -1293,33 +1214,6 @@
       "image": ""
     },
     "action_link": "https://www.mychesco.com/a/communities/kennett-square/clover-market-brings-nearly-100-vendors-to-kennett-square/"
-  },
-  {
-    "id": "discovered_snow_ready_uwchlan_20261121",
-    "type": "event",
-    "title": "Snow-Ready Uwchlan: Winter Kickoff on Ice",
-    "venue_info": {
-      "name": "Power Play Rinks, Exton",
-      "location": {
-        "lat": 40.0345,
-        "lng": -75.6545
-      }
-    },
-    "raw_date_string": "Nov 21, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Free",
-        "Family",
-        "Indoor"
-      ],
-      "price": "Free",
-      "time": "12:30 PM - 4:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.uwchlan.com/Calendar.aspx?EID=1804"
   },
   {
     "id": "discovered_jingle_run_20261205",
@@ -2418,33 +2312,6 @@
     "action_link": "https://www.farmhousepeopleslight.com/santabrunch"
   },
   {
-    "id": "discovered_breakfast_with_the_trains_20261121",
-    "type": "event",
-    "title": "Breakfast with the Trains",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8693,
-        "lng": -75.5933
-      }
-    },
-    "raw_date_string": "Nov 21, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Indoor",
-        "Holiday",
-        "Family-Friendly"
-      ],
-      "price": "$35 ($25 members)",
-      "time": "8:30 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/breakfast-trains-4"
-  },
-  {
     "id": "discovered_breakfast_with_the_trains_20261129",
     "type": "event",
     "title": "Breakfast with the Trains",
@@ -2524,33 +2391,6 @@
       "image": ""
     },
     "action_link": "https://www.brandywine.org/museum/events/breakfast-trains-7"
-  },
-  {
-    "id": "discovered_winterthur_holiday_market_20261121",
-    "type": "event",
-    "title": "Winterthur Holiday Market",
-    "venue_info": {
-      "name": "Winterthur Museum, Garden & Library, Winterthur DE",
-      "location": {
-        "lat": 39.8061,
-        "lng": -75.5983
-      }
-    },
-    "raw_date_string": "Nov 21, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Holiday",
-        "Shopping",
-        "Outdoor"
-      ],
-      "price": "$33 adults",
-      "time": "10:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.winterthur.org/calendar/holiday-market-2/"
   },
   {
     "id": "discovered_a_christmas_carol_at_winterthu_20261204",
@@ -3184,33 +3024,6 @@
     "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1402361290"
   },
   {
-    "id": "discovered_wcu_symphony_prokofiev_20261121",
-    "type": "event",
-    "title": "WCU Symphony Orchestra: A Portrait of Prokofiev",
-    "venue_info": {
-      "name": "Madeleine Wing Adler Theatre, West Chester",
-      "location": {
-        "lat": 39.9481,
-        "lng": -75.6018
-      }
-    },
-    "raw_date_string": "Nov 21, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Free",
-        "Classical"
-      ],
-      "price": "Free",
-      "time": "7:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1399360781"
-  },
-  {
     "id": "discovered_wcu_wind_symphony_concert_band_20261122",
     "type": "event",
     "title": "WCU Wind Symphony & Concert Band: Dance Atlas",
@@ -3790,32 +3603,6 @@
     "action_link": "https://longwoodgardens.org/events-performances/music-performances-theater"
   },
   {
-    "id": "discovered_cchc_walking_tour_revolutionary_wc_20261121",
-    "type": "event",
-    "title": "Walking Tour: Revolutionary West Chester",
-    "venue_info": {
-      "name": "Chester County History Center, West Chester",
-      "location": {
-        "lat": 39.9619,
-        "lng": -75.6047
-      }
-    },
-    "raw_date_string": "Nov 21, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Outdoor",
-        "History"
-      ],
-      "price": "$16",
-      "time": "11:00 AM - 12:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://mycchc.org/calendar-events/walking-tour-revolutionary-west-chester/2026-11-21/"
-  },
-  {
     "id": "discovered_cchc_exhibition_tour_whose_revolution_20261219",
     "type": "event",
     "title": "Exhibition Tour: Whose Revolution?",
@@ -4316,59 +4103,6 @@
     "action_link": "https://www.winterthur.org/calendar/the-perfect-pair-a-cider-and-cheese-tasting/"
   },
   {
-    "id": "discovered_pints_cheslen_20261121",
-    "type": "event",
-    "title": "Pints on the Preserve",
-    "venue_info": {
-      "name": "ChesLen Preserve, Coatesville",
-      "location": {
-        "lat": 39.9151,
-        "lng": -75.7714
-      }
-    },
-    "raw_date_string": "Nov 21, 2026",
-    "attributes": {
-      "category": "Food & Drink",
-      "vibes": [
-        "Outdoor",
-        "Craft Beer",
-        "Family Friendly"
-      ],
-      "time": "1:00 PM - 5:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.natlands.org/event/newdatepints-cheslen-2026-1121/"
-  },
-  {
-    "id": "discovered_pints_family_cheslen_20261121",
-    "type": "event",
-    "title": "Pints & Connect: Family Edition",
-    "venue_info": {
-      "name": "ChesLen Preserve, Coatesville",
-      "location": {
-        "lat": 39.9151,
-        "lng": -75.7714
-      }
-    },
-    "raw_date_string": "Nov 21, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Free",
-        "Outdoor",
-        "Family Friendly"
-      ],
-      "price": "Free (registration requested)",
-      "time": "1:00 PM - 3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.natlands.org/event/newdatepintsfamily-cheslen-2026-1121/"
-  },
-  {
     "id": "discovered_ksq_small_business_saturday_20261128",
     "type": "event",
     "title": "Small Business Saturday in Kennett Square",
@@ -4472,33 +4206,6 @@
       "image": ""
     },
     "action_link": "https://www.winterthur.org/calendar/secret-inspiration-book/"
-  },
-  {
-    "id": "discovered_unionville_art_gala_20261120",
-    "type": "event",
-    "title": "50th Annual Unionville High School Art Gala",
-    "venue_info": {
-      "name": "Unionville High School, Kennett Square",
-      "location": {
-        "lat": 39.8947,
-        "lng": -75.7187
-      }
-    },
-    "raw_date_string": "Nov 20 - 21, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Free",
-        "Art",
-        "Shopping"
-      ],
-      "price": "Free",
-      "time": "Fri 6:00 PM - 9:00 PM, Sat 10:00 AM - 4:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.unionvilleartgala.com/"
   },
   {
     "id": "discovered_natures_aglow_luminary_stroll_20261211",
