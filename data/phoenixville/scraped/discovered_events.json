@@ -1,35 +1,5 @@
 [
   {
-    "id": "discovered_billy_gardell_souljoels_20261121",
-    "type": "event",
-    "title": "Billy Gardell – Live Stand-Up Comedy at SoulJoel's",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "Nov 21, 2026",
-    "attributes": {
-      "category": "Comedy",
-      "time": "8:00 PM",
-      "vibes": [
-        "Stand-Up Comedy",
-        "Mike & Molly",
-        "CBS",
-        "Headline Show",
-        "Pottstown",
-        "Saturday Night"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://souljoels.com/upcoming-events/"
-  },
-  {
     "id": "discovered_prfm_november_rootdown_20261129",
     "type": "event",
     "title": "Phoenixville Punk Rock Flea Market – November at Root Down Brewing",
@@ -284,7 +254,7 @@
         "lng": -75.4699
       }
     },
-    "raw_date_string": "Nov 21-22, 2026",
+    "raw_date_string": "November 22, 2026",
     "attributes": {
       "category": "Festival",
       "vibes": [
@@ -305,67 +275,6 @@
       "image": ""
     },
     "action_link": "https://checkout.conventions.leapevent.tech/es/MONSTER_MANIA_OAKS_PA_2026"
-  },
-  {
-    "id": "discovered_post_halloween_tribute_watertower_20261121",
-    "type": "event",
-    "title": "Post Halloween Tribute of Terror – AC/DC & Rancid Tributes at Water Tower Live",
-    "venue_info": {
-      "name": "The Water Tower Live at Arnold's, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "November 21, 2026 8:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Tribute Band",
-        "AC/DC",
-        "Rancid",
-        "Live Music",
-        "Post-Halloween",
-        "Monster-Mania Weekend",
-        "Rock",
-        "Oaks",
-        "Saturday Night"
-      ],
-      "price": "$10 advance / $15 door"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.watertowerlive.com/events/post-halloween-tribute-of-terror"
-  },
-  {
-    "id": "discovered_craig_bickhardt_steel_city_20261121",
-    "type": "event",
-    "title": "Craig Bickhardt Band – Live at Steel City Coffeehouse",
-    "venue_info": {
-      "name": "Steel City Coffeehouse & Brewery, 203 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.1305,
-        "lng": -75.5148
-      }
-    },
-    "raw_date_string": "November 21, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Singer-Songwriter",
-        "Americana",
-        "Folk",
-        "Live Music",
-        "Coffeehouse",
-        "Saturday Night"
-      ],
-      "price": "$20-$25"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.steelcityphx.com/concerts-and-events"
   },
   {
     "id": "discovered_rachael_vilray_colonial_20261211",
@@ -458,34 +367,6 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/live-music/eric-mintel-quartet/"
-  },
-  {
-    "id": "discovered_essential_elvis_souljoels_20261121",
-    "type": "event",
-    "title": "The Essential Elvis Tribute Band with Jeff Krick",
-    "venue_info": {
-      "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
-      "location": {
-        "lat": 40.2451,
-        "lng": -75.6496
-      }
-    },
-    "raw_date_string": "November 21, 2026 2:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Elvis Tribute",
-        "Live Music",
-        "Afternoon Show",
-        "Pottstown",
-        "Saturday"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eventticketscenter.com/the-essential-elvis-tribute-band-with-jeff-krick-pottstown-11-21-2026/7975390/t"
   },
   {
     "id": "discovered_eleanor_kerrigan_souljoels_20261128",
@@ -604,37 +485,6 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/live-theatre/ana-gasteyer-sugar-booze-holiday-spectacular/"
-  },
-  {
-    "id": "discovered_forge_holiday_twas_night_20261121",
-    "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre (Saturday)",
-    "venue_info": {
-      "name": "Forge Theatre, 241 First Avenue, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "November 21, 2026 7:30 PM",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Holiday",
-        "Family Friendly",
-        "Ken Ludwig",
-        "A Charlie Brown Christmas",
-        "Live Theatre",
-        "Community Theater",
-        "Phoenixville",
-        "Indoor"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.forgetheatre.org/"
   },
   {
     "id": "discovered_forge_twas_night_20261204",
@@ -829,37 +679,6 @@
     "action_link": "https://www.forgetheatre.org/"
   },
   {
-    "id": "discovered_broadway_at_colonial_20261121",
-    "type": "event",
-    "title": "Broadway at the Colonial – Roscioli, Gotay & Pimentel",
-    "venue_info": {
-      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "November 21, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Broadway",
-        "Live Performance",
-        "Wicked",
-        "West Side Story",
-        "Vocal",
-        "Indoor",
-        "Saturday Night",
-        "Phoenixville"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/"
-  },
-  {
     "id": "discovered_cirque_musica_holiday_colonial_20261122",
     "type": "event",
     "title": "Cirque Musica Holiday Wonderland",
@@ -1016,38 +835,6 @@
       "image": ""
     },
     "action_link": "https://cantonfair.net/event/46177-the-philly-show-sports-card-memorabilia-show"
-  },
-  {
-    "id": "discovered_german_christmas_market_franklin_commons_20261121",
-    "type": "event",
-    "title": "German Christmas Market (Weihnachtsmarkt) at Franklin Commons",
-    "venue_info": {
-      "name": "Franklin Commons, 400 Franklin Ave, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "November 21, 2026 12:00 PM",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "German Market",
-        "Holiday",
-        "Family Friendly",
-        "Local Vendors",
-        "Outdoor",
-        "Fundraiser",
-        "MainLineFreunde",
-        "Rain or Shine",
-        "Phoenixville"
-      ],
-      "price": "$5 (21+), Free (under 21)"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://mainlinefreunde.org/weihnachtsmarkt/"
   },
   {
     "id": "discovered_firebird_festival_20261212",
@@ -1480,7 +1267,7 @@
         "lng": -75.4527
       }
     },
-    "raw_date_string": "November 21-22, 2026",
+    "raw_date_string": "November 22, 2026",
     "attributes": {
       "category": "Community Event",
       "time": "Fri & Sat 10 AM–4 PM / Sun 12–4 PM",
@@ -1636,7 +1423,7 @@
         "lng": -75.5461
       }
     },
-    "raw_date_string": "Nov 21-22, 2026",
+    "raw_date_string": "November 22, 2026",
     "attributes": {
       "category": "Community Event",
       "time": "11:00 AM – 4:00 PM",
@@ -1657,36 +1444,6 @@
       "image": ""
     },
     "action_link": "https://springcitymillstudios.com"
-  },
-  {
-    "id": "discovered_circle_mirror_phx_rec_20261121",
-    "type": "event",
-    "title": "Circle Mirror Transformation – Site Unseen Theatre at Phoenixville Rec Center",
-    "venue_info": {
-      "name": "Phoenixville Recreation Center, Phoenixville",
-      "location": {
-        "lat": 40.1304,
-        "lng": -75.5155
-      }
-    },
-    "raw_date_string": "November 21, 2026 2:00 PM",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [
-        "Site-Specific Theater",
-        "Annie Baker",
-        "Immersive",
-        "Local Company",
-        "Saturday Matinee",
-        "Community Theater",
-        "Phoenixville"
-      ],
-      "price": "$25"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://theatrephiladelphia.org/whats-on-stage/circle-mirror-transformation"
   },
   {
     "id": "discovered_wonderful_life_radio_play_colonial_20261210",
@@ -1963,5 +1720,67 @@
       "image": ""
     },
     "action_link": "https://historictrappe.org/events/"
+  },
+  {
+    "id": "discovered_new_wave_nights_gem_20261206",
+    "type": "event",
+    "title": "New Wave Nights – Live at The Gem Spring City",
+    "venue_info": {
+      "name": "The Gem Music Hall, 66 N Main St, Spring City",
+      "location": {
+        "lat": 40.1769,
+        "lng": -75.5461
+      }
+    },
+    "raw_date_string": "December 6, 2026 5:00 PM",
+    "attributes": {
+      "category": "Live Music",
+      "time": "5:00 PM",
+      "vibes": [
+        "New Wave",
+        "80s",
+        "Synth",
+        "Live Music",
+        "Spring City",
+        "Sunday Afternoon"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.bandsintown.com/v/10028694-the-gem-music-hall"
+  },
+  {
+    "id": "discovered_indenhofen_holiday_open_house_20261205",
+    "type": "event",
+    "title": "IndenHofen Farmstead Holiday Open House – Skippack Historical Society",
+    "venue_info": {
+      "name": "IndenHofen Farmstead / Skippack Historical Society, Skippack Pike & Evansburg Rd, Skippack",
+      "location": {
+        "lat": 40.2201,
+        "lng": -75.3971
+      }
+    },
+    "raw_date_string": "December 5, 2026 1:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "time": "1:00 PM - 5:00 PM",
+      "vibes": [
+        "Free",
+        "Family Friendly",
+        "Historic Site",
+        "Holiday",
+        "Farmstead",
+        "Skippack",
+        "Open House",
+        "Annual"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.skippack.org/events/2026-12-05/"
   }
 ]
