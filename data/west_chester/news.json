@@ -1,11 +1,38 @@
 [
   {
+    "title": "WCU's Tammy James wins the state system's Keeper of the Flame Award",
+    "category": "News",
+    "summary": "The PASSHE honor recognizes James's three decades of work on keeping students enrolled, including the COMPASS retention program she started in 2019 and the university's new One Stop Student Support Center, which she leads.",
+    "date": "2026-11-22",
+    "loc": "West Chester University, West Chester",
+    "link": "https://www.mychesco.com/a/education/colleges-universities/wcu/west-chester-university-official-earns-statewide-honor/",
+    "img": ""
+  },
+  {
     "title": "West Chester Borough Council advances a 12.6% property tax increase",
     "category": "News",
     "summary": "Council voted 4-3 to move the 2027 increase forward, which works out to roughly $178 more a year on a $174,600 assessment. Officials point to rising emergency medical costs and shifting stormwater costs into the general fund; a final vote is set for Dec. 16.",
     "date": "2026-11-21",
     "loc": "West Chester Borough",
     "link": "https://patch.com/pennsylvania/westchester/patch-am-west-chester-advances-12-6-percent-property-tax-incre-nodx",
+    "img": ""
+  },
+  {
+    "title": "County will remember people who died homeless at a Dec. 21 ceremony",
+    "category": "News",
+    "summary": "The Chester County Partnership to End Homelessness holds its free Homeless Persons' Memorial Day gathering from 4 to 4:45 p.m. on the winter solstice at the Government Services Center, with a Zoom option. Registration is requested.",
+    "date": "2026-11-21",
+    "loc": "601 Westtown Road, West Chester",
+    "link": "https://www.mychesco.com/a/news/social-issues/chester-county-to-honor-lives-lost-to-homelessness/",
+    "img": ""
+  },
+  {
+    "title": "Villa Maria wins the 3A field hockey title; Downingtown West falls in soccer final",
+    "category": "News",
+    "summary": "Villa Maria jumped to a 3-0 lead and beat Parkland 4-1 Saturday for its first state championship since moving up to Class 3A. Downingtown West's girls soccer team lost the 4A final to Central Bucks East, which won its second straight title.",
+    "date": "2026-11-21",
+    "loc": "Malvern and Downingtown",
+    "link": "https://www.dailylocal.com/2026/11/21/piaa-field-hockey-villa-maria-beats-parkland-to-win-3a-championship/",
     "img": ""
   },
   {
@@ -63,33 +90,6 @@
     "img": ""
   },
   {
-    "title": "Villa Maria field hockey and Downingtown West girls soccer reach state finals",
-    "category": "News",
-    "summary": "Villa Maria beat Emmaus 2-1 on a goal with 31 seconds left in double overtime and plays Parkland for the 3A field hockey title Saturday. Downingtown West blanked Downingtown East 1-0 at West Chester East and faces Central Bucks East in Saturday's 4A girls soccer final in Pittsburgh.",
-    "date": "2026-11-18",
-    "loc": "Malvern and Downingtown",
-    "link": "https://www.dailylocal.com/2026/11/18/hs-girls-soccer-downingtown-west-reaches-state-final-by-blanking-east/",
-    "img": ""
-  },
-  {
-    "title": "Spring House at Brandywine apartments sell for $66.3 million",
-    "category": "Development",
-    "summary": "Invesco bought the 212-unit complex on Reisling Lane off Route 202 from Coastal Ridge Real Estate, about $312,500 a unit and 72 percent more than Coastal Ridge paid in 2019. The deal is the latest in a run of large apartment sales and loans across the county.",
-    "date": "2026-11-18",
-    "loc": "Reisling Lane off Route 202, West Chester",
-    "link": "https://vista.today/2026/11/spring-house-brandywine-west-chester-sold/",
-    "img": ""
-  },
-  {
-    "title": "Unionville-Chadds Ford moves its $164 million Patton Middle School replacement to design",
-    "category": "Development",
-    "summary": "The school board voted 7-0 on Nov. 16 to advance the new two-story building into its next design phase. Work would start with tennis courts and parking in 2029, with the school itself built from 2032 and finished by May 2034, pending East Marlborough approval.",
-    "date": "2026-11-18",
-    "loc": "Patton Middle School, East Marlborough Township",
-    "link": "https://www.mychesco.com/a/education/school-districts/unionville-chadds-ford-sd/unionville-chadds-ford-advances-164-million-school-project/",
-    "img": ""
-  },
-  {
     "title": "Judge clears Exton Square Mall redevelopment; West Whiteland plans to appeal",
     "category": "Development",
     "summary": "A Chester County judge on Nov. 13 overturned the township's 2025 rejection of Abrams Realty's plan to replace most of the mall with homes, shops and offices, keeping Boscov's. Supervisors say they will appeal, while the developer prepares for demolition.",
@@ -99,30 +99,21 @@
     "img": ""
   },
   {
-    "title": "West Chester Area Senior Center asks county to keep all six centers funded",
-    "category": "News",
-    "summary": "A staff member of the borough's senior center urged the county commissioners Tuesday to help find a funding plan that keeps every senior center open. The county's aging office says it has paid for more than 106,000 meals so far this year.",
-    "date": "2026-11-17",
-    "loc": "West Chester",
-    "link": "https://www.dailylocal.com/2026/11/17/advocate-calls-on-chester-county-to-sustain-all-6-senior-centers/",
-    "img": ""
-  },
-  {
-    "title": "West Chester remembers attorney and former commissioner Pat O'Donnell",
-    "category": "News",
-    "summary": "Pat O'Donnell, a West Chester lawyer for about 50 years and a former Chester County commissioner, died Nov. 11 at 78. He practiced at Gawthrop Greenwood until retiring in 2025 and served 25 years on the Good Fellowship Ambulance board.",
-    "date": "2026-11-17",
-    "loc": "West Chester",
-    "link": "https://patch.com/pennsylvania/westchester/patch-am-remembering-pat-odonnell-west-chester-attorney-fo-nodx-20261117",
-    "img": ""
-  },
-  {
     "title": "Christkindlmarkt brings 100-plus vendors to Gay Street Dec. 12",
     "category": "News",
     "summary": "The seventh annual outdoor holiday market fills Gay and Church streets from 11 a.m. to 6 p.m. on Saturday, Dec. 12, with handmade gifts, carolers and music. Santa visits M&T Bank on High Street from 2 to 4 p.m.",
     "date": "2026-11-16",
     "loc": "Gay and Church streets, West Chester",
     "link": "https://www.mychesco.com/a/communities/west-chester/west-chester-christkindlmarkt-brings-100-vendors-to-gay-street/",
+    "img": ""
+  },
+  {
+    "title": "Santa lands by helicopter at the American Helicopter Museum Dec. 12",
+    "category": "News",
+    "summary": "SantaFest runs 10 a.m. to 1 p.m. with Santa's airborne arrival, photos, crafts and STEM activities. New this year is a family gingerbread-house contest built from cardboard and recycled materials the museum supplies.",
+    "date": "2026-11-16",
+    "loc": "1220 American Blvd., West Chester",
+    "link": "https://www.mychesco.com/a/entertainment/family-fun/santa-arrives-by-helicopter-for-west-chesters-santafest/",
     "img": ""
   },
   {
