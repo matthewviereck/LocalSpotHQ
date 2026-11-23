@@ -244,39 +244,6 @@
     "action_link": "https://thecolonialtheatre.com/events/live-music/tab-benoit-with-bonerama/"
   },
   {
-    "id": "discovered_monster_mania_oaks_20261120",
-    "type": "event",
-    "title": "Monster-Mania Con 69 – Horror Film & Memorabilia Convention",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "November 22, 2026",
-    "attributes": {
-      "category": "Festival",
-      "vibes": [
-        "Horror",
-        "Convention",
-        "Celebrity Autographs",
-        "Photo Ops",
-        "Horror Vendors",
-        "Panels",
-        "Horror Film Stars",
-        "Indoor",
-        "Oaks",
-        "3-Day Event"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://checkout.conventions.leapevent.tech/es/MONSTER_MANIA_OAKS_PA_2026"
-  },
-  {
     "id": "discovered_rachael_vilray_colonial_20261211",
     "type": "event",
     "title": "Rachael & Vilray – Live at Colonial Theatre",
@@ -679,70 +646,6 @@
     "action_link": "https://www.forgetheatre.org/"
   },
   {
-    "id": "discovered_cirque_musica_holiday_colonial_20261122",
-    "type": "event",
-    "title": "Cirque Musica Holiday Wonderland",
-    "venue_info": {
-      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "November 22, 2026",
-    "attributes": {
-      "category": "Theater",
-      "time": "5:00 PM",
-      "vibes": [
-        "Circus",
-        "Holiday Show",
-        "National Tour",
-        "Acrobatics",
-        "Live Music",
-        "Family Friendly",
-        "Indoor",
-        "Sunday Afternoon"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.cirquemusica.com/"
-  },
-  {
-    "id": "discovered_exhumed_films_terror_telethon_colonial_20261122",
-    "type": "event",
-    "title": "Exhumed Films Presents Terror Tele-Thon on 16mm – Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "November 22, 2026",
-    "attributes": {
-      "category": "Festival",
-      "time": "2:00 PM",
-      "vibes": [
-        "Horror Films",
-        "16mm",
-        "Exhumed Films",
-        "Mystery Lineup",
-        "Film Marathon",
-        "Cult Classic",
-        "Indoor",
-        "Afternoon"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/exhumed-films/exhumed-films-presents-terror-tele-thon-on-16mm/"
-  },
-  {
     "id": "discovered_jessica_lynn_christmas_colonial_20261204",
     "type": "event",
     "title": "Jessica Lynn's A Very Merry Classic Christmas",
@@ -934,7 +837,7 @@
   {
     "id": "discovered_anthony_green_east_coast_winters_20261217",
     "type": "event",
-    "title": "Anthony Green – East Coast Winters ’26 at Colonial Theatre",
+    "title": "Anthony Green – East Coast Winters '26 at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -962,7 +865,7 @@
   {
     "id": "discovered_dj_gabagool_holiday_karaoke_20261211",
     "type": "event",
-    "title": "DJ Gabagool’s Holiday Karaoke – The Water Tower Live",
+    "title": "DJ Gabagool's Holiday Karaoke – The Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live",
       "location": {
@@ -1018,7 +921,7 @@
   {
     "id": "discovered_nevertheless_nye_watchtower_20261231",
     "type": "event",
-    "title": "Never The Less – Arnold’s New Year’s Eve Party at Water Tower Live",
+    "title": "Never The Less – Arnold's New Year's Eve Party at Water Tower Live",
     "venue_info": {
       "name": "The Water Tower Live",
       "location": {
@@ -1257,38 +1160,6 @@
     "action_link": "https://www.whitmoyerevents.com/oaks-christmas-market/"
   },
   {
-    "id": "discovered_christmas_at_historic_trappe_20261120",
-    "type": "event",
-    "title": "Christmas at Historic Trappe – Pennsylvania German Holiday Season",
-    "venue_info": {
-      "name": "Historic Trappe, 301 W Main St, Trappe",
-      "location": {
-        "lat": 40.1853,
-        "lng": -75.4527
-      }
-    },
-    "raw_date_string": "November 22, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "time": "Fri & Sat 10 AM–4 PM / Sun 12–4 PM",
-      "vibes": [
-        "Historic Site",
-        "Pennsylvania German",
-        "Holiday Tours",
-        "Gift Shop",
-        "Family Friendly",
-        "Weekend",
-        "Trappe",
-        "Annual"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://historictrappe.org/events/"
-  },
-  {
     "id": "discovered_dead_band_gem_20261205",
     "type": "event",
     "title": "Dead Band – Grateful Dead Tribute at The Gem Music Hall",
@@ -1411,39 +1282,6 @@
       "image": ""
     },
     "action_link": "https://www.tickpick.com/buy-elf-themed-bingo-tickets-souljoels-at-sunnybrook-12-17-26-7pm/8094993/"
-  },
-  {
-    "id": "discovered_spring_city_mill_holiday_art_fest_20261121",
-    "type": "event",
-    "title": "Spring City Mill Studios Annual Holiday Art Festival",
-    "venue_info": {
-      "name": "Spring City Mill Studios, 20 E Bridge St, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "November 22, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "time": "11:00 AM – 4:00 PM",
-      "vibes": [
-        "Art Festival",
-        "Local Artists",
-        "Holiday Shopping",
-        "Open Studios",
-        "Free Admission",
-        "Food Drive",
-        "PACS",
-        "Spring City",
-        "Weekend"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://springcitymillstudios.com"
   },
   {
     "id": "discovered_wonderful_life_radio_play_colonial_20261210",
@@ -1782,5 +1620,67 @@
       "image": ""
     },
     "action_link": "https://www.skippack.org/events/2026-12-05/"
+  },
+  {
+    "id": "discovered_jenkins_luminary_night1_20261211",
+    "type": "event",
+    "title": "Winter Luminary Nights at Jenkins Arboretum & Gardens",
+    "venue_info": {
+      "name": "Jenkins Arboretum & Gardens, 631 Berwyn Baptist Rd, Devon",
+      "location": {
+        "lat": 40.1051,
+        "lng": -75.436
+      }
+    },
+    "raw_date_string": "December 11, 2026 5:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "time": "5:00 PM – 8:00 PM (timed entry slots: 5–6:30 PM or 6:30–8 PM)",
+      "vibes": [
+        "Holiday Lights",
+        "Outdoor",
+        "Walking Tour",
+        "Family Friendly",
+        "Per-Car Tickets",
+        "Devon",
+        "Arboretum"
+      ],
+      "price": "$25 members / $35 non-members per car"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.jenkinsarboretum.org/luminary"
+  },
+  {
+    "id": "discovered_jenkins_luminary_night2_20261212",
+    "type": "event",
+    "title": "Winter Luminary Nights at Jenkins Arboretum & Gardens",
+    "venue_info": {
+      "name": "Jenkins Arboretum & Gardens, 631 Berwyn Baptist Rd, Devon",
+      "location": {
+        "lat": 40.1051,
+        "lng": -75.436
+      }
+    },
+    "raw_date_string": "December 12, 2026 5:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "time": "5:00 PM – 8:00 PM (timed entry slots: 5–6:30 PM or 6:30–8 PM)",
+      "vibes": [
+        "Holiday Lights",
+        "Outdoor",
+        "Walking Tour",
+        "Family Friendly",
+        "Per-Car Tickets",
+        "Devon",
+        "Arboretum"
+      ],
+      "price": "$25 members / $35 non-members per car"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.jenkinsarboretum.org/luminary"
   }
 ]
