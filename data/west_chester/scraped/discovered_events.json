@@ -26,107 +26,6 @@
     "action_link": "https://yellowsprings.org/events/ceramics-national/"
   },
   {
-    "id": "discovered_brandywine_holiday_critter_sale_20261119",
-    "type": "event",
-    "title": "Holiday Critter Sale",
-    "venue_info": {
-      "name": "Brandywine Museum of Art, Chadds Ford",
-      "location": {
-        "lat": 39.8693,
-        "lng": -75.5933
-      }
-    },
-    "raw_date_string": "Nov 19 - 22, 2026",
-    "attributes": {
-      "category": "Art & Culture",
-      "vibes": [
-        "Indoor",
-        "Holiday",
-        "Shopping"
-      ],
-      "price": "$10-$35",
-      "time": "9:30 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.brandywine.org/museum/events/holiday-critter-sale"
-  },
-  {
-    "id": "discovered_sacco_vanzetti_a_tragedia_dell_20261119",
-    "type": "event",
-    "title": "Sacco & Vanzetti: A Tragedia dell'Arte (WCU Theatre)",
-    "venue_info": {
-      "name": "J.P. Adler Studio Theatre, West Chester",
-      "location": {
-        "lat": 39.9481,
-        "lng": -75.6018
-      }
-    },
-    "raw_date_string": "Nov 19 - 22, 2026",
-    "attributes": {
-      "category": "Theater",
-      "vibes": [],
-      "price": "Ticketed"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/arts-humanities/theatreDance/currentSeason.aspx"
-  },
-  {
-    "id": "discovered_santa_s_express_20261121",
-    "type": "event",
-    "title": "Santa's Express",
-    "venue_info": {
-      "name": "West Chester Railroad, West Chester",
-      "location": {
-        "lat": 39.9591,
-        "lng": -75.5967
-      }
-    },
-    "raw_date_string": "Nov 21 - 22, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Family Friendly",
-        "Holiday"
-      ],
-      "price": "",
-      "time": "11:00 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://wcrailroad.com/santas-express/"
-  },
-  {
-    "id": "discovered_sunday_supper_show_with_the_20261122",
-    "type": "event",
-    "title": "Sunday Supper Show with The Dale Melton Trio",
-    "venue_info": {
-      "name": "The Kennett Flash, Kennett Square",
-      "location": {
-        "lat": 39.847,
-        "lng": -75.713
-      }
-    },
-    "raw_date_string": "Nov 22, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "All Ages"
-      ],
-      "price": "$25-$53",
-      "time": "6:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://kennettflash.org/event/sunday-supper-show-with-the-dale-melton-trio-3/kennett-flash/kennett-square-pennsylvania/"
-  },
-  {
     "id": "discovered_santa_s_express_20261127",
     "type": "event",
     "title": "Santa's Express",
@@ -1187,33 +1086,6 @@
       "image": ""
     },
     "action_link": "https://www.helicoptermuseum.org/event-details/santafest-1"
-  },
-  {
-    "id": "discovered_clover_holiday_market_20261121",
-    "type": "event",
-    "title": "Clover Market Indoor Holiday Market",
-    "venue_info": {
-      "name": "Westtown School Athletic Center, West Chester",
-      "location": {
-        "lat": 39.9316,
-        "lng": -75.5565
-      }
-    },
-    "raw_date_string": "Nov 21 - 22, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Free",
-        "Shopping",
-        "Indoor"
-      ],
-      "price": "Free",
-      "time": "10:00 AM - 4:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.mychesco.com/a/communities/kennett-square/clover-market-brings-nearly-100-vendors-to-kennett-square/"
   },
   {
     "id": "discovered_jingle_run_20261205",
@@ -3022,32 +2894,6 @@
       "image": ""
     },
     "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1402361290"
-  },
-  {
-    "id": "discovered_wcu_wind_symphony_concert_band_20261122",
-    "type": "event",
-    "title": "WCU Wind Symphony & Concert Band: Dance Atlas",
-    "venue_info": {
-      "name": "Madeleine Wing Adler Theatre, West Chester",
-      "location": {
-        "lat": 39.9481,
-        "lng": -75.6018
-      }
-    },
-    "raw_date_string": "Nov 22, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Indoor",
-        "Free"
-      ],
-      "price": "Free",
-      "time": "7:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1399475180"
   },
   {
     "id": "discovered_wcu_statesmen_steel_band_20261130",
