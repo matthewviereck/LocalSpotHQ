@@ -1160,37 +1160,6 @@
     "action_link": "https://www.whitmoyerevents.com/oaks-christmas-market/"
   },
   {
-    "id": "discovered_dead_band_gem_20261205",
-    "type": "event",
-    "title": "Dead Band – Grateful Dead Tribute at The Gem Music Hall",
-    "venue_info": {
-      "name": "The Gem Music Hall, 66 N Main St, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "December 5, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "time": "7:00 PM",
-      "vibes": [
-        "Grateful Dead Tribute",
-        "Jam Band",
-        "Live Music",
-        "Spring City",
-        "The Gem",
-        "Speakeasy",
-        "Saturday Night"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.bandsintown.com/e/107668355"
-  },
-  {
     "id": "discovered_ursinus_sounds_season_20261204",
     "type": "event",
     "title": "Ursinus College: Wind & String Ensembles – Sounds of the Season",
@@ -1560,36 +1529,6 @@
     "action_link": "https://historictrappe.org/events/"
   },
   {
-    "id": "discovered_new_wave_nights_gem_20261206",
-    "type": "event",
-    "title": "New Wave Nights – Live at The Gem Spring City",
-    "venue_info": {
-      "name": "The Gem Music Hall, 66 N Main St, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "December 6, 2026 5:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "time": "5:00 PM",
-      "vibes": [
-        "New Wave",
-        "80s",
-        "Synth",
-        "Live Music",
-        "Spring City",
-        "Sunday Afternoon"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.bandsintown.com/v/10028694-the-gem-music-hall"
-  },
-  {
     "id": "discovered_indenhofen_holiday_open_house_20261205",
     "type": "event",
     "title": "IndenHofen Farmstead Holiday Open House – Skippack Historical Society",
@@ -1620,6 +1559,39 @@
       "image": ""
     },
     "action_link": "https://www.skippack.org/events/2026-12-05/"
+  },
+  {
+    "id": "discovered_candlelight_tour_marketplace_20261205",
+    "type": "event",
+    "title": "Phoenixville Annual Candlelight House Tour & Holiday Marketplace",
+    "venue_info": {
+      "name": "Phoenixville Area Senior Center, 153 Church St, Phoenixville",
+      "location": {
+        "lat": 40.1304,
+        "lng": -75.5155
+      }
+    },
+    "raw_date_string": "December 5, 2026 4:00 PM",
+    "attributes": {
+      "category": "Community Event",
+      "time": "4:00 PM – 8:00 PM",
+      "vibes": [
+        "Annual Tradition",
+        "Holiday",
+        "Candlelight Tour",
+        "Local Artists",
+        "Holiday Shopping",
+        "Decorated Homes",
+        "Walking Tour",
+        "Phoenixville",
+        "Family Friendly"
+      ],
+      "price": "$30–$35"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://phoenixvillechamber.org/news-events/events/phoenixville-candlelight-house-tour-and-holiday-market"
   },
   {
     "id": "discovered_jenkins_luminary_night1_20261211",
