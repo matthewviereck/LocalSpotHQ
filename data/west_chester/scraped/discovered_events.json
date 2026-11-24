@@ -3475,33 +3475,6 @@
     "action_link": "https://mycchc.org/calendar-events/exhibition-tour-whose-revolution/2026-12-19/"
   },
   {
-    "id": "discovered_wcu_brass_ensembles_concert_20261123",
-    "type": "event",
-    "title": "WCU Brass Ensembles Concert: A Veterans Tribute",
-    "venue_info": {
-      "name": "Madeleine Wing Adler Theatre, West Chester",
-      "location": {
-        "lat": 39.9481,
-        "lng": -75.6018
-      }
-    },
-    "raw_date_string": "Nov 23, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Indoor",
-        "Patriotic"
-      ],
-      "price": "Free",
-      "time": "7:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1465552568"
-  },
-  {
     "id": "discovered_wcu_percussion_ensemble_concert_20261124",
     "type": "event",
     "title": "WCU Percussion Ensemble Concert",
@@ -4104,5 +4077,30 @@
       "image": ""
     },
     "action_link": "https://kennettflash.org/event/the-kennett-flash-encore-2026/kennett-flash/kennett-square-pennsylvania/"
+  },
+  {
+    "id": "discovered_brandywine_ice_rink_20261218",
+    "type": "event",
+    "title": "Brandywine Ice Rink",
+    "venue_info": {
+      "name": "Brandywine Museum of Art, Chadds Ford",
+      "location": {
+        "lat": 39.8694,
+        "lng": -75.5929
+      }
+    },
+    "raw_date_string": "Dec 18 - Jan 18, 2027",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Outdoor",
+        "Holiday"
+      ],
+      "price": "Tickets on sale in December"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.brandywine.org/museum/events/brandywine-ice-rink"
   }
 ]
