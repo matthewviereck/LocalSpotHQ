@@ -363,35 +363,6 @@
     "action_link": "https://www.tickpick.com/buy-eleanor-kerrigan-tickets-souljoels-at-sunnybrook-11-28-26-7pm/8084379/"
   },
   {
-    "id": "discovered_die_laughing_thanksgiving_eve_rivet_20261125",
-    "type": "event",
-    "title": "Die Laughing Open Mic – Thanksgiving Eve Edition at Rivet",
-    "venue_info": {
-      "name": "Rivet: Canteen & Assembly, 238 E High St, Pottstown",
-      "location": {
-        "lat": 40.2454,
-        "lng": -75.6489
-      }
-    },
-    "raw_date_string": "November 25, 2026 7:00 PM",
-    "attributes": {
-      "category": "Comedy",
-      "vibes": [
-        "Free",
-        "Comedy Open Mic",
-        "Thanksgiving Eve",
-        "Wednesday Night",
-        "Pottstown",
-        "Die Laughing Comedy"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://visitrivet.com/"
-  },
-  {
     "id": "discovered_not_just_rock_expo_20261127",
     "type": "event",
     "title": "Not Just Rock Expo 2026 – Record, CD & Music Memorabilia Show",
@@ -845,7 +816,7 @@
         "lng": -75.513
       }
     },
-    "raw_date_string": "December 17, 2026 7:00 PM",
+    "raw_date_string": "December 17, 2026 8:00 PM",
     "attributes": {
       "category": "Live Music",
       "vibes": [
@@ -855,95 +826,12 @@
         "Solo Artist",
         "Circa Survive"
       ],
-      "price": "$100"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events"
-  },
-  {
-    "id": "discovered_dj_gabagool_holiday_karaoke_20261211",
-    "type": "event",
-    "title": "DJ Gabagool's Holiday Karaoke – The Water Tower Live",
-    "venue_info": {
-      "name": "The Water Tower Live",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "December 11, 2026 6:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Karaoke",
-        "Holiday",
-        "Free",
-        "Bar Night",
-        "Sly Fox"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.watertowerlive.com/events"
-  },
-  {
-    "id": "discovered_best_christmas_rock_show_20261219",
-    "type": "event",
-    "title": "The Best Christmas Rock Show Ever – Sly Fox & Water Tower Live",
-    "venue_info": {
-      "name": "The Water Tower Live",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "December 19, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Rock",
-        "Holiday",
-        "Free",
-        "Sly Fox",
-        "Live Band"
-      ],
-      "price": "Free"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.watertowerlive.com/events"
-  },
-  {
-    "id": "discovered_nevertheless_nye_watchtower_20261231",
-    "type": "event",
-    "title": "Never The Less – Arnold's New Year's Eve Party at Water Tower Live",
-    "venue_info": {
-      "name": "The Water Tower Live",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "December 31, 2026 7:00 PM",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "New Year's Eve",
-        "Live Music",
-        "Holiday",
-        "Arnold's"
-      ],
       "price": "Check Link"
     },
     "media": {
       "image": ""
     },
-    "action_link": "https://www.watertowerlive.com/events"
+    "action_link": "https://thecolonialtheatre.com/events/live-music"
   },
   {
     "id": "discovered_christmas_vacation_bingo_souljoels_20261202",
