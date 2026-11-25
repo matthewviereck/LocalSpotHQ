@@ -2320,33 +2320,6 @@
     "action_link": "https://www.mychesco.com/a/entertainment/arts-culture/chester-county-ballet-brings-the-nutcracker-to-malvern/"
   },
   {
-    "id": "discovered_thanksgiving_farmers_market_at_20261124",
-    "type": "event",
-    "title": "Thanksgiving Farmers Market at Eagleview",
-    "venue_info": {
-      "name": "Eagleview Town Center, Exton",
-      "location": {
-        "lat": 40.0616,
-        "lng": -75.6706
-      }
-    },
-    "raw_date_string": "Nov 24, 2026",
-    "attributes": {
-      "category": "Farmers Market",
-      "vibes": [
-        "Outdoor",
-        "Food",
-        "Free"
-      ],
-      "price": "Free",
-      "time": "3:00 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.eagleviewtowncenter.com/upcoming-events/thanksgiving-farmers-market-2"
-  },
-  {
     "id": "discovered_bookbinding_workshop_level_i_20270313",
     "type": "event",
     "title": "Bookbinding Workshop Level I",
@@ -3473,32 +3446,6 @@
       "image": ""
     },
     "action_link": "https://mycchc.org/calendar-events/exhibition-tour-whose-revolution/2026-12-19/"
-  },
-  {
-    "id": "discovered_wcu_percussion_ensemble_concert_20261124",
-    "type": "event",
-    "title": "WCU Percussion Ensemble Concert",
-    "venue_info": {
-      "name": "Madeleine Wing Adler Theatre, West Chester",
-      "location": {
-        "lat": 39.9481,
-        "lng": -75.6018
-      }
-    },
-    "raw_date_string": "Nov 24, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Free",
-        "Indoor"
-      ],
-      "price": "Free",
-      "time": "7:30 PM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://www.wcupa.edu/campusCalendar/default.aspx?event=1399997019"
   },
   {
     "id": "discovered_arc_holiday_fun_fest_20261205",
