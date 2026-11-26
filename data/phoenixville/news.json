@@ -1,5 +1,32 @@
 [
   {
+    "title": "Pottstown Dance Theatre brings The Nutcracker back Dec. 12 and 13",
+    "category": "News",
+    "summary": "The company's Repertory Ensemble, made up of its students and teachers and directed by Michelle Jones Wurtz, performs at Pottstown Area High School on Saturday, Dec. 12 at 7 p.m. and Sunday, Dec. 13 at 2 p.m. The Greater Pottstown Foundation is a partial sponsor.",
+    "date": "2026-11-26",
+    "loc": "Pottstown Area High School, 750 N. Washington St., Pottstown",
+    "link": "https://www.pottsmerc.com/2026/11/26/the-nutcracker-returns-to-pottstown-dec-12-13/",
+    "img": ""
+  },
+  {
+    "title": "Valley Forge Tourism's hunger drive is 85% of the way to its 250,000-pound goal",
+    "category": "News",
+    "summary": "The 12th annual Freedom from Hunger campaign has raised the cash equivalent of just under 213,000 pounds of food for the MontCo Anti-Hunger Network's 70-plus pantries and meal programs. The online drive runs through the holidays, with results expected in late December or early January.",
+    "date": "2026-11-26",
+    "loc": "Valley Forge / Montgomery County",
+    "link": "https://www.pottsmerc.com/2026/11/26/valley-forge-tourism-board-updates-annual-fundraising-effort/",
+    "img": ""
+  },
+  {
+    "title": "Vending machine at the Pottstown library hands out kindness cards written by kids",
+    "category": "News",
+    "summary": "The free machine at Pottstown Regional Public Library dispenses encouraging notes handwritten by elementary students from Pottstown schools, North Coventry Elementary and the Pottstown Children's Discovery Center. Organizers say close to 1,000 cards have been written, with six more classrooms at Barth and Lincoln signed on.",
+    "date": "2026-11-25",
+    "loc": "Pottstown Regional Public Library, Pottstown",
+    "link": "https://patch.com/pennsylvania/pottstown/new-pottstown-vending-machine-dispenses-kindess-cards-handwritten-children",
+    "img": ""
+  },
+  {
     "title": "Sanatoga Road closes Nov. 30 for three weeks of Route 422 bridge demolition",
     "category": "Development",
     "summary": "PennDOT will shut Sanatoga Road between High Street and Linfield Road around the clock from Nov. 30 through Dec. 21 while crews take down bridges on the $83.6 million Route 422 rebuild. Westbound 422 also loses its left lane overnight Dec. 1 to 3 between the Sanatoga and Hanover Street interchanges.",
@@ -9,12 +36,12 @@
     "img": ""
   },
   {
-    "title": "Pottstown Cluster hands out Thanksgiving groceries from next door after September fire",
+    "title": "A Christmas tree planted in a North Coventry pothole becomes a local hit",
     "category": "News",
-    "summary": "A Sept. 2 fire closed the food pantry's main building at 57 N. Franklin St., so volunteers ran Tuesday's Thanksgiving distribution from the building beside it. The Cluster helped 12,425 households last year.",
+    "summary": "An Oley couple bought a small tree and planted it in a coned-off pothole at the Lowe's entrance off Route 100 on Saturday, Nov. 21. Photos spread on Facebook, and a Pottstown man came back with lights and a bucket to prop it up.",
     "date": "2026-11-24",
-    "loc": "61 N. Franklin St., Pottstown",
-    "link": "https://www.pottsmerc.com/2026/11/24/pottstown-food-pantry-hands-out-last-minute-thanksgiving-groceries-despite-fire-that-shut-them-down-sept-2/",
+    "loc": "Lowe's off Route 100, North Coventry",
+    "link": "https://www.pottsmerc.com/2026/11/24/tree-planted-in-pothole-is-instant-internet-sensation/",
     "img": ""
   },
   {
@@ -42,42 +69,6 @@
     "date": "2026-11-23",
     "loc": "Phoenixville",
     "link": "https://www.pottsmerc.com/2026/11/23/ken-vanluvanee-ceo-of-phoenixville-based-facet-life-sciences-passes-away/",
-    "img": ""
-  },
-  {
-    "title": "Spring-Ford and Pope John Paul II volleyball both win state titles",
-    "category": "News",
-    "summary": "Spring-Ford took the last six points of a fifth set to beat Hempfield 3-2 Friday for its second straight PIAA 6A championship, and Pope John Paul II beat Oakland Catholic 3-1 Saturday for its fifth state title in a row, this time in Class 4A.",
-    "date": "2026-11-21",
-    "loc": "Spring-Ford and Pope John Paul II high schools, Royersford",
-    "link": "https://www.pottsmerc.com/2026/11/21/girls-volleyball-spring-ford-claims-2nd-straight-piaa-title-with-comeback-5-set-win-over-hempfield-in-6a-final/",
-    "img": ""
-  },
-  {
-    "title": "Spring-Ford football hands Downingtown East its first loss to reach the district final",
-    "category": "News",
-    "summary": "The Rams won 17-14 at Downingtown East in Friday's District 1 6A semifinal, seven weeks after losing badly to the same team. Spring-Ford plays at Central Bucks West on Nov. 27 in its first district final since 2012.",
-    "date": "2026-11-20",
-    "loc": "Spring-Ford High School, Royersford",
-    "link": "https://www.dailylocal.com/2026/11/20/hs-football-spring-ford-turns-the-tables-on-downingtown-east/",
-    "img": ""
-  },
-  {
-    "title": "Icelandic sauna now taking bookings near Valley Forge park",
-    "category": "Now Open",
-    "summary": "Dottir Spa, a wood-fired sauna on a trailer run by two Icelandic sibling couples, has started private guided sessions about a quarter mile from the park's southern edge, with cold plunges between rounds. A booking for up to 12 people is $1,990, and the owners will also tow the sauna to a driveway or event.",
-    "date": "2026-11-18",
-    "loc": "Near Valley Forge National Historical Park",
-    "link": "https://montco.today/2026/11/icelandic-sauna-valley-forge-dottir-spa/",
-    "img": ""
-  },
-  {
-    "title": "Phoenixville Hospital earns an A for patient safety after years of C grades",
-    "category": "News",
-    "summary": "The Leapfrog Group's fall ratings gave the Tower Health hospital its top grade, ending a run of eight straight C's dating to 2022. It scored best on error-prevention practices and on avoiding falls and blood clots, with weaker marks for post-surgery kidney injury and some infections.",
-    "date": "2026-11-18",
-    "loc": "Phoenixville Hospital, Phoenixville",
-    "link": "https://patch.com/pennsylvania/phoenixville/after-years-poor-marks-phoenixville-hospital-receives-patient-safety",
     "img": ""
   },
   {
