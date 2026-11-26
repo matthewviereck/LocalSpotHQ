@@ -568,33 +568,6 @@
     "action_link": "https://wcrailroad.com/christmas-tree-train/"
   },
   {
-    "id": "discovered_chesco_turkey_trot_20261126",
-    "type": "event",
-    "title": "Chester County Turkey Trot 5K & 2K Walk",
-    "venue_info": {
-      "name": "Downingtown West High School, Downingtown",
-      "location": {
-        "lat": 40.0094,
-        "lng": -75.7136
-      }
-    },
-    "raw_date_string": "Nov 26, 2026",
-    "attributes": {
-      "category": "Sports",
-      "vibes": [
-        "Outdoor",
-        "Family Friendly",
-        "Charity"
-      ],
-      "price": "$35 (kids $20-$25)",
-      "time": "7:40 AM"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://runsignup.com/Race/PA/Downingtown/ChesterCountyTurkeyTrot"
-  },
-  {
     "id": "discovered_ksq_holiday_village_market_20261205",
     "type": "event",
     "title": "Kennett Square Holiday Village Market",
@@ -4049,5 +4022,58 @@
       "image": ""
     },
     "action_link": "https://www.brandywine.org/museum/events/brandywine-ice-rink"
+  },
+  {
+    "id": "discovered_santa_at_the_mill_anselma_20261212",
+    "type": "event",
+    "title": "Santa at the Mill",
+    "venue_info": {
+      "name": "The Mill at Anselma, Chester Springs",
+      "location": {
+        "lat": 40.0822,
+        "lng": -75.6536
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Family-Friendly",
+        "Historic"
+      ],
+      "price": "$10 adults, $5 seniors and youth",
+      "time": "10:00 AM - 4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.mychesco.com/a/entertainment/family-fun/santa-brings-holiday-cheer-to-historic-mill-in-chester-springs/"
+  },
+  {
+    "id": "discovered_bookbinding_level_ii_sugartown_20270327",
+    "type": "event",
+    "title": "Bookbinding Workshop Level II",
+    "venue_info": {
+      "name": "Historic Sugartown, Malvern",
+      "location": {
+        "lat": 40.0423,
+        "lng": -75.5425
+      }
+    },
+    "raw_date_string": "Mar 27, 2027",
+    "attributes": {
+      "category": "Art & Culture",
+      "vibes": [
+        "Workshop",
+        "Historic"
+      ],
+      "price": "$200",
+      "time": "9:00 AM - 3:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historicsugartown.org/events/bookbinding-workshop-level-ii/2027-03-27/"
   }
 ]
