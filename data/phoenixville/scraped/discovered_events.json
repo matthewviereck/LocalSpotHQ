@@ -1542,5 +1542,37 @@
       "image": ""
     },
     "action_link": "https://www.jenkinsarboretum.org/luminary"
+  },
+  {
+    "id": "discovered_wild_lights_elmwood_zoo_20261126",
+    "type": "event",
+    "title": "Wild Lights at Elmwood Park Zoo – Holiday Lights",
+    "venue_info": {
+      "name": "Elmwood Park Zoo, 1661 Harding Blvd, Norristown",
+      "location": {
+        "lat": 40.1215,
+        "lng": -75.3399
+      }
+    },
+    "raw_date_string": "Nov 26 - Dec 30, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "time": "5:00 PM – 9:00 PM (select nights)",
+      "vibes": [
+        "Holiday Lights",
+        "Family Friendly",
+        "Outdoor",
+        "Zoo",
+        "Train Ride",
+        "Carousel",
+        "Norristown",
+        "Annual"
+      ],
+      "price": "Check Link"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://elmwoodparkzoo.org/wildlights/"
   }
 ]
