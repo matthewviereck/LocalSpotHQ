@@ -1554,7 +1554,7 @@
         "lng": -75.3399
       }
     },
-    "raw_date_string": "Nov 26 - Dec 30, 2026",
+    "raw_date_string": "Nov 27 - Dec 30, 2026",
     "attributes": {
       "category": "Kids & Family",
       "time": "5:00 PM – 9:00 PM (select nights)",
@@ -1574,5 +1574,101 @@
       "image": ""
     },
     "action_link": "https://elmwoodparkzoo.org/wildlights/"
+  },
+  {
+    "id": "discovered_weihnachtsmarkt_trappe_20261127",
+    "type": "event",
+    "title": "Historic Trappe Weihnachtsmarkt – Pennsylvania German Christmas Market",
+    "venue_info": {
+      "name": "Muhlenberg House, Historic Trappe, 201 W Main St, Trappe",
+      "location": {
+        "lat": 40.1976,
+        "lng": -75.4779
+      }
+    },
+    "raw_date_string": "Nov 27-29 & Dec 4-6, 2026",
+    "attributes": {
+      "category": "Festival",
+      "time": "Fri-Sat 10 AM–4 PM / Sun 12–4 PM",
+      "vibes": [
+        "German Christmas Market",
+        "Artisan Vendors",
+        "Redware",
+        "Handcrafted Ornaments",
+        "Pennsylvania German Tradition",
+        "Historic Site",
+        "Trappe",
+        "Holiday Shopping"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historictrappe.org/christmas/"
+  },
+  {
+    "id": "discovered_trappe_tree_lighting_20261202",
+    "type": "event",
+    "title": "Historic Trappe Tree Lighting Ceremony at Speaker's House",
+    "venue_info": {
+      "name": "Speaker's House, Historic Trappe, Trappe",
+      "location": {
+        "lat": 40.1976,
+        "lng": -75.4779
+      }
+    },
+    "raw_date_string": "December 2, 2026 6:30 PM",
+    "attributes": {
+      "category": "Community Event",
+      "time": "6:30 PM",
+      "vibes": [
+        "Free",
+        "Family Friendly",
+        "Tree Lighting",
+        "Holiday",
+        "Historic Site",
+        "Trappe",
+        "Evening Event",
+        "Annual"
+      ],
+      "price": "Free"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://historictrappe.org/christmas/"
+  },
+  {
+    "id": "discovered_valley_forge_march_in_20261219",
+    "type": "event",
+    "title": "March In to Valley Forge – 249th Anniversary Commemoration",
+    "venue_info": {
+      "name": "Valley Forge National Historical Park, 1400 N Outer Line Dr, King of Prussia",
+      "location": {
+        "lat": 40.096,
+        "lng": -75.454
+      }
+    },
+    "raw_date_string": "December 19, 2026 11:00 AM",
+    "attributes": {
+      "category": "Community Event",
+      "time": "11:00 AM – 3:00 PM",
+      "vibes": [
+        "History",
+        "Revolutionary War",
+        "Annual Tradition",
+        "Family Friendly",
+        "Outdoor",
+        "Valley Forge",
+        "NPS Ranger Programs",
+        "King of Prussia"
+      ],
+      "price": "Free (park admission may apply)"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://www.battlefields.org/events/march-valley-forge-2026"
   }
 ]
