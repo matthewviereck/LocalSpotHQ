@@ -4075,5 +4075,86 @@
       "image": ""
     },
     "action_link": "https://historicsugartown.org/events/bookbinding-workshop-level-ii/2027-03-27/"
+  },
+  {
+    "id": "discovered_cchc_lights_on_20261202",
+    "type": "event",
+    "title": "Season of Lights: Lights On!",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Dec 2, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Family Friendly",
+        "Indoor"
+      ],
+      "price": "$10 adults; $7 seniors; $5 children",
+      "time": "5:00 PM - 7:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mycchc.org/calendar-events/season-of-lights-lights-on-3/"
+  },
+  {
+    "id": "discovered_cchc_crafternoon_tin_punching_20261205",
+    "type": "event",
+    "title": "Crafternoons: Holiday Tin Punching",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Dec 5, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Family Friendly",
+        "Crafts"
+      ],
+      "price": "Free with admission",
+      "time": "12:00 PM - 4:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mycchc.org/calendar-events/saturday-crafternoons-holiday-activities-for-the-family/2026-12-05/"
+  },
+  {
+    "id": "discovered_cchc_crafternoon_cookies_lanterns_20261212",
+    "type": "event",
+    "title": "Crafternoons: Cookie Decorating & Paper Lanterns",
+    "venue_info": {
+      "name": "Chester County History Center, West Chester",
+      "location": {
+        "lat": 39.9619,
+        "lng": -75.6047
+      }
+    },
+    "raw_date_string": "Dec 12, 2026",
+    "attributes": {
+      "category": "Kids & Family",
+      "vibes": [
+        "Holiday",
+        "Family Friendly",
+        "Crafts"
+      ],
+      "price": "$10 adults; $8 seniors and children 6-18",
+      "time": "12:00 PM - 2:00 PM"
+    },
+    "media": {
+      "image": ""
+    },
+    "action_link": "https://mycchc.org/calendar-events/saturday-crafternoons-holiday-activities-for-the-family/2026-12-12/"
   }
 ]
