@@ -9,21 +9,39 @@
     "img": ""
   },
   {
+    "title": "Firebird Festival burns the bird Dec. 12 at Reservoir Park",
+    "category": "News",
+    "summary": "Phoenixville's signature winter festival returns Saturday, Dec. 12, with activities from 3 p.m. and the burning of the volunteer-built wooden phoenix at 6 p.m. Organizers expect about 10,000 people.",
+    "date": "2026-11-27",
+    "loc": "Reservoir Park, 601 Franklin Ave., Phoenixville",
+    "link": "https://patch.com/pennsylvania/phoenixville/phoenixville-firebird-festival-2026-what-know",
+    "img": ""
+  },
+  {
+    "title": "PECO work closes Route 724 in North Coventry on weekdays Dec. 1-18",
+    "category": "Development",
+    "summary": "Schuylkill Road will be shut between Hanover and Keim streets from 9 a.m. to 3 p.m. on weekdays for utility construction, with drivers detoured via Hanover Street, Route 422 and Keim Street. Local access stays open.",
+    "date": "2026-11-27",
+    "loc": "Route 724 (Schuylkill Road), North Coventry",
+    "link": "https://www.pottsmerc.com/2026/11/27/peco-to-close-route-724-in-north-coventry-starting-dec-1/",
+    "img": ""
+  },
+  {
+    "title": "Coventry Singers give a free Messiah and carols concert in Pottstown Dec. 5",
+    "category": "News",
+    "summary": "The community choir performs selections from Handel's Messiah and seasonal songs, followed by a carol sing-along, Saturday, Dec. 5 at 3 p.m. at Cedarville United Methodist Church. Admission is free, with donations welcome; a second concert follows Dec. 6 in Birdsboro.",
+    "date": "2026-11-27",
+    "loc": "Cedarville United Methodist Church, 1092 Laurelwood Rd., Pottstown",
+    "link": "https://travelswiththepost.com/2026/11/27/coventry-singers-holiday-concerts/",
+    "img": ""
+  },
+  {
     "title": "Pottstown Dance Theatre brings The Nutcracker back Dec. 12 and 13",
     "category": "News",
     "summary": "The company's Repertory Ensemble, made up of its students and teachers and directed by Michelle Jones Wurtz, performs at Pottstown Area High School on Saturday, Dec. 12 at 7 p.m. and Sunday, Dec. 13 at 2 p.m. The Greater Pottstown Foundation is a partial sponsor.",
     "date": "2026-11-26",
     "loc": "Pottstown Area High School, 750 N. Washington St., Pottstown",
     "link": "https://www.pottsmerc.com/2026/11/26/the-nutcracker-returns-to-pottstown-dec-12-13/",
-    "img": ""
-  },
-  {
-    "title": "Valley Forge Tourism's hunger drive is 85% of the way to its 250,000-pound goal",
-    "category": "News",
-    "summary": "The 12th annual Freedom from Hunger campaign has raised the cash equivalent of just under 213,000 pounds of food for the MontCo Anti-Hunger Network's 70-plus pantries and meal programs. The online drive runs through the holidays, with results expected in late December or early January.",
-    "date": "2026-11-26",
-    "loc": "Valley Forge / Montgomery County",
-    "link": "https://www.pottsmerc.com/2026/11/26/valley-forge-tourism-board-updates-annual-fundraising-effort/",
     "img": ""
   },
   {
@@ -69,24 +87,6 @@
     "date": "2026-11-23",
     "loc": "130 Bridge St., Phoenixville",
     "link": "https://patch.com/pennsylvania/phoenixville/new-honky-tonk-bar-coming-phoenixville",
-    "img": ""
-  },
-  {
-    "title": "Facet Life Sciences CEO Ken VanLuvanee dies",
-    "category": "News",
-    "summary": "The co-founder of the Phoenixville-based regulatory consulting firm, a borough resident since 2003, died Nov. 13. His wife and co-founder, Lisa Jenkins VanLuvanee, now leads the roughly 40-person company, with Tom Meyer as president.",
-    "date": "2026-11-23",
-    "loc": "Phoenixville",
-    "link": "https://www.pottsmerc.com/2026/11/23/ken-vanluvanee-ceo-of-phoenixville-based-facet-life-sciences-passes-away/",
-    "img": ""
-  },
-  {
-    "title": "La Patrona closes its Bridge Street restaurant Nov. 22",
-    "category": "Closed",
-    "summary": "The Mexican restaurant and tequila bar ends five years downtown with a final service on Sunday, Nov. 22. The owners say they are looking for a new location and hope to reopen, possibly in a different format.",
-    "date": "2026-11-17",
-    "loc": "400 Bridge St., Phoenixville",
-    "link": "https://www.mychesco.com/a/news/business/la-patrona-to-close-phoenixville-restaurant-after-five-years/",
     "img": ""
   }
 ]
