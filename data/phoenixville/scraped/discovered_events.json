@@ -2,7 +2,7 @@
   {
     "id": "discovered_prfm_november_rootdown_20261129",
     "type": "event",
-    "title": "Phoenixville Punk Rock Flea Market – November at Root Down Brewing",
+    "title": "Phoenixville Punk Rock Flea Market \u2013 November at Root Down Brewing",
     "venue_info": {
       "name": "Root Down Brewing Co., 1 N Main St, Phoenixville",
       "location": {
@@ -60,42 +60,11 @@
     "action_link": "https://souljoels.com/shop/tickets/shopsmallbusinesssaturday/"
   },
   {
-    "id": "discovered_zoey_iconic_gem_20261127",
-    "type": "event",
-    "title": "Zoey & the Iconic – Live at The Gem Spring City",
-    "venue_info": {
-      "name": "The Gem Music Hall, 66 N Main St, Spring City",
-      "location": {
-        "lat": 40.1769,
-        "lng": -75.5461
-      }
-    },
-    "raw_date_string": "Nov 27, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "time": "7:00 PM",
-      "vibes": [
-        "Singer-Songwriter",
-        "Folk",
-        "Indie",
-        "Acoustic",
-        "Live Music",
-        "Spring City",
-        "Friday Night"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://zoeynoblemusic.com/event/6563522/761909954/zoey-the-iconic-the-gem-in-spring-city"
-  },
-  {
     "id": "discovered_first_friday_december_holiday_20261204",
     "type": "event",
-    "title": "Phoenixville First Friday – Holiday Edition & Tree Lighting",
+    "title": "Phoenixville First Friday \u2013 Holiday Edition & Tree Lighting",
     "venue_info": {
-      "name": "Downtown Phoenixville – Bridge & Main Streets",
+      "name": "Downtown Phoenixville \u2013 Bridge & Main Streets",
       "location": {
         "lat": 40.1304,
         "lng": -75.5155
@@ -124,9 +93,9 @@
   {
     "id": "discovered_celtic_christmas_sunnybrook_20261220",
     "type": "event",
-    "title": "Celtic Christmas Experience – Live at SunnyBrook Ballroom",
+    "title": "Celtic Christmas Experience \u2013 Live at SunnyBrook Ballroom",
     "venue_info": {
-      "name": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
+      "name": "SoulJoel's at SunnyBrook \u2013 SunnyBrook Ballroom, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -157,7 +126,7 @@
     "type": "event",
     "title": "New Year's Eve at SunnyBrook Ballroom w/ The Uptown Band",
     "venue_info": {
-      "name": "SoulJoel's at SunnyBrook – SunnyBrook Ballroom, Pottstown",
+      "name": "SoulJoel's at SunnyBrook \u2013 SunnyBrook Ballroom, Pottstown",
       "location": {
         "lat": 40.2451,
         "lng": -75.6496
@@ -186,7 +155,7 @@
   {
     "id": "discovered_wood_brothers_colonial_20261209",
     "type": "event",
-    "title": "The Wood Brothers with Tyler Ramsey – Live at Colonial Theatre",
+    "title": "The Wood Brothers with Tyler Ramsey \u2013 Live at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -216,7 +185,7 @@
   {
     "id": "discovered_tab_benoit_bonerama_colonial_20261216",
     "type": "event",
-    "title": "Tab Benoit with Bonerama – Soul of the Swamp Tour",
+    "title": "Tab Benoit with Bonerama \u2013 Soul of the Swamp Tour",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -246,7 +215,7 @@
   {
     "id": "discovered_rachael_vilray_colonial_20261211",
     "type": "event",
-    "title": "Rachael & Vilray – Live at Colonial Theatre",
+    "title": "Rachael & Vilray \u2013 Live at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -272,37 +241,6 @@
       "image": ""
     },
     "action_link": "https://thecolonialtheatre.com/events/live-music/rachael-vilray/"
-  },
-  {
-    "id": "discovered_boat_house_row_colonial_20261127",
-    "type": "event",
-    "title": "Boat House Row – The Yacht Rock Experience at Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "November 27, 2026",
-    "attributes": {
-      "category": "Live Music",
-      "vibes": [
-        "Yacht Rock",
-        "Soft Rock",
-        "80s",
-        "Tribute",
-        "Dance",
-        "Live Band",
-        "Indoor",
-        "Friday Night"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/events/live-music/boat-house-row/"
   },
   {
     "id": "discovered_eric_mintel_colonial_20261128",
@@ -338,7 +276,7 @@
   {
     "id": "discovered_eleanor_kerrigan_souljoels_20261128",
     "type": "event",
-    "title": "Eleanor Kerrigan – Live Stand-Up Comedy at SoulJoel's",
+    "title": "Eleanor Kerrigan \u2013 Live Stand-Up Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -361,37 +299,6 @@
       "image": ""
     },
     "action_link": "https://www.tickpick.com/buy-eleanor-kerrigan-tickets-souljoels-at-sunnybrook-11-28-26-7pm/8084379/"
-  },
-  {
-    "id": "discovered_not_just_rock_expo_20261127",
-    "type": "event",
-    "title": "Not Just Rock Expo 2026 – Record, CD & Music Memorabilia Show",
-    "venue_info": {
-      "name": "Greater Philadelphia Expo Center, Hall D, Oaks",
-      "location": {
-        "lat": 40.1325,
-        "lng": -75.4699
-      }
-    },
-    "raw_date_string": "Nov 27-28, 2026",
-    "attributes": {
-      "category": "Community Event",
-      "vibes": [
-        "Vinyl Records",
-        "CDs",
-        "Music Memorabilia",
-        "Collectors",
-        "Indoor",
-        "Oaks",
-        "Thanksgiving Weekend",
-        "Weekend Show"
-      ],
-      "price": "$5 admission ($4 with printout)"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://cantonfair.net/"
   },
   {
     "id": "discovered_ana_gasteyer_sugar_booze_colonial_20261203",
@@ -427,7 +334,7 @@
   {
     "id": "discovered_forge_twas_night_20261204",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -459,7 +366,7 @@
   {
     "id": "discovered_forge_twas_night_20261205",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -491,7 +398,7 @@
   {
     "id": "discovered_forge_twas_night_20261206",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre (Matinee)",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre (Matinee)",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -523,7 +430,7 @@
   {
     "id": "discovered_forge_twas_night_20261211",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -555,7 +462,7 @@
   {
     "id": "discovered_forge_twas_night_20261212",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -587,7 +494,7 @@
   {
     "id": "discovered_forge_twas_night_20261213",
     "type": "event",
-    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas – Forge Theatre (Matinee)",
+    "title": "'Twas the Night Before Christmas + A Charlie Brown Christmas \u2013 Forge Theatre (Matinee)",
     "venue_info": {
       "name": "Forge Theatre, 241 First Avenue, Phoenixville",
       "location": {
@@ -651,7 +558,7 @@
   {
     "id": "discovered_joe_derosa_home_holidays2_colonial_20261219",
     "type": "event",
-    "title": "Joe DeRosa: Home for the Holidays 2 – Lost in Phoenixville",
+    "title": "Joe DeRosa: Home for the Holidays 2 \u2013 Lost in Phoenixville",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -680,7 +587,7 @@
   {
     "id": "discovered_philly_show_sports_cards_oaks_20261211",
     "type": "event",
-    "title": "The Philly Show – Sports Card & Memorabilia Show",
+    "title": "The Philly Show \u2013 Sports Card & Memorabilia Show",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
       "location": {
@@ -691,7 +598,7 @@
     "raw_date_string": "Dec 11-13, 2026",
     "attributes": {
       "category": "Community Event",
-      "time": "Fri 1–8 PM / Sat–Sun 9:30 AM",
+      "time": "Fri 1\u20138 PM / Sat\u2013Sun 9:30 AM",
       "vibes": [
         "Sports Cards",
         "Memorabilia",
@@ -808,7 +715,7 @@
   {
     "id": "discovered_anthony_green_east_coast_winters_20261217",
     "type": "event",
-    "title": "Anthony Green – East Coast Winters '26 at Colonial Theatre",
+    "title": "Anthony Green \u2013 East Coast Winters '26 at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre",
       "location": {
@@ -926,7 +833,7 @@
   {
     "id": "discovered_stone_cold_jackal_souljoels_20261205",
     "type": "event",
-    "title": "Stone Cold & The Jackal – Live Comedy at SoulJoel's",
+    "title": "Stone Cold & The Jackal \u2013 Live Comedy at SoulJoel's",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -956,7 +863,7 @@
   {
     "id": "discovered_oaks_gun_show_20261218",
     "type": "event",
-    "title": "Oaks Gun Show – Eagle Shows at Greater Philadelphia Expo Center",
+    "title": "Oaks Gun Show \u2013 Eagle Shows at Greater Philadelphia Expo Center",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
       "location": {
@@ -967,7 +874,7 @@
     "raw_date_string": "Dec 18-20, 2026",
     "attributes": {
       "category": "Community Event",
-      "time": "Fri 1–7 PM / Sat 9 AM–5 PM / Sun 9 AM–4 PM",
+      "time": "Fri 1\u20137 PM / Sat 9 AM\u20135 PM / Sun 9 AM\u20134 PM",
       "vibes": [
         "Gun Show",
         "Firearms",
@@ -986,7 +893,7 @@
   {
     "id": "discovered_phoenixville_christmas_spectacular_20261205",
     "type": "event",
-    "title": "The Phoenixville Christmas Spectacular – Feet First Dance at Colonial Theatre",
+    "title": "The Phoenixville Christmas Spectacular \u2013 Feet First Dance at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1017,7 +924,7 @@
   {
     "id": "discovered_oaks_christmas_market_20261205",
     "type": "event",
-    "title": "Oaks Christmas Market – 3rd Annual Holiday Gift Show",
+    "title": "Oaks Christmas Market \u2013 3rd Annual Holiday Gift Show",
     "venue_info": {
       "name": "Greater Philadelphia Expo Center, 100 Station Ave, Oaks",
       "location": {
@@ -1028,7 +935,7 @@
     "raw_date_string": "Dec 5-6, 2026",
     "attributes": {
       "category": "Festival",
-      "time": "Sat 9 AM–6 PM / Sun 9 AM–3 PM",
+      "time": "Sat 9 AM\u20136 PM / Sun 9 AM\u20133 PM",
       "vibes": [
         "Holiday Market",
         "Craft Fair",
@@ -1050,7 +957,7 @@
   {
     "id": "discovered_ursinus_sounds_season_20261204",
     "type": "event",
-    "title": "Ursinus College: Wind & String Ensembles – Sounds of the Season",
+    "title": "Ursinus College: Wind & String Ensembles \u2013 Sounds of the Season",
     "venue_info": {
       "name": "Lenfest Theater, Ursinus College, Collegeville",
       "location": {
@@ -1113,7 +1020,7 @@
   {
     "id": "discovered_elf_themed_bingo_souljoels_20261217",
     "type": "event",
-    "title": "Elf Themed Bingo Night at SoulJoel's – Thursday Showing",
+    "title": "Elf Themed Bingo Night at SoulJoel's \u2013 Thursday Showing",
     "venue_info": {
       "name": "SoulJoel's at SunnyBrook, 50 SunnyBrook Rd, Pottstown",
       "location": {
@@ -1143,7 +1050,7 @@
   {
     "id": "discovered_wonderful_life_radio_play_colonial_20261210",
     "type": "event",
-    "title": "It's a Wonderful Life: The Radio Play – The Colonial Theatre",
+    "title": "It's a Wonderful Life: The Radio Play \u2013 The Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1174,7 +1081,7 @@
   {
     "id": "discovered_start_making_sense_colonial_20261226",
     "type": "event",
-    "title": "Start Making Sense – Talking Heads Tribute at Colonial Theatre",
+    "title": "Start Making Sense \u2013 Talking Heads Tribute at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1232,39 +1139,9 @@
     "action_link": "https://thecolonialtheatre.com/events/colonial-events/new-years-eve-in-wonderland"
   },
   {
-    "id": "discovered_elf_film_colonial_20261127",
-    "type": "event",
-    "title": "Elf (2003) Holiday Film Screening – The Colonial Theatre",
-    "venue_info": {
-      "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
-      "location": {
-        "lat": 40.132,
-        "lng": -75.513
-      }
-    },
-    "raw_date_string": "Nov 27, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "vibes": [
-        "Holiday Film",
-        "Will Ferrell",
-        "Family Friendly",
-        "Classic Comedy",
-        "Thanksgiving Weekend",
-        "Indoor",
-        "Phoenixville"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://thecolonialtheatre.com/films/crowd-pleasers/elf-2/"
-  },
-  {
     "id": "discovered_muppet_christmas_carol_colonial_20261207",
     "type": "event",
-    "title": "The Muppet Christmas Carol – Holiday Film at Colonial Theatre",
+    "title": "The Muppet Christmas Carol \u2013 Holiday Film at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1295,7 +1172,7 @@
   {
     "id": "discovered_die_hard_film_colonial_20261223",
     "type": "event",
-    "title": "Die Hard – Holiday Film Series Finale at Colonial Theatre",
+    "title": "Die Hard \u2013 Holiday Film Series Finale at Colonial Theatre",
     "venue_info": {
       "name": "The Colonial Theatre, 227 Bridge St, Phoenixville",
       "location": {
@@ -1357,7 +1234,7 @@
   {
     "id": "discovered_historic_trappe_candlelight_sat_20261205",
     "type": "event",
-    "title": "Historic Trappe Candlelight Tour – Evening at the Muhlenberg House",
+    "title": "Historic Trappe Candlelight Tour \u2013 Evening at the Muhlenberg House",
     "venue_info": {
       "name": "Muhlenberg House, Historic Trappe, 201 W Main St, Trappe",
       "location": {
@@ -1368,7 +1245,7 @@
     "raw_date_string": "December 5, 2026 3:00 PM",
     "attributes": {
       "category": "Community Event",
-      "time": "3:00 PM – 9:00 PM",
+      "time": "3:00 PM \u2013 9:00 PM",
       "vibes": [
         "Historic Site",
         "Candlelight Tour",
@@ -1388,7 +1265,7 @@
   {
     "id": "discovered_historic_trappe_candlelight_sun_20261206",
     "type": "event",
-    "title": "Historic Trappe Candlelight Tour – Sunday Afternoon at the Muhlenberg House",
+    "title": "Historic Trappe Candlelight Tour \u2013 Sunday Afternoon at the Muhlenberg House",
     "venue_info": {
       "name": "Muhlenberg House, Historic Trappe, 201 W Main St, Trappe",
       "location": {
@@ -1399,7 +1276,7 @@
     "raw_date_string": "December 6, 2026 12:00 PM",
     "attributes": {
       "category": "Community Event",
-      "time": "12:00 PM – 4:00 PM",
+      "time": "12:00 PM \u2013 4:00 PM",
       "vibes": [
         "Historic Site",
         "Candlelight Tour",
@@ -1419,7 +1296,7 @@
   {
     "id": "discovered_indenhofen_holiday_open_house_20261205",
     "type": "event",
-    "title": "IndenHofen Farmstead Holiday Open House – Skippack Historical Society",
+    "title": "IndenHofen Farmstead Holiday Open House \u2013 Skippack Historical Society",
     "venue_info": {
       "name": "IndenHofen Farmstead / Skippack Historical Society, Skippack Pike & Evansburg Rd, Skippack",
       "location": {
@@ -1462,7 +1339,7 @@
     "raw_date_string": "December 5, 2026 4:00 PM",
     "attributes": {
       "category": "Community Event",
-      "time": "4:00 PM – 8:00 PM",
+      "time": "4:00 PM \u2013 8:00 PM",
       "vibes": [
         "Annual Tradition",
         "Holiday",
@@ -1474,7 +1351,7 @@
         "Phoenixville",
         "Family Friendly"
       ],
-      "price": "$30–$35"
+      "price": "$30\u2013$35"
     },
     "media": {
       "image": ""
@@ -1495,7 +1372,7 @@
     "raw_date_string": "December 11, 2026 5:00 PM",
     "attributes": {
       "category": "Community Event",
-      "time": "5:00 PM – 8:00 PM (timed entry slots: 5–6:30 PM or 6:30–8 PM)",
+      "time": "5:00 PM \u2013 8:00 PM (timed entry slots: 5\u20136:30 PM or 6:30\u20138 PM)",
       "vibes": [
         "Holiday Lights",
         "Outdoor",
@@ -1526,7 +1403,7 @@
     "raw_date_string": "December 12, 2026 5:00 PM",
     "attributes": {
       "category": "Community Event",
-      "time": "5:00 PM – 8:00 PM (timed entry slots: 5–6:30 PM or 6:30–8 PM)",
+      "time": "5:00 PM \u2013 8:00 PM (timed entry slots: 5\u20136:30 PM or 6:30\u20138 PM)",
       "vibes": [
         "Holiday Lights",
         "Outdoor",
@@ -1544,41 +1421,9 @@
     "action_link": "https://www.jenkinsarboretum.org/luminary"
   },
   {
-    "id": "discovered_wild_lights_elmwood_zoo_20261126",
-    "type": "event",
-    "title": "Wild Lights at Elmwood Park Zoo – Holiday Lights",
-    "venue_info": {
-      "name": "Elmwood Park Zoo, 1661 Harding Blvd, Norristown",
-      "location": {
-        "lat": 40.1215,
-        "lng": -75.3399
-      }
-    },
-    "raw_date_string": "Nov 27 - Dec 30, 2026",
-    "attributes": {
-      "category": "Kids & Family",
-      "time": "5:00 PM – 9:00 PM (select nights)",
-      "vibes": [
-        "Holiday Lights",
-        "Family Friendly",
-        "Outdoor",
-        "Zoo",
-        "Train Ride",
-        "Carousel",
-        "Norristown",
-        "Annual"
-      ],
-      "price": "Check Link"
-    },
-    "media": {
-      "image": ""
-    },
-    "action_link": "https://elmwoodparkzoo.org/wildlights/"
-  },
-  {
     "id": "discovered_weihnachtsmarkt_trappe_20261127",
     "type": "event",
-    "title": "Historic Trappe Weihnachtsmarkt – Pennsylvania German Christmas Market",
+    "title": "Historic Trappe Weihnachtsmarkt \u2013 Pennsylvania German Christmas Market",
     "venue_info": {
       "name": "Muhlenberg House, Historic Trappe, 201 W Main St, Trappe",
       "location": {
@@ -1589,7 +1434,7 @@
     "raw_date_string": "Nov 27-29 & Dec 4-6, 2026",
     "attributes": {
       "category": "Festival",
-      "time": "Fri-Sat 10 AM–4 PM / Sun 12–4 PM",
+      "time": "Fri-Sat 10 AM\u20134 PM / Sun 12\u20134 PM",
       "vibes": [
         "German Christmas Market",
         "Artisan Vendors",
@@ -1642,7 +1487,7 @@
   {
     "id": "discovered_valley_forge_march_in_20261219",
     "type": "event",
-    "title": "March In to Valley Forge – 249th Anniversary Commemoration",
+    "title": "March In to Valley Forge \u2013 249th Anniversary Commemoration",
     "venue_info": {
       "name": "Valley Forge National Historical Park, 1400 N Outer Line Dr, King of Prussia",
       "location": {
@@ -1653,7 +1498,7 @@
     "raw_date_string": "December 19, 2026 11:00 AM",
     "attributes": {
       "category": "Community Event",
-      "time": "11:00 AM – 3:00 PM",
+      "time": "11:00 AM \u2013 3:00 PM",
       "vibes": [
         "History",
         "Revolutionary War",
